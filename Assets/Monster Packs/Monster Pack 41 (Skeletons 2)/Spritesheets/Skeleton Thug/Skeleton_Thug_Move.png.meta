@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 1d776c9b72cd67148b2175c101f8cea0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8113760049366776714
+    second: Skeleton_Thug_Move_0
+  - first:
+      213: -8756487770412066853
+    second: Skeleton_Thug_Move_1
+  - first:
+      213: -3223521081477106997
+    second: Skeleton_Thug_Move_2
+  - first:
+      213: 3811930564228142479
+    second: Skeleton_Thug_Move_3
+  - first:
+      213: 2485866776775404937
+    second: Skeleton_Thug_Move_4
+  - first:
+      213: -6464559186283848608
+    second: Skeleton_Thug_Move_5
+  - first:
+      213: 1745479657993809324
+    second: Skeleton_Thug_Move_6
+  - first:
+      213: -4085006831199752701
+    second: Skeleton_Thug_Move_7
+  - first:
+      213: 100861211421371304
+    second: Skeleton_Thug_Move_8
+  - first:
+      213: -2784351206095418289
+    second: Skeleton_Thug_Move_9
+  - first:
+      213: 1889542056654119063
+    second: Skeleton_Thug_Move_10
+  - first:
+      213: 8724215202519525893
+    second: Skeleton_Thug_Move_11
+  - first:
+      213: -1379045301966268902
+    second: Skeleton_Thug_Move_12
+  - first:
+      213: -3613143667925060858
+    second: Skeleton_Thug_Move_13
+  - first:
+      213: 4181216523191013693
+    second: Skeleton_Thug_Move_14
+  - first:
+      213: -7039560124017230171
+    second: Skeleton_Thug_Move_15
+  - first:
+      213: 5261017302585487615
+    second: Skeleton_Thug_Move_16
+  - first:
+      213: 8811702357827730202
+    second: Skeleton_Thug_Move_17
+  - first:
+      213: 7070608389895650866
+    second: Skeleton_Thug_Move_18
+  - first:
+      213: 2478242698517257828
+    second: Skeleton_Thug_Move_19
+  - first:
+      213: -4598750208196455595
+    second: Skeleton_Thug_Move_20
+  - first:
+      213: -5478761768767056097
+    second: Skeleton_Thug_Move_21
+  - first:
+      213: -3630669204241309220
+    second: Skeleton_Thug_Move_22
+  - first:
+      213: 3153177275709418237
+    second: Skeleton_Thug_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 431
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674ccb04932266f80800000000000000
+      internalID: -8113760049366776714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 431
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7598444c4ba7680800000000000000
+      internalID: -8756487770412066853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 431
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2f294c7a0c343d0800000000000000
+      internalID: -3223521081477106997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 431
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85d545d6a2b6e430800000000000000
+      internalID: 3811930564228142479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_4
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 431
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98da4aca9a29f7220800000000000000
+      internalID: 2485866776775404937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_5
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 431
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c1018bba54946a0800000000000000
+      internalID: -6464559186283848608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 303
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad24614080393810800000000000000
+      internalID: 1745479657993809324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_7
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 303
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e6b492ee32f47c0800000000000000
+      internalID: -4085006831199752701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_8
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 303
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abe266ccb4566100800000000000000
+      internalID: 100861211421371304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 303
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c80c6845ffb59d0800000000000000
+      internalID: -2784351206095418289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_10
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 303
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790a7034d70093a10800000000000000
+      internalID: 1889542056654119063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_11
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 303
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a2d3af083a21970800000000000000
+      internalID: 8724215202519525893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_12
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 175
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a161127ba95acdce0800000000000000
+      internalID: -1379045301966268902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 175
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603ffde2af88bddc0800000000000000
+      internalID: -3613143667925060858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_14
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 175
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d315bc9564aa60a30800000000000000
+      internalID: 4181216523191013693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 175
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aeb2f84d557e4e90800000000000000
+      internalID: -7039560124017230171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_16
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 175
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0bac5dc53e20940800000000000000
+      internalID: 5261017302585487615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_17
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 175
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b3bc8ab94794a70800000000000000
+      internalID: 8811702357827730202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 47
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e70a17ed8df1260800000000000000
+      internalID: 7070608389895650866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 47
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e9350aa9c746220800000000000000
+      internalID: 2478242698517257828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 47
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55352b50d05fd20c0800000000000000
+      internalID: -4598750208196455595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_21
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 47
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1716a3f23787f3b0800000000000000
+      internalID: -5478761768767056097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_22
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 47
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd12f3848954d9dc0800000000000000
+      internalID: -3630669204241309220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Move_23
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 47
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa6e78a60652cb20800000000000000
+      internalID: 3153177275709418237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skeleton_Thug_Move_0: -8113760049366776714
+      Skeleton_Thug_Move_1: -8756487770412066853
+      Skeleton_Thug_Move_10: 1889542056654119063
+      Skeleton_Thug_Move_11: 8724215202519525893
+      Skeleton_Thug_Move_12: -1379045301966268902
+      Skeleton_Thug_Move_13: -3613143667925060858
+      Skeleton_Thug_Move_14: 4181216523191013693
+      Skeleton_Thug_Move_15: -7039560124017230171
+      Skeleton_Thug_Move_16: 5261017302585487615
+      Skeleton_Thug_Move_17: 8811702357827730202
+      Skeleton_Thug_Move_18: 7070608389895650866
+      Skeleton_Thug_Move_19: 2478242698517257828
+      Skeleton_Thug_Move_2: -3223521081477106997
+      Skeleton_Thug_Move_20: -4598750208196455595
+      Skeleton_Thug_Move_21: -5478761768767056097
+      Skeleton_Thug_Move_22: -3630669204241309220
+      Skeleton_Thug_Move_23: 3153177275709418237
+      Skeleton_Thug_Move_3: 3811930564228142479
+      Skeleton_Thug_Move_4: 2485866776775404937
+      Skeleton_Thug_Move_5: -6464559186283848608
+      Skeleton_Thug_Move_6: 1745479657993809324
+      Skeleton_Thug_Move_7: -4085006831199752701
+      Skeleton_Thug_Move_8: 100861211421371304
+      Skeleton_Thug_Move_9: -2784351206095418289
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 96bdc8fbf69b8094cba63a256a3edda5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5892957269596614239
+    second: Deer_Horned_Move_0
+  - first:
+      213: -5327658390399339057
+    second: Deer_Horned_Move_1
+  - first:
+      213: -3861025476176474587
+    second: Deer_Horned_Move_2
+  - first:
+      213: 5603501072968983005
+    second: Deer_Horned_Move_3
+  - first:
+      213: -5326308046261763316
+    second: Deer_Horned_Move_4
+  - first:
+      213: 9091759112490023614
+    second: Deer_Horned_Move_5
+  - first:
+      213: -9143873959204230618
+    second: Deer_Horned_Move_6
+  - first:
+      213: 8426083646494402765
+    second: Deer_Horned_Move_7
+  - first:
+      213: 4141168109002969343
+    second: Deer_Horned_Move_8
+  - first:
+      213: 6093433331872881949
+    second: Deer_Horned_Move_9
+  - first:
+      213: -892431198502442628
+    second: Deer_Horned_Move_10
+  - first:
+      213: -8505400595802605139
+    second: Deer_Horned_Move_11
+  - first:
+      213: 4042052514434098691
+    second: Deer_Horned_Move_12
+  - first:
+      213: 4297752811712262349
+    second: Deer_Horned_Move_13
+  - first:
+      213: -1497729357488233818
+    second: Deer_Horned_Move_14
+  - first:
+      213: 7910449508869980179
+    second: Deer_Horned_Move_15
+  - first:
+      213: -2694261064527124593
+    second: Deer_Horned_Move_16
+  - first:
+      213: -2095957949493081744
+    second: Deer_Horned_Move_17
+  - first:
+      213: 7923442181181212016
+    second: Deer_Horned_Move_18
+  - first:
+      213: 4103044095068011405
+    second: Deer_Horned_Move_19
+  - first:
+      213: 9182128658187899606
+    second: Deer_Horned_Move_20
+  - first:
+      213: 2813769981742148547
+    second: Deer_Horned_Move_21
+  - first:
+      213: -8124447544594221338
+    second: Deer_Horned_Move_22
+  - first:
+      213: -1994381252887801228
+    second: Deer_Horned_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Deer_Horned_Move_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 431
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5eacda1a6df7c150800000000000000
+      internalID: 5892957269596614239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 431
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc53e9bcbea5016b0800000000000000
+      internalID: -5327658390399339057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 431
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e84c739c1ea6ac0800000000000000
+      internalID: -3861025476176474587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_3
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 431
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd126d88982a3cd40800000000000000
+      internalID: 5603501072968983005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_4
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 431
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03434a4d072516b0800000000000000
+      internalID: -5326308046261763316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_5
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 431
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba736b1eba6c2e70800000000000000
+      internalID: 9091759112490023614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 303
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62aefa6941f6a1180800000000000000
+      internalID: -9143873959204230618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_7
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 303
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8e605ee667fe470800000000000000
+      internalID: 8426083646494402765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_8
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 303
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff05c4c4472687930800000000000000
+      internalID: 4141168109002969343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 303
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ddec8b459309450800000000000000
+      internalID: 6093433331872881949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_10
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 303
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7929c2ad827d93f0800000000000000
+      internalID: -892431198502442628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_11
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 303
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da93aceb83fb6f980800000000000000
+      internalID: -8505400595802605139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 175
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306a15e9851481830800000000000000
+      internalID: 4042052514434098691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 175
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0bb8a696fa4ab30800000000000000
+      internalID: 4297752811712262349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_14
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 175
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a26d3da51ff63be0800000000000000
+      internalID: -1497729357488233818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 175
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310cbddbaef87cd60800000000000000
+      internalID: 7910449508869980179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_16
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 175
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87e1bc26df0c9ad0800000000000000
+      internalID: -2694261064527124593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_17
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 175
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0790f4c8959a9e2e0800000000000000
+      internalID: -2095957949493081744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 47
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07507affea8b5fd60800000000000000
+      internalID: 7923442181181212016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 47
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bfa489dd0f0f830800000000000000
+      internalID: 4103044095068011405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_20
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 47
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d259399d597d6f70800000000000000
+      internalID: 9182128658187899606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_21
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 47
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbe561f3e48c0720800000000000000
+      internalID: 2813769981742148547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_22
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 47
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6ba2cd00a204f80800000000000000
+      internalID: -8124447544594221338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Move_23
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 47
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4729ce231d88254e0800000000000000
+      internalID: -1994381252887801228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Deer_Horned_Move_0: 5892957269596614239
+      Deer_Horned_Move_1: -5327658390399339057
+      Deer_Horned_Move_10: -892431198502442628
+      Deer_Horned_Move_11: -8505400595802605139
+      Deer_Horned_Move_12: 4042052514434098691
+      Deer_Horned_Move_13: 4297752811712262349
+      Deer_Horned_Move_14: -1497729357488233818
+      Deer_Horned_Move_15: 7910449508869980179
+      Deer_Horned_Move_16: -2694261064527124593
+      Deer_Horned_Move_17: -2095957949493081744
+      Deer_Horned_Move_18: 7923442181181212016
+      Deer_Horned_Move_19: 4103044095068011405
+      Deer_Horned_Move_2: -3861025476176474587
+      Deer_Horned_Move_20: 9182128658187899606
+      Deer_Horned_Move_21: 2813769981742148547
+      Deer_Horned_Move_22: -8124447544594221338
+      Deer_Horned_Move_23: -1994381252887801228
+      Deer_Horned_Move_3: 5603501072968983005
+      Deer_Horned_Move_4: -5326308046261763316
+      Deer_Horned_Move_5: 9091759112490023614
+      Deer_Horned_Move_6: -9143873959204230618
+      Deer_Horned_Move_7: 8426083646494402765
+      Deer_Horned_Move_8: 4141168109002969343
+      Deer_Horned_Move_9: 6093433331872881949
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

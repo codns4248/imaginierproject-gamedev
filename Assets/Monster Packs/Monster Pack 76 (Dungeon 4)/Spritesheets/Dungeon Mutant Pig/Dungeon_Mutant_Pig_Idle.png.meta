@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 7f3d59c0534c2cb459539bf63de15032
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3353440451210629725
+    second: Dungeon_Mutant_Pig_Idle_0
+  - first:
+      213: 8800199652778012655
+    second: Dungeon_Mutant_Pig_Idle_1
+  - first:
+      213: -623112845604108933
+    second: Dungeon_Mutant_Pig_Idle_2
+  - first:
+      213: 3072680607404463327
+    second: Dungeon_Mutant_Pig_Idle_3
+  - first:
+      213: -5233150566297040545
+    second: Dungeon_Mutant_Pig_Idle_4
+  - first:
+      213: 7499607026805111146
+    second: Dungeon_Mutant_Pig_Idle_5
+  - first:
+      213: 2911060407801341341
+    second: Dungeon_Mutant_Pig_Idle_6
+  - first:
+      213: -8751177594900424693
+    second: Dungeon_Mutant_Pig_Idle_7
+  - first:
+      213: 7328873326459888592
+    second: Dungeon_Mutant_Pig_Idle_8
+  - first:
+      213: -8132229503829711708
+    second: Dungeon_Mutant_Pig_Idle_9
+  - first:
+      213: -555937895309251530
+    second: Dungeon_Mutant_Pig_Idle_10
+  - first:
+      213: -4509299488999027047
+    second: Dungeon_Mutant_Pig_Idle_11
+  - first:
+      213: -6970538040374862717
+    second: Dungeon_Mutant_Pig_Idle_12
+  - first:
+      213: -8679704920765157001
+    second: Dungeon_Mutant_Pig_Idle_13
+  - first:
+      213: 582268951329618991
+    second: Dungeon_Mutant_Pig_Idle_14
+  - first:
+      213: -581463882990371891
+    second: Dungeon_Mutant_Pig_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dungeon_Mutant_Pig_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 431
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad2a2a4daf2671d0800000000000000
+      internalID: -3353440451210629725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Mutant_Pig_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 431
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef695075f6902a70800000000000000
+      internalID: 8800199652778012655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Mutant_Pig_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 431
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75c8c61b224a57f0800000000000000
+      internalID: -623112845604108933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Mutant_Pig_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 431
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd413909bba54aa20800000000000000
+      internalID: 3072680607404463327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Mutant_Pig_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 303
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f590bbf494d1067b0800000000000000
+      internalID: -5233150566297040545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Mutant_Pig_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 303
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69fdb33bd4f31860800000000000000
+      internalID: 7499607026805111146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Mutant_Pig_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 303
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95e3b6740a266820800000000000000
+      internalID: 2911060407801341341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Mutant_Pig_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 303
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b085a99d7529d8680800000000000000
+      internalID: -8751177594900424693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Mutant_Pig_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 175
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d32a7bd57365b560800000000000000
+      internalID: 7328873326459888592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Mutant_Pig_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 175
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a467484a54842f80800000000000000
+      internalID: -8132229503829711708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Mutant_Pig_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 175
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ce9e00e69e848f0800000000000000
+      internalID: -555937895309251530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Mutant_Pig_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 175
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ecc5c8100cb61c0800000000000000
+      internalID: -4509299488999027047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Mutant_Pig_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 47
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cdb12759ca34f90800000000000000
+      internalID: -6970538040374862717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Mutant_Pig_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 47
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77135929c5e7b8780800000000000000
+      internalID: -8679704920765157001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Mutant_Pig_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 47
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2cbdb7b682a41800800000000000000
+      internalID: 582268951329618991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Mutant_Pig_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 47
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbb3acdda93ee7f0800000000000000
+      internalID: -581463882990371891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dungeon_Mutant_Pig_Idle_0: -3353440451210629725
+      Dungeon_Mutant_Pig_Idle_1: 8800199652778012655
+      Dungeon_Mutant_Pig_Idle_10: -555937895309251530
+      Dungeon_Mutant_Pig_Idle_11: -4509299488999027047
+      Dungeon_Mutant_Pig_Idle_12: -6970538040374862717
+      Dungeon_Mutant_Pig_Idle_13: -8679704920765157001
+      Dungeon_Mutant_Pig_Idle_14: 582268951329618991
+      Dungeon_Mutant_Pig_Idle_15: -581463882990371891
+      Dungeon_Mutant_Pig_Idle_2: -623112845604108933
+      Dungeon_Mutant_Pig_Idle_3: 3072680607404463327
+      Dungeon_Mutant_Pig_Idle_4: -5233150566297040545
+      Dungeon_Mutant_Pig_Idle_5: 7499607026805111146
+      Dungeon_Mutant_Pig_Idle_6: 2911060407801341341
+      Dungeon_Mutant_Pig_Idle_7: -8751177594900424693
+      Dungeon_Mutant_Pig_Idle_8: 7328873326459888592
+      Dungeon_Mutant_Pig_Idle_9: -8132229503829711708
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

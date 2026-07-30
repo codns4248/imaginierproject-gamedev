@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 0c53b8ab08c5d27458337f85507d9bd6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3462857310979441568
+    second: Highborn_Idle_0
+  - first:
+      213: -4550501228235263949
+    second: Highborn_Idle_1
+  - first:
+      213: 4846597259003456736
+    second: Highborn_Idle_2
+  - first:
+      213: -9093026939553613713
+    second: Highborn_Idle_3
+  - first:
+      213: 5606337284353994151
+    second: Highborn_Idle_4
+  - first:
+      213: -7365936064820429581
+    second: Highborn_Idle_5
+  - first:
+      213: -7070372601724422243
+    second: Highborn_Idle_6
+  - first:
+      213: 65459450683868494
+    second: Highborn_Idle_7
+  - first:
+      213: 3490988193029426455
+    second: Highborn_Idle_8
+  - first:
+      213: 2254406668500508611
+    second: Highborn_Idle_9
+  - first:
+      213: -7797004416219718068
+    second: Highborn_Idle_10
+  - first:
+      213: -1576413581023730674
+    second: Highborn_Idle_11
+  - first:
+      213: -1131675537603770634
+    second: Highborn_Idle_12
+  - first:
+      213: -3140829998244880016
+    second: Highborn_Idle_13
+  - first:
+      213: 6003995220251838419
+    second: Highborn_Idle_14
+  - first:
+      213: -7303968142517016460
+    second: Highborn_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Highborn_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 431
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06cb4376f9571ffc0800000000000000
+      internalID: -3462857310979441568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 431
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330fe051e3f59d0c0800000000000000
+      internalID: -4550501228235263949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 431
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec68485782924340800000000000000
+      internalID: 4846597259003456736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 431
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6879d6ec241fc180800000000000000
+      internalID: -9093026939553613713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 303
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ada2f47e06bdcd40800000000000000
+      internalID: 5606337284353994151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 303
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fcb32aec20f6c990800000000000000
+      internalID: -7365936064820429581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 303
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97bf84449df0ed90800000000000000
+      internalID: -7070372601724422243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 303
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e454439060f88e000800000000000000
+      internalID: 65459450683868494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 175
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d0a98f34b727030800000000000000
+      internalID: 3490988193029426455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 175
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf9e3fabe2494f10800000000000000
+      internalID: 2254406668500508611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 175
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e52133bc97bc390800000000000000
+      internalID: -7797004416219718068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 175
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04aaf343347f1ae0800000000000000
+      internalID: -1576413581023730674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 47
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6c02c281b7b40f0800000000000000
+      internalID: -1131675537603770634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 47
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07129b6e1c78964d0800000000000000
+      internalID: -3140829998244880016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 47
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d70140a7d9725350800000000000000
+      internalID: 6003995220251838419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 47
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478e0862ca713aa90800000000000000
+      internalID: -7303968142517016460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Highborn_Idle_0: -3462857310979441568
+      Highborn_Idle_1: -4550501228235263949
+      Highborn_Idle_10: -7797004416219718068
+      Highborn_Idle_11: -1576413581023730674
+      Highborn_Idle_12: -1131675537603770634
+      Highborn_Idle_13: -3140829998244880016
+      Highborn_Idle_14: 6003995220251838419
+      Highborn_Idle_15: -7303968142517016460
+      Highborn_Idle_2: 4846597259003456736
+      Highborn_Idle_3: -9093026939553613713
+      Highborn_Idle_4: 5606337284353994151
+      Highborn_Idle_5: -7365936064820429581
+      Highborn_Idle_6: -7070372601724422243
+      Highborn_Idle_7: 65459450683868494
+      Highborn_Idle_8: 3490988193029426455
+      Highborn_Idle_9: 2254406668500508611
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

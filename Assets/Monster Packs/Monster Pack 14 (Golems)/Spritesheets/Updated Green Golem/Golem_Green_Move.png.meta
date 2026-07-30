@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: ae37e400dc99c904bb16600ee1990adb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4030513803997255018
+    second: Golem_Green_Move_0
+  - first:
+      213: 1716824576248672357
+    second: Golem_Green_Move_1
+  - first:
+      213: -1932513145420020296
+    second: Golem_Green_Move_2
+  - first:
+      213: -4659780518191484960
+    second: Golem_Green_Move_3
+  - first:
+      213: 4836362852405525154
+    second: Golem_Green_Move_4
+  - first:
+      213: 4560373598861228409
+    second: Golem_Green_Move_5
+  - first:
+      213: 9096327026862478074
+    second: Golem_Green_Move_6
+  - first:
+      213: 1455751886228188227
+    second: Golem_Green_Move_7
+  - first:
+      213: -633997306600585870
+    second: Golem_Green_Move_8
+  - first:
+      213: 5997366789832975511
+    second: Golem_Green_Move_9
+  - first:
+      213: 4371684817831999126
+    second: Golem_Green_Move_10
+  - first:
+      213: 821140376113819058
+    second: Golem_Green_Move_11
+  - first:
+      213: 5305758524247597393
+    second: Golem_Green_Move_12
+  - first:
+      213: -1475929535751026526
+    second: Golem_Green_Move_13
+  - first:
+      213: 6372909864744879765
+    second: Golem_Green_Move_14
+  - first:
+      213: 3294603022530635399
+    second: Golem_Green_Move_15
+  - first:
+      213: 6325157806910431150
+    second: Golem_Green_Move_16
+  - first:
+      213: 1410800662687646669
+    second: Golem_Green_Move_17
+  - first:
+      213: -130490764593501548
+    second: Golem_Green_Move_18
+  - first:
+      213: -5016907784552125771
+    second: Golem_Green_Move_19
+  - first:
+      213: -3713276445316273397
+    second: Golem_Green_Move_20
+  - first:
+      213: 3676139363162350987
+    second: Golem_Green_Move_21
+  - first:
+      213: -965787324973763974
+    second: Golem_Green_Move_22
+  - first:
+      213: 1999508608311731895
+    second: Golem_Green_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Golem_Green_Move_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 429
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a6f62cc0db018c0800000000000000
+      internalID: -4030513803997255018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 430
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56076f02bd263d710800000000000000
+      internalID: 1716824576248672357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 431
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5877b78855e25e0800000000000000
+      internalID: -1932513145420020296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_3
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 429
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef29e9ae42255fb0800000000000000
+      internalID: -4659780518191484960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_4
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 430
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aab68ed3663e1340800000000000000
+      internalID: 4836362852405525154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_5
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 431
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979713350a3b94f30800000000000000
+      internalID: 4560373598861228409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 303
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af25cec8c35ac3e70800000000000000
+      internalID: 9096327026862478074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_7
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 303
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c6cbba0aed33410800000000000000
+      internalID: 1455751886228188227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_8
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 303
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27584870fc69337f0800000000000000
+      internalID: -633997306600585870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_9
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 303
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79428b7e15dea3350800000000000000
+      internalID: 5997366789832975511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_10
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 303
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69638dcfd285bac30800000000000000
+      internalID: 4371684817831999126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_11
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 303
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bdaefc42d6456b00800000000000000
+      internalID: 821140376113819058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 175
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15167c54447d1a940800000000000000
+      internalID: 5305758524247597393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 175
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a88d0438e1748be0800000000000000
+      internalID: -1475929535751026526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 175
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59683b1c1cf117850800000000000000
+      internalID: 6372909864744879765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_15
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 175
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786edd15ef7c8bd20800000000000000
+      internalID: 3294603022530635399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_16
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 175
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf5f25638977c750800000000000000
+      internalID: 6325157806910431150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_17
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 175
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3026c5abb249310800000000000000
+      internalID: 1410800662687646669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 46
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a6fe94757603ef0800000000000000
+      internalID: -130490764593501548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_19
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 46
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bae0ee53fc506ab0800000000000000
+      internalID: -5016907784552125771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_20
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 47
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b291c2fbac77cc0800000000000000
+      internalID: -3713276445316273397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_21
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 46
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b856f161645440330800000000000000
+      internalID: 3676139363162350987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_22
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 46
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a723d5e7b85d892f0800000000000000
+      internalID: -965787324973763974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Green_Move_23
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 47
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6a1c34c7eafbb10800000000000000
+      internalID: 1999508608311731895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Golem_Green_Move_0: -4030513803997255018
+      Golem_Green_Move_1: 1716824576248672357
+      Golem_Green_Move_10: 4371684817831999126
+      Golem_Green_Move_11: 821140376113819058
+      Golem_Green_Move_12: 5305758524247597393
+      Golem_Green_Move_13: -1475929535751026526
+      Golem_Green_Move_14: 6372909864744879765
+      Golem_Green_Move_15: 3294603022530635399
+      Golem_Green_Move_16: 6325157806910431150
+      Golem_Green_Move_17: 1410800662687646669
+      Golem_Green_Move_18: -130490764593501548
+      Golem_Green_Move_19: -5016907784552125771
+      Golem_Green_Move_2: -1932513145420020296
+      Golem_Green_Move_20: -3713276445316273397
+      Golem_Green_Move_21: 3676139363162350987
+      Golem_Green_Move_22: -965787324973763974
+      Golem_Green_Move_23: 1999508608311731895
+      Golem_Green_Move_3: -4659780518191484960
+      Golem_Green_Move_4: 4836362852405525154
+      Golem_Green_Move_5: 4560373598861228409
+      Golem_Green_Move_6: 9096327026862478074
+      Golem_Green_Move_7: 1455751886228188227
+      Golem_Green_Move_8: -633997306600585870
+      Golem_Green_Move_9: 5997366789832975511
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: abb88d37390541c4095f87b381cdd0f4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4823259330675457771
+    second: Armored_Idle_0
+  - first:
+      213: -6528446471947543637
+    second: Armored_Idle_1
+  - first:
+      213: 3810618588908296043
+    second: Armored_Idle_2
+  - first:
+      213: 3887555509453860151
+    second: Armored_Idle_3
+  - first:
+      213: -5538422450540470653
+    second: Armored_Idle_4
+  - first:
+      213: -9110290891585721864
+    second: Armored_Idle_5
+  - first:
+      213: -7123023705859580945
+    second: Armored_Idle_6
+  - first:
+      213: 3718099423500182433
+    second: Armored_Idle_7
+  - first:
+      213: -2396725163970651665
+    second: Armored_Idle_8
+  - first:
+      213: 4029544202079415754
+    second: Armored_Idle_9
+  - first:
+      213: -7422169339716580749
+    second: Armored_Idle_10
+  - first:
+      213: -1138306267027160607
+    second: Armored_Idle_11
+  - first:
+      213: 5467037193717704125
+    second: Armored_Idle_12
+  - first:
+      213: -7159956228663301570
+    second: Armored_Idle_13
+  - first:
+      213: -2696960873806332772
+    second: Armored_Idle_14
+  - first:
+      213: -2541420402412686453
+    second: Armored_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armored_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 319
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beebf787ec8afe240800000000000000
+      internalID: 4823259330675457771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 319
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab1a60e58c4665a0800000000000000
+      internalID: -6528446471947543637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 319
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b671166ca6902e430800000000000000
+      internalID: 3810618588908296043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 319
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d2c91832f53f530800000000000000
+      internalID: 3887555509453860151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 223
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e9c7300229323b0800000000000000
+      internalID: -5538422450540470653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 223
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f96e86d3beb19180800000000000000
+      internalID: -9110290891585721864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 223
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb9d8dcdafe52d90800000000000000
+      internalID: -7123023705859580945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 223
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a32051f9b7599330800000000000000
+      internalID: 3718099423500182433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 127
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe91a49692f1dbed0800000000000000
+      internalID: -2396725163970651665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 127
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdada33a11dbe730800000000000000
+      internalID: 4029544202079415754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 127
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ac5635f482ff890800000000000000
+      internalID: -7422169339716580749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 127
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1ce3c2b7ce330f0800000000000000
+      internalID: -1138306267027160607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 31
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db56461bc51dedb40800000000000000
+      internalID: 5467037193717704125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 31
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3aad2fbeb9b2ac90800000000000000
+      internalID: -7159956228663301570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 31
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c75a7df58729ad0800000000000000
+      internalID: -2696960873806332772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 31
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83f249eb9f0bbcd0800000000000000
+      internalID: -2541420402412686453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Armored_Idle_0: 4823259330675457771
+      Armored_Idle_1: -6528446471947543637
+      Armored_Idle_10: -7422169339716580749
+      Armored_Idle_11: -1138306267027160607
+      Armored_Idle_12: 5467037193717704125
+      Armored_Idle_13: -7159956228663301570
+      Armored_Idle_14: -2696960873806332772
+      Armored_Idle_15: -2541420402412686453
+      Armored_Idle_2: 3810618588908296043
+      Armored_Idle_3: 3887555509453860151
+      Armored_Idle_4: -5538422450540470653
+      Armored_Idle_5: -9110290891585721864
+      Armored_Idle_6: -7123023705859580945
+      Armored_Idle_7: 3718099423500182433
+      Armored_Idle_8: -2396725163970651665
+      Armored_Idle_9: 4029544202079415754
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

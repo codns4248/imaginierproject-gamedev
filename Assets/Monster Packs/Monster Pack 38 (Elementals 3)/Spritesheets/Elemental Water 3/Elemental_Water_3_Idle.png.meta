@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 5686ee9c4dd868c4c9c52339a95103be
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7234960955670379561
+    second: Elemental_Water_3_Idle_0
+  - first:
+      213: -8764704258497446466
+    second: Elemental_Water_3_Idle_1
+  - first:
+      213: 4451487460529744573
+    second: Elemental_Water_3_Idle_2
+  - first:
+      213: -115709754486870742
+    second: Elemental_Water_3_Idle_3
+  - first:
+      213: -4837375398649478661
+    second: Elemental_Water_3_Idle_4
+  - first:
+      213: 949462427730483440
+    second: Elemental_Water_3_Idle_5
+  - first:
+      213: -5752850189757571657
+    second: Elemental_Water_3_Idle_6
+  - first:
+      213: -5847073587544674192
+    second: Elemental_Water_3_Idle_7
+  - first:
+      213: 1228950038987045319
+    second: Elemental_Water_3_Idle_8
+  - first:
+      213: -469668155993153353
+    second: Elemental_Water_3_Idle_9
+  - first:
+      213: 85779783143463764
+    second: Elemental_Water_3_Idle_10
+  - first:
+      213: -2578219124705004110
+    second: Elemental_Water_3_Idle_11
+  - first:
+      213: -4184176708508692163
+    second: Elemental_Water_3_Idle_12
+  - first:
+      213: 6562372277299413438
+    second: Elemental_Water_3_Idle_13
+  - first:
+      213: 6046760754178850015
+    second: Elemental_Water_3_Idle_14
+  - first:
+      213: -9171149062006817785
+    second: Elemental_Water_3_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elemental_Water_3_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 436
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d34271e751489b90800000000000000
+      internalID: -7234960955670379561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_3_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 436
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebdf7ee0ae38d5680800000000000000
+      internalID: -8764704258497446466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_3_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 435
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba2bf6a24cd6cd30800000000000000
+      internalID: 4451487460529744573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_3_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 435
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d23c2679ae46ef0800000000000000
+      internalID: -115709754486870742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_3_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 308
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1c84654b03edcb0800000000000000
+      internalID: -4837375398649478661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_3_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 308
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8947c2c0b2d2d00800000000000000
+      internalID: 949462427730483440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_3_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 307
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd16797b35c920b0800000000000000
+      internalID: -5752850189757571657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_3_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 307
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070b4de1d850bdea0800000000000000
+      internalID: -5847073587544674192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_3_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 180
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c976889c8b1e0110800000000000000
+      internalID: 1228950038987045319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_3_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 180
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b027bfec476b79f0800000000000000
+      internalID: -469668155993153353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_3_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 179
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b1d2f1240c03100800000000000000
+      internalID: 85779783143463764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_3_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 179
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5f6d6bd53583cd0800000000000000
+      internalID: -2578219124705004110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_3_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 52
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3150ebc371dee5c0800000000000000
+      internalID: -4184176708508692163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_3_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 52
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb18d4831da321b50800000000000000
+      internalID: 6562372277299413438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_3_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 51
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc7a9a6ed86ae350800000000000000
+      internalID: 6046760754178850015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_3_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 51
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c3de8d48889b080800000000000000
+      internalID: -9171149062006817785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Elemental_Water_3_Idle_0: -7234960955670379561
+      Elemental_Water_3_Idle_1: -8764704258497446466
+      Elemental_Water_3_Idle_10: 85779783143463764
+      Elemental_Water_3_Idle_11: -2578219124705004110
+      Elemental_Water_3_Idle_12: -4184176708508692163
+      Elemental_Water_3_Idle_13: 6562372277299413438
+      Elemental_Water_3_Idle_14: 6046760754178850015
+      Elemental_Water_3_Idle_15: -9171149062006817785
+      Elemental_Water_3_Idle_2: 4451487460529744573
+      Elemental_Water_3_Idle_3: -115709754486870742
+      Elemental_Water_3_Idle_4: -4837375398649478661
+      Elemental_Water_3_Idle_5: 949462427730483440
+      Elemental_Water_3_Idle_6: -5752850189757571657
+      Elemental_Water_3_Idle_7: -5847073587544674192
+      Elemental_Water_3_Idle_8: 1228950038987045319
+      Elemental_Water_3_Idle_9: -469668155993153353
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

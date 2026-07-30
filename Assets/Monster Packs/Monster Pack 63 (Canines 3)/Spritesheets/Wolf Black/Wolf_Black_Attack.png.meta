@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: a3bc2e0c2c3de17428d43b4cee80066e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3975509645942264873
+    second: Wolf_Black_Attack_0
+  - first:
+      213: -7319334135448587726
+    second: Wolf_Black_Attack_1
+  - first:
+      213: -6967372128040880842
+    second: Wolf_Black_Attack_2
+  - first:
+      213: 8627972994615059178
+    second: Wolf_Black_Attack_3
+  - first:
+      213: -2736469221640617216
+    second: Wolf_Black_Attack_4
+  - first:
+      213: -185130688055094989
+    second: Wolf_Black_Attack_5
+  - first:
+      213: -2807795221326564508
+    second: Wolf_Black_Attack_6
+  - first:
+      213: -3547817045886232420
+    second: Wolf_Black_Attack_7
+  - first:
+      213: 4769162920344563151
+    second: Wolf_Black_Attack_8
+  - first:
+      213: 6511545132784939450
+    second: Wolf_Black_Attack_9
+  - first:
+      213: 4798152543643765489
+    second: Wolf_Black_Attack_10
+  - first:
+      213: 3249142590407567759
+    second: Wolf_Black_Attack_11
+  - first:
+      213: 2190250646736503490
+    second: Wolf_Black_Attack_12
+  - first:
+      213: -3367478741962611016
+    second: Wolf_Black_Attack_13
+  - first:
+      213: 9113917532037469295
+    second: Wolf_Black_Attack_14
+  - first:
+      213: 7289962328855733182
+    second: Wolf_Black_Attack_15
+  - first:
+      213: 6506503318503199747
+    second: Wolf_Black_Attack_16
+  - first:
+      213: -1578595785484915093
+    second: Wolf_Black_Attack_17
+  - first:
+      213: -1464105295895487205
+    second: Wolf_Black_Attack_18
+  - first:
+      213: -5511804082414840236
+    second: Wolf_Black_Attack_19
+  - first:
+      213: -5508764058518534595
+    second: Wolf_Black_Attack_20
+  - first:
+      213: -8302376664989303677
+    second: Wolf_Black_Attack_21
+  - first:
+      213: -6656349790315558566
+    second: Wolf_Black_Attack_22
+  - first:
+      213: 3434420563213776341
+    second: Wolf_Black_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 435
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9241787b5f8db2730800000000000000
+      internalID: 3975509645942264873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 433
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232323022608c6a90800000000000000
+      internalID: -7319334135448587726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 427
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6357a2ad6fbee4f90800000000000000
+      internalID: -6967372128040880842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 426
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2a1b3c9b7bcb770800000000000000
+      internalID: 8627972994615059178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 426
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0034259cdbb160ad0800000000000000
+      internalID: -2736469221640617216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 428
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331d37dbe984e6df0800000000000000
+      internalID: -185130688055094989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 303
+        width: 73
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4637ace5f15b809d0800000000000000
+      internalID: -2807795221326564508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 303
+        width: 72
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9810e3a13f93cec0800000000000000
+      internalID: -3547817045886232420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 304
+        width: 71
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd2a1f68687f2240800000000000000
+      internalID: 4769162920344563151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 303
+        width: 74
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1f1927cc7ad5a50800000000000000
+      internalID: 6511545132784939450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 303
+        width: 71
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa06061156769240800000000000000
+      internalID: 4798152543643765489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 303
+        width: 68
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89e5d5a8f5471d20800000000000000
+      internalID: 3249142590407567759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 175
+        width: 73
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c28cc7db55556e10800000000000000
+      internalID: 2190250646736503490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 175
+        width: 72
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6a3a40def4441d0800000000000000
+      internalID: -3367478741962611016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 176
+        width: 71
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f645c4135b32b7e70800000000000000
+      internalID: 9113917532037469295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 175
+        width: 74
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb3ec6d3d162b2560800000000000000
+      internalID: 7289962328855733182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 175
+        width: 71
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30498459b4ebb4a50800000000000000
+      internalID: 6506503318503199747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 175
+        width: 68
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e2e323f73b71ae0800000000000000
+      internalID: -1578595785484915093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 47
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d91649df37eabe0800000000000000
+      internalID: -1464105295895487205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 49
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4569d1cc3632283b0800000000000000
+      internalID: -5511804082414840236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 55
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3640948640fc83b0800000000000000
+      internalID: -5508764058518534595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 50
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cf1db396808cc80800000000000000
+      internalID: -8302376664989303677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 46
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59ce7fe125ef93a0800000000000000
+      internalID: -6656349790315558566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 47
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d577af4e4389af20800000000000000
+      internalID: 3434420563213776341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wolf_Black_Attack_0: 3975509645942264873
+      Wolf_Black_Attack_1: -7319334135448587726
+      Wolf_Black_Attack_10: 4798152543643765489
+      Wolf_Black_Attack_11: 3249142590407567759
+      Wolf_Black_Attack_12: 2190250646736503490
+      Wolf_Black_Attack_13: -3367478741962611016
+      Wolf_Black_Attack_14: 9113917532037469295
+      Wolf_Black_Attack_15: 7289962328855733182
+      Wolf_Black_Attack_16: 6506503318503199747
+      Wolf_Black_Attack_17: -1578595785484915093
+      Wolf_Black_Attack_18: -1464105295895487205
+      Wolf_Black_Attack_19: -5511804082414840236
+      Wolf_Black_Attack_2: -6967372128040880842
+      Wolf_Black_Attack_20: -5508764058518534595
+      Wolf_Black_Attack_21: -8302376664989303677
+      Wolf_Black_Attack_22: -6656349790315558566
+      Wolf_Black_Attack_23: 3434420563213776341
+      Wolf_Black_Attack_3: 8627972994615059178
+      Wolf_Black_Attack_4: -2736469221640617216
+      Wolf_Black_Attack_5: -185130688055094989
+      Wolf_Black_Attack_6: -2807795221326564508
+      Wolf_Black_Attack_7: -3547817045886232420
+      Wolf_Black_Attack_8: 4769162920344563151
+      Wolf_Black_Attack_9: 6511545132784939450
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

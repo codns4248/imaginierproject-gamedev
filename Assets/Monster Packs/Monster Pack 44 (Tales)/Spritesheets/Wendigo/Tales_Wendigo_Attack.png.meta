@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 640a9e0db697c3945bb31faecc329358
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8403636994667366852
+    second: Tales_Wendigo_Attack_0
+  - first:
+      213: -1473898478049932948
+    second: Tales_Wendigo_Attack_1
+  - first:
+      213: 5300883058001837856
+    second: Tales_Wendigo_Attack_2
+  - first:
+      213: 2983505571855455691
+    second: Tales_Wendigo_Attack_3
+  - first:
+      213: 5333781286422917655
+    second: Tales_Wendigo_Attack_4
+  - first:
+      213: 2242811185150843430
+    second: Tales_Wendigo_Attack_5
+  - first:
+      213: -4479607092651007164
+    second: Tales_Wendigo_Attack_6
+  - first:
+      213: -8468317238874994635
+    second: Tales_Wendigo_Attack_7
+  - first:
+      213: -3352593243583702825
+    second: Tales_Wendigo_Attack_8
+  - first:
+      213: -5964264055581646819
+    second: Tales_Wendigo_Attack_9
+  - first:
+      213: 9042437266886288999
+    second: Tales_Wendigo_Attack_10
+  - first:
+      213: 3001299753318755363
+    second: Tales_Wendigo_Attack_11
+  - first:
+      213: 3717126094144883601
+    second: Tales_Wendigo_Attack_12
+  - first:
+      213: 3539612643723330910
+    second: Tales_Wendigo_Attack_13
+  - first:
+      213: 2021368384681128949
+    second: Tales_Wendigo_Attack_14
+  - first:
+      213: -3154502766146220046
+    second: Tales_Wendigo_Attack_15
+  - first:
+      213: -1793959647360043091
+    second: Tales_Wendigo_Attack_16
+  - first:
+      213: 5885052975043306383
+    second: Tales_Wendigo_Attack_17
+  - first:
+      213: 2846145033103025334
+    second: Tales_Wendigo_Attack_18
+  - first:
+      213: 5582798056603549655
+    second: Tales_Wendigo_Attack_19
+  - first:
+      213: -5641028037037164171
+    second: Tales_Wendigo_Attack_20
+  - first:
+      213: 483850987101927963
+    second: Tales_Wendigo_Attack_21
+  - first:
+      213: 3524424165090455004
+    second: Tales_Wendigo_Attack_22
+  - first:
+      213: -8678716564228057678
+    second: Tales_Wendigo_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 431
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9ca708257bf9470800000000000000
+      internalID: 8403636994667366852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 431
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6948dca429ab8be0800000000000000
+      internalID: -1473898478049932948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 431
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ff5145e05809940800000000000000
+      internalID: 5300883058001837856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 431
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5d7d3a28a876920800000000000000
+      internalID: 2983505571855455691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 431
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7123dd602d5650a40800000000000000
+      internalID: 5333781286422917655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 431
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a5035d3e0102f10800000000000000
+      internalID: 2242811185150843430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 303
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443673d451d35d1c0800000000000000
+      internalID: -4479607092651007164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 303
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5380a8b965e7a7a80800000000000000
+      internalID: -8468317238874994635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 303
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d891df25323971d0800000000000000
+      internalID: -3352593243583702825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 303
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10ec64017daa3da0800000000000000
+      internalID: -5964264055581646819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 303
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766e28c09c03d7d70800000000000000
+      internalID: 9042437266886288999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 303
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c280d5932c6a920800000000000000
+      internalID: 3001299753318755363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 175
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b47da0d72e59330800000000000000
+      internalID: 3717126094144883601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 175
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e554c9f12fa3f1130800000000000000
+      internalID: 3539612643723330910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 175
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3bf1116d75d0c10800000000000000
+      internalID: 2021368384681128949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 175
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff0edc8274f834d0800000000000000
+      internalID: -3154502766146220046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 175
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da738bd94339a17e0800000000000000
+      internalID: -1793959647360043091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 175
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83efcd1088eba150800000000000000
+      internalID: 5885052975043306383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 47
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4295df3d98f7720800000000000000
+      internalID: 2846145033103025334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 47
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df7898e0451a7d40800000000000000
+      internalID: 5582798056603549655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 47
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579716443ea07b1b0800000000000000
+      internalID: -5641028037037164171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 47
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1abe62c8ebf6b600800000000000000
+      internalID: 483850987101927963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 47
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdde40eda1549e030800000000000000
+      internalID: 3524424165090455004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 47
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b553e244410f8780800000000000000
+      internalID: -8678716564228057678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tales_Wendigo_Attack_0: 8403636994667366852
+      Tales_Wendigo_Attack_1: -1473898478049932948
+      Tales_Wendigo_Attack_10: 9042437266886288999
+      Tales_Wendigo_Attack_11: 3001299753318755363
+      Tales_Wendigo_Attack_12: 3717126094144883601
+      Tales_Wendigo_Attack_13: 3539612643723330910
+      Tales_Wendigo_Attack_14: 2021368384681128949
+      Tales_Wendigo_Attack_15: -3154502766146220046
+      Tales_Wendigo_Attack_16: -1793959647360043091
+      Tales_Wendigo_Attack_17: 5885052975043306383
+      Tales_Wendigo_Attack_18: 2846145033103025334
+      Tales_Wendigo_Attack_19: 5582798056603549655
+      Tales_Wendigo_Attack_2: 5300883058001837856
+      Tales_Wendigo_Attack_20: -5641028037037164171
+      Tales_Wendigo_Attack_21: 483850987101927963
+      Tales_Wendigo_Attack_22: 3524424165090455004
+      Tales_Wendigo_Attack_23: -8678716564228057678
+      Tales_Wendigo_Attack_3: 2983505571855455691
+      Tales_Wendigo_Attack_4: 5333781286422917655
+      Tales_Wendigo_Attack_5: 2242811185150843430
+      Tales_Wendigo_Attack_6: -4479607092651007164
+      Tales_Wendigo_Attack_7: -8468317238874994635
+      Tales_Wendigo_Attack_8: -3352593243583702825
+      Tales_Wendigo_Attack_9: -5964264055581646819
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

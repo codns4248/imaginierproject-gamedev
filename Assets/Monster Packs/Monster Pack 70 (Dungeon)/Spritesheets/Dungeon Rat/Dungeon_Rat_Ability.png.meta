@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: a914fff9759c2c147bf9d668429c7934
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 295150085986231012
+    second: Dungeon_Rat_Ability_0
+  - first:
+      213: -5239210721405189928
+    second: Dungeon_Rat_Ability_1
+  - first:
+      213: -2968815124454856586
+    second: Dungeon_Rat_Ability_2
+  - first:
+      213: 5896264656104035393
+    second: Dungeon_Rat_Ability_3
+  - first:
+      213: 2740306035836162023
+    second: Dungeon_Rat_Ability_4
+  - first:
+      213: 390290252943895879
+    second: Dungeon_Rat_Ability_5
+  - first:
+      213: 68230332580790380
+    second: Dungeon_Rat_Ability_6
+  - first:
+      213: 3479499114701355988
+    second: Dungeon_Rat_Ability_7
+  - first:
+      213: 2003484604737931644
+    second: Dungeon_Rat_Ability_8
+  - first:
+      213: 3013900714364756299
+    second: Dungeon_Rat_Ability_9
+  - first:
+      213: -4259947456663053605
+    second: Dungeon_Rat_Ability_10
+  - first:
+      213: 8615305981408679289
+    second: Dungeon_Rat_Ability_11
+  - first:
+      213: 3931814849880809200
+    second: Dungeon_Rat_Ability_12
+  - first:
+      213: -8855830254611604208
+    second: Dungeon_Rat_Ability_13
+  - first:
+      213: 5194972361738744935
+    second: Dungeon_Rat_Ability_14
+  - first:
+      213: 1411344796357376233
+    second: Dungeon_Rat_Ability_15
+  - first:
+      213: 7390262719151013466
+    second: Dungeon_Rat_Ability_16
+  - first:
+      213: 2894796802936806603
+    second: Dungeon_Rat_Ability_17
+  - first:
+      213: 4156091999205557146
+    second: Dungeon_Rat_Ability_18
+  - first:
+      213: -5258735595276817236
+    second: Dungeon_Rat_Ability_19
+  - first:
+      213: 3213055764487938300
+    second: Dungeon_Rat_Ability_20
+  - first:
+      213: 6163041584094432497
+    second: Dungeon_Rat_Ability_21
+  - first:
+      213: -8855290275156929239
+    second: Dungeon_Rat_Ability_22
+  - first:
+      213: 7561963205862313305
+    second: Dungeon_Rat_Ability_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 434
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2a2ae7075981400800000000000000
+      internalID: 295150085986231012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 434
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0c93f7b959a47b0800000000000000
+      internalID: -5239210721405189928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 434
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678af0faf56acc6d0800000000000000
+      internalID: -2968815124454856586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 434
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14495c8077db3d150800000000000000
+      internalID: 5896264656104035393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 434
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef8fd122d5870620800000000000000
+      internalID: 2740306035836162023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_5
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 431
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74da40ecae69a6500800000000000000
+      internalID: 390290252943895879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 303
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c608260402762f000800000000000000
+      internalID: 68230332580790380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 303
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db7f08720aa94030800000000000000
+      internalID: 3479499114701355988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 303
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c794e5212aecdcb10800000000000000
+      internalID: 2003484604737931644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_9
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 303
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41e10c3bb683d920800000000000000
+      internalID: 3013900714364756299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_10
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 303
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda15cbbb50a1e4c0800000000000000
+      internalID: -4259947456663053605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_11
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 303
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975992de427bf8770800000000000000
+      internalID: 8615305981408679289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_12
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 175
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe50c936cc909630800000000000000
+      internalID: 3931814849880809200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_13
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 175
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01dd7babd45c91580800000000000000
+      internalID: -8855830254611604208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_14
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 175
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764f86fb6df381840800000000000000
+      internalID: 5194972361738744935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_15
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 175
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e83a7a5d9a169310800000000000000
+      internalID: 1411344796357376233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_16
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 175
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5efecba9cc7f8660800000000000000
+      internalID: 7390262719151013466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_17
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 175
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc1cffda526c2820800000000000000
+      internalID: 2894796802936806603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_18
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 42
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a938d7247a76da930800000000000000
+      internalID: 4156091999205557146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_19
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 44
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caca2db86d73507b0800000000000000
+      internalID: -5258735595276817236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 44
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf023ddb131179c20800000000000000
+      internalID: 3213055764487938300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_21
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 44
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fcc8e3eaa5878550800000000000000
+      internalID: 6163041584094432497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_22
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 41
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925dc4e7960bb1580800000000000000
+      internalID: -8855290275156929239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Ability_23
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 41
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d4ff1887d71f860800000000000000
+      internalID: 7561963205862313305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dungeon_Rat_Ability_0: 295150085986231012
+      Dungeon_Rat_Ability_1: -5239210721405189928
+      Dungeon_Rat_Ability_10: -4259947456663053605
+      Dungeon_Rat_Ability_11: 8615305981408679289
+      Dungeon_Rat_Ability_12: 3931814849880809200
+      Dungeon_Rat_Ability_13: -8855830254611604208
+      Dungeon_Rat_Ability_14: 5194972361738744935
+      Dungeon_Rat_Ability_15: 1411344796357376233
+      Dungeon_Rat_Ability_16: 7390262719151013466
+      Dungeon_Rat_Ability_17: 2894796802936806603
+      Dungeon_Rat_Ability_18: 4156091999205557146
+      Dungeon_Rat_Ability_19: -5258735595276817236
+      Dungeon_Rat_Ability_2: -2968815124454856586
+      Dungeon_Rat_Ability_20: 3213055764487938300
+      Dungeon_Rat_Ability_21: 6163041584094432497
+      Dungeon_Rat_Ability_22: -8855290275156929239
+      Dungeon_Rat_Ability_23: 7561963205862313305
+      Dungeon_Rat_Ability_3: 5896264656104035393
+      Dungeon_Rat_Ability_4: 2740306035836162023
+      Dungeon_Rat_Ability_5: 390290252943895879
+      Dungeon_Rat_Ability_6: 68230332580790380
+      Dungeon_Rat_Ability_7: 3479499114701355988
+      Dungeon_Rat_Ability_8: 2003484604737931644
+      Dungeon_Rat_Ability_9: 3013900714364756299
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

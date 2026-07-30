@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 456f4b8b5606ff3428bbd59b254dd0af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6215298724760371112
+    second: Goblin_Warrior_Idle_0
+  - first:
+      213: -359400454207265633
+    second: Goblin_Warrior_Idle_1
+  - first:
+      213: 91214531188927745
+    second: Goblin_Warrior_Idle_2
+  - first:
+      213: 5622238150825099946
+    second: Goblin_Warrior_Idle_3
+  - first:
+      213: 2965913849957879022
+    second: Goblin_Warrior_Idle_4
+  - first:
+      213: -7344837664423287945
+    second: Goblin_Warrior_Idle_5
+  - first:
+      213: -1653221563386079483
+    second: Goblin_Warrior_Idle_6
+  - first:
+      213: 7158202303704168542
+    second: Goblin_Warrior_Idle_7
+  - first:
+      213: 9209326149954405666
+    second: Goblin_Warrior_Idle_8
+  - first:
+      213: 5712814460736847984
+    second: Goblin_Warrior_Idle_9
+  - first:
+      213: -7185117154583507547
+    second: Goblin_Warrior_Idle_10
+  - first:
+      213: -8727012917248721453
+    second: Goblin_Warrior_Idle_11
+  - first:
+      213: 6927559921061661126
+    second: Goblin_Warrior_Idle_12
+  - first:
+      213: 1575621174989405735
+    second: Goblin_Warrior_Idle_13
+  - first:
+      213: 6731075092897574078
+    second: Goblin_Warrior_Idle_14
+  - first:
+      213: 1643172821579854139
+    second: Goblin_Warrior_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goblin_Warrior_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 431
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8afb746924d214650800000000000000
+      internalID: 6215298724760371112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 431
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94acdae037230bf0800000000000000
+      internalID: -359400454207265633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 431
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10daed1022f044100800000000000000
+      internalID: 91214531188927745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 431
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2449e6fc3360e40800000000000000
+      internalID: 5622238150825099946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 303
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec8625beea092920800000000000000
+      internalID: 2965913849957879022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 303
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773e32f0f05e11a90800000000000000
+      internalID: -7344837664423287945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 303
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5075b5b4fb39e09e0800000000000000
+      internalID: -1653221563386079483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 303
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e587ba6c11b075360800000000000000
+      internalID: 7158202303704168542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 175
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2258fbc17591ecf70800000000000000
+      internalID: 9209326149954405666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 175
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0704fe7fb7ef74f40800000000000000
+      internalID: 5712814460736847984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 175
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad0c7b2406594c90800000000000000
+      internalID: -7185117154583507547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 175
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddf42d4dfb63e680800000000000000
+      internalID: -8727012917248721453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 47
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c90d1f5b03a32060800000000000000
+      internalID: 6927559921061661126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 47
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72eb3d35c1bbdd510800000000000000
+      internalID: 1575621174989405735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 47
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebca3ac5225996d50800000000000000
+      internalID: 6731075092897574078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 47
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31f7dea9f8bdc610800000000000000
+      internalID: 1643172821579854139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Goblin_Warrior_Idle_0: 6215298724760371112
+      Goblin_Warrior_Idle_1: -359400454207265633
+      Goblin_Warrior_Idle_10: -7185117154583507547
+      Goblin_Warrior_Idle_11: -8727012917248721453
+      Goblin_Warrior_Idle_12: 6927559921061661126
+      Goblin_Warrior_Idle_13: 1575621174989405735
+      Goblin_Warrior_Idle_14: 6731075092897574078
+      Goblin_Warrior_Idle_15: 1643172821579854139
+      Goblin_Warrior_Idle_2: 91214531188927745
+      Goblin_Warrior_Idle_3: 5622238150825099946
+      Goblin_Warrior_Idle_4: 2965913849957879022
+      Goblin_Warrior_Idle_5: -7344837664423287945
+      Goblin_Warrior_Idle_6: -1653221563386079483
+      Goblin_Warrior_Idle_7: 7158202303704168542
+      Goblin_Warrior_Idle_8: 9209326149954405666
+      Goblin_Warrior_Idle_9: 5712814460736847984
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

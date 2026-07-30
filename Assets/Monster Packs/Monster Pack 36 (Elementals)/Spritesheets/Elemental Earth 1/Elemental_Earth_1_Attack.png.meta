@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 0e248d51092f13743929174596185426
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1928980207417389877
+    second: Elemental_Earth_1_Attack_0
+  - first:
+      213: 7754462959508634476
+    second: Elemental_Earth_1_Attack_1
+  - first:
+      213: 8597606410308766850
+    second: Elemental_Earth_1_Attack_2
+  - first:
+      213: -1384806542969491079
+    second: Elemental_Earth_1_Attack_3
+  - first:
+      213: 6659606011552662071
+    second: Elemental_Earth_1_Attack_4
+  - first:
+      213: -30652957702490558
+    second: Elemental_Earth_1_Attack_5
+  - first:
+      213: 1239190248370696740
+    second: Elemental_Earth_1_Attack_6
+  - first:
+      213: 3694408776319179991
+    second: Elemental_Earth_1_Attack_7
+  - first:
+      213: 8201903909138724717
+    second: Elemental_Earth_1_Attack_8
+  - first:
+      213: 8865293773412482506
+    second: Elemental_Earth_1_Attack_9
+  - first:
+      213: 4021033001162563901
+    second: Elemental_Earth_1_Attack_10
+  - first:
+      213: -3213214776285842429
+    second: Elemental_Earth_1_Attack_11
+  - first:
+      213: -491762782728186784
+    second: Elemental_Earth_1_Attack_12
+  - first:
+      213: -7036336992630194792
+    second: Elemental_Earth_1_Attack_13
+  - first:
+      213: 249847597889540462
+    second: Elemental_Earth_1_Attack_14
+  - first:
+      213: -1340185708940461736
+    second: Elemental_Earth_1_Attack_15
+  - first:
+      213: 2816428891231833665
+    second: Elemental_Earth_1_Attack_16
+  - first:
+      213: 7206479516023944645
+    second: Elemental_Earth_1_Attack_17
+  - first:
+      213: 1980589386263153001
+    second: Elemental_Earth_1_Attack_18
+  - first:
+      213: 1825875580273974512
+    second: Elemental_Earth_1_Attack_19
+  - first:
+      213: -6573046925824493373
+    second: Elemental_Earth_1_Attack_20
+  - first:
+      213: 5301523894356611160
+    second: Elemental_Earth_1_Attack_21
+  - first:
+      213: -4332538605928143367
+    second: Elemental_Earth_1_Attack_22
+  - first:
+      213: 7877275175120954874
+    second: Elemental_Earth_1_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 442
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc8026b8b2ea35e0800000000000000
+      internalID: -1928980207417389877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 442
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bbf6d0af26d9b60800000000000000
+      internalID: 7754462959508634476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 441
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c43156a75d05770800000000000000
+      internalID: 8597606410308766850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 441
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971baa349cd28cce0800000000000000
+      internalID: -1384806542969491079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 441
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73207a6226cab6c50800000000000000
+      internalID: 6659606011552662071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 441
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246f3d02c49139ff0800000000000000
+      internalID: -30652957702490558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 314
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422734327fc723110800000000000000
+      internalID: 1239190248370696740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 314
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc179f453d254330800000000000000
+      internalID: 3694408776319179991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 313
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67f91a562403d170800000000000000
+      internalID: 8201903909138724717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 313
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdbbb177b9d70b70800000000000000
+      internalID: 8865293773412482506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 313
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31ea60d5349dc730800000000000000
+      internalID: 4021033001162563901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 313
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30432707f2e5863d0800000000000000
+      internalID: -3213214776285842429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 186
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0649ab5ca58ec29f0800000000000000
+      internalID: -491762782728186784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 186
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d365a09c8e95e90800000000000000
+      internalID: -7036336992630194792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 185
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61d0380113a77300800000000000000
+      internalID: 249847597889540462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 185
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8597c85c234b66de0800000000000000
+      internalID: -1340185708940461736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 185
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e450d8727f51720800000000000000
+      internalID: 2816428891231833665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 185
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c57cb130fe820460800000000000000
+      internalID: 7206479516023944645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 58
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969cf1e9d877c7b10800000000000000
+      internalID: 1980589386263153001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 58
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc5a469a20d65910800000000000000
+      internalID: 1825875580273974512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 57
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8f14e75a8d7c4a0800000000000000
+      internalID: -6573046925824493373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 57
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8501f5ba4ebc29940800000000000000
+      internalID: 5301523894356611160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 57
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5acf9b71bbfd3c0800000000000000
+      internalID: -4332538605928143367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_1_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 57
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af566134904b15d60800000000000000
+      internalID: 7877275175120954874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Elemental_Earth_1_Attack_0: -1928980207417389877
+      Elemental_Earth_1_Attack_1: 7754462959508634476
+      Elemental_Earth_1_Attack_10: 4021033001162563901
+      Elemental_Earth_1_Attack_11: -3213214776285842429
+      Elemental_Earth_1_Attack_12: -491762782728186784
+      Elemental_Earth_1_Attack_13: -7036336992630194792
+      Elemental_Earth_1_Attack_14: 249847597889540462
+      Elemental_Earth_1_Attack_15: -1340185708940461736
+      Elemental_Earth_1_Attack_16: 2816428891231833665
+      Elemental_Earth_1_Attack_17: 7206479516023944645
+      Elemental_Earth_1_Attack_18: 1980589386263153001
+      Elemental_Earth_1_Attack_19: 1825875580273974512
+      Elemental_Earth_1_Attack_2: 8597606410308766850
+      Elemental_Earth_1_Attack_20: -6573046925824493373
+      Elemental_Earth_1_Attack_21: 5301523894356611160
+      Elemental_Earth_1_Attack_22: -4332538605928143367
+      Elemental_Earth_1_Attack_23: 7877275175120954874
+      Elemental_Earth_1_Attack_3: -1384806542969491079
+      Elemental_Earth_1_Attack_4: 6659606011552662071
+      Elemental_Earth_1_Attack_5: -30652957702490558
+      Elemental_Earth_1_Attack_6: 1239190248370696740
+      Elemental_Earth_1_Attack_7: 3694408776319179991
+      Elemental_Earth_1_Attack_8: 8201903909138724717
+      Elemental_Earth_1_Attack_9: 8865293773412482506
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

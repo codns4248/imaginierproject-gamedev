@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 6f2d8d44fa90d5e4ca5da0f8c6ab30b0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6219806924455225011
+    second: Grin_Blue_Idle_0
+  - first:
+      213: 2642782545536356363
+    second: Grin_Blue_Idle_1
+  - first:
+      213: -713894285953325021
+    second: Grin_Blue_Idle_2
+  - first:
+      213: 5117504856856301072
+    second: Grin_Blue_Idle_3
+  - first:
+      213: 5029999175863208804
+    second: Grin_Blue_Idle_4
+  - first:
+      213: -7538333602948581719
+    second: Grin_Blue_Idle_5
+  - first:
+      213: 7686725617058800650
+    second: Grin_Blue_Idle_6
+  - first:
+      213: 1848512584899118085
+    second: Grin_Blue_Idle_7
+  - first:
+      213: -3948070772115390755
+    second: Grin_Blue_Idle_8
+  - first:
+      213: -8473645417359052037
+    second: Grin_Blue_Idle_9
+  - first:
+      213: 2518546827347175873
+    second: Grin_Blue_Idle_10
+  - first:
+      213: -1891210796986810316
+    second: Grin_Blue_Idle_11
+  - first:
+      213: 5417605384265179091
+    second: Grin_Blue_Idle_12
+  - first:
+      213: 4686820992937263751
+    second: Grin_Blue_Idle_13
+  - first:
+      213: 4138986721664147341
+    second: Grin_Blue_Idle_14
+  - first:
+      213: -3220471752885399804
+    second: Grin_Blue_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grin_Blue_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 436
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49d4506e8ecea9a0800000000000000
+      internalID: -6219806924455225011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 437
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b001c4d19bc0da420800000000000000
+      internalID: 2642782545536356363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 437
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3282296edecb716f0800000000000000
+      internalID: -713894285953325021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 436
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e8149bd87050740800000000000000
+      internalID: 5117504856856301072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 308
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b85d1b9952ec540800000000000000
+      internalID: 5029999175863208804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 309
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6fbd52785726790800000000000000
+      internalID: -7538333602948581719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 309
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a046fa2093cbcaa60800000000000000
+      internalID: 7686725617058800650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 308
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50440c1f66c37a910800000000000000
+      internalID: 1848512584899118085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 180
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddeb5ffec82a539c0800000000000000
+      internalID: -3948070772115390755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 181
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf272b16360976a80800000000000000
+      internalID: -8473645417359052037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 181
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c92732eefca3f220800000000000000
+      internalID: 2518546827347175873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 180
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430c73adcc111c5e0800000000000000
+      internalID: -1891210796986810316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 52
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df9e5ea4633f2b40800000000000000
+      internalID: 5417605384265179091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 53
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7828ed97cdeea0140800000000000000
+      internalID: 4686820992937263751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 53
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f99da7e72a07930800000000000000
+      internalID: 4138986721664147341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 52
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f0618e0069e43d0800000000000000
+      internalID: -3220471752885399804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Grin_Blue_Idle_0: -6219806924455225011
+      Grin_Blue_Idle_1: 2642782545536356363
+      Grin_Blue_Idle_10: 2518546827347175873
+      Grin_Blue_Idle_11: -1891210796986810316
+      Grin_Blue_Idle_12: 5417605384265179091
+      Grin_Blue_Idle_13: 4686820992937263751
+      Grin_Blue_Idle_14: 4138986721664147341
+      Grin_Blue_Idle_15: -3220471752885399804
+      Grin_Blue_Idle_2: -713894285953325021
+      Grin_Blue_Idle_3: 5117504856856301072
+      Grin_Blue_Idle_4: 5029999175863208804
+      Grin_Blue_Idle_5: -7538333602948581719
+      Grin_Blue_Idle_6: 7686725617058800650
+      Grin_Blue_Idle_7: 1848512584899118085
+      Grin_Blue_Idle_8: -3948070772115390755
+      Grin_Blue_Idle_9: -8473645417359052037
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

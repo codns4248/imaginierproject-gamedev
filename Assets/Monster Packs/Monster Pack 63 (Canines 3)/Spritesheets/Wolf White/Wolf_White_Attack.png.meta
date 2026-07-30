@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 141367dd455f2d94d96c01f712501f67
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3018440641453997508
+    second: Wolf_White_Attack_0
+  - first:
+      213: 7300126001265755075
+    second: Wolf_White_Attack_1
+  - first:
+      213: -2033879567848439177
+    second: Wolf_White_Attack_2
+  - first:
+      213: 2655340107433728650
+    second: Wolf_White_Attack_3
+  - first:
+      213: -6177224027032350354
+    second: Wolf_White_Attack_4
+  - first:
+      213: 8772574792636290110
+    second: Wolf_White_Attack_5
+  - first:
+      213: 3311296768656468943
+    second: Wolf_White_Attack_6
+  - first:
+      213: 287809021425601664
+    second: Wolf_White_Attack_7
+  - first:
+      213: -7892233515929353601
+    second: Wolf_White_Attack_8
+  - first:
+      213: 7130162728882426042
+    second: Wolf_White_Attack_9
+  - first:
+      213: -8185861926037684421
+    second: Wolf_White_Attack_10
+  - first:
+      213: -3347537941241285168
+    second: Wolf_White_Attack_11
+  - first:
+      213: 8913055341228844109
+    second: Wolf_White_Attack_12
+  - first:
+      213: 8006633913016149426
+    second: Wolf_White_Attack_13
+  - first:
+      213: 1458675207514043584
+    second: Wolf_White_Attack_14
+  - first:
+      213: 5704585277062655483
+    second: Wolf_White_Attack_15
+  - first:
+      213: 1524163633705831437
+    second: Wolf_White_Attack_16
+  - first:
+      213: -6874480011401389608
+    second: Wolf_White_Attack_17
+  - first:
+      213: 5130294825557665726
+    second: Wolf_White_Attack_18
+  - first:
+      213: -4843201194305430516
+    second: Wolf_White_Attack_19
+  - first:
+      213: 612873391082088811
+    second: Wolf_White_Attack_20
+  - first:
+      213: -4369769735282769822
+    second: Wolf_White_Attack_21
+  - first:
+      213: -3951245873154216022
+    second: Wolf_White_Attack_22
+  - first:
+      213: 987387956614977478
+    second: Wolf_White_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wolf_White_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 435
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32488e9a385c16d0800000000000000
+      internalID: -3018440641453997508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 433
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3c901abe14f4560800000000000000
+      internalID: 7300126001265755075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 427
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772087a1f4536c3e0800000000000000
+      internalID: -2033879567848439177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 426
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a5f6552c9a9d420800000000000000
+      internalID: 2655340107433728650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 426
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e619abac977164aa0800000000000000
+      internalID: -6177224027032350354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 428
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34d1a87b427eb970800000000000000
+      internalID: 8772574792636290110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 303
+        width: 73
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbeaa9fdd614fd20800000000000000
+      internalID: 3311296768656468943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 303
+        width: 72
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cc935b7c08ef300800000000000000
+      internalID: 287809021425601664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 304
+        width: 71
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72499e9e67297290800000000000000
+      internalID: -7892233515929353601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 303
+        width: 74
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab054c5893d63f260800000000000000
+      internalID: 7130162728882426042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 303
+        width: 71
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ff026e2f9f56e80800000000000000
+      internalID: -8185861926037684421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 303
+        width: 68
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5bb2c7af72b81d0800000000000000
+      internalID: -3347537941241285168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 175
+        width: 73
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44e7550c9881bb70800000000000000
+      internalID: 8913055341228844109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 175
+        width: 72
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b56ce77f174d1f60800000000000000
+      internalID: 8006633913016149426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 176
+        width: 71
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c43b827f514e3410800000000000000
+      internalID: 1458675207514043584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 175
+        width: 74
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd2e36d512ca2f40800000000000000
+      internalID: 5704585277062655483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 175
+        width: 71
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0cca9edfbae62510800000000000000
+      internalID: 1524163633705831437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 175
+        width: 68
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d995e82ad0f890a0800000000000000
+      internalID: -6874480011401389608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 47
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7a36e56f7723740800000000000000
+      internalID: 5130294825557665726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 49
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c5da59c2e79ccb0800000000000000
+      internalID: -4843201194305430516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 55
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69acbf1a1d518800800000000000000
+      internalID: 612873391082088811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 50
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260c73ae3957b53c0800000000000000
+      internalID: -4369769735282769822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 46
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf2a6e10da5a29c0800000000000000
+      internalID: -3951245873154216022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 47
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7d8897d18e3bd00800000000000000
+      internalID: 987387956614977478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wolf_White_Attack_0: -3018440641453997508
+      Wolf_White_Attack_1: 7300126001265755075
+      Wolf_White_Attack_10: -8185861926037684421
+      Wolf_White_Attack_11: -3347537941241285168
+      Wolf_White_Attack_12: 8913055341228844109
+      Wolf_White_Attack_13: 8006633913016149426
+      Wolf_White_Attack_14: 1458675207514043584
+      Wolf_White_Attack_15: 5704585277062655483
+      Wolf_White_Attack_16: 1524163633705831437
+      Wolf_White_Attack_17: -6874480011401389608
+      Wolf_White_Attack_18: 5130294825557665726
+      Wolf_White_Attack_19: -4843201194305430516
+      Wolf_White_Attack_2: -2033879567848439177
+      Wolf_White_Attack_20: 612873391082088811
+      Wolf_White_Attack_21: -4369769735282769822
+      Wolf_White_Attack_22: -3951245873154216022
+      Wolf_White_Attack_23: 987387956614977478
+      Wolf_White_Attack_3: 2655340107433728650
+      Wolf_White_Attack_4: -6177224027032350354
+      Wolf_White_Attack_5: 8772574792636290110
+      Wolf_White_Attack_6: 3311296768656468943
+      Wolf_White_Attack_7: 287809021425601664
+      Wolf_White_Attack_8: -7892233515929353601
+      Wolf_White_Attack_9: 7130162728882426042
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

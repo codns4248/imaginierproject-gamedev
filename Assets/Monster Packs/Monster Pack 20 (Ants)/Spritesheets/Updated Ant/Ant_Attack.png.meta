@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 0bd4b0aca4a97064e87898a11940b329
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6217545173113187943
+    second: Ant_Attack_0
+  - first:
+      213: -6285494116594951842
+    second: Ant_Attack_1
+  - first:
+      213: -2905481140701543847
+    second: Ant_Attack_2
+  - first:
+      213: 6595342011316713705
+    second: Ant_Attack_3
+  - first:
+      213: -2589129308762668197
+    second: Ant_Attack_4
+  - first:
+      213: 7188754929963237390
+    second: Ant_Attack_5
+  - first:
+      213: 7362715777803662507
+    second: Ant_Attack_6
+  - first:
+      213: -7408575092523875308
+    second: Ant_Attack_7
+  - first:
+      213: 2499200539501710877
+    second: Ant_Attack_8
+  - first:
+      213: 2082941065771268995
+    second: Ant_Attack_9
+  - first:
+      213: 5641834684629556288
+    second: Ant_Attack_10
+  - first:
+      213: 869703048255715088
+    second: Ant_Attack_11
+  - first:
+      213: -3416893581755575449
+    second: Ant_Attack_12
+  - first:
+      213: -5269938035543155468
+    second: Ant_Attack_13
+  - first:
+      213: 6880689683952339098
+    second: Ant_Attack_14
+  - first:
+      213: 4908246308346385158
+    second: Ant_Attack_15
+  - first:
+      213: -7825687102939292929
+    second: Ant_Attack_16
+  - first:
+      213: 9178279942297721834
+    second: Ant_Attack_17
+  - first:
+      213: 7189855152498009395
+    second: Ant_Attack_18
+  - first:
+      213: 5852068795548127498
+    second: Ant_Attack_19
+  - first:
+      213: 7384521717896418892
+    second: Ant_Attack_20
+  - first:
+      213: 6434850739671303896
+    second: Ant_Attack_21
+  - first:
+      213: 780301150958725473
+    second: Ant_Attack_22
+  - first:
+      213: -3657773351198408817
+    second: Ant_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ant_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 430
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991d4a56b97d6b9a0800000000000000
+      internalID: -6217545173113187943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 431
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59dc86276075c8a0800000000000000
+      internalID: -6285494116594951842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 432
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95243e2eb48ada7d0800000000000000
+      internalID: -2905481140701543847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 429
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e83ebc9d9c578b50800000000000000
+      internalID: 6595342011316713705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 429
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5306a98c90911cd0800000000000000
+      internalID: -2589129308762668197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 430
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e000cc9658693c360800000000000000
+      internalID: 7188754929963237390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 303
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4b6269dfe9d2660800000000000000
+      internalID: 7362715777803662507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 303
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414ce46a4347f2990800000000000000
+      internalID: -7408575092523875308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 303
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ec67b36a1fea220800000000000000
+      internalID: 2499200539501710877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 303
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38bbe590dd718ec10800000000000000
+      internalID: 2082941065771268995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 303
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c92d201c2db4e40800000000000000
+      internalID: 5641834684629556288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 303
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0173b53805ec11c00800000000000000
+      internalID: 869703048255715088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 175
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76395201461c490d0800000000000000
+      internalID: -3416893581755575449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 175
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc512b274b6dd6b0800000000000000
+      internalID: -5269938035543155468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 175
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a988ca5efce1d7f50800000000000000
+      internalID: 6880689683952339098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 175
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603db1f23089d1440800000000000000
+      internalID: 4908246308346385158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 175
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa92f9ca03956390800000000000000
+      internalID: -7825687102939292929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 175
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb9fb99afccf5f70800000000000000
+      internalID: 9178279942297721834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 42
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335e72fea2f77c360800000000000000
+      internalID: 7189855152498009395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 42
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a015bcf5099b63150800000000000000
+      internalID: 5852068795548127498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 41
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c469f57a0671b7660800000000000000
+      internalID: 7384521717896418892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 43
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d684c887ae2d4950800000000000000
+      internalID: 6434850739671303896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 44
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16929b833cf24da00800000000000000
+      internalID: 780301150958725473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 43
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8fbdec448afc3dc0800000000000000
+      internalID: -3657773351198408817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ant_Attack_0: -6217545173113187943
+      Ant_Attack_1: -6285494116594951842
+      Ant_Attack_10: 5641834684629556288
+      Ant_Attack_11: 869703048255715088
+      Ant_Attack_12: -3416893581755575449
+      Ant_Attack_13: -5269938035543155468
+      Ant_Attack_14: 6880689683952339098
+      Ant_Attack_15: 4908246308346385158
+      Ant_Attack_16: -7825687102939292929
+      Ant_Attack_17: 9178279942297721834
+      Ant_Attack_18: 7189855152498009395
+      Ant_Attack_19: 5852068795548127498
+      Ant_Attack_2: -2905481140701543847
+      Ant_Attack_20: 7384521717896418892
+      Ant_Attack_21: 6434850739671303896
+      Ant_Attack_22: 780301150958725473
+      Ant_Attack_23: -3657773351198408817
+      Ant_Attack_3: 6595342011316713705
+      Ant_Attack_4: -2589129308762668197
+      Ant_Attack_5: 7188754929963237390
+      Ant_Attack_6: 7362715777803662507
+      Ant_Attack_7: -7408575092523875308
+      Ant_Attack_8: 2499200539501710877
+      Ant_Attack_9: 2082941065771268995
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

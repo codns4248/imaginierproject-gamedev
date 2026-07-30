@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 2ed0052c46de46e42a5c97db5b39bbc1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4586045297215902309
+    second: Harpy_Attack_0
+  - first:
+      213: -52588909143999764
+    second: Harpy_Attack_1
+  - first:
+      213: -4831113402634819535
+    second: Harpy_Attack_2
+  - first:
+      213: 1169581073460083862
+    second: Harpy_Attack_3
+  - first:
+      213: -3962540585774995151
+    second: Harpy_Attack_4
+  - first:
+      213: -7367621754526970261
+    second: Harpy_Attack_5
+  - first:
+      213: 3787141885026311792
+    second: Harpy_Attack_6
+  - first:
+      213: 2191511287439253216
+    second: Harpy_Attack_7
+  - first:
+      213: -1079757361878211597
+    second: Harpy_Attack_8
+  - first:
+      213: 3465634328237308968
+    second: Harpy_Attack_9
+  - first:
+      213: 8894888752353627484
+    second: Harpy_Attack_10
+  - first:
+      213: -6098132933809217667
+    second: Harpy_Attack_11
+  - first:
+      213: 8912130072738935714
+    second: Harpy_Attack_12
+  - first:
+      213: -5168633608049538907
+    second: Harpy_Attack_13
+  - first:
+      213: -2721414492898767377
+    second: Harpy_Attack_14
+  - first:
+      213: 8269821606808764460
+    second: Harpy_Attack_15
+  - first:
+      213: 5941039386884672386
+    second: Harpy_Attack_16
+  - first:
+      213: 2892312759774932468
+    second: Harpy_Attack_17
+  - first:
+      213: 5179090477158045974
+    second: Harpy_Attack_18
+  - first:
+      213: 4687560913894297520
+    second: Harpy_Attack_19
+  - first:
+      213: 2365087652220088747
+    second: Harpy_Attack_20
+  - first:
+      213: 2034435700865558988
+    second: Harpy_Attack_21
+  - first:
+      213: 2093992066123890706
+    second: Harpy_Attack_22
+  - first:
+      213: -8158055668929032916
+    second: Harpy_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Harpy_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 438
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d689f99181b50c0800000000000000
+      internalID: -4586045297215902309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 435
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceab85f6aaa254ff0800000000000000
+      internalID: -52588909143999764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 429
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138a256e4ff64fcb0800000000000000
+      internalID: -4831113402634819535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 425
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69cbb932acf2b3010800000000000000
+      internalID: 1169581073460083862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 429
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13920d8e45a3209c0800000000000000
+      internalID: -3962540585774995151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 434
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ecaf1bc03f0c990800000000000000
+      internalID: -7367621754526970261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 310
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e1ff2ba71ae8430800000000000000
+      internalID: 3787141885026311792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 309
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee5311a7efc96e10800000000000000
+      internalID: 2191511287439253216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 304
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3e2a1766ee301f0800000000000000
+      internalID: -1079757361878211597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 304
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cfbff4f08681030800000000000000
+      internalID: 3465634328237308968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 307
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5dc7a0713ef07b70800000000000000
+      internalID: 8894888752353627484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 309
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fd03fe7641f5ba0800000000000000
+      internalID: -6098132933809217667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 182
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a33ea9251f3eab70800000000000000
+      internalID: 8912130072738935714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 181
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8cf0a3e135548b0800000000000000
+      internalID: -5168633608049538907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 176
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed4b28ffe79b3ad0800000000000000
+      internalID: -2721414492898767377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 176
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20cfad9fee44c270800000000000000
+      internalID: 8269821606808764460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 179
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b8ddb68dfc27250800000000000000
+      internalID: 5941039386884672386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 181
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fde6b1812f832820800000000000000
+      internalID: 2892312759774932468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 56
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6191d965953dfd740800000000000000
+      internalID: 5179090477158045974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 66
+        width: 45
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bfccafb0df8d0140800000000000000
+      internalID: 4687560913894297520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 66
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1bd3d50ba72d020800000000000000
+      internalID: 2365087652220088747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 69
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9e674bd74cb3c10800000000000000
+      internalID: 2034435700865558988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 64
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2100dcf80ba5f0d10800000000000000
+      internalID: 2093992066123890706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 62
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d8f93a793c8ce80800000000000000
+      internalID: -8158055668929032916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Harpy_Attack_0: -4586045297215902309
+      Harpy_Attack_1: -52588909143999764
+      Harpy_Attack_10: 8894888752353627484
+      Harpy_Attack_11: -6098132933809217667
+      Harpy_Attack_12: 8912130072738935714
+      Harpy_Attack_13: -5168633608049538907
+      Harpy_Attack_14: -2721414492898767377
+      Harpy_Attack_15: 8269821606808764460
+      Harpy_Attack_16: 5941039386884672386
+      Harpy_Attack_17: 2892312759774932468
+      Harpy_Attack_18: 5179090477158045974
+      Harpy_Attack_19: 4687560913894297520
+      Harpy_Attack_2: -4831113402634819535
+      Harpy_Attack_20: 2365087652220088747
+      Harpy_Attack_21: 2034435700865558988
+      Harpy_Attack_22: 2093992066123890706
+      Harpy_Attack_23: -8158055668929032916
+      Harpy_Attack_3: 1169581073460083862
+      Harpy_Attack_4: -3962540585774995151
+      Harpy_Attack_5: -7367621754526970261
+      Harpy_Attack_6: 3787141885026311792
+      Harpy_Attack_7: 2191511287439253216
+      Harpy_Attack_8: -1079757361878211597
+      Harpy_Attack_9: 3465634328237308968
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

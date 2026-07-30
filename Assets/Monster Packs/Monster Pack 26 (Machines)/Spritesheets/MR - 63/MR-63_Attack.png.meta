@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: db5272d028b02e74694ef7f945a9300e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7864543127461449429
+    second: MR-63_Attack_0
+  - first:
+      213: -8270412663473980361
+    second: MR-63_Attack_1
+  - first:
+      213: -5637025529879661542
+    second: MR-63_Attack_2
+  - first:
+      213: 5571320693370040592
+    second: MR-63_Attack_3
+  - first:
+      213: 4268547977771004580
+    second: MR-63_Attack_4
+  - first:
+      213: -6731956687788106294
+    second: MR-63_Attack_5
+  - first:
+      213: 2902793363009361021
+    second: MR-63_Attack_6
+  - first:
+      213: -7916652139625537143
+    second: MR-63_Attack_7
+  - first:
+      213: 8421060279096000700
+    second: MR-63_Attack_8
+  - first:
+      213: -3675555969681203018
+    second: MR-63_Attack_9
+  - first:
+      213: -7527655304168357671
+    second: MR-63_Attack_10
+  - first:
+      213: -5499122383693063570
+    second: MR-63_Attack_11
+  - first:
+      213: 1131016348326326723
+    second: MR-63_Attack_12
+  - first:
+      213: -327689851291293384
+    second: MR-63_Attack_13
+  - first:
+      213: -8912764213561721046
+    second: MR-63_Attack_14
+  - first:
+      213: 8457206887902996654
+    second: MR-63_Attack_15
+  - first:
+      213: -7766925418292896915
+    second: MR-63_Attack_16
+  - first:
+      213: 9024774708645491910
+    second: MR-63_Attack_17
+  - first:
+      213: -2720435903733547309
+    second: MR-63_Attack_18
+  - first:
+      213: 3220231022834469542
+    second: MR-63_Attack_19
+  - first:
+      213: 3402406755037185631
+    second: MR-63_Attack_20
+  - first:
+      213: 6191616739725026368
+    second: MR-63_Attack_21
+  - first:
+      213: 7672418822819038532
+    second: MR-63_Attack_22
+  - first:
+      213: 3203552532063788073
+    second: MR-63_Attack_23
+  - first:
+      213: 3481297658956302157
+    second: MR-63_Attack_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MR-63_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 331
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de44196e48742d60800000000000000
+      internalID: 7864543127461449429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 327
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73cbdb74087993d80800000000000000
+      internalID: -8270412663473980361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 324
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14f6b5952345c1b0800000000000000
+      internalID: -5637025529879661542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 323
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011ba1a07ae415d40800000000000000
+      internalID: 5571320693370040592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 322
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2b0c125cdec3b30800000000000000
+      internalID: 4268547977771004580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 331
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd13155f094392a0800000000000000
+      internalID: -6731956687788106294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 237
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74d88a1f2bc84820800000000000000
+      internalID: 2902793363009361021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 237
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981a84fb2d6622290800000000000000
+      internalID: -7916652139625537143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 235
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb04ba705bd9dd470800000000000000
+      internalID: 8421060279096000700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 234
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0e51bc15dcdfcc0800000000000000
+      internalID: -3675555969681203018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 235
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0c5735265688790800000000000000
+      internalID: -7527655304168357671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 236
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a539fd3513fa3b0800000000000000
+      internalID: -5499122383693063570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 141
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1762d506d22bf00800000000000000
+      internalID: 1131016348326326723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 141
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839284101dfc37bf0800000000000000
+      internalID: -327689851291293384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 140
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ff6db6b208f4480800000000000000
+      internalID: -8912764213561721046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 139
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8e1793bd80e5570800000000000000
+      internalID: 8457206887902996654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 138
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b13b5ab76563490800000000000000
+      internalID: -7766925418292896915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 139
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c47ebe38c07e3d70800000000000000
+      internalID: 9024774708645491910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 140
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de3eb385f11f3ad0800000000000000
+      internalID: -2720435903733547309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 46
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aacdb2cd0f80bc20800000000000000
+      internalID: 3220231022834469542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 44
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56816fbae6c73f20800000000000000
+      internalID: 3402406755037185631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 43
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0442ca4ce9a0de550800000000000000
+      internalID: 6191616739725026368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 44
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4454626e448e97a60800000000000000
+      internalID: 7672418822819038532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 45
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c17f40e0e457c20800000000000000
+      internalID: 3203552532063788073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MR-63_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 47
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d474d7fa6cd005030800000000000000
+      internalID: 3481297658956302157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MR-63_Attack_0: 7864543127461449429
+      MR-63_Attack_1: -8270412663473980361
+      MR-63_Attack_10: -7527655304168357671
+      MR-63_Attack_11: -5499122383693063570
+      MR-63_Attack_12: 1131016348326326723
+      MR-63_Attack_13: -327689851291293384
+      MR-63_Attack_14: -8912764213561721046
+      MR-63_Attack_15: 8457206887902996654
+      MR-63_Attack_16: -7766925418292896915
+      MR-63_Attack_17: 9024774708645491910
+      MR-63_Attack_18: -2720435903733547309
+      MR-63_Attack_19: 3220231022834469542
+      MR-63_Attack_2: -5637025529879661542
+      MR-63_Attack_20: 3402406755037185631
+      MR-63_Attack_21: 6191616739725026368
+      MR-63_Attack_22: 7672418822819038532
+      MR-63_Attack_23: 3203552532063788073
+      MR-63_Attack_24: 3481297658956302157
+      MR-63_Attack_3: 5571320693370040592
+      MR-63_Attack_4: 4268547977771004580
+      MR-63_Attack_5: -6731956687788106294
+      MR-63_Attack_6: 2902793363009361021
+      MR-63_Attack_7: -7916652139625537143
+      MR-63_Attack_8: 8421060279096000700
+      MR-63_Attack_9: -3675555969681203018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 92b28d688ec474349b5969be0881b461
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8069894834797698650
+    second: Wolf_Black_Raider_Idle_0
+  - first:
+      213: -360898121420887042
+    second: Wolf_Black_Raider_Idle_1
+  - first:
+      213: -6507414668395321609
+    second: Wolf_Black_Raider_Idle_2
+  - first:
+      213: -7777815933131031272
+    second: Wolf_Black_Raider_Idle_3
+  - first:
+      213: -3627299100270696856
+    second: Wolf_Black_Raider_Idle_4
+  - first:
+      213: 1231951787198477620
+    second: Wolf_Black_Raider_Idle_5
+  - first:
+      213: -4952108758313609175
+    second: Wolf_Black_Raider_Idle_6
+  - first:
+      213: 5846413906299922181
+    second: Wolf_Black_Raider_Idle_7
+  - first:
+      213: -5952764141401537151
+    second: Wolf_Black_Raider_Idle_8
+  - first:
+      213: 7790503305521654864
+    second: Wolf_Black_Raider_Idle_9
+  - first:
+      213: -5188375853797327607
+    second: Wolf_Black_Raider_Idle_10
+  - first:
+      213: 734758168499157958
+    second: Wolf_Black_Raider_Idle_11
+  - first:
+      213: -7258606645820429838
+    second: Wolf_Black_Raider_Idle_12
+  - first:
+      213: -5939026614404153402
+    second: Wolf_Black_Raider_Idle_13
+  - first:
+      213: 9098213315182246976
+    second: Wolf_Black_Raider_Idle_14
+  - first:
+      213: 5142344634341700248
+    second: Wolf_Black_Raider_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 429
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e50ea98960eff60800000000000000
+      internalID: 8069894834797698650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 429
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb2a981215ddfaf0800000000000000
+      internalID: -360898121420887042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 429
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6612c36d401b5a0800000000000000
+      internalID: -6507414668395321609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 429
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81df9511e95af0490800000000000000
+      internalID: -7777815933131031272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 303
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8666542cfae39adc0800000000000000
+      internalID: -3627299100270696856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 303
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4357f509f95c81110800000000000000
+      internalID: 1231951787198477620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 303
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928dd9b5253964bb0800000000000000
+      internalID: -4952108758313609175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 303
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50729eed872a22150800000000000000
+      internalID: 5846413906299922181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 175
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18504107d88836da0800000000000000
+      internalID: -5952764141401537151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 175
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05cef130b7d6d1c60800000000000000
+      internalID: 7790503305521654864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 175
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d323176af2ff7b0800000000000000
+      internalID: -5188375853797327607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 175
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb753d49a2623a00800000000000000
+      internalID: 734758168499157958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 45
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9659f96bf344b90800000000000000
+      internalID: -7258606645820429838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 45
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf79d0b2c6549da0800000000000000
+      internalID: -5939026614404153402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 45
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cba264ec8534e70800000000000000
+      internalID: 9098213315182246976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 45
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892b29a13374d5740800000000000000
+      internalID: 5142344634341700248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wolf_Black_Raider_Idle_0: 8069894834797698650
+      Wolf_Black_Raider_Idle_1: -360898121420887042
+      Wolf_Black_Raider_Idle_10: -5188375853797327607
+      Wolf_Black_Raider_Idle_11: 734758168499157958
+      Wolf_Black_Raider_Idle_12: -7258606645820429838
+      Wolf_Black_Raider_Idle_13: -5939026614404153402
+      Wolf_Black_Raider_Idle_14: 9098213315182246976
+      Wolf_Black_Raider_Idle_15: 5142344634341700248
+      Wolf_Black_Raider_Idle_2: -6507414668395321609
+      Wolf_Black_Raider_Idle_3: -7777815933131031272
+      Wolf_Black_Raider_Idle_4: -3627299100270696856
+      Wolf_Black_Raider_Idle_5: 1231951787198477620
+      Wolf_Black_Raider_Idle_6: -4952108758313609175
+      Wolf_Black_Raider_Idle_7: 5846413906299922181
+      Wolf_Black_Raider_Idle_8: -5952764141401537151
+      Wolf_Black_Raider_Idle_9: 7790503305521654864
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

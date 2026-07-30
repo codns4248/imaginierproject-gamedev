@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 6a8d0fe9a5b96cf4fa3ed126064d07ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8557444247345892404
+    second: Slime_Antenna_Move_0
+  - first:
+      213: -7285556773213109616
+    second: Slime_Antenna_Move_1
+  - first:
+      213: -6941466596179198309
+    second: Slime_Antenna_Move_2
+  - first:
+      213: -2022747856629552924
+    second: Slime_Antenna_Move_3
+  - first:
+      213: 2128784188787216083
+    second: Slime_Antenna_Move_4
+  - first:
+      213: -3450052000105279334
+    second: Slime_Antenna_Move_5
+  - first:
+      213: -9208367859538885920
+    second: Slime_Antenna_Move_6
+  - first:
+      213: -7168883427575496165
+    second: Slime_Antenna_Move_7
+  - first:
+      213: -8679624056871968149
+    second: Slime_Antenna_Move_8
+  - first:
+      213: 9059494346766459687
+    second: Slime_Antenna_Move_9
+  - first:
+      213: -3513420144223237833
+    second: Slime_Antenna_Move_10
+  - first:
+      213: -5831975412349631842
+    second: Slime_Antenna_Move_11
+  - first:
+      213: 7819994604131408163
+    second: Slime_Antenna_Move_12
+  - first:
+      213: -4506094264411331369
+    second: Slime_Antenna_Move_13
+  - first:
+      213: 2873182021842108126
+    second: Slime_Antenna_Move_14
+  - first:
+      213: -8228625387274583547
+    second: Slime_Antenna_Move_15
+  - first:
+      213: -5864101421929213652
+    second: Slime_Antenna_Move_16
+  - first:
+      213: 7228900131527800149
+    second: Slime_Antenna_Move_17
+  - first:
+      213: -4909857152096425707
+    second: Slime_Antenna_Move_18
+  - first:
+      213: -997398810487574542
+    second: Slime_Antenna_Move_19
+  - first:
+      213: 3235102223341511810
+    second: Slime_Antenna_Move_20
+  - first:
+      213: 1282354513992607953
+    second: Slime_Antenna_Move_21
+  - first:
+      213: -191443212107001055
+    second: Slime_Antenna_Move_22
+  - first:
+      213: 1822718155639761445
+    second: Slime_Antenna_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 426
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c0344243622c670800000000000000
+      internalID: 8557444247345892404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 427
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09201bd17b084ea90800000000000000
+      internalID: -7285556773213109616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 429
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ebf7288e4faaf90800000000000000
+      internalID: -6941466596179198309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 430
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8a9679a81cde3e0800000000000000
+      internalID: -2022747856629552924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_4
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 430
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de4120e0f5fa8d10800000000000000
+      internalID: 2128784188787216083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_5
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 428
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90591d2cf3fe10d0800000000000000
+      internalID: -3450052000105279334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 303
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e28f03483e453080800000000000000
+      internalID: -9208367859538885920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 303
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b128d274182038c90800000000000000
+      internalID: -7168883427575496165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_8
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 303
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62263a28e7cb8780800000000000000
+      internalID: -8679624056871968149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_9
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 306
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723acafeb1ac9bd70800000000000000
+      internalID: 9059494346766459687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_10
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 304
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7394fd46ef2dd3fc0800000000000000
+      internalID: -3513420144223237833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_11
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 303
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e928618f249a01fa0800000000000000
+      internalID: -5831975412349631842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 175
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32959bc09a3368c60800000000000000
+      internalID: 7819994604131408163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_13
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 175
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4665d04232771c0800000000000000
+      internalID: -4506094264411331369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 175
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edeffea73d79fd720800000000000000
+      internalID: 2873182021842108126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 178
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502ccb1becc0ecd80800000000000000
+      internalID: -8228625387274583547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_16
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 176
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21db0b73d68e9ea0800000000000000
+      internalID: -5864101421929213652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_17
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 175
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5553d788e56325460800000000000000
+      internalID: 7228900131527800149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_18
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 47
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519a1670feeacdbb0800000000000000
+      internalID: -4909857152096425707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_19
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 47
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffad79f0178822f0800000000000000
+      internalID: -997398810487574542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_20
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 49
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284e852f45465ec20800000000000000
+      internalID: 3235102223341511810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 51
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8e5a2e2a6dbc110800000000000000
+      internalID: 1282354513992607953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_22
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 49
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123d3b3b96bd75df0800000000000000
+      internalID: -191443212107001055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Antenna_Move_23
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 47
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a209061889b4910800000000000000
+      internalID: 1822718155639761445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slime_Antenna_Move_0: 8557444247345892404
+      Slime_Antenna_Move_1: -7285556773213109616
+      Slime_Antenna_Move_10: -3513420144223237833
+      Slime_Antenna_Move_11: -5831975412349631842
+      Slime_Antenna_Move_12: 7819994604131408163
+      Slime_Antenna_Move_13: -4506094264411331369
+      Slime_Antenna_Move_14: 2873182021842108126
+      Slime_Antenna_Move_15: -8228625387274583547
+      Slime_Antenna_Move_16: -5864101421929213652
+      Slime_Antenna_Move_17: 7228900131527800149
+      Slime_Antenna_Move_18: -4909857152096425707
+      Slime_Antenna_Move_19: -997398810487574542
+      Slime_Antenna_Move_2: -6941466596179198309
+      Slime_Antenna_Move_20: 3235102223341511810
+      Slime_Antenna_Move_21: 1282354513992607953
+      Slime_Antenna_Move_22: -191443212107001055
+      Slime_Antenna_Move_23: 1822718155639761445
+      Slime_Antenna_Move_3: -2022747856629552924
+      Slime_Antenna_Move_4: 2128784188787216083
+      Slime_Antenna_Move_5: -3450052000105279334
+      Slime_Antenna_Move_6: -9208367859538885920
+      Slime_Antenna_Move_7: -7168883427575496165
+      Slime_Antenna_Move_8: -8679624056871968149
+      Slime_Antenna_Move_9: 9059494346766459687
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

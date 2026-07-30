@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: bf7a4d8e6e71bd64798e4ab19800b06d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5282667688215870108
+    second: Treant_Idle_0
+  - first:
+      213: -281955597042971290
+    second: Treant_Idle_1
+  - first:
+      213: 3479527773392888307
+    second: Treant_Idle_2
+  - first:
+      213: 190459434236180686
+    second: Treant_Idle_3
+  - first:
+      213: 5681898020347100738
+    second: Treant_Idle_4
+  - first:
+      213: -6581916216497374961
+    second: Treant_Idle_5
+  - first:
+      213: 7628079027766493948
+    second: Treant_Idle_6
+  - first:
+      213: -8614451104037461447
+    second: Treant_Idle_7
+  - first:
+      213: -748746641483285652
+    second: Treant_Idle_8
+  - first:
+      213: 2767846353196878611
+    second: Treant_Idle_9
+  - first:
+      213: -8732277878651835879
+    second: Treant_Idle_10
+  - first:
+      213: 6830412560776904304
+    second: Treant_Idle_11
+  - first:
+      213: -8602274807789887987
+    second: Treant_Idle_12
+  - first:
+      213: -4170889012073438773
+    second: Treant_Idle_13
+  - first:
+      213: -3365203449613519809
+    second: Treant_Idle_14
+  - first:
+      213: -7334495909948726081
+    second: Treant_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Treant_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 431
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a7a8e064ecf4940800000000000000
+      internalID: 5282667688215870108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 431
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d02dbd0ea461cf0800000000000000
+      internalID: -281955597042971290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 431
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f160371314c94030800000000000000
+      internalID: 3479527773392888307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 431
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8f4c9a8d5a4a200800000000000000
+      internalID: 190459434236180686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 303
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24eb8c045282ade40800000000000000
+      internalID: 5681898020347100738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 303
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f097a46d21658a4a0800000000000000
+      internalID: -6581916216497374961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 303
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf201a0e5716cd960800000000000000
+      internalID: 7628079027766493948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 303
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93220e8bc52537880800000000000000
+      internalID: -8614451104037461447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 175
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b3f9785eaeb95f0800000000000000
+      internalID: -748746641483285652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 175
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b0923f79d596620800000000000000
+      internalID: 2767846353196878611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 175
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91aa4f2f887b0d680800000000000000
+      internalID: -8732277878651835879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 175
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e3972f8008ace50800000000000000
+      internalID: 6830412560776904304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 47
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e546d93a49e9880800000000000000
+      internalID: -8602274807789887987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 47
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc168c5ba860e16c0800000000000000
+      internalID: -4170889012073438773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 47
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34fddcca456c41d0800000000000000
+      internalID: -3365203449613519809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 47
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb463f864d2a63a90800000000000000
+      internalID: -7334495909948726081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Treant_Idle_0: 5282667688215870108
+      Treant_Idle_1: -281955597042971290
+      Treant_Idle_10: -8732277878651835879
+      Treant_Idle_11: 6830412560776904304
+      Treant_Idle_12: -8602274807789887987
+      Treant_Idle_13: -4170889012073438773
+      Treant_Idle_14: -3365203449613519809
+      Treant_Idle_15: -7334495909948726081
+      Treant_Idle_2: 3479527773392888307
+      Treant_Idle_3: 190459434236180686
+      Treant_Idle_4: 5681898020347100738
+      Treant_Idle_5: -6581916216497374961
+      Treant_Idle_6: 7628079027766493948
+      Treant_Idle_7: -8614451104037461447
+      Treant_Idle_8: -748746641483285652
+      Treant_Idle_9: 2767846353196878611
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

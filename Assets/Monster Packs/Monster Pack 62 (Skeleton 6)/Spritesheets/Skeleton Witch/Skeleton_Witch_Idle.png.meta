@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 5e22a4c20dcfb524696db91e2a85a838
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8181418605509434149
+    second: Skeleton_Witch_Idle_0
+  - first:
+      213: 4208488970394586826
+    second: Skeleton_Witch_Idle_1
+  - first:
+      213: 9165663751012734987
+    second: Skeleton_Witch_Idle_2
+  - first:
+      213: -4045045889318745492
+    second: Skeleton_Witch_Idle_3
+  - first:
+      213: 3802578751011109844
+    second: Skeleton_Witch_Idle_4
+  - first:
+      213: 6984725258662325173
+    second: Skeleton_Witch_Idle_5
+  - first:
+      213: 1024218281009026477
+    second: Skeleton_Witch_Idle_6
+  - first:
+      213: 7803730087840150708
+    second: Skeleton_Witch_Idle_7
+  - first:
+      213: 7333902427666775814
+    second: Skeleton_Witch_Idle_8
+  - first:
+      213: -2813747895627058980
+    second: Skeleton_Witch_Idle_9
+  - first:
+      213: 4534253434404532775
+    second: Skeleton_Witch_Idle_10
+  - first:
+      213: 1890044055717826457
+    second: Skeleton_Witch_Idle_11
+  - first:
+      213: -6582015605198724822
+    second: Skeleton_Witch_Idle_12
+  - first:
+      213: 6288885222664086047
+    second: Skeleton_Witch_Idle_13
+  - first:
+      213: -8787477232524787050
+    second: Skeleton_Witch_Idle_14
+  - first:
+      213: 8237735171924054561
+    second: Skeleton_Witch_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton_Witch_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 431
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4a6d31023c57e80800000000000000
+      internalID: -8181418605509434149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 431
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acec489cb6e876a30800000000000000
+      internalID: 4208488970394586826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 431
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08d9c9ae9af23f70800000000000000
+      internalID: 9165663751012734987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 431
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a800bf13c1dd7c0800000000000000
+      internalID: -4045045889318745492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 303
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db37742a3975c430800000000000000
+      internalID: 3802578751011109844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 303
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb2448bd9abee060800000000000000
+      internalID: 6984725258662325173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 303
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5110c9911c63e00800000000000000
+      internalID: 1024218281009026477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 303
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b47db04b2b6c4c60800000000000000
+      internalID: 7803730087840150708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 175
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ff37ab66147c560800000000000000
+      internalID: 7333902427666775814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 175
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd075a1623f83f8d0800000000000000
+      internalID: -2813747895627058980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 175
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722f64f9977ecee30800000000000000
+      internalID: 4534253434404532775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 175
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f46e60e09ca3a10800000000000000
+      internalID: 1890044055717826457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 47
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a216d0a1eabf7a4a0800000000000000
+      internalID: -6582015605198724822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 47
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12a8124acb964750800000000000000
+      internalID: 6288885222664086047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 47
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692078bd30c9c0680800000000000000
+      internalID: -8787477232524787050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 47
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12256445e70525270800000000000000
+      internalID: 8237735171924054561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skeleton_Witch_Idle_0: -8181418605509434149
+      Skeleton_Witch_Idle_1: 4208488970394586826
+      Skeleton_Witch_Idle_10: 4534253434404532775
+      Skeleton_Witch_Idle_11: 1890044055717826457
+      Skeleton_Witch_Idle_12: -6582015605198724822
+      Skeleton_Witch_Idle_13: 6288885222664086047
+      Skeleton_Witch_Idle_14: -8787477232524787050
+      Skeleton_Witch_Idle_15: 8237735171924054561
+      Skeleton_Witch_Idle_2: 9165663751012734987
+      Skeleton_Witch_Idle_3: -4045045889318745492
+      Skeleton_Witch_Idle_4: 3802578751011109844
+      Skeleton_Witch_Idle_5: 6984725258662325173
+      Skeleton_Witch_Idle_6: 1024218281009026477
+      Skeleton_Witch_Idle_7: 7803730087840150708
+      Skeleton_Witch_Idle_8: 7333902427666775814
+      Skeleton_Witch_Idle_9: -2813747895627058980
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

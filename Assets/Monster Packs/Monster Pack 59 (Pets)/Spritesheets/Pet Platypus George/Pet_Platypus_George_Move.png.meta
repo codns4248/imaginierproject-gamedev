@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 6311f7ccf7ff76e429beef10cc18615e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4408560342284654109
+    second: Pet_Platypus_George_Move_0
+  - first:
+      213: 3697282464379101026
+    second: Pet_Platypus_George_Move_1
+  - first:
+      213: -6525648782635640447
+    second: Pet_Platypus_George_Move_2
+  - first:
+      213: 5412188746881166437
+    second: Pet_Platypus_George_Move_3
+  - first:
+      213: 5621718506341083939
+    second: Pet_Platypus_George_Move_4
+  - first:
+      213: 461675228322696911
+    second: Pet_Platypus_George_Move_5
+  - first:
+      213: -5825862504281494772
+    second: Pet_Platypus_George_Move_6
+  - first:
+      213: 4113722936733781228
+    second: Pet_Platypus_George_Move_7
+  - first:
+      213: 154977373312452555
+    second: Pet_Platypus_George_Move_8
+  - first:
+      213: 7433854294980587417
+    second: Pet_Platypus_George_Move_9
+  - first:
+      213: 5023671888238002850
+    second: Pet_Platypus_George_Move_10
+  - first:
+      213: -1563395141623606108
+    second: Pet_Platypus_George_Move_11
+  - first:
+      213: 5572602226363422486
+    second: Pet_Platypus_George_Move_12
+  - first:
+      213: 9140730591640590562
+    second: Pet_Platypus_George_Move_13
+  - first:
+      213: 2970172711260644290
+    second: Pet_Platypus_George_Move_14
+  - first:
+      213: 1233708047276729452
+    second: Pet_Platypus_George_Move_15
+  - first:
+      213: 7670086010057963237
+    second: Pet_Platypus_George_Move_16
+  - first:
+      213: -3366310781631075566
+    second: Pet_Platypus_George_Move_17
+  - first:
+      213: 6686850132336757839
+    second: Pet_Platypus_George_Move_18
+  - first:
+      213: -6106915136977154592
+    second: Pet_Platypus_George_Move_19
+  - first:
+      213: 4673905989070304764
+    second: Pet_Platypus_George_Move_20
+  - first:
+      213: 6468833227833135404
+    second: Pet_Platypus_George_Move_21
+  - first:
+      213: -4148137665247623839
+    second: Pet_Platypus_George_Move_22
+  - first:
+      213: -649605715751417982
+    second: Pet_Platypus_George_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 421
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1650c4164a5e2d30800000000000000
+      internalID: 4408560342284654109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 420
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fd893ffc26f4330800000000000000
+      internalID: 3697282464379101026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 420
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189da0ea10d3075a0800000000000000
+      internalID: -6525648782635640447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 421
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ce7338df4fb1b40800000000000000
+      internalID: 5412188746881166437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_4
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 422
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b23b5423b540e40800000000000000
+      internalID: 5621718506341083939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_5
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 422
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce85c19c23386600800000000000000
+      internalID: 461675228322696911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_6
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 303
+        width: 40
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ba80a4be0662fa0800000000000000
+      internalID: -5825862504281494772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_7
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 303
+        width: 40
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cecc46c2731e61930800000000000000
+      internalID: 4113722936733781228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_8
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 303
+        width: 40
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc703849917962200800000000000000
+      internalID: 154977373312452555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_9
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 303
+        width: 40
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f6454581b5a2760800000000000000
+      internalID: 7433854294980587417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_10
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 303
+        width: 40
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2ca8e37faa7b540800000000000000
+      internalID: 5023671888238002850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_11
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 303
+        width: 40
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a414f3e664bd4ae0800000000000000
+      internalID: -1563395141623606108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_12
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 175
+        width: 40
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61751f0333cd55d40800000000000000
+      internalID: 5572602226363422486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_13
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 175
+        width: 40
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8984e1b066ade70800000000000000
+      internalID: 9140730591640590562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 175
+        width: 40
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3ef30285c283920800000000000000
+      internalID: 2970172711260644290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_15
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 175
+        width: 40
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64687abee20f1110800000000000000
+      internalID: 1233708047276729452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_16
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 175
+        width: 40
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6b23a969e917a60800000000000000
+      internalID: 7670086010057963237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_17
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 175
+        width: 40
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21bef49fd267841d0800000000000000
+      internalID: -3366310781631075566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_18
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 38
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4cc43454c67ccc50800000000000000
+      internalID: 6686850132336757839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_19
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 40
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed450be901ef3ba0800000000000000
+      internalID: -6106915136977154592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 42
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf53b10dbbc0dd040800000000000000
+      internalID: 4673905989070304764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_21
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 42
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21dc302c89e5c950800000000000000
+      internalID: 6468833227833135404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_22
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 40
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1654f7f65cade66c0800000000000000
+      internalID: -4148137665247623839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Platypus_George_Move_23
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 38
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287c2941b032cf6f0800000000000000
+      internalID: -649605715751417982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pet_Platypus_George_Move_0: 4408560342284654109
+      Pet_Platypus_George_Move_1: 3697282464379101026
+      Pet_Platypus_George_Move_10: 5023671888238002850
+      Pet_Platypus_George_Move_11: -1563395141623606108
+      Pet_Platypus_George_Move_12: 5572602226363422486
+      Pet_Platypus_George_Move_13: 9140730591640590562
+      Pet_Platypus_George_Move_14: 2970172711260644290
+      Pet_Platypus_George_Move_15: 1233708047276729452
+      Pet_Platypus_George_Move_16: 7670086010057963237
+      Pet_Platypus_George_Move_17: -3366310781631075566
+      Pet_Platypus_George_Move_18: 6686850132336757839
+      Pet_Platypus_George_Move_19: -6106915136977154592
+      Pet_Platypus_George_Move_2: -6525648782635640447
+      Pet_Platypus_George_Move_20: 4673905989070304764
+      Pet_Platypus_George_Move_21: 6468833227833135404
+      Pet_Platypus_George_Move_22: -4148137665247623839
+      Pet_Platypus_George_Move_23: -649605715751417982
+      Pet_Platypus_George_Move_3: 5412188746881166437
+      Pet_Platypus_George_Move_4: 5621718506341083939
+      Pet_Platypus_George_Move_5: 461675228322696911
+      Pet_Platypus_George_Move_6: -5825862504281494772
+      Pet_Platypus_George_Move_7: 4113722936733781228
+      Pet_Platypus_George_Move_8: 154977373312452555
+      Pet_Platypus_George_Move_9: 7433854294980587417
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

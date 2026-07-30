@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 180c135dcdeeb004185f7ea83c416e2e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -342445082874049168
+    second: Tales_Aslan_Move_0
+  - first:
+      213: -1726816821569857263
+    second: Tales_Aslan_Move_1
+  - first:
+      213: 624441414029820765
+    second: Tales_Aslan_Move_2
+  - first:
+      213: 7943165812464607440
+    second: Tales_Aslan_Move_3
+  - first:
+      213: -7043931620951779364
+    second: Tales_Aslan_Move_4
+  - first:
+      213: 6646939587557867413
+    second: Tales_Aslan_Move_5
+  - first:
+      213: 5187621437849686797
+    second: Tales_Aslan_Move_6
+  - first:
+      213: -5371422796940598040
+    second: Tales_Aslan_Move_7
+  - first:
+      213: 769345394038020790
+    second: Tales_Aslan_Move_8
+  - first:
+      213: -4384621238172096082
+    second: Tales_Aslan_Move_9
+  - first:
+      213: 3217145609872647833
+    second: Tales_Aslan_Move_10
+  - first:
+      213: 34137048511591112
+    second: Tales_Aslan_Move_11
+  - first:
+      213: -2947639015084845077
+    second: Tales_Aslan_Move_12
+  - first:
+      213: 6413634396784973187
+    second: Tales_Aslan_Move_13
+  - first:
+      213: -6581355665325794818
+    second: Tales_Aslan_Move_14
+  - first:
+      213: 3867742177047965895
+    second: Tales_Aslan_Move_15
+  - first:
+      213: 7469126469952996421
+    second: Tales_Aslan_Move_16
+  - first:
+      213: 1146738095284296621
+    second: Tales_Aslan_Move_17
+  - first:
+      213: -3429581465694922265
+    second: Tales_Aslan_Move_18
+  - first:
+      213: 1155441997138690048
+    second: Tales_Aslan_Move_19
+  - first:
+      213: 8070394143397610716
+    second: Tales_Aslan_Move_20
+  - first:
+      213: 6773494749013439400
+    second: Tales_Aslan_Move_21
+  - first:
+      213: -8552176585913219200
+    second: Tales_Aslan_Move_22
+  - first:
+      213: -4699503062265077344
+    second: Tales_Aslan_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 427
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d8630f2046f3bf0800000000000000
+      internalID: -342445082874049168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 429
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119d826ff3d1908e0800000000000000
+      internalID: -1726816821569857263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 427
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d534a4a58267aa800800000000000000
+      internalID: 624441414029820765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 428
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0eaf3c83bcb3e60800000000000000
+      internalID: 7943165812464607440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_4
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 431
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd71707d28dee3e90800000000000000
+      internalID: -7043931620951779364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 431
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f3edf765cae3c50800000000000000
+      internalID: 6646939587557867413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_6
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 303
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d035b3866322ef740800000000000000
+      internalID: 5187621437849686797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_7
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 303
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4abe9dc6fd475b0800000000000000
+      internalID: -5371422796940598040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 303
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba18394f834daa00800000000000000
+      internalID: 769345394038020790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_9
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 303
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea96e10f632b623c0800000000000000
+      internalID: -4384621238172096082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_10
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 303
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996aa2313e895ac20800000000000000
+      internalID: 3217145609872647833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_11
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 303
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2b63af677497000800000000000000
+      internalID: 34137048511591112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_12
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 175
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be719cbdee1e717d0800000000000000
+      internalID: -2947639015084845077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_13
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 175
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3855893c08ec10950800000000000000
+      internalID: 6413634396784973187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_14
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 175
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef950c354e35aa4a0800000000000000
+      internalID: -6581355665325794818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 175
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c07db1940bfca530800000000000000
+      internalID: 3867742177047965895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_16
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 175
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544040883faa7a760800000000000000
+      internalID: 7469126469952996421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_17
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 175
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab14d3d8380aef00800000000000000
+      internalID: 1146738095284296621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 47
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e99df0e3dda760d0800000000000000
+      internalID: -3429581465694922265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 47
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0000506ef54f80010800000000000000
+      internalID: 1155441997138690048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 47
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd48b92f6bccfff60800000000000000
+      internalID: 8070394143397610716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_21
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 47
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a37be23699400e50800000000000000
+      internalID: 6773494749013439400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_22
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 47
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087ca3cd4b0905980800000000000000
+      internalID: -8552176585913219200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Aslan_Move_23
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 47
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a164d82dd208ceb0800000000000000
+      internalID: -4699503062265077344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tales_Aslan_Move_0: -342445082874049168
+      Tales_Aslan_Move_1: -1726816821569857263
+      Tales_Aslan_Move_10: 3217145609872647833
+      Tales_Aslan_Move_11: 34137048511591112
+      Tales_Aslan_Move_12: -2947639015084845077
+      Tales_Aslan_Move_13: 6413634396784973187
+      Tales_Aslan_Move_14: -6581355665325794818
+      Tales_Aslan_Move_15: 3867742177047965895
+      Tales_Aslan_Move_16: 7469126469952996421
+      Tales_Aslan_Move_17: 1146738095284296621
+      Tales_Aslan_Move_18: -3429581465694922265
+      Tales_Aslan_Move_19: 1155441997138690048
+      Tales_Aslan_Move_2: 624441414029820765
+      Tales_Aslan_Move_20: 8070394143397610716
+      Tales_Aslan_Move_21: 6773494749013439400
+      Tales_Aslan_Move_22: -8552176585913219200
+      Tales_Aslan_Move_23: -4699503062265077344
+      Tales_Aslan_Move_3: 7943165812464607440
+      Tales_Aslan_Move_4: -7043931620951779364
+      Tales_Aslan_Move_5: 6646939587557867413
+      Tales_Aslan_Move_6: 5187621437849686797
+      Tales_Aslan_Move_7: -5371422796940598040
+      Tales_Aslan_Move_8: 769345394038020790
+      Tales_Aslan_Move_9: -4384621238172096082
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

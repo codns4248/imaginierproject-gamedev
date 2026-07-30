@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: a4f5fcf7620dea845900cfd381ca283f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -939347599058130501
+    second: Labrador_Idle_0
+  - first:
+      213: 8919801909361659045
+    second: Labrador_Idle_1
+  - first:
+      213: 8682919535727042972
+    second: Labrador_Idle_2
+  - first:
+      213: -3751077261463592328
+    second: Labrador_Idle_3
+  - first:
+      213: 2360095760797028046
+    second: Labrador_Idle_4
+  - first:
+      213: -8903496889653278170
+    second: Labrador_Idle_5
+  - first:
+      213: 1201908005080389024
+    second: Labrador_Idle_6
+  - first:
+      213: 4062180913624416324
+    second: Labrador_Idle_7
+  - first:
+      213: -5127384057064548653
+    second: Labrador_Idle_8
+  - first:
+      213: -3680850839219529324
+    second: Labrador_Idle_9
+  - first:
+      213: 3537336848916183481
+    second: Labrador_Idle_10
+  - first:
+      213: 1447230846050217790
+    second: Labrador_Idle_11
+  - first:
+      213: -6842790833164649864
+    second: Labrador_Idle_12
+  - first:
+      213: -4669028522469179284
+    second: Labrador_Idle_13
+  - first:
+      213: -8229481217228640182
+    second: Labrador_Idle_14
+  - first:
+      213: -5760606257830263016
+    second: Labrador_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Labrador_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 319
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb92685e554c6f2f0800000000000000
+      internalID: -939347599058130501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 319
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac4a52d39089cb70800000000000000
+      internalID: 8919801909361659045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 319
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c916f4c405def7870800000000000000
+      internalID: 8682919535727042972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 319
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872ea61da1f71fbc0800000000000000
+      internalID: -3751077261463592328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 223
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece4632179eb0c020800000000000000
+      internalID: 2360095760797028046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 223
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62acb6960cc607480800000000000000
+      internalID: -8903496889653278170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 223
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5d38f66f80ea010800000000000000
+      internalID: 1201908005080389024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 223
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44084f1c404cf5830800000000000000
+      internalID: 4062180913624416324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 127
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d69aabbd5fd7d8b0800000000000000
+      internalID: -5127384057064548653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 127
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4991f19e9adfaecc0800000000000000
+      internalID: -3680850839219529324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 127
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b97c8a5f15271130800000000000000
+      internalID: 3537336848916183481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 127
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3fafc669c8951410800000000000000
+      internalID: 1447230846050217790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 31
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87afbecedf58901a0800000000000000
+      internalID: -6842790833164649864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 31
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60ce00eb47443fb0800000000000000
+      internalID: -4669028522469179284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 31
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4076514f620bcd80800000000000000
+      internalID: -8229481217228640182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 31
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817822721273e00b0800000000000000
+      internalID: -5760606257830263016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Labrador_Idle_0: -939347599058130501
+      Labrador_Idle_1: 8919801909361659045
+      Labrador_Idle_10: 3537336848916183481
+      Labrador_Idle_11: 1447230846050217790
+      Labrador_Idle_12: -6842790833164649864
+      Labrador_Idle_13: -4669028522469179284
+      Labrador_Idle_14: -8229481217228640182
+      Labrador_Idle_15: -5760606257830263016
+      Labrador_Idle_2: 8682919535727042972
+      Labrador_Idle_3: -3751077261463592328
+      Labrador_Idle_4: 2360095760797028046
+      Labrador_Idle_5: -8903496889653278170
+      Labrador_Idle_6: 1201908005080389024
+      Labrador_Idle_7: 4062180913624416324
+      Labrador_Idle_8: -5127384057064548653
+      Labrador_Idle_9: -3680850839219529324
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

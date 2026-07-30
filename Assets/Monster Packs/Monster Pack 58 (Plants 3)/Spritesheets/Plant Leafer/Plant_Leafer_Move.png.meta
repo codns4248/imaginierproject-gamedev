@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 8f309c7aefc84f843a622e03c2312710
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8339779295106852538
+    second: Plant_Leafer_Move_0
+  - first:
+      213: -256772677250479485
+    second: Plant_Leafer_Move_1
+  - first:
+      213: 454277115984057732
+    second: Plant_Leafer_Move_2
+  - first:
+      213: 7741391464321281495
+    second: Plant_Leafer_Move_3
+  - first:
+      213: -6324116434900439812
+    second: Plant_Leafer_Move_4
+  - first:
+      213: -2040269141074208095
+    second: Plant_Leafer_Move_5
+  - first:
+      213: 7388550988434857538
+    second: Plant_Leafer_Move_6
+  - first:
+      213: -4117112110981530530
+    second: Plant_Leafer_Move_7
+  - first:
+      213: -5026151707969274582
+    second: Plant_Leafer_Move_8
+  - first:
+      213: 2404461753408801401
+    second: Plant_Leafer_Move_9
+  - first:
+      213: -27541626341527597
+    second: Plant_Leafer_Move_10
+  - first:
+      213: -2611896968611510010
+    second: Plant_Leafer_Move_11
+  - first:
+      213: 6798520641017108241
+    second: Plant_Leafer_Move_12
+  - first:
+      213: 2305680668620699954
+    second: Plant_Leafer_Move_13
+  - first:
+      213: 6992380694858167260
+    second: Plant_Leafer_Move_14
+  - first:
+      213: -7021817736742969770
+    second: Plant_Leafer_Move_15
+  - first:
+      213: -5134150969488881960
+    second: Plant_Leafer_Move_16
+  - first:
+      213: -5305937176576947539
+    second: Plant_Leafer_Move_17
+  - first:
+      213: -4595631221220394175
+    second: Plant_Leafer_Move_18
+  - first:
+      213: 6368954253597142383
+    second: Plant_Leafer_Move_19
+  - first:
+      213: 5583740593556637142
+    second: Plant_Leafer_Move_20
+  - first:
+      213: 7374136640858045802
+    second: Plant_Leafer_Move_21
+  - first:
+      213: 2649679920778197141
+    second: Plant_Leafer_Move_22
+  - first:
+      213: 8658079974360240331
+    second: Plant_Leafer_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 433
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6499ff9cae6234c80800000000000000
+      internalID: -8339779295106852538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 434
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a85784c92cf6cf0800000000000000
+      internalID: -256772677250479485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 434
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48591df41aaed4600800000000000000
+      internalID: 454277115984057732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 431
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd6c1a6582fe6b60800000000000000
+      internalID: 7741391464321281495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_4
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 429
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfcac8beb993c38a0800000000000000
+      internalID: -6324116434900439812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_5
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 431
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa9418a6028fa3e0800000000000000
+      internalID: -2040269141074208095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 306
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e558e4af7698660800000000000000
+      internalID: 7388550988434857538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_7
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 307
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5cbc7439541dd6c0800000000000000
+      internalID: -4117112110981530530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_8
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 306
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2db44bb6a58f3ab0800000000000000
+      internalID: -5026151707969274582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_9
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 306
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ac1ffa93d5e5120800000000000000
+      internalID: 2404461753408801401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_10
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 306
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df606969072e9ff0800000000000000
+      internalID: -27541626341527597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_11
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 306
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609cdf3ab8da0cbd0800000000000000
+      internalID: -2611896968611510010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 178
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1175cfdb082395e50800000000000000
+      internalID: 6798520641017108241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 179
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2393f922a5c6fff10800000000000000
+      internalID: 2305680668620699954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_14
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 178
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3f15bd13de90160800000000000000
+      internalID: 6992380694858167260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_15
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 178
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ed5ebb8fd7d8e90800000000000000
+      internalID: -7021817736742969770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_16
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 178
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6436825e4dfb8b0800000000000000
+      internalID: -5134150969488881960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_17
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 178
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa879dff368d56b0800000000000000
+      internalID: -5305937176576947539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_18
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 49
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bb674c0c90930c0800000000000000
+      internalID: -4595631221220394175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_19
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 50
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6dee544622136850800000000000000
+      internalID: 6368954253597142383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_20
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 50
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d54fd46c7e6d7d40800000000000000
+      internalID: 5583740593556637142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 47
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d398b7432365660800000000000000
+      internalID: 7374136640858045802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_22
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 45
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598387e69dd85c420800000000000000
+      internalID: 2649679920778197141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Move_23
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 47
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc05aac3ddda72870800000000000000
+      internalID: 8658079974360240331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Plant_Leafer_Move_0: -8339779295106852538
+      Plant_Leafer_Move_1: -256772677250479485
+      Plant_Leafer_Move_10: -27541626341527597
+      Plant_Leafer_Move_11: -2611896968611510010
+      Plant_Leafer_Move_12: 6798520641017108241
+      Plant_Leafer_Move_13: 2305680668620699954
+      Plant_Leafer_Move_14: 6992380694858167260
+      Plant_Leafer_Move_15: -7021817736742969770
+      Plant_Leafer_Move_16: -5134150969488881960
+      Plant_Leafer_Move_17: -5305937176576947539
+      Plant_Leafer_Move_18: -4595631221220394175
+      Plant_Leafer_Move_19: 6368954253597142383
+      Plant_Leafer_Move_2: 454277115984057732
+      Plant_Leafer_Move_20: 5583740593556637142
+      Plant_Leafer_Move_21: 7374136640858045802
+      Plant_Leafer_Move_22: 2649679920778197141
+      Plant_Leafer_Move_23: 8658079974360240331
+      Plant_Leafer_Move_3: 7741391464321281495
+      Plant_Leafer_Move_4: -6324116434900439812
+      Plant_Leafer_Move_5: -2040269141074208095
+      Plant_Leafer_Move_6: 7388550988434857538
+      Plant_Leafer_Move_7: -4117112110981530530
+      Plant_Leafer_Move_8: -5026151707969274582
+      Plant_Leafer_Move_9: 2404461753408801401
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

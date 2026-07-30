@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 481ef8be06a27094d97817ef8e5a719f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3055323774261466349
+    second: Tales_Ishi_Move_0
+  - first:
+      213: -6435784053567520963
+    second: Tales_Ishi_Move_1
+  - first:
+      213: 6090305649049988266
+    second: Tales_Ishi_Move_2
+  - first:
+      213: 2393317719258023810
+    second: Tales_Ishi_Move_3
+  - first:
+      213: -2481830679905930485
+    second: Tales_Ishi_Move_4
+  - first:
+      213: -440389438222438274
+    second: Tales_Ishi_Move_5
+  - first:
+      213: -8407777471186444464
+    second: Tales_Ishi_Move_6
+  - first:
+      213: -3370406739479434773
+    second: Tales_Ishi_Move_7
+  - first:
+      213: 6854687434025368101
+    second: Tales_Ishi_Move_8
+  - first:
+      213: -1176492764008930888
+    second: Tales_Ishi_Move_9
+  - first:
+      213: 3887240923458559046
+    second: Tales_Ishi_Move_10
+  - first:
+      213: 2864131299581479257
+    second: Tales_Ishi_Move_11
+  - first:
+      213: 5411508023183319885
+    second: Tales_Ishi_Move_12
+  - first:
+      213: 8770396877580533255
+    second: Tales_Ishi_Move_13
+  - first:
+      213: 5243700980166935692
+    second: Tales_Ishi_Move_14
+  - first:
+      213: -907378103456982255
+    second: Tales_Ishi_Move_15
+  - first:
+      213: 1211283608026013568
+    second: Tales_Ishi_Move_16
+  - first:
+      213: 3441006004433072799
+    second: Tales_Ishi_Move_17
+  - first:
+      213: -1973001528258626974
+    second: Tales_Ishi_Move_18
+  - first:
+      213: -6360852426461047885
+    second: Tales_Ishi_Move_19
+  - first:
+      213: 8798204499717464604
+    second: Tales_Ishi_Move_20
+  - first:
+      213: 3154152135330583191
+    second: Tales_Ishi_Move_21
+  - first:
+      213: -1901880742769330271
+    second: Tales_Ishi_Move_22
+  - first:
+      213: 5928278187667654045
+    second: Tales_Ishi_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 431
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31be651173f4995d0800000000000000
+      internalID: -3055323774261466349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 431
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ffbf360808fa6a0800000000000000
+      internalID: -6435784053567520963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 431
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaced2158bc158450800000000000000
+      internalID: 6090305649049988266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_3
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 431
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287c50b09c5c63120800000000000000
+      internalID: 2393317719258023810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_4
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 431
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b037a8b5524ce8dd0800000000000000
+      internalID: -2481830679905930485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_5
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 431
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70fae3a32c63e9f0800000000000000
+      internalID: -440389438222438274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_6
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 303
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f566fafe2915b80800000000000000
+      internalID: -8407777471186444464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_7
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 303
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9eeb87de8e931d0800000000000000
+      internalID: -3370406739479434773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_8
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 303
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a7a6f47edb02f50800000000000000
+      internalID: 6854687434025368101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_9
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 303
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b12e6080124cafe0800000000000000
+      internalID: -1176492764008930888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_10
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 303
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64cdb1f360142f530800000000000000
+      internalID: 3887240923458559046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_11
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 303
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959c1adfd307fb720800000000000000
+      internalID: 2864131299581479257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_12
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 175
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43a40d20e9891b40800000000000000
+      internalID: 5411508023183319885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_13
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 175
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ef16b1e75b6b970800000000000000
+      internalID: 8770396877580533255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_14
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 175
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84c737524e55c840800000000000000
+      internalID: 5243700980166935692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 175
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b9a722c685863f0800000000000000
+      internalID: -907378103456982255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_16
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 175
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08fd4aa16085fc010800000000000000
+      internalID: 1211283608026013568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_17
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 175
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f923834dab8e0cf20800000000000000
+      internalID: 3441006004433072799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 47
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a77de309d7e94e0800000000000000
+      internalID: -1973001528258626974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 47
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b39b1c5b66b9b7a0800000000000000
+      internalID: -6360852426461047885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 47
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1227eaa060891a70800000000000000
+      internalID: 8798204499717464604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_21
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 47
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7925be9d7acc5cb20800000000000000
+      internalID: 3154152135330583191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_22
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 47
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7f3128a892b95e0800000000000000
+      internalID: -1901880742769330271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Ishi_Move_23
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 47
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9580a13a99754250800000000000000
+      internalID: 5928278187667654045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tales_Ishi_Move_0: -3055323774261466349
+      Tales_Ishi_Move_1: -6435784053567520963
+      Tales_Ishi_Move_10: 3887240923458559046
+      Tales_Ishi_Move_11: 2864131299581479257
+      Tales_Ishi_Move_12: 5411508023183319885
+      Tales_Ishi_Move_13: 8770396877580533255
+      Tales_Ishi_Move_14: 5243700980166935692
+      Tales_Ishi_Move_15: -907378103456982255
+      Tales_Ishi_Move_16: 1211283608026013568
+      Tales_Ishi_Move_17: 3441006004433072799
+      Tales_Ishi_Move_18: -1973001528258626974
+      Tales_Ishi_Move_19: -6360852426461047885
+      Tales_Ishi_Move_2: 6090305649049988266
+      Tales_Ishi_Move_20: 8798204499717464604
+      Tales_Ishi_Move_21: 3154152135330583191
+      Tales_Ishi_Move_22: -1901880742769330271
+      Tales_Ishi_Move_23: 5928278187667654045
+      Tales_Ishi_Move_3: 2393317719258023810
+      Tales_Ishi_Move_4: -2481830679905930485
+      Tales_Ishi_Move_5: -440389438222438274
+      Tales_Ishi_Move_6: -8407777471186444464
+      Tales_Ishi_Move_7: -3370406739479434773
+      Tales_Ishi_Move_8: 6854687434025368101
+      Tales_Ishi_Move_9: -1176492764008930888
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 9c50c0a149e5ff8449f6d2d2cbacea73
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8532458672967514821
+    second: Skeleton_Dog_Attack_0
+  - first:
+      213: 1461945904056927309
+    second: Skeleton_Dog_Attack_1
+  - first:
+      213: -1375424359879102722
+    second: Skeleton_Dog_Attack_2
+  - first:
+      213: -6676016672359457931
+    second: Skeleton_Dog_Attack_3
+  - first:
+      213: 1395416780210176483
+    second: Skeleton_Dog_Attack_4
+  - first:
+      213: 7617929548546137784
+    second: Skeleton_Dog_Attack_5
+  - first:
+      213: 8794514541634529788
+    second: Skeleton_Dog_Attack_6
+  - first:
+      213: -8980927780671368058
+    second: Skeleton_Dog_Attack_7
+  - first:
+      213: 5721136413685222696
+    second: Skeleton_Dog_Attack_8
+  - first:
+      213: -5682375706653646630
+    second: Skeleton_Dog_Attack_9
+  - first:
+      213: -7462163251782211029
+    second: Skeleton_Dog_Attack_10
+  - first:
+      213: -6281067597271392663
+    second: Skeleton_Dog_Attack_11
+  - first:
+      213: 5978156058782585765
+    second: Skeleton_Dog_Attack_12
+  - first:
+      213: 212969257015511303
+    second: Skeleton_Dog_Attack_13
+  - first:
+      213: -1490556899881730358
+    second: Skeleton_Dog_Attack_14
+  - first:
+      213: 745992242858759621
+    second: Skeleton_Dog_Attack_15
+  - first:
+      213: 6531079722004975459
+    second: Skeleton_Dog_Attack_16
+  - first:
+      213: 185146715348200484
+    second: Skeleton_Dog_Attack_17
+  - first:
+      213: 4771238784008886859
+    second: Skeleton_Dog_Attack_18
+  - first:
+      213: -1833722496349860389
+    second: Skeleton_Dog_Attack_19
+  - first:
+      213: 4493723080094284190
+    second: Skeleton_Dog_Attack_20
+  - first:
+      213: 5937755785274604070
+    second: Skeleton_Dog_Attack_21
+  - first:
+      213: -4501737258647572501
+    second: Skeleton_Dog_Attack_22
+  - first:
+      213: -7715022969104386553
+    second: Skeleton_Dog_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 435
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cafde6c4f1696670800000000000000
+      internalID: 8532458672967514821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 434
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d448624dd00e94410800000000000000
+      internalID: 1461945904056927309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 431
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efeacfdf4d289ece0800000000000000
+      internalID: -1375424359879102722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 432
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bdd6125360a53a0800000000000000
+      internalID: -6676016672359457931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 431
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e10c0a1b248d5310800000000000000
+      internalID: 1395416780210176483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 431
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be5b09109258b960800000000000000
+      internalID: 7617929548546137784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 303
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9222a51646c0a70800000000000000
+      internalID: 8794514541634529788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 307
+        width: 45
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68455a734c55d5380800000000000000
+      internalID: -8980927780671368058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 303
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d8241a14f856f40800000000000000
+      internalID: 5721136413685222696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 303
+        width: 44
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0a99cb6652421b0800000000000000
+      internalID: -5682375706653646630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 303
+        width: 43
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a2c890f02117890800000000000000
+      internalID: -7462163251782211029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 303
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e1c6e7c4a25d8a0800000000000000
+      internalID: -6281067597271392663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 175
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3d597034da6f250800000000000000
+      internalID: 5978156058782585765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 179
+        width: 45
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7090d70396e94f200800000000000000
+      internalID: 212969257015511303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 175
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aceba09956a705be0800000000000000
+      internalID: -1490556899881730358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 175
+        width: 44
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c51bc01efb4a5a00800000000000000
+      internalID: 745992242858759621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 175
+        width: 43
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f0ddd676e03aa50800000000000000
+      internalID: 6531079722004975459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 175
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ce8a7e4f5c19200800000000000000
+      internalID: 185146715348200484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a9a6b1568d63240800000000000000
+      internalID: 4771238784008886859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 50
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd8c64ea1f4d86e0800000000000000
+      internalID: -1833722496349860389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 48
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e997ef32559ec5e30800000000000000
+      internalID: 4493723080094284190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 47
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a30585d65276250800000000000000
+      internalID: 5937755785274604070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 47
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befab2280dd9681c0800000000000000
+      internalID: -4501737258647572501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706bd8c4c7bbee490800000000000000
+      internalID: -7715022969104386553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skeleton_Dog_Attack_0: 8532458672967514821
+      Skeleton_Dog_Attack_1: 1461945904056927309
+      Skeleton_Dog_Attack_10: -7462163251782211029
+      Skeleton_Dog_Attack_11: -6281067597271392663
+      Skeleton_Dog_Attack_12: 5978156058782585765
+      Skeleton_Dog_Attack_13: 212969257015511303
+      Skeleton_Dog_Attack_14: -1490556899881730358
+      Skeleton_Dog_Attack_15: 745992242858759621
+      Skeleton_Dog_Attack_16: 6531079722004975459
+      Skeleton_Dog_Attack_17: 185146715348200484
+      Skeleton_Dog_Attack_18: 4771238784008886859
+      Skeleton_Dog_Attack_19: -1833722496349860389
+      Skeleton_Dog_Attack_2: -1375424359879102722
+      Skeleton_Dog_Attack_20: 4493723080094284190
+      Skeleton_Dog_Attack_21: 5937755785274604070
+      Skeleton_Dog_Attack_22: -4501737258647572501
+      Skeleton_Dog_Attack_23: -7715022969104386553
+      Skeleton_Dog_Attack_3: -6676016672359457931
+      Skeleton_Dog_Attack_4: 1395416780210176483
+      Skeleton_Dog_Attack_5: 7617929548546137784
+      Skeleton_Dog_Attack_6: 8794514541634529788
+      Skeleton_Dog_Attack_7: -8980927780671368058
+      Skeleton_Dog_Attack_8: 5721136413685222696
+      Skeleton_Dog_Attack_9: -5682375706653646630
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: aafc1d2d99dd9b246b1ab932ba1376f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6234289961566620446
+    second: Puppet_H_Move_0
+  - first:
+      213: -6423567225405493116
+    second: Puppet_H_Move_1
+  - first:
+      213: -6827773620646456134
+    second: Puppet_H_Move_2
+  - first:
+      213: 3592206740386226192
+    second: Puppet_H_Move_3
+  - first:
+      213: 565904883193647378
+    second: Puppet_H_Move_4
+  - first:
+      213: -6125633017709259201
+    second: Puppet_H_Move_5
+  - first:
+      213: 7240570453135952167
+    second: Puppet_H_Move_6
+  - first:
+      213: -7924065521332785479
+    second: Puppet_H_Move_7
+  - first:
+      213: -2543502641680329846
+    second: Puppet_H_Move_8
+  - first:
+      213: 8759495992444638654
+    second: Puppet_H_Move_9
+  - first:
+      213: 4686627690761605514
+    second: Puppet_H_Move_10
+  - first:
+      213: -8866365845447557042
+    second: Puppet_H_Move_11
+  - first:
+      213: 3324266657994528247
+    second: Puppet_H_Move_12
+  - first:
+      213: 1460704857209859581
+    second: Puppet_H_Move_13
+  - first:
+      213: -3197549060546915160
+    second: Puppet_H_Move_14
+  - first:
+      213: -1204184338064682657
+    second: Puppet_H_Move_15
+  - first:
+      213: -4563870800630269517
+    second: Puppet_H_Move_16
+  - first:
+      213: 8530758905663415392
+    second: Puppet_H_Move_17
+  - first:
+      213: -3126814960226703519
+    second: Puppet_H_Move_18
+  - first:
+      213: -7797356895954797063
+    second: Puppet_H_Move_19
+  - first:
+      213: 7146914325051786525
+    second: Puppet_H_Move_20
+  - first:
+      213: 1577709860858073956
+    second: Puppet_H_Move_21
+  - first:
+      213: 7716528435781677860
+    second: Puppet_H_Move_22
+  - first:
+      213: -8885588287671406583
+    second: Puppet_H_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Puppet_H_Move_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 438
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4b9068f4a5b79a0800000000000000
+      internalID: -6234289961566620446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 439
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4803dda54a7ead6a0800000000000000
+      internalID: -6423567225405493116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_2
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 438
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4d59e2110ee31a0800000000000000
+      internalID: -6827773620646456134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 435
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0102c708ff41ad130800000000000000
+      internalID: 3592206740386226192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_4
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 434
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2119a633e7f7ad700800000000000000
+      internalID: 565904883193647378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_5
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 436
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f361903b9316dfaa0800000000000000
+      internalID: -6125633017709259201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 310
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7298b56077cab7460800000000000000
+      internalID: 7240570453135952167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_7
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 311
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bee9005460180290800000000000000
+      internalID: -7924065521332785479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_8
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 310
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83506dc2d9a3bcd0800000000000000
+      internalID: -2543502641680329846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_9
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 309
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5de11023bff8970800000000000000
+      internalID: 8759495992444638654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_10
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 308
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81da5ecd0f3a0140800000000000000
+      internalID: 4686627690761605514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_11
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 309
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4041755d3754f480800000000000000
+      internalID: -8866365845447557042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 182
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f55078a9ea222e20800000000000000
+      internalID: 3324266657994528247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_13
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 183
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd6ea71457754410800000000000000
+      internalID: 1460704857209859581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_14
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 182
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4973e121600a3d0800000000000000
+      internalID: -3197549060546915160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_15
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 181
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51d09d79b0e94fe0800000000000000
+      internalID: -1204184338064682657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_16
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 180
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9b7afefafd9a0c0800000000000000
+      internalID: -4563870800630269517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_17
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 181
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064619cd608536670800000000000000
+      internalID: 8530758905663415392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_18
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 55
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1676f493c525b94d0800000000000000
+      internalID: -3126814960226703519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_19
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 58
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fdfbad17393ac390800000000000000
+      internalID: -7797356895954797063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_20
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 60
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15ccd076b0fe2360800000000000000
+      internalID: 7146914325051786525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_21
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 59
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463931762c625e510800000000000000
+      internalID: 1577709860858073956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_22
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 57
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423b7f97abd961b60800000000000000
+      internalID: 7716528435781677860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_H_Move_23
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 56
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90079fcb78c00b480800000000000000
+      internalID: -8885588287671406583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Puppet_H_Move_0: -6234289961566620446
+      Puppet_H_Move_1: -6423567225405493116
+      Puppet_H_Move_10: 4686627690761605514
+      Puppet_H_Move_11: -8866365845447557042
+      Puppet_H_Move_12: 3324266657994528247
+      Puppet_H_Move_13: 1460704857209859581
+      Puppet_H_Move_14: -3197549060546915160
+      Puppet_H_Move_15: -1204184338064682657
+      Puppet_H_Move_16: -4563870800630269517
+      Puppet_H_Move_17: 8530758905663415392
+      Puppet_H_Move_18: -3126814960226703519
+      Puppet_H_Move_19: -7797356895954797063
+      Puppet_H_Move_2: -6827773620646456134
+      Puppet_H_Move_20: 7146914325051786525
+      Puppet_H_Move_21: 1577709860858073956
+      Puppet_H_Move_22: 7716528435781677860
+      Puppet_H_Move_23: -8885588287671406583
+      Puppet_H_Move_3: 3592206740386226192
+      Puppet_H_Move_4: 565904883193647378
+      Puppet_H_Move_5: -6125633017709259201
+      Puppet_H_Move_6: 7240570453135952167
+      Puppet_H_Move_7: -7924065521332785479
+      Puppet_H_Move_8: -2543502641680329846
+      Puppet_H_Move_9: 8759495992444638654
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

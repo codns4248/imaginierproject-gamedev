@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: d8f16349640ece44da0e813925859fdb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5063285671782838159
+    second: Grin_Angry_Yellow_Attack_0
+  - first:
+      213: 3426377263399940205
+    second: Grin_Angry_Yellow_Attack_1
+  - first:
+      213: -7476080197563207376
+    second: Grin_Angry_Yellow_Attack_2
+  - first:
+      213: -6078343846018892245
+    second: Grin_Angry_Yellow_Attack_3
+  - first:
+      213: -840566360630827597
+    second: Grin_Angry_Yellow_Attack_4
+  - first:
+      213: -4518163951917649293
+    second: Grin_Angry_Yellow_Attack_5
+  - first:
+      213: 4800430926215005968
+    second: Grin_Angry_Yellow_Attack_6
+  - first:
+      213: -6084029146017445264
+    second: Grin_Angry_Yellow_Attack_7
+  - first:
+      213: 4183422235824163352
+    second: Grin_Angry_Yellow_Attack_8
+  - first:
+      213: 1322992706881798839
+    second: Grin_Angry_Yellow_Attack_9
+  - first:
+      213: -7389284407164907191
+    second: Grin_Angry_Yellow_Attack_10
+  - first:
+      213: 1388330856287526410
+    second: Grin_Angry_Yellow_Attack_11
+  - first:
+      213: 1440276136193158450
+    second: Grin_Angry_Yellow_Attack_12
+  - first:
+      213: 1470081207411578410
+    second: Grin_Angry_Yellow_Attack_13
+  - first:
+      213: 690519380448936788
+    second: Grin_Angry_Yellow_Attack_14
+  - first:
+      213: 3218468652143245043
+    second: Grin_Angry_Yellow_Attack_15
+  - first:
+      213: -3713903594351572963
+    second: Grin_Angry_Yellow_Attack_16
+  - first:
+      213: -5887250578604905104
+    second: Grin_Angry_Yellow_Attack_17
+  - first:
+      213: -4402200620933147661
+    second: Grin_Angry_Yellow_Attack_18
+  - first:
+      213: -1739295428169902751
+    second: Grin_Angry_Yellow_Attack_19
+  - first:
+      213: -4238346575272662072
+    second: Grin_Angry_Yellow_Attack_20
+  - first:
+      213: -3131475518231640053
+    second: Grin_Angry_Yellow_Attack_21
+  - first:
+      213: 8240412028595631404
+    second: Grin_Angry_Yellow_Attack_22
+  - first:
+      213: 8323202858209374059
+    second: Grin_Angry_Yellow_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 429
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1701f0902889bb9b0800000000000000
+      internalID: -5063285671782838159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 429
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60bd63a7ffec8f20800000000000000
+      internalID: 3426377263399940205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 429
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031b9e79ba0af3890800000000000000
+      internalID: -7476080197563207376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 429
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ebc5bf97265aba0800000000000000
+      internalID: -6078343846018892245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 429
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5e4783955b554f0800000000000000
+      internalID: -840566360630827597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 429
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37239f0f2d14c41c0800000000000000
+      internalID: -4518163951917649293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 301
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01748dd5e7e8e9240800000000000000
+      internalID: 4800430926215005968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 301
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ac18ce9bf219ba0800000000000000
+      internalID: -6084029146017445264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 301
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a05c7db508e0a30800000000000000
+      internalID: 4183422235824163352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 301
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b24f1e7bd63c5210800000000000000
+      internalID: 1322992706881798839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 301
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9415a965bfcf37990800000000000000
+      internalID: -7389284407164907191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 301
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e5bbfde87544310800000000000000
+      internalID: 1388330856287526410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 173
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23de344d383ecf310800000000000000
+      internalID: 1440276136193158450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 173
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a269ebeb117c66410800000000000000
+      internalID: 1470081207411578410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 173
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4538e2ec7b7359900800000000000000
+      internalID: 690519380448936788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 173
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f67abbdf2c4aac20800000000000000
+      internalID: 3218468652143245043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 173
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18c0a8ab50957cc0800000000000000
+      internalID: -3713903594351572963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 173
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07daa8e6ac84c4ea0800000000000000
+      internalID: -5887250578604905104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 45
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3964febdd38e2c0800000000000000
+      internalID: -4402200620933147661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 45
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165d874f508ccd7e0800000000000000
+      internalID: -1739295428169902751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 45
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb21e9de3e5e25c0800000000000000
+      internalID: -4238346575272662072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 45
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0888f08b93ca84d0800000000000000
+      internalID: -3131475518231640053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 45
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c257c479413db5270800000000000000
+      internalID: 8240412028595631404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Yellow_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 45
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6fe51db6e4f18370800000000000000
+      internalID: 8323202858209374059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Grin_Angry_Yellow_Attack_0: -5063285671782838159
+      Grin_Angry_Yellow_Attack_1: 3426377263399940205
+      Grin_Angry_Yellow_Attack_10: -7389284407164907191
+      Grin_Angry_Yellow_Attack_11: 1388330856287526410
+      Grin_Angry_Yellow_Attack_12: 1440276136193158450
+      Grin_Angry_Yellow_Attack_13: 1470081207411578410
+      Grin_Angry_Yellow_Attack_14: 690519380448936788
+      Grin_Angry_Yellow_Attack_15: 3218468652143245043
+      Grin_Angry_Yellow_Attack_16: -3713903594351572963
+      Grin_Angry_Yellow_Attack_17: -5887250578604905104
+      Grin_Angry_Yellow_Attack_18: -4402200620933147661
+      Grin_Angry_Yellow_Attack_19: -1739295428169902751
+      Grin_Angry_Yellow_Attack_2: -7476080197563207376
+      Grin_Angry_Yellow_Attack_20: -4238346575272662072
+      Grin_Angry_Yellow_Attack_21: -3131475518231640053
+      Grin_Angry_Yellow_Attack_22: 8240412028595631404
+      Grin_Angry_Yellow_Attack_23: 8323202858209374059
+      Grin_Angry_Yellow_Attack_3: -6078343846018892245
+      Grin_Angry_Yellow_Attack_4: -840566360630827597
+      Grin_Angry_Yellow_Attack_5: -4518163951917649293
+      Grin_Angry_Yellow_Attack_6: 4800430926215005968
+      Grin_Angry_Yellow_Attack_7: -6084029146017445264
+      Grin_Angry_Yellow_Attack_8: 4183422235824163352
+      Grin_Angry_Yellow_Attack_9: 1322992706881798839
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 3dd5f10e1da5d274590c041093e1d0c2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8516599392576239442
+    second: Wolf_Black_Raider_Move_0
+  - first:
+      213: -7896465422536019543
+    second: Wolf_Black_Raider_Move_1
+  - first:
+      213: -5346759612243433463
+    second: Wolf_Black_Raider_Move_2
+  - first:
+      213: 8064653040264698579
+    second: Wolf_Black_Raider_Move_3
+  - first:
+      213: 2554976464420192818
+    second: Wolf_Black_Raider_Move_4
+  - first:
+      213: 295499614582416085
+    second: Wolf_Black_Raider_Move_5
+  - first:
+      213: -7564960799298207785
+    second: Wolf_Black_Raider_Move_6
+  - first:
+      213: 5230081379246313741
+    second: Wolf_Black_Raider_Move_7
+  - first:
+      213: 8949022707124497969
+    second: Wolf_Black_Raider_Move_8
+  - first:
+      213: 5391721052343472364
+    second: Wolf_Black_Raider_Move_9
+  - first:
+      213: -2767998502317364215
+    second: Wolf_Black_Raider_Move_10
+  - first:
+      213: -4028108858027703051
+    second: Wolf_Black_Raider_Move_11
+  - first:
+      213: 4835330922337134428
+    second: Wolf_Black_Raider_Move_12
+  - first:
+      213: 2034758566887037700
+    second: Wolf_Black_Raider_Move_13
+  - first:
+      213: 4375369951350232715
+    second: Wolf_Black_Raider_Move_14
+  - first:
+      213: 8666773870212522538
+    second: Wolf_Black_Raider_Move_15
+  - first:
+      213: -8816582218793594992
+    second: Wolf_Black_Raider_Move_16
+  - first:
+      213: -3313197212766831420
+    second: Wolf_Black_Raider_Move_17
+  - first:
+      213: 7956678548982695404
+    second: Wolf_Black_Raider_Move_18
+  - first:
+      213: 779578756394275838
+    second: Wolf_Black_Raider_Move_19
+  - first:
+      213: 1935971505190408136
+    second: Wolf_Black_Raider_Move_20
+  - first:
+      213: -6739063175437761768
+    second: Wolf_Black_Raider_Move_21
+  - first:
+      213: -6145022584006716386
+    second: Wolf_Black_Raider_Move_22
+  - first:
+      213: -6162628785122024177
+    second: Wolf_Black_Raider_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 429
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea88f2fa9f5fec980800000000000000
+      internalID: -8516599392576239442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 432
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1f594198e1a6290800000000000000
+      internalID: -7896465422536019543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 433
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90823d4067e7cc5b0800000000000000
+      internalID: -5346759612243433463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 435
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da50c536376bef60800000000000000
+      internalID: 8064653040264698579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 433
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232cf3bbe89157320800000000000000
+      internalID: 2554976464420192818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_5
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 430
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d223767553d91400800000000000000
+      internalID: 295499614582416085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_6
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 303
+        width: 70
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df3312eb3cd30790800000000000000
+      internalID: -7564960799298207785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_7
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 303
+        width: 74
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d019c54ed4bf49840800000000000000
+      internalID: 5230081379246313741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_8
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 303
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e6f09fcb0513c70800000000000000
+      internalID: 8949022707124497969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 303
+        width: 75
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce09de40bbd33da40800000000000000
+      internalID: 5391721052343472364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_10
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 304
+        width: 73
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c6f8217081699d0800000000000000
+      internalID: -2767998502317364215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_11
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 303
+        width: 69
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f487a0e5584918c0800000000000000
+      internalID: -4028108858027703051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 175
+        width: 70
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57ed5deadb8a1340800000000000000
+      internalID: 4835330922337134428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_13
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 175
+        width: 74
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b1cfec22aec3c10800000000000000
+      internalID: 2034758566887037700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_14
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 175
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86162ff9cf68bc30800000000000000
+      internalID: 4375369951350232715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_15
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 175
+        width: 75
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22a7aa9ae0964870800000000000000
+      internalID: 8666773870212522538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_16
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 176
+        width: 73
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f48cb2f2535a580800000000000000
+      internalID: -8816582218793594992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_17
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 175
+        width: 69
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ccf73660b82502d0800000000000000
+      internalID: -3313197212766831420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_18
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 51
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce58518ebfccb6e60800000000000000
+      internalID: 7956678548982695404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_19
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 49
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef35251afbe91da00800000000000000
+      internalID: 779578756394275838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_20
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 47
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf0726a3d3fdda10800000000000000
+      internalID: 1935971505190408136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_21
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 47
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813cd1d3fb90a72a0800000000000000
+      internalID: -6739063175437761768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_22
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 49
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14d68f748e78baa0800000000000000
+      internalID: -6145022584006716386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Raider_Move_23
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 54
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05643c55c1f97aa0800000000000000
+      internalID: -6162628785122024177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wolf_Black_Raider_Move_0: -8516599392576239442
+      Wolf_Black_Raider_Move_1: -7896465422536019543
+      Wolf_Black_Raider_Move_10: -2767998502317364215
+      Wolf_Black_Raider_Move_11: -4028108858027703051
+      Wolf_Black_Raider_Move_12: 4835330922337134428
+      Wolf_Black_Raider_Move_13: 2034758566887037700
+      Wolf_Black_Raider_Move_14: 4375369951350232715
+      Wolf_Black_Raider_Move_15: 8666773870212522538
+      Wolf_Black_Raider_Move_16: -8816582218793594992
+      Wolf_Black_Raider_Move_17: -3313197212766831420
+      Wolf_Black_Raider_Move_18: 7956678548982695404
+      Wolf_Black_Raider_Move_19: 779578756394275838
+      Wolf_Black_Raider_Move_2: -5346759612243433463
+      Wolf_Black_Raider_Move_20: 1935971505190408136
+      Wolf_Black_Raider_Move_21: -6739063175437761768
+      Wolf_Black_Raider_Move_22: -6145022584006716386
+      Wolf_Black_Raider_Move_23: -6162628785122024177
+      Wolf_Black_Raider_Move_3: 8064653040264698579
+      Wolf_Black_Raider_Move_4: 2554976464420192818
+      Wolf_Black_Raider_Move_5: 295499614582416085
+      Wolf_Black_Raider_Move_6: -7564960799298207785
+      Wolf_Black_Raider_Move_7: 5230081379246313741
+      Wolf_Black_Raider_Move_8: 8949022707124497969
+      Wolf_Black_Raider_Move_9: 5391721052343472364
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

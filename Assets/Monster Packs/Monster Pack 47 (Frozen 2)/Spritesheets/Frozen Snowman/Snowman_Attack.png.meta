@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 14726bb0fad56824087b3481cc45cdb4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6975044806704936472
+    second: Snowman_Attack_0
+  - first:
+      213: 2591026051928682683
+    second: Snowman_Attack_1
+  - first:
+      213: 8620272723498962296
+    second: Snowman_Attack_2
+  - first:
+      213: -3709748282711473931
+    second: Snowman_Attack_3
+  - first:
+      213: 6361909271756176835
+    second: Snowman_Attack_4
+  - first:
+      213: 4575445262932291289
+    second: Snowman_Attack_5
+  - first:
+      213: -2125525787918671912
+    second: Snowman_Attack_6
+  - first:
+      213: -642996190207646919
+    second: Snowman_Attack_7
+  - first:
+      213: -1278589289051808125
+    second: Snowman_Attack_8
+  - first:
+      213: 1804349796771650056
+    second: Snowman_Attack_9
+  - first:
+      213: 7824076853055837439
+    second: Snowman_Attack_10
+  - first:
+      213: 8393644887022166649
+    second: Snowman_Attack_11
+  - first:
+      213: -2414268473072760409
+    second: Snowman_Attack_12
+  - first:
+      213: -9082792619999754739
+    second: Snowman_Attack_13
+  - first:
+      213: 8936458855108390986
+    second: Snowman_Attack_14
+  - first:
+      213: 8485512867934305509
+    second: Snowman_Attack_15
+  - first:
+      213: -6579808137385700214
+    second: Snowman_Attack_16
+  - first:
+      213: -7698912382302287225
+    second: Snowman_Attack_17
+  - first:
+      213: 4699196150269306864
+    second: Snowman_Attack_18
+  - first:
+      213: -3029890698295314167
+    second: Snowman_Attack_19
+  - first:
+      213: 7565210711545790606
+    second: Snowman_Attack_20
+  - first:
+      213: -7219632796653624626
+    second: Snowman_Attack_21
+  - first:
+      213: 281460729287205555
+    second: Snowman_Attack_22
+  - first:
+      213: -355859975055038452
+    second: Snowman_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Snowman_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 431
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816b41cdb465cc060800000000000000
+      internalID: 6975044806704936472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 431
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0fdf4677c25f320800000000000000
+      internalID: 2591026051928682683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 431
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d052fae5c51a770800000000000000
+      internalID: 8620272723498962296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 431
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f00eda8793548cc0800000000000000
+      internalID: -3709748282711473931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 431
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd7a4c96ca0a4850800000000000000
+      internalID: 6361909271756176835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 431
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dea252993f3f7f30800000000000000
+      internalID: 4575445262932291289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 303
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dfdc22be8d9082e0800000000000000
+      internalID: -2125525787918671912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 303
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9336eba2f5e9317f0800000000000000
+      internalID: -642996190207646919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 303
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e927cd0d9814ee0800000000000000
+      internalID: -1278589289051808125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 303
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a5f1f84965a0910800000000000000
+      internalID: 1804349796771650056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 303
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4dfb1b174b49c60800000000000000
+      internalID: 7824076853055837439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 303
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972eab5ad873c7470800000000000000
+      internalID: 8393644887022166649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 175
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9c2167d9bce7ed0800000000000000
+      internalID: -2414268473072760409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 175
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06006c1c3073f180800000000000000
+      internalID: -9082792619999754739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 175
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4031a83bfda40c70800000000000000
+      internalID: 8936458855108390986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 175
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecfa36cef892c570800000000000000
+      internalID: 8485512867934305509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 175
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8496e04c53dfa4a0800000000000000
+      internalID: -6579808137385700214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 175
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a04089af7f72590800000000000000
+      internalID: -7698912382302287225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 47
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f76fa25006e63140800000000000000
+      internalID: 4699196150269306864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 47
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909f8d3867aa3f5d0800000000000000
+      internalID: -3029890698295314167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 47
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80caa85f070df860800000000000000
+      internalID: 7565210711545790606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 47
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec263b20936becb90800000000000000
+      internalID: -7219632796653624626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 47
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2e263ca03f7e300800000000000000
+      internalID: 281460729287205555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowman_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 47
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08a015fc3bbf0bf0800000000000000
+      internalID: -355859975055038452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Snowman_Attack_0: 6975044806704936472
+      Snowman_Attack_1: 2591026051928682683
+      Snowman_Attack_10: 7824076853055837439
+      Snowman_Attack_11: 8393644887022166649
+      Snowman_Attack_12: -2414268473072760409
+      Snowman_Attack_13: -9082792619999754739
+      Snowman_Attack_14: 8936458855108390986
+      Snowman_Attack_15: 8485512867934305509
+      Snowman_Attack_16: -6579808137385700214
+      Snowman_Attack_17: -7698912382302287225
+      Snowman_Attack_18: 4699196150269306864
+      Snowman_Attack_19: -3029890698295314167
+      Snowman_Attack_2: 8620272723498962296
+      Snowman_Attack_20: 7565210711545790606
+      Snowman_Attack_21: -7219632796653624626
+      Snowman_Attack_22: 281460729287205555
+      Snowman_Attack_23: -355859975055038452
+      Snowman_Attack_3: -3709748282711473931
+      Snowman_Attack_4: 6361909271756176835
+      Snowman_Attack_5: 4575445262932291289
+      Snowman_Attack_6: -2125525787918671912
+      Snowman_Attack_7: -642996190207646919
+      Snowman_Attack_8: -1278589289051808125
+      Snowman_Attack_9: 1804349796771650056
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

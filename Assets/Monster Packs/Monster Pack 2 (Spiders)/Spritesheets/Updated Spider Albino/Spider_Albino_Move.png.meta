@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: bdbb18548f33db54ba7b882d8177c9da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 153586570719423566
+    second: Spider_Albino_Move_0
+  - first:
+      213: -5982095923489791801
+    second: Spider_Albino_Move_1
+  - first:
+      213: 558135129938674759
+    second: Spider_Albino_Move_2
+  - first:
+      213: 148390468408300976
+    second: Spider_Albino_Move_3
+  - first:
+      213: 6913382250133446234
+    second: Spider_Albino_Move_4
+  - first:
+      213: -8985692977764142768
+    second: Spider_Albino_Move_5
+  - first:
+      213: -1541840381672014299
+    second: Spider_Albino_Move_6
+  - first:
+      213: 6018220930032915585
+    second: Spider_Albino_Move_7
+  - first:
+      213: -5617022358899465257
+    second: Spider_Albino_Move_8
+  - first:
+      213: -4843047877401232021
+    second: Spider_Albino_Move_9
+  - first:
+      213: 5360311256891021617
+    second: Spider_Albino_Move_10
+  - first:
+      213: 6375181869096849565
+    second: Spider_Albino_Move_11
+  - first:
+      213: -9020478573909942917
+    second: Spider_Albino_Move_12
+  - first:
+      213: 1234382070340897644
+    second: Spider_Albino_Move_13
+  - first:
+      213: 62198400171407171
+    second: Spider_Albino_Move_14
+  - first:
+      213: -6229472450324870633
+    second: Spider_Albino_Move_15
+  - first:
+      213: 2447210577472594131
+    second: Spider_Albino_Move_16
+  - first:
+      213: -8093187901462361392
+    second: Spider_Albino_Move_17
+  - first:
+      213: 4908258813805360707
+    second: Spider_Albino_Move_18
+  - first:
+      213: 4407191885111513106
+    second: Spider_Albino_Move_19
+  - first:
+      213: 8143466424869140993
+    second: Spider_Albino_Move_20
+  - first:
+      213: 387772809324684151
+    second: Spider_Albino_Move_21
+  - first:
+      213: 2721641839080916280
+    second: Spider_Albino_Move_22
+  - first:
+      213: 4229210800527345817
+    second: Spider_Albino_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spider_Albino_Move_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 430
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c600e1c26a12200800000000000000
+      internalID: 153586570719423566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 429
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0241cb3735bfca0800000000000000
+      internalID: -5982095923489791801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 429
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74449ac81f4eeb700800000000000000
+      internalID: 558135129938674759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 430
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5d78548503f0200800000000000000
+      internalID: 148390468408300976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_4
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 430
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ed1bf178441ff50800000000000000
+      internalID: 6913382250133446234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_5
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 430
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05175af48d76c4380800000000000000
+      internalID: -8985692977764142768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_6
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 303
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e361687584a9ae0800000000000000
+      internalID: -1541840381672014299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_7
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 303
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184de6acc04058350800000000000000
+      internalID: 6018220930032915585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_8
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 303
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3ee52cce35c02b0800000000000000
+      internalID: -5617022358899465257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_9
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 303
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d3a457d990accb0800000000000000
+      internalID: -4843047877401232021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_10
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 303
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139548020b6a36a40800000000000000
+      internalID: 5360311256891021617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_11
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 303
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90570ef122397850800000000000000
+      internalID: 6375181869096849565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 175
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d53129782d0d280800000000000000
+      internalID: -9020478573909942917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_13
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 175
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bc7c3f3f7612110800000000000000
+      internalID: 1234382070340897644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_14
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 175
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34770db8d19fcd000800000000000000
+      internalID: 62198400171407171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_15
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 175
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71acd44cfc77c89a0800000000000000
+      internalID: -6229472450324870633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_16
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 175
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d025d8ed0d36f120800000000000000
+      internalID: 2447210577472594131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_17
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 175
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dac8d0bb783faf80800000000000000
+      internalID: -8093187901462361392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_18
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 46
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3467c86d263ad1440800000000000000
+      internalID: 4908258813805360707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_19
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 46
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2105e015bad792d30800000000000000
+      internalID: 4407191885111513106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_20
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 46
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a35a64197630170800000000000000
+      internalID: 8143466424869140993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_21
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 46
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7736a59c055a16500800000000000000
+      internalID: 387772809324684151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_22
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 46
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835424035d635c520800000000000000
+      internalID: 2721641839080916280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Move_23
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 46
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9988da5d0dc21ba30800000000000000
+      internalID: 4229210800527345817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spider_Albino_Move_0: 153586570719423566
+      Spider_Albino_Move_1: -5982095923489791801
+      Spider_Albino_Move_10: 5360311256891021617
+      Spider_Albino_Move_11: 6375181869096849565
+      Spider_Albino_Move_12: -9020478573909942917
+      Spider_Albino_Move_13: 1234382070340897644
+      Spider_Albino_Move_14: 62198400171407171
+      Spider_Albino_Move_15: -6229472450324870633
+      Spider_Albino_Move_16: 2447210577472594131
+      Spider_Albino_Move_17: -8093187901462361392
+      Spider_Albino_Move_18: 4908258813805360707
+      Spider_Albino_Move_19: 4407191885111513106
+      Spider_Albino_Move_2: 558135129938674759
+      Spider_Albino_Move_20: 8143466424869140993
+      Spider_Albino_Move_21: 387772809324684151
+      Spider_Albino_Move_22: 2721641839080916280
+      Spider_Albino_Move_23: 4229210800527345817
+      Spider_Albino_Move_3: 148390468408300976
+      Spider_Albino_Move_4: 6913382250133446234
+      Spider_Albino_Move_5: -8985692977764142768
+      Spider_Albino_Move_6: -1541840381672014299
+      Spider_Albino_Move_7: 6018220930032915585
+      Spider_Albino_Move_8: -5617022358899465257
+      Spider_Albino_Move_9: -4843047877401232021
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 8a08df121598f684e9afc472abbcb293
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5114582229978877488
+    second: Birds_Arcteix_Idle_0
+  - first:
+      213: 1768128193711822573
+    second: Birds_Arcteix_Idle_1
+  - first:
+      213: 298452211078999668
+    second: Birds_Arcteix_Idle_2
+  - first:
+      213: -4410296552278298453
+    second: Birds_Arcteix_Idle_3
+  - first:
+      213: -7536389776585500927
+    second: Birds_Arcteix_Idle_4
+  - first:
+      213: 9101112848173406083
+    second: Birds_Arcteix_Idle_5
+  - first:
+      213: -5773271475492229067
+    second: Birds_Arcteix_Idle_6
+  - first:
+      213: 8834410100551892062
+    second: Birds_Arcteix_Idle_7
+  - first:
+      213: -4261654479049920932
+    second: Birds_Arcteix_Idle_8
+  - first:
+      213: -1057683916712833594
+    second: Birds_Arcteix_Idle_9
+  - first:
+      213: -6835329411685589755
+    second: Birds_Arcteix_Idle_10
+  - first:
+      213: 6566667053095656078
+    second: Birds_Arcteix_Idle_11
+  - first:
+      213: -2794988960920414115
+    second: Birds_Arcteix_Idle_12
+  - first:
+      213: -3656675418509037242
+    second: Birds_Arcteix_Idle_13
+  - first:
+      213: 2770779987169759469
+    second: Birds_Arcteix_Idle_14
+  - first:
+      213: 7329206096300256530
+    second: Birds_Arcteix_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birds_Arcteix_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 434
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e8a60a075aaf640800000000000000
+      internalID: 5114582229978877488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 435
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6db876937a98810800000000000000
+      internalID: 1768128193711822573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 434
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e2bc764b0542400800000000000000
+      internalID: 298452211078999668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 435
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0725707aa7bc2c0800000000000000
+      internalID: -4410296552278298453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 311
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1075cbd7d6d596790800000000000000
+      internalID: -7536389776585500927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 311
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3879e186ae5ad4e70800000000000000
+      internalID: 9101112848173406083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 309
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530f36f5e2831efa0800000000000000
+      internalID: -5773271475492229067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 310
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5cb4830e212a9a70800000000000000
+      internalID: 8834410100551892062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 183
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ee6cc94df8bd4c0800000000000000
+      internalID: -4261654479049920932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 183
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd00b3e41a5251f0800000000000000
+      internalID: -1057683916712833594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 181
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d53bd7d180421a0800000000000000
+      internalID: -6835329411685589755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 182
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a1702a4ec712b50800000000000000
+      internalID: 6566667053095656078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 49
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58533939543639d0800000000000000
+      internalID: -2794988960920414115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 48
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641bddca411e04dc0800000000000000
+      internalID: -3656675418509037242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 49
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0d306d7b9c37620800000000000000
+      internalID: 2770779987169759469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 49
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21daa9fdc1296b560800000000000000
+      internalID: 7329206096300256530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birds_Arcteix_Idle_0: 5114582229978877488
+      Birds_Arcteix_Idle_1: 1768128193711822573
+      Birds_Arcteix_Idle_10: -6835329411685589755
+      Birds_Arcteix_Idle_11: 6566667053095656078
+      Birds_Arcteix_Idle_12: -2794988960920414115
+      Birds_Arcteix_Idle_13: -3656675418509037242
+      Birds_Arcteix_Idle_14: 2770779987169759469
+      Birds_Arcteix_Idle_15: 7329206096300256530
+      Birds_Arcteix_Idle_2: 298452211078999668
+      Birds_Arcteix_Idle_3: -4410296552278298453
+      Birds_Arcteix_Idle_4: -7536389776585500927
+      Birds_Arcteix_Idle_5: 9101112848173406083
+      Birds_Arcteix_Idle_6: -5773271475492229067
+      Birds_Arcteix_Idle_7: 8834410100551892062
+      Birds_Arcteix_Idle_8: -4261654479049920932
+      Birds_Arcteix_Idle_9: -1057683916712833594
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 0ab14d4a728f75348b44117c11d9f613
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8963979021138270722
+    second: Piggy_Idle_0
+  - first:
+      213: 4505054870688151882
+    second: Piggy_Idle_1
+  - first:
+      213: -2452866242570718375
+    second: Piggy_Idle_2
+  - first:
+      213: -7755096147749803424
+    second: Piggy_Idle_3
+  - first:
+      213: -2627783331568543372
+    second: Piggy_Idle_4
+  - first:
+      213: -1021595831677889364
+    second: Piggy_Idle_5
+  - first:
+      213: 7645465741114233332
+    second: Piggy_Idle_6
+  - first:
+      213: 6842622795728578264
+    second: Piggy_Idle_7
+  - first:
+      213: 466558373992722071
+    second: Piggy_Idle_8
+  - first:
+      213: 3922918869461303833
+    second: Piggy_Idle_9
+  - first:
+      213: -3846248547486592127
+    second: Piggy_Idle_10
+  - first:
+      213: 138462317803956992
+    second: Piggy_Idle_11
+  - first:
+      213: -6300499077682088869
+    second: Piggy_Idle_12
+  - first:
+      213: -6408062361995940100
+    second: Piggy_Idle_13
+  - first:
+      213: -7457545924694315500
+    second: Piggy_Idle_14
+  - first:
+      213: 4336967316184037195
+    second: Piggy_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Piggy_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 431
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5effec29c899380800000000000000
+      internalID: -8963979021138270722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 431
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49b20d398b258e30800000000000000
+      internalID: 4505054870688151882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 431
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9537602f52ba5fdd0800000000000000
+      internalID: -2452866242570718375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 431
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a6f52542d506490800000000000000
+      internalID: -7755096147749803424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 303
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4791a278bfc388bd0800000000000000
+      internalID: -2627783331568543372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 303
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4d1d4f00092d1f0800000000000000
+      internalID: -1021595831677889364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 303
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1588985962a1a60800000000000000
+      internalID: 7645465741114233332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 303
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6646fcd21e5fe50800000000000000
+      internalID: 6842622795728578264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 175
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ee1d48e5c897600800000000000000
+      internalID: 466558373992722071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 175
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9120be06de1017630800000000000000
+      internalID: 3922918869461303833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 175
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183133903516f9ac0800000000000000
+      internalID: -3846248547486592127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 175
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b6b739ebaebe100800000000000000
+      internalID: 138462317803956992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 47
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54351768712098a0800000000000000
+      internalID: -6300499077682088869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 47
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe6eaeab3df117a0800000000000000
+      internalID: -6408062361995940100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 47
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41eee664e79718890800000000000000
+      internalID: -7457545924694315500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 47
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47f0abbbc0003c30800000000000000
+      internalID: 4336967316184037195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Piggy_Idle_0: -8963979021138270722
+      Piggy_Idle_1: 4505054870688151882
+      Piggy_Idle_10: -3846248547486592127
+      Piggy_Idle_11: 138462317803956992
+      Piggy_Idle_12: -6300499077682088869
+      Piggy_Idle_13: -6408062361995940100
+      Piggy_Idle_14: -7457545924694315500
+      Piggy_Idle_15: 4336967316184037195
+      Piggy_Idle_2: -2452866242570718375
+      Piggy_Idle_3: -7755096147749803424
+      Piggy_Idle_4: -2627783331568543372
+      Piggy_Idle_5: -1021595831677889364
+      Piggy_Idle_6: 7645465741114233332
+      Piggy_Idle_7: 6842622795728578264
+      Piggy_Idle_8: 466558373992722071
+      Piggy_Idle_9: 3922918869461303833
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: e4cd90eedda7b65488153bccd0cb8ad9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5069503797634403700
+    second: Bodyguard_Attack_0
+  - first:
+      213: 1440934290172096113
+    second: Bodyguard_Attack_1
+  - first:
+      213: 5681245255282940876
+    second: Bodyguard_Attack_2
+  - first:
+      213: -9022430967089871960
+    second: Bodyguard_Attack_3
+  - first:
+      213: -1939440776105288924
+    second: Bodyguard_Attack_4
+  - first:
+      213: 4670571112781828287
+    second: Bodyguard_Attack_5
+  - first:
+      213: 406292467878896729
+    second: Bodyguard_Attack_6
+  - first:
+      213: -2755707496572181981
+    second: Bodyguard_Attack_7
+  - first:
+      213: -5477502850186784726
+    second: Bodyguard_Attack_8
+  - first:
+      213: 3226653598281138272
+    second: Bodyguard_Attack_9
+  - first:
+      213: 1917452610359734922
+    second: Bodyguard_Attack_10
+  - first:
+      213: -2649891799126421824
+    second: Bodyguard_Attack_11
+  - first:
+      213: -8194230790670982522
+    second: Bodyguard_Attack_12
+  - first:
+      213: -8816654380564168774
+    second: Bodyguard_Attack_13
+  - first:
+      213: 8852987648946235792
+    second: Bodyguard_Attack_14
+  - first:
+      213: 6655882526951567664
+    second: Bodyguard_Attack_15
+  - first:
+      213: -4020764904358902345
+    second: Bodyguard_Attack_16
+  - first:
+      213: 2386210823907679912
+    second: Bodyguard_Attack_17
+  - first:
+      213: 4166367262921824519
+    second: Bodyguard_Attack_18
+  - first:
+      213: -7128323467586897426
+    second: Bodyguard_Attack_19
+  - first:
+      213: -840339898434973641
+    second: Bodyguard_Attack_20
+  - first:
+      213: -6651048177368203999
+    second: Bodyguard_Attack_21
+  - first:
+      213: 4503821758600122136
+    second: Bodyguard_Attack_22
+  - first:
+      213: 5451968511790778648
+    second: Bodyguard_Attack_23
+  - first:
+      213: 2845103914803194479
+    second: Bodyguard_Attack_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bodyguard_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 431
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d0e7538de7a5640800000000000000
+      internalID: 5069503797634403700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 421
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e236e3a1a3ff310800000000000000
+      internalID: 1440934290172096113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 402
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb530b8576d7de40800000000000000
+      internalID: 5681245255282940876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 423
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3cf1c96d2e9c280800000000000000
+      internalID: -9022430967089871960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 400
+        width: 18
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b1655c3e8b515e0800000000000000
+      internalID: -1939440776105288924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 431
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0df8b6ea331d040800000000000000
+      internalID: 4670571112781828287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 401
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954a6dec8d073a500800000000000000
+      internalID: 406292467878896729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 303
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3222fe9d1a2c1c9d0800000000000000
+      internalID: -2755707496572181981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 303
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a205d66cd200cf3b0800000000000000
+      internalID: -5477502850186784726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 303
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06088c22a5067cc20800000000000000
+      internalID: 3226653598281138272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 303
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8233227df82c9a10800000000000000
+      internalID: 1917452610359734922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 303
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce49dbc271b93bd0800000000000000
+      internalID: -2649891799126421824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 303
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682ec72c28e384e80800000000000000
+      internalID: -8194230790670982522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 175
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abfb413bd83f4a580800000000000000
+      internalID: -8816654380564168774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 175
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0996c509c512cda70800000000000000
+      internalID: 8852987648946235792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 175
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0317da5d4e17e5c50800000000000000
+      internalID: 6655882526951567664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 175
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b584565f9f5338c0800000000000000
+      internalID: -4020764904358902345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 175
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae95360a168d1120800000000000000
+      internalID: 2386210823907679912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 175
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709954683f8e1d930800000000000000
+      internalID: 4166367262921824519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 47
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9f66ed29b131d90800000000000000
+      internalID: -7128323467586897426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 47
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730123f80538654f0800000000000000
+      internalID: -840339898434973641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 47
+        width: 22
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d75f3ebeab2b3a0800000000000000
+      internalID: -6651048177368203999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 47
+        width: 21
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f0905f60ac08e30800000000000000
+      internalID: 4503821758600122136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 47
+        width: 18
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81987e7c97849ab40800000000000000
+      internalID: 5451968511790778648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyguard_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 47
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6aeaeebfe6db7720800000000000000
+      internalID: 2845103914803194479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bodyguard_Attack_0: 5069503797634403700
+      Bodyguard_Attack_1: 1440934290172096113
+      Bodyguard_Attack_10: 1917452610359734922
+      Bodyguard_Attack_11: -2649891799126421824
+      Bodyguard_Attack_12: -8194230790670982522
+      Bodyguard_Attack_13: -8816654380564168774
+      Bodyguard_Attack_14: 8852987648946235792
+      Bodyguard_Attack_15: 6655882526951567664
+      Bodyguard_Attack_16: -4020764904358902345
+      Bodyguard_Attack_17: 2386210823907679912
+      Bodyguard_Attack_18: 4166367262921824519
+      Bodyguard_Attack_19: -7128323467586897426
+      Bodyguard_Attack_2: 5681245255282940876
+      Bodyguard_Attack_20: -840339898434973641
+      Bodyguard_Attack_21: -6651048177368203999
+      Bodyguard_Attack_22: 4503821758600122136
+      Bodyguard_Attack_23: 5451968511790778648
+      Bodyguard_Attack_24: 2845103914803194479
+      Bodyguard_Attack_3: -9022430967089871960
+      Bodyguard_Attack_4: -1939440776105288924
+      Bodyguard_Attack_5: 4670571112781828287
+      Bodyguard_Attack_6: 406292467878896729
+      Bodyguard_Attack_7: -2755707496572181981
+      Bodyguard_Attack_8: -5477502850186784726
+      Bodyguard_Attack_9: 3226653598281138272
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

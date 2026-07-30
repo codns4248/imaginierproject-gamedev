@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 8f30f898866461a44a30c4d3aad0076f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3697927279455995980
+    second: Golem_Red_Idle_0
+  - first:
+      213: 5650273380115893011
+    second: Golem_Red_Idle_1
+  - first:
+      213: -8816047997097924127
+    second: Golem_Red_Idle_2
+  - first:
+      213: -449130044617848123
+    second: Golem_Red_Idle_3
+  - first:
+      213: -2006805742678609740
+    second: Golem_Red_Idle_4
+  - first:
+      213: 1215492018252746520
+    second: Golem_Red_Idle_5
+  - first:
+      213: 1548733580384040150
+    second: Golem_Red_Idle_6
+  - first:
+      213: 1771695076853966904
+    second: Golem_Red_Idle_7
+  - first:
+      213: -333601535290869917
+    second: Golem_Red_Idle_8
+  - first:
+      213: -1022367665996854431
+    second: Golem_Red_Idle_9
+  - first:
+      213: 4546737764184140831
+    second: Golem_Red_Idle_10
+  - first:
+      213: -3693176619413367133
+    second: Golem_Red_Idle_11
+  - first:
+      213: 6667782547103709335
+    second: Golem_Red_Idle_12
+  - first:
+      213: 2862809590297131220
+    second: Golem_Red_Idle_13
+  - first:
+      213: 3291173720379096704
+    second: Golem_Red_Idle_14
+  - first:
+      213: -619089799283083056
+    second: Golem_Red_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Golem_Red_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 431
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b77cc65bb25eacc0800000000000000
+      internalID: -3697927279455995980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 431
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b47a9e3bdc96e40800000000000000
+      internalID: 5650273380115893011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 431
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e92f2a5e0b17a580800000000000000
+      internalID: -8816047997097924127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 431
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca0990aa9e54c9f0800000000000000
+      internalID: -449130044617848123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 303
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b07d6e3fc46624e0800000000000000
+      internalID: -2006805742678609740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 303
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f0747fc8b4ed010800000000000000
+      internalID: 1215492018252746520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 303
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4728e5cf43e7510800000000000000
+      internalID: 1548733580384040150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 303
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838603a1943569810800000000000000
+      internalID: 1771695076853966904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 175
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3677670db2fce5bf0800000000000000
+      internalID: -333601535290869917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 175
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b89664602dfc1f0800000000000000
+      internalID: -1022367665996854431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 175
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cac0928e1491f30800000000000000
+      internalID: 4546737764184140831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 175
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a696139e633fbcc0800000000000000
+      internalID: -3693176619413367133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 47
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7987aaf26e8b88c50800000000000000
+      internalID: 6667782547103709335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 47
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8fd31972ebab720800000000000000
+      internalID: 2862809590297131220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 47
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08efb41bf099cad20800000000000000
+      internalID: 3291173720379096704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 47
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8f9ad8b1d8867f0800000000000000
+      internalID: -619089799283083056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Golem_Red_Idle_0: -3697927279455995980
+      Golem_Red_Idle_1: 5650273380115893011
+      Golem_Red_Idle_10: 4546737764184140831
+      Golem_Red_Idle_11: -3693176619413367133
+      Golem_Red_Idle_12: 6667782547103709335
+      Golem_Red_Idle_13: 2862809590297131220
+      Golem_Red_Idle_14: 3291173720379096704
+      Golem_Red_Idle_15: -619089799283083056
+      Golem_Red_Idle_2: -8816047997097924127
+      Golem_Red_Idle_3: -449130044617848123
+      Golem_Red_Idle_4: -2006805742678609740
+      Golem_Red_Idle_5: 1215492018252746520
+      Golem_Red_Idle_6: 1548733580384040150
+      Golem_Red_Idle_7: 1771695076853966904
+      Golem_Red_Idle_8: -333601535290869917
+      Golem_Red_Idle_9: -1022367665996854431
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

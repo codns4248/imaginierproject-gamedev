@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: f3e2b336207223e408460acf131c80e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7239396846095672437
+    second: Deer_Idle_0
+  - first:
+      213: -6049291236591060973
+    second: Deer_Idle_1
+  - first:
+      213: 7740442124106627257
+    second: Deer_Idle_2
+  - first:
+      213: 7151304888011155939
+    second: Deer_Idle_3
+  - first:
+      213: -5057373644367713598
+    second: Deer_Idle_4
+  - first:
+      213: -899850011772853970
+    second: Deer_Idle_5
+  - first:
+      213: 1751730591834327142
+    second: Deer_Idle_6
+  - first:
+      213: 9053658589033471150
+    second: Deer_Idle_7
+  - first:
+      213: -3953178392384586644
+    second: Deer_Idle_8
+  - first:
+      213: -6186302672080982260
+    second: Deer_Idle_9
+  - first:
+      213: 4347257598859159986
+    second: Deer_Idle_10
+  - first:
+      213: -3101317888597550287
+    second: Deer_Idle_11
+  - first:
+      213: 8225215536528857431
+    second: Deer_Idle_12
+  - first:
+      213: 133555901695613965
+    second: Deer_Idle_13
+  - first:
+      213: -7418730515834677435
+    second: Deer_Idle_14
+  - first:
+      213: 4182296698175405658
+    second: Deer_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Deer_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 431
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574ad975311877460800000000000000
+      internalID: 7239396846095672437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 431
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3183b1cbba99c0ca0800000000000000
+      internalID: -6049291236591060973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 431
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b878dbe9139b6b60800000000000000
+      internalID: 7740442124106627257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 431
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e96b6a08e98e3360800000000000000
+      internalID: 7151304888011155939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 303
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca2a0f277990d9b0800000000000000
+      internalID: -5057373644367713598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 303
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21e5219e271383f0800000000000000
+      internalID: -899850011772853970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 303
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668487431b56f4810800000000000000
+      internalID: 1751730591834327142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 303
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac1105b48e05ad70800000000000000
+      internalID: 9053658589033471150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 175
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6cba2c623d7329c0800000000000000
+      internalID: -3953178392384586644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 175
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f20950f76d52aa0800000000000000
+      internalID: -6186302672080982260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 175
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b92e1fd0cf845c30800000000000000
+      internalID: 4347257598859159986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 175
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b1492dfc7e5f4d0800000000000000
+      internalID: -3101317888597550287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 47
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75993df83f5d52270800000000000000
+      internalID: 8225215536528857431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 47
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c593e826c7ad100800000000000000
+      internalID: 133555901695613965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 47
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547d257e6ef5b0990800000000000000
+      internalID: -7418730515834677435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 47
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5eb80030b08a0a30800000000000000
+      internalID: 4182296698175405658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Deer_Idle_0: 7239396846095672437
+      Deer_Idle_1: -6049291236591060973
+      Deer_Idle_10: 4347257598859159986
+      Deer_Idle_11: -3101317888597550287
+      Deer_Idle_12: 8225215536528857431
+      Deer_Idle_13: 133555901695613965
+      Deer_Idle_14: -7418730515834677435
+      Deer_Idle_15: 4182296698175405658
+      Deer_Idle_2: 7740442124106627257
+      Deer_Idle_3: 7151304888011155939
+      Deer_Idle_4: -5057373644367713598
+      Deer_Idle_5: -899850011772853970
+      Deer_Idle_6: 1751730591834327142
+      Deer_Idle_7: 9053658589033471150
+      Deer_Idle_8: -3953178392384586644
+      Deer_Idle_9: -6186302672080982260
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

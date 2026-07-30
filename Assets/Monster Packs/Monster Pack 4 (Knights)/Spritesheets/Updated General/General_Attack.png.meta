@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: eadfeb84e9c8ede4e9641df979cb73c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1880144946200323076
+    second: General_Attack_0
+  - first:
+      213: -1528408421261817889
+    second: General_Attack_1
+  - first:
+      213: 8118257317016376145
+    second: General_Attack_2
+  - first:
+      213: -8601166286503386842
+    second: General_Attack_3
+  - first:
+      213: 9029642528773046620
+    second: General_Attack_4
+  - first:
+      213: -2627778817013383112
+    second: General_Attack_5
+  - first:
+      213: 6162792925698604673
+    second: General_Attack_6
+  - first:
+      213: -5109618722346407189
+    second: General_Attack_7
+  - first:
+      213: 1390585845889573755
+    second: General_Attack_8
+  - first:
+      213: 2718045440760609674
+    second: General_Attack_9
+  - first:
+      213: 4895267471424043443
+    second: General_Attack_10
+  - first:
+      213: 263509911377609229
+    second: General_Attack_11
+  - first:
+      213: -6710382707475930844
+    second: General_Attack_12
+  - first:
+      213: 8563317494826095366
+    second: General_Attack_13
+  - first:
+      213: -6079715878122799023
+    second: General_Attack_14
+  - first:
+      213: -703244402309458880
+    second: General_Attack_15
+  - first:
+      213: 2329546341533662547
+    second: General_Attack_16
+  - first:
+      213: -8522717559375217049
+    second: General_Attack_17
+  - first:
+      213: -1715545398289123216
+    second: General_Attack_18
+  - first:
+      213: -4629962438215658752
+    second: General_Attack_19
+  - first:
+      213: 1174149476774907533
+    second: General_Attack_20
+  - first:
+      213: -4142516269496648832
+    second: General_Attack_21
+  - first:
+      213: -7182641034022726530
+    second: General_Attack_22
+  - first:
+      213: 7453954673091303689
+    second: General_Attack_23
+  - first:
+      213: -5502312021461740832
+    second: General_Attack_24
+  - first:
+      213: -7766093266086763104
+    second: General_Attack_25
+  - first:
+      213: -6141948603884134702
+    second: General_Attack_26
+  - first:
+      213: -7139248002345413574
+    second: General_Attack_27
+  - first:
+      213: -8898496533292536954
+    second: General_Attack_28
+  - first:
+      213: 7347612940910861015
+    second: General_Attack_29
+  - first:
+      213: 1868189518797571872
+    second: General_Attack_30
+  - first:
+      213: -3564621277253101321
+    second: General_Attack_31
+  - first:
+      213: -5869865411994983276
+    second: General_Attack_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: General_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 431
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbdb73022268e5e0800000000000000
+      internalID: -1880144946200323076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 422
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd749f283a00acae0800000000000000
+      internalID: -1528408421261817889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 421
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1531af77408d9a070800000000000000
+      internalID: 8118257317016376145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 428
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62166e655d482a880800000000000000
+      internalID: -8601166286503386842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 423
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c510740f90cbf4d70800000000000000
+      internalID: 9029642528773046620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 426
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8300f97a611488bd0800000000000000
+      internalID: -2627778817013383112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 427
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e3e889383a68550800000000000000
+      internalID: 6162792925698604673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 431
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea6bdc08dcf619b0800000000000000
+      internalID: -5109618722346407189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 420
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b732fed857a5c4310800000000000000
+      internalID: 1390585845889573755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 303
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8bf7e37def68b520800000000000000
+      internalID: 2718045440760609674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 303
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b931ca34db7fe340800000000000000
+      internalID: 4895267471424043443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 303
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0205764edc28a300800000000000000
+      internalID: 263509911377609229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 303
+        width: 51
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42129fd0b7eefd2a0800000000000000
+      internalID: -6710382707475930844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 319
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6035ff124e307d670800000000000000
+      internalID: 8563317494826095366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 303
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150403dde9280aba0800000000000000
+      internalID: -6079715878122799023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 303
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044101a21f29d36f0800000000000000
+      internalID: -703244402309458880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 175
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35dbcee1e06345020800000000000000
+      internalID: 2329546341533662547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 175
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76eb478f88939b980800000000000000
+      internalID: -8522717559375217049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 175
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078bbe2bc882138e0800000000000000
+      internalID: -1715545398289123216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 175
+        width: 51
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00311ca61b11fbfb0800000000000000
+      internalID: -4629962438215658752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 191
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e016c6aba6b4010800000000000000
+      internalID: 1174149476774907533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 175
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b3060a663d286c0800000000000000
+      internalID: -4142516269496648832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 175
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e745ee9e802225c90800000000000000
+      internalID: -7182641034022726530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 47
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909587d4844c17760800000000000000
+      internalID: 7453954673091303689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 65
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e259657e5cd3a3b0800000000000000
+      internalID: -5502312021461740832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_25
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 47
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5685e225b493490800000000000000
+      internalID: -7766093266086763104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_26
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 82
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de97c4494a63caa0800000000000000
+      internalID: -6141948603884134702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_27
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 79
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34d8c864cb4cec90800000000000000
+      internalID: -7139248002345413574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_28
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 47
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bad0a9c80328480800000000000000
+      internalID: -8898496533292536954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_29
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 47
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da1e0a5a07f7f560800000000000000
+      internalID: 7347612940910861015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_30
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 47
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027890128742de910800000000000000
+      internalID: 1868189518797571872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_31
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 56
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f89782a5dbe78ec0800000000000000
+      internalID: -3564621277253101321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Attack_32
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 47
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494efa6f18c0a8ea0800000000000000
+      internalID: -5869865411994983276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      General_Attack_0: -1880144946200323076
+      General_Attack_1: -1528408421261817889
+      General_Attack_10: 4895267471424043443
+      General_Attack_11: 263509911377609229
+      General_Attack_12: -6710382707475930844
+      General_Attack_13: 8563317494826095366
+      General_Attack_14: -6079715878122799023
+      General_Attack_15: -703244402309458880
+      General_Attack_16: 2329546341533662547
+      General_Attack_17: -8522717559375217049
+      General_Attack_18: -1715545398289123216
+      General_Attack_19: -4629962438215658752
+      General_Attack_2: 8118257317016376145
+      General_Attack_20: 1174149476774907533
+      General_Attack_21: -4142516269496648832
+      General_Attack_22: -7182641034022726530
+      General_Attack_23: 7453954673091303689
+      General_Attack_24: -5502312021461740832
+      General_Attack_25: -7766093266086763104
+      General_Attack_26: -6141948603884134702
+      General_Attack_27: -7139248002345413574
+      General_Attack_28: -8898496533292536954
+      General_Attack_29: 7347612940910861015
+      General_Attack_3: -8601166286503386842
+      General_Attack_30: 1868189518797571872
+      General_Attack_31: -3564621277253101321
+      General_Attack_32: -5869865411994983276
+      General_Attack_4: 9029642528773046620
+      General_Attack_5: -2627778817013383112
+      General_Attack_6: 6162792925698604673
+      General_Attack_7: -5109618722346407189
+      General_Attack_8: 1390585845889573755
+      General_Attack_9: 2718045440760609674
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

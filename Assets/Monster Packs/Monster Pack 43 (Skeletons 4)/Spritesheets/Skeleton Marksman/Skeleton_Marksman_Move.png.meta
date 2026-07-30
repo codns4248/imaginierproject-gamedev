@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 4b5ee303a84160a4391e4c236a2e400f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5249463391244528310
+    second: Skeleton_Marksman_Move_0
+  - first:
+      213: 8180008975538546943
+    second: Skeleton_Marksman_Move_1
+  - first:
+      213: 2978473367423813024
+    second: Skeleton_Marksman_Move_2
+  - first:
+      213: -1324210067249225206
+    second: Skeleton_Marksman_Move_3
+  - first:
+      213: 4182121834858280785
+    second: Skeleton_Marksman_Move_4
+  - first:
+      213: 2779265615711765198
+    second: Skeleton_Marksman_Move_5
+  - first:
+      213: -4644417986755130216
+    second: Skeleton_Marksman_Move_6
+  - first:
+      213: -4585243133253815987
+    second: Skeleton_Marksman_Move_7
+  - first:
+      213: 1951452235324145925
+    second: Skeleton_Marksman_Move_8
+  - first:
+      213: 8777313433893733398
+    second: Skeleton_Marksman_Move_9
+  - first:
+      213: 7628279729052789138
+    second: Skeleton_Marksman_Move_10
+  - first:
+      213: -3828127055001012506
+    second: Skeleton_Marksman_Move_11
+  - first:
+      213: 6600433088470403111
+    second: Skeleton_Marksman_Move_12
+  - first:
+      213: -6914045048955452048
+    second: Skeleton_Marksman_Move_13
+  - first:
+      213: 3109577528158452038
+    second: Skeleton_Marksman_Move_14
+  - first:
+      213: -6011737937554624619
+    second: Skeleton_Marksman_Move_15
+  - first:
+      213: 1496170055789994137
+    second: Skeleton_Marksman_Move_16
+  - first:
+      213: 3521783134748190493
+    second: Skeleton_Marksman_Move_17
+  - first:
+      213: 3261225324770666577
+    second: Skeleton_Marksman_Move_18
+  - first:
+      213: 3299898740411889631
+    second: Skeleton_Marksman_Move_19
+  - first:
+      213: 8592639804890136300
+    second: Skeleton_Marksman_Move_20
+  - first:
+      213: 4166128201553387335
+    second: Skeleton_Marksman_Move_21
+  - first:
+      213: 1981491102689532189
+    second: Skeleton_Marksman_Move_22
+  - first:
+      213: -1782023903010424395
+    second: Skeleton_Marksman_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 431
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba2c883427d9d840800000000000000
+      internalID: 5249463391244528310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 431
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff86b7ed2da358170800000000000000
+      internalID: 8180008975538546943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 431
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5024e3fb9a55920800000000000000
+      internalID: 2978473367423813024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_3
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 431
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a022d95b5f57f9de0800000000000000
+      internalID: -1324210067249225206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_4
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 431
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157f126a6a1e90a30800000000000000
+      internalID: 4182121834858280785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_5
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 431
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec205f03a5fe19620800000000000000
+      internalID: 2779265615711765198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_6
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 303
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c860fb276bb8fb0800000000000000
+      internalID: -4644417986755130216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_7
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 303
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d417b99f9a1fd50c0800000000000000
+      internalID: -4585243133253815987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_8
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 303
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50143a20873f41b10800000000000000
+      internalID: 1951452235324145925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_9
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 303
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614008d50184fc970800000000000000
+      internalID: 8777313433893733398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_10
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 303
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29921894ff71dd960800000000000000
+      internalID: 7628279729052789138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_11
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 303
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e63a9bc9b2cfdac0800000000000000
+      internalID: -3828127055001012506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_12
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 175
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72843026ce2799b50800000000000000
+      internalID: 6600433088470403111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_13
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 175
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07546fff8a06c00a0800000000000000
+      internalID: -6914045048955452048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_14
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 175
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649fb6f5940772b20800000000000000
+      internalID: 3109577528158452038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 175
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f21558234029ca0800000000000000
+      internalID: -6011737937554624619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_16
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 175
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99060fa1db673c410800000000000000
+      internalID: 1496170055789994137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_17
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 175
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17a0a21a13efd030800000000000000
+      internalID: 3521783134748190493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 47
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158a6777723324d20800000000000000
+      internalID: 3261225324770666577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 47
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd77209bb689bcd20800000000000000
+      internalID: 3299898740411889631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 47
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceebb5570603f3770800000000000000
+      internalID: 8592639804890136300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_21
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 47
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f9356b68f01d930800000000000000
+      internalID: 4166128201553387335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_22
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 47
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d191865d8abaf7b10800000000000000
+      internalID: 1981491102689532189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Marksman_Move_23
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 47
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9fec7a3baf447e0800000000000000
+      internalID: -1782023903010424395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skeleton_Marksman_Move_0: 5249463391244528310
+      Skeleton_Marksman_Move_1: 8180008975538546943
+      Skeleton_Marksman_Move_10: 7628279729052789138
+      Skeleton_Marksman_Move_11: -3828127055001012506
+      Skeleton_Marksman_Move_12: 6600433088470403111
+      Skeleton_Marksman_Move_13: -6914045048955452048
+      Skeleton_Marksman_Move_14: 3109577528158452038
+      Skeleton_Marksman_Move_15: -6011737937554624619
+      Skeleton_Marksman_Move_16: 1496170055789994137
+      Skeleton_Marksman_Move_17: 3521783134748190493
+      Skeleton_Marksman_Move_18: 3261225324770666577
+      Skeleton_Marksman_Move_19: 3299898740411889631
+      Skeleton_Marksman_Move_2: 2978473367423813024
+      Skeleton_Marksman_Move_20: 8592639804890136300
+      Skeleton_Marksman_Move_21: 4166128201553387335
+      Skeleton_Marksman_Move_22: 1981491102689532189
+      Skeleton_Marksman_Move_23: -1782023903010424395
+      Skeleton_Marksman_Move_3: -1324210067249225206
+      Skeleton_Marksman_Move_4: 4182121834858280785
+      Skeleton_Marksman_Move_5: 2779265615711765198
+      Skeleton_Marksman_Move_6: -4644417986755130216
+      Skeleton_Marksman_Move_7: -4585243133253815987
+      Skeleton_Marksman_Move_8: 1951452235324145925
+      Skeleton_Marksman_Move_9: 8777313433893733398
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

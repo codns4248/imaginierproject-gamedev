@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 7fdb54fd4630b2644909a6b2003830de
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6668577555672817693
+    second: Goblin_Mage_Attack_0
+  - first:
+      213: -557211355322192226
+    second: Goblin_Mage_Attack_1
+  - first:
+      213: -5371370347813193096
+    second: Goblin_Mage_Attack_2
+  - first:
+      213: 6923311801515493634
+    second: Goblin_Mage_Attack_3
+  - first:
+      213: 171092877128183353
+    second: Goblin_Mage_Attack_4
+  - first:
+      213: -2939919146977444857
+    second: Goblin_Mage_Attack_5
+  - first:
+      213: -3626539866327736141
+    second: Goblin_Mage_Attack_6
+  - first:
+      213: 7108140456616722404
+    second: Goblin_Mage_Attack_7
+  - first:
+      213: 236556484790190176
+    second: Goblin_Mage_Attack_8
+  - first:
+      213: 1513839312886166561
+    second: Goblin_Mage_Attack_9
+  - first:
+      213: -3211312322083746477
+    second: Goblin_Mage_Attack_10
+  - first:
+      213: -3513276744964129228
+    second: Goblin_Mage_Attack_11
+  - first:
+      213: -6469568314231124379
+    second: Goblin_Mage_Attack_12
+  - first:
+      213: 2390627064726856011
+    second: Goblin_Mage_Attack_13
+  - first:
+      213: -5834650227937902940
+    second: Goblin_Mage_Attack_14
+  - first:
+      213: -7238398174616816217
+    second: Goblin_Mage_Attack_15
+  - first:
+      213: 2442300073259095430
+    second: Goblin_Mage_Attack_16
+  - first:
+      213: 6126601347431314878
+    second: Goblin_Mage_Attack_17
+  - first:
+      213: -564996433570760301
+    second: Goblin_Mage_Attack_18
+  - first:
+      213: -4910147248315707785
+    second: Goblin_Mage_Attack_19
+  - first:
+      213: 1107572788097383424
+    second: Goblin_Mage_Attack_20
+  - first:
+      213: -222640259320548670
+    second: Goblin_Mage_Attack_21
+  - first:
+      213: -7774817210489928198
+    second: Goblin_Mage_Attack_22
+  - first:
+      213: 7452084737031285670
+    second: Goblin_Mage_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 431
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef9af47b047473a0800000000000000
+      internalID: -6668577555672817693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 422
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ee43d79336448f0800000000000000
+      internalID: -557211355322192226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 421
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a378d902f0575b0800000000000000
+      internalID: -5371370347813193096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 421
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209c996f66b841060800000000000000
+      internalID: 6923311801515493634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 423
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e23d4b018df5200800000000000000
+      internalID: 171092877128183353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 431
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c3a08bc1f4337d0800000000000000
+      internalID: -2939919146977444857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 303
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b02ebfa431fbadc0800000000000000
+      internalID: -3626539866327736141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 303
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eff832b51035a260800000000000000
+      internalID: 7108140456616722404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 303
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0600c3d9eda684300800000000000000
+      internalID: 236556484790190176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 303
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124f99b95dc320510800000000000000
+      internalID: 1513839312886166561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 303
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d0d5315702f63d0800000000000000
+      internalID: -3211312322083746477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 303
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43eb5c22a655e3fc0800000000000000
+      internalID: -3513276744964129228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 175
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e812c35e97736a0800000000000000
+      internalID: -6469568314231124379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 175
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41aa7736a63d2120800000000000000
+      internalID: 2390627064726856011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 175
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aefb1fe788270fa0800000000000000
+      internalID: -5834650227937902940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 175
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5f02bf53b0c8b90800000000000000
+      internalID: -7238398174616816217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 175
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685d48d0afac4e120800000000000000
+      internalID: 2442300073259095430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 175
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5b212277f060550800000000000000
+      internalID: 6126601347431314878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 47
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399f6a5bcbab828f0800000000000000
+      internalID: -564996433570760301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 47
+        width: 19
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ec74db717abdbb0800000000000000
+      internalID: -4910147248315707785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 47
+        width: 19
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00cfe652593ee5f00800000000000000
+      internalID: 1107572788097383424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 47
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c27f7e1dd509ecf0800000000000000
+      internalID: -222640259320548670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 47
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5872790fc4a1490800000000000000
+      internalID: -7774817210489928198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 47
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab2cd2e59f1b6760800000000000000
+      internalID: 7452084737031285670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Goblin_Mage_Attack_0: -6668577555672817693
+      Goblin_Mage_Attack_1: -557211355322192226
+      Goblin_Mage_Attack_10: -3211312322083746477
+      Goblin_Mage_Attack_11: -3513276744964129228
+      Goblin_Mage_Attack_12: -6469568314231124379
+      Goblin_Mage_Attack_13: 2390627064726856011
+      Goblin_Mage_Attack_14: -5834650227937902940
+      Goblin_Mage_Attack_15: -7238398174616816217
+      Goblin_Mage_Attack_16: 2442300073259095430
+      Goblin_Mage_Attack_17: 6126601347431314878
+      Goblin_Mage_Attack_18: -564996433570760301
+      Goblin_Mage_Attack_19: -4910147248315707785
+      Goblin_Mage_Attack_2: -5371370347813193096
+      Goblin_Mage_Attack_20: 1107572788097383424
+      Goblin_Mage_Attack_21: -222640259320548670
+      Goblin_Mage_Attack_22: -7774817210489928198
+      Goblin_Mage_Attack_23: 7452084737031285670
+      Goblin_Mage_Attack_3: 6923311801515493634
+      Goblin_Mage_Attack_4: 171092877128183353
+      Goblin_Mage_Attack_5: -2939919146977444857
+      Goblin_Mage_Attack_6: -3626539866327736141
+      Goblin_Mage_Attack_7: 7108140456616722404
+      Goblin_Mage_Attack_8: 236556484790190176
+      Goblin_Mage_Attack_9: 1513839312886166561
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

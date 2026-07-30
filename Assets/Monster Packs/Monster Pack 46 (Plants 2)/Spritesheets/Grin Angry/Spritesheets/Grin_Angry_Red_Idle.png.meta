@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: a6f9eaeab5d32ae479b491d1b8eb61ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8004368895681575413
+    second: Grin_Angry_Red_Idle_0
+  - first:
+      213: 4023093965254158842
+    second: Grin_Angry_Red_Idle_1
+  - first:
+      213: -8836517642770273993
+    second: Grin_Angry_Red_Idle_2
+  - first:
+      213: -3697761081174552619
+    second: Grin_Angry_Red_Idle_3
+  - first:
+      213: -4066643523379718306
+    second: Grin_Angry_Red_Idle_4
+  - first:
+      213: -8784039705856648481
+    second: Grin_Angry_Red_Idle_5
+  - first:
+      213: 6613534184735261795
+    second: Grin_Angry_Red_Idle_6
+  - first:
+      213: 4673742368386184910
+    second: Grin_Angry_Red_Idle_7
+  - first:
+      213: 5280843405898997351
+    second: Grin_Angry_Red_Idle_8
+  - first:
+      213: 8810548846603628749
+    second: Grin_Angry_Red_Idle_9
+  - first:
+      213: 2044008208127640977
+    second: Grin_Angry_Red_Idle_10
+  - first:
+      213: 2816529310863049455
+    second: Grin_Angry_Red_Idle_11
+  - first:
+      213: 1960689706350645461
+    second: Grin_Angry_Red_Idle_12
+  - first:
+      213: 8323586915073073089
+    second: Grin_Angry_Red_Idle_13
+  - first:
+      213: 8218189597937802502
+    second: Grin_Angry_Red_Idle_14
+  - first:
+      213: 5287431531086642683
+    second: Grin_Angry_Red_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grin_Angry_Red_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 429
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f939460a1b351f60800000000000000
+      internalID: 8004368895681575413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Red_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 429
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9edf865a6e4d730800000000000000
+      internalID: 4023093965254158842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Red_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 429
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739a43395026e5580800000000000000
+      internalID: -8836517642770273993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Red_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 429
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df835463e9eeacc0800000000000000
+      internalID: -3697761081174552619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Red_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 301
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e571fc0f2416097c0800000000000000
+      internalID: -4066643523379718306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Red_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 301
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdadc776d62d81680800000000000000
+      internalID: -8784039705856648481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Red_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 301
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3644c0f0d4ef7cb50800000000000000
+      internalID: 6613534184735261795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Red_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 301
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6f957ebe77cd040800000000000000
+      internalID: 4673742368386184910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Red_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 173
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ed21b3913594940800000000000000
+      internalID: 5280843405898997351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Red_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 173
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc07906ee7b554a70800000000000000
+      internalID: 8810548846603628749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Red_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 173
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1954e6bb2a6cd5c10800000000000000
+      internalID: 2044008208127640977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Red_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 173
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2c7715c72561720800000000000000
+      internalID: 2816529310863049455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Red_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 45
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d09bc556e4c53b10800000000000000
+      internalID: 1960689706350645461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Red_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 45
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf1502f232538370800000000000000
+      internalID: 8323586915073073089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Red_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 45
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d94e1c5efdc0270800000000000000
+      internalID: 8218189597937802502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Angry_Red_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 45
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd7e98a6fab06940800000000000000
+      internalID: 5287431531086642683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Grin_Angry_Red_Idle_0: 8004368895681575413
+      Grin_Angry_Red_Idle_1: 4023093965254158842
+      Grin_Angry_Red_Idle_10: 2044008208127640977
+      Grin_Angry_Red_Idle_11: 2816529310863049455
+      Grin_Angry_Red_Idle_12: 1960689706350645461
+      Grin_Angry_Red_Idle_13: 8323586915073073089
+      Grin_Angry_Red_Idle_14: 8218189597937802502
+      Grin_Angry_Red_Idle_15: 5287431531086642683
+      Grin_Angry_Red_Idle_2: -8836517642770273993
+      Grin_Angry_Red_Idle_3: -3697761081174552619
+      Grin_Angry_Red_Idle_4: -4066643523379718306
+      Grin_Angry_Red_Idle_5: -8784039705856648481
+      Grin_Angry_Red_Idle_6: 6613534184735261795
+      Grin_Angry_Red_Idle_7: 4673742368386184910
+      Grin_Angry_Red_Idle_8: 5280843405898997351
+      Grin_Angry_Red_Idle_9: 8810548846603628749
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

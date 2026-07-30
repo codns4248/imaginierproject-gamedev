@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 2d649280129aa924ba966b02a3c7fc23
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8883574675169992165
+    second: Puppet_R_Attack_0
+  - first:
+      213: 4867606390447594542
+    second: Puppet_R_Attack_1
+  - first:
+      213: -1775598641125438905
+    second: Puppet_R_Attack_2
+  - first:
+      213: -6650291751637499804
+    second: Puppet_R_Attack_3
+  - first:
+      213: -397982416436935908
+    second: Puppet_R_Attack_4
+  - first:
+      213: -3175543420973497625
+    second: Puppet_R_Attack_5
+  - first:
+      213: -733517289231620970
+    second: Puppet_R_Attack_6
+  - first:
+      213: -5373016025077907626
+    second: Puppet_R_Attack_7
+  - first:
+      213: -5101422810811955269
+    second: Puppet_R_Attack_8
+  - first:
+      213: -6126547179375999307
+    second: Puppet_R_Attack_9
+  - first:
+      213: -3602321498176527649
+    second: Puppet_R_Attack_10
+  - first:
+      213: -807801401502809928
+    second: Puppet_R_Attack_11
+  - first:
+      213: 5376551813127565649
+    second: Puppet_R_Attack_12
+  - first:
+      213: 572454131049601427
+    second: Puppet_R_Attack_13
+  - first:
+      213: -1217455295063536049
+    second: Puppet_R_Attack_14
+  - first:
+      213: 4691309811401824124
+    second: Puppet_R_Attack_15
+  - first:
+      213: -4903146547660609202
+    second: Puppet_R_Attack_16
+  - first:
+      213: -2065377294328394076
+    second: Puppet_R_Attack_17
+  - first:
+      213: -7932690450821134012
+    second: Puppet_R_Attack_18
+  - first:
+      213: 8728469268248606166
+    second: Puppet_R_Attack_19
+  - first:
+      213: 1723178116454827592
+    second: Puppet_R_Attack_20
+  - first:
+      213: -3055195507175724159
+    second: Puppet_R_Attack_21
+  - first:
+      213: 1568384379936661460
+    second: Puppet_R_Attack_22
+  - first:
+      213: 3101262057470386261
+    second: Puppet_R_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Puppet_R_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 434
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edd921991cc84b70800000000000000
+      internalID: 8883574675169992165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 434
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2cdc01f8363d8340800000000000000
+      internalID: 4867606390447594542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 435
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a4d04817ecb57e0800000000000000
+      internalID: -1775598641125438905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 431
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460cfeaf2ea65b3a0800000000000000
+      internalID: -6650291751637499804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 425
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13cc61d9151a7af0800000000000000
+      internalID: -397982416436935908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 424
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2cb0855143ee3d0800000000000000
+      internalID: -3175543420973497625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 306
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694edba69e502d5f0800000000000000
+      internalID: -733517289231620970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 306
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65fffb484663f65b0800000000000000
+      internalID: -5373016025077907626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 308
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb78a786bfa1439b0800000000000000
+      internalID: -5101422810811955269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 308
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b64f99dcc12afaa0800000000000000
+      internalID: -6126547179375999307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 307
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd26f6eeeabf10ec0800000000000000
+      internalID: -3602321498176527649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 306
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0cc5eb7ec1ac4f0800000000000000
+      internalID: -807801401502809928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 178
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15173f943695d9a40800000000000000
+      internalID: 5376551813127565649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 178
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3999a6bcff3c1f700800000000000000
+      internalID: 572454131049601427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 180
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ec1d70cdaba1fe0800000000000000
+      internalID: -1217455295063536049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 180
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7719e7fa61ea1140800000000000000
+      internalID: 4691309811401824124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 179
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49a101613684fbb0800000000000000
+      internalID: -4903146547660609202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 178
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae066c2b4e4653e0800000000000000
+      internalID: -2065377294328394076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 50
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4494cad601c69e190800000000000000
+      internalID: -7932690450821134012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 50
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d53fd6dd80c12970800000000000000
+      internalID: 8728469268248606166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 52
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846440cfd55f9e710800000000000000
+      internalID: 1723178116454827592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 52
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18beb639fd3c995d0800000000000000
+      internalID: -3055195507175724159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 50
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df556da84504c510800000000000000
+      internalID: 1568384379936661460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_R_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 49
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5506beaf865e90b20800000000000000
+      internalID: 3101262057470386261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Puppet_R_Attack_0: 8883574675169992165
+      Puppet_R_Attack_1: 4867606390447594542
+      Puppet_R_Attack_10: -3602321498176527649
+      Puppet_R_Attack_11: -807801401502809928
+      Puppet_R_Attack_12: 5376551813127565649
+      Puppet_R_Attack_13: 572454131049601427
+      Puppet_R_Attack_14: -1217455295063536049
+      Puppet_R_Attack_15: 4691309811401824124
+      Puppet_R_Attack_16: -4903146547660609202
+      Puppet_R_Attack_17: -2065377294328394076
+      Puppet_R_Attack_18: -7932690450821134012
+      Puppet_R_Attack_19: 8728469268248606166
+      Puppet_R_Attack_2: -1775598641125438905
+      Puppet_R_Attack_20: 1723178116454827592
+      Puppet_R_Attack_21: -3055195507175724159
+      Puppet_R_Attack_22: 1568384379936661460
+      Puppet_R_Attack_23: 3101262057470386261
+      Puppet_R_Attack_3: -6650291751637499804
+      Puppet_R_Attack_4: -397982416436935908
+      Puppet_R_Attack_5: -3175543420973497625
+      Puppet_R_Attack_6: -733517289231620970
+      Puppet_R_Attack_7: -5373016025077907626
+      Puppet_R_Attack_8: -5101422810811955269
+      Puppet_R_Attack_9: -6126547179375999307
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

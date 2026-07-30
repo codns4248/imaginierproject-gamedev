@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: c90736af7cb22704390f56e7ce24530f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5977753218102713928
+    second: Grin_Purple_Attack_0
+  - first:
+      213: 3297487395130273428
+    second: Grin_Purple_Attack_1
+  - first:
+      213: 4073611458266527282
+    second: Grin_Purple_Attack_2
+  - first:
+      213: -7898863533790110146
+    second: Grin_Purple_Attack_3
+  - first:
+      213: 2259070986630727182
+    second: Grin_Purple_Attack_4
+  - first:
+      213: 319848192559200487
+    second: Grin_Purple_Attack_5
+  - first:
+      213: 157282814722804533
+    second: Grin_Purple_Attack_6
+  - first:
+      213: -782033004341668733
+    second: Grin_Purple_Attack_7
+  - first:
+      213: 6214746372157287127
+    second: Grin_Purple_Attack_8
+  - first:
+      213: 7390593021632169968
+    second: Grin_Purple_Attack_9
+  - first:
+      213: -8533307717704679982
+    second: Grin_Purple_Attack_10
+  - first:
+      213: -1035006096142448302
+    second: Grin_Purple_Attack_11
+  - first:
+      213: -2508962207017787964
+    second: Grin_Purple_Attack_12
+  - first:
+      213: -6442681230182007761
+    second: Grin_Purple_Attack_13
+  - first:
+      213: 5922196791277952167
+    second: Grin_Purple_Attack_14
+  - first:
+      213: 6596981852257423538
+    second: Grin_Purple_Attack_15
+  - first:
+      213: -7434895813458444049
+    second: Grin_Purple_Attack_16
+  - first:
+      213: -7670384679765179892
+    second: Grin_Purple_Attack_17
+  - first:
+      213: 3025323423082174373
+    second: Grin_Purple_Attack_18
+  - first:
+      213: -4643565486745570042
+    second: Grin_Purple_Attack_19
+  - first:
+      213: 3923248792242414934
+    second: Grin_Purple_Attack_20
+  - first:
+      213: 5352137636542357668
+    second: Grin_Purple_Attack_21
+  - first:
+      213: 5718892165696102763
+    second: Grin_Purple_Attack_22
+  - first:
+      213: -8629471347515946379
+    second: Grin_Purple_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 436
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ed5ff51ee35f250800000000000000
+      internalID: 5977753218102713928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 437
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e6116a05703cd20800000000000000
+      internalID: 3297487395130273428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 436
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236ffe2d900688830800000000000000
+      internalID: 4073611458266527282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 435
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e572b4779916290800000000000000
+      internalID: -7898863533790110146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 435
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e060480e715d95f10800000000000000
+      internalID: 2259070986630727182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 436
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8ba8b8c34507400800000000000000
+      internalID: 319848192559200487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 308
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b83dcf2e7ce2200800000000000000
+      internalID: 157282814722804533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 309
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384559d3029a525f0800000000000000
+      internalID: -782033004341668733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 308
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da2599f5e63f3650800000000000000
+      internalID: 6214746372157287127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 307
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7cdd53239a09660800000000000000
+      internalID: 7390593021632169968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 307
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ddfc1797d9939980800000000000000
+      internalID: -8533307717704679982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 308
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259c013707be2a1f0800000000000000
+      internalID: -1035006096142448302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 180
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd13df6a206e2dd0800000000000000
+      internalID: -2508962207017787964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 181
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2cbce15e8ff696a0800000000000000
+      internalID: -6442681230182007761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 180
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac9412ca9edf2250800000000000000
+      internalID: 5922196791277952167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 179
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b09085da003d8b50800000000000000
+      internalID: 6596981852257423538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 179
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe045c046a1f1d890800000000000000
+      internalID: -7434895813458444049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 180
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c028fffe5c15d8590800000000000000
+      internalID: -7670384679765179892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 52
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a75b7bdf9b1cf920800000000000000
+      internalID: 3025323423082174373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 53
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605344fdacdbe8fb0800000000000000
+      internalID: -4643565486745570042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 52
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655e6138dfd227630800000000000000
+      internalID: 3923248792242414934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 51
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a02b17d2dc964a40800000000000000
+      internalID: 5352137636542357668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 51
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61a41def169d5f40800000000000000
+      internalID: 5718892165696102763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Purple_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 52
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a86e3c785fd3880800000000000000
+      internalID: -8629471347515946379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Grin_Purple_Attack_0: 5977753218102713928
+      Grin_Purple_Attack_1: 3297487395130273428
+      Grin_Purple_Attack_10: -8533307717704679982
+      Grin_Purple_Attack_11: -1035006096142448302
+      Grin_Purple_Attack_12: -2508962207017787964
+      Grin_Purple_Attack_13: -6442681230182007761
+      Grin_Purple_Attack_14: 5922196791277952167
+      Grin_Purple_Attack_15: 6596981852257423538
+      Grin_Purple_Attack_16: -7434895813458444049
+      Grin_Purple_Attack_17: -7670384679765179892
+      Grin_Purple_Attack_18: 3025323423082174373
+      Grin_Purple_Attack_19: -4643565486745570042
+      Grin_Purple_Attack_2: 4073611458266527282
+      Grin_Purple_Attack_20: 3923248792242414934
+      Grin_Purple_Attack_21: 5352137636542357668
+      Grin_Purple_Attack_22: 5718892165696102763
+      Grin_Purple_Attack_23: -8629471347515946379
+      Grin_Purple_Attack_3: -7898863533790110146
+      Grin_Purple_Attack_4: 2259070986630727182
+      Grin_Purple_Attack_5: 319848192559200487
+      Grin_Purple_Attack_6: 157282814722804533
+      Grin_Purple_Attack_7: -782033004341668733
+      Grin_Purple_Attack_8: 6214746372157287127
+      Grin_Purple_Attack_9: 7390593021632169968
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

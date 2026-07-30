@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 3434a693ae6d5b4498a3b04c3a85471b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7451405502898859772
+    second: Tales_Latabi_Idle_0
+  - first:
+      213: -8186594262515090212
+    second: Tales_Latabi_Idle_1
+  - first:
+      213: -774603733739037881
+    second: Tales_Latabi_Idle_2
+  - first:
+      213: -9192824560107330413
+    second: Tales_Latabi_Idle_3
+  - first:
+      213: -6156431400967913240
+    second: Tales_Latabi_Idle_4
+  - first:
+      213: 1267919543631181058
+    second: Tales_Latabi_Idle_5
+  - first:
+      213: 7738026434332648595
+    second: Tales_Latabi_Idle_6
+  - first:
+      213: -2413651292081521385
+    second: Tales_Latabi_Idle_7
+  - first:
+      213: 8235700242895986687
+    second: Tales_Latabi_Idle_8
+  - first:
+      213: -8517350081421175446
+    second: Tales_Latabi_Idle_9
+  - first:
+      213: 4248556025683704084
+    second: Tales_Latabi_Idle_10
+  - first:
+      213: 3832528412025879184
+    second: Tales_Latabi_Idle_11
+  - first:
+      213: 1173991603664237873
+    second: Tales_Latabi_Idle_12
+  - first:
+      213: 5824948715669887054
+    second: Tales_Latabi_Idle_13
+  - first:
+      213: 5857153657175667092
+    second: Tales_Latabi_Idle_14
+  - first:
+      213: 2194109053818059633
+    second: Tales_Latabi_Idle_15
+  - first:
+      213: -3461089442093119245
+    second: Tales_Latabi_Idle_16
+  - first:
+      213: 5748953362034296427
+    second: Tales_Latabi_Idle_17
+  - first:
+      213: -2965036738176272064
+    second: Tales_Latabi_Idle_18
+  - first:
+      213: -5232054848114318325
+    second: Tales_Latabi_Idle_19
+  - first:
+      213: -8349752315208023613
+    second: Tales_Latabi_Idle_20
+  - first:
+      213: 6734087733410762589
+    second: Tales_Latabi_Idle_21
+  - first:
+      213: 7485023224753386494
+    second: Tales_Latabi_Idle_22
+  - first:
+      213: -7865200835246870380
+    second: Tales_Latabi_Idle_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 431
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4019252ac2a479890800000000000000
+      internalID: -7451405502898859772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 431
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc798684ef536e80800000000000000
+      internalID: -8186594262515090212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 431
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b1bc8120e0045f0800000000000000
+      internalID: -774603733739037881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 431
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394e05ca4c68c6080800000000000000
+      internalID: -9192824560107330413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 311
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e04f3d4246ff8aa0800000000000000
+      internalID: -6156431400967913240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 303
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20579e17b1e889110800000000000000
+      internalID: 1267919543631181058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 311
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394eaf05b0ef26b60800000000000000
+      internalID: 7738026434332648595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 303
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d71db10fcf08ed0800000000000000
+      internalID: -2413651292081521385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 312
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffd96e7cb51b4270800000000000000
+      internalID: 8235700242895986687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 303
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a651f315a3b4cc980800000000000000
+      internalID: -8517350081421175446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 312
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419f83f0237e5fa30800000000000000
+      internalID: 4248556025683704084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 303
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09af46ef840ef2530800000000000000
+      internalID: 3832528412025879184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 175
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135b2b9b42bda4010800000000000000
+      internalID: 1173991603664237873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 183
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e481f58beff56d050800000000000000
+      internalID: 5824948715669887054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 175
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491f5daf73ac84150800000000000000
+      internalID: 5857153657175667092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 183
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b3b4f3f8a037e10800000000000000
+      internalID: 2194109053818059633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 175
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f84f247d7db7ffc0800000000000000
+      internalID: -3461089442093119245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 184
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66875e9f9268cf40800000000000000
+      internalID: 5748953362034296427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 175
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049350bcbc21ad6d0800000000000000
+      internalID: -2965036738176272064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 184
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0429c416d10467b0800000000000000
+      internalID: -5232054848114318325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_20
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 47
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1c7891288bf1c80800000000000000
+      internalID: -8349752315208023613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_21
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 47
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f83446d19447d50800000000000000
+      internalID: 6734087733410762589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_22
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 47
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef379fe27f420e760800000000000000
+      internalID: 7485023224753386494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Latabi_Idle_23
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 47
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4903100138139d290800000000000000
+      internalID: -7865200835246870380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tales_Latabi_Idle_0: -7451405502898859772
+      Tales_Latabi_Idle_1: -8186594262515090212
+      Tales_Latabi_Idle_10: 4248556025683704084
+      Tales_Latabi_Idle_11: 3832528412025879184
+      Tales_Latabi_Idle_12: 1173991603664237873
+      Tales_Latabi_Idle_13: 5824948715669887054
+      Tales_Latabi_Idle_14: 5857153657175667092
+      Tales_Latabi_Idle_15: 2194109053818059633
+      Tales_Latabi_Idle_16: -3461089442093119245
+      Tales_Latabi_Idle_17: 5748953362034296427
+      Tales_Latabi_Idle_18: -2965036738176272064
+      Tales_Latabi_Idle_19: -5232054848114318325
+      Tales_Latabi_Idle_2: -774603733739037881
+      Tales_Latabi_Idle_20: -8349752315208023613
+      Tales_Latabi_Idle_21: 6734087733410762589
+      Tales_Latabi_Idle_22: 7485023224753386494
+      Tales_Latabi_Idle_23: -7865200835246870380
+      Tales_Latabi_Idle_3: -9192824560107330413
+      Tales_Latabi_Idle_4: -6156431400967913240
+      Tales_Latabi_Idle_5: 1267919543631181058
+      Tales_Latabi_Idle_6: 7738026434332648595
+      Tales_Latabi_Idle_7: -2413651292081521385
+      Tales_Latabi_Idle_8: 8235700242895986687
+      Tales_Latabi_Idle_9: -8517350081421175446
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

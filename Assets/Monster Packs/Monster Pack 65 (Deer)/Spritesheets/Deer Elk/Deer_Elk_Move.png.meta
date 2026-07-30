@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: cf309d452c554f24ea6e9f98bf1ec3e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4420051808307656754
+    second: Deer_Elk_Move_0
+  - first:
+      213: 2003425430502320104
+    second: Deer_Elk_Move_1
+  - first:
+      213: 6501901159029126850
+    second: Deer_Elk_Move_2
+  - first:
+      213: -5619295827314934306
+    second: Deer_Elk_Move_3
+  - first:
+      213: -8564082759779649852
+    second: Deer_Elk_Move_4
+  - first:
+      213: -851503305430576736
+    second: Deer_Elk_Move_5
+  - first:
+      213: -6636410723980957280
+    second: Deer_Elk_Move_6
+  - first:
+      213: -609124854498493011
+    second: Deer_Elk_Move_7
+  - first:
+      213: -2779935859848501662
+    second: Deer_Elk_Move_8
+  - first:
+      213: -4207231376125000208
+    second: Deer_Elk_Move_9
+  - first:
+      213: -2069167995621836815
+    second: Deer_Elk_Move_10
+  - first:
+      213: -3300859306824421648
+    second: Deer_Elk_Move_11
+  - first:
+      213: -6709894474759170194
+    second: Deer_Elk_Move_12
+  - first:
+      213: -8824212416407853816
+    second: Deer_Elk_Move_13
+  - first:
+      213: 4398794259639656575
+    second: Deer_Elk_Move_14
+  - first:
+      213: -2107548514812581362
+    second: Deer_Elk_Move_15
+  - first:
+      213: -2339566992955197931
+    second: Deer_Elk_Move_16
+  - first:
+      213: -5396587856120081236
+    second: Deer_Elk_Move_17
+  - first:
+      213: 388039036837711941
+    second: Deer_Elk_Move_18
+  - first:
+      213: 4797936678142272469
+    second: Deer_Elk_Move_19
+  - first:
+      213: 92026991334372546
+    second: Deer_Elk_Move_20
+  - first:
+      213: -7880048099260368811
+    second: Deer_Elk_Move_21
+  - first:
+      213: 5205383982612379641
+    second: Deer_Elk_Move_22
+  - first:
+      213: -4463032785479503546
+    second: Deer_Elk_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Deer_Elk_Move_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 430
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238300383bd275d30800000000000000
+      internalID: 4420051808307656754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 431
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7231f70d89dcb10800000000000000
+      internalID: 2003425430502320104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_2
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 431
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6b1a4d7a46b3a50800000000000000
+      internalID: 6501901159029126850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 430
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eddfe05a7304402b0800000000000000
+      internalID: -5619295827314934306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_4
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 430
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6794cba14462980800000000000000
+      internalID: -8564082759779649852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_5
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 430
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a15db2514ade24f0800000000000000
+      internalID: -851503305430576736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 303
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9a5859b9bb6e3a0800000000000000
+      internalID: -6636410723980957280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_7
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 303
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad71cf0c24fb87f0800000000000000
+      internalID: -609124854498493011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_8
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 303
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2662c5f601fab69d0800000000000000
+      internalID: -2779935859848501662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_9
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 303
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f50132ba59ec95c0800000000000000
+      internalID: -4207231376125000208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_10
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 303
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f77a50cba6d843e0800000000000000
+      internalID: -2069167995621836815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_11
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 303
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe203bf2fdf032d0800000000000000
+      internalID: -3300859306824421648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 175
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e679f97968aa1e2a0800000000000000
+      internalID: -6709894474759170194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 175
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8052b695f891a8580800000000000000
+      internalID: -8824212416407853816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_14
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 175
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7069d5c218ab0d30800000000000000
+      internalID: 4398794259639656575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_15
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 175
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0aa1b3cacb70c2e0800000000000000
+      internalID: -2107548514812581362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_16
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 175
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5163da82730388fd0800000000000000
+      internalID: -2339566992955197931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_17
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 175
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca496ccefe77b15b0800000000000000
+      internalID: -5396587856120081236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_18
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 46
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54052b5b277926500800000000000000
+      internalID: 388039036837711941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_19
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 46
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3ec7bfcf1b59240800000000000000
+      internalID: 4797936678142272469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_20
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 46
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4bb30af02f64100800000000000000
+      internalID: 92026991334372546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_21
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 46
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558f796010274a290800000000000000
+      internalID: -7880048099260368811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_22
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 46
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f77e13272d3d3840800000000000000
+      internalID: 5205383982612379641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Move_23
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 46
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6417298e35f1012c0800000000000000
+      internalID: -4463032785479503546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Deer_Elk_Move_0: 4420051808307656754
+      Deer_Elk_Move_1: 2003425430502320104
+      Deer_Elk_Move_10: -2069167995621836815
+      Deer_Elk_Move_11: -3300859306824421648
+      Deer_Elk_Move_12: -6709894474759170194
+      Deer_Elk_Move_13: -8824212416407853816
+      Deer_Elk_Move_14: 4398794259639656575
+      Deer_Elk_Move_15: -2107548514812581362
+      Deer_Elk_Move_16: -2339566992955197931
+      Deer_Elk_Move_17: -5396587856120081236
+      Deer_Elk_Move_18: 388039036837711941
+      Deer_Elk_Move_19: 4797936678142272469
+      Deer_Elk_Move_2: 6501901159029126850
+      Deer_Elk_Move_20: 92026991334372546
+      Deer_Elk_Move_21: -7880048099260368811
+      Deer_Elk_Move_22: 5205383982612379641
+      Deer_Elk_Move_23: -4463032785479503546
+      Deer_Elk_Move_3: -5619295827314934306
+      Deer_Elk_Move_4: -8564082759779649852
+      Deer_Elk_Move_5: -851503305430576736
+      Deer_Elk_Move_6: -6636410723980957280
+      Deer_Elk_Move_7: -609124854498493011
+      Deer_Elk_Move_8: -2779935859848501662
+      Deer_Elk_Move_9: -4207231376125000208
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

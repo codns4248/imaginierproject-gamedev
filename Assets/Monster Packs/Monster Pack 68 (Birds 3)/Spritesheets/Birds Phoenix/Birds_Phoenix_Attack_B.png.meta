@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 415d93299a63b5a478eddb3deb8729b4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6791456970901394562
+    second: Birds_Phoenix_Attack_B_0
+  - first:
+      213: -3663688441974055606
+    second: Birds_Phoenix_Attack_B_1
+  - first:
+      213: -8213053956987797063
+    second: Birds_Phoenix_Attack_B_2
+  - first:
+      213: -8662953811561235724
+    second: Birds_Phoenix_Attack_B_3
+  - first:
+      213: -6547398423015207014
+    second: Birds_Phoenix_Attack_B_4
+  - first:
+      213: 3056410966789041006
+    second: Birds_Phoenix_Attack_B_5
+  - first:
+      213: -7415600829599896454
+    second: Birds_Phoenix_Attack_B_6
+  - first:
+      213: 1269174552071867895
+    second: Birds_Phoenix_Attack_B_7
+  - first:
+      213: -8499772476731005239
+    second: Birds_Phoenix_Attack_B_8
+  - first:
+      213: 8622033246871662174
+    second: Birds_Phoenix_Attack_B_9
+  - first:
+      213: -8266958721093763083
+    second: Birds_Phoenix_Attack_B_10
+  - first:
+      213: 7645058177030807893
+    second: Birds_Phoenix_Attack_B_11
+  - first:
+      213: -8969220894414474880
+    second: Birds_Phoenix_Attack_B_12
+  - first:
+      213: -5078480504619116230
+    second: Birds_Phoenix_Attack_B_13
+  - first:
+      213: 2278472361387076783
+    second: Birds_Phoenix_Attack_B_14
+  - first:
+      213: 4634119179883263390
+    second: Birds_Phoenix_Attack_B_15
+  - first:
+      213: 868185435332133055
+    second: Birds_Phoenix_Attack_B_16
+  - first:
+      213: -5882850827332469405
+    second: Birds_Phoenix_Attack_B_17
+  - first:
+      213: 6935526425511050937
+    second: Birds_Phoenix_Attack_B_18
+  - first:
+      213: 4284565409858416169
+    second: Birds_Phoenix_Attack_B_19
+  - first:
+      213: 4410601949723858595
+    second: Birds_Phoenix_Attack_B_20
+  - first:
+      213: 6695169198950216364
+    second: Birds_Phoenix_Attack_B_21
+  - first:
+      213: 4676756100785695190
+    second: Birds_Phoenix_Attack_B_22
+  - first:
+      213: -1343664542039044013
+    second: Birds_Phoenix_Attack_B_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 433
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2849de1e12a104e50800000000000000
+      internalID: 6791456970901394562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 434
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d9e68e5c6f72dc0800000000000000
+      internalID: -3663688441974055606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 433
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b140a4d0fe550e80800000000000000
+      internalID: -8213053956987797063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 433
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fab64c186107c780800000000000000
+      internalID: -8662953811561235724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_4
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 434
+        width: 47
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fc939e2d7f225a0800000000000000
+      internalID: -6547398423015207014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_5
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 434
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ba11ba49d8a6a20800000000000000
+      internalID: 3056410966789041006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 311
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c2b93c55e761990800000000000000
+      internalID: -7415600829599896454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 311
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd853ed7830d9110800000000000000
+      internalID: 1269174552071867895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_8
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 310
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c66ec457fdba0a80800000000000000
+      internalID: -8499772476731005239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 308
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ea4697e8d97a770800000000000000
+      internalID: 8622033246871662174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_10
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 311
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff7368e7dcd54d80800000000000000
+      internalID: -8266958721093763083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_11
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 312
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551ed1128e3b81a60800000000000000
+      internalID: 7645058177030807893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 183
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081f9641e1de68380800000000000000
+      internalID: -8969220894414474880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 183
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a395e6353ec9589b0800000000000000
+      internalID: -5078480504619116230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 182
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faca5037a82ce9f10800000000000000
+      internalID: 2278472361387076783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_15
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 180
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9534cb67d2bf4040800000000000000
+      internalID: 4634119179883263390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_16
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 183
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0c328bd0a6c0c00800000000000000
+      internalID: 868185435332133055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_17
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 184
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d3c3a575aeb5ea0800000000000000
+      internalID: -5882850827332469405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_18
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 49
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bebbeab980ff3060800000000000000
+      internalID: 6935526425511050937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 48
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e69872a85d57b30800000000000000
+      internalID: 4284565409858416169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_20
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 49
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a69feada1b953d30800000000000000
+      internalID: 4410601949723858595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 50
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca27096f9e40aec50800000000000000
+      internalID: 6695169198950216364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_22
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 50
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9e87825ec27e040800000000000000
+      internalID: 4676756100785695190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Attack_B_23
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 49
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3509972d7385a5de0800000000000000
+      internalID: -1343664542039044013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birds_Phoenix_Attack_B_0: 6791456970901394562
+      Birds_Phoenix_Attack_B_1: -3663688441974055606
+      Birds_Phoenix_Attack_B_10: -8266958721093763083
+      Birds_Phoenix_Attack_B_11: 7645058177030807893
+      Birds_Phoenix_Attack_B_12: -8969220894414474880
+      Birds_Phoenix_Attack_B_13: -5078480504619116230
+      Birds_Phoenix_Attack_B_14: 2278472361387076783
+      Birds_Phoenix_Attack_B_15: 4634119179883263390
+      Birds_Phoenix_Attack_B_16: 868185435332133055
+      Birds_Phoenix_Attack_B_17: -5882850827332469405
+      Birds_Phoenix_Attack_B_18: 6935526425511050937
+      Birds_Phoenix_Attack_B_19: 4284565409858416169
+      Birds_Phoenix_Attack_B_2: -8213053956987797063
+      Birds_Phoenix_Attack_B_20: 4410601949723858595
+      Birds_Phoenix_Attack_B_21: 6695169198950216364
+      Birds_Phoenix_Attack_B_22: 4676756100785695190
+      Birds_Phoenix_Attack_B_23: -1343664542039044013
+      Birds_Phoenix_Attack_B_3: -8662953811561235724
+      Birds_Phoenix_Attack_B_4: -6547398423015207014
+      Birds_Phoenix_Attack_B_5: 3056410966789041006
+      Birds_Phoenix_Attack_B_6: -7415600829599896454
+      Birds_Phoenix_Attack_B_7: 1269174552071867895
+      Birds_Phoenix_Attack_B_8: -8499772476731005239
+      Birds_Phoenix_Attack_B_9: 8622033246871662174
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

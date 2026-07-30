@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 2adf942315187164096ddf47905ad716
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8703186658092516713
+    second: Harpy_Land_0
+  - first:
+      213: 3370902015117779583
+    second: Harpy_Land_1
+  - first:
+      213: -6711042452257016073
+    second: Harpy_Land_2
+  - first:
+      213: -1083622227651297891
+    second: Harpy_Land_3
+  - first:
+      213: -717393591999688295
+    second: Harpy_Land_4
+  - first:
+      213: 358052910392320500
+    second: Harpy_Land_5
+  - first:
+      213: 7558609428773745114
+    second: Harpy_Land_6
+  - first:
+      213: -3294606006144782621
+    second: Harpy_Land_7
+  - first:
+      213: -1178819109822503107
+    second: Harpy_Land_8
+  - first:
+      213: -4315469751888533985
+    second: Harpy_Land_9
+  - first:
+      213: 2479691002008921934
+    second: Harpy_Land_10
+  - first:
+      213: -7390231333717734260
+    second: Harpy_Land_11
+  - first:
+      213: -7978266140854500895
+    second: Harpy_Land_12
+  - first:
+      213: -4432791642549043610
+    second: Harpy_Land_13
+  - first:
+      213: 3585924738579887389
+    second: Harpy_Land_14
+  - first:
+      213: -1543622909736896352
+    second: Harpy_Land_15
+  - first:
+      213: -2859214788149732845
+    second: Harpy_Land_16
+  - first:
+      213: 2966569376266233424
+    second: Harpy_Land_17
+  - first:
+      213: 7786270598841259906
+    second: Harpy_Land_18
+  - first:
+      213: 7745580870500779785
+    second: Harpy_Land_19
+  - first:
+      213: -7552719730805273458
+    second: Harpy_Land_20
+  - first:
+      213: -6717245210544725424
+    second: Harpy_Land_21
+  - first:
+      213: -3681974983988635346
+    second: Harpy_Land_22
+  - first:
+      213: 6655333943197653736
+    second: Harpy_Land_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Harpy_Land_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 435
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9650681772ee7c870800000000000000
+      internalID: 8703186658092516713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 432
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f726ebfd589d7ce20800000000000000
+      internalID: 3370902015117779583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_2
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 431
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f677a042769dd2a0800000000000000
+      internalID: -6711042452257016073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_3
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 431
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d7022435336f0f0800000000000000
+      internalID: -1083622227651297891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_4
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 431
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99197b8345e4b06f0800000000000000
+      internalID: -717393591999688295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_5
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 431
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1aab6993f08f400800000000000000
+      internalID: 358052910392320500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_6
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 307
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad13afd6a3395e860800000000000000
+      internalID: 7558609428773745114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_7
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 303
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee2fd00b453742d0800000000000000
+      internalID: -3294606006144782621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_8
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 303
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d376698e34ef3afe0800000000000000
+      internalID: -1178819109822503107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 303
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16adbfff1f5c14c0800000000000000
+      internalID: -4315469751888533985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_10
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 303
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47697f04d1a96220800000000000000
+      internalID: 2479691002008921934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_11
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 303
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c0bc1d1cf907990800000000000000
+      internalID: -7390231333717734260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_12
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 179
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e147de2731874190800000000000000
+      internalID: -7978266140854500895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_13
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 175
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e3b8eac7f8b72c0800000000000000
+      internalID: -4432791642549043610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 175
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15f65afc83c3c130800000000000000
+      internalID: 3585924738579887389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_15
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 175
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a83afd5423f39ae0800000000000000
+      internalID: -1543622909736896352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_16
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 175
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a9ac78c470258d0800000000000000
+      internalID: -2859214788149732845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_17
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 175
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056a6e1512f5b2920800000000000000
+      internalID: 2966569376266233424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_18
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 51
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28750013bd36e0c60800000000000000
+      internalID: 7786270598841259906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_19
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 48
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907824d83c4dd7b60800000000000000
+      internalID: 7745580870500779785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_20
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 47
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c844dbb695f2790800000000000000
+      internalID: -7552719730805273458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_21
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 47
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052a94c021d87c2a0800000000000000
+      internalID: -6717245210544725424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_22
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 47
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e299b7f824ff6ecc0800000000000000
+      internalID: -3681974983988635346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Land_23
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 47
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea55e9b5fe7c5c50800000000000000
+      internalID: 6655333943197653736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Harpy_Land_0: 8703186658092516713
+      Harpy_Land_1: 3370902015117779583
+      Harpy_Land_10: 2479691002008921934
+      Harpy_Land_11: -7390231333717734260
+      Harpy_Land_12: -7978266140854500895
+      Harpy_Land_13: -4432791642549043610
+      Harpy_Land_14: 3585924738579887389
+      Harpy_Land_15: -1543622909736896352
+      Harpy_Land_16: -2859214788149732845
+      Harpy_Land_17: 2966569376266233424
+      Harpy_Land_18: 7786270598841259906
+      Harpy_Land_19: 7745580870500779785
+      Harpy_Land_2: -6711042452257016073
+      Harpy_Land_20: -7552719730805273458
+      Harpy_Land_21: -6717245210544725424
+      Harpy_Land_22: -3681974983988635346
+      Harpy_Land_23: 6655333943197653736
+      Harpy_Land_3: -1083622227651297891
+      Harpy_Land_4: -717393591999688295
+      Harpy_Land_5: 358052910392320500
+      Harpy_Land_6: 7558609428773745114
+      Harpy_Land_7: -3294606006144782621
+      Harpy_Land_8: -1178819109822503107
+      Harpy_Land_9: -4315469751888533985
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

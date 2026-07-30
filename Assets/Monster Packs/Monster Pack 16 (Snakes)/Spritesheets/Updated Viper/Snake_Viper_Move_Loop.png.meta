@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 4fba3917bcb7e594294a7d085a8728ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4375433612097303974
+    second: Snake_Viper_Move_Loop_0
+  - first:
+      213: -2697533355070441905
+    second: Snake_Viper_Move_Loop_1
+  - first:
+      213: -898627999930614460
+    second: Snake_Viper_Move_Loop_2
+  - first:
+      213: -8712411991710141903
+    second: Snake_Viper_Move_Loop_3
+  - first:
+      213: -5163287691053674093
+    second: Snake_Viper_Move_Loop_4
+  - first:
+      213: 6216851454027182774
+    second: Snake_Viper_Move_Loop_5
+  - first:
+      213: 3879679533662177798
+    second: Snake_Viper_Move_Loop_6
+  - first:
+      213: -443751995557980783
+    second: Snake_Viper_Move_Loop_7
+  - first:
+      213: -5794740319624290435
+    second: Snake_Viper_Move_Loop_8
+  - first:
+      213: 2491424942601888104
+    second: Snake_Viper_Move_Loop_9
+  - first:
+      213: -7866056926062280274
+    second: Snake_Viper_Move_Loop_10
+  - first:
+      213: 4169615797608390797
+    second: Snake_Viper_Move_Loop_11
+  - first:
+      213: 8061010380905913822
+    second: Snake_Viper_Move_Loop_12
+  - first:
+      213: 5451658531380919073
+    second: Snake_Viper_Move_Loop_13
+  - first:
+      213: 4628748386186844413
+    second: Snake_Viper_Move_Loop_14
+  - first:
+      213: -2454099845984423445
+    second: Snake_Viper_Move_Loop_15
+  - first:
+      213: 2408031005012099715
+    second: Snake_Viper_Move_Loop_16
+  - first:
+      213: 6247164344635214623
+    second: Snake_Viper_Move_Loop_17
+  - first:
+      213: 555194310676206351
+    second: Snake_Viper_Move_Loop_18
+  - first:
+      213: 2668963366207364915
+    second: Snake_Viper_Move_Loop_19
+  - first:
+      213: 6022013418674279923
+    second: Snake_Viper_Move_Loop_20
+  - first:
+      213: -4652287602179607298
+    second: Snake_Viper_Move_Loop_21
+  - first:
+      213: 7582949308647614580
+    second: Snake_Viper_Move_Loop_22
+  - first:
+      213: -9047940118108482325
+    second: Snake_Viper_Move_Loop_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 429
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a53d5b20b9a8bc30800000000000000
+      internalID: 4375433612097303974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 429
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f463249a4bf609ad0800000000000000
+      internalID: -2697533355070441905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 428
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d7aee589e6783f0800000000000000
+      internalID: -898627999930614460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_3
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 428
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1327341347b471780800000000000000
+      internalID: -8712411991710141903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_4
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 429
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391599583315858b0800000000000000
+      internalID: -5163287691053674093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_5
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 430
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b239aa8571b64650800000000000000
+      internalID: 6216851454027182774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 303
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a894efaf367d530800000000000000
+      internalID: 3879679533662177798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 303
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195556049e977d9f0800000000000000
+      internalID: -443751995557980783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 303
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f19239162f49fa0800000000000000
+      internalID: -5794740319624290435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_9
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 303
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861655009c1539220800000000000000
+      internalID: 2491424942601888104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_10
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 303
+        width: 37
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea18e03e6e626d290800000000000000
+      internalID: -7866056926062280274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_11
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 303
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d802e42f9737dd930800000000000000
+      internalID: 4169615797608390797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 175
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd12ac7b367edf60800000000000000
+      internalID: 8061010380905913822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_13
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 175
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12bffa7dc8e28ab40800000000000000
+      internalID: 5451658531380919073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_14
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 175
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df85451122e9c3040800000000000000
+      internalID: 4628748386186844413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_15
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 175
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1f1c4413941fdd0800000000000000
+      internalID: -2454099845984423445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_16
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 175
+        width: 37
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3828fd5d07b0b6120800000000000000
+      internalID: 2408031005012099715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_17
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 175
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1bc77f5fd262b650800000000000000
+      internalID: 6247164344635214623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_18
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 37
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f035c25b84274b700800000000000000
+      internalID: 555194310676206351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_19
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 36
+        width: 12
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f12517a001a0520800000000000000
+      internalID: 2668963366207364915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 36
+        width: 12
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f557bc5c4d729350800000000000000
+      internalID: 6022013418674279923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_21
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 37
+        width: 12
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4712f1311cf6fb0800000000000000
+      internalID: -4652287602179607298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_22
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 36
+        width: 12
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4782cb3583c0c3960800000000000000
+      internalID: 7582949308647614580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Move_Loop_23
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 36
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4532f86624f6280800000000000000
+      internalID: -9047940118108482325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Snake_Viper_Move_Loop_0: 4375433612097303974
+      Snake_Viper_Move_Loop_1: -2697533355070441905
+      Snake_Viper_Move_Loop_10: -7866056926062280274
+      Snake_Viper_Move_Loop_11: 4169615797608390797
+      Snake_Viper_Move_Loop_12: 8061010380905913822
+      Snake_Viper_Move_Loop_13: 5451658531380919073
+      Snake_Viper_Move_Loop_14: 4628748386186844413
+      Snake_Viper_Move_Loop_15: -2454099845984423445
+      Snake_Viper_Move_Loop_16: 2408031005012099715
+      Snake_Viper_Move_Loop_17: 6247164344635214623
+      Snake_Viper_Move_Loop_18: 555194310676206351
+      Snake_Viper_Move_Loop_19: 2668963366207364915
+      Snake_Viper_Move_Loop_2: -898627999930614460
+      Snake_Viper_Move_Loop_20: 6022013418674279923
+      Snake_Viper_Move_Loop_21: -4652287602179607298
+      Snake_Viper_Move_Loop_22: 7582949308647614580
+      Snake_Viper_Move_Loop_23: -9047940118108482325
+      Snake_Viper_Move_Loop_3: -8712411991710141903
+      Snake_Viper_Move_Loop_4: -5163287691053674093
+      Snake_Viper_Move_Loop_5: 6216851454027182774
+      Snake_Viper_Move_Loop_6: 3879679533662177798
+      Snake_Viper_Move_Loop_7: -443751995557980783
+      Snake_Viper_Move_Loop_8: -5794740319624290435
+      Snake_Viper_Move_Loop_9: 2491424942601888104
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

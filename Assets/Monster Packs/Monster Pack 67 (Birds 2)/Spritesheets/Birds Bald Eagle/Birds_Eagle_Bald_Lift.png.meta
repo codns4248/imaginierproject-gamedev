@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 034f779083561fd48a336c80627dcc82
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2720552612436394910
+    second: Birds_Eagle_Bald_Lift_0
+  - first:
+      213: 3921590241292923381
+    second: Birds_Eagle_Bald_Lift_1
+  - first:
+      213: -1853380616105175570
+    second: Birds_Eagle_Bald_Lift_2
+  - first:
+      213: 2437067732144244090
+    second: Birds_Eagle_Bald_Lift_3
+  - first:
+      213: -3948531334760903798
+    second: Birds_Eagle_Bald_Lift_4
+  - first:
+      213: -4700663140168343313
+    second: Birds_Eagle_Bald_Lift_5
+  - first:
+      213: 7396534470724093149
+    second: Birds_Eagle_Bald_Lift_6
+  - first:
+      213: 285678130598526833
+    second: Birds_Eagle_Bald_Lift_7
+  - first:
+      213: -7570997468519304247
+    second: Birds_Eagle_Bald_Lift_8
+  - first:
+      213: -1564422586716533466
+    second: Birds_Eagle_Bald_Lift_9
+  - first:
+      213: 3374096752858181373
+    second: Birds_Eagle_Bald_Lift_10
+  - first:
+      213: -8828747998256504578
+    second: Birds_Eagle_Bald_Lift_11
+  - first:
+      213: 3598661883676762143
+    second: Birds_Eagle_Bald_Lift_12
+  - first:
+      213: -2345077898553987066
+    second: Birds_Eagle_Bald_Lift_13
+  - first:
+      213: -3190523032249110308
+    second: Birds_Eagle_Bald_Lift_14
+  - first:
+      213: -8310841981293965251
+    second: Birds_Eagle_Bald_Lift_15
+  - first:
+      213: -7134960530886761268
+    second: Birds_Eagle_Bald_Lift_16
+  - first:
+      213: 3775295567414441774
+    second: Birds_Eagle_Bald_Lift_17
+  - first:
+      213: 7304839812001826349
+    second: Birds_Eagle_Bald_Lift_18
+  - first:
+      213: -3405862207225971786
+    second: Birds_Eagle_Bald_Lift_19
+  - first:
+      213: -7602738408842102830
+    second: Birds_Eagle_Bald_Lift_20
+  - first:
+      213: 8531910148868847645
+    second: Birds_Eagle_Bald_Lift_21
+  - first:
+      213: -8974301627885652439
+    second: Birds_Eagle_Bald_Lift_22
+  - first:
+      213: 9086187327648719113
+    second: Birds_Eagle_Bald_Lift_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 431
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cb7f620d7ae3ad0800000000000000
+      internalID: -2720552612436394910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 431
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f137e60c894c6630800000000000000
+      internalID: 3921590241292923381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 431
+        width: 49
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5d47736287746e0800000000000000
+      internalID: -1853380616105175570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_3
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 427
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a754604b03432d120800000000000000
+      internalID: 2437067732144244090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 429
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8bc317dbaff339c0800000000000000
+      internalID: -3948531334760903798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_5
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 433
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe06e7977c3e3ceb0800000000000000
+      internalID: -4700663140168343313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 303
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd40170a9e4c5a660800000000000000
+      internalID: 7396534470724093149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_7
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 303
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f3c660fbee6f300800000000000000
+      internalID: 285678130598526833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_8
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 303
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3768d4ae96ee690800000000000000
+      internalID: -7570997468519304247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_9
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 303
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62dc92032fd0a4ae0800000000000000
+      internalID: -1564422586716533466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_10
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 305
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe29e7be1333de20800000000000000
+      internalID: 3374096752858181373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_11
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 310
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0ea78e87cf97580800000000000000
+      internalID: -8828747998256504578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10aa4baae301f130800000000000000
+      internalID: 3598661883676762143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 175
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600f116731c947fd0800000000000000
+      internalID: -2345077898553987066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_14
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 175
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0f61fc43cf8b3d0800000000000000
+      internalID: -3190523032249110308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_15
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 175
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30d1903045f9ac80800000000000000
+      internalID: -8310841981293965251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_16
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 177
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4ef0623378bfc90800000000000000
+      internalID: -7134960530886761268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_17
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 182
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2738d1f05b846430800000000000000
+      internalID: 3775295567414441774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_18
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 38
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2600873b11006560800000000000000
+      internalID: 7304839812001826349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_19
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 37
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb3e581e52fbb0d0800000000000000
+      internalID: -3405862207225971786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_20
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 39
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d77fbcb2b5ad7690800000000000000
+      internalID: -7602738408842102830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_21
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 44
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18b0ee831f676670800000000000000
+      internalID: 8531910148868847645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_22
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 51
+        width: 47
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9267aa2a730e47380800000000000000
+      internalID: -8974301627885652439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Lift_23
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 49
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901682bdb3f981e70800000000000000
+      internalID: 9086187327648719113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birds_Eagle_Bald_Lift_0: -2720552612436394910
+      Birds_Eagle_Bald_Lift_1: 3921590241292923381
+      Birds_Eagle_Bald_Lift_10: 3374096752858181373
+      Birds_Eagle_Bald_Lift_11: -8828747998256504578
+      Birds_Eagle_Bald_Lift_12: 3598661883676762143
+      Birds_Eagle_Bald_Lift_13: -2345077898553987066
+      Birds_Eagle_Bald_Lift_14: -3190523032249110308
+      Birds_Eagle_Bald_Lift_15: -8310841981293965251
+      Birds_Eagle_Bald_Lift_16: -7134960530886761268
+      Birds_Eagle_Bald_Lift_17: 3775295567414441774
+      Birds_Eagle_Bald_Lift_18: 7304839812001826349
+      Birds_Eagle_Bald_Lift_19: -3405862207225971786
+      Birds_Eagle_Bald_Lift_2: -1853380616105175570
+      Birds_Eagle_Bald_Lift_20: -7602738408842102830
+      Birds_Eagle_Bald_Lift_21: 8531910148868847645
+      Birds_Eagle_Bald_Lift_22: -8974301627885652439
+      Birds_Eagle_Bald_Lift_23: 9086187327648719113
+      Birds_Eagle_Bald_Lift_3: 2437067732144244090
+      Birds_Eagle_Bald_Lift_4: -3948531334760903798
+      Birds_Eagle_Bald_Lift_5: -4700663140168343313
+      Birds_Eagle_Bald_Lift_6: 7396534470724093149
+      Birds_Eagle_Bald_Lift_7: 285678130598526833
+      Birds_Eagle_Bald_Lift_8: -7570997468519304247
+      Birds_Eagle_Bald_Lift_9: -1564422586716533466
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

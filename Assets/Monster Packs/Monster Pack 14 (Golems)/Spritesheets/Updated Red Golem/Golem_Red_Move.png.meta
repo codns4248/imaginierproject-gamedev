@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 199e84b23af3080419969f0cd9d74f37
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3313777678481603131
+    second: Golem_Red_Move_0
+  - first:
+      213: 3668237568925594296
+    second: Golem_Red_Move_1
+  - first:
+      213: -2620426323341345178
+    second: Golem_Red_Move_2
+  - first:
+      213: -6441980925323914677
+    second: Golem_Red_Move_3
+  - first:
+      213: 2649322133752374846
+    second: Golem_Red_Move_4
+  - first:
+      213: -5768023399705348939
+    second: Golem_Red_Move_5
+  - first:
+      213: 8453410740269661316
+    second: Golem_Red_Move_6
+  - first:
+      213: -9060296224353400665
+    second: Golem_Red_Move_7
+  - first:
+      213: 1566803455168449268
+    second: Golem_Red_Move_8
+  - first:
+      213: 403287384956519680
+    second: Golem_Red_Move_9
+  - first:
+      213: -3674775328599151731
+    second: Golem_Red_Move_10
+  - first:
+      213: 1617111975410413075
+    second: Golem_Red_Move_11
+  - first:
+      213: 8554592624822817186
+    second: Golem_Red_Move_12
+  - first:
+      213: -2667516021547604900
+    second: Golem_Red_Move_13
+  - first:
+      213: 5822651845681116490
+    second: Golem_Red_Move_14
+  - first:
+      213: 5837433725832311760
+    second: Golem_Red_Move_15
+  - first:
+      213: 8592694962232075952
+    second: Golem_Red_Move_16
+  - first:
+      213: -985167021220018261
+    second: Golem_Red_Move_17
+  - first:
+      213: 6184478036542557674
+    second: Golem_Red_Move_18
+  - first:
+      213: -3103514561941608330
+    second: Golem_Red_Move_19
+  - first:
+      213: -2798143290684832115
+    second: Golem_Red_Move_20
+  - first:
+      213: 8800223956833806131
+    second: Golem_Red_Move_21
+  - first:
+      213: 7215253980801197888
+    second: Golem_Red_Move_22
+  - first:
+      213: 791238850130914402
+    second: Golem_Red_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Golem_Red_Move_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 429
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c54c7132c81302d0800000000000000
+      internalID: -3313777678481603131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 430
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b27d8f32a238e230800000000000000
+      internalID: 3668237568925594296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 431
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ef72d742062abd0800000000000000
+      internalID: -2620426323341345178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_3
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 429
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42d930ca7c7996a0800000000000000
+      internalID: -6441980925323914677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_4
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 430
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36e3e5a17844c420800000000000000
+      internalID: 2649322133752374846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_5
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 431
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4fb6c374dd3ffa0800000000000000
+      internalID: -5768023399705348939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 303
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48cbe3ab74c805570800000000000000
+      internalID: 8453410740269661316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_7
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 303
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a84a93669c534280800000000000000
+      internalID: -9060296224353400665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_8
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 303
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa8b22f0776eb510800000000000000
+      internalID: 1566803455168449268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_9
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 303
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005caba6db3c89500800000000000000
+      internalID: 403287384956519680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_10
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 303
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b6a75fe43900dc0800000000000000
+      internalID: -3674775328599151731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_11
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 303
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e2e5816c2217610800000000000000
+      internalID: 1617111975410413075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 175
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a19db80ba408b670800000000000000
+      internalID: 8554592624822817186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 175
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54edfebf441bfad0800000000000000
+      internalID: -2667516021547604900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 175
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45789001073ec050800000000000000
+      internalID: 5822651845681116490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_15
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 175
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3be1cab0bb20150800000000000000
+      internalID: 5837433725832311760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_16
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 175
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6a127ca826f3770800000000000000
+      internalID: 8592694962232075952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_17
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 175
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba740c750dbf352f0800000000000000
+      internalID: -985167021220018261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 46
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed0359e10ea3d550800000000000000
+      internalID: 6184478036542557674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_19
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 46
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678e734f2f91ee4d0800000000000000
+      internalID: -3103514561941608330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_20
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 47
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d868618908ffa29d0800000000000000
+      internalID: -2798143290684832115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_21
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 46
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33726fa201da02a70800000000000000
+      internalID: 8800223956833806131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_22
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 46
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047e0e9744bb12460800000000000000
+      internalID: 7215253980801197888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_Red_Move_23
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 47
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26caa82ca8b0bfa00800000000000000
+      internalID: 791238850130914402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Golem_Red_Move_0: -3313777678481603131
+      Golem_Red_Move_1: 3668237568925594296
+      Golem_Red_Move_10: -3674775328599151731
+      Golem_Red_Move_11: 1617111975410413075
+      Golem_Red_Move_12: 8554592624822817186
+      Golem_Red_Move_13: -2667516021547604900
+      Golem_Red_Move_14: 5822651845681116490
+      Golem_Red_Move_15: 5837433725832311760
+      Golem_Red_Move_16: 8592694962232075952
+      Golem_Red_Move_17: -985167021220018261
+      Golem_Red_Move_18: 6184478036542557674
+      Golem_Red_Move_19: -3103514561941608330
+      Golem_Red_Move_2: -2620426323341345178
+      Golem_Red_Move_20: -2798143290684832115
+      Golem_Red_Move_21: 8800223956833806131
+      Golem_Red_Move_22: 7215253980801197888
+      Golem_Red_Move_23: 791238850130914402
+      Golem_Red_Move_3: -6441980925323914677
+      Golem_Red_Move_4: 2649322133752374846
+      Golem_Red_Move_5: -5768023399705348939
+      Golem_Red_Move_6: 8453410740269661316
+      Golem_Red_Move_7: -9060296224353400665
+      Golem_Red_Move_8: 1566803455168449268
+      Golem_Red_Move_9: 403287384956519680
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

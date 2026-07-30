@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: c0b11e4ae36853b47ae0d00b3d422331
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1349077154129889323
+    second: Wolf_White_Move_0
+  - first:
+      213: 9015395247722834911
+    second: Wolf_White_Move_1
+  - first:
+      213: 3504954024164480638
+    second: Wolf_White_Move_2
+  - first:
+      213: -1454014669366799668
+    second: Wolf_White_Move_3
+  - first:
+      213: 2625848504895398807
+    second: Wolf_White_Move_4
+  - first:
+      213: 4048816289026375396
+    second: Wolf_White_Move_5
+  - first:
+      213: -7285927902470963447
+    second: Wolf_White_Move_6
+  - first:
+      213: -7555515688454701782
+    second: Wolf_White_Move_7
+  - first:
+      213: 3094810000660439511
+    second: Wolf_White_Move_8
+  - first:
+      213: 2949415887951685592
+    second: Wolf_White_Move_9
+  - first:
+      213: 7681365669556035370
+    second: Wolf_White_Move_10
+  - first:
+      213: 6743693437694920099
+    second: Wolf_White_Move_11
+  - first:
+      213: 3306969914400466822
+    second: Wolf_White_Move_12
+  - first:
+      213: 6799067283003828111
+    second: Wolf_White_Move_13
+  - first:
+      213: -1375713218032512750
+    second: Wolf_White_Move_14
+  - first:
+      213: 4265414275194462739
+    second: Wolf_White_Move_15
+  - first:
+      213: -3793082550667407442
+    second: Wolf_White_Move_16
+  - first:
+      213: -5047793114777009027
+    second: Wolf_White_Move_17
+  - first:
+      213: 7241001178747246027
+    second: Wolf_White_Move_18
+  - first:
+      213: 1568949110486893362
+    second: Wolf_White_Move_19
+  - first:
+      213: 8749190600678128236
+    second: Wolf_White_Move_20
+  - first:
+      213: 4096427999812068949
+    second: Wolf_White_Move_21
+  - first:
+      213: 2788936546356659224
+    second: Wolf_White_Move_22
+  - first:
+      213: -5756142271401062119
+    second: Wolf_White_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wolf_White_Move_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 429
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d73e7dd97d174de0800000000000000
+      internalID: -1349077154129889323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 432
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdba342563e1d1d70800000000000000
+      internalID: 9015395247722834911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 433
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76566c6d1914a030800000000000000
+      internalID: 3504954024164480638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 435
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc25f26ac5d42dbe0800000000000000
+      internalID: -1454014669366799668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 433
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793e7488d43e07420800000000000000
+      internalID: 2625848504895398807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 430
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee7b3c96f8403830800000000000000
+      internalID: 4048816289026375396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_6
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 303
+        width: 70
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f7c1adc2f23ea90800000000000000
+      internalID: -7285927902470963447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_7
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 303
+        width: 74
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d34ce138a652790800000000000000
+      internalID: -7555515688454701782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_8
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 303
+        width: 75
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d121b07c49f2fa20800000000000000
+      internalID: 3094810000660439511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 303
+        width: 75
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7e0489f1e6ee820800000000000000
+      internalID: 2949415887951685592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_10
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 304
+        width: 73
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f94cbf061b99a60800000000000000
+      internalID: 7681365669556035370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_11
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 303
+        width: 69
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a540f3b379669d50800000000000000
+      internalID: 6743693437694920099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 175
+        width: 70
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6876eb6bd97b4ed20800000000000000
+      internalID: 3306969914400466822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_13
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 175
+        width: 74
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f876c6fbba32b5e50800000000000000
+      internalID: 6799067283003828111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_14
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 175
+        width: 75
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211dc56fd1c78ece0800000000000000
+      internalID: -1375713218032512750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_15
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 175
+        width: 75
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312a8d42fabc13b30800000000000000
+      internalID: 4265414275194462739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_16
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 176
+        width: 73
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf8cbb44834c5bc0800000000000000
+      internalID: -3793082550667407442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_17
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 175
+        width: 69
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74cd0e08e2a2f9b0800000000000000
+      internalID: -5047793114777009027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 51
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc51a6525343d7460800000000000000
+      internalID: 7241001178747246027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_19
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 49
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2338c3147e606c510800000000000000
+      internalID: 1568949110486893362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 47
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a3b910f7e5b6970800000000000000
+      internalID: 8749190600678128236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 47
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55623c0ef8f69d830800000000000000
+      internalID: 4096427999812068949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_22
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 49
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81481b2330b44b620800000000000000
+      internalID: 2788936546356659224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_White_Move_23
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 54
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911978cf9131e10b0800000000000000
+      internalID: -5756142271401062119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wolf_White_Move_0: -1349077154129889323
+      Wolf_White_Move_1: 9015395247722834911
+      Wolf_White_Move_10: 7681365669556035370
+      Wolf_White_Move_11: 6743693437694920099
+      Wolf_White_Move_12: 3306969914400466822
+      Wolf_White_Move_13: 6799067283003828111
+      Wolf_White_Move_14: -1375713218032512750
+      Wolf_White_Move_15: 4265414275194462739
+      Wolf_White_Move_16: -3793082550667407442
+      Wolf_White_Move_17: -5047793114777009027
+      Wolf_White_Move_18: 7241001178747246027
+      Wolf_White_Move_19: 1568949110486893362
+      Wolf_White_Move_2: 3504954024164480638
+      Wolf_White_Move_20: 8749190600678128236
+      Wolf_White_Move_21: 4096427999812068949
+      Wolf_White_Move_22: 2788936546356659224
+      Wolf_White_Move_23: -5756142271401062119
+      Wolf_White_Move_3: -1454014669366799668
+      Wolf_White_Move_4: 2625848504895398807
+      Wolf_White_Move_5: 4048816289026375396
+      Wolf_White_Move_6: -7285927902470963447
+      Wolf_White_Move_7: -7555515688454701782
+      Wolf_White_Move_8: 3094810000660439511
+      Wolf_White_Move_9: 2949415887951685592
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

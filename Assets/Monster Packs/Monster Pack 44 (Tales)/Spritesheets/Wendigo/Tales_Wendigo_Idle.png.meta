@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: cb2178bf5348dec4f9935118c6cc0ca3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1947006530908651417
+    second: Tales_Wendigo_Idle_0
+  - first:
+      213: 4343492729339689451
+    second: Tales_Wendigo_Idle_1
+  - first:
+      213: -7516274719197614453
+    second: Tales_Wendigo_Idle_2
+  - first:
+      213: 2549521167190831134
+    second: Tales_Wendigo_Idle_3
+  - first:
+      213: -7006259535375976869
+    second: Tales_Wendigo_Idle_4
+  - first:
+      213: -7190969453633128601
+    second: Tales_Wendigo_Idle_5
+  - first:
+      213: -2644161095843904058
+    second: Tales_Wendigo_Idle_6
+  - first:
+      213: 7340391342680939253
+    second: Tales_Wendigo_Idle_7
+  - first:
+      213: -3122140744349763692
+    second: Tales_Wendigo_Idle_8
+  - first:
+      213: 8973114313525459466
+    second: Tales_Wendigo_Idle_9
+  - first:
+      213: 4606599714020757095
+    second: Tales_Wendigo_Idle_10
+  - first:
+      213: -2870043803999218005
+    second: Tales_Wendigo_Idle_11
+  - first:
+      213: 4383661270872239666
+    second: Tales_Wendigo_Idle_12
+  - first:
+      213: 5474862925966036232
+    second: Tales_Wendigo_Idle_13
+  - first:
+      213: -5596068363908909327
+    second: Tales_Wendigo_Idle_14
+  - first:
+      213: 3144127604042039617
+    second: Tales_Wendigo_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tales_Wendigo_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 431
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ffc2acf18250b10800000000000000
+      internalID: 1947006530908651417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 431
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9b8c0ef9f274c30800000000000000
+      internalID: 4343492729339689451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 431
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e2aff37f3d0b790800000000000000
+      internalID: -7516274719197614453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 431
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10bfbd5ef7b16320800000000000000
+      internalID: 2549521167190831134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 303
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56b8b5c214c4ce90800000000000000
+      internalID: -7006259535375976869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 303
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767338d916b843c90800000000000000
+      internalID: -7190969453633128601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 303
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c501512e7d0e4bd0800000000000000
+      internalID: -2644161095843904058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 303
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa99dcf80f4ed560800000000000000
+      internalID: 7340391342680939253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 175
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497324ae88deba4d0800000000000000
+      internalID: -3122140744349763692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 175
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a78a23de7e68c70800000000000000
+      internalID: 8973114313525459466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 175
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e8f98780eedef30800000000000000
+      internalID: 4606599714020757095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 175
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6d0dccd5e8b28d0800000000000000
+      internalID: -2870043803999218005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 47
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e2af143b4e5dc30800000000000000
+      internalID: 4383661270872239666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 47
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d4928f2de9afb40800000000000000
+      internalID: 5474862925966036232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 47
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f67866e875c652b0800000000000000
+      internalID: -5596068363908909327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Wendigo_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 47
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1410d67c56f22ab20800000000000000
+      internalID: 3144127604042039617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tales_Wendigo_Idle_0: 1947006530908651417
+      Tales_Wendigo_Idle_1: 4343492729339689451
+      Tales_Wendigo_Idle_10: 4606599714020757095
+      Tales_Wendigo_Idle_11: -2870043803999218005
+      Tales_Wendigo_Idle_12: 4383661270872239666
+      Tales_Wendigo_Idle_13: 5474862925966036232
+      Tales_Wendigo_Idle_14: -5596068363908909327
+      Tales_Wendigo_Idle_15: 3144127604042039617
+      Tales_Wendigo_Idle_2: -7516274719197614453
+      Tales_Wendigo_Idle_3: 2549521167190831134
+      Tales_Wendigo_Idle_4: -7006259535375976869
+      Tales_Wendigo_Idle_5: -7190969453633128601
+      Tales_Wendigo_Idle_6: -2644161095843904058
+      Tales_Wendigo_Idle_7: 7340391342680939253
+      Tales_Wendigo_Idle_8: -3122140744349763692
+      Tales_Wendigo_Idle_9: 8973114313525459466
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

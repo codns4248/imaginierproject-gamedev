@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 3f330b2835c2d7b4e8eb32190208da8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6321440477689413159
+    second: Squire_Move_0
+  - first:
+      213: 8215525358979544022
+    second: Squire_Move_1
+  - first:
+      213: -7307947440430900209
+    second: Squire_Move_2
+  - first:
+      213: -5165903676634991177
+    second: Squire_Move_3
+  - first:
+      213: -3183464372345563592
+    second: Squire_Move_4
+  - first:
+      213: 6680296084787615129
+    second: Squire_Move_5
+  - first:
+      213: 149176801056686109
+    second: Squire_Move_6
+  - first:
+      213: -5093478076776581529
+    second: Squire_Move_7
+  - first:
+      213: 5849427269613954934
+    second: Squire_Move_8
+  - first:
+      213: 2994321602944247513
+    second: Squire_Move_9
+  - first:
+      213: -1327072774216261764
+    second: Squire_Move_10
+  - first:
+      213: -5575200560662344195
+    second: Squire_Move_11
+  - first:
+      213: 5533347982372612387
+    second: Squire_Move_12
+  - first:
+      213: -3111536908162884105
+    second: Squire_Move_13
+  - first:
+      213: -2651180429689500165
+    second: Squire_Move_14
+  - first:
+      213: 2773340134809493149
+    second: Squire_Move_15
+  - first:
+      213: -378278595149136433
+    second: Squire_Move_16
+  - first:
+      213: 293324698361938905
+    second: Squire_Move_17
+  - first:
+      213: 9219080571975326533
+    second: Squire_Move_18
+  - first:
+      213: 4664658254199456123
+    second: Squire_Move_19
+  - first:
+      213: 1838879696814531766
+    second: Squire_Move_20
+  - first:
+      213: 4576608297354180503
+    second: Squire_Move_21
+  - first:
+      213: -3484382154931574643
+    second: Squire_Move_22
+  - first:
+      213: -1604697071782194639
+    second: Squire_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Squire_Move_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 431
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ef37d3f944ab750800000000000000
+      internalID: 6321440477689413159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 431
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3703949c8630270800000000000000
+      internalID: 8215525358979544022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 431
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c14e7a584f49a90800000000000000
+      internalID: -7307947440430900209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_3
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 431
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5794ae9f50f48b0800000000000000
+      internalID: -5165903676634991177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_4
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 431
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8361b33250012d3d0800000000000000
+      internalID: -3183464372345563592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_5
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 431
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995d23835ed25bc50800000000000000
+      internalID: 6680296084787615129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 303
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1086bb928bf11200800000000000000
+      internalID: 149176801056686109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 303
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766fd72fca45059b0800000000000000
+      internalID: -5093478076776581529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_8
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 303
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677a2d03c175d2150800000000000000
+      internalID: 5849427269613954934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_9
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 303
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d625ce12a7fd8920800000000000000
+      internalID: 2994321602944247513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_10
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 303
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f5fbdc75a459de0800000000000000
+      internalID: -1327072774216261764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_11
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 303
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd8926f0a8e0a2b0800000000000000
+      internalID: -5575200560662344195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 175
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329a1fb4ca66acc40800000000000000
+      internalID: 5533347982372612387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_13
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 175
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd1f6beaa991d4d0800000000000000
+      internalID: -3111536908162884105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 175
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdc3ec127d153bd0800000000000000
+      internalID: -2651180429689500165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 175
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e57a8a822ec7620800000000000000
+      internalID: 2773340134809493149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_16
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 175
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd70063f9510caf0800000000000000
+      internalID: -378278595149136433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_17
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 175
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d346b15249121400800000000000000
+      internalID: 293324698361938905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_18
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 47
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b5b487fe0c0ff70800000000000000
+      internalID: 9219080571975326533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_19
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 47
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b710720c7f13cb040800000000000000
+      internalID: 4664658254199456123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 47
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4ee496753058910800000000000000
+      internalID: 1838879696814531766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_21
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 47
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797b6ef9ff0638f30800000000000000
+      internalID: 4576608297354180503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_22
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 47
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88e79124ecf4afc0800000000000000
+      internalID: -3484382154931574643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squire_Move_23
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 47
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1321058e388fab9e0800000000000000
+      internalID: -1604697071782194639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Squire_Move_0: 6321440477689413159
+      Squire_Move_1: 8215525358979544022
+      Squire_Move_10: -1327072774216261764
+      Squire_Move_11: -5575200560662344195
+      Squire_Move_12: 5533347982372612387
+      Squire_Move_13: -3111536908162884105
+      Squire_Move_14: -2651180429689500165
+      Squire_Move_15: 2773340134809493149
+      Squire_Move_16: -378278595149136433
+      Squire_Move_17: 293324698361938905
+      Squire_Move_18: 9219080571975326533
+      Squire_Move_19: 4664658254199456123
+      Squire_Move_2: -7307947440430900209
+      Squire_Move_20: 1838879696814531766
+      Squire_Move_21: 4576608297354180503
+      Squire_Move_22: -3484382154931574643
+      Squire_Move_23: -1604697071782194639
+      Squire_Move_3: -5165903676634991177
+      Squire_Move_4: -3183464372345563592
+      Squire_Move_5: 6680296084787615129
+      Squire_Move_6: 149176801056686109
+      Squire_Move_7: -5093478076776581529
+      Squire_Move_8: 5849427269613954934
+      Squire_Move_9: 2994321602944247513
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

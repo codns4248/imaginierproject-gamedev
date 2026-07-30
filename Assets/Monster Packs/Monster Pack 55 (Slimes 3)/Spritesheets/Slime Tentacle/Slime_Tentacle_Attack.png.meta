@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: fd29ceff1d08cc54d897d8868aa5d2e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9165285582028794107
+    second: Slime_Tentacle_Attack_0
+  - first:
+      213: -5985242675332089538
+    second: Slime_Tentacle_Attack_1
+  - first:
+      213: 8794884906709548743
+    second: Slime_Tentacle_Attack_2
+  - first:
+      213: -3272083836453247931
+    second: Slime_Tentacle_Attack_3
+  - first:
+      213: 2367268130402145897
+    second: Slime_Tentacle_Attack_4
+  - first:
+      213: 3990962841380094135
+    second: Slime_Tentacle_Attack_5
+  - first:
+      213: -8107977673725112794
+    second: Slime_Tentacle_Attack_6
+  - first:
+      213: 8369068655638255905
+    second: Slime_Tentacle_Attack_7
+  - first:
+      213: -2261780279031561857
+    second: Slime_Tentacle_Attack_8
+  - first:
+      213: -9124697234941279931
+    second: Slime_Tentacle_Attack_9
+  - first:
+      213: 4998601142949324980
+    second: Slime_Tentacle_Attack_10
+  - first:
+      213: 5942300623042911719
+    second: Slime_Tentacle_Attack_11
+  - first:
+      213: 4245129803493418023
+    second: Slime_Tentacle_Attack_12
+  - first:
+      213: 5069207674221524614
+    second: Slime_Tentacle_Attack_13
+  - first:
+      213: -7787346080195908886
+    second: Slime_Tentacle_Attack_14
+  - first:
+      213: -575862446888056509
+    second: Slime_Tentacle_Attack_15
+  - first:
+      213: 2023200199180311462
+    second: Slime_Tentacle_Attack_16
+  - first:
+      213: 5421930645817623138
+    second: Slime_Tentacle_Attack_17
+  - first:
+      213: -5787346350744721306
+    second: Slime_Tentacle_Attack_18
+  - first:
+      213: 8817128492311429697
+    second: Slime_Tentacle_Attack_19
+  - first:
+      213: 1107907987290137682
+    second: Slime_Tentacle_Attack_20
+  - first:
+      213: -2459753876388235452
+    second: Slime_Tentacle_Attack_21
+  - first:
+      213: -4225575793597950148
+    second: Slime_Tentacle_Attack_22
+  - first:
+      213: -8129962232560851872
+    second: Slime_Tentacle_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 423
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5071a2aa25d5ec080800000000000000
+      internalID: -9165285582028794107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 421
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39725a7f7520fca0800000000000000
+      internalID: -5985242675332089538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 422
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cefdd0b935bd0a70800000000000000
+      internalID: 8794884906709548743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 422
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54428e446193792d0800000000000000
+      internalID: -3272083836453247931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 423
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96619b082d93ad020800000000000000
+      internalID: 2367268130402145897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 429
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b08e382f8fb26730800000000000000
+      internalID: 3990962841380094135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 295
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e01de734daa7f80800000000000000
+      internalID: -8107977673725112794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 293
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1299c20e997e42470800000000000000
+      internalID: 8369068655638255905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 294
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f710754d1da8c90e0800000000000000
+      internalID: -2261780279031561857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 294
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5410654a5309e5180800000000000000
+      internalID: -9124697234941279931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 295
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b82b5b71499e5540800000000000000
+      internalID: 4998601142949324980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 299
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed1e09deea477250800000000000000
+      internalID: 5942300623042911719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 167
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72426aa801bb9ea30800000000000000
+      internalID: 4245129803493418023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 165
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68678aa9581795640800000000000000
+      internalID: 5069207674221524614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 166
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea64eacff9cde390800000000000000
+      internalID: -7787346080195908886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 166
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34900c5d7202208f0800000000000000
+      internalID: -575862446888056509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 167
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab54ad9cd9d31c10800000000000000
+      internalID: 2023200199180311462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 171
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26283cc12319e3b40800000000000000
+      internalID: 5421930645817623138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 39
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66825bb18273fafa0800000000000000
+      internalID: -5787346350744721306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 37
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142c23b06abbc5a70800000000000000
+      internalID: 8817128492311429697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 38
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2542f3ac174106f00800000000000000
+      internalID: 1107907987290137682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 38
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4473dfab1e23dddd0800000000000000
+      internalID: -2459753876388235452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 39
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37da1b243dbb55c0800000000000000
+      internalID: -4225575793597950148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 45
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0646ed28c629c2f80800000000000000
+      internalID: -8129962232560851872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slime_Tentacle_Attack_0: -9165285582028794107
+      Slime_Tentacle_Attack_1: -5985242675332089538
+      Slime_Tentacle_Attack_10: 4998601142949324980
+      Slime_Tentacle_Attack_11: 5942300623042911719
+      Slime_Tentacle_Attack_12: 4245129803493418023
+      Slime_Tentacle_Attack_13: 5069207674221524614
+      Slime_Tentacle_Attack_14: -7787346080195908886
+      Slime_Tentacle_Attack_15: -575862446888056509
+      Slime_Tentacle_Attack_16: 2023200199180311462
+      Slime_Tentacle_Attack_17: 5421930645817623138
+      Slime_Tentacle_Attack_18: -5787346350744721306
+      Slime_Tentacle_Attack_19: 8817128492311429697
+      Slime_Tentacle_Attack_2: 8794884906709548743
+      Slime_Tentacle_Attack_20: 1107907987290137682
+      Slime_Tentacle_Attack_21: -2459753876388235452
+      Slime_Tentacle_Attack_22: -4225575793597950148
+      Slime_Tentacle_Attack_23: -8129962232560851872
+      Slime_Tentacle_Attack_3: -3272083836453247931
+      Slime_Tentacle_Attack_4: 2367268130402145897
+      Slime_Tentacle_Attack_5: 3990962841380094135
+      Slime_Tentacle_Attack_6: -8107977673725112794
+      Slime_Tentacle_Attack_7: 8369068655638255905
+      Slime_Tentacle_Attack_8: -2261780279031561857
+      Slime_Tentacle_Attack_9: -9124697234941279931
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

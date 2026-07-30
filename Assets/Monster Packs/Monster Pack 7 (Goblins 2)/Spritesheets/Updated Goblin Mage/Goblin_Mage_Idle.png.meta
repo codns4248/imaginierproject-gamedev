@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 2498151c3feaa3a4cbf90e93d35abfd9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4077907768865949111
+    second: Goblin_Mage_Idle_0
+  - first:
+      213: 1398958810823469114
+    second: Goblin_Mage_Idle_1
+  - first:
+      213: -4559465942042502237
+    second: Goblin_Mage_Idle_2
+  - first:
+      213: -7902062453241351304
+    second: Goblin_Mage_Idle_3
+  - first:
+      213: -507635519778144181
+    second: Goblin_Mage_Idle_4
+  - first:
+      213: 7059868890122183102
+    second: Goblin_Mage_Idle_5
+  - first:
+      213: 5183914632810393954
+    second: Goblin_Mage_Idle_6
+  - first:
+      213: -3954239792208873735
+    second: Goblin_Mage_Idle_7
+  - first:
+      213: -7452269296883198925
+    second: Goblin_Mage_Idle_8
+  - first:
+      213: -5695471262841938340
+    second: Goblin_Mage_Idle_9
+  - first:
+      213: -7542984063581781506
+    second: Goblin_Mage_Idle_10
+  - first:
+      213: -8842575385647900162
+    second: Goblin_Mage_Idle_11
+  - first:
+      213: 3655795778169815955
+    second: Goblin_Mage_Idle_12
+  - first:
+      213: -3180304190067757026
+    second: Goblin_Mage_Idle_13
+  - first:
+      213: 7667419326544363917
+    second: Goblin_Mage_Idle_14
+  - first:
+      213: 1042039027236232264
+    second: Goblin_Mage_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goblin_Mage_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 430
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a70f96d7c5867c0800000000000000
+      internalID: -4077907768865949111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 430
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38298e50a91a6310800000000000000
+      internalID: 1398958810823469114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 430
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab901ff1e589b0c0800000000000000
+      internalID: -4559465942042502237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 430
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873f891d01c365290800000000000000
+      internalID: -7902062453241351304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 303
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40c0403f2484f8f0800000000000000
+      internalID: -507635519778144181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 303
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1609cc951b9f160800000000000000
+      internalID: 7059868890122183102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 303
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261fc9a94e6f0f740800000000000000
+      internalID: 5183914632810393954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 303
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6fca40cd7bf19c0800000000000000
+      internalID: -3954239792208873735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 175
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3341abcee88349890800000000000000
+      internalID: -7452269296883198925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 175
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e5cd5ff0f95f0b0800000000000000
+      internalID: -5695471262841938340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 175
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef186c765ffe15790800000000000000
+      internalID: -7542984063581781506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 175
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef918d6698cd84580800000000000000
+      internalID: -8842575385647900162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 47
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3934f2914eefbb230800000000000000
+      internalID: 3655795778169815955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 47
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e103359603a4dd3d0800000000000000
+      internalID: -3180304190067757026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 47
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8144a6f045286a60800000000000000
+      internalID: 7667419326544363917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Mage_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 47
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c528c69f0167e00800000000000000
+      internalID: 1042039027236232264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Goblin_Mage_Idle_0: -4077907768865949111
+      Goblin_Mage_Idle_1: 1398958810823469114
+      Goblin_Mage_Idle_10: -7542984063581781506
+      Goblin_Mage_Idle_11: -8842575385647900162
+      Goblin_Mage_Idle_12: 3655795778169815955
+      Goblin_Mage_Idle_13: -3180304190067757026
+      Goblin_Mage_Idle_14: 7667419326544363917
+      Goblin_Mage_Idle_15: 1042039027236232264
+      Goblin_Mage_Idle_2: -4559465942042502237
+      Goblin_Mage_Idle_3: -7902062453241351304
+      Goblin_Mage_Idle_4: -507635519778144181
+      Goblin_Mage_Idle_5: 7059868890122183102
+      Goblin_Mage_Idle_6: 5183914632810393954
+      Goblin_Mage_Idle_7: -3954239792208873735
+      Goblin_Mage_Idle_8: -7452269296883198925
+      Goblin_Mage_Idle_9: -5695471262841938340
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

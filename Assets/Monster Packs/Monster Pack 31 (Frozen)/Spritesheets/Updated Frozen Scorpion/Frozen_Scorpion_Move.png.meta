@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 86aa110a121b8324298ee25bee1b1920
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 993917832375597448
+    second: Frozen_Scorpion_Move_0
+  - first:
+      213: -719006785112760279
+    second: Frozen_Scorpion_Move_1
+  - first:
+      213: 3765298689370516819
+    second: Frozen_Scorpion_Move_2
+  - first:
+      213: -3767065112721729813
+    second: Frozen_Scorpion_Move_3
+  - first:
+      213: 606592358620684267
+    second: Frozen_Scorpion_Move_4
+  - first:
+      213: 5477437319666099844
+    second: Frozen_Scorpion_Move_5
+  - first:
+      213: -7545300404327294269
+    second: Frozen_Scorpion_Move_6
+  - first:
+      213: -1122722806280914044
+    second: Frozen_Scorpion_Move_7
+  - first:
+      213: 2129656102793965406
+    second: Frozen_Scorpion_Move_8
+  - first:
+      213: -2710566061340150609
+    second: Frozen_Scorpion_Move_9
+  - first:
+      213: -5633597411063323758
+    second: Frozen_Scorpion_Move_10
+  - first:
+      213: 7984964098693721005
+    second: Frozen_Scorpion_Move_11
+  - first:
+      213: -4015435661295833598
+    second: Frozen_Scorpion_Move_12
+  - first:
+      213: 3245025417820884001
+    second: Frozen_Scorpion_Move_13
+  - first:
+      213: 2335218288952565615
+    second: Frozen_Scorpion_Move_14
+  - first:
+      213: 587697844839803564
+    second: Frozen_Scorpion_Move_15
+  - first:
+      213: -651091819522009830
+    second: Frozen_Scorpion_Move_16
+  - first:
+      213: 7945083449745216112
+    second: Frozen_Scorpion_Move_17
+  - first:
+      213: 931170870367415461
+    second: Frozen_Scorpion_Move_18
+  - first:
+      213: 7108068812837273602
+    second: Frozen_Scorpion_Move_19
+  - first:
+      213: 6714484932123289575
+    second: Frozen_Scorpion_Move_20
+  - first:
+      213: -2869225131518712901
+    second: Frozen_Scorpion_Move_21
+  - first:
+      213: -8665122128293671650
+    second: Frozen_Scorpion_Move_22
+  - first:
+      213: 1849682253882724554
+    second: Frozen_Scorpion_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 405
+        width: 38
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8897ca6a00b1bcd00800000000000000
+      internalID: 993917832375597448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 402
+        width: 38
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920224e63239506f0800000000000000
+      internalID: -719006785112760279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_2
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 403
+        width: 38
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d6c256537014430800000000000000
+      internalID: 3765298689370516819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 404
+        width: 38
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6547e1d32b8bbc0800000000000000
+      internalID: -3767065112721729813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_4
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 405
+        width: 38
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef5d0b498c0b6800800000000000000
+      internalID: 606592358620684267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_5
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 406
+        width: 38
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4866a26b834c30c40800000000000000
+      internalID: 5477437319666099844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 303
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cad57c4245b94790800000000000000
+      internalID: -7545300404327294269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_7
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 303
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b756e5e894b60f0800000000000000
+      internalID: -1122722806280914044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_8
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 303
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5fe6cc21fe0e8d10800000000000000
+      internalID: 2129656102793965406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_9
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 303
+        width: 81
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa437954782226ad0800000000000000
+      internalID: -2710566061340150609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_10
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 303
+        width: 81
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293a202b00171d1b0800000000000000
+      internalID: -5633597411063323758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_11
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 303
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabe2e6aa8a40de60800000000000000
+      internalID: 7984964098693721005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_12
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 175
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ea60e6a8e4648c0800000000000000
+      internalID: -4015435661295833598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_13
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 175
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12cc354bc65a80d20800000000000000
+      internalID: 3245025417820884001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_14
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 175
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f530a49ac586020800000000000000
+      internalID: 2335218288952565615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_15
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 175
+        width: 81
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa60fc731ce72800800000000000000
+      internalID: 587697844839803564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_16
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 175
+        width: 81
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a155a35907bd6f6f0800000000000000
+      internalID: -651091819522009830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_17
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 175
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07216ec7d4b924e60800000000000000
+      internalID: 7945083449745216112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_18
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 36
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ace07919fe2cec00800000000000000
+      internalID: 931170870367415461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_19
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 36
+        width: 38
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200c234dceee4a260800000000000000
+      internalID: 7108068812837273602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_20
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 37
+        width: 38
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7ebec8874ae2d50800000000000000
+      internalID: 6714484932123289575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_21
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 38
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb32437d1f67e28d0800000000000000
+      internalID: -2869225131518712901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_22
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 38
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1dcda7855d4fb780800000000000000
+      internalID: -8665122128293671650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Scorpion_Move_23
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 38
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0160ab5346ba910800000000000000
+      internalID: 1849682253882724554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Frozen_Scorpion_Move_0: 993917832375597448
+      Frozen_Scorpion_Move_1: -719006785112760279
+      Frozen_Scorpion_Move_10: -5633597411063323758
+      Frozen_Scorpion_Move_11: 7984964098693721005
+      Frozen_Scorpion_Move_12: -4015435661295833598
+      Frozen_Scorpion_Move_13: 3245025417820884001
+      Frozen_Scorpion_Move_14: 2335218288952565615
+      Frozen_Scorpion_Move_15: 587697844839803564
+      Frozen_Scorpion_Move_16: -651091819522009830
+      Frozen_Scorpion_Move_17: 7945083449745216112
+      Frozen_Scorpion_Move_18: 931170870367415461
+      Frozen_Scorpion_Move_19: 7108068812837273602
+      Frozen_Scorpion_Move_2: 3765298689370516819
+      Frozen_Scorpion_Move_20: 6714484932123289575
+      Frozen_Scorpion_Move_21: -2869225131518712901
+      Frozen_Scorpion_Move_22: -8665122128293671650
+      Frozen_Scorpion_Move_23: 1849682253882724554
+      Frozen_Scorpion_Move_3: -3767065112721729813
+      Frozen_Scorpion_Move_4: 606592358620684267
+      Frozen_Scorpion_Move_5: 5477437319666099844
+      Frozen_Scorpion_Move_6: -7545300404327294269
+      Frozen_Scorpion_Move_7: -1122722806280914044
+      Frozen_Scorpion_Move_8: 2129656102793965406
+      Frozen_Scorpion_Move_9: -2710566061340150609
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

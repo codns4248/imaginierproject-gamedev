@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 15a15549e7e5f724a822d636c8a6b10b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8334306163698178294
+    second: Slime_Tentacle_Move_0
+  - first:
+      213: 8084961021183594991
+    second: Slime_Tentacle_Move_1
+  - first:
+      213: -8882304469612931364
+    second: Slime_Tentacle_Move_2
+  - first:
+      213: 5711202702211509811
+    second: Slime_Tentacle_Move_3
+  - first:
+      213: -6456596856294765016
+    second: Slime_Tentacle_Move_4
+  - first:
+      213: 2955581615076320988
+    second: Slime_Tentacle_Move_5
+  - first:
+      213: -1580086077939665985
+    second: Slime_Tentacle_Move_6
+  - first:
+      213: 7148158654842222346
+    second: Slime_Tentacle_Move_7
+  - first:
+      213: -3040429640319522503
+    second: Slime_Tentacle_Move_8
+  - first:
+      213: 210447380393571673
+    second: Slime_Tentacle_Move_9
+  - first:
+      213: -1585706266764070467
+    second: Slime_Tentacle_Move_10
+  - first:
+      213: -2015970062944926544
+    second: Slime_Tentacle_Move_11
+  - first:
+      213: -239151050357898987
+    second: Slime_Tentacle_Move_12
+  - first:
+      213: 2919233526071651593
+    second: Slime_Tentacle_Move_13
+  - first:
+      213: -4514446469652570625
+    second: Slime_Tentacle_Move_14
+  - first:
+      213: 3884533370191994516
+    second: Slime_Tentacle_Move_15
+  - first:
+      213: -8759958138966424111
+    second: Slime_Tentacle_Move_16
+  - first:
+      213: -6366567198721477151
+    second: Slime_Tentacle_Move_17
+  - first:
+      213: -363356211932897622
+    second: Slime_Tentacle_Move_18
+  - first:
+      213: -7091175423830752880
+    second: Slime_Tentacle_Move_19
+  - first:
+      213: 5546983343335746307
+    second: Slime_Tentacle_Move_20
+  - first:
+      213: 6462778270874545209
+    second: Slime_Tentacle_Move_21
+  - first:
+      213: -8549976893626211926
+    second: Slime_Tentacle_Move_22
+  - first:
+      213: 7015952660324223522
+    second: Slime_Tentacle_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 426
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07eb6f73b8965c80800000000000000
+      internalID: -8334306163698178294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 429
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1178a763d833070800000000000000
+      internalID: 8084961021183594991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 430
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd65bd53527bbb480800000000000000
+      internalID: -8882304469612931364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 430
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e61913994424f40800000000000000
+      internalID: 5711202702211509811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_4
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 427
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e85a22e5f8566a0800000000000000
+      internalID: -6456596856294765016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 428
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6ac4fc1d5540920800000000000000
+      internalID: 2955581615076320988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_6
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 303
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3bdd17518621ae0800000000000000
+      internalID: -1580086077939665985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_7
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 303
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07310c8c6c533360800000000000000
+      internalID: 7148158654842222346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_8
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 303
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939af2cd9593ec5d0800000000000000
+      internalID: -3040429640319522503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_9
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 306
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955354807c8abe200800000000000000
+      internalID: 210447380393571673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_10
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 304
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1ba634d807ef9e0800000000000000
+      internalID: -1585706266764070467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_11
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 303
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b48858a8e5d504e0800000000000000
+      internalID: -2015970062944926544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_12
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 175
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51181c3036d5eacf0800000000000000
+      internalID: -239151050357898987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_13
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 175
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d69e9dc63338820800000000000000
+      internalID: 2919233526071651593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_14
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 175
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd97dabad67951c0800000000000000
+      internalID: -4514446469652570625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_15
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 178
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ed170e482a8e530800000000000000
+      internalID: 3884533370191994516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_16
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 176
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d54d9f1c706e6680800000000000000
+      internalID: -8759958138966424111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_17
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 175
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e57d814dd865a7a0800000000000000
+      internalID: -6366567198721477151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaedecc437915faf0800000000000000
+      internalID: -363356211932897622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 47
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091869ec585179d90800000000000000
+      internalID: -7091175423830752880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_20
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 49
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b298a26f7dafc40800000000000000
+      internalID: 5546983343335746307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 51
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c2799989660b950800000000000000
+      internalID: 6462778270874545209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_22
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 49
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1ac91a051685980800000000000000
+      internalID: -8549976893626211926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Tentacle_Move_23
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a059fb5cbad5160800000000000000
+      internalID: 7015952660324223522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slime_Tentacle_Move_0: -8334306163698178294
+      Slime_Tentacle_Move_1: 8084961021183594991
+      Slime_Tentacle_Move_10: -1585706266764070467
+      Slime_Tentacle_Move_11: -2015970062944926544
+      Slime_Tentacle_Move_12: -239151050357898987
+      Slime_Tentacle_Move_13: 2919233526071651593
+      Slime_Tentacle_Move_14: -4514446469652570625
+      Slime_Tentacle_Move_15: 3884533370191994516
+      Slime_Tentacle_Move_16: -8759958138966424111
+      Slime_Tentacle_Move_17: -6366567198721477151
+      Slime_Tentacle_Move_18: -363356211932897622
+      Slime_Tentacle_Move_19: -7091175423830752880
+      Slime_Tentacle_Move_2: -8882304469612931364
+      Slime_Tentacle_Move_20: 5546983343335746307
+      Slime_Tentacle_Move_21: 6462778270874545209
+      Slime_Tentacle_Move_22: -8549976893626211926
+      Slime_Tentacle_Move_23: 7015952660324223522
+      Slime_Tentacle_Move_3: 5711202702211509811
+      Slime_Tentacle_Move_4: -6456596856294765016
+      Slime_Tentacle_Move_5: 2955581615076320988
+      Slime_Tentacle_Move_6: -1580086077939665985
+      Slime_Tentacle_Move_7: 7148158654842222346
+      Slime_Tentacle_Move_8: -3040429640319522503
+      Slime_Tentacle_Move_9: 210447380393571673
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

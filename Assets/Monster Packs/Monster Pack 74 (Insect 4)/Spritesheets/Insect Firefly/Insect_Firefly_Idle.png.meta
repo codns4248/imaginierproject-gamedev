@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 7a4e58cced431864a8b677c33e716829
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1482355730215243536
+    second: Insect_Firefly_Idle_0
+  - first:
+      213: -7199614292062268810
+    second: Insect_Firefly_Idle_1
+  - first:
+      213: 5720015370252755883
+    second: Insect_Firefly_Idle_2
+  - first:
+      213: -1722830206135413112
+    second: Insect_Firefly_Idle_3
+  - first:
+      213: 7239594365680727738
+    second: Insect_Firefly_Idle_4
+  - first:
+      213: 2855698063203587581
+    second: Insect_Firefly_Idle_5
+  - first:
+      213: 6677606470029824512
+    second: Insect_Firefly_Idle_6
+  - first:
+      213: -8980502533072203416
+    second: Insect_Firefly_Idle_7
+  - first:
+      213: 7884544137403748771
+    second: Insect_Firefly_Idle_8
+  - first:
+      213: 2562978169771259302
+    second: Insect_Firefly_Idle_9
+  - first:
+      213: 9069615887684026003
+    second: Insect_Firefly_Idle_10
+  - first:
+      213: 6475233873632037783
+    second: Insect_Firefly_Idle_11
+  - first:
+      213: -5660572714855067453
+    second: Insect_Firefly_Idle_12
+  - first:
+      213: -4833357667561021020
+    second: Insect_Firefly_Idle_13
+  - first:
+      213: -1265618177814811987
+    second: Insect_Firefly_Idle_14
+  - first:
+      213: 4167945574123422055
+    second: Insect_Firefly_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Insect_Firefly_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 444
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f071c5315d9d6be0800000000000000
+      internalID: -1482355730215243536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Firefly_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 443
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6729dc152f4d51c90800000000000000
+      internalID: -7199614292062268810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Firefly_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 444
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3a0bd5ca3916f40800000000000000
+      internalID: 5720015370252755883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Firefly_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 444
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8865cf23e074718e0800000000000000
+      internalID: -1722830206135413112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Firefly_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 316
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6b154f7b4387460800000000000000
+      internalID: 7239594365680727738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Firefly_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 315
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df55503224a71a720800000000000000
+      internalID: 2855698063203587581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Firefly_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 316
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0025afb74bf9bac50800000000000000
+      internalID: 6677606470029824512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Firefly_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 317
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8615cb3e688de5380800000000000000
+      internalID: -8980502533072203416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Firefly_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 188
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1d6dd6e178b6d60800000000000000
+      internalID: 7884544137403748771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Firefly_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 187
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5fb40f017819320800000000000000
+      internalID: 2562978169771259302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Firefly_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 188
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e35a2d89fbddd70800000000000000
+      internalID: 9069615887684026003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Firefly_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 189
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b0a6b96e6acd950800000000000000
+      internalID: 6475233873632037783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Firefly_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 60
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c09bc95b1b9171b0800000000000000
+      internalID: -5660572714855067453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Firefly_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 59
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a16d904fc67cecb0800000000000000
+      internalID: -4833357667561021020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Firefly_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 60
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa221a09fe9f6ee0800000000000000
+      internalID: -1265618177814811987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Firefly_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 60
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761c9ccba6487d930800000000000000
+      internalID: 4167945574123422055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Insect_Firefly_Idle_0: -1482355730215243536
+      Insect_Firefly_Idle_1: -7199614292062268810
+      Insect_Firefly_Idle_10: 9069615887684026003
+      Insect_Firefly_Idle_11: 6475233873632037783
+      Insect_Firefly_Idle_12: -5660572714855067453
+      Insect_Firefly_Idle_13: -4833357667561021020
+      Insect_Firefly_Idle_14: -1265618177814811987
+      Insect_Firefly_Idle_15: 4167945574123422055
+      Insect_Firefly_Idle_2: 5720015370252755883
+      Insect_Firefly_Idle_3: -1722830206135413112
+      Insect_Firefly_Idle_4: 7239594365680727738
+      Insect_Firefly_Idle_5: 2855698063203587581
+      Insect_Firefly_Idle_6: 6677606470029824512
+      Insect_Firefly_Idle_7: -8980502533072203416
+      Insect_Firefly_Idle_8: 7884544137403748771
+      Insect_Firefly_Idle_9: 2562978169771259302
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

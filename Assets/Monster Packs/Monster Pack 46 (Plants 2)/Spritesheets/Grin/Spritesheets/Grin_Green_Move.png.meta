@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: c4fd9126096cf904180cad7a76e80f05
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9960355723550771
+    second: Grin_Green_Move_0
+  - first:
+      213: -6365414650364235994
+    second: Grin_Green_Move_1
+  - first:
+      213: 1397992210784590904
+    second: Grin_Green_Move_2
+  - first:
+      213: 8042486711972715711
+    second: Grin_Green_Move_3
+  - first:
+      213: 3691299868304803716
+    second: Grin_Green_Move_4
+  - first:
+      213: -7739827367531865489
+    second: Grin_Green_Move_5
+  - first:
+      213: 4705674503173315169
+    second: Grin_Green_Move_6
+  - first:
+      213: -4244168213548504843
+    second: Grin_Green_Move_7
+  - first:
+      213: 7040540923027326837
+    second: Grin_Green_Move_8
+  - first:
+      213: 2177073186905228260
+    second: Grin_Green_Move_9
+  - first:
+      213: -1167449156360511991
+    second: Grin_Green_Move_10
+  - first:
+      213: -8600876425863518174
+    second: Grin_Green_Move_11
+  - first:
+      213: -7970207989888507996
+    second: Grin_Green_Move_12
+  - first:
+      213: -4660459249428297695
+    second: Grin_Green_Move_13
+  - first:
+      213: 893085820644835053
+    second: Grin_Green_Move_14
+  - first:
+      213: 2554973016172808832
+    second: Grin_Green_Move_15
+  - first:
+      213: 377604509802065556
+    second: Grin_Green_Move_16
+  - first:
+      213: -8752322477294227662
+    second: Grin_Green_Move_17
+  - first:
+      213: 331203058766212828
+    second: Grin_Green_Move_18
+  - first:
+      213: 747857626788464334
+    second: Grin_Green_Move_19
+  - first:
+      213: 2981917210693921897
+    second: Grin_Green_Move_20
+  - first:
+      213: 5644094866722462886
+    second: Grin_Green_Move_21
+  - first:
+      213: 5642050554307962808
+    second: Grin_Green_Move_22
+  - first:
+      213: 4796518796436312041
+    second: Grin_Green_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grin_Green_Move_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 436
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3302db804e2632000800000000000000
+      internalID: 9960355723550771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 437
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fe8f4d91189a7a0800000000000000
+      internalID: -6365414650364235994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 437
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c1492428aa66310800000000000000
+      internalID: 1397992210784590904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 436
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbcdee9bd07ac9f60800000000000000
+      internalID: 8042486711972715711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 435
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48701c14ca12a3330800000000000000
+      internalID: 3691299868304803716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_5
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 435
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a9a6f340c969490800000000000000
+      internalID: -7739827367531865489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_6
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 308
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a1246670aed4140800000000000000
+      internalID: 4705674503173315169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 309
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8ef601f7fa915c0800000000000000
+      internalID: -4244168213548504843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 309
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57705a7caa605b160800000000000000
+      internalID: 7040540923027326837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_9
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 308
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e383836784863e10800000000000000
+      internalID: 2177073186905228260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_10
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 307
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e5dcd7d236ccfe0800000000000000
+      internalID: -1167449156360511991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_11
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 307
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228af57c57c83a880800000000000000
+      internalID: -8600876425863518174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_12
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 180
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af17b8af02246190800000000000000
+      internalID: -7970207989888507996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_13
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 181
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12884ab3109b25fb0800000000000000
+      internalID: -4660459249428297695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_14
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 181
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee397572d0e46c00800000000000000
+      internalID: 893085820644835053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_15
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 180
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a40bfdb66157320800000000000000
+      internalID: 2554973016172808832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_16
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 179
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e66501d458d3500800000000000000
+      internalID: 377604509802065556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_17
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 179
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fe5352411898680800000000000000
+      internalID: -8752322477294227662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_18
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 52
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde684a5d6ba89400800000000000000
+      internalID: 331203058766212828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_19
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 53
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec60b4b9c8ce06a00800000000000000
+      internalID: 747857626788464334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 53
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ce80d77e5e16920800000000000000
+      internalID: 2981917210693921897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_21
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 52
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac1999a06ad35e40800000000000000
+      internalID: 5644094866722462886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_22
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 51
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7625616179c4e40800000000000000
+      internalID: 5642050554307962808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Move_23
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 51
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef021cae68a09240800000000000000
+      internalID: 4796518796436312041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Grin_Green_Move_0: 9960355723550771
+      Grin_Green_Move_1: -6365414650364235994
+      Grin_Green_Move_10: -1167449156360511991
+      Grin_Green_Move_11: -8600876425863518174
+      Grin_Green_Move_12: -7970207989888507996
+      Grin_Green_Move_13: -4660459249428297695
+      Grin_Green_Move_14: 893085820644835053
+      Grin_Green_Move_15: 2554973016172808832
+      Grin_Green_Move_16: 377604509802065556
+      Grin_Green_Move_17: -8752322477294227662
+      Grin_Green_Move_18: 331203058766212828
+      Grin_Green_Move_19: 747857626788464334
+      Grin_Green_Move_2: 1397992210784590904
+      Grin_Green_Move_20: 2981917210693921897
+      Grin_Green_Move_21: 5644094866722462886
+      Grin_Green_Move_22: 5642050554307962808
+      Grin_Green_Move_23: 4796518796436312041
+      Grin_Green_Move_3: 8042486711972715711
+      Grin_Green_Move_4: 3691299868304803716
+      Grin_Green_Move_5: -7739827367531865489
+      Grin_Green_Move_6: 4705674503173315169
+      Grin_Green_Move_7: -4244168213548504843
+      Grin_Green_Move_8: 7040540923027326837
+      Grin_Green_Move_9: 2177073186905228260
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

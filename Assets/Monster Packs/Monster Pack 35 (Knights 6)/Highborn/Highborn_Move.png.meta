@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 033d9a5bc3897fc4eb3c1a8853588d96
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 311940887890784562
+    second: Highborn_Move_0
+  - first:
+      213: -325096985663984739
+    second: Highborn_Move_1
+  - first:
+      213: -2713789878174873670
+    second: Highborn_Move_2
+  - first:
+      213: -7734092617851730295
+    second: Highborn_Move_3
+  - first:
+      213: -6504910525093388735
+    second: Highborn_Move_4
+  - first:
+      213: -8185542996016194890
+    second: Highborn_Move_5
+  - first:
+      213: 5454584261190213422
+    second: Highborn_Move_6
+  - first:
+      213: -2822272770755830609
+    second: Highborn_Move_7
+  - first:
+      213: -1705928676595379674
+    second: Highborn_Move_8
+  - first:
+      213: -962635076516770061
+    second: Highborn_Move_9
+  - first:
+      213: 6793713831651010549
+    second: Highborn_Move_10
+  - first:
+      213: 7581881634975720835
+    second: Highborn_Move_11
+  - first:
+      213: 923147850855215624
+    second: Highborn_Move_12
+  - first:
+      213: -7481093968740765828
+    second: Highborn_Move_13
+  - first:
+      213: 230358979255136277
+    second: Highborn_Move_14
+  - first:
+      213: 1222222470722189809
+    second: Highborn_Move_15
+  - first:
+      213: 8974607494249428462
+    second: Highborn_Move_16
+  - first:
+      213: 7877368047477584391
+    second: Highborn_Move_17
+  - first:
+      213: 5923428819616706447
+    second: Highborn_Move_18
+  - first:
+      213: -2297460303831736567
+    second: Highborn_Move_19
+  - first:
+      213: 8505980002843563618
+    second: Highborn_Move_20
+  - first:
+      213: 3851599518287527483
+    second: Highborn_Move_21
+  - first:
+      213: -3547332362285479407
+    second: Highborn_Move_22
+  - first:
+      213: -7031313122104320349
+    second: Highborn_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Highborn_Move_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 431
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23176a5b59c345400800000000000000
+      internalID: 311940887890784562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 431
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ba2f393060d7bf0800000000000000
+      internalID: -325096985663984739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 431
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7065ceb7ea65ad0800000000000000
+      internalID: -2713789878174873670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_3
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 431
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9860af4bdbbfaa490800000000000000
+      internalID: -7734092617851730295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 431
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14edb18875ae9b5a0800000000000000
+      internalID: -6504910525093388735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_5
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 431
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba94c4930c176e80800000000000000
+      internalID: -8185542996016194890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 303
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2fdda56c7392bb40800000000000000
+      internalID: 5454584261190213422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_7
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 303
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac57d73ed545d8d0800000000000000
+      internalID: -2822272770755830609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_8
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 303
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622516338e25358e0800000000000000
+      internalID: -1705928676595379674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 303
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe03e78f7804a2f0800000000000000
+      internalID: -962635076516770061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_10
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 303
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f767393cbe184e50800000000000000
+      internalID: 6793713831651010549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_11
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 303
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38529cd2d21483960800000000000000
+      internalID: 7581881634975720835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_12
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 175
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802f36d441eafcc00800000000000000
+      internalID: 923147850855215624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 175
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fa3e50ca0dd2890800000000000000
+      internalID: -7481093968740765828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_14
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 175
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510f2596546623300800000000000000
+      internalID: 230358979255136277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 175
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f975eb8cd436f010800000000000000
+      internalID: 1222222470722189809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_16
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 175
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5bb4d67f53c8c70800000000000000
+      internalID: 8974607494249428462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_17
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 175
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702f9eac088025d60800000000000000
+      internalID: 7877368047477584391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 47
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8fa095b02f343250800000000000000
+      internalID: 5923428819616706447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 47
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f5c80b608cd10e0800000000000000
+      internalID: -2297460303831736567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 47
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2661118febf4b0670800000000000000
+      internalID: 8505980002843563618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_21
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 47
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ef790fa51a37530800000000000000
+      internalID: 3851599518287527483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_22
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 47
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a0ab5d20855cec0800000000000000
+      internalID: -3547332362285479407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highborn_Move_23
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 47
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aedd6c08f1cb6e90800000000000000
+      internalID: -7031313122104320349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Highborn_Move_0: 311940887890784562
+      Highborn_Move_1: -325096985663984739
+      Highborn_Move_10: 6793713831651010549
+      Highborn_Move_11: 7581881634975720835
+      Highborn_Move_12: 923147850855215624
+      Highborn_Move_13: -7481093968740765828
+      Highborn_Move_14: 230358979255136277
+      Highborn_Move_15: 1222222470722189809
+      Highborn_Move_16: 8974607494249428462
+      Highborn_Move_17: 7877368047477584391
+      Highborn_Move_18: 5923428819616706447
+      Highborn_Move_19: -2297460303831736567
+      Highborn_Move_2: -2713789878174873670
+      Highborn_Move_20: 8505980002843563618
+      Highborn_Move_21: 3851599518287527483
+      Highborn_Move_22: -3547332362285479407
+      Highborn_Move_23: -7031313122104320349
+      Highborn_Move_3: -7734092617851730295
+      Highborn_Move_4: -6504910525093388735
+      Highborn_Move_5: -8185542996016194890
+      Highborn_Move_6: 5454584261190213422
+      Highborn_Move_7: -2822272770755830609
+      Highborn_Move_8: -1705928676595379674
+      Highborn_Move_9: -962635076516770061
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

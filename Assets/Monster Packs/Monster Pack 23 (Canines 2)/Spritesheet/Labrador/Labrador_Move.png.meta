@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 3572b1028be606444b5bdc119b14414e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3825618413701171216
+    second: Labrador_Move_0
+  - first:
+      213: 821945651174298595
+    second: Labrador_Move_1
+  - first:
+      213: 4660752069626106581
+    second: Labrador_Move_2
+  - first:
+      213: -5663495581327715481
+    second: Labrador_Move_3
+  - first:
+      213: 640270307232432258
+    second: Labrador_Move_4
+  - first:
+      213: 4544024271320376677
+    second: Labrador_Move_5
+  - first:
+      213: -8732448126585940310
+    second: Labrador_Move_6
+  - first:
+      213: -6660860463130046900
+    second: Labrador_Move_7
+  - first:
+      213: -5456944421136473264
+    second: Labrador_Move_8
+  - first:
+      213: -2535462641932289602
+    second: Labrador_Move_9
+  - first:
+      213: -4552430114608273880
+    second: Labrador_Move_10
+  - first:
+      213: -8356860943014363182
+    second: Labrador_Move_11
+  - first:
+      213: -7166399145869519582
+    second: Labrador_Move_12
+  - first:
+      213: 8769172104694434191
+    second: Labrador_Move_13
+  - first:
+      213: -543196260292229413
+    second: Labrador_Move_14
+  - first:
+      213: 8720701904710848102
+    second: Labrador_Move_15
+  - first:
+      213: 3026000775558861538
+    second: Labrador_Move_16
+  - first:
+      213: 5654261799435673051
+    second: Labrador_Move_17
+  - first:
+      213: 614550798861760731
+    second: Labrador_Move_18
+  - first:
+      213: -3786906615411040291
+    second: Labrador_Move_19
+  - first:
+      213: 1183134340636021303
+    second: Labrador_Move_20
+  - first:
+      213: -3033284158981254860
+    second: Labrador_Move_21
+  - first:
+      213: -4369926609291714961
+    second: Labrador_Move_22
+  - first:
+      213: -1341732584913807884
+    second: Labrador_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Labrador_Move_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 319
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7f52d525ca8eac0800000000000000
+      internalID: -3825618413701171216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 319
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3dbe20733286b00800000000000000
+      internalID: 821945651174298595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 321
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d21b3840515ea040800000000000000
+      internalID: 4660752069626106581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_3
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 319
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76397f776c83761b0800000000000000
+      internalID: -5663495581327715481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_4
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 319
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280c1deb372b2e800800000000000000
+      internalID: 640270307232432258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_5
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 319
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565edcedffd9f0f30800000000000000
+      internalID: 4544024271320376677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 223
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6d15302bc10d680800000000000000
+      internalID: -8732448126585940310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_7
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 226
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e80b413bedf83a0800000000000000
+      internalID: -6660860463130046900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_8
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 224
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0536c1b06f90544b0800000000000000
+      internalID: -5456944421136473264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_9
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 223
+        width: 43
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb93a5e192a30dcd0800000000000000
+      internalID: -2535462641932289602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_10
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 223
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826abf93ee482d0c0800000000000000
+      internalID: -4552430114608273880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_11
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 223
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dffa46bf37760c80800000000000000
+      internalID: -8356860943014363182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 127
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225d8cf22f5db8c90800000000000000
+      internalID: -7166399145869519582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_13
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 130
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f898392719b52b970800000000000000
+      internalID: 8769172104694434191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_14
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 128
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd606f511ed2678f0800000000000000
+      internalID: -543196260292229413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_15
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 127
+        width: 43
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ecc569d28260970800000000000000
+      internalID: 8720701904710848102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_16
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 127
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e21e354ca38ef920800000000000000
+      internalID: 3026000775558861538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_17
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 127
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd9c662629f77e40800000000000000
+      internalID: 5654261799435673051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_18
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 31
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8769e02b2578800800000000000000
+      internalID: 614550798861760731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_19
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 31
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf19d64f74327bc0800000000000000
+      internalID: -3786906615411040291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_20
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 33
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7321d2f0a665b6010800000000000000
+      internalID: 1183134340636021303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_21
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 31
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4315a11e02c97e5d0800000000000000
+      internalID: -3033284158981254860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_22
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 31
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ed3a6d6e6ea53c0800000000000000
+      internalID: -4369926609291714961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Move_23
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 31
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f555a4a255316de0800000000000000
+      internalID: -1341732584913807884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Labrador_Move_0: -3825618413701171216
+      Labrador_Move_1: 821945651174298595
+      Labrador_Move_10: -4552430114608273880
+      Labrador_Move_11: -8356860943014363182
+      Labrador_Move_12: -7166399145869519582
+      Labrador_Move_13: 8769172104694434191
+      Labrador_Move_14: -543196260292229413
+      Labrador_Move_15: 8720701904710848102
+      Labrador_Move_16: 3026000775558861538
+      Labrador_Move_17: 5654261799435673051
+      Labrador_Move_18: 614550798861760731
+      Labrador_Move_19: -3786906615411040291
+      Labrador_Move_2: 4660752069626106581
+      Labrador_Move_20: 1183134340636021303
+      Labrador_Move_21: -3033284158981254860
+      Labrador_Move_22: -4369926609291714961
+      Labrador_Move_23: -1341732584913807884
+      Labrador_Move_3: -5663495581327715481
+      Labrador_Move_4: 640270307232432258
+      Labrador_Move_5: 4544024271320376677
+      Labrador_Move_6: -8732448126585940310
+      Labrador_Move_7: -6660860463130046900
+      Labrador_Move_8: -5456944421136473264
+      Labrador_Move_9: -2535462641932289602
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

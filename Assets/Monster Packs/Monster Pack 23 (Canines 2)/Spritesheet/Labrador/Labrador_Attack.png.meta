@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 890c0c1c383481a439d83e2237f249f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6012074223771202363
+    second: Labrador_Attack_0
+  - first:
+      213: 6836231684401283154
+    second: Labrador_Attack_1
+  - first:
+      213: -1558777558326464256
+    second: Labrador_Attack_2
+  - first:
+      213: 4701851332323097835
+    second: Labrador_Attack_3
+  - first:
+      213: 7778479882356705234
+    second: Labrador_Attack_4
+  - first:
+      213: 4879340332732233443
+    second: Labrador_Attack_5
+  - first:
+      213: -2204562792795094608
+    second: Labrador_Attack_6
+  - first:
+      213: 3756026730267459080
+    second: Labrador_Attack_7
+  - first:
+      213: -2594340181330421300
+    second: Labrador_Attack_8
+  - first:
+      213: 4458978126753273313
+    second: Labrador_Attack_9
+  - first:
+      213: 7266504990659288235
+    second: Labrador_Attack_10
+  - first:
+      213: -4285665851520504100
+    second: Labrador_Attack_11
+  - first:
+      213: 6930061399614529304
+    second: Labrador_Attack_12
+  - first:
+      213: -2232942807001555949
+    second: Labrador_Attack_13
+  - first:
+      213: 1360597425103583999
+    second: Labrador_Attack_14
+  - first:
+      213: 4721862199805976848
+    second: Labrador_Attack_15
+  - first:
+      213: 5821360324211014027
+    second: Labrador_Attack_16
+  - first:
+      213: -3084077213025023934
+    second: Labrador_Attack_17
+  - first:
+      213: 1645198311998596724
+    second: Labrador_Attack_18
+  - first:
+      213: 7935308861506808164
+    second: Labrador_Attack_19
+  - first:
+      213: 3968252565204107955
+    second: Labrador_Attack_20
+  - first:
+      213: -7205241236112666177
+    second: Labrador_Attack_21
+  - first:
+      213: -9141192956939137278
+    second: Labrador_Attack_22
+  - first:
+      213: -3541998843337331635
+    second: Labrador_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Labrador_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 322
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccc5d8c852d09ca0800000000000000
+      internalID: -6012074223771202363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 320
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250420f3f7c2fde50800000000000000
+      internalID: 6836231684401283154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 319
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001b918c11c1e5ae0800000000000000
+      internalID: -1558777558326464256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 319
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: becb0d110e4504140800000000000000
+      internalID: 4701851332323097835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 319
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7c468ad36b2fb60800000000000000
+      internalID: 7778479882356705234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 319
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6bdb64e26e6b340800000000000000
+      internalID: 4879340332732233443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 223
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1c76af1d1d761e0800000000000000
+      internalID: -2204562792795094608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 224
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80eb6703966102430800000000000000
+      internalID: 3756026730267459080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 223
+        width: 46
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc91749b95d0ffbd0800000000000000
+      internalID: -2594340181330421300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 223
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e59d5a4bf871ed30800000000000000
+      internalID: 4458978126753273313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 223
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac99d61acfc7d460800000000000000
+      internalID: 7266504990659288235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 223
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde291e4d914684c0800000000000000
+      internalID: -4285665851520504100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 127
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f9bab30268c2060800000000000000
+      internalID: 6930061399614529304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 128
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c98e0095ef201e0800000000000000
+      internalID: -2232942807001555949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 127
+        width: 46
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa3c9d3620d1e210800000000000000
+      internalID: 1360597425103583999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 127
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011a7c937ac678140800000000000000
+      internalID: 4721862199805976848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 127
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89762a3f50a9c050800000000000000
+      internalID: 5821360324211014027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 127
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24844c96d182335d0800000000000000
+      internalID: -3084077213025023934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 34
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476afbbe52be4d610800000000000000
+      internalID: 1645198311998596724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 32
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4696f11dd51ef1e60800000000000000
+      internalID: 7935308861506808164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 31
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b20600fea0121730800000000000000
+      internalID: 3968252565204107955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 31
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb112805547d10c90800000000000000
+      internalID: -7205241236112666177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 31
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f07521075f32180800000000000000
+      internalID: -9141192956939137278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 31
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ca80c71da48dec0800000000000000
+      internalID: -3541998843337331635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Labrador_Attack_0: -6012074223771202363
+      Labrador_Attack_1: 6836231684401283154
+      Labrador_Attack_10: 7266504990659288235
+      Labrador_Attack_11: -4285665851520504100
+      Labrador_Attack_12: 6930061399614529304
+      Labrador_Attack_13: -2232942807001555949
+      Labrador_Attack_14: 1360597425103583999
+      Labrador_Attack_15: 4721862199805976848
+      Labrador_Attack_16: 5821360324211014027
+      Labrador_Attack_17: -3084077213025023934
+      Labrador_Attack_18: 1645198311998596724
+      Labrador_Attack_19: 7935308861506808164
+      Labrador_Attack_2: -1558777558326464256
+      Labrador_Attack_20: 3968252565204107955
+      Labrador_Attack_21: -7205241236112666177
+      Labrador_Attack_22: -9141192956939137278
+      Labrador_Attack_23: -3541998843337331635
+      Labrador_Attack_3: 4701851332323097835
+      Labrador_Attack_4: 7778479882356705234
+      Labrador_Attack_5: 4879340332732233443
+      Labrador_Attack_6: -2204562792795094608
+      Labrador_Attack_7: 3756026730267459080
+      Labrador_Attack_8: -2594340181330421300
+      Labrador_Attack_9: 4458978126753273313
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

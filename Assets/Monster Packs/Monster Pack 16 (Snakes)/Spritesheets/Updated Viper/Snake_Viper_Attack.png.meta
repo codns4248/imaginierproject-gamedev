@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: da7c80bd20b62bc4f82447c942f4055e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8395236005128570888
+    second: Snake_Viper_Attack_0
+  - first:
+      213: 7579987557558482525
+    second: Snake_Viper_Attack_1
+  - first:
+      213: -5772340826172965781
+    second: Snake_Viper_Attack_2
+  - first:
+      213: -6767296040957152280
+    second: Snake_Viper_Attack_3
+  - first:
+      213: -553169045044649976
+    second: Snake_Viper_Attack_4
+  - first:
+      213: -3533324175783350488
+    second: Snake_Viper_Attack_5
+  - first:
+      213: -3427459112953195580
+    second: Snake_Viper_Attack_6
+  - first:
+      213: -8017989328727228684
+    second: Snake_Viper_Attack_7
+  - first:
+      213: 6507933179395499291
+    second: Snake_Viper_Attack_8
+  - first:
+      213: 630636808240911462
+    second: Snake_Viper_Attack_9
+  - first:
+      213: 7810142081734148233
+    second: Snake_Viper_Attack_10
+  - first:
+      213: -3468592446757269198
+    second: Snake_Viper_Attack_11
+  - first:
+      213: -1168829634992350285
+    second: Snake_Viper_Attack_12
+  - first:
+      213: 6080646201523030800
+    second: Snake_Viper_Attack_13
+  - first:
+      213: 8296704135208945430
+    second: Snake_Viper_Attack_14
+  - first:
+      213: -4313285756098377672
+    second: Snake_Viper_Attack_15
+  - first:
+      213: 3919300209247837674
+    second: Snake_Viper_Attack_16
+  - first:
+      213: 1424217673259150462
+    second: Snake_Viper_Attack_17
+  - first:
+      213: -6272448613440930458
+    second: Snake_Viper_Attack_18
+  - first:
+      213: -9025095753324900748
+    second: Snake_Viper_Attack_19
+  - first:
+      213: 477948799849419173
+    second: Snake_Viper_Attack_20
+  - first:
+      213: -5196478474056207483
+    second: Snake_Viper_Attack_21
+  - first:
+      213: 6782817785241560745
+    second: Snake_Viper_Attack_22
+  - first:
+      213: -2999528943392900773
+    second: Snake_Viper_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 429
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7fdbc45512e7b80800000000000000
+      internalID: -8395236005128570888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 424
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56772ae586813960800000000000000
+      internalID: 7579987557558482525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 421
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cb97d0a9684efa0800000000000000
+      internalID: -5772340826172965781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 429
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e377dcfa1cb512a0800000000000000
+      internalID: -6767296040957152280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 429
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8002f513fafb258f0800000000000000
+      internalID: -553169045044649976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 429
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f222ae16c17fec0800000000000000
+      internalID: -3533324175783350488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 303
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3df32a8183f60d0800000000000000
+      internalID: -3427459112953195580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 303
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe3758cf216ab090800000000000000
+      internalID: -8017989328727228684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 303
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15e8d30fb2d05a50800000000000000
+      internalID: 6507933179395499291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 303
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6645c79f5d870c800800000000000000
+      internalID: 630636808240911462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 303
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980081be7d2336c60800000000000000
+      internalID: 7810142081734148233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 303
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2311e6c0c851ddfc0800000000000000
+      internalID: -3468592446757269198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 175
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bbd453c3ab77cfe0800000000000000
+      internalID: -1168829634992350285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 175
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01bcb9ee08bc26450800000000000000
+      internalID: 6080646201523030800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 175
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617c4a10470d32370800000000000000
+      internalID: 8296704135208945430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 175
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838010525712424c0800000000000000
+      internalID: -4313285756098377672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 175
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aedd45466c6246630800000000000000
+      internalID: 3919300209247837674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 175
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ce1719d66d3c310800000000000000
+      internalID: 1424217673259150462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 44
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d36fb0839c3f8a0800000000000000
+      internalID: -6272448613440930458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 44
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ece27ba3b60c280800000000000000
+      internalID: -9025095753324900748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 44
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a159d3b6e302a600800000000000000
+      internalID: 477948799849419173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 44
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5837ae62c5662e7b0800000000000000
+      internalID: -5196478474056207483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 44
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a66689b6d8612e50800000000000000
+      internalID: 6782817785241560745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 44
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59309371588f56d0800000000000000
+      internalID: -2999528943392900773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Snake_Viper_Attack_0: -8395236005128570888
+      Snake_Viper_Attack_1: 7579987557558482525
+      Snake_Viper_Attack_10: 7810142081734148233
+      Snake_Viper_Attack_11: -3468592446757269198
+      Snake_Viper_Attack_12: -1168829634992350285
+      Snake_Viper_Attack_13: 6080646201523030800
+      Snake_Viper_Attack_14: 8296704135208945430
+      Snake_Viper_Attack_15: -4313285756098377672
+      Snake_Viper_Attack_16: 3919300209247837674
+      Snake_Viper_Attack_17: 1424217673259150462
+      Snake_Viper_Attack_18: -6272448613440930458
+      Snake_Viper_Attack_19: -9025095753324900748
+      Snake_Viper_Attack_2: -5772340826172965781
+      Snake_Viper_Attack_20: 477948799849419173
+      Snake_Viper_Attack_21: -5196478474056207483
+      Snake_Viper_Attack_22: 6782817785241560745
+      Snake_Viper_Attack_23: -2999528943392900773
+      Snake_Viper_Attack_3: -6767296040957152280
+      Snake_Viper_Attack_4: -553169045044649976
+      Snake_Viper_Attack_5: -3533324175783350488
+      Snake_Viper_Attack_6: -3427459112953195580
+      Snake_Viper_Attack_7: -8017989328727228684
+      Snake_Viper_Attack_8: 6507933179395499291
+      Snake_Viper_Attack_9: 630636808240911462
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

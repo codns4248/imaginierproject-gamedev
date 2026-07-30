@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 090d4ce95a57b3445ae11c29cc1ff946
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1055874273720908481
+    second: Mushroom_Treant_Idle_0
+  - first:
+      213: -4919096586664887273
+    second: Mushroom_Treant_Idle_1
+  - first:
+      213: 7319435615837169046
+    second: Mushroom_Treant_Idle_2
+  - first:
+      213: -3233115936805808836
+    second: Mushroom_Treant_Idle_3
+  - first:
+      213: -57351569856711362
+    second: Mushroom_Treant_Idle_4
+  - first:
+      213: 4724715363943128604
+    second: Mushroom_Treant_Idle_5
+  - first:
+      213: -6988798553819714432
+    second: Mushroom_Treant_Idle_6
+  - first:
+      213: 4157263283923721306
+    second: Mushroom_Treant_Idle_7
+  - first:
+      213: -579299456278686600
+    second: Mushroom_Treant_Idle_8
+  - first:
+      213: 4558268885550206681
+    second: Mushroom_Treant_Idle_9
+  - first:
+      213: 6184437817906447333
+    second: Mushroom_Treant_Idle_10
+  - first:
+      213: -8807128305355791051
+    second: Mushroom_Treant_Idle_11
+  - first:
+      213: 938786445202815330
+    second: Mushroom_Treant_Idle_12
+  - first:
+      213: -6124175227324006076
+    second: Mushroom_Treant_Idle_13
+  - first:
+      213: -3973804631390514792
+    second: Mushroom_Treant_Idle_14
+  - first:
+      213: 3752459545175014584
+    second: Mushroom_Treant_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mushroom_Treant_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 431
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35446b31f7c851f0800000000000000
+      internalID: -1055874273720908481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Treant_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 431
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71cb00887bbdbbbb0800000000000000
+      internalID: -4919096586664887273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Treant_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 431
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695215e99ebd39560800000000000000
+      internalID: 7319435615837169046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Treant_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 431
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35190d6f2aa123d0800000000000000
+      internalID: -3233115936805808836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Treant_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 303
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3531631d0f343ff0800000000000000
+      internalID: -57351569856711362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Treant_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 303
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e19a4479f819140800000000000000
+      internalID: 4724715363943128604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Treant_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 303
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cefc85ebcc20f90800000000000000
+      internalID: -6988798553819714432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Treant_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 303
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c1c0c3ee091b930800000000000000
+      internalID: 4157263283923721306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Treant_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 175
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8749ee9b63ae5f7f0800000000000000
+      internalID: -579299456278686600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Treant_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 175
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de8fe19669324f30800000000000000
+      internalID: 4558268885550206681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Treant_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 175
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e34ec7cd6983d550800000000000000
+      internalID: 6184437817906447333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Treant_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 175
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535eafbe77bc6c580800000000000000
+      internalID: -8807128305355791051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Treant_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 47
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269f34a4c4d370d00800000000000000
+      internalID: 938786445202815330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Treant_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 47
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4410b19f31f820ba0800000000000000
+      internalID: -6124175227324006076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Treant_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 47
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8919a2bedb53ad8c0800000000000000
+      internalID: -3973804631390514792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Treant_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 47
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc3e20331a631430800000000000000
+      internalID: 3752459545175014584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mushroom_Treant_Idle_0: -1055874273720908481
+      Mushroom_Treant_Idle_1: -4919096586664887273
+      Mushroom_Treant_Idle_10: 6184437817906447333
+      Mushroom_Treant_Idle_11: -8807128305355791051
+      Mushroom_Treant_Idle_12: 938786445202815330
+      Mushroom_Treant_Idle_13: -6124175227324006076
+      Mushroom_Treant_Idle_14: -3973804631390514792
+      Mushroom_Treant_Idle_15: 3752459545175014584
+      Mushroom_Treant_Idle_2: 7319435615837169046
+      Mushroom_Treant_Idle_3: -3233115936805808836
+      Mushroom_Treant_Idle_4: -57351569856711362
+      Mushroom_Treant_Idle_5: 4724715363943128604
+      Mushroom_Treant_Idle_6: -6988798553819714432
+      Mushroom_Treant_Idle_7: 4157263283923721306
+      Mushroom_Treant_Idle_8: -579299456278686600
+      Mushroom_Treant_Idle_9: 4558268885550206681
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

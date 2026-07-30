@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 42b26a425fdae01418b40dbbbf732ea6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3874937639787640543
+    second: Grin_Red_Attack_0
+  - first:
+      213: 4871348815399208838
+    second: Grin_Red_Attack_1
+  - first:
+      213: -2002182030868773714
+    second: Grin_Red_Attack_2
+  - first:
+      213: -6463388717861767608
+    second: Grin_Red_Attack_3
+  - first:
+      213: 3944381028230655636
+    second: Grin_Red_Attack_4
+  - first:
+      213: 3703128310171267687
+    second: Grin_Red_Attack_5
+  - first:
+      213: -6312211865484267136
+    second: Grin_Red_Attack_6
+  - first:
+      213: 8548793389316729521
+    second: Grin_Red_Attack_7
+  - first:
+      213: -4687891824901885113
+    second: Grin_Red_Attack_8
+  - first:
+      213: -1326464792719439734
+    second: Grin_Red_Attack_9
+  - first:
+      213: -5147248019432308882
+    second: Grin_Red_Attack_10
+  - first:
+      213: -3602465741946370702
+    second: Grin_Red_Attack_11
+  - first:
+      213: 1337675078386259717
+    second: Grin_Red_Attack_12
+  - first:
+      213: 80009109137816176
+    second: Grin_Red_Attack_13
+  - first:
+      213: -6985956000272166073
+    second: Grin_Red_Attack_14
+  - first:
+      213: 2690255028042667518
+    second: Grin_Red_Attack_15
+  - first:
+      213: 4780184977382401047
+    second: Grin_Red_Attack_16
+  - first:
+      213: -6069260677582518370
+    second: Grin_Red_Attack_17
+  - first:
+      213: -1639270211916556253
+    second: Grin_Red_Attack_18
+  - first:
+      213: -6051744526821995556
+    second: Grin_Red_Attack_19
+  - first:
+      213: -6302406577921600140
+    second: Grin_Red_Attack_20
+  - first:
+      213: 122483900301250810
+    second: Grin_Red_Attack_21
+  - first:
+      213: 7859605608909585760
+    second: Grin_Red_Attack_22
+  - first:
+      213: -7704632826695788984
+    second: Grin_Red_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grin_Red_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 436
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129caa53fb4793ac0800000000000000
+      internalID: -3874937639787640543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 437
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687c3e620f18a9340800000000000000
+      internalID: 4871348815399208838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 436
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4856a0d02d634e0800000000000000
+      internalID: -2002182030868773714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 435
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846f492a43e6d46a0800000000000000
+      internalID: -6463388717861767608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 435
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e6a7e95a14db630800000000000000
+      internalID: 3944381028230655636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 436
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762737df397246330800000000000000
+      internalID: 3703128310171267687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 308
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081fdca70c48668a0800000000000000
+      internalID: -6312211865484267136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 309
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba6e6c4b4a63a670800000000000000
+      internalID: 8548793389316729521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 308
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743f347093341feb0800000000000000
+      internalID: -4687891824901885113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 307
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8845e68c43779de0800000000000000
+      internalID: -1326464792719439734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 307
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f77e6923d4198b0800000000000000
+      internalID: -5147248019432308882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 308
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275c5cf8e78710ec0800000000000000
+      internalID: -3602465741946370702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 180
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5071b108560609210800000000000000
+      internalID: 1337675078386259717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 181
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a74f06cdf3c1100800000000000000
+      internalID: 80009109137816176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 180
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743d44be706ec0f90800000000000000
+      internalID: -6985956000272166073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 179
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef511b5c1b4b55520800000000000000
+      internalID: 2690255028042667518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 179
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714698119e0a65240800000000000000
+      internalID: 4780184977382401047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 180
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e97827fe197a5cba0800000000000000
+      internalID: -6069260677582518370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 52
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32895df6d642049e0800000000000000
+      internalID: -1639270211916556253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 53
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb4c579a62e30ca0800000000000000
+      internalID: -6051744526821995556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 52
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475d5e4eb9a5988a0800000000000000
+      internalID: -6302406577921600140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 51
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af01928557623b100800000000000000
+      internalID: 122483900301250810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 51
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d39b9c8ade21d60800000000000000
+      internalID: 7859605608909585760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Red_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 52
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846dbf7d345a31590800000000000000
+      internalID: -7704632826695788984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Grin_Red_Attack_0: -3874937639787640543
+      Grin_Red_Attack_1: 4871348815399208838
+      Grin_Red_Attack_10: -5147248019432308882
+      Grin_Red_Attack_11: -3602465741946370702
+      Grin_Red_Attack_12: 1337675078386259717
+      Grin_Red_Attack_13: 80009109137816176
+      Grin_Red_Attack_14: -6985956000272166073
+      Grin_Red_Attack_15: 2690255028042667518
+      Grin_Red_Attack_16: 4780184977382401047
+      Grin_Red_Attack_17: -6069260677582518370
+      Grin_Red_Attack_18: -1639270211916556253
+      Grin_Red_Attack_19: -6051744526821995556
+      Grin_Red_Attack_2: -2002182030868773714
+      Grin_Red_Attack_20: -6302406577921600140
+      Grin_Red_Attack_21: 122483900301250810
+      Grin_Red_Attack_22: 7859605608909585760
+      Grin_Red_Attack_23: -7704632826695788984
+      Grin_Red_Attack_3: -6463388717861767608
+      Grin_Red_Attack_4: 3944381028230655636
+      Grin_Red_Attack_5: 3703128310171267687
+      Grin_Red_Attack_6: -6312211865484267136
+      Grin_Red_Attack_7: 8548793389316729521
+      Grin_Red_Attack_8: -4687891824901885113
+      Grin_Red_Attack_9: -1326464792719439734
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

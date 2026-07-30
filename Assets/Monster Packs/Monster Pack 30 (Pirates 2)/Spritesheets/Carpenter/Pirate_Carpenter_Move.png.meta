@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 47931bca5f7cb964099c50233fc514df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 707493281239954368
+    second: Pirate_Carpenter_Move_0
+  - first:
+      213: -3669169573328458347
+    second: Pirate_Carpenter_Move_1
+  - first:
+      213: -5933847581293619895
+    second: Pirate_Carpenter_Move_2
+  - first:
+      213: 2686917938124450947
+    second: Pirate_Carpenter_Move_3
+  - first:
+      213: -2948599526091626395
+    second: Pirate_Carpenter_Move_4
+  - first:
+      213: 7202826939528001022
+    second: Pirate_Carpenter_Move_5
+  - first:
+      213: 4546175533996389276
+    second: Pirate_Carpenter_Move_6
+  - first:
+      213: 1841748938034681989
+    second: Pirate_Carpenter_Move_7
+  - first:
+      213: 319510505844221133
+    second: Pirate_Carpenter_Move_8
+  - first:
+      213: 5771444559282936717
+    second: Pirate_Carpenter_Move_9
+  - first:
+      213: 8167997002009123233
+    second: Pirate_Carpenter_Move_10
+  - first:
+      213: 7352998083296188128
+    second: Pirate_Carpenter_Move_11
+  - first:
+      213: 8478078980251440557
+    second: Pirate_Carpenter_Move_12
+  - first:
+      213: -6269961545641276199
+    second: Pirate_Carpenter_Move_13
+  - first:
+      213: -7175731253406491208
+    second: Pirate_Carpenter_Move_14
+  - first:
+      213: -3951515240460633948
+    second: Pirate_Carpenter_Move_15
+  - first:
+      213: -3365114553013223702
+    second: Pirate_Carpenter_Move_16
+  - first:
+      213: -7271252433910885073
+    second: Pirate_Carpenter_Move_17
+  - first:
+      213: -3801149745953301189
+    second: Pirate_Carpenter_Move_18
+  - first:
+      213: -859207145567011711
+    second: Pirate_Carpenter_Move_19
+  - first:
+      213: 1051971756085101699
+    second: Pirate_Carpenter_Move_20
+  - first:
+      213: -1274214557725663797
+    second: Pirate_Carpenter_Move_21
+  - first:
+      213: -8284202836422400024
+    second: Pirate_Carpenter_Move_22
+  - first:
+      213: 4736442076516505084
+    second: Pirate_Carpenter_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 431
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3784d046581d900800000000000000
+      internalID: 707493281239954368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 431
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59de51196bd741dc0800000000000000
+      internalID: -3669169573328458347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 431
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945dead401db6ada0800000000000000
+      internalID: -5933847581293619895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 431
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c688af0a9d94520800000000000000
+      internalID: 2686917938124450947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_4
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 431
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5686c667a587417d0800000000000000
+      internalID: -2948599526091626395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_5
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 431
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef53e2570f495f360800000000000000
+      internalID: 7202826939528001022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 303
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c933d6ebf82471f30800000000000000
+      internalID: 4546175533996389276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_7
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 303
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5889201b6e43f8910800000000000000
+      internalID: 1841748938034681989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_8
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 303
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4a9dabc112f6400800000000000000
+      internalID: 319510505844221133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 303
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b9bec8f3a481050800000000000000
+      internalID: 5771444559282936717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_10
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 303
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a995375ffd8a5170800000000000000
+      internalID: 8167997002009123233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_11
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 303
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e65ff48cc81b0660800000000000000
+      internalID: 7352998083296188128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_12
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 175
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5d79be9ef28a570800000000000000
+      internalID: 8478078980251440557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 175
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc41b4a13f9cf8a0800000000000000
+      internalID: -6269961545641276199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_14
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 175
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd9905917eaa6c90800000000000000
+      internalID: -7175731253406491208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 175
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a83dc723d56929c0800000000000000
+      internalID: -3951515240460633948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_16
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 175
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee3627a426bc41d0800000000000000
+      internalID: -3365114553013223702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_17
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 175
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f251c84af62571b90800000000000000
+      internalID: -7271252433910885073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 47
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d1366027a9f3bc0800000000000000
+      internalID: -3801149745953301189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 47
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c300447ab7314f0800000000000000
+      internalID: -859207145567011711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 47
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38442331dba599e00800000000000000
+      internalID: 1051971756085101699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_21
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 47
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd512f5c94115ee0800000000000000
+      internalID: -1274214557725663797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_22
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 47
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e762cf6969980d80800000000000000
+      internalID: -8284202836422400024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_Carpenter_Move_23
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 47
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5dafd49f83bb140800000000000000
+      internalID: 4736442076516505084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pirate_Carpenter_Move_0: 707493281239954368
+      Pirate_Carpenter_Move_1: -3669169573328458347
+      Pirate_Carpenter_Move_10: 8167997002009123233
+      Pirate_Carpenter_Move_11: 7352998083296188128
+      Pirate_Carpenter_Move_12: 8478078980251440557
+      Pirate_Carpenter_Move_13: -6269961545641276199
+      Pirate_Carpenter_Move_14: -7175731253406491208
+      Pirate_Carpenter_Move_15: -3951515240460633948
+      Pirate_Carpenter_Move_16: -3365114553013223702
+      Pirate_Carpenter_Move_17: -7271252433910885073
+      Pirate_Carpenter_Move_18: -3801149745953301189
+      Pirate_Carpenter_Move_19: -859207145567011711
+      Pirate_Carpenter_Move_2: -5933847581293619895
+      Pirate_Carpenter_Move_20: 1051971756085101699
+      Pirate_Carpenter_Move_21: -1274214557725663797
+      Pirate_Carpenter_Move_22: -8284202836422400024
+      Pirate_Carpenter_Move_23: 4736442076516505084
+      Pirate_Carpenter_Move_3: 2686917938124450947
+      Pirate_Carpenter_Move_4: -2948599526091626395
+      Pirate_Carpenter_Move_5: 7202826939528001022
+      Pirate_Carpenter_Move_6: 4546175533996389276
+      Pirate_Carpenter_Move_7: 1841748938034681989
+      Pirate_Carpenter_Move_8: 319510505844221133
+      Pirate_Carpenter_Move_9: 5771444559282936717
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

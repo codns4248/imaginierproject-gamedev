@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 1a67a7ea9f2d2b94e8dccb23c6444a86
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6042535567578426001
+    second: Snake_Alien_Emerge_0
+  - first:
+      213: -2132625679994383363
+    second: Snake_Alien_Emerge_1
+  - first:
+      213: 3120116495127432401
+    second: Snake_Alien_Emerge_2
+  - first:
+      213: -2673497973482496760
+    second: Snake_Alien_Emerge_3
+  - first:
+      213: -81715717987205322
+    second: Snake_Alien_Emerge_4
+  - first:
+      213: -1028401701462595782
+    second: Snake_Alien_Emerge_5
+  - first:
+      213: 4599682043454273188
+    second: Snake_Alien_Emerge_6
+  - first:
+      213: 3854583576807756251
+    second: Snake_Alien_Emerge_7
+  - first:
+      213: -152063368541903422
+    second: Snake_Alien_Emerge_8
+  - first:
+      213: -8646905855638096418
+    second: Snake_Alien_Emerge_9
+  - first:
+      213: -3112295470269721547
+    second: Snake_Alien_Emerge_10
+  - first:
+      213: -6414524533473487014
+    second: Snake_Alien_Emerge_11
+  - first:
+      213: 435963963616010352
+    second: Snake_Alien_Emerge_12
+  - first:
+      213: -4061078945537106492
+    second: Snake_Alien_Emerge_13
+  - first:
+      213: 8621466051812286471
+    second: Snake_Alien_Emerge_14
+  - first:
+      213: -6846035668033068898
+    second: Snake_Alien_Emerge_15
+  - first:
+      213: 5409648315392175490
+    second: Snake_Alien_Emerge_16
+  - first:
+      213: 6040065249342773263
+    second: Snake_Alien_Emerge_17
+  - first:
+      213: -6900412457578159126
+    second: Snake_Alien_Emerge_18
+  - first:
+      213: -8678125229386658229
+    second: Snake_Alien_Emerge_19
+  - first:
+      213: -7072738624673433876
+    second: Snake_Alien_Emerge_20
+  - first:
+      213: 8866198850801627484
+    second: Snake_Alien_Emerge_21
+  - first:
+      213: 122402628164526406
+    second: Snake_Alien_Emerge_22
+  - first:
+      213: -8274749840868043233
+    second: Snake_Alien_Emerge_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 432
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6513df7ae9942ca0800000000000000
+      internalID: -6042535567578426001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 432
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df31f014e346762e0800000000000000
+      internalID: -2132625679994383363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 432
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc48e5db61ec4b20800000000000000
+      internalID: 3120116495127432401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 432
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d59d602c3d5ead0800000000000000
+      internalID: -2673497973482496760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 431
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f7ec8ccffaddef0800000000000000
+      internalID: -81715717987205322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_5
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 431
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a372ae9e9126ab1f0800000000000000
+      internalID: -1028401701462595782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_6
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 303
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6b5d7c27a55df30800000000000000
+      internalID: 4599682043454273188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 303
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd15ea4375b3e7530800000000000000
+      internalID: 3854583576807756251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_8
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 303
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5e5b60c23c3edf0800000000000000
+      internalID: -152063368541903422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_9
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 303
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5327400f4000880800000000000000
+      internalID: -8646905855638096418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_10
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 303
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534148a62c7eec4d0800000000000000
+      internalID: -3112295470269721547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_11
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 303
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57d8432ce70bf6a0800000000000000
+      internalID: -6414524533473487014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_12
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 175
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07024324aeadc0600800000000000000
+      internalID: 435963963616010352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_13
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 175
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd517e273624a7c0800000000000000
+      internalID: -4061078945537106492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_14
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 175
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7006c5512b995a770800000000000000
+      internalID: 8621466051812286471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 175
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e902c3fe4defdf0a0800000000000000
+      internalID: -6846035668033068898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_16
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 175
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28dadb63b7ee21b40800000000000000
+      internalID: 5409648315392175490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_17
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 175
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08d147b75f92d350800000000000000
+      internalID: 6040065249342773263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_18
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 47
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3af560e6fcc30a0800000000000000
+      internalID: -6900412457578159126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_19
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 48
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e8d02251b119780800000000000000
+      internalID: -8678125229386658229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 48
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6b72f91b598dd90800000000000000
+      internalID: -7072738624673433876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_21
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 47
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51f10231e01b0b70800000000000000
+      internalID: 8866198850801627484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_22
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 45
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6412253ba8cd2b100800000000000000
+      internalID: 122402628164526406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Emerge_23
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 41
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1617d97cde2a2d80800000000000000
+      internalID: -8274749840868043233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Snake_Alien_Emerge_0: -6042535567578426001
+      Snake_Alien_Emerge_1: -2132625679994383363
+      Snake_Alien_Emerge_10: -3112295470269721547
+      Snake_Alien_Emerge_11: -6414524533473487014
+      Snake_Alien_Emerge_12: 435963963616010352
+      Snake_Alien_Emerge_13: -4061078945537106492
+      Snake_Alien_Emerge_14: 8621466051812286471
+      Snake_Alien_Emerge_15: -6846035668033068898
+      Snake_Alien_Emerge_16: 5409648315392175490
+      Snake_Alien_Emerge_17: 6040065249342773263
+      Snake_Alien_Emerge_18: -6900412457578159126
+      Snake_Alien_Emerge_19: -8678125229386658229
+      Snake_Alien_Emerge_2: 3120116495127432401
+      Snake_Alien_Emerge_20: -7072738624673433876
+      Snake_Alien_Emerge_21: 8866198850801627484
+      Snake_Alien_Emerge_22: 122402628164526406
+      Snake_Alien_Emerge_23: -8274749840868043233
+      Snake_Alien_Emerge_3: -2673497973482496760
+      Snake_Alien_Emerge_4: -81715717987205322
+      Snake_Alien_Emerge_5: -1028401701462595782
+      Snake_Alien_Emerge_6: 4599682043454273188
+      Snake_Alien_Emerge_7: 3854583576807756251
+      Snake_Alien_Emerge_8: -152063368541903422
+      Snake_Alien_Emerge_9: -8646905855638096418
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

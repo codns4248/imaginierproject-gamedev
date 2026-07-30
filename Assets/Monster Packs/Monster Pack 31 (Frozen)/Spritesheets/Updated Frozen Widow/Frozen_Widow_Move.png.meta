@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: c1e8f01f3633760449c34dc8216022e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6614236851645500427
+    second: Frozen_Widow_Move_0
+  - first:
+      213: -7574493188965490362
+    second: Frozen_Widow_Move_1
+  - first:
+      213: 7092874787633842392
+    second: Frozen_Widow_Move_2
+  - first:
+      213: -7085244072816982963
+    second: Frozen_Widow_Move_3
+  - first:
+      213: 6391620623075764112
+    second: Frozen_Widow_Move_4
+  - first:
+      213: -4418859184970162154
+    second: Frozen_Widow_Move_5
+  - first:
+      213: 4298083147060561130
+    second: Frozen_Widow_Move_6
+  - first:
+      213: -2248394995119847281
+    second: Frozen_Widow_Move_7
+  - first:
+      213: -2353632359066129640
+    second: Frozen_Widow_Move_8
+  - first:
+      213: 1585264401574899721
+    second: Frozen_Widow_Move_9
+  - first:
+      213: -2107131542964229950
+    second: Frozen_Widow_Move_10
+  - first:
+      213: 2934081673783158963
+    second: Frozen_Widow_Move_11
+  - first:
+      213: 8111728985717386911
+    second: Frozen_Widow_Move_12
+  - first:
+      213: 6548695132810201280
+    second: Frozen_Widow_Move_13
+  - first:
+      213: 4769807920016398293
+    second: Frozen_Widow_Move_14
+  - first:
+      213: -7791111613958862060
+    second: Frozen_Widow_Move_15
+  - first:
+      213: 4162302248943972892
+    second: Frozen_Widow_Move_16
+  - first:
+      213: -4382315262091567517
+    second: Frozen_Widow_Move_17
+  - first:
+      213: 5944142699915347766
+    second: Frozen_Widow_Move_18
+  - first:
+      213: 3188164738105699794
+    second: Frozen_Widow_Move_19
+  - first:
+      213: 1082335904772092001
+    second: Frozen_Widow_Move_20
+  - first:
+      213: 8788988878147938136
+    second: Frozen_Widow_Move_21
+  - first:
+      213: -9206096165307509745
+    second: Frozen_Widow_Move_22
+  - first:
+      213: -5459807754758679642
+    second: Frozen_Widow_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 434
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0cc0a27f5d7acb50800000000000000
+      internalID: 6614236851645500427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 435
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641a816739ef1e690800000000000000
+      internalID: -7574493188965490362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 435
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d84d392a04fe6260800000000000000
+      internalID: 7092874787633842392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_3
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 435
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d444dc41e082cad90800000000000000
+      internalID: -7085244072816982963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 434
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097ed79a71993b850800000000000000
+      internalID: 6391620623075764112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_5
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 432
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610a16fbbfe0da2c0800000000000000
+      internalID: -4418859184970162154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 306
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae443ab99dbd5ab30800000000000000
+      internalID: 4298083147060561130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_7
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 307
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f888d191aa81cc0e0800000000000000
+      internalID: -2248394995119847281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_8
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 307
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81baff9e6d7365fd0800000000000000
+      internalID: -2353632359066129640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_9
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 306
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900b1faf29dfff510800000000000000
+      internalID: 1585264401574899721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_10
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 305
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8a8969607f1c2e0800000000000000
+      internalID: -2107131542964229950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_11
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 305
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b824d3acb3f7b820800000000000000
+      internalID: 2934081673783158963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 178
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9eace3e886a29070800000000000000
+      internalID: 8111728985717386911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_13
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 179
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c84b7dd683a1ea50800000000000000
+      internalID: 6548695132810201280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_14
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 179
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d71c6f1803c13240800000000000000
+      internalID: 4769807920016398293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 178
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bcf84244960e390800000000000000
+      internalID: -7791111613958862060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_16
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 177
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c127d14b7d773c930800000000000000
+      internalID: 4162302248943972892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_17
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 177
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e5245dc73ee23c0800000000000000
+      internalID: -4382315262091567517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 50
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6378faaca46dd7250800000000000000
+      internalID: 5944142699915347766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_19
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 51
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd673c00f2ae3c20800000000000000
+      internalID: 3188164738105699794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_20
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 51
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160779b55ca350f00800000000000000
+      internalID: 1082335904772092001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_21
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 51
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857edd091d2c8f970800000000000000
+      internalID: 8788988878147938136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_22
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 50
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0492ca40506d3080800000000000000
+      internalID: -9206096165307509745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Widow_Move_23
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 48
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a39fab36cdda34b0800000000000000
+      internalID: -5459807754758679642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Frozen_Widow_Move_0: 6614236851645500427
+      Frozen_Widow_Move_1: -7574493188965490362
+      Frozen_Widow_Move_10: -2107131542964229950
+      Frozen_Widow_Move_11: 2934081673783158963
+      Frozen_Widow_Move_12: 8111728985717386911
+      Frozen_Widow_Move_13: 6548695132810201280
+      Frozen_Widow_Move_14: 4769807920016398293
+      Frozen_Widow_Move_15: -7791111613958862060
+      Frozen_Widow_Move_16: 4162302248943972892
+      Frozen_Widow_Move_17: -4382315262091567517
+      Frozen_Widow_Move_18: 5944142699915347766
+      Frozen_Widow_Move_19: 3188164738105699794
+      Frozen_Widow_Move_2: 7092874787633842392
+      Frozen_Widow_Move_20: 1082335904772092001
+      Frozen_Widow_Move_21: 8788988878147938136
+      Frozen_Widow_Move_22: -9206096165307509745
+      Frozen_Widow_Move_23: -5459807754758679642
+      Frozen_Widow_Move_3: -7085244072816982963
+      Frozen_Widow_Move_4: 6391620623075764112
+      Frozen_Widow_Move_5: -4418859184970162154
+      Frozen_Widow_Move_6: 4298083147060561130
+      Frozen_Widow_Move_7: -2248394995119847281
+      Frozen_Widow_Move_8: -2353632359066129640
+      Frozen_Widow_Move_9: 1585264401574899721
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

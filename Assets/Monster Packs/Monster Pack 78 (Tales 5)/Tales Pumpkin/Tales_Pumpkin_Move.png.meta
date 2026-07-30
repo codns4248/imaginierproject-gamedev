@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 53a809cd06eaeaa428f4beebafb644cb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5123357280304212630
+    second: Tales_Pumpkin_Move_0
+  - first:
+      213: 1649393070819093320
+    second: Tales_Pumpkin_Move_1
+  - first:
+      213: -5010302237256580221
+    second: Tales_Pumpkin_Move_2
+  - first:
+      213: -6065921230044832937
+    second: Tales_Pumpkin_Move_3
+  - first:
+      213: -3608736918015528200
+    second: Tales_Pumpkin_Move_4
+  - first:
+      213: -7127784609025680335
+    second: Tales_Pumpkin_Move_5
+  - first:
+      213: 5295156860181598018
+    second: Tales_Pumpkin_Move_6
+  - first:
+      213: 6679136843698027154
+    second: Tales_Pumpkin_Move_7
+  - first:
+      213: 2602550559630927288
+    second: Tales_Pumpkin_Move_8
+  - first:
+      213: 4405494865559444192
+    second: Tales_Pumpkin_Move_9
+  - first:
+      213: 8604469647509112875
+    second: Tales_Pumpkin_Move_10
+  - first:
+      213: 3434944362186107789
+    second: Tales_Pumpkin_Move_11
+  - first:
+      213: -102452046538584192
+    second: Tales_Pumpkin_Move_12
+  - first:
+      213: -3171775604024108505
+    second: Tales_Pumpkin_Move_13
+  - first:
+      213: -1289567119593512830
+    second: Tales_Pumpkin_Move_14
+  - first:
+      213: -7590771384952043106
+    second: Tales_Pumpkin_Move_15
+  - first:
+      213: 6889969405992865507
+    second: Tales_Pumpkin_Move_16
+  - first:
+      213: 1925487845101928334
+    second: Tales_Pumpkin_Move_17
+  - first:
+      213: 5688496153087982815
+    second: Tales_Pumpkin_Move_18
+  - first:
+      213: 5635409197841536671
+    second: Tales_Pumpkin_Move_19
+  - first:
+      213: -8135826503712513730
+    second: Tales_Pumpkin_Move_20
+  - first:
+      213: 5698787657214932916
+    second: Tales_Pumpkin_Move_21
+  - first:
+      213: 8175647993313960377
+    second: Tales_Pumpkin_Move_22
+  - first:
+      213: 1131842194990686081
+    second: Tales_Pumpkin_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 431
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69aa1fd3d42d91740800000000000000
+      internalID: 5123357280304212630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 431
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ba9215242d3e610800000000000000
+      internalID: 1649393070819093320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 431
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3830af239a4d77ab0800000000000000
+      internalID: -5010302237256580221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_3
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 431
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b5da7a7c481dba0800000000000000
+      internalID: -6065921230044832937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_4
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 431
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2b8d994e03bedc0800000000000000
+      internalID: -3608736918015528200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_5
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 431
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c1787a9a5051d90800000000000000
+      internalID: -7127784609025680335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 303
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24fc8110c1d2c7940800000000000000
+      internalID: 5295156860181598018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_7
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 303
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a38de529f01bc50800000000000000
+      internalID: 6679136843698027154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_8
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 303
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5abc0f1fd1e1420800000000000000
+      internalID: 2602550559630927288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_9
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 303
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea5a792d36732d30800000000000000
+      internalID: 4405494865559444192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_10
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 303
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2849645e87396770800000000000000
+      internalID: 8604469647509112875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_11
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 303
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b6553c2bf5baf20800000000000000
+      internalID: 3434944362186107789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 175
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f4e8f0864049ef0800000000000000
+      internalID: -102452046538584192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 175
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a94e694e69bf3d0800000000000000
+      internalID: -3171775604024108505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_14
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 175
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280ea9289898a1ee0800000000000000
+      internalID: -1289567119593512830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_15
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 175
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99cbbc94a928a690800000000000000
+      internalID: -7590771384952043106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_16
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 175
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee838d8ba61e9f50800000000000000
+      internalID: 6889969405992865507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_17
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 175
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ff1a25ef4b8ba10800000000000000
+      internalID: 1925487845101928334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_18
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 47
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc3cfebc1991fe40800000000000000
+      internalID: 5688496153087982815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_19
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 47
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f965059cecef43e40800000000000000
+      internalID: 5635409197841536671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_20
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 47
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31e10c76ecb71f80800000000000000
+      internalID: -8135826503712513730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_21
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 47
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b73da64e29261f40800000000000000
+      internalID: 5698787657214932916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_22
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 47
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b12d12988cb57170800000000000000
+      internalID: 8175647993313960377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Move_23
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fd736ca7c15bf00800000000000000
+      internalID: 1131842194990686081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tales_Pumpkin_Move_0: 5123357280304212630
+      Tales_Pumpkin_Move_1: 1649393070819093320
+      Tales_Pumpkin_Move_10: 8604469647509112875
+      Tales_Pumpkin_Move_11: 3434944362186107789
+      Tales_Pumpkin_Move_12: -102452046538584192
+      Tales_Pumpkin_Move_13: -3171775604024108505
+      Tales_Pumpkin_Move_14: -1289567119593512830
+      Tales_Pumpkin_Move_15: -7590771384952043106
+      Tales_Pumpkin_Move_16: 6889969405992865507
+      Tales_Pumpkin_Move_17: 1925487845101928334
+      Tales_Pumpkin_Move_18: 5688496153087982815
+      Tales_Pumpkin_Move_19: 5635409197841536671
+      Tales_Pumpkin_Move_2: -5010302237256580221
+      Tales_Pumpkin_Move_20: -8135826503712513730
+      Tales_Pumpkin_Move_21: 5698787657214932916
+      Tales_Pumpkin_Move_22: 8175647993313960377
+      Tales_Pumpkin_Move_23: 1131842194990686081
+      Tales_Pumpkin_Move_3: -6065921230044832937
+      Tales_Pumpkin_Move_4: -3608736918015528200
+      Tales_Pumpkin_Move_5: -7127784609025680335
+      Tales_Pumpkin_Move_6: 5295156860181598018
+      Tales_Pumpkin_Move_7: 6679136843698027154
+      Tales_Pumpkin_Move_8: 2602550559630927288
+      Tales_Pumpkin_Move_9: 4405494865559444192
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

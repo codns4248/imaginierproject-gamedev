@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: abbc9c374a7901844b4587d970108631
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2928333003147328487
+    second: Pet_Whale_Idle_0
+  - first:
+      213: -4745768469537472229
+    second: Pet_Whale_Idle_1
+  - first:
+      213: 2088762823176437213
+    second: Pet_Whale_Idle_2
+  - first:
+      213: 3903917867160408636
+    second: Pet_Whale_Idle_3
+  - first:
+      213: 3689093004904272160
+    second: Pet_Whale_Idle_4
+  - first:
+      213: 58936472799744523
+    second: Pet_Whale_Idle_5
+  - first:
+      213: 6237712138599671972
+    second: Pet_Whale_Idle_6
+  - first:
+      213: -3751877874467537861
+    second: Pet_Whale_Idle_7
+  - first:
+      213: -6990536833571127028
+    second: Pet_Whale_Idle_8
+  - first:
+      213: -6902716261033752199
+    second: Pet_Whale_Idle_9
+  - first:
+      213: 4755073399856733454
+    second: Pet_Whale_Idle_10
+  - first:
+      213: -7665366663570875494
+    second: Pet_Whale_Idle_11
+  - first:
+      213: -8629246493062118737
+    second: Pet_Whale_Idle_12
+  - first:
+      213: 543881375751649978
+    second: Pet_Whale_Idle_13
+  - first:
+      213: 7139029218368769381
+    second: Pet_Whale_Idle_14
+  - first:
+      213: 4012141734112759990
+    second: Pet_Whale_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pet_Whale_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 424
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb36a4f95783a820800000000000000
+      internalID: 2928333003147328487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Whale_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 423
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1148fa98b4a32eb0800000000000000
+      internalID: -4745768469537472229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Whale_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 423
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd397f88b6ccfc10800000000000000
+      internalID: 2088762823176437213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Whale_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 424
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c329568cd908d2630800000000000000
+      internalID: 3903917867160408636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Whale_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 297
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02192b4da8a423330800000000000000
+      internalID: 3689093004904272160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Whale_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 296
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b021b85e86261d000800000000000000
+      internalID: 58936472799744523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Whale_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 296
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a82068242ec09650800000000000000
+      internalID: 6237712138599671972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Whale_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 297
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3cf6b393f6aeebc0800000000000000
+      internalID: -3751877874467537861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Whale_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 169
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0185bd89cf9cfe90800000000000000
+      internalID: -6990536833571127028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Whale_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 168
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97945cbf120a430a0800000000000000
+      internalID: -6902716261033752199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Whale_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 168
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d9e5f401a6df140800000000000000
+      internalID: 4755073399856733454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Whale_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 169
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b9cb0e1a52f9590800000000000000
+      internalID: -7665366663570875494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Whale_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 44
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa24fb5c802ce3880800000000000000
+      internalID: -8629246493062118737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Whale_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 43
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abab0a9ca314c8700800000000000000
+      internalID: 543881375751649978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Whale_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 44
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d410aff3de21360800000000000000
+      internalID: 7139029218368769381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Whale_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 45
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b09f4266adfda730800000000000000
+      internalID: 4012141734112759990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pet_Whale_Idle_0: 2928333003147328487
+      Pet_Whale_Idle_1: -4745768469537472229
+      Pet_Whale_Idle_10: 4755073399856733454
+      Pet_Whale_Idle_11: -7665366663570875494
+      Pet_Whale_Idle_12: -8629246493062118737
+      Pet_Whale_Idle_13: 543881375751649978
+      Pet_Whale_Idle_14: 7139029218368769381
+      Pet_Whale_Idle_15: 4012141734112759990
+      Pet_Whale_Idle_2: 2088762823176437213
+      Pet_Whale_Idle_3: 3903917867160408636
+      Pet_Whale_Idle_4: 3689093004904272160
+      Pet_Whale_Idle_5: 58936472799744523
+      Pet_Whale_Idle_6: 6237712138599671972
+      Pet_Whale_Idle_7: -3751877874467537861
+      Pet_Whale_Idle_8: -6990536833571127028
+      Pet_Whale_Idle_9: -6902716261033752199
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

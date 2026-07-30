@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 6bbd7802d51f5c8458eb6177c60a375e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6798621083059704491
+    second: Spider_Albino_Attack_0
+  - first:
+      213: 1507976287654823737
+    second: Spider_Albino_Attack_1
+  - first:
+      213: -7074845526960948020
+    second: Spider_Albino_Attack_2
+  - first:
+      213: 9105899246678722450
+    second: Spider_Albino_Attack_3
+  - first:
+      213: -5478569567931847013
+    second: Spider_Albino_Attack_4
+  - first:
+      213: -8265236891101213413
+    second: Spider_Albino_Attack_5
+  - first:
+      213: 3106145041103685401
+    second: Spider_Albino_Attack_6
+  - first:
+      213: -3625567321972767685
+    second: Spider_Albino_Attack_7
+  - first:
+      213: 4711931076348079321
+    second: Spider_Albino_Attack_8
+  - first:
+      213: 5441011474975036410
+    second: Spider_Albino_Attack_9
+  - first:
+      213: 4798072741524565638
+    second: Spider_Albino_Attack_10
+  - first:
+      213: -7398170995446723694
+    second: Spider_Albino_Attack_11
+  - first:
+      213: -5680842566960761070
+    second: Spider_Albino_Attack_12
+  - first:
+      213: -515139262508387173
+    second: Spider_Albino_Attack_13
+  - first:
+      213: 6428116508963699826
+    second: Spider_Albino_Attack_14
+  - first:
+      213: 4741205146006504499
+    second: Spider_Albino_Attack_15
+  - first:
+      213: -5654228560075684420
+    second: Spider_Albino_Attack_16
+  - first:
+      213: 460558623187306269
+    second: Spider_Albino_Attack_17
+  - first:
+      213: -5079687354929099496
+    second: Spider_Albino_Attack_18
+  - first:
+      213: 2988411249098338343
+    second: Spider_Albino_Attack_19
+  - first:
+      213: 7526297021369437877
+    second: Spider_Albino_Attack_20
+  - first:
+      213: 4365884238578341875
+    second: Spider_Albino_Attack_21
+  - first:
+      213: -7241989503703805649
+    second: Spider_Albino_Attack_22
+  - first:
+      213: 292941862651281721
+    second: Spider_Albino_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 430
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55daeb5452276a1a0800000000000000
+      internalID: -6798621083059704491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 430
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937c06ba1786de410800000000000000
+      internalID: 1507976287654823737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 430
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc3bb43a7911dd90800000000000000
+      internalID: -7074845526960948020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 428
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29748c6ae17ae5e70800000000000000
+      internalID: 9105899246678722450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 429
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e2822310638f3b0800000000000000
+      internalID: -5478569567931847013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 430
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d4571b6dafb4d80800000000000000
+      internalID: -8265236891101213413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 303
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91783d3357e3b1b20800000000000000
+      internalID: 3106145041103685401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 303
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b348c80dab56fadc0800000000000000
+      internalID: -3625567321972767685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 303
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dce9db5954246140800000000000000
+      internalID: 4711931076348079321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 303
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af316b8db1b528b40800000000000000
+      internalID: 5441011474975036410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 303
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e6e05bcbd269240800000000000000
+      internalID: 4798072741524565638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 303
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29bccc44daa645990800000000000000
+      internalID: -7398170995446723694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 175
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217b263a8c79921b0800000000000000
+      internalID: -5680842566960761070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 175
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94b450f19bd9d8f0800000000000000
+      internalID: -515139262508387173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 175
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27cfa9348e1453950800000000000000
+      internalID: 6428116508963699826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 175
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334c8f6d5f42cc140800000000000000
+      internalID: 4741205146006504499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 175
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb502ddf4152881b0800000000000000
+      internalID: -5654228560075684420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 175
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17825da0ab346600800000000000000
+      internalID: 460558623187306269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 46
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d486793435189b0800000000000000
+      internalID: -5079687354929099496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 46
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720b941a238f87920800000000000000
+      internalID: 2988411249098338343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 46
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be4ec0d347c27860800000000000000
+      internalID: 7526297021369437877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 46
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f750f2659cb69c30800000000000000
+      internalID: 4365884238578341875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 46
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2190a48ae84f7b90800000000000000
+      internalID: -7241989503703805649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Albino_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 46
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931cb2f621db01400800000000000000
+      internalID: 292941862651281721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spider_Albino_Attack_0: -6798621083059704491
+      Spider_Albino_Attack_1: 1507976287654823737
+      Spider_Albino_Attack_10: 4798072741524565638
+      Spider_Albino_Attack_11: -7398170995446723694
+      Spider_Albino_Attack_12: -5680842566960761070
+      Spider_Albino_Attack_13: -515139262508387173
+      Spider_Albino_Attack_14: 6428116508963699826
+      Spider_Albino_Attack_15: 4741205146006504499
+      Spider_Albino_Attack_16: -5654228560075684420
+      Spider_Albino_Attack_17: 460558623187306269
+      Spider_Albino_Attack_18: -5079687354929099496
+      Spider_Albino_Attack_19: 2988411249098338343
+      Spider_Albino_Attack_2: -7074845526960948020
+      Spider_Albino_Attack_20: 7526297021369437877
+      Spider_Albino_Attack_21: 4365884238578341875
+      Spider_Albino_Attack_22: -7241989503703805649
+      Spider_Albino_Attack_23: 292941862651281721
+      Spider_Albino_Attack_3: 9105899246678722450
+      Spider_Albino_Attack_4: -5478569567931847013
+      Spider_Albino_Attack_5: -8265236891101213413
+      Spider_Albino_Attack_6: 3106145041103685401
+      Spider_Albino_Attack_7: -3625567321972767685
+      Spider_Albino_Attack_8: 4711931076348079321
+      Spider_Albino_Attack_9: 5441011474975036410
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 0889a1bddafc3ea4a86a124c023f82ee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4639479749598254512
+    second: Skeleton_Witch_Move_0
+  - first:
+      213: -8860109651172361271
+    second: Skeleton_Witch_Move_1
+  - first:
+      213: -4488414104236521052
+    second: Skeleton_Witch_Move_2
+  - first:
+      213: 2108151400696459121
+    second: Skeleton_Witch_Move_3
+  - first:
+      213: 3846300513740336425
+    second: Skeleton_Witch_Move_4
+  - first:
+      213: -5061832005927668464
+    second: Skeleton_Witch_Move_5
+  - first:
+      213: -1164979442274858621
+    second: Skeleton_Witch_Move_6
+  - first:
+      213: 9007242885426530378
+    second: Skeleton_Witch_Move_7
+  - first:
+      213: -4519682654447931621
+    second: Skeleton_Witch_Move_8
+  - first:
+      213: 5426654349000830203
+    second: Skeleton_Witch_Move_9
+  - first:
+      213: 1216582452261900864
+    second: Skeleton_Witch_Move_10
+  - first:
+      213: 2624778373390211200
+    second: Skeleton_Witch_Move_11
+  - first:
+      213: 4768218339482112845
+    second: Skeleton_Witch_Move_12
+  - first:
+      213: 3448995360885989317
+    second: Skeleton_Witch_Move_13
+  - first:
+      213: 7282800519151060868
+    second: Skeleton_Witch_Move_14
+  - first:
+      213: -6794976536621740383
+    second: Skeleton_Witch_Move_15
+  - first:
+      213: -6642967421396123980
+    second: Skeleton_Witch_Move_16
+  - first:
+      213: 7984598638538715893
+    second: Skeleton_Witch_Move_17
+  - first:
+      213: 5440128384109385662
+    second: Skeleton_Witch_Move_18
+  - first:
+      213: 7434560532770371844
+    second: Skeleton_Witch_Move_19
+  - first:
+      213: 5459173794653989652
+    second: Skeleton_Witch_Move_20
+  - first:
+      213: -4807351923275218986
+    second: Skeleton_Witch_Move_21
+  - first:
+      213: 240195292069628678
+    second: Skeleton_Witch_Move_22
+  - first:
+      213: -1295612295865148036
+    second: Skeleton_Witch_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 431
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b51c61504eb26040800000000000000
+      internalID: 4639479749598254512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 431
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb7cd217319a0580800000000000000
+      internalID: -8860109651172361271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 431
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a901202723f5b1c0800000000000000
+      internalID: -4488414104236521052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_3
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 431
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f214b8788a14d10800000000000000
+      internalID: 2108151400696459121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_4
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 431
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d25ec40fdc06530800000000000000
+      internalID: 3846300513740336425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_5
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 431
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0157afdfb92c0c9b0800000000000000
+      internalID: -5061832005927668464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 303
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389039c9e5925dfe0800000000000000
+      internalID: -1164979442274858621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 303
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48438f8ea7200d70800000000000000
+      internalID: 9007242885426530378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_8
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 303
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1fe224729cd641c0800000000000000
+      internalID: -4519682654447931621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_9
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 303
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfce507f0695f4b40800000000000000
+      internalID: 5426654349000830203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_10
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 303
+        width: 52
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0425b0b6b4b22e010800000000000000
+      internalID: 1216582452261900864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_11
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 303
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0881d0026061d6420800000000000000
+      internalID: 2624778373390211200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 175
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d439550115d1c2240800000000000000
+      internalID: 4768218339482112845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_13
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 175
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf5495d10b4ddf20800000000000000
+      internalID: 3448995360885989317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 175
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487870a7c74b11560800000000000000
+      internalID: 7282800519151060868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_15
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 175
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae0c8d57d463b1a0800000000000000
+      internalID: -6794976536621740383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_16
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 175
+        width: 52
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bef03183507fc3a0800000000000000
+      internalID: -6642967421396123980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_17
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 175
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2fa24582efece60800000000000000
+      internalID: 7984598638538715893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_18
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 47
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb71c5b31f73f7b40800000000000000
+      internalID: 5440128384109385662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_19
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 47
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409bae02a6ddc2760800000000000000
+      internalID: 7434560532770371844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 47
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41be87d64a1e2cb40800000000000000
+      internalID: 5459173794653989652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 47
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dfb3ee65ead84db0800000000000000
+      internalID: -4807351923275218986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_22
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 47
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b08847858555300800000000000000
+      internalID: 240195292069628678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Move_23
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 47
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d545a3b7f050ee0800000000000000
+      internalID: -1295612295865148036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skeleton_Witch_Move_0: 4639479749598254512
+      Skeleton_Witch_Move_1: -8860109651172361271
+      Skeleton_Witch_Move_10: 1216582452261900864
+      Skeleton_Witch_Move_11: 2624778373390211200
+      Skeleton_Witch_Move_12: 4768218339482112845
+      Skeleton_Witch_Move_13: 3448995360885989317
+      Skeleton_Witch_Move_14: 7282800519151060868
+      Skeleton_Witch_Move_15: -6794976536621740383
+      Skeleton_Witch_Move_16: -6642967421396123980
+      Skeleton_Witch_Move_17: 7984598638538715893
+      Skeleton_Witch_Move_18: 5440128384109385662
+      Skeleton_Witch_Move_19: 7434560532770371844
+      Skeleton_Witch_Move_2: -4488414104236521052
+      Skeleton_Witch_Move_20: 5459173794653989652
+      Skeleton_Witch_Move_21: -4807351923275218986
+      Skeleton_Witch_Move_22: 240195292069628678
+      Skeleton_Witch_Move_23: -1295612295865148036
+      Skeleton_Witch_Move_3: 2108151400696459121
+      Skeleton_Witch_Move_4: 3846300513740336425
+      Skeleton_Witch_Move_5: -5061832005927668464
+      Skeleton_Witch_Move_6: -1164979442274858621
+      Skeleton_Witch_Move_7: 9007242885426530378
+      Skeleton_Witch_Move_8: -4519682654447931621
+      Skeleton_Witch_Move_9: 5426654349000830203
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

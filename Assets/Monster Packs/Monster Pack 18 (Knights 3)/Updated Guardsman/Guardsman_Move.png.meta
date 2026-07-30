@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: db56d8ad4e0c9954ead14f5cdfd44e17
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8955486150193853322
+    second: Guardsman_Move_0
+  - first:
+      213: -3277008740983472976
+    second: Guardsman_Move_1
+  - first:
+      213: 7986196625156320027
+    second: Guardsman_Move_2
+  - first:
+      213: 6016954467996756771
+    second: Guardsman_Move_3
+  - first:
+      213: 7647110634943228462
+    second: Guardsman_Move_4
+  - first:
+      213: -8089438841337495488
+    second: Guardsman_Move_5
+  - first:
+      213: -1432478345863215123
+    second: Guardsman_Move_6
+  - first:
+      213: 331237389291931294
+    second: Guardsman_Move_7
+  - first:
+      213: 4531677861078665449
+    second: Guardsman_Move_8
+  - first:
+      213: 4567330239683828209
+    second: Guardsman_Move_9
+  - first:
+      213: -3233074069069413839
+    second: Guardsman_Move_10
+  - first:
+      213: -1922608208248275071
+    second: Guardsman_Move_11
+  - first:
+      213: -3819664356538639150
+    second: Guardsman_Move_12
+  - first:
+      213: 7967347010328520079
+    second: Guardsman_Move_13
+  - first:
+      213: -6199617301654749493
+    second: Guardsman_Move_14
+  - first:
+      213: 6648944901274295084
+    second: Guardsman_Move_15
+  - first:
+      213: 6941703954160030788
+    second: Guardsman_Move_16
+  - first:
+      213: 1718358108983250582
+    second: Guardsman_Move_17
+  - first:
+      213: -4866591444333332866
+    second: Guardsman_Move_18
+  - first:
+      213: -63407138097835076
+    second: Guardsman_Move_19
+  - first:
+      213: 6966703932870306111
+    second: Guardsman_Move_20
+  - first:
+      213: 4879872009295512882
+    second: Guardsman_Move_21
+  - first:
+      213: -6650562827006343573
+    second: Guardsman_Move_22
+  - first:
+      213: -6260704012981411408
+    second: Guardsman_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Guardsman_Move_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 431
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cc3ca6bc8b7b380800000000000000
+      internalID: -8955486150193853322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 431
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc74d399e9b582d0800000000000000
+      internalID: -3277008740983472976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 431
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1badd4948ba4de60800000000000000
+      internalID: 7986196625156320027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_3
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 431
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b65ae9534808350800000000000000
+      internalID: 6016954467996756771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_4
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 431
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a27e93b9eff1a60800000000000000
+      internalID: 7647110634943228462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_5
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 431
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040c4d5cb3a8cbf80800000000000000
+      internalID: -8089438841337495488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 303
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de74266b880de1ce0800000000000000
+      internalID: -1432478345863215123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 303
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96c21d86aac89400800000000000000
+      internalID: 331237389291931294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_8
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 303
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8881a3101c3ee30800000000000000
+      internalID: 4531677861078665449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_9
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 303
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9114c77aa626f30800000000000000
+      internalID: 4567330239683828209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_10
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 303
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13247948340d123d0800000000000000
+      internalID: -3233074069069413839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_11
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 303
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f7c1165068155e0800000000000000
+      internalID: -1922608208248275071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 175
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc1b435183ddfac0800000000000000
+      internalID: -3819664356538639150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_13
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 175
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85e6e0a4e3b19e60800000000000000
+      internalID: 7967347010328520079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 175
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bceb08f39e886f9a0800000000000000
+      internalID: -6199617301654749493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 175
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b599bf82cc54c50800000000000000
+      internalID: 6648944901274295084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_16
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 175
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44412a3b7f2e55060800000000000000
+      internalID: 6941703954160030788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_17
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 175
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ecbda8895d8d710800000000000000
+      internalID: 1718358108983250582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_18
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 47
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e767e8d9dd4667cb0800000000000000
+      internalID: -4866591444333332866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_19
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 47
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb354793b8bbe1ff0800000000000000
+      internalID: -63407138097835076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 47
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f392d06d054bea060800000000000000
+      internalID: 6966703932870306111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_21
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 47
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2354e6fdcb9c8b340800000000000000
+      internalID: 4879872009295512882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_22
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 47
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b668ed3585474b3a0800000000000000
+      internalID: -6650562827006343573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardsman_Move_23
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 47
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1616eeed28d19a0800000000000000
+      internalID: -6260704012981411408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Guardsman_Move_0: -8955486150193853322
+      Guardsman_Move_1: -3277008740983472976
+      Guardsman_Move_10: -3233074069069413839
+      Guardsman_Move_11: -1922608208248275071
+      Guardsman_Move_12: -3819664356538639150
+      Guardsman_Move_13: 7967347010328520079
+      Guardsman_Move_14: -6199617301654749493
+      Guardsman_Move_15: 6648944901274295084
+      Guardsman_Move_16: 6941703954160030788
+      Guardsman_Move_17: 1718358108983250582
+      Guardsman_Move_18: -4866591444333332866
+      Guardsman_Move_19: -63407138097835076
+      Guardsman_Move_2: 7986196625156320027
+      Guardsman_Move_20: 6966703932870306111
+      Guardsman_Move_21: 4879872009295512882
+      Guardsman_Move_22: -6650562827006343573
+      Guardsman_Move_23: -6260704012981411408
+      Guardsman_Move_3: 6016954467996756771
+      Guardsman_Move_4: 7647110634943228462
+      Guardsman_Move_5: -8089438841337495488
+      Guardsman_Move_6: -1432478345863215123
+      Guardsman_Move_7: 331237389291931294
+      Guardsman_Move_8: 4531677861078665449
+      Guardsman_Move_9: 4567330239683828209
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

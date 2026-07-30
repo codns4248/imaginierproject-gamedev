@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: c80bf404c410ece48b76538747ad05c0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5411125331333687273
+    second: Tales_Pumpkin_Attack_0
+  - first:
+      213: 1872979885338232779
+    second: Tales_Pumpkin_Attack_1
+  - first:
+      213: 8795432276899847892
+    second: Tales_Pumpkin_Attack_2
+  - first:
+      213: -7346936654190097527
+    second: Tales_Pumpkin_Attack_3
+  - first:
+      213: -3813252659113620127
+    second: Tales_Pumpkin_Attack_4
+  - first:
+      213: 6152544689644456344
+    second: Tales_Pumpkin_Attack_5
+  - first:
+      213: -5825026888334566490
+    second: Tales_Pumpkin_Attack_6
+  - first:
+      213: -1678976884885654771
+    second: Tales_Pumpkin_Attack_7
+  - first:
+      213: -7382197415414044908
+    second: Tales_Pumpkin_Attack_8
+  - first:
+      213: 8502378117986871708
+    second: Tales_Pumpkin_Attack_9
+  - first:
+      213: 916006171270146389
+    second: Tales_Pumpkin_Attack_10
+  - first:
+      213: -7166995754982700841
+    second: Tales_Pumpkin_Attack_11
+  - first:
+      213: -5733986713096103230
+    second: Tales_Pumpkin_Attack_12
+  - first:
+      213: 656902051021511450
+    second: Tales_Pumpkin_Attack_13
+  - first:
+      213: -6012334096425393251
+    second: Tales_Pumpkin_Attack_14
+  - first:
+      213: -6852713855842202842
+    second: Tales_Pumpkin_Attack_15
+  - first:
+      213: -2656286055252420995
+    second: Tales_Pumpkin_Attack_16
+  - first:
+      213: 4192136682543408192
+    second: Tales_Pumpkin_Attack_17
+  - first:
+      213: 9091344644282270993
+    second: Tales_Pumpkin_Attack_18
+  - first:
+      213: -5654603042957904671
+    second: Tales_Pumpkin_Attack_19
+  - first:
+      213: -3804799551979675020
+    second: Tales_Pumpkin_Attack_20
+  - first:
+      213: -2903132377169392797
+    second: Tales_Pumpkin_Attack_21
+  - first:
+      213: -6606022327092123903
+    second: Tales_Pumpkin_Attack_22
+  - first:
+      213: 2066080324454099215
+    second: Tales_Pumpkin_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 431
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718dcb63e22d7e4b0800000000000000
+      internalID: -5411125331333687273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 431
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7890148492ef910800000000000000
+      internalID: 1872979885338232779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 431
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dede9e3e07af0a70800000000000000
+      internalID: 8795432276899847892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 431
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bc3bbe9007a0a90800000000000000
+      internalID: -7346936654190097527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 431
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d08b6f8ea941bc0800000000000000
+      internalID: -3813252659113620127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 431
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89949f23cca326550800000000000000
+      internalID: 6152544689644456344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 303
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab18b948e8592fa0800000000000000
+      internalID: -5825026888334566490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 303
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d037c463b6313b8e0800000000000000
+      internalID: -1678976884885654771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 303
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4176070309a2d8990800000000000000
+      internalID: -7382197415414044908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 303
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9969acc9d38ef570800000000000000
+      internalID: 8502378117986871708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 303
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5596f9272ce46bc00800000000000000
+      internalID: 916006171270146389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 303
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8068d4557b98c90800000000000000
+      internalID: -7166995754982700841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 175
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cad813e679cc60b0800000000000000
+      internalID: -5733986713096103230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 175
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bdc5b5fe8cd1900800000000000000
+      internalID: 656902051021511450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 175
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9368977ef5ef8ca0800000000000000
+      internalID: -6012334096425393251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 175
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62bc02b2e0546e0a0800000000000000
+      internalID: -6852713855842202842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 175
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d761bd608e9f22bd0800000000000000
+      internalID: -2656286055252420995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 175
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04462e41a167d2a30800000000000000
+      internalID: 4192136682543408192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 47
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115481539c1fa2e70800000000000000
+      internalID: 9091344644282270993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 47
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4b6a6ed70d681b0800000000000000
+      internalID: -5654603042957904671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 47
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472afa657f2a23bc0800000000000000
+      internalID: -3804799551979675020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 47
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b02e20c7006b7d0800000000000000
+      internalID: -2903132377169392797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 47
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107ef5791b1b254a0800000000000000
+      internalID: -6606022327092123903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Pumpkin_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09a288cb113cac10800000000000000
+      internalID: 2066080324454099215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tales_Pumpkin_Attack_0: -5411125331333687273
+      Tales_Pumpkin_Attack_1: 1872979885338232779
+      Tales_Pumpkin_Attack_10: 916006171270146389
+      Tales_Pumpkin_Attack_11: -7166995754982700841
+      Tales_Pumpkin_Attack_12: -5733986713096103230
+      Tales_Pumpkin_Attack_13: 656902051021511450
+      Tales_Pumpkin_Attack_14: -6012334096425393251
+      Tales_Pumpkin_Attack_15: -6852713855842202842
+      Tales_Pumpkin_Attack_16: -2656286055252420995
+      Tales_Pumpkin_Attack_17: 4192136682543408192
+      Tales_Pumpkin_Attack_18: 9091344644282270993
+      Tales_Pumpkin_Attack_19: -5654603042957904671
+      Tales_Pumpkin_Attack_2: 8795432276899847892
+      Tales_Pumpkin_Attack_20: -3804799551979675020
+      Tales_Pumpkin_Attack_21: -2903132377169392797
+      Tales_Pumpkin_Attack_22: -6606022327092123903
+      Tales_Pumpkin_Attack_23: 2066080324454099215
+      Tales_Pumpkin_Attack_3: -7346936654190097527
+      Tales_Pumpkin_Attack_4: -3813252659113620127
+      Tales_Pumpkin_Attack_5: 6152544689644456344
+      Tales_Pumpkin_Attack_6: -5825026888334566490
+      Tales_Pumpkin_Attack_7: -1678976884885654771
+      Tales_Pumpkin_Attack_8: -7382197415414044908
+      Tales_Pumpkin_Attack_9: 8502378117986871708
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

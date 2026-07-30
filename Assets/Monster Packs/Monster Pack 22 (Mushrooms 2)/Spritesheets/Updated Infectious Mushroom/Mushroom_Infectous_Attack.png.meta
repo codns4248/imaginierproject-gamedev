@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 332122040c4dfc049b80fadb37d6153d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4803227341240108759
+    second: Mushroom_Infectous_Attack_0
+  - first:
+      213: -6460505010911365169
+    second: Mushroom_Infectous_Attack_1
+  - first:
+      213: 6900911428831085988
+    second: Mushroom_Infectous_Attack_2
+  - first:
+      213: 7261485084578896852
+    second: Mushroom_Infectous_Attack_3
+  - first:
+      213: -6907947910517527503
+    second: Mushroom_Infectous_Attack_4
+  - first:
+      213: 5670910088163036182
+    second: Mushroom_Infectous_Attack_5
+  - first:
+      213: -2946959774018693704
+    second: Mushroom_Infectous_Attack_6
+  - first:
+      213: 4846765158955205688
+    second: Mushroom_Infectous_Attack_7
+  - first:
+      213: -6971110075459219535
+    second: Mushroom_Infectous_Attack_8
+  - first:
+      213: 1021732939989583411
+    second: Mushroom_Infectous_Attack_9
+  - first:
+      213: -3574670944003776663
+    second: Mushroom_Infectous_Attack_10
+  - first:
+      213: 3263025933247175777
+    second: Mushroom_Infectous_Attack_11
+  - first:
+      213: 2984477329581055372
+    second: Mushroom_Infectous_Attack_12
+  - first:
+      213: 247996111734812395
+    second: Mushroom_Infectous_Attack_13
+  - first:
+      213: 5048096813537526019
+    second: Mushroom_Infectous_Attack_14
+  - first:
+      213: 4814051810664532669
+    second: Mushroom_Infectous_Attack_15
+  - first:
+      213: 537949810734555468
+    second: Mushroom_Infectous_Attack_16
+  - first:
+      213: 582595787435346938
+    second: Mushroom_Infectous_Attack_17
+  - first:
+      213: 6838818104412444018
+    second: Mushroom_Infectous_Attack_18
+  - first:
+      213: -5921457687538593987
+    second: Mushroom_Infectous_Attack_19
+  - first:
+      213: 5764184367660953864
+    second: Mushroom_Infectous_Attack_20
+  - first:
+      213: -2184408117807711838
+    second: Mushroom_Infectous_Attack_21
+  - first:
+      213: 814518430929554836
+    second: Mushroom_Infectous_Attack_22
+  - first:
+      213: -7921274578595630059
+    second: Mushroom_Infectous_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 429
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d68f0a71dd78a240800000000000000
+      internalID: 4803227341240108759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 431
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc73ffafbeca756a0800000000000000
+      internalID: -6460505010911365169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 412
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a509e5c166f4cf50800000000000000
+      internalID: 6900911428831085988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 407
+        width: 28
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db5f10263af5c460800000000000000
+      internalID: 7261485084578896852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 422
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c63baa9f90220a0800000000000000
+      internalID: -6907947910517527503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 431
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c032eedae13be40800000000000000
+      internalID: 5670910088163036182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 303
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5104ef2bb4a17d0800000000000000
+      internalID: -2946959774018693704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 303
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834c3499b3b234340800000000000000
+      internalID: 4846765158955205688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 303
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf4b162254a14f90800000000000000
+      internalID: -6971110075459219535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 303
+        width: 59
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336056f02bced2e00800000000000000
+      internalID: 1021732939989583411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 303
+        width: 61
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f9eb147b7346ec0800000000000000
+      internalID: -3574670944003776663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 303
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16cd51c4cc8984d20800000000000000
+      internalID: 3263025933247175777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 175
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d92ed915efa6920800000000000000
+      internalID: 2984477329581055372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 175
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beea1a1562f017300800000000000000
+      internalID: 247996111734812395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 175
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3018fa25e417e0640800000000000000
+      internalID: 5048096813537526019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 175
+        width: 59
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba4cf8ad92fec240800000000000000
+      internalID: 4814051810664532669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 175
+        width: 61
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4162dfa08e277700800000000000000
+      internalID: 537949810734555468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 175
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb09bd28cbc51800800000000000000
+      internalID: 582595787435346938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 47
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275930515dc58ee50800000000000000
+      internalID: 6838818104412444018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 47
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f81cd3b91c2dda0800000000000000
+      internalID: -5921457687538593987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 47
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8017a46742f7eff40800000000000000
+      internalID: 5764184367660953864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 47
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9779de36c6fa1e0800000000000000
+      internalID: -2184408117807711838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 47
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d809a8230cd4b00800000000000000
+      internalID: 814518430929554836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Infectous_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 47
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514b97e4dbaf11290800000000000000
+      internalID: -7921274578595630059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mushroom_Infectous_Attack_0: 4803227341240108759
+      Mushroom_Infectous_Attack_1: -6460505010911365169
+      Mushroom_Infectous_Attack_10: -3574670944003776663
+      Mushroom_Infectous_Attack_11: 3263025933247175777
+      Mushroom_Infectous_Attack_12: 2984477329581055372
+      Mushroom_Infectous_Attack_13: 247996111734812395
+      Mushroom_Infectous_Attack_14: 5048096813537526019
+      Mushroom_Infectous_Attack_15: 4814051810664532669
+      Mushroom_Infectous_Attack_16: 537949810734555468
+      Mushroom_Infectous_Attack_17: 582595787435346938
+      Mushroom_Infectous_Attack_18: 6838818104412444018
+      Mushroom_Infectous_Attack_19: -5921457687538593987
+      Mushroom_Infectous_Attack_2: 6900911428831085988
+      Mushroom_Infectous_Attack_20: 5764184367660953864
+      Mushroom_Infectous_Attack_21: -2184408117807711838
+      Mushroom_Infectous_Attack_22: 814518430929554836
+      Mushroom_Infectous_Attack_23: -7921274578595630059
+      Mushroom_Infectous_Attack_3: 7261485084578896852
+      Mushroom_Infectous_Attack_4: -6907947910517527503
+      Mushroom_Infectous_Attack_5: 5670910088163036182
+      Mushroom_Infectous_Attack_6: -2946959774018693704
+      Mushroom_Infectous_Attack_7: 4846765158955205688
+      Mushroom_Infectous_Attack_8: -6971110075459219535
+      Mushroom_Infectous_Attack_9: 1021732939989583411
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

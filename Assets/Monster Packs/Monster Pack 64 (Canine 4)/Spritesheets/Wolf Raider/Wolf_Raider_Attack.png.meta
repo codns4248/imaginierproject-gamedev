@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 1f4e8ea315e2a4148a6868c234a18b76
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5503852187234619436
+    second: Wolf_Raider_Attack_0
+  - first:
+      213: -3351295831253246845
+    second: Wolf_Raider_Attack_1
+  - first:
+      213: 1926090110119090666
+    second: Wolf_Raider_Attack_2
+  - first:
+      213: -3320429505371780381
+    second: Wolf_Raider_Attack_3
+  - first:
+      213: 7591259120633700573
+    second: Wolf_Raider_Attack_4
+  - first:
+      213: -7201489828494423228
+    second: Wolf_Raider_Attack_5
+  - first:
+      213: -2961976543700059292
+    second: Wolf_Raider_Attack_6
+  - first:
+      213: -6415124396760962738
+    second: Wolf_Raider_Attack_7
+  - first:
+      213: 3678637632084350761
+    second: Wolf_Raider_Attack_8
+  - first:
+      213: -2503005221674970300
+    second: Wolf_Raider_Attack_9
+  - first:
+      213: 6263911043729013283
+    second: Wolf_Raider_Attack_10
+  - first:
+      213: 1794779804235398600
+    second: Wolf_Raider_Attack_11
+  - first:
+      213: 4856752034260515737
+    second: Wolf_Raider_Attack_12
+  - first:
+      213: -3952911731150944040
+    second: Wolf_Raider_Attack_13
+  - first:
+      213: 7692686816327127499
+    second: Wolf_Raider_Attack_14
+  - first:
+      213: -7672248747614648096
+    second: Wolf_Raider_Attack_15
+  - first:
+      213: 3284891912951979796
+    second: Wolf_Raider_Attack_16
+  - first:
+      213: 7865791388399586650
+    second: Wolf_Raider_Attack_17
+  - first:
+      213: -1711124058230372448
+    second: Wolf_Raider_Attack_18
+  - first:
+      213: -5533213855451831643
+    second: Wolf_Raider_Attack_19
+  - first:
+      213: -846722282085844185
+    second: Wolf_Raider_Attack_20
+  - first:
+      213: 8294817956884583780
+    second: Wolf_Raider_Attack_21
+  - first:
+      213: 8751916233873715571
+    second: Wolf_Raider_Attack_22
+  - first:
+      213: 2331250328863022003
+    second: Wolf_Raider_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 431
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfaf9ba8936e93b0800000000000000
+      internalID: -5503852187234619436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 431
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c17e8823ecd71d0800000000000000
+      internalID: -3351295831253246845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 431
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae99a0310c8daba10800000000000000
+      internalID: 1926090110119090666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 431
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eac69e05f67be1d0800000000000000
+      internalID: -3320429505371780381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 431
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0e05333f1995960800000000000000
+      internalID: 7591259120633700573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 431
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b4007f72b2f0c90800000000000000
+      internalID: -7201489828494423228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 303
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46bf7b7d602f4e6d0800000000000000
+      internalID: -2961976543700059292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 303
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49ee159956e8f6a0800000000000000
+      internalID: -6415124396760962738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 303
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92795c5af652d0330800000000000000
+      internalID: 3678637632084350761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 303
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4439d1b230a834dd0800000000000000
+      internalID: -2503005221674970300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 303
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a3d1a18e1ede650800000000000000
+      internalID: 6263911043729013283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 303
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdfe7909b658e810800000000000000
+      internalID: 1794779804235398600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 175
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99bf0443e36a66340800000000000000
+      internalID: 4856752034260515737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 175
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8064459bf6429c0800000000000000
+      internalID: -3952911731150944040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 175
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1528fd6e9e1ca60800000000000000
+      internalID: 7692686816327127499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 175
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e84ef1d962b68590800000000000000
+      internalID: -7672248747614648096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 175
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f5e0d6ac7469d20800000000000000
+      internalID: 3284891912951979796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 175
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d42eec797e82d60800000000000000
+      internalID: 7865791388399586650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 47
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7cd862cbdd048e0800000000000000
+      internalID: -1711124058230372448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 47
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2268f80531633b0800000000000000
+      internalID: -5533213855451831643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 47
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b7dd01296df34f0800000000000000
+      internalID: -846722282085844185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 47
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46513a4ebfc1d1370800000000000000
+      internalID: 8294817956884583780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 47
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3717400f17d057970800000000000000
+      internalID: 8751916233873715571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Raider_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 47
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb946692d34a5020800000000000000
+      internalID: 2331250328863022003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wolf_Raider_Attack_0: -5503852187234619436
+      Wolf_Raider_Attack_1: -3351295831253246845
+      Wolf_Raider_Attack_10: 6263911043729013283
+      Wolf_Raider_Attack_11: 1794779804235398600
+      Wolf_Raider_Attack_12: 4856752034260515737
+      Wolf_Raider_Attack_13: -3952911731150944040
+      Wolf_Raider_Attack_14: 7692686816327127499
+      Wolf_Raider_Attack_15: -7672248747614648096
+      Wolf_Raider_Attack_16: 3284891912951979796
+      Wolf_Raider_Attack_17: 7865791388399586650
+      Wolf_Raider_Attack_18: -1711124058230372448
+      Wolf_Raider_Attack_19: -5533213855451831643
+      Wolf_Raider_Attack_2: 1926090110119090666
+      Wolf_Raider_Attack_20: -846722282085844185
+      Wolf_Raider_Attack_21: 8294817956884583780
+      Wolf_Raider_Attack_22: 8751916233873715571
+      Wolf_Raider_Attack_23: 2331250328863022003
+      Wolf_Raider_Attack_3: -3320429505371780381
+      Wolf_Raider_Attack_4: 7591259120633700573
+      Wolf_Raider_Attack_5: -7201489828494423228
+      Wolf_Raider_Attack_6: -2961976543700059292
+      Wolf_Raider_Attack_7: -6415124396760962738
+      Wolf_Raider_Attack_8: 3678637632084350761
+      Wolf_Raider_Attack_9: -2503005221674970300
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

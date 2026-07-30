@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 4144875702a629149abe2552ce0a0fc8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4853512899009275795
+    second: Slime_Queen_Attack_0
+  - first:
+      213: -5617473801509195927
+    second: Slime_Queen_Attack_1
+  - first:
+      213: 5476778636432997700
+    second: Slime_Queen_Attack_2
+  - first:
+      213: -6013261090290896067
+    second: Slime_Queen_Attack_3
+  - first:
+      213: -3059110862327108529
+    second: Slime_Queen_Attack_4
+  - first:
+      213: 2914917142939813729
+    second: Slime_Queen_Attack_5
+  - first:
+      213: -7321970083089330195
+    second: Slime_Queen_Attack_6
+  - first:
+      213: 8574715116152385751
+    second: Slime_Queen_Attack_7
+  - first:
+      213: 5291347257102983709
+    second: Slime_Queen_Attack_8
+  - first:
+      213: -8902544904865203935
+    second: Slime_Queen_Attack_9
+  - first:
+      213: 8185490764627182730
+    second: Slime_Queen_Attack_10
+  - first:
+      213: 2292472494394674140
+    second: Slime_Queen_Attack_11
+  - first:
+      213: 5422669598918360825
+    second: Slime_Queen_Attack_12
+  - first:
+      213: 1625378559370159942
+    second: Slime_Queen_Attack_13
+  - first:
+      213: 3853652344638067112
+    second: Slime_Queen_Attack_14
+  - first:
+      213: -8299119998382240999
+    second: Slime_Queen_Attack_15
+  - first:
+      213: -910229780397911429
+    second: Slime_Queen_Attack_16
+  - first:
+      213: 3807433483216711699
+    second: Slime_Queen_Attack_17
+  - first:
+      213: 4610087163244788959
+    second: Slime_Queen_Attack_18
+  - first:
+      213: -916713250101389041
+    second: Slime_Queen_Attack_19
+  - first:
+      213: 2623979634721552054
+    second: Slime_Queen_Attack_20
+  - first:
+      213: 5004041869312970812
+    second: Slime_Queen_Attack_21
+  - first:
+      213: -7000570663565065344
+    second: Slime_Queen_Attack_22
+  - first:
+      213: -6226744322430811975
+    second: Slime_Queen_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 431
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6896cdbbbbd4acb0800000000000000
+      internalID: -4853512899009275795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 431
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f2bf51759ba02b0800000000000000
+      internalID: -5617473801509195927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 431
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d7902172d610c40800000000000000
+      internalID: 5476778636432997700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 431
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d337883e5ea9c8ca0800000000000000
+      internalID: -6013261090290896067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 431
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c247ae0eadb85d0800000000000000
+      internalID: -3059110862327108529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 431
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167cf9692bdd37820800000000000000
+      internalID: 2914917142939813729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 303
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def4c6db003236a90800000000000000
+      internalID: -7321970083089330195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 303
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d07f64a7f18ff670800000000000000
+      internalID: 8574715116152385751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 303
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d126cdaab44ae6940800000000000000
+      internalID: 5291347257102983709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 303
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129bb84a39ec37480800000000000000
+      internalID: -8902544904865203935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 303
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8408d95b74b89170800000000000000
+      internalID: 8185490764627182730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 303
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb8fbd669f70df10800000000000000
+      internalID: 2292472494394674140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 175
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9feb6d90541314b40800000000000000
+      internalID: 5422669598918360825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 175
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6476bc820318e8610800000000000000
+      internalID: 1625378559370159942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 175
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1d002d36cea7530800000000000000
+      internalID: 3853652344638067112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 175
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b0614055a93dc80800000000000000
+      internalID: -8299119998382240999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 175
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72966b56d63e53f0800000000000000
+      internalID: -910229780397911429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 175
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3107f019498b6d430800000000000000
+      internalID: 3807433483216711699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 47
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc3bc489d15aff30800000000000000
+      internalID: 4610087163244788959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 47
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0910dee72e2743f0800000000000000
+      internalID: -916713250101389041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 47
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6ff69439f3a6420800000000000000
+      internalID: 2623979634721552054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 47
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30d49d419de17540800000000000000
+      internalID: 5004041869312970812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 47
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0830f25721af8de90800000000000000
+      internalID: -7000570663565065344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Queen_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 47
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0c45a87092699a0800000000000000
+      internalID: -6226744322430811975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slime_Queen_Attack_0: -4853512899009275795
+      Slime_Queen_Attack_1: -5617473801509195927
+      Slime_Queen_Attack_10: 8185490764627182730
+      Slime_Queen_Attack_11: 2292472494394674140
+      Slime_Queen_Attack_12: 5422669598918360825
+      Slime_Queen_Attack_13: 1625378559370159942
+      Slime_Queen_Attack_14: 3853652344638067112
+      Slime_Queen_Attack_15: -8299119998382240999
+      Slime_Queen_Attack_16: -910229780397911429
+      Slime_Queen_Attack_17: 3807433483216711699
+      Slime_Queen_Attack_18: 4610087163244788959
+      Slime_Queen_Attack_19: -916713250101389041
+      Slime_Queen_Attack_2: 5476778636432997700
+      Slime_Queen_Attack_20: 2623979634721552054
+      Slime_Queen_Attack_21: 5004041869312970812
+      Slime_Queen_Attack_22: -7000570663565065344
+      Slime_Queen_Attack_23: -6226744322430811975
+      Slime_Queen_Attack_3: -6013261090290896067
+      Slime_Queen_Attack_4: -3059110862327108529
+      Slime_Queen_Attack_5: 2914917142939813729
+      Slime_Queen_Attack_6: -7321970083089330195
+      Slime_Queen_Attack_7: 8574715116152385751
+      Slime_Queen_Attack_8: 5291347257102983709
+      Slime_Queen_Attack_9: -8902544904865203935
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

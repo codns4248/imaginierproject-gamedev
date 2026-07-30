@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 55f0bbac81990a9438dc78115c6a5c9a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2025768851934826187
+    second: RoyalGuard_Idle_0
+  - first:
+      213: -3782831951122241857
+    second: RoyalGuard_Idle_1
+  - first:
+      213: -8730518967658778706
+    second: RoyalGuard_Idle_2
+  - first:
+      213: -714923593331008950
+    second: RoyalGuard_Idle_3
+  - first:
+      213: -1873226101346071217
+    second: RoyalGuard_Idle_4
+  - first:
+      213: 3805243996310357182
+    second: RoyalGuard_Idle_5
+  - first:
+      213: -1275881735418751931
+    second: RoyalGuard_Idle_6
+  - first:
+      213: -3245933854556405374
+    second: RoyalGuard_Idle_7
+  - first:
+      213: 41124229814524501
+    second: RoyalGuard_Idle_8
+  - first:
+      213: -6277463719612000012
+    second: RoyalGuard_Idle_9
+  - first:
+      213: 5385606861085851311
+    second: RoyalGuard_Idle_10
+  - first:
+      213: -4835408081630412330
+    second: RoyalGuard_Idle_11
+  - first:
+      213: -2004037306415096225
+    second: RoyalGuard_Idle_12
+  - first:
+      213: 7491862421840932774
+    second: RoyalGuard_Idle_13
+  - first:
+      213: 6564501530514917134
+    second: RoyalGuard_Idle_14
+  - first:
+      213: 3853576999890687684
+    second: RoyalGuard_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RoyalGuard_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 429
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce40a0b90afc1c10800000000000000
+      internalID: 2025768851934826187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 430
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb66c5cf16ea08bc0800000000000000
+      internalID: -3782831951122241857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 430
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf63e35147f6d680800000000000000
+      internalID: -8730518967658778706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 430
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a95f997c41416f0800000000000000
+      internalID: -714923593331008950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 303
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d074d19c6f006e0800000000000000
+      internalID: -1873226101346071217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 303
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb444cbe041fec430800000000000000
+      internalID: 3805243996310357182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 303
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544d4f052582b4ee0800000000000000
+      internalID: -1275881735418751931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 303
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28140c26b5024f2d0800000000000000
+      internalID: -3245933854556405374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 175
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a91c5e44a129000800000000000000
+      internalID: 41124229814524501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 175
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8df16a108f1e8a0800000000000000
+      internalID: -6277463719612000012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 175
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faebdeee7e48dba40800000000000000
+      internalID: 5385606861085851311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 175
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1cd5608fd25ecb0800000000000000
+      internalID: -4835408081630412330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 47
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e5f7a00ba3034e0800000000000000
+      internalID: -2004037306415096225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 47
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af2de7dd2178f760800000000000000
+      internalID: 7491862421840932774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 47
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0789dd9c5bc91b50800000000000000
+      internalID: 6564501530514917134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 47
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c699114dd7aa7530800000000000000
+      internalID: 3853576999890687684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RoyalGuard_Idle_0: 2025768851934826187
+      RoyalGuard_Idle_1: -3782831951122241857
+      RoyalGuard_Idle_10: 5385606861085851311
+      RoyalGuard_Idle_11: -4835408081630412330
+      RoyalGuard_Idle_12: -2004037306415096225
+      RoyalGuard_Idle_13: 7491862421840932774
+      RoyalGuard_Idle_14: 6564501530514917134
+      RoyalGuard_Idle_15: 3853576999890687684
+      RoyalGuard_Idle_2: -8730518967658778706
+      RoyalGuard_Idle_3: -714923593331008950
+      RoyalGuard_Idle_4: -1873226101346071217
+      RoyalGuard_Idle_5: 3805243996310357182
+      RoyalGuard_Idle_6: -1275881735418751931
+      RoyalGuard_Idle_7: -3245933854556405374
+      RoyalGuard_Idle_8: 41124229814524501
+      RoyalGuard_Idle_9: -6277463719612000012
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

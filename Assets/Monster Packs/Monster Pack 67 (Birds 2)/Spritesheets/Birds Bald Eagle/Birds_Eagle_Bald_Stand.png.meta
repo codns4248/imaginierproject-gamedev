@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: fd1a59ee3370df84baaf15e198aa1f06
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6321434649109834778
+    second: Birds_Eagle_Bald_Stand_0
+  - first:
+      213: -3217125028830311007
+    second: Birds_Eagle_Bald_Stand_1
+  - first:
+      213: 8451608985381169927
+    second: Birds_Eagle_Bald_Stand_2
+  - first:
+      213: -9221629007166577949
+    second: Birds_Eagle_Bald_Stand_3
+  - first:
+      213: -7507191979501346191
+    second: Birds_Eagle_Bald_Stand_4
+  - first:
+      213: -7653252569624491063
+    second: Birds_Eagle_Bald_Stand_5
+  - first:
+      213: 4690053562952702837
+    second: Birds_Eagle_Bald_Stand_6
+  - first:
+      213: -3280175457092844481
+    second: Birds_Eagle_Bald_Stand_7
+  - first:
+      213: -2165277709584978148
+    second: Birds_Eagle_Bald_Stand_8
+  - first:
+      213: -2612701975214340090
+    second: Birds_Eagle_Bald_Stand_9
+  - first:
+      213: -4039119629662548289
+    second: Birds_Eagle_Bald_Stand_10
+  - first:
+      213: -1235770401084171355
+    second: Birds_Eagle_Bald_Stand_11
+  - first:
+      213: -5768608828386281873
+    second: Birds_Eagle_Bald_Stand_12
+  - first:
+      213: -1594173982012134882
+    second: Birds_Eagle_Bald_Stand_13
+  - first:
+      213: -2962087669175941042
+    second: Birds_Eagle_Bald_Stand_14
+  - first:
+      213: 6645720979383524558
+    second: Birds_Eagle_Bald_Stand_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Stand_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 431
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e356f4dda0c548a0800000000000000
+      internalID: -6321434649109834778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Stand_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 431
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad0d82d4d97a53d0800000000000000
+      internalID: -3217125028830311007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Stand_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 431
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70be42af7952a4570800000000000000
+      internalID: 8451608985381169927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Stand_3
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 431
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2e569b641360080800000000000000
+      internalID: -9221629007166577949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Stand_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 303
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17229216ba811d790800000000000000
+      internalID: -7507191979501346191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Stand_5
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 303
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbcf2b265f2ac590800000000000000
+      internalID: -7653252569624491063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Stand_6
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 303
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bd955ddda661140800000000000000
+      internalID: 4690053562952702837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Stand_7
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 303
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34c6070dc97a72d0800000000000000
+      internalID: -3280175457092844481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Stand_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fad10356363f1e0800000000000000
+      internalID: -2165277709584978148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Stand_9
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 175
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608436f6561ddbbd0800000000000000
+      internalID: -2612701975214340090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Stand_10
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 175
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe08a4d81a22f7c0800000000000000
+      internalID: -4039119629662548289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Stand_11
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab9f6b1e59a9dee0800000000000000
+      internalID: -1235770401084171355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Stand_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 37
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f667adf75d8c1ffa0800000000000000
+      internalID: -5768608828386281873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Stand_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 38
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a2ffba53b50e9e0800000000000000
+      internalID: -1594173982012134882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Stand_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 39
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48043d65fc84e6d0800000000000000
+      internalID: -2962087669175941042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Eagle_Bald_Stand_15
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 38
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc148c25085a3c50800000000000000
+      internalID: 6645720979383524558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birds_Eagle_Bald_Stand_0: -6321434649109834778
+      Birds_Eagle_Bald_Stand_1: -3217125028830311007
+      Birds_Eagle_Bald_Stand_10: -4039119629662548289
+      Birds_Eagle_Bald_Stand_11: -1235770401084171355
+      Birds_Eagle_Bald_Stand_12: -5768608828386281873
+      Birds_Eagle_Bald_Stand_13: -1594173982012134882
+      Birds_Eagle_Bald_Stand_14: -2962087669175941042
+      Birds_Eagle_Bald_Stand_15: 6645720979383524558
+      Birds_Eagle_Bald_Stand_2: 8451608985381169927
+      Birds_Eagle_Bald_Stand_3: -9221629007166577949
+      Birds_Eagle_Bald_Stand_4: -7507191979501346191
+      Birds_Eagle_Bald_Stand_5: -7653252569624491063
+      Birds_Eagle_Bald_Stand_6: 4690053562952702837
+      Birds_Eagle_Bald_Stand_7: -3280175457092844481
+      Birds_Eagle_Bald_Stand_8: -2165277709584978148
+      Birds_Eagle_Bald_Stand_9: -2612701975214340090
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

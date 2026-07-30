@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: cc7b278856b5d6145af205d8fcd14c65
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 986794388920887245
+    second: Skeleton_ Warlord_Idle_0
+  - first:
+      213: -5900290770478659234
+    second: Skeleton_ Warlord_Idle_1
+  - first:
+      213: 3455674779098487267
+    second: Skeleton_ Warlord_Idle_2
+  - first:
+      213: -3486628650089666050
+    second: Skeleton_ Warlord_Idle_3
+  - first:
+      213: -7322517060559049675
+    second: Skeleton_ Warlord_Idle_4
+  - first:
+      213: -8462688912958201921
+    second: Skeleton_ Warlord_Idle_5
+  - first:
+      213: 7545606829242714539
+    second: Skeleton_ Warlord_Idle_6
+  - first:
+      213: 7549302794769288355
+    second: Skeleton_ Warlord_Idle_7
+  - first:
+      213: -8737109928469907556
+    second: Skeleton_ Warlord_Idle_8
+  - first:
+      213: 1802982723993870966
+    second: Skeleton_ Warlord_Idle_9
+  - first:
+      213: 6126195595414655161
+    second: Skeleton_ Warlord_Idle_10
+  - first:
+      213: 7343275649993223188
+    second: Skeleton_ Warlord_Idle_11
+  - first:
+      213: 6578699248422857960
+    second: Skeleton_ Warlord_Idle_12
+  - first:
+      213: 7486322445142509025
+    second: Skeleton_ Warlord_Idle_13
+  - first:
+      213: -9019121221372963238
+    second: Skeleton_ Warlord_Idle_14
+  - first:
+      213: 5546662960512367992
+    second: Skeleton_ Warlord_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton_ Warlord_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 431
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc76af9b44cc1bd00800000000000000
+      internalID: 986794388920887245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_ Warlord_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 431
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e598a1a2ec4fd1ea0800000000000000
+      internalID: -5900290770478659234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_ Warlord_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 431
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9117317e505ff20800000000000000
+      internalID: 3455674779098487267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_ Warlord_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 431
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9a4b737b10d9fc0800000000000000
+      internalID: -3486628650089666050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_ Warlord_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 303
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ce3af9781316a90800000000000000
+      internalID: -7322517060559049675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_ Warlord_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 303
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf5d7a554d7e8a80800000000000000
+      internalID: -8462688912958201921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_ Warlord_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 303
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba906cfce6167b860800000000000000
+      internalID: 7545606829242714539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_ Warlord_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 303
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac4618d4e284c860800000000000000
+      internalID: 7549302794769288355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_ Warlord_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 175
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97330eafcc8fb680800000000000000
+      internalID: -8737109928469907556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_ Warlord_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 175
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67222df1c3b750910800000000000000
+      internalID: 1802982723993870966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_ Warlord_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 175
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0d041af6e940550800000000000000
+      internalID: 6126195595414655161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_ Warlord_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 175
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c2f9d1c4e88e560800000000000000
+      internalID: 7343275649993223188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_ Warlord_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 47
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ecaf5a6c1c3c4b50800000000000000
+      internalID: 6578699248422857960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_ Warlord_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 47
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5c0c08992c4e760800000000000000
+      internalID: 7486322445142509025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_ Warlord_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 47
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5690e5d805a5d280800000000000000
+      internalID: -9019121221372963238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_ Warlord_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 47
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87df72a3394b9fc40800000000000000
+      internalID: 5546662960512367992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skeleton_ Warlord_Idle_0: 986794388920887245
+      Skeleton_ Warlord_Idle_1: -5900290770478659234
+      Skeleton_ Warlord_Idle_10: 6126195595414655161
+      Skeleton_ Warlord_Idle_11: 7343275649993223188
+      Skeleton_ Warlord_Idle_12: 6578699248422857960
+      Skeleton_ Warlord_Idle_13: 7486322445142509025
+      Skeleton_ Warlord_Idle_14: -9019121221372963238
+      Skeleton_ Warlord_Idle_15: 5546662960512367992
+      Skeleton_ Warlord_Idle_2: 3455674779098487267
+      Skeleton_ Warlord_Idle_3: -3486628650089666050
+      Skeleton_ Warlord_Idle_4: -7322517060559049675
+      Skeleton_ Warlord_Idle_5: -8462688912958201921
+      Skeleton_ Warlord_Idle_6: 7545606829242714539
+      Skeleton_ Warlord_Idle_7: 7549302794769288355
+      Skeleton_ Warlord_Idle_8: -8737109928469907556
+      Skeleton_ Warlord_Idle_9: 1802982723993870966
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

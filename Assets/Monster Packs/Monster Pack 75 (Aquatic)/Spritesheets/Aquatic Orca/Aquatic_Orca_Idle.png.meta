@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 1193158cb1af0fb4289361e4397a5e87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7821135652183767203
+    second: Aquatic_Orca_Idle_0
+  - first:
+      213: -1576269035200808543
+    second: Aquatic_Orca_Idle_1
+  - first:
+      213: 4824651305883179480
+    second: Aquatic_Orca_Idle_2
+  - first:
+      213: 4353936228340912989
+    second: Aquatic_Orca_Idle_3
+  - first:
+      213: -6989988278200283488
+    second: Aquatic_Orca_Idle_4
+  - first:
+      213: 5557150567903022109
+    second: Aquatic_Orca_Idle_5
+  - first:
+      213: 6449351218673800991
+    second: Aquatic_Orca_Idle_6
+  - first:
+      213: -5432416493820011771
+    second: Aquatic_Orca_Idle_7
+  - first:
+      213: 6023028426801892747
+    second: Aquatic_Orca_Idle_8
+  - first:
+      213: 1021731949282606932
+    second: Aquatic_Orca_Idle_9
+  - first:
+      213: -6433996896038934689
+    second: Aquatic_Orca_Idle_10
+  - first:
+      213: 2161751404690180344
+    second: Aquatic_Orca_Idle_11
+  - first:
+      213: 5770666092488091919
+    second: Aquatic_Orca_Idle_12
+  - first:
+      213: 3870900611792673846
+    second: Aquatic_Orca_Idle_13
+  - first:
+      213: 9177711854467845709
+    second: Aquatic_Orca_Idle_14
+  - first:
+      213: -1684997596245607775
+    second: Aquatic_Orca_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aquatic_Orca_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 422
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a87e8000714a8c60800000000000000
+      internalID: 7821135652183767203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Orca_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 423
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a97866f9a7ff1ae0800000000000000
+      internalID: -1576269035200808543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Orca_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 423
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d99a44fcca94f240800000000000000
+      internalID: 4824651305883179480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Orca_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 422
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53d6f87ee94c6c30800000000000000
+      internalID: 4353936228340912989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Orca_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 296
+        width: 65
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae4abd02b29efe90800000000000000
+      internalID: -6989988278200283488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Orca_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 296
+        width: 65
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c483b9ff6fe1d40800000000000000
+      internalID: 5557150567903022109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Orca_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 296
+        width: 65
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17d8c463c2b08950800000000000000
+      internalID: 6449351218673800991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Orca_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 296
+        width: 65
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b92e52bfd2c94b0800000000000000
+      internalID: -5432416493820011771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Orca_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 168
+        width: 65
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d4b9b5178169350800000000000000
+      internalID: 6023028426801892747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Orca_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 168
+        width: 65
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f38a46bcbed2e00800000000000000
+      internalID: 1021731949282606932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Orca_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 168
+        width: 65
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5722ad69e9d5b6a0800000000000000
+      internalID: -6433996896038934689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Orca_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 168
+        width: 65
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f88249f275100e10800000000000000
+      internalID: 2161751404690180344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Orca_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 38
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09e420ac36851050800000000000000
+      internalID: 5770666092488091919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Orca_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 39
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c9eb6f89338b530800000000000000
+      internalID: 3870900611792673846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Orca_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 39
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e82785e48cd5f70800000000000000
+      internalID: 9177711854467845709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Orca_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 38
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aab46c1d9fad98e0800000000000000
+      internalID: -1684997596245607775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Aquatic_Orca_Idle_0: 7821135652183767203
+      Aquatic_Orca_Idle_1: -1576269035200808543
+      Aquatic_Orca_Idle_10: -6433996896038934689
+      Aquatic_Orca_Idle_11: 2161751404690180344
+      Aquatic_Orca_Idle_12: 5770666092488091919
+      Aquatic_Orca_Idle_13: 3870900611792673846
+      Aquatic_Orca_Idle_14: 9177711854467845709
+      Aquatic_Orca_Idle_15: -1684997596245607775
+      Aquatic_Orca_Idle_2: 4824651305883179480
+      Aquatic_Orca_Idle_3: 4353936228340912989
+      Aquatic_Orca_Idle_4: -6989988278200283488
+      Aquatic_Orca_Idle_5: 5557150567903022109
+      Aquatic_Orca_Idle_6: 6449351218673800991
+      Aquatic_Orca_Idle_7: -5432416493820011771
+      Aquatic_Orca_Idle_8: 6023028426801892747
+      Aquatic_Orca_Idle_9: 1021731949282606932
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 699d2b9891bf0054685ad3fc4746d62e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1980740733417396155
+    second: General_Move_0
+  - first:
+      213: 3666242662219267230
+    second: General_Move_1
+  - first:
+      213: -2809680543033413548
+    second: General_Move_2
+  - first:
+      213: 6403377459078811827
+    second: General_Move_3
+  - first:
+      213: -7305614587029278198
+    second: General_Move_4
+  - first:
+      213: -1697136838421941857
+    second: General_Move_5
+  - first:
+      213: -7091574894901887397
+    second: General_Move_6
+  - first:
+      213: 4650264104131026575
+    second: General_Move_7
+  - first:
+      213: 3935937958898146604
+    second: General_Move_8
+  - first:
+      213: 6688701473626452687
+    second: General_Move_9
+  - first:
+      213: 673018886369385315
+    second: General_Move_10
+  - first:
+      213: -8215986881038318439
+    second: General_Move_11
+  - first:
+      213: -8407037763239633500
+    second: General_Move_12
+  - first:
+      213: 7111169547710865430
+    second: General_Move_13
+  - first:
+      213: 2497429360338790774
+    second: General_Move_14
+  - first:
+      213: -6205298487148943462
+    second: General_Move_15
+  - first:
+      213: -7437307613577716899
+    second: General_Move_16
+  - first:
+      213: 5594826487770003201
+    second: General_Move_17
+  - first:
+      213: 2953891712234661182
+    second: General_Move_18
+  - first:
+      213: -1690087313462949656
+    second: General_Move_19
+  - first:
+      213: -6294329717042791712
+    second: General_Move_20
+  - first:
+      213: 2312806817428494291
+    second: General_Move_21
+  - first:
+      213: -6358056594779322549
+    second: General_Move_22
+  - first:
+      213: 5407137555206188916
+    second: General_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: General_Move_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 431
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54862802ccef284e0800000000000000
+      internalID: -1980740733417396155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 431
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c36f5d64c11e230800000000000000
+      internalID: 3666242662219267230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 431
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 450ba24be620209d0800000000000000
+      internalID: -2809680543033413548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 431
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0d22b5fdd5dd850800000000000000
+      internalID: 6403377459078811827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_4
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 431
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02353a6d3e3d9a90800000000000000
+      internalID: -7305614587029278198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 431
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9171aa890f8278e0800000000000000
+      internalID: -1697136838421941857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 303
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e7b43b43aa59d90800000000000000
+      internalID: -7091574894901887397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_7
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 303
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8eda76809e098040800000000000000
+      internalID: 4650264104131026575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_8
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 303
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d991a58b24f9630800000000000000
+      internalID: 3935937958898146604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_9
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 303
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2f2205d8a03dc50800000000000000
+      internalID: 6688701473626452687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_10
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 303
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b1d218c1b075900800000000000000
+      internalID: 673018886369385315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_11
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 303
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994017c3673fafd80800000000000000
+      internalID: -8215986881038318439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 175
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad9ecc52b3345b80800000000000000
+      internalID: -8407037763239633500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_13
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 175
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610a1ece603ffa260800000000000000
+      internalID: 7111169547710865430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 175
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679ef9275c6a8a220800000000000000
+      internalID: 2497429360338790774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_15
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 175
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97e73c27e952e9a0800000000000000
+      internalID: -6205298487148943462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_16
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 175
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b5467412069c890800000000000000
+      internalID: -7437307613577716899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_17
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 175
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1073a774c01d4ad40800000000000000
+      internalID: 5594826487770003201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 47
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35a7b4acd45ef820800000000000000
+      internalID: 2953891712234661182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 47
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e885a9fa8a9b88e0800000000000000
+      internalID: -1690087313462949656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 47
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eaba7c987c06a8a0800000000000000
+      internalID: -6294329717042791712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_21
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 47
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d75de2fb8db81020800000000000000
+      internalID: 2312806817428494291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_22
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 47
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b474956a635a3c7a0800000000000000
+      internalID: -6358056594779322549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General_Move_23
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 47
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f2dbd45f20a0b40800000000000000
+      internalID: 5407137555206188916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      General_Move_0: -1980740733417396155
+      General_Move_1: 3666242662219267230
+      General_Move_10: 673018886369385315
+      General_Move_11: -8215986881038318439
+      General_Move_12: -8407037763239633500
+      General_Move_13: 7111169547710865430
+      General_Move_14: 2497429360338790774
+      General_Move_15: -6205298487148943462
+      General_Move_16: -7437307613577716899
+      General_Move_17: 5594826487770003201
+      General_Move_18: 2953891712234661182
+      General_Move_19: -1690087313462949656
+      General_Move_2: -2809680543033413548
+      General_Move_20: -6294329717042791712
+      General_Move_21: 2312806817428494291
+      General_Move_22: -6358056594779322549
+      General_Move_23: 5407137555206188916
+      General_Move_3: 6403377459078811827
+      General_Move_4: -7305614587029278198
+      General_Move_5: -1697136838421941857
+      General_Move_6: -7091574894901887397
+      General_Move_7: 4650264104131026575
+      General_Move_8: 3935937958898146604
+      General_Move_9: 6688701473626452687
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 5e3e8e6128c186f4eb199a0c11203355
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2784519990929749416
+    second: Wolf_Grey_Idle_0
+  - first:
+      213: 992425465388292331
+    second: Wolf_Grey_Idle_1
+  - first:
+      213: -7693470654985937750
+    second: Wolf_Grey_Idle_2
+  - first:
+      213: -6742264462519719361
+    second: Wolf_Grey_Idle_3
+  - first:
+      213: 3137335677351278598
+    second: Wolf_Grey_Idle_4
+  - first:
+      213: 4652391438916652150
+    second: Wolf_Grey_Idle_5
+  - first:
+      213: 2031439244962504054
+    second: Wolf_Grey_Idle_6
+  - first:
+      213: -6251216591184301334
+    second: Wolf_Grey_Idle_7
+  - first:
+      213: 2738594533237850785
+    second: Wolf_Grey_Idle_8
+  - first:
+      213: 3242366096842940497
+    second: Wolf_Grey_Idle_9
+  - first:
+      213: 1722223425387885891
+    second: Wolf_Grey_Idle_10
+  - first:
+      213: -6270053339263777342
+    second: Wolf_Grey_Idle_11
+  - first:
+      213: -3012855516433576373
+    second: Wolf_Grey_Idle_12
+  - first:
+      213: 2591624410176416614
+    second: Wolf_Grey_Idle_13
+  - first:
+      213: 5627365169799180741
+    second: Wolf_Grey_Idle_14
+  - first:
+      213: 1742641347493698517
+    second: Wolf_Grey_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wolf_Grey_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 429
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a57751cd2a94a620800000000000000
+      internalID: 2784519990929749416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 429
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be85582e3bdc5cd00800000000000000
+      internalID: 992425465388292331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 429
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacdba7733d4b3590800000000000000
+      internalID: -7693470654985937750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 429
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3aa5c1813aae62a0800000000000000
+      internalID: -6742264462519719361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 303
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608bead1d2e0a8b20800000000000000
+      internalID: 3137335677351278598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 303
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c02b04d5d909040800000000000000
+      internalID: 4652391438916652150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 303
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d17c2fa3f113c10800000000000000
+      internalID: 2031439244962504054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 303
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae27e6471a73f39a0800000000000000
+      internalID: -6251216591184301334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 175
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a20871e731710620800000000000000
+      internalID: 2738594533237850785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 175
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150e71a49c23ffc20800000000000000
+      internalID: 3242366096842940497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 175
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345f916a41196e710800000000000000
+      internalID: 1722223425387885891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 175
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c54e6645bb4cf8a0800000000000000
+      internalID: -6270053339263777342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 45
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e866fdedf2036d0800000000000000
+      internalID: -3012855516433576373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 45
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66bebc78bac47f320800000000000000
+      internalID: 2591624410176416614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 45
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1394f8eca681e40800000000000000
+      internalID: 5627365169799180741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 45
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db1548921b1f2810800000000000000
+      internalID: 1742641347493698517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wolf_Grey_Idle_0: 2784519990929749416
+      Wolf_Grey_Idle_1: 992425465388292331
+      Wolf_Grey_Idle_10: 1722223425387885891
+      Wolf_Grey_Idle_11: -6270053339263777342
+      Wolf_Grey_Idle_12: -3012855516433576373
+      Wolf_Grey_Idle_13: 2591624410176416614
+      Wolf_Grey_Idle_14: 5627365169799180741
+      Wolf_Grey_Idle_15: 1742641347493698517
+      Wolf_Grey_Idle_2: -7693470654985937750
+      Wolf_Grey_Idle_3: -6742264462519719361
+      Wolf_Grey_Idle_4: 3137335677351278598
+      Wolf_Grey_Idle_5: 4652391438916652150
+      Wolf_Grey_Idle_6: 2031439244962504054
+      Wolf_Grey_Idle_7: -6251216591184301334
+      Wolf_Grey_Idle_8: 2738594533237850785
+      Wolf_Grey_Idle_9: 3242366096842940497
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

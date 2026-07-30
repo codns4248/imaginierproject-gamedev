@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 27ee1f5fef1cd324b8f77effd00d8c77
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1073600858488013716
+    second: Piggy_Move_0
+  - first:
+      213: 7220563046796985026
+    second: Piggy_Move_1
+  - first:
+      213: -5281462579545783077
+    second: Piggy_Move_2
+  - first:
+      213: -1703110432481711650
+    second: Piggy_Move_3
+  - first:
+      213: -6342445485075939593
+    second: Piggy_Move_4
+  - first:
+      213: -7022442192063620125
+    second: Piggy_Move_5
+  - first:
+      213: 3605776533326635740
+    second: Piggy_Move_6
+  - first:
+      213: 8731164913707269048
+    second: Piggy_Move_7
+  - first:
+      213: 7934268575357600842
+    second: Piggy_Move_8
+  - first:
+      213: -6184102682752389449
+    second: Piggy_Move_9
+  - first:
+      213: -2289166993978726611
+    second: Piggy_Move_10
+  - first:
+      213: 1958808918330048465
+    second: Piggy_Move_11
+  - first:
+      213: -4424582541804091297
+    second: Piggy_Move_12
+  - first:
+      213: 6918398529303789920
+    second: Piggy_Move_13
+  - first:
+      213: 7211199915848807314
+    second: Piggy_Move_14
+  - first:
+      213: 3078419125285810243
+    second: Piggy_Move_15
+  - first:
+      213: 5206240820213518933
+    second: Piggy_Move_16
+  - first:
+      213: -3450641220015117078
+    second: Piggy_Move_17
+  - first:
+      213: 6982425636151913572
+    second: Piggy_Move_18
+  - first:
+      213: -2927932594056119522
+    second: Piggy_Move_19
+  - first:
+      213: -4501472424350238103
+    second: Piggy_Move_20
+  - first:
+      213: -126639356492171295
+    second: Piggy_Move_21
+  - first:
+      213: -3183912197282999188
+    second: Piggy_Move_22
+  - first:
+      213: -5710097799701802904
+    second: Piggy_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Piggy_Move_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 431
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4938bb8ea4236ee00800000000000000
+      internalID: 1073600858488013716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 431
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c285aab5d7943460800000000000000
+      internalID: 7220563046796985026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 431
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4c7ab24c974b6b0800000000000000
+      internalID: -5281462579545783077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 431
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed96aaac5165d58e0800000000000000
+      internalID: -1703110432481711650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_4
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 431
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7feb4ce5f6b1bf7a0800000000000000
+      internalID: -6342445485075939593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_5
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 431
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb155668064b8e90800000000000000
+      internalID: -7022442192063620125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 303
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2af5027aa4a0230800000000000000
+      internalID: 3605776533326635740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_7
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 303
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb30e4ba345b2970800000000000000
+      internalID: 8731164913707269048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_8
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 303
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a440cb25b3f2c1e60800000000000000
+      internalID: 7934268575357600842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 303
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bee004ff57ad2aa0800000000000000
+      internalID: -6184102682752389449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_10
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 303
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27695c5fbe3b30e0800000000000000
+      internalID: -2289166993978726611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_11
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 303
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dffdef35561f2b10800000000000000
+      internalID: 1958808918330048465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 175
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f584f54ee99b892c0800000000000000
+      internalID: -4424582541804091297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 175
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061ccb1aec6130060800000000000000
+      internalID: 6918398529303789920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_14
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 175
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293be7ced14531460800000000000000
+      internalID: 7211199915848807314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 175
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340fd6062edb8ba20800000000000000
+      internalID: 3078419125285810243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_16
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 175
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55217ff2178404840800000000000000
+      internalID: 5206240820213518933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_17
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 175
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecada9b71cdc10d0800000000000000
+      internalID: -3450641220015117078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_18
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 47
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c6a612f1f86e060800000000000000
+      internalID: 6982425636151913572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_19
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 47
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b3ffc81d4ed57d0800000000000000
+      internalID: -2927932594056119522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_20
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 47
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a336c0eae8781c0800000000000000
+      internalID: -4501472424350238103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 47
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e733bd1d261e3ef0800000000000000
+      internalID: -126639356492171295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_22
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 47
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64d9e4c9b870d3d0800000000000000
+      internalID: -3183912197282999188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piggy_Move_23
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 47
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860d808fd48a1c0b0800000000000000
+      internalID: -5710097799701802904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Piggy_Move_0: 1073600858488013716
+      Piggy_Move_1: 7220563046796985026
+      Piggy_Move_10: -2289166993978726611
+      Piggy_Move_11: 1958808918330048465
+      Piggy_Move_12: -4424582541804091297
+      Piggy_Move_13: 6918398529303789920
+      Piggy_Move_14: 7211199915848807314
+      Piggy_Move_15: 3078419125285810243
+      Piggy_Move_16: 5206240820213518933
+      Piggy_Move_17: -3450641220015117078
+      Piggy_Move_18: 6982425636151913572
+      Piggy_Move_19: -2927932594056119522
+      Piggy_Move_2: -5281462579545783077
+      Piggy_Move_20: -4501472424350238103
+      Piggy_Move_21: -126639356492171295
+      Piggy_Move_22: -3183912197282999188
+      Piggy_Move_23: -5710097799701802904
+      Piggy_Move_3: -1703110432481711650
+      Piggy_Move_4: -6342445485075939593
+      Piggy_Move_5: -7022442192063620125
+      Piggy_Move_6: 3605776533326635740
+      Piggy_Move_7: 8731164913707269048
+      Piggy_Move_8: 7934268575357600842
+      Piggy_Move_9: -6184102682752389449
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

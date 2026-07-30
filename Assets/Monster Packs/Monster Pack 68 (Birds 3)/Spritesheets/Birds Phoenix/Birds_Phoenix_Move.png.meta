@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: dd2d1c83185d8624f9c568f05a1ca9c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6379622965436536725
+    second: Birds_Phoenix_Move_0
+  - first:
+      213: -716791673456146517
+    second: Birds_Phoenix_Move_1
+  - first:
+      213: 1077111877801750188
+    second: Birds_Phoenix_Move_2
+  - first:
+      213: 7496601802410859423
+    second: Birds_Phoenix_Move_3
+  - first:
+      213: 4781214203181543048
+    second: Birds_Phoenix_Move_4
+  - first:
+      213: -4848813158518293317
+    second: Birds_Phoenix_Move_5
+  - first:
+      213: -6816612523220855087
+    second: Birds_Phoenix_Move_6
+  - first:
+      213: -950831347487651908
+    second: Birds_Phoenix_Move_7
+  - first:
+      213: 3209276646524269002
+    second: Birds_Phoenix_Move_8
+  - first:
+      213: 3399502043036383029
+    second: Birds_Phoenix_Move_9
+  - first:
+      213: 7984616872740713296
+    second: Birds_Phoenix_Move_10
+  - first:
+      213: -5184059146458935527
+    second: Birds_Phoenix_Move_11
+  - first:
+      213: -4043574922963553064
+    second: Birds_Phoenix_Move_12
+  - first:
+      213: -5937572383674719750
+    second: Birds_Phoenix_Move_13
+  - first:
+      213: -8585084202452558245
+    second: Birds_Phoenix_Move_14
+  - first:
+      213: -4769934721118779197
+    second: Birds_Phoenix_Move_15
+  - first:
+      213: -7236055741133351724
+    second: Birds_Phoenix_Move_16
+  - first:
+      213: 2694487295647964793
+    second: Birds_Phoenix_Move_17
+  - first:
+      213: -447972330287034893
+    second: Birds_Phoenix_Move_18
+  - first:
+      213: 3875459149273883951
+    second: Birds_Phoenix_Move_19
+  - first:
+      213: 6656666572880978500
+    second: Birds_Phoenix_Move_20
+  - first:
+      213: -4501174653346960919
+    second: Birds_Phoenix_Move_21
+  - first:
+      213: 871368038218334993
+    second: Birds_Phoenix_Move_22
+  - first:
+      213: -7086977940916075786
+    second: Birds_Phoenix_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 433
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b682b30b6b60777a0800000000000000
+      internalID: -6379622965436536725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 434
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba740bd45c17d06f0800000000000000
+      internalID: -716791673456146517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 433
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae2abbcb8ba2fe00800000000000000
+      internalID: 1077111877801750188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 432
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b904fde97490860800000000000000
+      internalID: 7496601802410859423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_4
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 433
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e20bf5cf84a5240800000000000000
+      internalID: 4781214203181543048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_5
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 434
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbcf6485f1e85bcb0800000000000000
+      internalID: -4848813158518293317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 311
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d611fda6078661a0800000000000000
+      internalID: -6816612523220855087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 311
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb741bb5de7fdc2f0800000000000000
+      internalID: -950831347487651908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_8
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 310
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac139064b14a98c20800000000000000
+      internalID: 3209276646524269002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 308
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537f568c8157d2f20800000000000000
+      internalID: 3399502043036383029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_10
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 311
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053fc4fcdbe0fce60800000000000000
+      internalID: 7984616872740713296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_11
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 312
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f43b03ca58e08b0800000000000000
+      internalID: -5184059146458935527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 183
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d47416080652e7c0800000000000000
+      internalID: -4043574922963553064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 183
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af126ea2061899da0800000000000000
+      internalID: -5937572383674719750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 182
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e5ff15767abd880800000000000000
+      internalID: -8585084202452558245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_15
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 180
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8c9e1b4a9cdcdb0800000000000000
+      internalID: -4769934721118779197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_16
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 183
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d412d644ad549b90800000000000000
+      internalID: -7236055741133351724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_17
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 184
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e56ec5bedb46520800000000000000
+      internalID: 2694487295647964793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_18
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 49
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd89000a8b78c9f0800000000000000
+      internalID: -447972330287034893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 48
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25e10e209568c530800000000000000
+      internalID: 3875459149273883951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_20
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 49
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442a9c0cafa316c50800000000000000
+      internalID: 6656666572880978500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 50
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e92343408d9881c0800000000000000
+      internalID: -4501174653346960919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_22
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 50
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11302a23d98b71c00800000000000000
+      internalID: 871368038218334993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Phoenix_Move_23
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 49
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f20ba47c1ff5ad90800000000000000
+      internalID: -7086977940916075786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birds_Phoenix_Move_0: -6379622965436536725
+      Birds_Phoenix_Move_1: -716791673456146517
+      Birds_Phoenix_Move_10: 7984616872740713296
+      Birds_Phoenix_Move_11: -5184059146458935527
+      Birds_Phoenix_Move_12: -4043574922963553064
+      Birds_Phoenix_Move_13: -5937572383674719750
+      Birds_Phoenix_Move_14: -8585084202452558245
+      Birds_Phoenix_Move_15: -4769934721118779197
+      Birds_Phoenix_Move_16: -7236055741133351724
+      Birds_Phoenix_Move_17: 2694487295647964793
+      Birds_Phoenix_Move_18: -447972330287034893
+      Birds_Phoenix_Move_19: 3875459149273883951
+      Birds_Phoenix_Move_2: 1077111877801750188
+      Birds_Phoenix_Move_20: 6656666572880978500
+      Birds_Phoenix_Move_21: -4501174653346960919
+      Birds_Phoenix_Move_22: 871368038218334993
+      Birds_Phoenix_Move_23: -7086977940916075786
+      Birds_Phoenix_Move_3: 7496601802410859423
+      Birds_Phoenix_Move_4: 4781214203181543048
+      Birds_Phoenix_Move_5: -4848813158518293317
+      Birds_Phoenix_Move_6: -6816612523220855087
+      Birds_Phoenix_Move_7: -950831347487651908
+      Birds_Phoenix_Move_8: 3209276646524269002
+      Birds_Phoenix_Move_9: 3399502043036383029
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 8d921026feb219248a4335a4ab673ccd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4308054794132696790
+    second: Elemental_Air_1_Move_0
+  - first:
+      213: -5096656339689210159
+    second: Elemental_Air_1_Move_1
+  - first:
+      213: -1198718717971846247
+    second: Elemental_Air_1_Move_2
+  - first:
+      213: -680986600156329447
+    second: Elemental_Air_1_Move_3
+  - first:
+      213: 5195024755765047750
+    second: Elemental_Air_1_Move_4
+  - first:
+      213: 1675223891140671679
+    second: Elemental_Air_1_Move_5
+  - first:
+      213: -4843540426313046840
+    second: Elemental_Air_1_Move_6
+  - first:
+      213: 6998254988178168913
+    second: Elemental_Air_1_Move_7
+  - first:
+      213: -5593092925021210329
+    second: Elemental_Air_1_Move_8
+  - first:
+      213: 5803939284263680044
+    second: Elemental_Air_1_Move_9
+  - first:
+      213: 8197367049884979386
+    second: Elemental_Air_1_Move_10
+  - first:
+      213: -1369235467542334375
+    second: Elemental_Air_1_Move_11
+  - first:
+      213: -4287706795080796812
+    second: Elemental_Air_1_Move_12
+  - first:
+      213: 3322626305454855408
+    second: Elemental_Air_1_Move_13
+  - first:
+      213: -7280483737502237930
+    second: Elemental_Air_1_Move_14
+  - first:
+      213: 3751662802321159129
+    second: Elemental_Air_1_Move_15
+  - first:
+      213: -3529454681525958403
+    second: Elemental_Air_1_Move_16
+  - first:
+      213: 3897143001289044661
+    second: Elemental_Air_1_Move_17
+  - first:
+      213: -1258415035693552347
+    second: Elemental_Air_1_Move_18
+  - first:
+      213: 1016931239231081896
+    second: Elemental_Air_1_Move_19
+  - first:
+      213: -27155239631580359
+    second: Elemental_Air_1_Move_20
+  - first:
+      213: 6442437062878469260
+    second: Elemental_Air_1_Move_21
+  - first:
+      213: 4387783726255699732
+    second: Elemental_Air_1_Move_22
+  - first:
+      213: 3028011821924133597
+    second: Elemental_Air_1_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 442
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dea23d920949cb30800000000000000
+      internalID: 4308054794132696790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 440
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1def492ff0a0549b0800000000000000
+      internalID: -5096656339689210159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 441
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b2da55dab4d5fe0800000000000000
+      internalID: -1198718717971846247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 442
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a81e09b46ac86f0800000000000000
+      internalID: -680986600156329447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 443
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c17cbead7f681840800000000000000
+      internalID: 5195024755765047750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_5
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 442
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8ffa6d0479f3710800000000000000
+      internalID: 1675223891140671679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 314
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4ed5af4a948ccb0800000000000000
+      internalID: -4843540426313046840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_7
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 313
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c17f955dbce1160800000000000000
+      internalID: 6998254988178168913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_8
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 313
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7293c504e975162b0800000000000000
+      internalID: -5593092925021210329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 313
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28b878470cbb8050800000000000000
+      internalID: 5803939284263680044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_10
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 314
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0d2ed76e5e2c170800000000000000
+      internalID: 8197367049884979386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_11
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 314
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954f547c89f7ffce0800000000000000
+      internalID: -1369235467542334375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_12
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 186
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4753e2a13610f74c0800000000000000
+      internalID: -4287706795080796812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 185
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4510255075c1e20800000000000000
+      internalID: 3322626305454855408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_14
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 185
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61bbb294d9686fa90800000000000000
+      internalID: -7280483737502237930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_15
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 185
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d336690175901430800000000000000
+      internalID: 3751662802321159129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_16
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 186
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df84ec0caabd40fc0800000000000000
+      internalID: -3529454681525958403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_17
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 186
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2bbb669ee651630800000000000000
+      internalID: 3897143001289044661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_18
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 58
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52da9714136398ee0800000000000000
+      internalID: -1258415035693552347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_19
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 60
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8adcd5bf29ddc1e00800000000000000
+      internalID: 1016931239231081896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_20
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 59
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93318f314768f9ff0800000000000000
+      internalID: -27155239631580359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_21
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 58
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c9eac0062286950800000000000000
+      internalID: 6442437062878469260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_22
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 57
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417f5b23d0a84ec30800000000000000
+      internalID: 4387783726255699732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Air_1_Move_23
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 58
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddaa87d75b8a50a20800000000000000
+      internalID: 3028011821924133597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Elemental_Air_1_Move_0: 4308054794132696790
+      Elemental_Air_1_Move_1: -5096656339689210159
+      Elemental_Air_1_Move_10: 8197367049884979386
+      Elemental_Air_1_Move_11: -1369235467542334375
+      Elemental_Air_1_Move_12: -4287706795080796812
+      Elemental_Air_1_Move_13: 3322626305454855408
+      Elemental_Air_1_Move_14: -7280483737502237930
+      Elemental_Air_1_Move_15: 3751662802321159129
+      Elemental_Air_1_Move_16: -3529454681525958403
+      Elemental_Air_1_Move_17: 3897143001289044661
+      Elemental_Air_1_Move_18: -1258415035693552347
+      Elemental_Air_1_Move_19: 1016931239231081896
+      Elemental_Air_1_Move_2: -1198718717971846247
+      Elemental_Air_1_Move_20: -27155239631580359
+      Elemental_Air_1_Move_21: 6442437062878469260
+      Elemental_Air_1_Move_22: 4387783726255699732
+      Elemental_Air_1_Move_23: 3028011821924133597
+      Elemental_Air_1_Move_3: -680986600156329447
+      Elemental_Air_1_Move_4: 5195024755765047750
+      Elemental_Air_1_Move_5: 1675223891140671679
+      Elemental_Air_1_Move_6: -4843540426313046840
+      Elemental_Air_1_Move_7: 6998254988178168913
+      Elemental_Air_1_Move_8: -5593092925021210329
+      Elemental_Air_1_Move_9: 5803939284263680044
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

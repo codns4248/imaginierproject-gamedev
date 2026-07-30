@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: c1e27869d4692a24c83444226e639369
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 919284267559769146
+    second: Goblin_Spear_Attack_0
+  - first:
+      213: -5453292652854895572
+    second: Goblin_Spear_Attack_1
+  - first:
+      213: 6586024514088631546
+    second: Goblin_Spear_Attack_2
+  - first:
+      213: -3934787101893637254
+    second: Goblin_Spear_Attack_3
+  - first:
+      213: -6409100492080649480
+    second: Goblin_Spear_Attack_4
+  - first:
+      213: -1470886851911843462
+    second: Goblin_Spear_Attack_5
+  - first:
+      213: -7662268129792214125
+    second: Goblin_Spear_Attack_6
+  - first:
+      213: -4637534305399462545
+    second: Goblin_Spear_Attack_7
+  - first:
+      213: -327435139613947161
+    second: Goblin_Spear_Attack_8
+  - first:
+      213: -4464612842835510851
+    second: Goblin_Spear_Attack_9
+  - first:
+      213: 5061367646701456504
+    second: Goblin_Spear_Attack_10
+  - first:
+      213: -4626809112811602396
+    second: Goblin_Spear_Attack_11
+  - first:
+      213: -3496593677926107867
+    second: Goblin_Spear_Attack_12
+  - first:
+      213: 6400255209344201978
+    second: Goblin_Spear_Attack_13
+  - first:
+      213: 3521490185227367717
+    second: Goblin_Spear_Attack_14
+  - first:
+      213: 4738406056771875050
+    second: Goblin_Spear_Attack_15
+  - first:
+      213: 7830630697018965705
+    second: Goblin_Spear_Attack_16
+  - first:
+      213: -4223794386024164244
+    second: Goblin_Spear_Attack_17
+  - first:
+      213: -406096235611081905
+    second: Goblin_Spear_Attack_18
+  - first:
+      213: 6541106614288735971
+    second: Goblin_Spear_Attack_19
+  - first:
+      213: -5775463239598865263
+    second: Goblin_Spear_Attack_20
+  - first:
+      213: 5792749357777551219
+    second: Goblin_Spear_Attack_21
+  - first:
+      213: 7334721437878008589
+    second: Goblin_Spear_Attack_22
+  - first:
+      213: 747440474267288805
+    second: Goblin_Spear_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 431
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a345187bb24f1cc00800000000000000
+      internalID: 919284267559769146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 407
+        width: 19
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c165a99330254b0800000000000000
+      internalID: -5453292652854895572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 398
+        width: 19
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc744cb662466b50800000000000000
+      internalID: 6586024514088631546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 396
+        width: 19
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b47dc6af3d469c0800000000000000
+      internalID: -3934787101893637254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 397
+        width: 18
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa60cf2f0d4e07a0800000000000000
+      internalID: -6409100492080649480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 431
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a718007833c569be0800000000000000
+      internalID: -1470886851911843462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 303
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b30fd7bb72aa590800000000000000
+      internalID: -7662268129792214125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 303
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f652af4be1b24afb0800000000000000
+      internalID: -4637534305399462545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 303
+        width: 59
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea8450b977b47bf0800000000000000
+      internalID: -327435139613947161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 303
+        width: 61
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9742326428a02c0800000000000000
+      internalID: -4464612842835510851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 303
+        width: 65
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c8b43fe079d3640800000000000000
+      internalID: 5061367646701456504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 303
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ef25330a54acfb0800000000000000
+      internalID: -4626809112811602396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 175
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525765f539a997fc0800000000000000
+      internalID: -3496593677926107867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 175
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4fdc0f33642d850800000000000000
+      internalID: 6400255209344201978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 175
+        width: 59
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52570827aa8ded030800000000000000
+      internalID: 3521490185227367717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 175
+        width: 61
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae07277143332c140800000000000000
+      internalID: 4738406056771875050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 175
+        width: 65
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ceb517612dfbac60800000000000000
+      internalID: 7830630697018965705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 175
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c649db072611265c0800000000000000
+      internalID: -4223794386024164244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 47
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4337c310a14d5af0800000000000000
+      internalID: -406096235611081905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 47
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee53a63fcda6ca50800000000000000
+      internalID: 6541106614288735971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 47
+        width: 19
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194026688ce69dfa0800000000000000
+      internalID: -5775463239598865263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 47
+        width: 19
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ff33f79daf36050800000000000000
+      internalID: 5792749357777551219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 47
+        width: 18
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b3927694a2ac560800000000000000
+      internalID: 7334721437878008589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Spear_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 47
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e48377b6217f5a00800000000000000
+      internalID: 747440474267288805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Goblin_Spear_Attack_0: 919284267559769146
+      Goblin_Spear_Attack_1: -5453292652854895572
+      Goblin_Spear_Attack_10: 5061367646701456504
+      Goblin_Spear_Attack_11: -4626809112811602396
+      Goblin_Spear_Attack_12: -3496593677926107867
+      Goblin_Spear_Attack_13: 6400255209344201978
+      Goblin_Spear_Attack_14: 3521490185227367717
+      Goblin_Spear_Attack_15: 4738406056771875050
+      Goblin_Spear_Attack_16: 7830630697018965705
+      Goblin_Spear_Attack_17: -4223794386024164244
+      Goblin_Spear_Attack_18: -406096235611081905
+      Goblin_Spear_Attack_19: 6541106614288735971
+      Goblin_Spear_Attack_2: 6586024514088631546
+      Goblin_Spear_Attack_20: -5775463239598865263
+      Goblin_Spear_Attack_21: 5792749357777551219
+      Goblin_Spear_Attack_22: 7334721437878008589
+      Goblin_Spear_Attack_23: 747440474267288805
+      Goblin_Spear_Attack_3: -3934787101893637254
+      Goblin_Spear_Attack_4: -6409100492080649480
+      Goblin_Spear_Attack_5: -1470886851911843462
+      Goblin_Spear_Attack_6: -7662268129792214125
+      Goblin_Spear_Attack_7: -4637534305399462545
+      Goblin_Spear_Attack_8: -327435139613947161
+      Goblin_Spear_Attack_9: -4464612842835510851
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

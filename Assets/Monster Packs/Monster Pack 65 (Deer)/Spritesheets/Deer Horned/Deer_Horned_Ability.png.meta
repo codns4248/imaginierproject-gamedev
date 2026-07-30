@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: ba1811594ce79ed46a00bd4ba095161a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6395952339246720526
+    second: Deer_Horned_Ability_0
+  - first:
+      213: 9162352597885460230
+    second: Deer_Horned_Ability_1
+  - first:
+      213: 2695761486058140373
+    second: Deer_Horned_Ability_2
+  - first:
+      213: -5699630366203064669
+    second: Deer_Horned_Ability_3
+  - first:
+      213: -3002445370781532413
+    second: Deer_Horned_Ability_4
+  - first:
+      213: -7871190802942951595
+    second: Deer_Horned_Ability_5
+  - first:
+      213: -7081048133559047144
+    second: Deer_Horned_Ability_6
+  - first:
+      213: -2303787180993615668
+    second: Deer_Horned_Ability_7
+  - first:
+      213: -5950874013443085360
+    second: Deer_Horned_Ability_8
+  - first:
+      213: 8265920499205130307
+    second: Deer_Horned_Ability_9
+  - first:
+      213: 6040247931550314581
+    second: Deer_Horned_Ability_10
+  - first:
+      213: -6067386697311178718
+    second: Deer_Horned_Ability_11
+  - first:
+      213: -600511680859785662
+    second: Deer_Horned_Ability_12
+  - first:
+      213: -389851839399639468
+    second: Deer_Horned_Ability_13
+  - first:
+      213: -4885020819984708215
+    second: Deer_Horned_Ability_14
+  - first:
+      213: 6262704036968351867
+    second: Deer_Horned_Ability_15
+  - first:
+      213: -7160247141228276518
+    second: Deer_Horned_Ability_16
+  - first:
+      213: 8307923822296569484
+    second: Deer_Horned_Ability_17
+  - first:
+      213: 5565573169828596720
+    second: Deer_Horned_Ability_18
+  - first:
+      213: -383203675082700270
+    second: Deer_Horned_Ability_19
+  - first:
+      213: -2588473802228488772
+    second: Deer_Horned_Ability_20
+  - first:
+      213: 2637055899801788757
+    second: Deer_Horned_Ability_21
+  - first:
+      213: 4779228948112638100
+    second: Deer_Horned_Ability_22
+  - first:
+      213: -8875010846590943796
+    second: Deer_Horned_Ability_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 431
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06212de3ccf2c850800000000000000
+      internalID: 6395952339246720526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 431
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f17dfb427372f70800000000000000
+      internalID: 9162352597885460230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 431
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2bcafe9c4496520800000000000000
+      internalID: 2695761486058140373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_3
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 431
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aecf6f3168d6e0b0800000000000000
+      internalID: -5699630366203064669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_4
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 431
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ffc09c7db2556d0800000000000000
+      internalID: -3002445370781532413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_5
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 431
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f73470ba9e3c290800000000000000
+      internalID: -7871190802942951595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 303
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c25c15d301bbd90800000000000000
+      internalID: -7081048133559047144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_7
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 303
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8e6cec3cd4700e0800000000000000
+      internalID: -2303787180993615668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_8
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 303
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db2f952d9f3a6da0800000000000000
+      internalID: -5950874013443085360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_9
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 303
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348cdb836e276b270800000000000000
+      internalID: 8265920499205130307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_10
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 303
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550385bbd7543d350800000000000000
+      internalID: 6040247931550314581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_11
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 303
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22036d7f1ff4ccba0800000000000000
+      internalID: -6067386697311178718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 175
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24631e2decd8aa7f0800000000000000
+      internalID: -600511680859785662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 175
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4564d8d41d7f69af0800000000000000
+      internalID: -389851839399639468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_14
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 175
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d8c68327be43cb0800000000000000
+      internalID: -4885020819984708215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 175
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7847e0f32899e650800000000000000
+      internalID: 6262704036968351867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_16
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 175
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad415136921b1ac90800000000000000
+      internalID: -7160247141228276518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_17
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 175
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c861ef8f2bcab4370800000000000000
+      internalID: 8307923822296569484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 47
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb041f6f43ec3d40800000000000000
+      internalID: 5565573169828596720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 47
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a421ea9469eaaf0800000000000000
+      internalID: -383203675082700270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_20
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 47
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb524cb8ac4e31cd0800000000000000
+      internalID: -2588473802228488772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_21
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 47
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551a8808e54b89420800000000000000
+      internalID: 2637055899801788757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_22
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 47
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4908488286b335240800000000000000
+      internalID: 4779228948112638100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Horned_Ability_23
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 47
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd353728a0a5d480800000000000000
+      internalID: -8875010846590943796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Deer_Horned_Ability_0: 6395952339246720526
+      Deer_Horned_Ability_1: 9162352597885460230
+      Deer_Horned_Ability_10: 6040247931550314581
+      Deer_Horned_Ability_11: -6067386697311178718
+      Deer_Horned_Ability_12: -600511680859785662
+      Deer_Horned_Ability_13: -389851839399639468
+      Deer_Horned_Ability_14: -4885020819984708215
+      Deer_Horned_Ability_15: 6262704036968351867
+      Deer_Horned_Ability_16: -7160247141228276518
+      Deer_Horned_Ability_17: 8307923822296569484
+      Deer_Horned_Ability_18: 5565573169828596720
+      Deer_Horned_Ability_19: -383203675082700270
+      Deer_Horned_Ability_2: 2695761486058140373
+      Deer_Horned_Ability_20: -2588473802228488772
+      Deer_Horned_Ability_21: 2637055899801788757
+      Deer_Horned_Ability_22: 4779228948112638100
+      Deer_Horned_Ability_23: -8875010846590943796
+      Deer_Horned_Ability_3: -5699630366203064669
+      Deer_Horned_Ability_4: -3002445370781532413
+      Deer_Horned_Ability_5: -7871190802942951595
+      Deer_Horned_Ability_6: -7081048133559047144
+      Deer_Horned_Ability_7: -2303787180993615668
+      Deer_Horned_Ability_8: -5950874013443085360
+      Deer_Horned_Ability_9: 8265920499205130307
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

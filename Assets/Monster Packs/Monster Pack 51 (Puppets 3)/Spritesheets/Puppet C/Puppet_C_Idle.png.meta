@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 6a7196dee7b2ad54183e529974b16b7a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1147194753853558330
+    second: Puppet_C_Idle_0
+  - first:
+      213: -2688311569121480732
+    second: Puppet_C_Idle_1
+  - first:
+      213: 468751983122062792
+    second: Puppet_C_Idle_2
+  - first:
+      213: -4738150838828969490
+    second: Puppet_C_Idle_3
+  - first:
+      213: -8263124046119237416
+    second: Puppet_C_Idle_4
+  - first:
+      213: -4800041021405255230
+    second: Puppet_C_Idle_5
+  - first:
+      213: -2689196478248807498
+    second: Puppet_C_Idle_6
+  - first:
+      213: -7598100869205840927
+    second: Puppet_C_Idle_7
+  - first:
+      213: 4036069699442164831
+    second: Puppet_C_Idle_8
+  - first:
+      213: 1069309024076006150
+    second: Puppet_C_Idle_9
+  - first:
+      213: -6564343212810543707
+    second: Puppet_C_Idle_10
+  - first:
+      213: 855041632663504880
+    second: Puppet_C_Idle_11
+  - first:
+      213: 8356248122243482956
+    second: Puppet_C_Idle_12
+  - first:
+      213: 3170311796390192756
+    second: Puppet_C_Idle_13
+  - first:
+      213: 3009651183328511981
+    second: Puppet_C_Idle_14
+  - first:
+      213: 8775440996426601597
+    second: Puppet_C_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Puppet_C_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 441
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1fd5013785410f0800000000000000
+      internalID: -1147194753853558330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_C_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 442
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efe0f40fd231bad0800000000000000
+      internalID: -2688311569121480732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_C_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 442
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd10c1f177518600800000000000000
+      internalID: 468751983122062792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_C_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 441
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee151677ae4be3eb0800000000000000
+      internalID: -4738150838828969490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_C_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 313
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d80310c57c735d80800000000000000
+      internalID: -8263124046119237416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_C_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 314
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c926db6f14d26db0800000000000000
+      internalID: -4800041021405255230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_C_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 314
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b39fbe0d0e0eaad0800000000000000
+      internalID: -2689196478248807498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_C_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 313
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb2663148f1e8690800000000000000
+      internalID: -7598100869205840927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_C_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 185
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54c7f3f100030830800000000000000
+      internalID: 4036069699442164831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_C_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 186
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6038b2754e2f6de00800000000000000
+      internalID: 1069309024076006150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_C_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 186
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad5ea890a4c6e4a0800000000000000
+      internalID: -6564343212810543707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_C_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 185
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7041fa5d7bddb00800000000000000
+      internalID: 855041632663504880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_C_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 57
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c450955d46b57f370800000000000000
+      internalID: 8356248122243482956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_C_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 58
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476611328c53ffb20800000000000000
+      internalID: 3170311796390192756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_C_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 58
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de741203ecd64c920800000000000000
+      internalID: 3009651183328511981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puppet_C_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 57
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74586b8711a8c970800000000000000
+      internalID: 8775440996426601597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Puppet_C_Idle_0: -1147194753853558330
+      Puppet_C_Idle_1: -2688311569121480732
+      Puppet_C_Idle_10: -6564343212810543707
+      Puppet_C_Idle_11: 855041632663504880
+      Puppet_C_Idle_12: 8356248122243482956
+      Puppet_C_Idle_13: 3170311796390192756
+      Puppet_C_Idle_14: 3009651183328511981
+      Puppet_C_Idle_15: 8775440996426601597
+      Puppet_C_Idle_2: 468751983122062792
+      Puppet_C_Idle_3: -4738150838828969490
+      Puppet_C_Idle_4: -8263124046119237416
+      Puppet_C_Idle_5: -4800041021405255230
+      Puppet_C_Idle_6: -2689196478248807498
+      Puppet_C_Idle_7: -7598100869205840927
+      Puppet_C_Idle_8: 4036069699442164831
+      Puppet_C_Idle_9: 1069309024076006150
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

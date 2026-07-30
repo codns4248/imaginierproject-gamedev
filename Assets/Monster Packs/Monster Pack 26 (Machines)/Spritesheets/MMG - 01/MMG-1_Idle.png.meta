@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: adb63b123ec415f4d9399dd9e82ee763
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5275002575657456066
+    second: MMG-1_Idle_0
+  - first:
+      213: -926621175316296043
+    second: MMG-1_Idle_1
+  - first:
+      213: 4919306559205654359
+    second: MMG-1_Idle_2
+  - first:
+      213: 7774007916253312081
+    second: MMG-1_Idle_3
+  - first:
+      213: -2963954521111585288
+    second: MMG-1_Idle_4
+  - first:
+      213: 6944027748180648129
+    second: MMG-1_Idle_5
+  - first:
+      213: 1348075514952523370
+    second: MMG-1_Idle_6
+  - first:
+      213: -2803674251771004325
+    second: MMG-1_Idle_7
+  - first:
+      213: 7798800078037176429
+    second: MMG-1_Idle_8
+  - first:
+      213: -4288966050379653486
+    second: MMG-1_Idle_9
+  - first:
+      213: -1598376485026863837
+    second: MMG-1_Idle_10
+  - first:
+      213: 6261913468219482242
+    second: MMG-1_Idle_11
+  - first:
+      213: -1521317420748295125
+    second: MMG-1_Idle_12
+  - first:
+      213: -475888984108236917
+    second: MMG-1_Idle_13
+  - first:
+      213: 939290526875067594
+    second: MMG-1_Idle_14
+  - first:
+      213: -5075574409520901442
+    second: MMG-1_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MMG-1_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 332
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3eaaa80b1d6bc6b0800000000000000
+      internalID: -5275002575657456066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMG-1_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 333
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ecae353faf323f0800000000000000
+      internalID: -926621175316296043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMG-1_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 333
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75fb3b28043e44440800000000000000
+      internalID: 4919306559205654359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMG-1_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 332
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1547a59e203d2eb60800000000000000
+      internalID: 7774007916253312081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMG-1_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 236
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd1bb6111bedd6d0800000000000000
+      internalID: -2963954521111585288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMG-1_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 237
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c063c822742e5060800000000000000
+      internalID: 6944027748180648129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMG-1_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 237
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e9527d98355b210800000000000000
+      internalID: 1348075514952523370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMG-1_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 236
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ab74d5f195719d0800000000000000
+      internalID: -2803674251771004325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMG-1_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 140
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60d1b5e957ea3c60800000000000000
+      internalID: 7798800078037176429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMG-1_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 141
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e1961e9188a74c0800000000000000
+      internalID: -4288966050379653486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMG-1_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 141
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325e2a03e0d61d9e0800000000000000
+      internalID: -1598376485026863837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMG-1_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 140
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280e47f4f19c6e650800000000000000
+      internalID: 6261913468219482242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMG-1_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 48
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b243fa9bdd133eae0800000000000000
+      internalID: -1521317420748295125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMG-1_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 49
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ff4b58d7d4569f0800000000000000
+      internalID: -475888984108236917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMG-1_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 49
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac42743f1c7090d00800000000000000
+      internalID: 939290526875067594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MMG-1_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 48
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2917157ffef89b0800000000000000
+      internalID: -5075574409520901442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MMG-1_Idle_0: -5275002575657456066
+      MMG-1_Idle_1: -926621175316296043
+      MMG-1_Idle_10: -1598376485026863837
+      MMG-1_Idle_11: 6261913468219482242
+      MMG-1_Idle_12: -1521317420748295125
+      MMG-1_Idle_13: -475888984108236917
+      MMG-1_Idle_14: 939290526875067594
+      MMG-1_Idle_15: -5075574409520901442
+      MMG-1_Idle_2: 4919306559205654359
+      MMG-1_Idle_3: 7774007916253312081
+      MMG-1_Idle_4: -2963954521111585288
+      MMG-1_Idle_5: 6944027748180648129
+      MMG-1_Idle_6: 1348075514952523370
+      MMG-1_Idle_7: -2803674251771004325
+      MMG-1_Idle_8: 7798800078037176429
+      MMG-1_Idle_9: -4288966050379653486
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

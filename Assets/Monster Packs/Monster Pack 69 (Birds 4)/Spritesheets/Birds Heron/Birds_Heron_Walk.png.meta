@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 78b96e6e7db816244be4ea28e722e834
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4736220700161616748
+    second: Birds_Heron_Walk_0
+  - first:
+      213: -3390337773860764717
+    second: Birds_Heron_Walk_1
+  - first:
+      213: -7896841518652631684
+    second: Birds_Heron_Walk_2
+  - first:
+      213: -217495200710713605
+    second: Birds_Heron_Walk_3
+  - first:
+      213: -5969996492526552620
+    second: Birds_Heron_Walk_4
+  - first:
+      213: 150552398239129639
+    second: Birds_Heron_Walk_5
+  - first:
+      213: 3024010793850953237
+    second: Birds_Heron_Walk_6
+  - first:
+      213: -453918154009086107
+    second: Birds_Heron_Walk_7
+  - first:
+      213: -5471835173237827495
+    second: Birds_Heron_Walk_8
+  - first:
+      213: 9144117705025827833
+    second: Birds_Heron_Walk_9
+  - first:
+      213: -848751409025654921
+    second: Birds_Heron_Walk_10
+  - first:
+      213: -1084769054150493224
+    second: Birds_Heron_Walk_11
+  - first:
+      213: 2987377688856545808
+    second: Birds_Heron_Walk_12
+  - first:
+      213: 7903538065497104967
+    second: Birds_Heron_Walk_13
+  - first:
+      213: -3228228467493676412
+    second: Birds_Heron_Walk_14
+  - first:
+      213: -8606978362989315782
+    second: Birds_Heron_Walk_15
+  - first:
+      213: 2101299073318016532
+    second: Birds_Heron_Walk_16
+  - first:
+      213: 7282843248368747826
+    second: Birds_Heron_Walk_17
+  - first:
+      213: 1037584093992072058
+    second: Birds_Heron_Walk_18
+  - first:
+      213: 3888377268430882311
+    second: Birds_Heron_Walk_19
+  - first:
+      213: -7362926070424979719
+    second: Birds_Heron_Walk_20
+  - first:
+      213: 2301267345573545329
+    second: Birds_Heron_Walk_21
+  - first:
+      213: -2203428048273679188
+    second: Birds_Heron_Walk_22
+  - first:
+      213: -1253127620225053221
+    second: Birds_Heron_Walk_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 431
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b2cfa12af6ab140800000000000000
+      internalID: 4736220700161616748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 431
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3c078e1c913f0d0800000000000000
+      internalID: -3390337773860764717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 431
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7557216a78c86290800000000000000
+      internalID: -7896841518652631684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 431
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe194d644d4bfcf0800000000000000
+      internalID: -217495200710713605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 431
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d970a802df462da0800000000000000
+      internalID: -5969996492526552620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 431
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7206029cb9ed61200800000000000000
+      internalID: 150552398239129639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 303
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ede6c8bc177f920800000000000000
+      internalID: 3024010793850953237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 303
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567ff2908db53b9f0800000000000000
+      internalID: -453918154009086107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 303
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958dba5a6e22014b0800000000000000
+      internalID: -5471835173237827495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 303
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3bc68ea9e66ee70800000000000000
+      internalID: 9144117705025827833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 303
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fd9622711a834f0800000000000000
+      internalID: -848751409025654921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 303
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dbf508ea4022f0f0800000000000000
+      internalID: -1084769054150493224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 175
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ac8322e2c457920800000000000000
+      internalID: 2987377688856545808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 175
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742abbeeef10fad60800000000000000
+      internalID: 7903538065497104967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 175
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a5c3d00570333d0800000000000000
+      internalID: -3228228467493676412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 175
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a397c84d7cedd8880800000000000000
+      internalID: -8606978362989315782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_16
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 175
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4165affbf50592d10800000000000000
+      internalID: 2101299073318016532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_17
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 175
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2350fd5295bd11560800000000000000
+      internalID: 7282843248368747826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_18
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 44
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a733ef27c3d366e00800000000000000
+      internalID: 1037584093992072058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_19
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 43
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706c68d268a46f530800000000000000
+      internalID: 3888377268430882311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_20
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 44
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f63bd8dfb1a1d990800000000000000
+      internalID: -7362926070424979719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_21
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 45
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1750e1a457ebfef10800000000000000
+      internalID: 2301267345573545329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_22
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 45
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cacd3864dd9db61e0800000000000000
+      internalID: -2203428048273679188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Walk_23
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 44
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd414a911ffb9ee0800000000000000
+      internalID: -1253127620225053221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birds_Heron_Walk_0: 4736220700161616748
+      Birds_Heron_Walk_1: -3390337773860764717
+      Birds_Heron_Walk_10: -848751409025654921
+      Birds_Heron_Walk_11: -1084769054150493224
+      Birds_Heron_Walk_12: 2987377688856545808
+      Birds_Heron_Walk_13: 7903538065497104967
+      Birds_Heron_Walk_14: -3228228467493676412
+      Birds_Heron_Walk_15: -8606978362989315782
+      Birds_Heron_Walk_16: 2101299073318016532
+      Birds_Heron_Walk_17: 7282843248368747826
+      Birds_Heron_Walk_18: 1037584093992072058
+      Birds_Heron_Walk_19: 3888377268430882311
+      Birds_Heron_Walk_2: -7896841518652631684
+      Birds_Heron_Walk_20: -7362926070424979719
+      Birds_Heron_Walk_21: 2301267345573545329
+      Birds_Heron_Walk_22: -2203428048273679188
+      Birds_Heron_Walk_23: -1253127620225053221
+      Birds_Heron_Walk_3: -217495200710713605
+      Birds_Heron_Walk_4: -5969996492526552620
+      Birds_Heron_Walk_5: 150552398239129639
+      Birds_Heron_Walk_6: 3024010793850953237
+      Birds_Heron_Walk_7: -453918154009086107
+      Birds_Heron_Walk_8: -5471835173237827495
+      Birds_Heron_Walk_9: 9144117705025827833
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

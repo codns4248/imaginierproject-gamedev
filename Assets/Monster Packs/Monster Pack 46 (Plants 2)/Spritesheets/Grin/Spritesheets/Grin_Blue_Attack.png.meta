@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 51e548eb98d5c494097c0b7c040aac79
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7924559760239058775
+    second: Grin_Blue_Attack_0
+  - first:
+      213: 6782080334600416448
+    second: Grin_Blue_Attack_1
+  - first:
+      213: -4277737910061884719
+    second: Grin_Blue_Attack_2
+  - first:
+      213: 3129546853311476116
+    second: Grin_Blue_Attack_3
+  - first:
+      213: -1529820483877480572
+    second: Grin_Blue_Attack_4
+  - first:
+      213: 4349999567562563888
+    second: Grin_Blue_Attack_5
+  - first:
+      213: -5039488917065583907
+    second: Grin_Blue_Attack_6
+  - first:
+      213: -8924010321410878597
+    second: Grin_Blue_Attack_7
+  - first:
+      213: -7670206595881611049
+    second: Grin_Blue_Attack_8
+  - first:
+      213: 7216804942647636406
+    second: Grin_Blue_Attack_9
+  - first:
+      213: -6205174555626399334
+    second: Grin_Blue_Attack_10
+  - first:
+      213: 1127116520735647964
+    second: Grin_Blue_Attack_11
+  - first:
+      213: 8590928452161819986
+    second: Grin_Blue_Attack_12
+  - first:
+      213: -6786924352796317272
+    second: Grin_Blue_Attack_13
+  - first:
+      213: 664981197314940482
+    second: Grin_Blue_Attack_14
+  - first:
+      213: 8572970443255571571
+    second: Grin_Blue_Attack_15
+  - first:
+      213: -2527362335886334669
+    second: Grin_Blue_Attack_16
+  - first:
+      213: 6583255240175548361
+    second: Grin_Blue_Attack_17
+  - first:
+      213: 658726093953948699
+    second: Grin_Blue_Attack_18
+  - first:
+      213: -2621218347504783928
+    second: Grin_Blue_Attack_19
+  - first:
+      213: 499488214330544689
+    second: Grin_Blue_Attack_20
+  - first:
+      213: 6272335793200930842
+    second: Grin_Blue_Attack_21
+  - first:
+      213: 1468307589612800305
+    second: Grin_Blue_Attack_22
+  - first:
+      213: 7515926098377599581
+    second: Grin_Blue_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 436
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f5766ad11b9fd60800000000000000
+      internalID: 7924559760239058775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 437
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc250e912ace1e50800000000000000
+      internalID: 6782080334600416448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 436
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da1a84090c62a4c0800000000000000
+      internalID: -4277737910061884719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 435
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491729338426e6b20800000000000000
+      internalID: 3129546853311476116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 435
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487dd50106cf4cae0800000000000000
+      internalID: -1529820483877480572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 436
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0316ba53f8d4e5c30800000000000000
+      internalID: 4349999567562563888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 308
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2b9c0c783201ab0800000000000000
+      internalID: -5039488917065583907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 309
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b739264e4eb872480800000000000000
+      internalID: -8924010321410878597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 308
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d05e925db3fd8590800000000000000
+      internalID: -7670206595881611049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 307
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1bbcbebdd372460800000000000000
+      internalID: 7216804942647636406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 307
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99989a3e9ac2e9a0800000000000000
+      internalID: -6205174555626399334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 308
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd82ceef08254af00800000000000000
+      internalID: 1127116520735647964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 180
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255d6e919eb193770800000000000000
+      internalID: 8590928452161819986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 181
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9a022824000d1a0800000000000000
+      internalID: -6786924352796317272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 180
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e554030ec7a3900800000000000000
+      internalID: 664981197314940482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 179
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374eb24523f49f670800000000000000
+      internalID: 8572970443255571571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 179
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3352bc698510decd0800000000000000
+      internalID: -2527362335886334669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 180
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c77468e2cb6c5b50800000000000000
+      internalID: 6583255240175548361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 52
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1cd76274e3442900800000000000000
+      internalID: 658726093953948699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 53
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdad3efccf8f9bd0800000000000000
+      internalID: -2621218347504783928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 52
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1329aa072e98ee600800000000000000
+      internalID: 499488214330544689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 51
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10a5b1fb20db0750800000000000000
+      internalID: 6272335793200930842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 51
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13981eb29f9706410800000000000000
+      internalID: 1468307589612800305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Blue_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 52
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a62e327feed4860800000000000000
+      internalID: 7515926098377599581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Grin_Blue_Attack_0: 7924559760239058775
+      Grin_Blue_Attack_1: 6782080334600416448
+      Grin_Blue_Attack_10: -6205174555626399334
+      Grin_Blue_Attack_11: 1127116520735647964
+      Grin_Blue_Attack_12: 8590928452161819986
+      Grin_Blue_Attack_13: -6786924352796317272
+      Grin_Blue_Attack_14: 664981197314940482
+      Grin_Blue_Attack_15: 8572970443255571571
+      Grin_Blue_Attack_16: -2527362335886334669
+      Grin_Blue_Attack_17: 6583255240175548361
+      Grin_Blue_Attack_18: 658726093953948699
+      Grin_Blue_Attack_19: -2621218347504783928
+      Grin_Blue_Attack_2: -4277737910061884719
+      Grin_Blue_Attack_20: 499488214330544689
+      Grin_Blue_Attack_21: 6272335793200930842
+      Grin_Blue_Attack_22: 1468307589612800305
+      Grin_Blue_Attack_23: 7515926098377599581
+      Grin_Blue_Attack_3: 3129546853311476116
+      Grin_Blue_Attack_4: -1529820483877480572
+      Grin_Blue_Attack_5: 4349999567562563888
+      Grin_Blue_Attack_6: -5039488917065583907
+      Grin_Blue_Attack_7: -8924010321410878597
+      Grin_Blue_Attack_8: -7670206595881611049
+      Grin_Blue_Attack_9: 7216804942647636406
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

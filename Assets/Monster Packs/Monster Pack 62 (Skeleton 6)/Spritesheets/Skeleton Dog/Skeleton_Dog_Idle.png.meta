@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 163490cc1f0eef048835e490b3a6d7d3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8561357492756172731
+    second: Skeleton_Dog_Idle_0
+  - first:
+      213: 9067061865284492362
+    second: Skeleton_Dog_Idle_1
+  - first:
+      213: -9139437856486102122
+    second: Skeleton_Dog_Idle_2
+  - first:
+      213: -4698544677016264809
+    second: Skeleton_Dog_Idle_3
+  - first:
+      213: 7422961992352793823
+    second: Skeleton_Dog_Idle_4
+  - first:
+      213: -6370191968904599596
+    second: Skeleton_Dog_Idle_5
+  - first:
+      213: 5458286151020855046
+    second: Skeleton_Dog_Idle_6
+  - first:
+      213: -549944003562293057
+    second: Skeleton_Dog_Idle_7
+  - first:
+      213: -9061547045737549751
+    second: Skeleton_Dog_Idle_8
+  - first:
+      213: -7572156792399944230
+    second: Skeleton_Dog_Idle_9
+  - first:
+      213: 1243790649062594041
+    second: Skeleton_Dog_Idle_10
+  - first:
+      213: 2980566941514336603
+    second: Skeleton_Dog_Idle_11
+  - first:
+      213: -2668363131210813666
+    second: Skeleton_Dog_Idle_12
+  - first:
+      213: 1999404136740345631
+    second: Skeleton_Dog_Idle_13
+  - first:
+      213: 6853707328179272278
+    second: Skeleton_Dog_Idle_14
+  - first:
+      213: -5724443658448133830
+    second: Skeleton_Dog_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton_Dog_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 431
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540b32968b2ff2980800000000000000
+      internalID: -8561357492756172731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 431
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4cd5c42abca4dd70800000000000000
+      internalID: 9067061865284492362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 431
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b636d31b13a2180800000000000000
+      internalID: -9139437856486102122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 431
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f942d928a6bceb0800000000000000
+      internalID: -4698544677016264809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 303
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd40a6f7a98a30760800000000000000
+      internalID: 7422961992352793823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 303
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7256ea7288897a0800000000000000
+      internalID: -6370191968904599596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 303
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f380ac55abfbb40800000000000000
+      internalID: 5458286151020855046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 303
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8305da7d43e58f0800000000000000
+      internalID: -549944003562293057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 175
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940b257d8faee3280800000000000000
+      internalID: -9061547045737549751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 175
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5a07d248b4ae690800000000000000
+      internalID: -7572156792399944230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 175
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f514546105d24110800000000000000
+      internalID: 1243790649062594041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 175
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b590c3277d91d5920800000000000000
+      internalID: 2980566941514336603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f2e68aed118fad0800000000000000
+      internalID: -2668363131210813666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 47
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17dad4187f4fbb10800000000000000
+      internalID: 1999404136740345631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 47
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65afd92a0824d1f50800000000000000
+      internalID: 6853707328179272278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Dog_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 47
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31267172d0be80b0800000000000000
+      internalID: -5724443658448133830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skeleton_Dog_Idle_0: -8561357492756172731
+      Skeleton_Dog_Idle_1: 9067061865284492362
+      Skeleton_Dog_Idle_10: 1243790649062594041
+      Skeleton_Dog_Idle_11: 2980566941514336603
+      Skeleton_Dog_Idle_12: -2668363131210813666
+      Skeleton_Dog_Idle_13: 1999404136740345631
+      Skeleton_Dog_Idle_14: 6853707328179272278
+      Skeleton_Dog_Idle_15: -5724443658448133830
+      Skeleton_Dog_Idle_2: -9139437856486102122
+      Skeleton_Dog_Idle_3: -4698544677016264809
+      Skeleton_Dog_Idle_4: 7422961992352793823
+      Skeleton_Dog_Idle_5: -6370191968904599596
+      Skeleton_Dog_Idle_6: 5458286151020855046
+      Skeleton_Dog_Idle_7: -549944003562293057
+      Skeleton_Dog_Idle_8: -9061547045737549751
+      Skeleton_Dog_Idle_9: -7572156792399944230
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

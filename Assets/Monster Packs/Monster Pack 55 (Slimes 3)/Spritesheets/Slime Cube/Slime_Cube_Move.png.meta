@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: c6d3ff0e3c75dc64f8721f799ce69e3f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5053244743501342003
+    second: Slime_Cube_Move_0
+  - first:
+      213: -5775245004858366491
+    second: Slime_Cube_Move_1
+  - first:
+      213: 4529298779332918555
+    second: Slime_Cube_Move_2
+  - first:
+      213: 2698088459255722890
+    second: Slime_Cube_Move_3
+  - first:
+      213: 3273047037101325609
+    second: Slime_Cube_Move_4
+  - first:
+      213: -4623547422948495951
+    second: Slime_Cube_Move_5
+  - first:
+      213: -4891061408737403572
+    second: Slime_Cube_Move_6
+  - first:
+      213: -5903021238165512129
+    second: Slime_Cube_Move_7
+  - first:
+      213: 4744781138464786507
+    second: Slime_Cube_Move_8
+  - first:
+      213: -4526402222930989021
+    second: Slime_Cube_Move_9
+  - first:
+      213: -8144052484032963707
+    second: Slime_Cube_Move_10
+  - first:
+      213: -188172454081621435
+    second: Slime_Cube_Move_11
+  - first:
+      213: 3336733344129579857
+    second: Slime_Cube_Move_12
+  - first:
+      213: -3115964989806861775
+    second: Slime_Cube_Move_13
+  - first:
+      213: -4153442465278340632
+    second: Slime_Cube_Move_14
+  - first:
+      213: 8811214118039231566
+    second: Slime_Cube_Move_15
+  - first:
+      213: 7854208478052730438
+    second: Slime_Cube_Move_16
+  - first:
+      213: -4727920522967442796
+    second: Slime_Cube_Move_17
+  - first:
+      213: 5795599810504692686
+    second: Slime_Cube_Move_18
+  - first:
+      213: -3474044336494663296
+    second: Slime_Cube_Move_19
+  - first:
+      213: -3775312302588004054
+    second: Slime_Cube_Move_20
+  - first:
+      213: 3104095152477360210
+    second: Slime_Cube_Move_21
+  - first:
+      213: -5107885189275893140
+    second: Slime_Cube_Move_22
+  - first:
+      213: 7313130509590919770
+    second: Slime_Cube_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_Cube_Move_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 432
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335e18b225bb02640800000000000000
+      internalID: 5053244743501342003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 440
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5619244453adfa0800000000000000
+      internalID: -5775245004858366491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 443
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1dbfb71e3d4bde30800000000000000
+      internalID: 4529298779332918555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_3
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 437
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83b48a9829817520800000000000000
+      internalID: 2698088459255722890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 431
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92db19b50f23c6d20800000000000000
+      internalID: 3273047037101325609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_5
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 431
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd6bfc8d1cd5dfb0800000000000000
+      internalID: -4623547422948495951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_6
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 303
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4dd59d00957f1cb0800000000000000
+      internalID: -4891061408737403572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_7
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 314
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30ee8d9571441ea0800000000000000
+      internalID: -5903021238165512129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_8
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 315
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48ca277e49d8d140800000000000000
+      internalID: 4744781138464786507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_9
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 309
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320f8aff82dfe21c0800000000000000
+      internalID: -4526402222930989021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_10
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 303
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58bd3113a638afe80800000000000000
+      internalID: -8144052484032963707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_11
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 303
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54293f5662a736df0800000000000000
+      internalID: -188172454081621435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_12
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 175
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b7b073c457e4e20800000000000000
+      internalID: 3336733344129579857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_13
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 186
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1322202d95ed1c4d0800000000000000
+      internalID: -3115964989806861775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_14
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 187
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1df0e65120c56c0800000000000000
+      internalID: -4153442465278340632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_15
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 181
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c92a97e88b74a70800000000000000
+      internalID: 8811214118039231566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_16
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 175
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646c1365ff0cffc60800000000000000
+      internalID: 7854208478052730438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_17
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 175
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a1f3e755d036eb0800000000000000
+      internalID: -4727920522967442796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_18
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 48
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3147d325b1e6050800000000000000
+      internalID: 5795599810504692686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_19
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 56
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089274d0517b9cfc0800000000000000
+      internalID: -3474044336494663296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 59
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29741896756b9bc0800000000000000
+      internalID: -3775312302588004054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_21
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 53
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250dc605816f31b20800000000000000
+      internalID: 3104095152477360210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_22
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 47
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c624bbbab752d19b0800000000000000
+      internalID: -5107885189275893140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Cube_Move_23
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 47
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5afc3ca3757d7560800000000000000
+      internalID: 7313130509590919770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slime_Cube_Move_0: 5053244743501342003
+      Slime_Cube_Move_1: -5775245004858366491
+      Slime_Cube_Move_10: -8144052484032963707
+      Slime_Cube_Move_11: -188172454081621435
+      Slime_Cube_Move_12: 3336733344129579857
+      Slime_Cube_Move_13: -3115964989806861775
+      Slime_Cube_Move_14: -4153442465278340632
+      Slime_Cube_Move_15: 8811214118039231566
+      Slime_Cube_Move_16: 7854208478052730438
+      Slime_Cube_Move_17: -4727920522967442796
+      Slime_Cube_Move_18: 5795599810504692686
+      Slime_Cube_Move_19: -3474044336494663296
+      Slime_Cube_Move_2: 4529298779332918555
+      Slime_Cube_Move_20: -3775312302588004054
+      Slime_Cube_Move_21: 3104095152477360210
+      Slime_Cube_Move_22: -5107885189275893140
+      Slime_Cube_Move_23: 7313130509590919770
+      Slime_Cube_Move_3: 2698088459255722890
+      Slime_Cube_Move_4: 3273047037101325609
+      Slime_Cube_Move_5: -4623547422948495951
+      Slime_Cube_Move_6: -4891061408737403572
+      Slime_Cube_Move_7: -5903021238165512129
+      Slime_Cube_Move_8: 4744781138464786507
+      Slime_Cube_Move_9: -4526402222930989021
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: ccca84914844bf34c8928fb85430f986
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4842480841924459005
+    second: Dungeon_Bat_Move_0
+  - first:
+      213: 1716830930676395929
+    second: Dungeon_Bat_Move_1
+  - first:
+      213: 4269817915056980267
+    second: Dungeon_Bat_Move_2
+  - first:
+      213: -8923633876437556720
+    second: Dungeon_Bat_Move_3
+  - first:
+      213: -1785638180486187209
+    second: Dungeon_Bat_Move_4
+  - first:
+      213: 2843443259349551351
+    second: Dungeon_Bat_Move_5
+  - first:
+      213: 5145519809428580148
+    second: Dungeon_Bat_Move_6
+  - first:
+      213: 5157844726625509875
+    second: Dungeon_Bat_Move_7
+  - first:
+      213: -7440561179721326403
+    second: Dungeon_Bat_Move_8
+  - first:
+      213: 5662435951000932888
+    second: Dungeon_Bat_Move_9
+  - first:
+      213: -5079978327049625618
+    second: Dungeon_Bat_Move_10
+  - first:
+      213: 5556006843245092406
+    second: Dungeon_Bat_Move_11
+  - first:
+      213: 2654681849405039226
+    second: Dungeon_Bat_Move_12
+  - first:
+      213: -3193137863488704355
+    second: Dungeon_Bat_Move_13
+  - first:
+      213: 4964470019215593064
+    second: Dungeon_Bat_Move_14
+  - first:
+      213: -6820041665443557493
+    second: Dungeon_Bat_Move_15
+  - first:
+      213: -8369364757520828215
+    second: Dungeon_Bat_Move_16
+  - first:
+      213: 4465103314418601065
+    second: Dungeon_Bat_Move_17
+  - first:
+      213: 3280488148705321563
+    second: Dungeon_Bat_Move_18
+  - first:
+      213: -3755294089758064638
+    second: Dungeon_Bat_Move_19
+  - first:
+      213: 9222487104064764858
+    second: Dungeon_Bat_Move_20
+  - first:
+      213: -6270961072326684187
+    second: Dungeon_Bat_Move_21
+  - first:
+      213: 9118860388992762228
+    second: Dungeon_Bat_Move_22
+  - first:
+      213: -7438929004192067954
+    second: Dungeon_Bat_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 438
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9ba8e4ba2f33340800000000000000
+      internalID: 4842480841924459005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 438
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99fae52a2a863d710800000000000000
+      internalID: 1716830930676395929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 438
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21029275c0714b30800000000000000
+      internalID: 4269817915056980267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 442
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0122c41d442e82480800000000000000
+      internalID: -8923633876437556720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_4
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 441
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737feba19832837e0800000000000000
+      internalID: -1785638180486187209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_5
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 439
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f842844490f57720800000000000000
+      internalID: 2843443259349551351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 313
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437e9b9210f886740800000000000000
+      internalID: 5145519809428580148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 312
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1a2219378549740800000000000000
+      internalID: 5157844726625509875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_8
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 311
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db026216701ddb890800000000000000
+      internalID: -7440561179721326403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_9
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 310
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812dfce1f73059e40800000000000000
+      internalID: 5662435951000932888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_10
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 310
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef168d50aa4089b0800000000000000
+      internalID: -5079978327049625618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_11
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 308
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e534579c6ea1d40800000000000000
+      internalID: 5556006843245092406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 185
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72e671b31357d420800000000000000
+      internalID: 2654681849405039226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 184
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90f7e7f702bfa3d0800000000000000
+      internalID: -3193137863488704355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_14
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 183
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e0c69fd2755e440800000000000000
+      internalID: 4964470019215593064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 182
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f8fd94d385a51a0800000000000000
+      internalID: -6820041665443557493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_16
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 182
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c83c48881b0adb80800000000000000
+      internalID: -8369364757520828215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_17
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 180
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c075daecb37fd30800000000000000
+      internalID: 4465103314418601065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_18
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 54
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52a5792792a68d20800000000000000
+      internalID: 3280488148705321563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_19
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 55
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200c8d8fbe382ebc0800000000000000
+      internalID: -3755294089758064638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_20
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 54
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abbb667882bdcff70800000000000000
+      internalID: 9222487104064764858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 52
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e15aa3312219f8a0800000000000000
+      internalID: -6270961072326684187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_22
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 53
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4714b42c533bc8e70800000000000000
+      internalID: 9118860388992762228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Move_23
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 53
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e08cbdb7d93c890800000000000000
+      internalID: -7438929004192067954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dungeon_Bat_Move_0: 4842480841924459005
+      Dungeon_Bat_Move_1: 1716830930676395929
+      Dungeon_Bat_Move_10: -5079978327049625618
+      Dungeon_Bat_Move_11: 5556006843245092406
+      Dungeon_Bat_Move_12: 2654681849405039226
+      Dungeon_Bat_Move_13: -3193137863488704355
+      Dungeon_Bat_Move_14: 4964470019215593064
+      Dungeon_Bat_Move_15: -6820041665443557493
+      Dungeon_Bat_Move_16: -8369364757520828215
+      Dungeon_Bat_Move_17: 4465103314418601065
+      Dungeon_Bat_Move_18: 3280488148705321563
+      Dungeon_Bat_Move_19: -3755294089758064638
+      Dungeon_Bat_Move_2: 4269817915056980267
+      Dungeon_Bat_Move_20: 9222487104064764858
+      Dungeon_Bat_Move_21: -6270961072326684187
+      Dungeon_Bat_Move_22: 9118860388992762228
+      Dungeon_Bat_Move_23: -7438929004192067954
+      Dungeon_Bat_Move_3: -8923633876437556720
+      Dungeon_Bat_Move_4: -1785638180486187209
+      Dungeon_Bat_Move_5: 2843443259349551351
+      Dungeon_Bat_Move_6: 5145519809428580148
+      Dungeon_Bat_Move_7: 5157844726625509875
+      Dungeon_Bat_Move_8: -7440561179721326403
+      Dungeon_Bat_Move_9: 5662435951000932888
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

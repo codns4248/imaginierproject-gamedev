@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 3e9dd2a7b9288444e8b6e43233150a48
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6799106923108886111
+    second: Wolf_Black_Idle_0
+  - first:
+      213: -8711364616821619262
+    second: Wolf_Black_Idle_1
+  - first:
+      213: -62483237817542188
+    second: Wolf_Black_Idle_2
+  - first:
+      213: 7176645595562155323
+    second: Wolf_Black_Idle_3
+  - first:
+      213: -5450591944837427572
+    second: Wolf_Black_Idle_4
+  - first:
+      213: 3375088654374712035
+    second: Wolf_Black_Idle_5
+  - first:
+      213: 358307712131843310
+    second: Wolf_Black_Idle_6
+  - first:
+      213: 8897010640845232919
+    second: Wolf_Black_Idle_7
+  - first:
+      213: -7705938292987547009
+    second: Wolf_Black_Idle_8
+  - first:
+      213: -7018043212400370558
+    second: Wolf_Black_Idle_9
+  - first:
+      213: 2088078519784258985
+    second: Wolf_Black_Idle_10
+  - first:
+      213: 5889772811936424142
+    second: Wolf_Black_Idle_11
+  - first:
+      213: 2139259645415717445
+    second: Wolf_Black_Idle_12
+  - first:
+      213: 3325710730834448087
+    second: Wolf_Black_Idle_13
+  - first:
+      213: 7839370558414528386
+    second: Wolf_Black_Idle_14
+  - first:
+      213: 4312697101880343437
+    second: Wolf_Black_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wolf_Black_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 429
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a91232d648b4a1a0800000000000000
+      internalID: -6799106923108886111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 429
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5c07929040b1780800000000000000
+      internalID: -8711364616821619262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 429
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9187583d3022ff0800000000000000
+      internalID: -62483237817542188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 429
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d9a5a4521989360800000000000000
+      internalID: 7176645595562155323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 303
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e0c50318b9b54b0800000000000000
+      internalID: -5450591944837427572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 303
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2b479cf39b6de20800000000000000
+      internalID: 3375088654374712035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 303
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4c6ed37f6f8f400800000000000000
+      internalID: 358307712131843310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 303
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b537a1a08887b70800000000000000
+      internalID: 8897010640845232919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 175
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72b56943f10f0590800000000000000
+      internalID: -7705938292987547009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 175
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28cd88aa1e6ea9e90800000000000000
+      internalID: -7018043212400370558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 175
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad3dd2c9585afc10800000000000000
+      internalID: 2088078519784258985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 175
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec06937ca2dacb150800000000000000
+      internalID: 5889772811936424142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 45
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54af45f205d20bd10800000000000000
+      internalID: 2139259645415717445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 45
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de87111a4c472e20800000000000000
+      internalID: 3325710730834448087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 45
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f14f4fcf90bcc60800000000000000
+      internalID: 7839370558414528386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 45
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b3f6d1a27c9db30800000000000000
+      internalID: 4312697101880343437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wolf_Black_Idle_0: -6799106923108886111
+      Wolf_Black_Idle_1: -8711364616821619262
+      Wolf_Black_Idle_10: 2088078519784258985
+      Wolf_Black_Idle_11: 5889772811936424142
+      Wolf_Black_Idle_12: 2139259645415717445
+      Wolf_Black_Idle_13: 3325710730834448087
+      Wolf_Black_Idle_14: 7839370558414528386
+      Wolf_Black_Idle_15: 4312697101880343437
+      Wolf_Black_Idle_2: -62483237817542188
+      Wolf_Black_Idle_3: 7176645595562155323
+      Wolf_Black_Idle_4: -5450591944837427572
+      Wolf_Black_Idle_5: 3375088654374712035
+      Wolf_Black_Idle_6: 358307712131843310
+      Wolf_Black_Idle_7: 8897010640845232919
+      Wolf_Black_Idle_8: -7705938292987547009
+      Wolf_Black_Idle_9: -7018043212400370558
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

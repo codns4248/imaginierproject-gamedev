@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: e27a5c5d5bdf4b744be004fd1da9d3ed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1574676408371928759
+    second: Birds_Heron_Land_0
+  - first:
+      213: -134036943335826454
+    second: Birds_Heron_Land_1
+  - first:
+      213: 2086765672361870728
+    second: Birds_Heron_Land_2
+  - first:
+      213: -3060518065447537557
+    second: Birds_Heron_Land_3
+  - first:
+      213: 4305884644902873085
+    second: Birds_Heron_Land_4
+  - first:
+      213: 3257153778090229869
+    second: Birds_Heron_Land_5
+  - first:
+      213: -7926851291336979436
+    second: Birds_Heron_Land_6
+  - first:
+      213: 8392252752724349658
+    second: Birds_Heron_Land_7
+  - first:
+      213: 6698149644119123881
+    second: Birds_Heron_Land_8
+  - first:
+      213: -5467922164206836070
+    second: Birds_Heron_Land_9
+  - first:
+      213: 6841856573881468857
+    second: Birds_Heron_Land_10
+  - first:
+      213: -7811815205624763478
+    second: Birds_Heron_Land_11
+  - first:
+      213: 6122402916433217501
+    second: Birds_Heron_Land_12
+  - first:
+      213: 4232650759931147127
+    second: Birds_Heron_Land_13
+  - first:
+      213: 7281850364021896740
+    second: Birds_Heron_Land_14
+  - first:
+      213: 3161706404891194687
+    second: Birds_Heron_Land_15
+  - first:
+      213: 164794136965847494
+    second: Birds_Heron_Land_16
+  - first:
+      213: -8983231586709628884
+    second: Birds_Heron_Land_17
+  - first:
+      213: -1211287735037772789
+    second: Birds_Heron_Land_18
+  - first:
+      213: 8221504591705545852
+    second: Birds_Heron_Land_19
+  - first:
+      213: -2633272794649620674
+    second: Birds_Heron_Land_20
+  - first:
+      213: 6929545162232574157
+    second: Birds_Heron_Land_21
+  - first:
+      213: -3135696207228339821
+    second: Birds_Heron_Land_22
+  - first:
+      213: -8531512741853797159
+    second: Birds_Heron_Land_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birds_Heron_Land_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 430
+        width: 49
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941adca4620a52ae0800000000000000
+      internalID: -1574676408371928759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 431
+        width: 51
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb50b53c1ec32ef0800000000000000
+      internalID: -134036943335826454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 425
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885cb96a25ea5fc10800000000000000
+      internalID: 2086765672361870728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_3
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 431
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b647558e80bd685d0800000000000000
+      internalID: -3060518065447537557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_4
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 431
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7ae3f554391cb30800000000000000
+      internalID: 4305884644902873085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_5
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 431
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60c3e1aa1cb33d20800000000000000
+      internalID: 3257153778090229869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 311
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c4380bfba2ef190800000000000000
+      internalID: -7926851291336979436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 305
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2dd6f1a65477470800000000000000
+      internalID: 8392252752724349658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_8
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 303
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7212eec9b94fc50800000000000000
+      internalID: 6698149644119123881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_9
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 300
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9667fe03c90e14b0800000000000000
+      internalID: -5467922164206836070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_10
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 303
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b74062ed4823fe50800000000000000
+      internalID: 6841856573881468857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_11
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 303
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabadb1957bd69390800000000000000
+      internalID: -7811815205624763478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 183
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd741ddb30527f450800000000000000
+      internalID: 6122402916433217501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 177
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773bbfbc0756dba30800000000000000
+      internalID: 4232650759931147127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 175
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426f21f33545e0560800000000000000
+      internalID: 7281850364021896740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_15
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 172
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35fd9b4933a0eb20800000000000000
+      internalID: 3161706404891194687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_16
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 175
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c99aeaf467794200800000000000000
+      internalID: 164794136965847494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_17
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 175
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c289a139776255380800000000000000
+      internalID: -8983231586709628884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_18
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 47
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c39400934a03fe0800000000000000
+      internalID: -1211287735037772789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 42
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c1ad3edd6a81270800000000000000
+      internalID: 8221504591705545852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_20
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 41
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f853e485cb47bd0800000000000000
+      internalID: -2633272794649620674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_21
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 42
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc036e95c90ba2060800000000000000
+      internalID: 6929545162232574157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_22
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 43
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3997d94c9e4cb74d0800000000000000
+      internalID: -3135696207228339821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Land_23
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 45
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4e519fc5af99980800000000000000
+      internalID: -8531512741853797159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birds_Heron_Land_0: -1574676408371928759
+      Birds_Heron_Land_1: -134036943335826454
+      Birds_Heron_Land_10: 6841856573881468857
+      Birds_Heron_Land_11: -7811815205624763478
+      Birds_Heron_Land_12: 6122402916433217501
+      Birds_Heron_Land_13: 4232650759931147127
+      Birds_Heron_Land_14: 7281850364021896740
+      Birds_Heron_Land_15: 3161706404891194687
+      Birds_Heron_Land_16: 164794136965847494
+      Birds_Heron_Land_17: -8983231586709628884
+      Birds_Heron_Land_18: -1211287735037772789
+      Birds_Heron_Land_19: 8221504591705545852
+      Birds_Heron_Land_2: 2086765672361870728
+      Birds_Heron_Land_20: -2633272794649620674
+      Birds_Heron_Land_21: 6929545162232574157
+      Birds_Heron_Land_22: -3135696207228339821
+      Birds_Heron_Land_23: -8531512741853797159
+      Birds_Heron_Land_3: -3060518065447537557
+      Birds_Heron_Land_4: 4305884644902873085
+      Birds_Heron_Land_5: 3257153778090229869
+      Birds_Heron_Land_6: -7926851291336979436
+      Birds_Heron_Land_7: 8392252752724349658
+      Birds_Heron_Land_8: 6698149644119123881
+      Birds_Heron_Land_9: -5467922164206836070
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

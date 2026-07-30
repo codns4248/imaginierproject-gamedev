@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: d6e677d3d602c8c40a9d7f6fadd628fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3016755659690483101
+    second: Aquatic_Otter_Eat_0
+  - first:
+      213: 9187813927827705405
+    second: Aquatic_Otter_Eat_1
+  - first:
+      213: 532068447626087112
+    second: Aquatic_Otter_Eat_2
+  - first:
+      213: 5611611070512169934
+    second: Aquatic_Otter_Eat_3
+  - first:
+      213: -5066090294108715951
+    second: Aquatic_Otter_Eat_4
+  - first:
+      213: -8067447874751321359
+    second: Aquatic_Otter_Eat_5
+  - first:
+      213: -2944853973640906100
+    second: Aquatic_Otter_Eat_6
+  - first:
+      213: 6539944264288271857
+    second: Aquatic_Otter_Eat_7
+  - first:
+      213: -1638366374531983608
+    second: Aquatic_Otter_Eat_8
+  - first:
+      213: 5317013782417177964
+    second: Aquatic_Otter_Eat_9
+  - first:
+      213: -73275814616095983
+    second: Aquatic_Otter_Eat_10
+  - first:
+      213: -605117995371735251
+    second: Aquatic_Otter_Eat_11
+  - first:
+      213: -8575810549066939841
+    second: Aquatic_Otter_Eat_12
+  - first:
+      213: -4475763384868648277
+    second: Aquatic_Otter_Eat_13
+  - first:
+      213: 125849730380498927
+    second: Aquatic_Otter_Eat_14
+  - first:
+      213: -8291455009380935104
+    second: Aquatic_Otter_Eat_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aquatic_Otter_Eat_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 421
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d100ef94badd920800000000000000
+      internalID: 3016755659690483101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Eat_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 422
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e8e86961ca18f70800000000000000
+      internalID: 9187813927827705405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Eat_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 423
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca42f02f69426700800000000000000
+      internalID: 532068447626087112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Eat_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 423
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3078b798270ed40800000000000000
+      internalID: 5611611070512169934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Eat_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 300
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154889308b1a1b9b0800000000000000
+      internalID: -5066090294108715951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Eat_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 300
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1faa77da6eaaa0090800000000000000
+      internalID: -8067447874751321359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Eat_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 300
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a7cb9d9e6c127d0800000000000000
+      internalID: -2944853973640906100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Eat_7
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 300
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd71c388ac82ca50800000000000000
+      internalID: 6539944264288271857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Eat_8
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 172
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807931a767a5349e0800000000000000
+      internalID: -1638366374531983608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Eat_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 172
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6df4d64dd3d9c940800000000000000
+      internalID: 5317013782417177964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Eat_10
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 172
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1132e2be80cabfef0800000000000000
+      internalID: -73275814616095983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Eat_11
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 172
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27dba6a3603a97f0800000000000000
+      internalID: -605117995371735251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Eat_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 39
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3241d10eb99cf880800000000000000
+      internalID: -8575810549066939841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Eat_13
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 38
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa44324ae4e2e1c0800000000000000
+      internalID: -4475763384868648277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Eat_14
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 38
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe7886ab9ab1fb100800000000000000
+      internalID: 125849730380498927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Eat_15
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 39
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a57b65995deec80800000000000000
+      internalID: -8291455009380935104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Aquatic_Otter_Eat_0: 3016755659690483101
+      Aquatic_Otter_Eat_1: 9187813927827705405
+      Aquatic_Otter_Eat_10: -73275814616095983
+      Aquatic_Otter_Eat_11: -605117995371735251
+      Aquatic_Otter_Eat_12: -8575810549066939841
+      Aquatic_Otter_Eat_13: -4475763384868648277
+      Aquatic_Otter_Eat_14: 125849730380498927
+      Aquatic_Otter_Eat_15: -8291455009380935104
+      Aquatic_Otter_Eat_2: 532068447626087112
+      Aquatic_Otter_Eat_3: 5611611070512169934
+      Aquatic_Otter_Eat_4: -5066090294108715951
+      Aquatic_Otter_Eat_5: -8067447874751321359
+      Aquatic_Otter_Eat_6: -2944853973640906100
+      Aquatic_Otter_Eat_7: 6539944264288271857
+      Aquatic_Otter_Eat_8: -1638366374531983608
+      Aquatic_Otter_Eat_9: 5317013782417177964
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

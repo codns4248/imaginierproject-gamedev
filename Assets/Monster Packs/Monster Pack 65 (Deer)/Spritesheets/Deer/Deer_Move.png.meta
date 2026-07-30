@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: faee98e033118d9418cd5553236bbe4c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 421369564676344561
+    second: Deer_Move_0
+  - first:
+      213: 7815627845013423862
+    second: Deer_Move_1
+  - first:
+      213: -6277655583505219070
+    second: Deer_Move_2
+  - first:
+      213: -2159920150916245410
+    second: Deer_Move_3
+  - first:
+      213: 1109256099855318780
+    second: Deer_Move_4
+  - first:
+      213: 5883064838326377785
+    second: Deer_Move_5
+  - first:
+      213: 656500737937483231
+    second: Deer_Move_6
+  - first:
+      213: 7935445729742312517
+    second: Deer_Move_7
+  - first:
+      213: 5965555566962711831
+    second: Deer_Move_8
+  - first:
+      213: 2000470165209674633
+    second: Deer_Move_9
+  - first:
+      213: 5401578645938808561
+    second: Deer_Move_10
+  - first:
+      213: 2452246711389933835
+    second: Deer_Move_11
+  - first:
+      213: 8925954142566295744
+    second: Deer_Move_12
+  - first:
+      213: 2192953557247974473
+    second: Deer_Move_13
+  - first:
+      213: -9073591554948074863
+    second: Deer_Move_14
+  - first:
+      213: 8284456233057022964
+    second: Deer_Move_15
+  - first:
+      213: 2707932074273871072
+    second: Deer_Move_16
+  - first:
+      213: -5101354725483595205
+    second: Deer_Move_17
+  - first:
+      213: -7082393033774811079
+    second: Deer_Move_18
+  - first:
+      213: -4130685337759927533
+    second: Deer_Move_19
+  - first:
+      213: -6188909931046224164
+    second: Deer_Move_20
+  - first:
+      213: -1994556987559754381
+    second: Deer_Move_21
+  - first:
+      213: 4397839434317759076
+    second: Deer_Move_22
+  - first:
+      213: -692779441503497813
+    second: Deer_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Deer_Move_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 431
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fac1b5f26109d500800000000000000
+      internalID: 421369564676344561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 431
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f64da6bd10b67c60800000000000000
+      internalID: 7815627845013423862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 431
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2028cead18941e8a0800000000000000
+      internalID: -6277655583505219070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_3
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 431
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58dd65011c6602e0800000000000000
+      internalID: -2159920150916245410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_4
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 431
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfebfc4bb8ed46f00800000000000000
+      internalID: 1109256099855318780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_5
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 431
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93dd807fc48d4a150800000000000000
+      internalID: 5883064838326377785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 303
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5ab8f51fb5c1900800000000000000
+      internalID: 656500737937483231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_7
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 303
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5445eafe8dd502e60800000000000000
+      internalID: 7935445729742312517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_8
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 303
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d9aa86e29e9c250800000000000000
+      internalID: 5965555566962711831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_9
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 303
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983f61d240913cb10800000000000000
+      internalID: 2000470165209674633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_10
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 303
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6a481e82346fa40800000000000000
+      internalID: 5401578645938808561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_11
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 303
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0154063461280220800000000000000
+      internalID: 2452246711389933835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 175
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c8271d300c5fdb70800000000000000
+      internalID: 8925954142566295744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 175
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94cd1bc34afee6e10800000000000000
+      internalID: 2192953557247974473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_14
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 175
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192f5520e80241280800000000000000
+      internalID: -9073591554948074863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 175
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f372a01d0d48f270800000000000000
+      internalID: 8284456233057022964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_16
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 175
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e41bf2dfd1849520800000000000000
+      internalID: 2707932074273871072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_17
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 175
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a3a42c7e85439b0800000000000000
+      internalID: -5101354725483595205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_18
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 47
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938b6265f0946bd90800000000000000
+      internalID: -7082393033774811079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_19
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 47
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313b7e3129bdca6c0800000000000000
+      internalID: -4130685337759927533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_20
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 47
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde3a1d35339c1aa0800000000000000
+      internalID: -6188909931046224164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_21
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 47
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3754a38ccf8e154e0800000000000000
+      internalID: -1994556987559754381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_22
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 47
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46207bd2aa3480d30800000000000000
+      internalID: 4397839434317759076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Move_23
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 47
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba19d79b4c0c266f0800000000000000
+      internalID: -692779441503497813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Deer_Move_0: 421369564676344561
+      Deer_Move_1: 7815627845013423862
+      Deer_Move_10: 5401578645938808561
+      Deer_Move_11: 2452246711389933835
+      Deer_Move_12: 8925954142566295744
+      Deer_Move_13: 2192953557247974473
+      Deer_Move_14: -9073591554948074863
+      Deer_Move_15: 8284456233057022964
+      Deer_Move_16: 2707932074273871072
+      Deer_Move_17: -5101354725483595205
+      Deer_Move_18: -7082393033774811079
+      Deer_Move_19: -4130685337759927533
+      Deer_Move_2: -6277655583505219070
+      Deer_Move_20: -6188909931046224164
+      Deer_Move_21: -1994556987559754381
+      Deer_Move_22: 4397839434317759076
+      Deer_Move_23: -692779441503497813
+      Deer_Move_3: -2159920150916245410
+      Deer_Move_4: 1109256099855318780
+      Deer_Move_5: 5883064838326377785
+      Deer_Move_6: 656500737937483231
+      Deer_Move_7: 7935445729742312517
+      Deer_Move_8: 5965555566962711831
+      Deer_Move_9: 2000470165209674633
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: d04eadae1a1f7224fbe47350ebc34564
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3980631747581963178
+    second: Harpy_Undead_Fly_0
+  - first:
+      213: -2367437627682887998
+    second: Harpy_Undead_Fly_1
+  - first:
+      213: -7703551955842075601
+    second: Harpy_Undead_Fly_2
+  - first:
+      213: -5008111348127804860
+    second: Harpy_Undead_Fly_3
+  - first:
+      213: -469721742606782199
+    second: Harpy_Undead_Fly_4
+  - first:
+      213: -6590877823255675263
+    second: Harpy_Undead_Fly_5
+  - first:
+      213: -5784273030558747379
+    second: Harpy_Undead_Fly_6
+  - first:
+      213: -7240629889338636019
+    second: Harpy_Undead_Fly_7
+  - first:
+      213: -8054789555132902841
+    second: Harpy_Undead_Fly_8
+  - first:
+      213: 6632443722211885482
+    second: Harpy_Undead_Fly_9
+  - first:
+      213: -3642148825081919462
+    second: Harpy_Undead_Fly_10
+  - first:
+      213: -6166320198879213563
+    second: Harpy_Undead_Fly_11
+  - first:
+      213: -3069484316387249979
+    second: Harpy_Undead_Fly_12
+  - first:
+      213: -6692998363428590505
+    second: Harpy_Undead_Fly_13
+  - first:
+      213: -740577152321820117
+    second: Harpy_Undead_Fly_14
+  - first:
+      213: -521296338819206732
+    second: Harpy_Undead_Fly_15
+  - first:
+      213: -2779253021023295543
+    second: Harpy_Undead_Fly_16
+  - first:
+      213: -1884378345530979639
+    second: Harpy_Undead_Fly_17
+  - first:
+      213: -8933830595986462287
+    second: Harpy_Undead_Fly_18
+  - first:
+      213: -5907468605456382505
+    second: Harpy_Undead_Fly_19
+  - first:
+      213: -2011551643909235261
+    second: Harpy_Undead_Fly_20
+  - first:
+      213: -3754251472608290584
+    second: Harpy_Undead_Fly_21
+  - first:
+      213: 8520678209266480540
+    second: Harpy_Undead_Fly_22
+  - first:
+      213: 6697355826398918752
+    second: Harpy_Undead_Fly_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 436
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabe340fb7b0e3730800000000000000
+      internalID: 3980631747581963178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 434
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c66116550c252fd0800000000000000
+      internalID: -2367437627682887998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 436
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f247443bf4c771590800000000000000
+      internalID: -7703551955842075601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 437
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4425d33534d9f7ab0800000000000000
+      internalID: -5008111348127804860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_4
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 438
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90135a450963b79f0800000000000000
+      internalID: -469721742606782199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 437
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e78da2a8f7884a0800000000000000
+      internalID: -6590877823255675263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 308
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d057ca933522abfa0800000000000000
+      internalID: -5784273030558747379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_7
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 306
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0905e76a7d148b90800000000000000
+      internalID: -7240629889338636019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_8
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 307
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742d6c16393a73090800000000000000
+      internalID: -8054789555132902841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 307
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa18537dc6c2b0c50800000000000000
+      internalID: 6632443722211885482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_10
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 308
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18c2e5c0fc747dc0800000000000000
+      internalID: -3642148825081919462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_11
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 308
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5080d7e1374dc6aa0800000000000000
+      internalID: -6166320198879213563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 180
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0fa1ee6400765d0800000000000000
+      internalID: -3069484316387249979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_13
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 178
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c61911371bd13a0800000000000000
+      internalID: -6692998363428590505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 179
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a6613f001f8b5f0800000000000000
+      internalID: -740577152321820117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_15
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 179
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b138f5edbbf3c8f0800000000000000
+      internalID: -521296338819206732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_16
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 180
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7a9fc3a1c1e69d0800000000000000
+      internalID: -2779253021023295543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_17
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 180
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca003ce0e759d5e0800000000000000
+      internalID: -1884378345530979639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_18
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 52
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9e5ba0868a40480800000000000000
+      internalID: -8933830595986462287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_19
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 50
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5000a3a94740ea0800000000000000
+      internalID: -5907468605456382505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_20
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 52
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cddf6100788514e0800000000000000
+      internalID: -2011551643909235261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_21
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 53
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e812b13d2836ebc0800000000000000
+      internalID: -3754251472608290584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_22
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 54
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c957db4dfa78f3670800000000000000
+      internalID: 8520678209266480540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Undead_Fly_23
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 53
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06876e6d3a9c1fc50800000000000000
+      internalID: 6697355826398918752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Harpy_Undead_Fly_0: 3980631747581963178
+      Harpy_Undead_Fly_1: -2367437627682887998
+      Harpy_Undead_Fly_10: -3642148825081919462
+      Harpy_Undead_Fly_11: -6166320198879213563
+      Harpy_Undead_Fly_12: -3069484316387249979
+      Harpy_Undead_Fly_13: -6692998363428590505
+      Harpy_Undead_Fly_14: -740577152321820117
+      Harpy_Undead_Fly_15: -521296338819206732
+      Harpy_Undead_Fly_16: -2779253021023295543
+      Harpy_Undead_Fly_17: -1884378345530979639
+      Harpy_Undead_Fly_18: -8933830595986462287
+      Harpy_Undead_Fly_19: -5907468605456382505
+      Harpy_Undead_Fly_2: -7703551955842075601
+      Harpy_Undead_Fly_20: -2011551643909235261
+      Harpy_Undead_Fly_21: -3754251472608290584
+      Harpy_Undead_Fly_22: 8520678209266480540
+      Harpy_Undead_Fly_23: 6697355826398918752
+      Harpy_Undead_Fly_3: -5008111348127804860
+      Harpy_Undead_Fly_4: -469721742606782199
+      Harpy_Undead_Fly_5: -6590877823255675263
+      Harpy_Undead_Fly_6: -5784273030558747379
+      Harpy_Undead_Fly_7: -7240629889338636019
+      Harpy_Undead_Fly_8: -8054789555132902841
+      Harpy_Undead_Fly_9: 6632443722211885482
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

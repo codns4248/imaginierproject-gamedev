@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 50031ee15ce460748b996b64be3f0ec2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1577256402350516090
+    second: Birds_Seagull_Idle_0
+  - first:
+      213: 2704346011365312181
+    second: Birds_Seagull_Idle_1
+  - first:
+      213: -5655064478511233588
+    second: Birds_Seagull_Idle_2
+  - first:
+      213: -2661998902075887719
+    second: Birds_Seagull_Idle_3
+  - first:
+      213: 7900993899197483387
+    second: Birds_Seagull_Idle_4
+  - first:
+      213: 861365192786399338
+    second: Birds_Seagull_Idle_5
+  - first:
+      213: -3022926337483083356
+    second: Birds_Seagull_Idle_6
+  - first:
+      213: 4791389341641424453
+    second: Birds_Seagull_Idle_7
+  - first:
+      213: -3729114685616261116
+    second: Birds_Seagull_Idle_8
+  - first:
+      213: 8097849422128727680
+    second: Birds_Seagull_Idle_9
+  - first:
+      213: 5086999976290864873
+    second: Birds_Seagull_Idle_10
+  - first:
+      213: -2164062918837770835
+    second: Birds_Seagull_Idle_11
+  - first:
+      213: 8353369849845711986
+    second: Birds_Seagull_Idle_12
+  - first:
+      213: 2587292209541605932
+    second: Birds_Seagull_Idle_13
+  - first:
+      213: 8294853290870392187
+    second: Birds_Seagull_Idle_14
+  - first:
+      213: 1043124767883903967
+    second: Birds_Seagull_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birds_Seagull_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 442
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 688df22a8a57c1ae0800000000000000
+      internalID: -1577256402350516090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Seagull_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 441
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b68c2d7e54c78520800000000000000
+      internalID: 2704346011365312181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Seagull_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 440
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5886091dc2581b0800000000000000
+      internalID: -5655064478511233588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Seagull_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 441
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f69493a1eae0bd0800000000000000
+      internalID: -2661998902075887719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Seagull_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 317
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79c13e0718f5ad60800000000000000
+      internalID: 7900993899197483387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Seagull_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 316
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a605be1441f24fb00800000000000000
+      internalID: 861365192786399338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Seagull_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 317
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1f52023886c06d0800000000000000
+      internalID: -3022926337483083356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Seagull_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 319
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e3129683f6e7240800000000000000
+      internalID: 4791389341641424453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Seagull_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 189
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408762d73f58f3cc0800000000000000
+      internalID: -3729114685616261116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Seagull_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 188
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086c59a2527516070800000000000000
+      internalID: 8097849422128727680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Seagull_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 189
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eecc3fb687a89640800000000000000
+      internalID: 5086999976290864873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Seagull_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 191
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da56413bd34b7f1e0800000000000000
+      internalID: -2164062918837770835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Seagull_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 58
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2740381de912de370800000000000000
+      internalID: 8353369849845711986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Seagull_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 57
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2aecd77e88e7e320800000000000000
+      internalID: 2587292209541605932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Seagull_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 58
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b754f4abe1d3d1370800000000000000
+      internalID: 8294853290870392187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Seagull_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 58
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3c12e137ce97e00800000000000000
+      internalID: 1043124767883903967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birds_Seagull_Idle_0: -1577256402350516090
+      Birds_Seagull_Idle_1: 2704346011365312181
+      Birds_Seagull_Idle_10: 5086999976290864873
+      Birds_Seagull_Idle_11: -2164062918837770835
+      Birds_Seagull_Idle_12: 8353369849845711986
+      Birds_Seagull_Idle_13: 2587292209541605932
+      Birds_Seagull_Idle_14: 8294853290870392187
+      Birds_Seagull_Idle_15: 1043124767883903967
+      Birds_Seagull_Idle_2: -5655064478511233588
+      Birds_Seagull_Idle_3: -2661998902075887719
+      Birds_Seagull_Idle_4: 7900993899197483387
+      Birds_Seagull_Idle_5: 861365192786399338
+      Birds_Seagull_Idle_6: -3022926337483083356
+      Birds_Seagull_Idle_7: 4791389341641424453
+      Birds_Seagull_Idle_8: -3729114685616261116
+      Birds_Seagull_Idle_9: 8097849422128727680
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

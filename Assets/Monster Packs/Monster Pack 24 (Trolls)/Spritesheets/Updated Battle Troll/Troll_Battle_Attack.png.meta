@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 9a51f3eb5edfd7a4c92c6d35335303cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6432038051073493369
+    second: Troll_Battle_Attack_0
+  - first:
+      213: -5106102905072177894
+    second: Troll_Battle_Attack_1
+  - first:
+      213: -2711434503077104142
+    second: Troll_Battle_Attack_2
+  - first:
+      213: 1469304666830503603
+    second: Troll_Battle_Attack_3
+  - first:
+      213: -5242463871710511482
+    second: Troll_Battle_Attack_4
+  - first:
+      213: 4440817455417327989
+    second: Troll_Battle_Attack_5
+  - first:
+      213: 4876974792984616951
+    second: Troll_Battle_Attack_6
+  - first:
+      213: 1821631284992803483
+    second: Troll_Battle_Attack_7
+  - first:
+      213: -1017575515870553304
+    second: Troll_Battle_Attack_8
+  - first:
+      213: -3619487925119036232
+    second: Troll_Battle_Attack_9
+  - first:
+      213: 7138961759956768728
+    second: Troll_Battle_Attack_10
+  - first:
+      213: 2223480985266286811
+    second: Troll_Battle_Attack_11
+  - first:
+      213: 4292958304820519772
+    second: Troll_Battle_Attack_12
+  - first:
+      213: 272690751604509559
+    second: Troll_Battle_Attack_13
+  - first:
+      213: 4173308792056060380
+    second: Troll_Battle_Attack_14
+  - first:
+      213: 3742489107041090134
+    second: Troll_Battle_Attack_15
+  - first:
+      213: 3888999725859707832
+    second: Troll_Battle_Attack_16
+  - first:
+      213: 3140357155147105798
+    second: Troll_Battle_Attack_17
+  - first:
+      213: 1657661031318722776
+    second: Troll_Battle_Attack_18
+  - first:
+      213: 1877722530924970840
+    second: Troll_Battle_Attack_19
+  - first:
+      213: -3840833104010166240
+    second: Troll_Battle_Attack_20
+  - first:
+      213: 4493191736111132675
+    second: Troll_Battle_Attack_21
+  - first:
+      213: -298032689930499665
+    second: Troll_Battle_Attack_22
+  - first:
+      213: -348648763043843172
+    second: Troll_Battle_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 430
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97908007780334950800000000000000
+      internalID: 6432038051073493369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 431
+        width: 41
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d259c067a7329b0800000000000000
+      internalID: -5106102905072177894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 423
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5f95c6fac0f5ad0800000000000000
+      internalID: -2711434503077104142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 423
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be714d4fc4046410800000000000000
+      internalID: 1469304666830503603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 422
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e30ea62e60f37b0800000000000000
+      internalID: -5242463871710511482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 431
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571018e72f3f0ad30800000000000000
+      internalID: 4440817455417327989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 303
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffd1622cbe7ea340800000000000000
+      internalID: 4876974792984616951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 303
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b920cb5900cb74910800000000000000
+      internalID: 1821631284992803483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 303
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b966ca578d0e1f0800000000000000
+      internalID: -1017575515870553304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 303
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4d672b8eef4cdc0800000000000000
+      internalID: -3619487925119036232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 303
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7125795efa21360800000000000000
+      internalID: 7138961759956768728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 303
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0f1a3fc246bde10800000000000000
+      internalID: 2223480985266286811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 175
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53e36a45d6a39b30800000000000000
+      internalID: 4292958304820519772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 175
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bcbe63bcac8c300800000000000000
+      internalID: 272690751604509559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 175
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd914883c329ae930800000000000000
+      internalID: 4173308792056060380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 175
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65af3f8a30effe330800000000000000
+      internalID: 3742489107041090134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 175
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb957755a088f530800000000000000
+      internalID: 3888999725859707832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 175
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606466cb13ac49b20800000000000000
+      internalID: 3140357155147105798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 47
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d892c1ece1310710800000000000000
+      internalID: 1657661031318722776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 47
+        width: 42
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853c78a71b20f0a10800000000000000
+      internalID: 1877722530924970840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 47
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020c9e934ae92bac0800000000000000
+      internalID: -3840833104010166240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 47
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300ff9af3160b5e30800000000000000
+      internalID: 4493191736111132675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 47
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa90d39f8dc2ddbf0800000000000000
+      internalID: -298032689930499665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 47
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9374671cc9592bf0800000000000000
+      internalID: -348648763043843172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Troll_Battle_Attack_0: 6432038051073493369
+      Troll_Battle_Attack_1: -5106102905072177894
+      Troll_Battle_Attack_10: 7138961759956768728
+      Troll_Battle_Attack_11: 2223480985266286811
+      Troll_Battle_Attack_12: 4292958304820519772
+      Troll_Battle_Attack_13: 272690751604509559
+      Troll_Battle_Attack_14: 4173308792056060380
+      Troll_Battle_Attack_15: 3742489107041090134
+      Troll_Battle_Attack_16: 3888999725859707832
+      Troll_Battle_Attack_17: 3140357155147105798
+      Troll_Battle_Attack_18: 1657661031318722776
+      Troll_Battle_Attack_19: 1877722530924970840
+      Troll_Battle_Attack_2: -2711434503077104142
+      Troll_Battle_Attack_20: -3840833104010166240
+      Troll_Battle_Attack_21: 4493191736111132675
+      Troll_Battle_Attack_22: -298032689930499665
+      Troll_Battle_Attack_23: -348648763043843172
+      Troll_Battle_Attack_3: 1469304666830503603
+      Troll_Battle_Attack_4: -5242463871710511482
+      Troll_Battle_Attack_5: 4440817455417327989
+      Troll_Battle_Attack_6: 4876974792984616951
+      Troll_Battle_Attack_7: 1821631284992803483
+      Troll_Battle_Attack_8: -1017575515870553304
+      Troll_Battle_Attack_9: -3619487925119036232
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

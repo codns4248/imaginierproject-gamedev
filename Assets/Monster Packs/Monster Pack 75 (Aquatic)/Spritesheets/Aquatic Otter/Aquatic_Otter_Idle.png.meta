@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: cc8c97ee33b988e4296a76cf92797ebf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3408312065492855253
+    second: Aquatic_Otter_Idle_0
+  - first:
+      213: 8504730081411476109
+    second: Aquatic_Otter_Idle_1
+  - first:
+      213: -1154626364834515452
+    second: Aquatic_Otter_Idle_2
+  - first:
+      213: -1450083525721266897
+    second: Aquatic_Otter_Idle_3
+  - first:
+      213: -6298038695087854820
+    second: Aquatic_Otter_Idle_4
+  - first:
+      213: 8596034752899479068
+    second: Aquatic_Otter_Idle_5
+  - first:
+      213: 8198595609842168241
+    second: Aquatic_Otter_Idle_6
+  - first:
+      213: 6162555859346796602
+    second: Aquatic_Otter_Idle_7
+  - first:
+      213: 7519054657503307907
+    second: Aquatic_Otter_Idle_8
+  - first:
+      213: 2290702843544349616
+    second: Aquatic_Otter_Idle_9
+  - first:
+      213: 2164012172869099095
+    second: Aquatic_Otter_Idle_10
+  - first:
+      213: 7553941275153340575
+    second: Aquatic_Otter_Idle_11
+  - first:
+      213: -4287641769655518450
+    second: Aquatic_Otter_Idle_12
+  - first:
+      213: 8517615815452367950
+    second: Aquatic_Otter_Idle_13
+  - first:
+      213: 233801777618374117
+    second: Aquatic_Otter_Idle_14
+  - first:
+      213: 6717396776436218965
+    second: Aquatic_Otter_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aquatic_Otter_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 421
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b26de940c3e33b0d0800000000000000
+      internalID: -3408312065492855253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 422
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a2c15f2fed60670800000000000000
+      internalID: 8504730081411476109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 423
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406fcbb4071f9ffe0800000000000000
+      internalID: -1154626364834515452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 423
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25ecba57b440ebe0800000000000000
+      internalID: -1450083525721266897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 300
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1baf9ddc2fd898a0800000000000000
+      internalID: -6298038695087854820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 300
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c167c7360104b4770800000000000000
+      internalID: 8596034752899479068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 300
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b138b5e44347c170800000000000000
+      internalID: 8198595609842168241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 300
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a303ed847ebc58550800000000000000
+      internalID: 6162555859346796602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 172
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3882b339f5c095860800000000000000
+      internalID: 7519054657503307907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 172
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb207b79163acf10800000000000000
+      internalID: 2290702843544349616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 172
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75edb751b9d180e10800000000000000
+      internalID: 2164012172869099095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 172
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f981da7319df4d860800000000000000
+      internalID: 7553941275153340575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 39
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b3e83078c3f74c0800000000000000
+      internalID: -4287641769655518450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 38
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c9945b476a43670800000000000000
+      internalID: 8517615815452367950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 38
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed4cce5a71ae3300800000000000000
+      internalID: 233801777618374117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquatic_Otter_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 39
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55cb5d227ccf83d50800000000000000
+      internalID: 6717396776436218965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Aquatic_Otter_Idle_0: -3408312065492855253
+      Aquatic_Otter_Idle_1: 8504730081411476109
+      Aquatic_Otter_Idle_10: 2164012172869099095
+      Aquatic_Otter_Idle_11: 7553941275153340575
+      Aquatic_Otter_Idle_12: -4287641769655518450
+      Aquatic_Otter_Idle_13: 8517615815452367950
+      Aquatic_Otter_Idle_14: 233801777618374117
+      Aquatic_Otter_Idle_15: 6717396776436218965
+      Aquatic_Otter_Idle_2: -1154626364834515452
+      Aquatic_Otter_Idle_3: -1450083525721266897
+      Aquatic_Otter_Idle_4: -6298038695087854820
+      Aquatic_Otter_Idle_5: 8596034752899479068
+      Aquatic_Otter_Idle_6: 8198595609842168241
+      Aquatic_Otter_Idle_7: 6162555859346796602
+      Aquatic_Otter_Idle_8: 7519054657503307907
+      Aquatic_Otter_Idle_9: 2290702843544349616
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

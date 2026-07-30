@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 52661185330300149abdca05df913628
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6740269238920036048
+    second: Insect_Dragonfly_Idle_0
+  - first:
+      213: 7275563734821907960
+    second: Insect_Dragonfly_Idle_1
+  - first:
+      213: -4439697112877099509
+    second: Insect_Dragonfly_Idle_2
+  - first:
+      213: 408595712514419039
+    second: Insect_Dragonfly_Idle_3
+  - first:
+      213: 2210011122962441245
+    second: Insect_Dragonfly_Idle_4
+  - first:
+      213: -7636582662919873250
+    second: Insect_Dragonfly_Idle_5
+  - first:
+      213: 5532918173484297371
+    second: Insect_Dragonfly_Idle_6
+  - first:
+      213: -3265019663416348649
+    second: Insect_Dragonfly_Idle_7
+  - first:
+      213: -3598896629979023007
+    second: Insect_Dragonfly_Idle_8
+  - first:
+      213: 9111075578212236291
+    second: Insect_Dragonfly_Idle_9
+  - first:
+      213: 6253981405761283706
+    second: Insect_Dragonfly_Idle_10
+  - first:
+      213: -3052515796338761745
+    second: Insect_Dragonfly_Idle_11
+  - first:
+      213: 420587369796512521
+    second: Insect_Dragonfly_Idle_12
+  - first:
+      213: 7147265561478044882
+    second: Insect_Dragonfly_Idle_13
+  - first:
+      213: 6380742354109250379
+    second: Insect_Dragonfly_Idle_14
+  - first:
+      213: -7065545175573985296
+    second: Insect_Dragonfly_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 444
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de325c492f3a8d50800000000000000
+      internalID: 6740269238920036048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 444
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd26c25baef7f460800000000000000
+      internalID: 7275563734821907960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 445
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0612a49ff60362c0800000000000000
+      internalID: -4439697112877099509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 445
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f596b2db2af9ba500800000000000000
+      internalID: 408595712514419039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 317
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14a6dd38698bae10800000000000000
+      internalID: 2210011122962441245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 316
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d11c64788650690800000000000000
+      internalID: -7636582662919873250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 317
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ca5dd93cfd8cc40800000000000000
+      internalID: 5532918173484297371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 318
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71037693ae150b2d0800000000000000
+      internalID: -3265019663416348649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 188
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169ffb235962e0ec0800000000000000
+      internalID: -3598896629979023007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 189
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cb31147fa017e70800000000000000
+      internalID: 9111075578212236291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 190
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76ac4a14fa9ac650800000000000000
+      internalID: 6253981405761283706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 190
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef95ff5e0943a5d0800000000000000
+      internalID: -3052515796338761745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 59
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90bacb50cf936d500800000000000000
+      internalID: 420587369796512521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 59
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc184b0920303360800000000000000
+      internalID: 7147265561478044882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 58
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4bb8fb4d53fc8850800000000000000
+      internalID: 6380742354109250379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 58
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f70071091422fd90800000000000000
+      internalID: -7065545175573985296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Insect_Dragonfly_Idle_0: 6740269238920036048
+      Insect_Dragonfly_Idle_1: 7275563734821907960
+      Insect_Dragonfly_Idle_10: 6253981405761283706
+      Insect_Dragonfly_Idle_11: -3052515796338761745
+      Insect_Dragonfly_Idle_12: 420587369796512521
+      Insect_Dragonfly_Idle_13: 7147265561478044882
+      Insect_Dragonfly_Idle_14: 6380742354109250379
+      Insect_Dragonfly_Idle_15: -7065545175573985296
+      Insect_Dragonfly_Idle_2: -4439697112877099509
+      Insect_Dragonfly_Idle_3: 408595712514419039
+      Insect_Dragonfly_Idle_4: 2210011122962441245
+      Insect_Dragonfly_Idle_5: -7636582662919873250
+      Insect_Dragonfly_Idle_6: 5532918173484297371
+      Insect_Dragonfly_Idle_7: -3265019663416348649
+      Insect_Dragonfly_Idle_8: -3598896629979023007
+      Insect_Dragonfly_Idle_9: 9111075578212236291
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

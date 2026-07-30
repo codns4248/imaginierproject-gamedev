@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 4a3a96322acb0e54291365434d3f4a34
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3794602932760537774
+    second: Tales_Horse_Balius_Idle_0
+  - first:
+      213: 3120640913017363930
+    second: Tales_Horse_Balius_Idle_1
+  - first:
+      213: -2517806870404159082
+    second: Tales_Horse_Balius_Idle_2
+  - first:
+      213: -3602128474405256465
+    second: Tales_Horse_Balius_Idle_3
+  - first:
+      213: 354533019384395282
+    second: Tales_Horse_Balius_Idle_4
+  - first:
+      213: 1102102326218946267
+    second: Tales_Horse_Balius_Idle_5
+  - first:
+      213: -6179880082310005169
+    second: Tales_Horse_Balius_Idle_6
+  - first:
+      213: 4663928522323092384
+    second: Tales_Horse_Balius_Idle_7
+  - first:
+      213: -5072723629399394199
+    second: Tales_Horse_Balius_Idle_8
+  - first:
+      213: 4557274215341548193
+    second: Tales_Horse_Balius_Idle_9
+  - first:
+      213: 6421868990372875410
+    second: Tales_Horse_Balius_Idle_10
+  - first:
+      213: 7383564257183245455
+    second: Tales_Horse_Balius_Idle_11
+  - first:
+      213: -1743364183918434730
+    second: Tales_Horse_Balius_Idle_12
+  - first:
+      213: 4524305849886009633
+    second: Tales_Horse_Balius_Idle_13
+  - first:
+      213: 5513455475614836954
+    second: Tales_Horse_Balius_Idle_14
+  - first:
+      213: -8533516184904803193
+    second: Tales_Horse_Balius_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tales_Horse_Balius_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 431
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaae8de334329a430800000000000000
+      internalID: 3794602932760537774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Horse_Balius_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 431
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add53f3606ebe4b20800000000000000
+      internalID: 3120640913017363930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Horse_Balius_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 431
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699a584cdf3fe0dd0800000000000000
+      internalID: -2517806870404159082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Horse_Balius_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 431
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe241c7cc3ba20ec0800000000000000
+      internalID: -3602128474405256465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Horse_Balius_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 303
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216bd8917ed8be400800000000000000
+      internalID: 354533019384395282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Horse_Balius_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 303
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6796cf9347b4f00800000000000000
+      internalID: 1102102326218946267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Horse_Balius_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 303
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e766bbec7ac3aa0800000000000000
+      internalID: -6179880082310005169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Horse_Balius_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 303
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a361eec74a99b040800000000000000
+      internalID: 4663928522323092384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Horse_Balius_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 175
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9683be94cb01a99b0800000000000000
+      internalID: -5072723629399394199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Horse_Balius_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 175
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2ea7dd0c0be3f30800000000000000
+      internalID: 4557274215341548193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Horse_Balius_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 175
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c854d72df0f1950800000000000000
+      internalID: 6421868990372875410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Horse_Balius_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 175
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84ada57290b77660800000000000000
+      internalID: 7383564257183245455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Horse_Balius_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 47
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656276fe2835ec7e0800000000000000
+      internalID: -1743364183918434730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Horse_Balius_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 47
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1296dad133099ce30800000000000000
+      internalID: 4524305849886009633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Horse_Balius_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 47
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad864f42b8ab38c40800000000000000
+      internalID: 5513455475614836954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Horse_Balius_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 47
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78cd3b90e3cd29980800000000000000
+      internalID: -8533516184904803193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tales_Horse_Balius_Idle_0: 3794602932760537774
+      Tales_Horse_Balius_Idle_1: 3120640913017363930
+      Tales_Horse_Balius_Idle_10: 6421868990372875410
+      Tales_Horse_Balius_Idle_11: 7383564257183245455
+      Tales_Horse_Balius_Idle_12: -1743364183918434730
+      Tales_Horse_Balius_Idle_13: 4524305849886009633
+      Tales_Horse_Balius_Idle_14: 5513455475614836954
+      Tales_Horse_Balius_Idle_15: -8533516184904803193
+      Tales_Horse_Balius_Idle_2: -2517806870404159082
+      Tales_Horse_Balius_Idle_3: -3602128474405256465
+      Tales_Horse_Balius_Idle_4: 354533019384395282
+      Tales_Horse_Balius_Idle_5: 1102102326218946267
+      Tales_Horse_Balius_Idle_6: -6179880082310005169
+      Tales_Horse_Balius_Idle_7: 4663928522323092384
+      Tales_Horse_Balius_Idle_8: -5072723629399394199
+      Tales_Horse_Balius_Idle_9: 4557274215341548193
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

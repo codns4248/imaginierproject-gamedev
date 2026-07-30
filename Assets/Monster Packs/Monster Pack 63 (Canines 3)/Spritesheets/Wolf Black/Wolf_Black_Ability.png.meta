@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 3b0ea7345cef9af4185596e8e6b05e35
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1329608412734787871
+    second: Wolf_Black_Ability_0
+  - first:
+      213: 7042535157584343556
+    second: Wolf_Black_Ability_1
+  - first:
+      213: -3093613058395696128
+    second: Wolf_Black_Ability_2
+  - first:
+      213: -8160951421700703812
+    second: Wolf_Black_Ability_3
+  - first:
+      213: -7932305821840235380
+    second: Wolf_Black_Ability_4
+  - first:
+      213: -7308487335451761181
+    second: Wolf_Black_Ability_5
+  - first:
+      213: 8923462217967973389
+    second: Wolf_Black_Ability_6
+  - first:
+      213: 8528916886553651861
+    second: Wolf_Black_Ability_7
+  - first:
+      213: -9222204995937064461
+    second: Wolf_Black_Ability_8
+  - first:
+      213: 8915976503597823896
+    second: Wolf_Black_Ability_9
+  - first:
+      213: -3338699364330550242
+    second: Wolf_Black_Ability_10
+  - first:
+      213: -2235686929829961784
+    second: Wolf_Black_Ability_11
+  - first:
+      213: 2591155057461258633
+    second: Wolf_Black_Ability_12
+  - first:
+      213: 2158674252411042441
+    second: Wolf_Black_Ability_13
+  - first:
+      213: -1333368787401327564
+    second: Wolf_Black_Ability_14
+  - first:
+      213: 4833309983247654742
+    second: Wolf_Black_Ability_15
+  - first:
+      213: -6850791794728851431
+    second: Wolf_Black_Ability_16
+  - first:
+      213: -7743825089939644258
+    second: Wolf_Black_Ability_17
+  - first:
+      213: -7269935133705943430
+    second: Wolf_Black_Ability_18
+  - first:
+      213: -824350183997085304
+    second: Wolf_Black_Ability_19
+  - first:
+      213: -5004067207403482187
+    second: Wolf_Black_Ability_20
+  - first:
+      213: -2476995336241452944
+    second: Wolf_Black_Ability_21
+  - first:
+      213: -7721696456394863457
+    second: Wolf_Black_Ability_22
+  - first:
+      213: 4498783626055908047
+    second: Wolf_Black_Ability_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 426
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f119d6b8ec7b37210800000000000000
+      internalID: 1329608412734787871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 429
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402b302b96c1cb160800000000000000
+      internalID: 7042535157584343556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 429
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00490d560574115d0800000000000000
+      internalID: -3093613058395696128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 429
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb97f48abe97ebe80800000000000000
+      internalID: -8160951421700703812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_4
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 429
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c842377d1e9cae190800000000000000
+      internalID: -7932305821840235380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 429
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5e4fc8d79039a90800000000000000
+      internalID: -7308487335451761181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_6
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 303
+        width: 64
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04b994db9186db70800000000000000
+      internalID: 8923462217967973389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_7
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 303
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a6cdd58bccc5670800000000000000
+      internalID: 8528916886553651861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 303
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9a653ea65240080800000000000000
+      internalID: -9222204995937064461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_9
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 303
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8977da22469ebbb70800000000000000
+      internalID: 8915976503597823896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_10
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 303
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c41490e9e8aa1d0800000000000000
+      internalID: -3338699364330550242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_11
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 303
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf508e159e39f0e0800000000000000
+      internalID: -2235686929829961784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 175
+        width: 64
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9896fe5dbc1a5f320800000000000000
+      internalID: 2591155057461258633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_13
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 175
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98afdb0abc625fd10800000000000000
+      internalID: 2158674252411042441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_14
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 175
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43cb950072cee7de0800000000000000
+      internalID: -1333368787401327564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_15
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 175
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f53d062dd531340800000000000000
+      internalID: 4833309983247654742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_16
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 175
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918a605e8291de0a0800000000000000
+      internalID: -6850791794728851431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_17
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 175
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90e367fb18688490800000000000000
+      internalID: -7743825089939644258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 45
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76435f73800c1b90800000000000000
+      internalID: -7269935133705943430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_19
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 45
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889635010e15f84f0800000000000000
+      internalID: -824350183997085304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 45
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3d886336bfd8ab0800000000000000
+      internalID: -5004067207403482187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 45
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07867098dd1ff9dd0800000000000000
+      internalID: -2476995336241452944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_22
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 45
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c0135fbf507d490800000000000000
+      internalID: -7721696456394863457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Ability_23
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 45
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcaf7605fd3ee6e30800000000000000
+      internalID: 4498783626055908047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wolf_Black_Ability_0: 1329608412734787871
+      Wolf_Black_Ability_1: 7042535157584343556
+      Wolf_Black_Ability_10: -3338699364330550242
+      Wolf_Black_Ability_11: -2235686929829961784
+      Wolf_Black_Ability_12: 2591155057461258633
+      Wolf_Black_Ability_13: 2158674252411042441
+      Wolf_Black_Ability_14: -1333368787401327564
+      Wolf_Black_Ability_15: 4833309983247654742
+      Wolf_Black_Ability_16: -6850791794728851431
+      Wolf_Black_Ability_17: -7743825089939644258
+      Wolf_Black_Ability_18: -7269935133705943430
+      Wolf_Black_Ability_19: -824350183997085304
+      Wolf_Black_Ability_2: -3093613058395696128
+      Wolf_Black_Ability_20: -5004067207403482187
+      Wolf_Black_Ability_21: -2476995336241452944
+      Wolf_Black_Ability_22: -7721696456394863457
+      Wolf_Black_Ability_23: 4498783626055908047
+      Wolf_Black_Ability_3: -8160951421700703812
+      Wolf_Black_Ability_4: -7932305821840235380
+      Wolf_Black_Ability_5: -7308487335451761181
+      Wolf_Black_Ability_6: 8923462217967973389
+      Wolf_Black_Ability_7: 8528916886553651861
+      Wolf_Black_Ability_8: -9222204995937064461
+      Wolf_Black_Ability_9: 8915976503597823896
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

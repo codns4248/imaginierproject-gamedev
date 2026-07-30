@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 2959b5718e8a3fc41a70e24da23a9e0e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1833575034721900358
+    second: Pet_Turtle_Move_0
+  - first:
+      213: 6293252657277019898
+    second: Pet_Turtle_Move_1
+  - first:
+      213: -6818231887772228251
+    second: Pet_Turtle_Move_2
+  - first:
+      213: 8906911021385877884
+    second: Pet_Turtle_Move_3
+  - first:
+      213: -4463569780330261529
+    second: Pet_Turtle_Move_4
+  - first:
+      213: 8953661155426590427
+    second: Pet_Turtle_Move_5
+  - first:
+      213: -3347387989614638050
+    second: Pet_Turtle_Move_6
+  - first:
+      213: -6899332869427063918
+    second: Pet_Turtle_Move_7
+  - first:
+      213: 4711489701754820587
+    second: Pet_Turtle_Move_8
+  - first:
+      213: -7218349311359314251
+    second: Pet_Turtle_Move_9
+  - first:
+      213: 6866629763748582317
+    second: Pet_Turtle_Move_10
+  - first:
+      213: 3415173109377793945
+    second: Pet_Turtle_Move_11
+  - first:
+      213: 8518373579929496989
+    second: Pet_Turtle_Move_12
+  - first:
+      213: 6183902839218837137
+    second: Pet_Turtle_Move_13
+  - first:
+      213: -8423627480101583666
+    second: Pet_Turtle_Move_14
+  - first:
+      213: -6616575562171355241
+    second: Pet_Turtle_Move_15
+  - first:
+      213: -8014596180517059250
+    second: Pet_Turtle_Move_16
+  - first:
+      213: 8200528454566273472
+    second: Pet_Turtle_Move_17
+  - first:
+      213: -5199371468264764518
+    second: Pet_Turtle_Move_18
+  - first:
+      213: 8917842651259011048
+    second: Pet_Turtle_Move_19
+  - first:
+      213: 4556934820783118289
+    second: Pet_Turtle_Move_20
+  - first:
+      213: -2824003833691488631
+    second: Pet_Turtle_Move_21
+  - first:
+      213: -7974655660865853753
+    second: Pet_Turtle_Move_22
+  - first:
+      213: -3556697215762643486
+    second: Pet_Turtle_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 423
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8606a7835dd86e0800000000000000
+      internalID: -1833575034721900358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 423
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6a7ced2ff165750800000000000000
+      internalID: 6293252657277019898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 422
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565681df836c061a0800000000000000
+      internalID: -6818231887772228251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 423
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7987b31264bb9b70800000000000000
+      internalID: 8906911021385877884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_4
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 424
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e31f3d0fe63e02c0800000000000000
+      internalID: -4463569780330261529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_5
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 424
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde5a60e16bc14c70800000000000000
+      internalID: 8953661155426590427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_6
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 303
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c4c91db50bb81d0800000000000000
+      internalID: -3347387989614638050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_7
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 303
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2939f9a3f45a040a0800000000000000
+      internalID: -6899332869427063918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_8
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 303
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7d104dbe2926140800000000000000
+      internalID: 4711489701754820587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_9
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 303
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b61eb7bb8543db90800000000000000
+      internalID: -7218349311359314251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_10
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 303
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3db50a36b2b4f50800000000000000
+      internalID: 6866629763748582317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_11
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 303
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ffdee39d1256f20800000000000000
+      internalID: 3415173109377793945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 175
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d25cf73a7573670800000000000000
+      internalID: 8518373579929496989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 175
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1961b295ed2a1d550800000000000000
+      internalID: 6183902839218837137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_14
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 175
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec48358ef63491b80800000000000000
+      internalID: -8423627480101583666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_15
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 175
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fee3315933d24a0800000000000000
+      internalID: -6616575562171355241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_16
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 175
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45041aac3f66c090800000000000000
+      internalID: -8014596180517059250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_17
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 175
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1e7e06e212ec170800000000000000
+      internalID: 8200528454566273472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_18
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 50
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b07c2723f18d7b0800000000000000
+      internalID: -5199371468264764518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_19
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 50
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8effe1f74aa82cb70800000000000000
+      internalID: 8917842651259011048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 51
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7d269631c7d3f30800000000000000
+      internalID: 4556934820783118289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_21
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 51
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e3a78b97f1fc8d0800000000000000
+      internalID: -2824003833691488631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_22
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 50
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c668009de4545190800000000000000
+      internalID: -7974655660865853753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Turtle_Move_23
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 49
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5c8d8f9b214aec0800000000000000
+      internalID: -3556697215762643486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pet_Turtle_Move_0: -1833575034721900358
+      Pet_Turtle_Move_1: 6293252657277019898
+      Pet_Turtle_Move_10: 6866629763748582317
+      Pet_Turtle_Move_11: 3415173109377793945
+      Pet_Turtle_Move_12: 8518373579929496989
+      Pet_Turtle_Move_13: 6183902839218837137
+      Pet_Turtle_Move_14: -8423627480101583666
+      Pet_Turtle_Move_15: -6616575562171355241
+      Pet_Turtle_Move_16: -8014596180517059250
+      Pet_Turtle_Move_17: 8200528454566273472
+      Pet_Turtle_Move_18: -5199371468264764518
+      Pet_Turtle_Move_19: 8917842651259011048
+      Pet_Turtle_Move_2: -6818231887772228251
+      Pet_Turtle_Move_20: 4556934820783118289
+      Pet_Turtle_Move_21: -2824003833691488631
+      Pet_Turtle_Move_22: -7974655660865853753
+      Pet_Turtle_Move_23: -3556697215762643486
+      Pet_Turtle_Move_3: 8906911021385877884
+      Pet_Turtle_Move_4: -4463569780330261529
+      Pet_Turtle_Move_5: 8953661155426590427
+      Pet_Turtle_Move_6: -3347387989614638050
+      Pet_Turtle_Move_7: -6899332869427063918
+      Pet_Turtle_Move_8: 4711489701754820587
+      Pet_Turtle_Move_9: -7218349311359314251
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

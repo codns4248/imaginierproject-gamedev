@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 5608666f54614944bbd6d43d3a6edd11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5299071907577439308
+    second: Insect_Fly_Death_0
+  - first:
+      213: 3965863470740629169
+    second: Insect_Fly_Death_1
+  - first:
+      213: 4750340305211717997
+    second: Insect_Fly_Death_2
+  - first:
+      213: 5779006064681028575
+    second: Insect_Fly_Death_3
+  - first:
+      213: -4094650279825177347
+    second: Insect_Fly_Death_4
+  - first:
+      213: -6720299568612756227
+    second: Insect_Fly_Death_5
+  - first:
+      213: 2991734577128368577
+    second: Insect_Fly_Death_6
+  - first:
+      213: 1404783334138349716
+    second: Insect_Fly_Death_7
+  - first:
+      213: -3690223848587673280
+    second: Insect_Fly_Death_8
+  - first:
+      213: 6803902007723759541
+    second: Insect_Fly_Death_9
+  - first:
+      213: -2237537052832706989
+    second: Insect_Fly_Death_10
+  - first:
+      213: -6533733872905723291
+    second: Insect_Fly_Death_11
+  - first:
+      213: 188302200013233139
+    second: Insect_Fly_Death_12
+  - first:
+      213: 8166873291256103476
+    second: Insect_Fly_Death_13
+  - first:
+      213: -6279508305242761315
+    second: Insect_Fly_Death_14
+  - first:
+      213: -576445343920497093
+    second: Insect_Fly_Death_15
+  - first:
+      213: -5072665337421927562
+    second: Insect_Fly_Death_16
+  - first:
+      213: -8107895475789406053
+    second: Insect_Fly_Death_17
+  - first:
+      213: 8742391148848504700
+    second: Insect_Fly_Death_18
+  - first:
+      213: -8093755268992249320
+    second: Insect_Fly_Death_19
+  - first:
+      213: -7405319707609305837
+    second: Insect_Fly_Death_20
+  - first:
+      213: -1846805361395131691
+    second: Insect_Fly_Death_21
+  - first:
+      213: -4891261266373849057
+    second: Insect_Fly_Death_22
+  - first:
+      213: -642008894673538592
+    second: Insect_Fly_Death_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Insect_Fly_Death_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 445
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb589dfc2ae576b0800000000000000
+      internalID: -5299071907577439308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 444
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6613980d3990730800000000000000
+      internalID: 3965863470740629169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 444
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d697d56d6599ce140800000000000000
+      internalID: 4750340305211717997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_3
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 443
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb0428b567233050800000000000000
+      internalID: 5779006064681028575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 444
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4019fc341ec27c0800000000000000
+      internalID: -4094650279825177347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_5
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 59
+        width: 136
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df430a4e523bcb2a0800000000000000
+      internalID: -6720299568612756227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_6
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 317
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c96dfb3fb6c48920800000000000000
+      internalID: 2991734577128368577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_7
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 316
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49884b1efface7310800000000000000
+      internalID: 1404783334138349716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 316
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041c14b16f0b9ccc0800000000000000
+      internalID: -3690223848587673280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_9
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 315
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b711f0d3d05c6e50800000000000000
+      internalID: 6803902007723759541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_10
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 316
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ec12ac7eba2f0e0800000000000000
+      internalID: -2237537052832706989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_11
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 314
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5626488e8a38355a0800000000000000
+      internalID: -6533733872905723291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_12
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 189
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb963e6adbfc9200800000000000000
+      internalID: 188302200013233139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 188
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43202fa0dff865170800000000000000
+      internalID: 8166873291256103476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_14
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 188
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97d3e57774bad8a0800000000000000
+      internalID: -6279508305242761315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_15
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 187
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ed03b830e0008f0800000000000000
+      internalID: -576445343920497093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_16
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 188
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b678270c54a99b0800000000000000
+      internalID: -5072665337421927562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_17
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 186
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b906391b508fa7f80800000000000000
+      internalID: -8107895475789406053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_18
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 61
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f52a24e66335970800000000000000
+      internalID: 8742391148848504700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_19
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 60
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81255c427743daf80800000000000000
+      internalID: -8093755268992249320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 60
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d6fb306f40b3990800000000000000
+      internalID: -7405319707609305837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_21
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 59
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da91c00f44de56e0800000000000000
+      internalID: -1846805361395131691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_22
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 60
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10d8221bcfbe1cb0800000000000000
+      internalID: -4891261266373849057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Fly_Death_23
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 58
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1b752df402717f0800000000000000
+      internalID: -642008894673538592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Insect_Fly_Death_0: -5299071907577439308
+      Insect_Fly_Death_1: 3965863470740629169
+      Insect_Fly_Death_10: -2237537052832706989
+      Insect_Fly_Death_11: -6533733872905723291
+      Insect_Fly_Death_12: 188302200013233139
+      Insect_Fly_Death_13: 8166873291256103476
+      Insect_Fly_Death_14: -6279508305242761315
+      Insect_Fly_Death_15: -576445343920497093
+      Insect_Fly_Death_16: -5072665337421927562
+      Insect_Fly_Death_17: -8107895475789406053
+      Insect_Fly_Death_18: 8742391148848504700
+      Insect_Fly_Death_19: -8093755268992249320
+      Insect_Fly_Death_2: 4750340305211717997
+      Insect_Fly_Death_20: -7405319707609305837
+      Insect_Fly_Death_21: -1846805361395131691
+      Insect_Fly_Death_22: -4891261266373849057
+      Insect_Fly_Death_23: -642008894673538592
+      Insect_Fly_Death_3: 5779006064681028575
+      Insect_Fly_Death_4: -4094650279825177347
+      Insect_Fly_Death_5: -6720299568612756227
+      Insect_Fly_Death_6: 2991734577128368577
+      Insect_Fly_Death_7: 1404783334138349716
+      Insect_Fly_Death_8: -3690223848587673280
+      Insect_Fly_Death_9: 6803902007723759541
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

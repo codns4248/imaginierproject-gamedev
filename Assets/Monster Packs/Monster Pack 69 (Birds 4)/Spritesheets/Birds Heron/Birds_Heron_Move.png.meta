@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 82537e9194929294190674c9a5247919
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 197250846956941849
+    second: Birds_Heron_Move_0
+  - first:
+      213: 3230863635546280030
+    second: Birds_Heron_Move_1
+  - first:
+      213: 5732656984114455844
+    second: Birds_Heron_Move_2
+  - first:
+      213: -5882774407276478192
+    second: Birds_Heron_Move_3
+  - first:
+      213: 8604754819070653421
+    second: Birds_Heron_Move_4
+  - first:
+      213: -3095755008845697653
+    second: Birds_Heron_Move_5
+  - first:
+      213: -1007283933132882349
+    second: Birds_Heron_Move_6
+  - first:
+      213: -3147458559006841088
+    second: Birds_Heron_Move_7
+  - first:
+      213: -3984455572354889032
+    second: Birds_Heron_Move_8
+  - first:
+      213: 4960156877935855669
+    second: Birds_Heron_Move_9
+  - first:
+      213: 3763313212952485131
+    second: Birds_Heron_Move_10
+  - first:
+      213: -5442874585652795557
+    second: Birds_Heron_Move_11
+  - first:
+      213: 7708894479988292386
+    second: Birds_Heron_Move_12
+  - first:
+      213: 6718383619682685613
+    second: Birds_Heron_Move_13
+  - first:
+      213: -9171904595944033066
+    second: Birds_Heron_Move_14
+  - first:
+      213: 5800351296661337513
+    second: Birds_Heron_Move_15
+  - first:
+      213: 1847698437155978137
+    second: Birds_Heron_Move_16
+  - first:
+      213: -2863550410488550140
+    second: Birds_Heron_Move_17
+  - first:
+      213: -5989652769880175289
+    second: Birds_Heron_Move_18
+  - first:
+      213: 2944086001584950888
+    second: Birds_Heron_Move_19
+  - first:
+      213: 4516583736234434667
+    second: Birds_Heron_Move_20
+  - first:
+      213: -6590093142677520259
+    second: Birds_Heron_Move_21
+  - first:
+      213: 3772456924380231224
+    second: Birds_Heron_Move_22
+  - first:
+      213: 940144277757477442
+    second: Birds_Heron_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birds_Heron_Move_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 429
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9127388a996ccb200800000000000000
+      internalID: 197250846956941849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 430
+        width: 53
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e509672db5556dc20800000000000000
+      internalID: 3230863635546280030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 429
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425ed45772d7e8f40800000000000000
+      internalID: 5732656984114455844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 429
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011c68848df2c5ea0800000000000000
+      internalID: -5882774407276478192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_4
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 428
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de379020bea3a6770800000000000000
+      internalID: 8604754819070653421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_5
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 428
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8dad12b83ba905d0800000000000000
+      internalID: -3095755008845697653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 311
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ef7a189986502f0800000000000000
+      internalID: -1007283933132882349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 311
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0076225dd1bf154d0800000000000000
+      internalID: -3147458559006841088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_8
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 310
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba067a74ce54b8c0800000000000000
+      internalID: -3984455572354889032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_9
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 308
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538c393866406d440800000000000000
+      internalID: 4960156877935855669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_10
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 311
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d1194ad69f93430800000000000000
+      internalID: 3763313212952485131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_11
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 312
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57e925e6660774b0800000000000000
+      internalID: -5442874585652795557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 183
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bfba2afae7bfa60800000000000000
+      internalID: 7708894479988292386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 183
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da25dfb7e4e7c3d50800000000000000
+      internalID: 6718383619682685613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 182
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4bbf46d59d6b080800000000000000
+      internalID: -9171904595944033066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_15
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 180
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5b9f1d5ccfe7050800000000000000
+      internalID: 5800351296661337513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_16
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 183
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99bf9b660f754a910800000000000000
+      internalID: 1847698437155978137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_17
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 184
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40de76ac210a248d0800000000000000
+      internalID: -2863550410488550140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_18
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 49
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d8b535a8a70eca0800000000000000
+      internalID: -5989652769880175289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 48
+        width: 53
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ecba8be9e7bd820800000000000000
+      internalID: 2944086001584950888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_20
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 49
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b606f8c6af02eae30800000000000000
+      internalID: 4516583736234434667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 50
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7008f9d3394b84a0800000000000000
+      internalID: -6590093142677520259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_22
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 50
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836752cd5957a5430800000000000000
+      internalID: 3772456924380231224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Heron_Move_23
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 49
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242c9515d301c0d00800000000000000
+      internalID: 940144277757477442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birds_Heron_Move_0: 197250846956941849
+      Birds_Heron_Move_1: 3230863635546280030
+      Birds_Heron_Move_10: 3763313212952485131
+      Birds_Heron_Move_11: -5442874585652795557
+      Birds_Heron_Move_12: 7708894479988292386
+      Birds_Heron_Move_13: 6718383619682685613
+      Birds_Heron_Move_14: -9171904595944033066
+      Birds_Heron_Move_15: 5800351296661337513
+      Birds_Heron_Move_16: 1847698437155978137
+      Birds_Heron_Move_17: -2863550410488550140
+      Birds_Heron_Move_18: -5989652769880175289
+      Birds_Heron_Move_19: 2944086001584950888
+      Birds_Heron_Move_2: 5732656984114455844
+      Birds_Heron_Move_20: 4516583736234434667
+      Birds_Heron_Move_21: -6590093142677520259
+      Birds_Heron_Move_22: 3772456924380231224
+      Birds_Heron_Move_23: 940144277757477442
+      Birds_Heron_Move_3: -5882774407276478192
+      Birds_Heron_Move_4: 8604754819070653421
+      Birds_Heron_Move_5: -3095755008845697653
+      Birds_Heron_Move_6: -1007283933132882349
+      Birds_Heron_Move_7: -3147458559006841088
+      Birds_Heron_Move_8: -3984455572354889032
+      Birds_Heron_Move_9: 4960156877935855669
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

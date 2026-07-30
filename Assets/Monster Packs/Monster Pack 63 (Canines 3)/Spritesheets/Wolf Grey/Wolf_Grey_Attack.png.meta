@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 8d529ec199923244eb4f7ad0286720ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8856699900340796355
+    second: Wolf_Grey_Attack_0
+  - first:
+      213: -4838571679768061565
+    second: Wolf_Grey_Attack_1
+  - first:
+      213: 2523909656433571368
+    second: Wolf_Grey_Attack_2
+  - first:
+      213: 3542332843330425079
+    second: Wolf_Grey_Attack_3
+  - first:
+      213: -3944420182020760675
+    second: Wolf_Grey_Attack_4
+  - first:
+      213: 5019112796033356752
+    second: Wolf_Grey_Attack_5
+  - first:
+      213: 2317002328579320175
+    second: Wolf_Grey_Attack_6
+  - first:
+      213: -4379819483159549718
+    second: Wolf_Grey_Attack_7
+  - first:
+      213: -6736797274039318087
+    second: Wolf_Grey_Attack_8
+  - first:
+      213: 5223309737789064685
+    second: Wolf_Grey_Attack_9
+  - first:
+      213: -6027878063793574758
+    second: Wolf_Grey_Attack_10
+  - first:
+      213: -8011902399658285734
+    second: Wolf_Grey_Attack_11
+  - first:
+      213: -8782381465826479592
+    second: Wolf_Grey_Attack_12
+  - first:
+      213: 797979123192414682
+    second: Wolf_Grey_Attack_13
+  - first:
+      213: 1006975293576310946
+    second: Wolf_Grey_Attack_14
+  - first:
+      213: 3799460325037570086
+    second: Wolf_Grey_Attack_15
+  - first:
+      213: -2064269824470806341
+    second: Wolf_Grey_Attack_16
+  - first:
+      213: 2701489998056094710
+    second: Wolf_Grey_Attack_17
+  - first:
+      213: -1195269108077015200
+    second: Wolf_Grey_Attack_18
+  - first:
+      213: 3427059849474086207
+    second: Wolf_Grey_Attack_19
+  - first:
+      213: 4874851046502681075
+    second: Wolf_Grey_Attack_20
+  - first:
+      213: 4597179478027943637
+    second: Wolf_Grey_Attack_21
+  - first:
+      213: 3173412712917074749
+    second: Wolf_Grey_Attack_22
+  - first:
+      213: -3049883516543977268
+    second: Wolf_Grey_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 435
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3403fd8d5ea61580800000000000000
+      internalID: -8856699900340796355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 433
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389d82f61b0f9dcb0800000000000000
+      internalID: -4838571679768061565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 427
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826b6e4d57ab60320800000000000000
+      internalID: 2523909656433571368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 426
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0d8e2f3f4e82130800000000000000
+      internalID: 3542332843330425079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 426
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b55cd2eba9249c0800000000000000
+      internalID: -3944420182020760675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 428
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d39f2fde7877a540800000000000000
+      internalID: 5019112796033356752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 303
+        width: 73
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6929b28755a72020800000000000000
+      internalID: 2317002328579320175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 303
+        width: 72
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8a0f5a261c733c0800000000000000
+      internalID: -4379819483159549718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 304
+        width: 71
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9011582961282a0800000000000000
+      internalID: -6736797274039318087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 303
+        width: 74
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de581c0488cec7840800000000000000
+      internalID: 5223309737789064685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 303
+        width: 71
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ce63a86dca85ca0800000000000000
+      internalID: -6027878063793574758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 303
+        width: 68
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55a445673100d090800000000000000
+      internalID: -8011902399658285734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 175
+        width: 73
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812307f7696be1680800000000000000
+      internalID: -8782381465826479592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 175
+        width: 72
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1cf00e8cdf21b00800000000000000
+      internalID: 797979123192414682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 176
+        width: 71
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0f53fb1be79fd00800000000000000
+      internalID: 1006975293576310946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 175
+        width: 74
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628fd0409056ab430800000000000000
+      internalID: 3799460325037570086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 175
+        width: 71
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb01cd7188d3a53e0800000000000000
+      internalID: -2064269824470806341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 175
+        width: 68
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb776217de9d7520800000000000000
+      internalID: 2701489998056094710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 47
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f421a341d896fe0800000000000000
+      internalID: -1195269108077015200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 49
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3518e796cc5f8f20800000000000000
+      internalID: 3427059849474086207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 55
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9cbbfd233f6a340800000000000000
+      internalID: 4874851046502681075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 50
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de329cd0667ccf30800000000000000
+      internalID: 4597179478027943637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 46
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3381278c0a3a0c20800000000000000
+      internalID: 3173412712917074749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 47
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8b316c913aca5d0800000000000000
+      internalID: -3049883516543977268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wolf_Grey_Attack_0: -8856699900340796355
+      Wolf_Grey_Attack_1: -4838571679768061565
+      Wolf_Grey_Attack_10: -6027878063793574758
+      Wolf_Grey_Attack_11: -8011902399658285734
+      Wolf_Grey_Attack_12: -8782381465826479592
+      Wolf_Grey_Attack_13: 797979123192414682
+      Wolf_Grey_Attack_14: 1006975293576310946
+      Wolf_Grey_Attack_15: 3799460325037570086
+      Wolf_Grey_Attack_16: -2064269824470806341
+      Wolf_Grey_Attack_17: 2701489998056094710
+      Wolf_Grey_Attack_18: -1195269108077015200
+      Wolf_Grey_Attack_19: 3427059849474086207
+      Wolf_Grey_Attack_2: 2523909656433571368
+      Wolf_Grey_Attack_20: 4874851046502681075
+      Wolf_Grey_Attack_21: 4597179478027943637
+      Wolf_Grey_Attack_22: 3173412712917074749
+      Wolf_Grey_Attack_23: -3049883516543977268
+      Wolf_Grey_Attack_3: 3542332843330425079
+      Wolf_Grey_Attack_4: -3944420182020760675
+      Wolf_Grey_Attack_5: 5019112796033356752
+      Wolf_Grey_Attack_6: 2317002328579320175
+      Wolf_Grey_Attack_7: -4379819483159549718
+      Wolf_Grey_Attack_8: -6736797274039318087
+      Wolf_Grey_Attack_9: 5223309737789064685
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

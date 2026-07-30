@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 8b5a68b814a84654e92254b1fae63872
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 341957031685065549
+    second: Troll_Battle_Idle_0
+  - first:
+      213: 6543189798031307468
+    second: Troll_Battle_Idle_1
+  - first:
+      213: -3817641948560751547
+    second: Troll_Battle_Idle_2
+  - first:
+      213: 390361202651202239
+    second: Troll_Battle_Idle_3
+  - first:
+      213: -807540221676861360
+    second: Troll_Battle_Idle_4
+  - first:
+      213: 7911967053139837707
+    second: Troll_Battle_Idle_5
+  - first:
+      213: 4830500346276218158
+    second: Troll_Battle_Idle_6
+  - first:
+      213: 1374321385233617889
+    second: Troll_Battle_Idle_7
+  - first:
+      213: -576826244691035775
+    second: Troll_Battle_Idle_8
+  - first:
+      213: 2152852901156342809
+    second: Troll_Battle_Idle_9
+  - first:
+      213: -1320815629119580727
+    second: Troll_Battle_Idle_10
+  - first:
+      213: 3207885035839064481
+    second: Troll_Battle_Idle_11
+  - first:
+      213: -4677276065860274503
+    second: Troll_Battle_Idle_12
+  - first:
+      213: -3155557356379667283
+    second: Troll_Battle_Idle_13
+  - first:
+      213: -4073677006721339885
+    second: Troll_Battle_Idle_14
+  - first:
+      213: -5650537292947583762
+    second: Troll_Battle_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Troll_Battle_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 430
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b090acb10eeb400800000000000000
+      internalID: 341957031685065549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 430
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2bd9934741eca50800000000000000
+      internalID: 6543189798031307468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 431
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5440860efd2050bc0800000000000000
+      internalID: -3817641948560751547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 431
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb28e121277da6500800000000000000
+      internalID: 390361202651202239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 303
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0584c19627a0bc4f0800000000000000
+      internalID: -807540221676861360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 303
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b038efc8d14fccd60800000000000000
+      internalID: 7911967053139837707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 303
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25023bc872690340800000000000000
+      internalID: 4830500346276218158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 303
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e39216b402921310800000000000000
+      internalID: 1374321385233617889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 175
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189711c2693bef7f0800000000000000
+      internalID: -576826244691035775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 175
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91cc71bae4870ed10800000000000000
+      internalID: 2152852901156342809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 175
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c51b8cee258bade0800000000000000
+      internalID: -1320815629119580727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 175
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a98a79a172b48c20800000000000000
+      internalID: 3207885035839064481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 47
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b636f9033af61fb0800000000000000
+      internalID: -4677276065860274503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 47
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da48e90ad453534d0800000000000000
+      internalID: -3155557356379667283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 47
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ea2bc78546777c0800000000000000
+      internalID: -4073677006721339885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Troll_Battle_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 47
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec03c715424591b0800000000000000
+      internalID: -5650537292947583762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Troll_Battle_Idle_0: 341957031685065549
+      Troll_Battle_Idle_1: 6543189798031307468
+      Troll_Battle_Idle_10: -1320815629119580727
+      Troll_Battle_Idle_11: 3207885035839064481
+      Troll_Battle_Idle_12: -4677276065860274503
+      Troll_Battle_Idle_13: -3155557356379667283
+      Troll_Battle_Idle_14: -4073677006721339885
+      Troll_Battle_Idle_15: -5650537292947583762
+      Troll_Battle_Idle_2: -3817641948560751547
+      Troll_Battle_Idle_3: 390361202651202239
+      Troll_Battle_Idle_4: -807540221676861360
+      Troll_Battle_Idle_5: 7911967053139837707
+      Troll_Battle_Idle_6: 4830500346276218158
+      Troll_Battle_Idle_7: 1374321385233617889
+      Troll_Battle_Idle_8: -576826244691035775
+      Troll_Battle_Idle_9: 2152852901156342809
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

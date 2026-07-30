@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 416daacf7e596fd4ba55340c94b2b0e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2385404285832399479
+    second: Elemental_Fire_2_Idle_0
+  - first:
+      213: -5254541237087317763
+    second: Elemental_Fire_2_Idle_1
+  - first:
+      213: 6340193352816194579
+    second: Elemental_Fire_2_Idle_2
+  - first:
+      213: -415938994538956260
+    second: Elemental_Fire_2_Idle_3
+  - first:
+      213: -2561273844626189647
+    second: Elemental_Fire_2_Idle_4
+  - first:
+      213: -6721884057270081115
+    second: Elemental_Fire_2_Idle_5
+  - first:
+      213: 3538914707149523501
+    second: Elemental_Fire_2_Idle_6
+  - first:
+      213: -8770006096514247781
+    second: Elemental_Fire_2_Idle_7
+  - first:
+      213: 6216925740394843028
+    second: Elemental_Fire_2_Idle_8
+  - first:
+      213: 2918509157463837394
+    second: Elemental_Fire_2_Idle_9
+  - first:
+      213: 6608733827994067741
+    second: Elemental_Fire_2_Idle_10
+  - first:
+      213: 3529501514367093093
+    second: Elemental_Fire_2_Idle_11
+  - first:
+      213: 5217929622503861656
+    second: Elemental_Fire_2_Idle_12
+  - first:
+      213: -8818757253538051833
+    second: Elemental_Fire_2_Idle_13
+  - first:
+      213: 4670435575654604941
+    second: Elemental_Fire_2_Idle_14
+  - first:
+      213: -1211923563245083901
+    second: Elemental_Fire_2_Idle_15
+  - first:
+      213: -6139036659477976125
+    second: Elemental_Fire_2_Idle_16
+  - first:
+      213: 2917061627003367075
+    second: Elemental_Fire_2_Idle_17
+  - first:
+      213: 1830828639580447403
+    second: Elemental_Fire_2_Idle_18
+  - first:
+      213: -9148908214220750947
+    second: Elemental_Fire_2_Idle_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elemental_Fire_2_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 440
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985f341c07755eed0800000000000000
+      internalID: -2385404285832399479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Fire_2_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 440
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0d4c9a59e1417b0800000000000000
+      internalID: -5254541237087317763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Fire_2_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 457
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314f6e93344ecf750800000000000000
+      internalID: 6340193352816194579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Fire_2_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 439
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ab54e20b94a3af0800000000000000
+      internalID: -415938994538956260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Fire_2_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 439
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b29e8e2207847cd0800000000000000
+      internalID: -2561273844626189647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Fire_2_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 312
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a92e01601217b2a0800000000000000
+      internalID: -6721884057270081115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Fire_2_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 312
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a8d0a1d20cc1130800000000000000
+      internalID: 3538914707149523501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Fire_2_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 329
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b931243bbedaa4680800000000000000
+      internalID: -8770006096514247781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Fire_2_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 311
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b873fa505f64650800000000000000
+      internalID: 6216925740394843028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Fire_2_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 311
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da4b54ad90a08820800000000000000
+      internalID: 2918509157463837394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Fire_2_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 184
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13a1b8e660f6bb50800000000000000
+      internalID: 6608733827994067741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Fire_2_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 184
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569cd0e5dee4bf030800000000000000
+      internalID: 3529501514367093093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Fire_2_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 201
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89da45c885fc96840800000000000000
+      internalID: 5217929622503861656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Fire_2_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 183
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709077e600b7d9580800000000000000
+      internalID: -8818757253538051833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Fire_2_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 183
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d806d393968b0d040800000000000000
+      internalID: 4670435575654604941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Fire_2_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 56
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303e9d5b0f16e2fe0800000000000000
+      internalID: -1211923563245083901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Fire_2_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 56
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbe6b82fa2cdcaa0800000000000000
+      internalID: -6139036659477976125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Fire_2_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 73
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae6571381c7b7820800000000000000
+      internalID: 2917061627003367075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Fire_2_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 55
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2edc292f8686910800000000000000
+      internalID: 1830828639580447403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Fire_2_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 55
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ff7b0c37c880180800000000000000
+      internalID: -9148908214220750947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Elemental_Fire_2_Idle_0: -2385404285832399479
+      Elemental_Fire_2_Idle_1: -5254541237087317763
+      Elemental_Fire_2_Idle_10: 6608733827994067741
+      Elemental_Fire_2_Idle_11: 3529501514367093093
+      Elemental_Fire_2_Idle_12: 5217929622503861656
+      Elemental_Fire_2_Idle_13: -8818757253538051833
+      Elemental_Fire_2_Idle_14: 4670435575654604941
+      Elemental_Fire_2_Idle_15: -1211923563245083901
+      Elemental_Fire_2_Idle_16: -6139036659477976125
+      Elemental_Fire_2_Idle_17: 2917061627003367075
+      Elemental_Fire_2_Idle_18: 1830828639580447403
+      Elemental_Fire_2_Idle_19: -9148908214220750947
+      Elemental_Fire_2_Idle_2: 6340193352816194579
+      Elemental_Fire_2_Idle_3: -415938994538956260
+      Elemental_Fire_2_Idle_4: -2561273844626189647
+      Elemental_Fire_2_Idle_5: -6721884057270081115
+      Elemental_Fire_2_Idle_6: 3538914707149523501
+      Elemental_Fire_2_Idle_7: -8770006096514247781
+      Elemental_Fire_2_Idle_8: 6216925740394843028
+      Elemental_Fire_2_Idle_9: 2918509157463837394
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

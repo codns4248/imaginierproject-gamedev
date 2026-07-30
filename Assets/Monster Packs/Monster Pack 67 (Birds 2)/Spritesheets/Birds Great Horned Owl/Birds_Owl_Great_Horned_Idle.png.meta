@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 343c5ca471f6703499fa23c8f2149da6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2875911240561129310
+    second: Birds_Owl_Great_Horned_Idle_0
+  - first:
+      213: 2759928949071387915
+    second: Birds_Owl_Great_Horned_Idle_1
+  - first:
+      213: -110683692218075579
+    second: Birds_Owl_Great_Horned_Idle_2
+  - first:
+      213: 5028393011765814614
+    second: Birds_Owl_Great_Horned_Idle_3
+  - first:
+      213: 3339661532225697951
+    second: Birds_Owl_Great_Horned_Idle_4
+  - first:
+      213: -5986107990061787512
+    second: Birds_Owl_Great_Horned_Idle_5
+  - first:
+      213: 3879341058255151998
+    second: Birds_Owl_Great_Horned_Idle_6
+  - first:
+      213: 3444210065986275917
+    second: Birds_Owl_Great_Horned_Idle_7
+  - first:
+      213: 7955464965858052123
+    second: Birds_Owl_Great_Horned_Idle_8
+  - first:
+      213: 8080257693472017563
+    second: Birds_Owl_Great_Horned_Idle_9
+  - first:
+      213: -4877749440833298981
+    second: Birds_Owl_Great_Horned_Idle_10
+  - first:
+      213: -3256218897280807157
+    second: Birds_Owl_Great_Horned_Idle_11
+  - first:
+      213: -5705064052449461786
+    second: Birds_Owl_Great_Horned_Idle_12
+  - first:
+      213: -5107550377666674515
+    second: Birds_Owl_Great_Horned_Idle_13
+  - first:
+      213: -6499266919575739172
+    second: Birds_Owl_Great_Horned_Idle_14
+  - first:
+      213: -3797334250567868755
+    second: Birds_Owl_Great_Horned_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birds_Owl_Great_Horned_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 440
+        width: 45
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57f23b390a49e720800000000000000
+      internalID: 2875911240561129310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Owl_Great_Horned_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 439
+        width: 45
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d97b6a1cc3d4620800000000000000
+      internalID: 2759928949071387915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Owl_Great_Horned_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 438
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546b9e2b4c5c67ef0800000000000000
+      internalID: -110683692218075579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Owl_Great_Horned_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 439
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655ab597dc078c540800000000000000
+      internalID: 5028393011765814614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Owl_Great_Horned_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 314
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f987952287cd85e20800000000000000
+      internalID: 3339661532225697951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Owl_Great_Horned_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 315
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8865d31bf721deca0800000000000000
+      internalID: -5986107990061787512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Owl_Great_Horned_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 313
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73e2eb832036d530800000000000000
+      internalID: 3879341058255151998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Owl_Great_Horned_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 313
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4acfea8eca4ccf20800000000000000
+      internalID: 3444210065986275917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Owl_Great_Horned_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 186
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18c8019c3d776e60800000000000000
+      internalID: 7955464965858052123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Owl_Great_Horned_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 187
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c4409af87d22070800000000000000
+      internalID: 8080257693472017563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Owl_Great_Horned_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 185
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd55cb1ab0ce4cb0800000000000000
+      internalID: -4877749440833298981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Owl_Great_Horned_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 185
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0fc9a44a269fc2d0800000000000000
+      internalID: -3256218897280807157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Owl_Great_Horned_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 58
+        width: 45
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e936e4987a83d0b0800000000000000
+      internalID: -5705064052449461786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Owl_Great_Horned_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 58
+        width: 45
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da004c21ef55e19b0800000000000000
+      internalID: -5107550377666674515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Owl_Great_Horned_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4ad36db27fdc5a0800000000000000
+      internalID: -6499266919575739172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Owl_Great_Horned_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 57
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae5a754e982d4bc0800000000000000
+      internalID: -3797334250567868755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birds_Owl_Great_Horned_Idle_0: 2875911240561129310
+      Birds_Owl_Great_Horned_Idle_1: 2759928949071387915
+      Birds_Owl_Great_Horned_Idle_10: -4877749440833298981
+      Birds_Owl_Great_Horned_Idle_11: -3256218897280807157
+      Birds_Owl_Great_Horned_Idle_12: -5705064052449461786
+      Birds_Owl_Great_Horned_Idle_13: -5107550377666674515
+      Birds_Owl_Great_Horned_Idle_14: -6499266919575739172
+      Birds_Owl_Great_Horned_Idle_15: -3797334250567868755
+      Birds_Owl_Great_Horned_Idle_2: -110683692218075579
+      Birds_Owl_Great_Horned_Idle_3: 5028393011765814614
+      Birds_Owl_Great_Horned_Idle_4: 3339661532225697951
+      Birds_Owl_Great_Horned_Idle_5: -5986107990061787512
+      Birds_Owl_Great_Horned_Idle_6: 3879341058255151998
+      Birds_Owl_Great_Horned_Idle_7: 3444210065986275917
+      Birds_Owl_Great_Horned_Idle_8: 7955464965858052123
+      Birds_Owl_Great_Horned_Idle_9: 8080257693472017563
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

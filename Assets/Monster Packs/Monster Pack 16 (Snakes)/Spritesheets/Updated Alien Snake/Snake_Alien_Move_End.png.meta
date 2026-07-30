@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 93afd99f1fad81d4eb806f5fd02bdcf9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6967410055363785823
+    second: Snake_Alien_Move_End_0
+  - first:
+      213: -3685433094093759124
+    second: Snake_Alien_Move_End_1
+  - first:
+      213: -3061455404867539241
+    second: Snake_Alien_Move_End_2
+  - first:
+      213: 4086280485044535094
+    second: Snake_Alien_Move_End_3
+  - first:
+      213: -4333259175980525736
+    second: Snake_Alien_Move_End_4
+  - first:
+      213: 1528525734465541712
+    second: Snake_Alien_Move_End_5
+  - first:
+      213: 1565148975425218929
+    second: Snake_Alien_Move_End_6
+  - first:
+      213: 2793744046985026958
+    second: Snake_Alien_Move_End_7
+  - first:
+      213: 74034941697665158
+    second: Snake_Alien_Move_End_8
+  - first:
+      213: -2162310587386394744
+    second: Snake_Alien_Move_End_9
+  - first:
+      213: 5845217335736908464
+    second: Snake_Alien_Move_End_10
+  - first:
+      213: -2705364471098578385
+    second: Snake_Alien_Move_End_11
+  - first:
+      213: -9188768250778041036
+    second: Snake_Alien_Move_End_12
+  - first:
+      213: -5530590236257941968
+    second: Snake_Alien_Move_End_13
+  - first:
+      213: 4795037478216947014
+    second: Snake_Alien_Move_End_14
+  - first:
+      213: -1934690539384562036
+    second: Snake_Alien_Move_End_15
+  - first:
+      213: 7430616360592780415
+    second: Snake_Alien_Move_End_16
+  - first:
+      213: 6260853584243733346
+    second: Snake_Alien_Move_End_17
+  - first:
+      213: -1297632888725626897
+    second: Snake_Alien_Move_End_18
+  - first:
+      213: -2660480590255050408
+    second: Snake_Alien_Move_End_19
+  - first:
+      213: -373821029448195747
+    second: Snake_Alien_Move_End_20
+  - first:
+      213: 1088429824029408882
+    second: Snake_Alien_Move_End_21
+  - first:
+      213: -5690290781864249537
+    second: Snake_Alien_Move_End_22
+  - first:
+      213: -4351600374083853913
+    second: Snake_Alien_Move_End_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 430
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54717ac78631b060800000000000000
+      internalID: 6967410055363785823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 430
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d921f8026badcc0800000000000000
+      internalID: -3685433094093759124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 431
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7deab2197868385d0800000000000000
+      internalID: -3061455404867539241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 431
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fb0bb737265b830800000000000000
+      internalID: 4086280485044535094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 431
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8579affecbb2dd3c0800000000000000
+      internalID: -4333259175980525736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_5
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 431
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0569cd89e0a663510800000000000000
+      internalID: 1528525734465541712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_6
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 303
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17969cc53b688b510800000000000000
+      internalID: 1565148975425218929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_7
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 303
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d97e9a86f55c620800000000000000
+      internalID: 2793744046985026958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_8
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 303
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6882bd02366070100800000000000000
+      internalID: 74034941697665158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 303
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88784c82afdedf1e0800000000000000
+      internalID: -2162310587386394744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_10
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 303
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0babd8392326e1150800000000000000
+      internalID: 5845217335736908464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_11
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 303
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ae430e85d947ad0800000000000000
+      internalID: -2705364471098578385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_12
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 175
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435ccf8c5ffea7080800000000000000
+      internalID: -9188768250778041036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_13
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 175
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0360a918b756f33b0800000000000000
+      internalID: -5530590236257941968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_14
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 175
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6455ec56e256b8240800000000000000
+      internalID: 4795037478216947014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_15
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 175
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e9ca174399625e0800000000000000
+      internalID: -1934690539384562036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_16
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 175
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ca65bf53ade1760800000000000000
+      internalID: 7430616360592780415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_17
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 175
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2633497d92503e650800000000000000
+      internalID: 6260853584243733346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_18
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 39
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef15aa43c1edfde0800000000000000
+      internalID: -1297632888725626897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_19
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 42
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851b60ebff2141bd0800000000000000
+      internalID: -2660480590255050408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 41
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d516b2a11cbefcaf0800000000000000
+      internalID: -373821029448195747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_21
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 41
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27eb6308821ea1f00800000000000000
+      internalID: 1088429824029408882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_22
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 41
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f373d4eaea60801b0800000000000000
+      internalID: -5690290781864249537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Alien_Move_End_23
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 41
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1664af3820c93c0800000000000000
+      internalID: -4351600374083853913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Snake_Alien_Move_End_0: 6967410055363785823
+      Snake_Alien_Move_End_1: -3685433094093759124
+      Snake_Alien_Move_End_10: 5845217335736908464
+      Snake_Alien_Move_End_11: -2705364471098578385
+      Snake_Alien_Move_End_12: -9188768250778041036
+      Snake_Alien_Move_End_13: -5530590236257941968
+      Snake_Alien_Move_End_14: 4795037478216947014
+      Snake_Alien_Move_End_15: -1934690539384562036
+      Snake_Alien_Move_End_16: 7430616360592780415
+      Snake_Alien_Move_End_17: 6260853584243733346
+      Snake_Alien_Move_End_18: -1297632888725626897
+      Snake_Alien_Move_End_19: -2660480590255050408
+      Snake_Alien_Move_End_2: -3061455404867539241
+      Snake_Alien_Move_End_20: -373821029448195747
+      Snake_Alien_Move_End_21: 1088429824029408882
+      Snake_Alien_Move_End_22: -5690290781864249537
+      Snake_Alien_Move_End_23: -4351600374083853913
+      Snake_Alien_Move_End_3: 4086280485044535094
+      Snake_Alien_Move_End_4: -4333259175980525736
+      Snake_Alien_Move_End_5: 1528525734465541712
+      Snake_Alien_Move_End_6: 1565148975425218929
+      Snake_Alien_Move_End_7: 2793744046985026958
+      Snake_Alien_Move_End_8: 74034941697665158
+      Snake_Alien_Move_End_9: -2162310587386394744
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

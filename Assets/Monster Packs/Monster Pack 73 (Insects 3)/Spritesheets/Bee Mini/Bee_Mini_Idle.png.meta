@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: c96d0ab9803f6824598b4b0bdeb90022
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8074122074471826999
+    second: Bee_Mini_Idle_0
+  - first:
+      213: -912399132762157331
+    second: Bee_Mini_Idle_1
+  - first:
+      213: -2436484107722813543
+    second: Bee_Mini_Idle_2
+  - first:
+      213: -2377762044384397068
+    second: Bee_Mini_Idle_3
+  - first:
+      213: -1530931846050726946
+    second: Bee_Mini_Idle_4
+  - first:
+      213: -4018370601480747952
+    second: Bee_Mini_Idle_5
+  - first:
+      213: 4653905868270037918
+    second: Bee_Mini_Idle_6
+  - first:
+      213: -5878435018823234786
+    second: Bee_Mini_Idle_7
+  - first:
+      213: -3791507098346865090
+    second: Bee_Mini_Idle_8
+  - first:
+      213: 5299650646870379390
+    second: Bee_Mini_Idle_9
+  - first:
+      213: -3058633489486823373
+    second: Bee_Mini_Idle_10
+  - first:
+      213: -8869073720429594093
+    second: Bee_Mini_Idle_11
+  - first:
+      213: 528286643715366985
+    second: Bee_Mini_Idle_12
+  - first:
+      213: 5179195084392697941
+    second: Bee_Mini_Idle_13
+  - first:
+      213: 5077034881551751357
+    second: Bee_Mini_Idle_14
+  - first:
+      213: 7879687838053630561
+    second: Bee_Mini_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bee_Mini_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 445
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736880a8f3b0d0070800000000000000
+      internalID: 8074122074471826999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Mini_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 444
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee4656a2d18653f0800000000000000
+      internalID: -912399132762157331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Mini_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 445
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f0c42fc9edf2ed0800000000000000
+      internalID: -2436484107722813543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Mini_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 445
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8bf00c40e700fd0800000000000000
+      internalID: -2377762044384397068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Mini_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 317
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb30d4e89901cae0800000000000000
+      internalID: -1530931846050726946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Mini_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 316
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0540eda6a31eb38c0800000000000000
+      internalID: -4018370601480747952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Mini_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 317
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b6750dabef59040800000000000000
+      internalID: 4653905868270037918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Mini_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 318
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b03d3ee7a9b6ea0800000000000000
+      internalID: -5878435018823234786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Mini_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 189
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3eb9afd16cd16bc0800000000000000
+      internalID: -3791507098346865090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Mini_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 188
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7bc0604f242c8940800000000000000
+      internalID: 5299650646870379390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Mini_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 189
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3304601fb0d8d85d0800000000000000
+      internalID: -3058633489486823373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Mini_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 190
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31aba0f0178bae480800000000000000
+      internalID: -8869073720429594093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Mini_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 61
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940ec3a47e9d45700800000000000000
+      internalID: 528286643715366985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Mini_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 60
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5501dab1d7230e740800000000000000
+      internalID: 5179195084392697941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Mini_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 61
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8d8235350457640800000000000000
+      internalID: 5077034881551751357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bee_Mini_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 61
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162072027564a5d60800000000000000
+      internalID: 7879687838053630561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bee_Mini_Idle_0: 8074122074471826999
+      Bee_Mini_Idle_1: -912399132762157331
+      Bee_Mini_Idle_10: -3058633489486823373
+      Bee_Mini_Idle_11: -8869073720429594093
+      Bee_Mini_Idle_12: 528286643715366985
+      Bee_Mini_Idle_13: 5179195084392697941
+      Bee_Mini_Idle_14: 5077034881551751357
+      Bee_Mini_Idle_15: 7879687838053630561
+      Bee_Mini_Idle_2: -2436484107722813543
+      Bee_Mini_Idle_3: -2377762044384397068
+      Bee_Mini_Idle_4: -1530931846050726946
+      Bee_Mini_Idle_5: -4018370601480747952
+      Bee_Mini_Idle_6: 4653905868270037918
+      Bee_Mini_Idle_7: -5878435018823234786
+      Bee_Mini_Idle_8: -3791507098346865090
+      Bee_Mini_Idle_9: 5299650646870379390
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

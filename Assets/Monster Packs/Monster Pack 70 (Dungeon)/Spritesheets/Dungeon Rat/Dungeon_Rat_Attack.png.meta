@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 0a1d6095ed0e1334a8d1d3dfc2fa3feb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5780753647758476406
+    second: Dungeon_Rat_Attack_0
+  - first:
+      213: -7887982374444561434
+    second: Dungeon_Rat_Attack_1
+  - first:
+      213: -1513155996653409702
+    second: Dungeon_Rat_Attack_2
+  - first:
+      213: 543962227536570012
+    second: Dungeon_Rat_Attack_3
+  - first:
+      213: -8762448142565228645
+    second: Dungeon_Rat_Attack_4
+  - first:
+      213: 8096533294642254891
+    second: Dungeon_Rat_Attack_5
+  - first:
+      213: 4748329785263698900
+    second: Dungeon_Rat_Attack_6
+  - first:
+      213: 1103204975012697531
+    second: Dungeon_Rat_Attack_7
+  - first:
+      213: 5870380543006957521
+    second: Dungeon_Rat_Attack_8
+  - first:
+      213: -8524867712995236097
+    second: Dungeon_Rat_Attack_9
+  - first:
+      213: 631954941521704181
+    second: Dungeon_Rat_Attack_10
+  - first:
+      213: 4699751640863347726
+    second: Dungeon_Rat_Attack_11
+  - first:
+      213: -3767472145399002011
+    second: Dungeon_Rat_Attack_12
+  - first:
+      213: -4997153708291152848
+    second: Dungeon_Rat_Attack_13
+  - first:
+      213: -7612955928573820727
+    second: Dungeon_Rat_Attack_14
+  - first:
+      213: -7477012582725102056
+    second: Dungeon_Rat_Attack_15
+  - first:
+      213: -1431945009759023446
+    second: Dungeon_Rat_Attack_16
+  - first:
+      213: -2523130495451611627
+    second: Dungeon_Rat_Attack_17
+  - first:
+      213: 2654972371810857091
+    second: Dungeon_Rat_Attack_18
+  - first:
+      213: -8008932889819390463
+    second: Dungeon_Rat_Attack_19
+  - first:
+      213: -6631826629111528979
+    second: Dungeon_Rat_Attack_20
+  - first:
+      213: 3309826519297392347
+    second: Dungeon_Rat_Attack_21
+  - first:
+      213: -5987446494852009109
+    second: Dungeon_Rat_Attack_22
+  - first:
+      213: 1202320108568482516
+    second: Dungeon_Rat_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 434
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8bff436f23a6cfa0800000000000000
+      internalID: -5780753647758476406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 436
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb80b0a2d1488290800000000000000
+      internalID: -7887982374444561434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 433
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5aa8b953a0300be0800000000000000
+      internalID: -1513155996653409702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 428
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c962c8f83ca8c8700800000000000000
+      internalID: 543962227536570012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 428
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f3e9bf6d7856680800000000000000
+      internalID: -8762448142565228645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 428
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24564b522aac5070800000000000000
+      internalID: 8096533294642254891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 303
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3bc0f28c475e140800000000000000
+      internalID: 4748329785263698900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 303
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5531a641f5f4f00800000000000000
+      internalID: 1103204975012697531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 303
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df5b425008c77150800000000000000
+      internalID: 5870380543006957521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 303
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6e8b15bf591b980800000000000000
+      internalID: -8524867712995236097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 303
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4347bcba725c800800000000000000
+      internalID: 631954941521704181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 303
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04183e873fd83140800000000000000
+      internalID: 4699751640863347726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 175
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c40507b0047bbc0800000000000000
+      internalID: -3767472145399002011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 175
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034a749ad2b86aab0800000000000000
+      internalID: -4997153708291152848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 175
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c047aa0be8595690800000000000000
+      internalID: -7612955928573820727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 175
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8165b81cba05c3890800000000000000
+      internalID: -7477012582725102056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 175
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae8b63b995b02ce0800000000000000
+      internalID: -1431945009759023446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 175
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51eb6a8be2a0cfcd0800000000000000
+      internalID: -2523130495451611627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 41
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38033463e4b58d420800000000000000
+      internalID: 2654972371810857091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 41
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e5f5848fd8ad090800000000000000
+      internalID: -8008932889819390463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 43
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1c4d751d407f3a0800000000000000
+      internalID: -6631826629111528979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 42
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde73eedeaddeed20800000000000000
+      internalID: 3309826519297392347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 40
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6330b2c22158eca0800000000000000
+      internalID: -5987446494852009109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 45
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d29881c4cf7fa010800000000000000
+      internalID: 1202320108568482516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dungeon_Rat_Attack_0: -5780753647758476406
+      Dungeon_Rat_Attack_1: -7887982374444561434
+      Dungeon_Rat_Attack_10: 631954941521704181
+      Dungeon_Rat_Attack_11: 4699751640863347726
+      Dungeon_Rat_Attack_12: -3767472145399002011
+      Dungeon_Rat_Attack_13: -4997153708291152848
+      Dungeon_Rat_Attack_14: -7612955928573820727
+      Dungeon_Rat_Attack_15: -7477012582725102056
+      Dungeon_Rat_Attack_16: -1431945009759023446
+      Dungeon_Rat_Attack_17: -2523130495451611627
+      Dungeon_Rat_Attack_18: 2654972371810857091
+      Dungeon_Rat_Attack_19: -8008932889819390463
+      Dungeon_Rat_Attack_2: -1513155996653409702
+      Dungeon_Rat_Attack_20: -6631826629111528979
+      Dungeon_Rat_Attack_21: 3309826519297392347
+      Dungeon_Rat_Attack_22: -5987446494852009109
+      Dungeon_Rat_Attack_23: 1202320108568482516
+      Dungeon_Rat_Attack_3: 543962227536570012
+      Dungeon_Rat_Attack_4: -8762448142565228645
+      Dungeon_Rat_Attack_5: 8096533294642254891
+      Dungeon_Rat_Attack_6: 4748329785263698900
+      Dungeon_Rat_Attack_7: 1103204975012697531
+      Dungeon_Rat_Attack_8: 5870380543006957521
+      Dungeon_Rat_Attack_9: -8524867712995236097
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

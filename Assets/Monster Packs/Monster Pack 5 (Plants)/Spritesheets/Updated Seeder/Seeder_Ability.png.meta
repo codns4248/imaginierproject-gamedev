@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: c833446a582022d41a942b834013bf7a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9101130330476872325
+    second: Seeder_Ability_0
+  - first:
+      213: 2950810506078900732
+    second: Seeder_Ability_1
+  - first:
+      213: -8684831811260105889
+    second: Seeder_Ability_2
+  - first:
+      213: 378079912151921961
+    second: Seeder_Ability_3
+  - first:
+      213: -8038170372066371494
+    second: Seeder_Ability_4
+  - first:
+      213: -4486091256759462854
+    second: Seeder_Ability_5
+  - first:
+      213: -814072987138933409
+    second: Seeder_Ability_6
+  - first:
+      213: 4780008345039916481
+    second: Seeder_Ability_7
+  - first:
+      213: 5192129032517701914
+    second: Seeder_Ability_8
+  - first:
+      213: 5200283264975027685
+    second: Seeder_Ability_9
+  - first:
+      213: -3713534818210687380
+    second: Seeder_Ability_10
+  - first:
+      213: 1690884662899735949
+    second: Seeder_Ability_11
+  - first:
+      213: 5957515931038693270
+    second: Seeder_Ability_12
+  - first:
+      213: -1765419111452360291
+    second: Seeder_Ability_13
+  - first:
+      213: -1733024758927648464
+    second: Seeder_Ability_14
+  - first:
+      213: -1148418947897270056
+    second: Seeder_Ability_15
+  - first:
+      213: -6926003090765633946
+    second: Seeder_Ability_16
+  - first:
+      213: -1203604173583922200
+    second: Seeder_Ability_17
+  - first:
+      213: -4954159746789667941
+    second: Seeder_Ability_18
+  - first:
+      213: 7758857459793044167
+    second: Seeder_Ability_19
+  - first:
+      213: -3000829379314087299
+    second: Seeder_Ability_20
+  - first:
+      213: -3317667566928650682
+    second: Seeder_Ability_21
+  - first:
+      213: 5054749450969744859
+    second: Seeder_Ability_22
+  - first:
+      213: 5688792393671124634
+    second: Seeder_Ability_23
+  - first:
+      213: 6092871650538335042
+    second: Seeder_Ability_24
+  - first:
+      213: 6750657683600362866
+    second: Seeder_Ability_25
+  - first:
+      213: 1369373453611421869
+    second: Seeder_Ability_26
+  - first:
+      213: -7992689645290791923
+    second: Seeder_Ability_27
+  - first:
+      213: -4310421568675879755
+    second: Seeder_Ability_28
+  - first:
+      213: 6608868341529803874
+    second: Seeder_Ability_29
+  - first:
+      213: 978485874148739301
+    second: Seeder_Ability_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Seeder_Ability_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 431
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5828b92d0d5bd4e70800000000000000
+      internalID: 9101130330476872325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 431
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1d25e658263f820800000000000000
+      internalID: 2950810506078900732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 431
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b34db5b77497780800000000000000
+      internalID: -8684831811260105889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_3
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 431
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925b68c4da53f3500800000000000000
+      internalID: 378079912151921961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_4
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 431
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a581ae872aea27090800000000000000
+      internalID: -8038170372066371494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_5
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 445
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34ddd235c33eb1c0800000000000000
+      internalID: -4486091256759462854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_6
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 449
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5db75c6ee4d3b4f0800000000000000
+      internalID: -814072987138933409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_7
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 431
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cdc185a340065240800000000000000
+      internalID: 4780008345039916481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_8
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11d53398d52e0840800000000000000
+      internalID: 5192129032517701914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_9
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 303
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edbe34c31e1b2840800000000000000
+      internalID: 5200283264975027685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_10
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 303
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66d18b02cfd67cc0800000000000000
+      internalID: -3713534818210687380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_11
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 303
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d7b4864aa377710800000000000000
+      internalID: 1690884662899735949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_12
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 303
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697ba4dcc295da250800000000000000
+      internalID: 5957515931038693270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_13
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 317
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d914236fba8ff77e0800000000000000
+      internalID: -1765419111452360291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_14
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 321
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0391929e92f03f7e0800000000000000
+      internalID: -1733024758927648464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_15
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 303
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0614d2d0fff00f0800000000000000
+      internalID: -1148418947897270056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_16
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 175
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66628ad62e4e1ef90800000000000000
+      internalID: -6926003090765633946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_17
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 175
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb4a5f8160fb4fe0800000000000000
+      internalID: -1203604173583922200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_18
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 175
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b001465f94f3bb0800000000000000
+      internalID: -4954159746789667941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_19
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 175
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2aad160cffcab60800000000000000
+      internalID: 7758857459793044167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_20
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 193
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a8d6e1499ea56d0800000000000000
+      internalID: -3000829379314087299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_21
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 189
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e1266fce645f1d0800000000000000
+      internalID: -3317667566928650682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_22
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 175
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd507ad28d3162640800000000000000
+      internalID: 5054749450969744859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_23
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 175
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9626b1aa86a2fe40800000000000000
+      internalID: 5688792393671124634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_24
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 47
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ba2681c7a3e8450800000000000000
+      internalID: 6092871650538335042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_25
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 47
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27dc24f85672fad50800000000000000
+      internalID: 6750657683600362866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_26
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 47
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0db5b96edf00310800000000000000
+      internalID: 1369373453611421869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_27
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 47
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0cdf7c5d13441190800000000000000
+      internalID: -7992689645290791923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_28
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 65
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b464eebb6e4e24c0800000000000000
+      internalID: -4310421568675879755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_29
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 47
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c7538cdba67bb50800000000000000
+      internalID: 6608868341529803874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Ability_30
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 47
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e88f52e7b7449d00800000000000000
+      internalID: 978485874148739301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Seeder_Ability_0: 9101130330476872325
+      Seeder_Ability_1: 2950810506078900732
+      Seeder_Ability_10: -3713534818210687380
+      Seeder_Ability_11: 1690884662899735949
+      Seeder_Ability_12: 5957515931038693270
+      Seeder_Ability_13: -1765419111452360291
+      Seeder_Ability_14: -1733024758927648464
+      Seeder_Ability_15: -1148418947897270056
+      Seeder_Ability_16: -6926003090765633946
+      Seeder_Ability_17: -1203604173583922200
+      Seeder_Ability_18: -4954159746789667941
+      Seeder_Ability_19: 7758857459793044167
+      Seeder_Ability_2: -8684831811260105889
+      Seeder_Ability_20: -3000829379314087299
+      Seeder_Ability_21: -3317667566928650682
+      Seeder_Ability_22: 5054749450969744859
+      Seeder_Ability_23: 5688792393671124634
+      Seeder_Ability_24: 6092871650538335042
+      Seeder_Ability_25: 6750657683600362866
+      Seeder_Ability_26: 1369373453611421869
+      Seeder_Ability_27: -7992689645290791923
+      Seeder_Ability_28: -4310421568675879755
+      Seeder_Ability_29: 6608868341529803874
+      Seeder_Ability_3: 378079912151921961
+      Seeder_Ability_30: 978485874148739301
+      Seeder_Ability_4: -8038170372066371494
+      Seeder_Ability_5: -4486091256759462854
+      Seeder_Ability_6: -814072987138933409
+      Seeder_Ability_7: 4780008345039916481
+      Seeder_Ability_8: 5192129032517701914
+      Seeder_Ability_9: 5200283264975027685
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

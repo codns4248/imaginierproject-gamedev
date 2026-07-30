@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 3831177c19888b145a91399de7edfad7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6365671368921612305
+    second: Dog_Attack_0
+  - first:
+      213: 6837850012055830120
+    second: Dog_Attack_1
+  - first:
+      213: 4986999759204473847
+    second: Dog_Attack_2
+  - first:
+      213: -1833935055225980794
+    second: Dog_Attack_3
+  - first:
+      213: -3672974248527094412
+    second: Dog_Attack_4
+  - first:
+      213: 1204131270550741234
+    second: Dog_Attack_5
+  - first:
+      213: -5722389594599320989
+    second: Dog_Attack_6
+  - first:
+      213: 3450949056675726724
+    second: Dog_Attack_7
+  - first:
+      213: 6209543673419589570
+    second: Dog_Attack_8
+  - first:
+      213: -2724587276021065684
+    second: Dog_Attack_9
+  - first:
+      213: 5969708556026893136
+    second: Dog_Attack_10
+  - first:
+      213: 1676824193837337848
+    second: Dog_Attack_11
+  - first:
+      213: -777373136251263084
+    second: Dog_Attack_12
+  - first:
+      213: 1171827184494534718
+    second: Dog_Attack_13
+  - first:
+      213: -6531454281952847167
+    second: Dog_Attack_14
+  - first:
+      213: -2743349439669415621
+    second: Dog_Attack_15
+  - first:
+      213: 7454588965520301291
+    second: Dog_Attack_16
+  - first:
+      213: 2403680435505534579
+    second: Dog_Attack_17
+  - first:
+      213: -3379872333001225232
+    second: Dog_Attack_18
+  - first:
+      213: 4405349695322599441
+    second: Dog_Attack_19
+  - first:
+      213: 4101499640557055532
+    second: Dog_Attack_20
+  - first:
+      213: 2994134625697944088
+    second: Dog_Attack_21
+  - first:
+      213: -723912717190808833
+    second: Dog_Attack_22
+  - first:
+      213: 3392068125548722575
+    second: Dog_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dog_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 432
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef7d82ed9798a7a0800000000000000
+      internalID: -6365671368921612305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 431
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86efcf38b5ce4ee50800000000000000
+      internalID: 6837850012055830120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 431
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb5756dbd1653540800000000000000
+      internalID: 4986999759204473847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 431
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6887e1ca8cd8c86e0800000000000000
+      internalID: -1833935055225980794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 431
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d92679169f60dc0800000000000000
+      internalID: -3672974248527094412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 431
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0ed14c20fe5b010800000000000000
+      internalID: 1204131270550741234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 303
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36214837bfcf590b0800000000000000
+      internalID: -5722389594599320989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 304
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485402512eb34ef20800000000000000
+      internalID: 3450949056675726724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 303
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7e277421bbc2650800000000000000
+      internalID: 6209543673419589570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 303
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c281735de42503ad0800000000000000
+      internalID: -2724587276021065684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 303
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053d7968d4aa8d250800000000000000
+      internalID: 5969708556026893136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 303
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc847858b6454710800000000000000
+      internalID: 1676824193837337848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 175
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497efc350473635f0800000000000000
+      internalID: -777373136251263084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3061fd9d9a234010800000000000000
+      internalID: 1171827184494534718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 175
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca1f798fec9b55a0800000000000000
+      internalID: -6531454281952847167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 175
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31dcb1383aade9d0800000000000000
+      internalID: -2743349439669415621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 175
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec52640b25047760800000000000000
+      internalID: 7454588965520301291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 175
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3761ddfee969b5120800000000000000
+      internalID: 2403680435505534579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 48
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb8a4d35084811d0800000000000000
+      internalID: -3379872333001225232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 47
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11034151532f22d30800000000000000
+      internalID: 4405349695322599441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 47
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2eabc141347be830800000000000000
+      internalID: 4101499640557055532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 47
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8125c66149d4d8920800000000000000
+      internalID: 2994134625697944088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 47
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa347b183524f5f0800000000000000
+      internalID: -723912717190808833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 47
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89b14dfcfb031f20800000000000000
+      internalID: 3392068125548722575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dog_Attack_0: -6365671368921612305
+      Dog_Attack_1: 6837850012055830120
+      Dog_Attack_10: 5969708556026893136
+      Dog_Attack_11: 1676824193837337848
+      Dog_Attack_12: -777373136251263084
+      Dog_Attack_13: 1171827184494534718
+      Dog_Attack_14: -6531454281952847167
+      Dog_Attack_15: -2743349439669415621
+      Dog_Attack_16: 7454588965520301291
+      Dog_Attack_17: 2403680435505534579
+      Dog_Attack_18: -3379872333001225232
+      Dog_Attack_19: 4405349695322599441
+      Dog_Attack_2: 4986999759204473847
+      Dog_Attack_20: 4101499640557055532
+      Dog_Attack_21: 2994134625697944088
+      Dog_Attack_22: -723912717190808833
+      Dog_Attack_23: 3392068125548722575
+      Dog_Attack_3: -1833935055225980794
+      Dog_Attack_4: -3672974248527094412
+      Dog_Attack_5: 1204131270550741234
+      Dog_Attack_6: -5722389594599320989
+      Dog_Attack_7: 3450949056675726724
+      Dog_Attack_8: 6209543673419589570
+      Dog_Attack_9: -2724587276021065684
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 30c8c2924e57e4a44bea7c50cc21d563
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3978762261392908166
+    second: Ant_Mini_Move_0
+  - first:
+      213: 5428118287302810146
+    second: Ant_Mini_Move_1
+  - first:
+      213: 3219494594659260289
+    second: Ant_Mini_Move_2
+  - first:
+      213: 8879174737385972762
+    second: Ant_Mini_Move_3
+  - first:
+      213: 8011282009722533283
+    second: Ant_Mini_Move_4
+  - first:
+      213: 106316279474209547
+    second: Ant_Mini_Move_5
+  - first:
+      213: 4603773568923442389
+    second: Ant_Mini_Move_6
+  - first:
+      213: -6169136759395061075
+    second: Ant_Mini_Move_7
+  - first:
+      213: 2820016023162704639
+    second: Ant_Mini_Move_8
+  - first:
+      213: 6272375809841906393
+    second: Ant_Mini_Move_9
+  - first:
+      213: 2342905490529419793
+    second: Ant_Mini_Move_10
+  - first:
+      213: 3141674782545014407
+    second: Ant_Mini_Move_11
+  - first:
+      213: -247560048684216828
+    second: Ant_Mini_Move_12
+  - first:
+      213: 2487383011459734242
+    second: Ant_Mini_Move_13
+  - first:
+      213: 2873199665677641740
+    second: Ant_Mini_Move_14
+  - first:
+      213: 6506526176787556558
+    second: Ant_Mini_Move_15
+  - first:
+      213: -3038315431472002133
+    second: Ant_Mini_Move_16
+  - first:
+      213: 7006896990948088204
+    second: Ant_Mini_Move_17
+  - first:
+      213: -6655387901208722623
+    second: Ant_Mini_Move_18
+  - first:
+      213: 2540684987178692113
+    second: Ant_Mini_Move_19
+  - first:
+      213: 1564285571800955628
+    second: Ant_Mini_Move_20
+  - first:
+      213: -8661143183762300202
+    second: Ant_Mini_Move_21
+  - first:
+      213: -7250174020135080042
+    second: Ant_Mini_Move_22
+  - first:
+      213: -3001715398078381289
+    second: Ant_Mini_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ant_Mini_Move_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 431
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68fdd044237673730800000000000000
+      internalID: 3978762261392908166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 430
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a5c79a2dc845b40800000000000000
+      internalID: 5428118287302810146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 430
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18794f6b641fdac20800000000000000
+      internalID: 3219494594659260289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 431
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a146388316a293b70800000000000000
+      internalID: 8879174737385972762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_4
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 431
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a53df0da8acd2f60800000000000000
+      internalID: 8011282009722533283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_5
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 431
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03c6e7c716b97100800000000000000
+      internalID: 106316279474209547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 303
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc930a4ba3e3ef30800000000000000
+      internalID: 4603773568923442389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_7
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 303
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2f3758dc2d26aa0800000000000000
+      internalID: -6169136759395061075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_8
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 303
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2d589c1a5b22720800000000000000
+      internalID: 2820016023162704639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 303
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2416b0194fb0750800000000000000
+      internalID: 6272375809841906393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_10
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 303
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1128151612ca38020800000000000000
+      internalID: 2342905490529419793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_11
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 303
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ee565c198799b20800000000000000
+      internalID: 3141674782545014407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 175
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e4995827d709cf0800000000000000
+      internalID: -247560048684216828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_13
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 175
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea16629ba5f48220800000000000000
+      internalID: 2487383011459734242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_14
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 175
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08ac718fd7afd720800000000000000
+      internalID: 2873199665677641740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 175
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8e331b513db4a50800000000000000
+      internalID: 6506526176787556558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_16
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 175
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab0687763cb5d5d0800000000000000
+      internalID: -3038315431472002133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_17
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 175
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89d63b60bf7d3160800000000000000
+      internalID: 7006896990948088204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_18
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 45
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143850237ff43a3a0800000000000000
+      internalID: -6655387901208722623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_19
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 45
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e24f2e883524320800000000000000
+      internalID: 2540684987178692113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_20
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 45
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceaf67a807575b510800000000000000
+      internalID: 1564285571800955628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 46
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d26d0fb9207dc780800000000000000
+      internalID: -8661143183762300202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_22
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 46
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f251a4425326b90800000000000000
+      internalID: -7250174020135080042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Move_23
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 45
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713c7bccfb3c756d0800000000000000
+      internalID: -3001715398078381289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ant_Mini_Move_0: 3978762261392908166
+      Ant_Mini_Move_1: 5428118287302810146
+      Ant_Mini_Move_10: 2342905490529419793
+      Ant_Mini_Move_11: 3141674782545014407
+      Ant_Mini_Move_12: -247560048684216828
+      Ant_Mini_Move_13: 2487383011459734242
+      Ant_Mini_Move_14: 2873199665677641740
+      Ant_Mini_Move_15: 6506526176787556558
+      Ant_Mini_Move_16: -3038315431472002133
+      Ant_Mini_Move_17: 7006896990948088204
+      Ant_Mini_Move_18: -6655387901208722623
+      Ant_Mini_Move_19: 2540684987178692113
+      Ant_Mini_Move_2: 3219494594659260289
+      Ant_Mini_Move_20: 1564285571800955628
+      Ant_Mini_Move_21: -8661143183762300202
+      Ant_Mini_Move_22: -7250174020135080042
+      Ant_Mini_Move_23: -3001715398078381289
+      Ant_Mini_Move_3: 8879174737385972762
+      Ant_Mini_Move_4: 8011282009722533283
+      Ant_Mini_Move_5: 106316279474209547
+      Ant_Mini_Move_6: 4603773568923442389
+      Ant_Mini_Move_7: -6169136759395061075
+      Ant_Mini_Move_8: 2820016023162704639
+      Ant_Mini_Move_9: 6272375809841906393
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

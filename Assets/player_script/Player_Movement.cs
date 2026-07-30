@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 movement;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
+    private Camera mainCamera;
     private bool IsDead = false;
 
     void Start()
@@ -15,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        mainCamera = Camera.main;
     }
 
     void Update()
@@ -26,11 +28,15 @@ public class PlayerMovement : MonoBehaviour
             Keyboard.current.wKey.isPressed ? 1 : Keyboard.current.sKey.isPressed ? -1 : 0
         ).normalized;
 
-        // 스프라이트 방향 전환
-        if (movement.x > 0f)
-            spriteRenderer.flipX = false; // 오른쪽 이동
-        else if (movement.x < 0f)
-            spriteRenderer.flipX = true; // 왼쪽 이동
+        // 마우스 위치 기준 좌우 반전
+        Vector3 screenPos = Mouse.current.position.ReadValue();
+        screenPos.z = -mainCamera.transform.position.z;
+        Vector3 mouseWorldPos = mainCamera.ScreenToWorldPoint(screenPos);
+
+        if (mouseWorldPos.x > transform.position.x)
+            spriteRenderer.flipX = false; // 마우스가 오른쪽
+        else if (mouseWorldPos.x < transform.position.x)
+            spriteRenderer.flipX = true; // 마우스가 왼쪽
 
         animator.SetFloat("Speed", movement.magnitude);
     }

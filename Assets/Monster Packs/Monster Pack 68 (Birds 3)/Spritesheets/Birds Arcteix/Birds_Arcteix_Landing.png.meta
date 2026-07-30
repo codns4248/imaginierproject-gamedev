@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: c4cb294dd96b7474a88eb985f59884af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9002295597314670837
+    second: Birds_Arcteix_Landing_0
+  - first:
+      213: -884875959515699122
+    second: Birds_Arcteix_Landing_1
+  - first:
+      213: -2441890509798082552
+    second: Birds_Arcteix_Landing_2
+  - first:
+      213: -1479585592218191149
+    second: Birds_Arcteix_Landing_3
+  - first:
+      213: -6143929902956919683
+    second: Birds_Arcteix_Landing_4
+  - first:
+      213: -56965318883860795
+    second: Birds_Arcteix_Landing_5
+  - first:
+      213: 9034177834250642185
+    second: Birds_Arcteix_Landing_6
+  - first:
+      213: 5866847481534192144
+    second: Birds_Arcteix_Landing_7
+  - first:
+      213: 371732375454484391
+    second: Birds_Arcteix_Landing_8
+  - first:
+      213: 8270480735459222742
+    second: Birds_Arcteix_Landing_9
+  - first:
+      213: -5115384322420858174
+    second: Birds_Arcteix_Landing_10
+  - first:
+      213: 6204234704110850731
+    second: Birds_Arcteix_Landing_11
+  - first:
+      213: -2119402116639416069
+    second: Birds_Arcteix_Landing_12
+  - first:
+      213: 4519863941409231162
+    second: Birds_Arcteix_Landing_13
+  - first:
+      213: -3031116802064684281
+    second: Birds_Arcteix_Landing_14
+  - first:
+      213: 7375375315260160584
+    second: Birds_Arcteix_Landing_15
+  - first:
+      213: 9031970431744906670
+    second: Birds_Arcteix_Landing_16
+  - first:
+      213: -1327504961406696126
+    second: Birds_Arcteix_Landing_17
+  - first:
+      213: -4064325588292786
+    second: Birds_Arcteix_Landing_18
+  - first:
+      213: 5256231749574774975
+    second: Birds_Arcteix_Landing_19
+  - first:
+      213: 2575635489557024584
+    second: Birds_Arcteix_Landing_20
+  - first:
+      213: -6220803391533063040
+    second: Birds_Arcteix_Landing_21
+  - first:
+      213: 3534043543739343548
+    second: Birds_Arcteix_Landing_22
+  - first:
+      213: 4131702626132482566
+    second: Birds_Arcteix_Landing_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 431
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ffef6b9db611380800000000000000
+      internalID: -9002295597314670837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 429
+        width: 51
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48a8cac00a48b3f0800000000000000
+      internalID: -884875959515699122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 423
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808761fd489ac1ed0800000000000000
+      internalID: -2441890509798082552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_3
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 431
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da7c093eb4777be0800000000000000
+      internalID: -1479585592218191149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_4
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 431
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d744a512e406cbaa0800000000000000
+      internalID: -6143929902956919683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_5
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 431
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce1963285e953ff0800000000000000
+      internalID: -56965318883860795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 311
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903a73800e8df5d70800000000000000
+      internalID: 9034177834250642185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 305
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a9d3853ba3b6150800000000000000
+      internalID: 5866847481534192144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_8
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 303
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a70a7e30a8a82500800000000000000
+      internalID: 371732375454484391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_9
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 303
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d422c6f866a6c270800000000000000
+      internalID: 8270480735459222742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_10
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 303
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2a08caf018209b0800000000000000
+      internalID: -5115384322420858174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_11
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 303
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba29da9879ed91650800000000000000
+      internalID: 6204234704110850731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 183
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf02f75010f5692e0800000000000000
+      internalID: -2119402116639416069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 177
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a315bc4be48c9be30800000000000000
+      internalID: 4519863941409231162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_14
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 175
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b673cf35f4fe5d0800000000000000
+      internalID: -3031116802064684281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_15
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 175
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a3447d5c89a5660800000000000000
+      internalID: 7375375315260160584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_16
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 175
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea59cf51141085d70800000000000000
+      internalID: 9031970431744906670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_17
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 175
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24509c16541c39de0800000000000000
+      internalID: -1327504961406696126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_18
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 44
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4bee05748f81fff0800000000000000
+      internalID: -4064325588292786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 43
+        width: 53
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0d8827de2e1f840800000000000000
+      internalID: 5256231749574774975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 39
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f8fe9d4de7eb320800000000000000
+      internalID: 2575635489557024584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_21
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 39
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084602e46444ba9a0800000000000000
+      internalID: -6220803391533063040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_22
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 38
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2a85df0e17b0130800000000000000
+      internalID: 3534043543739343548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Landing_23
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 38
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60adc24d5a1c65930800000000000000
+      internalID: 4131702626132482566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birds_Arcteix_Landing_0: -9002295597314670837
+      Birds_Arcteix_Landing_1: -884875959515699122
+      Birds_Arcteix_Landing_10: -5115384322420858174
+      Birds_Arcteix_Landing_11: 6204234704110850731
+      Birds_Arcteix_Landing_12: -2119402116639416069
+      Birds_Arcteix_Landing_13: 4519863941409231162
+      Birds_Arcteix_Landing_14: -3031116802064684281
+      Birds_Arcteix_Landing_15: 7375375315260160584
+      Birds_Arcteix_Landing_16: 9031970431744906670
+      Birds_Arcteix_Landing_17: -1327504961406696126
+      Birds_Arcteix_Landing_18: -4064325588292786
+      Birds_Arcteix_Landing_19: 5256231749574774975
+      Birds_Arcteix_Landing_2: -2441890509798082552
+      Birds_Arcteix_Landing_20: 2575635489557024584
+      Birds_Arcteix_Landing_21: -6220803391533063040
+      Birds_Arcteix_Landing_22: 3534043543739343548
+      Birds_Arcteix_Landing_23: 4131702626132482566
+      Birds_Arcteix_Landing_3: -1479585592218191149
+      Birds_Arcteix_Landing_4: -6143929902956919683
+      Birds_Arcteix_Landing_5: -56965318883860795
+      Birds_Arcteix_Landing_6: 9034177834250642185
+      Birds_Arcteix_Landing_7: 5866847481534192144
+      Birds_Arcteix_Landing_8: 371732375454484391
+      Birds_Arcteix_Landing_9: 8270480735459222742
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

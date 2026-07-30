@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 5a8f53dbc58eced499fae97808eb5d23
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1180479719656006144
+    second: Frozen_Icer_Attack_0
+  - first:
+      213: -3228695629892058663
+    second: Frozen_Icer_Attack_1
+  - first:
+      213: -7273291685192024440
+    second: Frozen_Icer_Attack_2
+  - first:
+      213: 7518172005053785113
+    second: Frozen_Icer_Attack_3
+  - first:
+      213: -9158281068690742810
+    second: Frozen_Icer_Attack_4
+  - first:
+      213: 961376900166235157
+    second: Frozen_Icer_Attack_5
+  - first:
+      213: -2343732395309293209
+    second: Frozen_Icer_Attack_6
+  - first:
+      213: -5883844148660088519
+    second: Frozen_Icer_Attack_7
+  - first:
+      213: -5827637530393941729
+    second: Frozen_Icer_Attack_8
+  - first:
+      213: -6570161177875818004
+    second: Frozen_Icer_Attack_9
+  - first:
+      213: -7470807621904956588
+    second: Frozen_Icer_Attack_10
+  - first:
+      213: -2798816787989513237
+    second: Frozen_Icer_Attack_11
+  - first:
+      213: 2455656337178292475
+    second: Frozen_Icer_Attack_12
+  - first:
+      213: -7348314641615389613
+    second: Frozen_Icer_Attack_13
+  - first:
+      213: -6442667998764148604
+    second: Frozen_Icer_Attack_14
+  - first:
+      213: -877663434682124623
+    second: Frozen_Icer_Attack_15
+  - first:
+      213: 7352355500093887795
+    second: Frozen_Icer_Attack_16
+  - first:
+      213: 7430812112178500214
+    second: Frozen_Icer_Attack_17
+  - first:
+      213: -5314863501967999027
+    second: Frozen_Icer_Attack_18
+  - first:
+      213: -531458811059367753
+    second: Frozen_Icer_Attack_19
+  - first:
+      213: 5464752616211422358
+    second: Frozen_Icer_Attack_20
+  - first:
+      213: 7305203398857343124
+    second: Frozen_Icer_Attack_21
+  - first:
+      213: -2282721889756165461
+    second: Frozen_Icer_Attack_22
+  - first:
+      213: 8743506488620202507
+    second: Frozen_Icer_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 431
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00226a2fc08e16010800000000000000
+      internalID: 1180479719656006144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 431
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d18d645e6e5133d0800000000000000
+      internalID: -3228695629892058663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 431
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88eb3547fb3101b90800000000000000
+      internalID: -7273291685192024440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 431
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91464890b99e55860800000000000000
+      internalID: 7518172005053785113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 431
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1e08304ef37e080800000000000000
+      internalID: -9158281068690742810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 431
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514bca5723f775d00800000000000000
+      internalID: 961376900166235157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 303
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761a309ddc3697fd0800000000000000
+      internalID: -2343732395309293209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 303
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931da55bbe2685ea0800000000000000
+      internalID: -5883844148660088519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 303
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f196221da82102fa0800000000000000
+      internalID: -5827637530393941729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 303
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce956ab083912d4a0800000000000000
+      internalID: -6570161177875818004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 303
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4530317cc0c525890800000000000000
+      internalID: -7470807621904956588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 303
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb3c78c5fa9829d0800000000000000
+      internalID: -2798816787989513237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 175
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0f2f39d6e341220800000000000000
+      internalID: 2455656337178292475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 175
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c76b834ca850a90800000000000000
+      internalID: -7348314641615389613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 175
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488d2eff69b0796a0800000000000000
+      internalID: -6442667998764148604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 175
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b63c6791c9e1d3f0800000000000000
+      internalID: -877663434682124623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 175
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3355c757f50d80660800000000000000
+      internalID: 7352355500093887795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 175
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672d113fe3c8f1760800000000000000
+      internalID: 7430812112178500214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 47
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf3287edcfcd36b0800000000000000
+      internalID: -5314863501967999027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 47
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b01e02f601ef98f0800000000000000
+      internalID: -531458811059367753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 47
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c1baa0d83b6db40800000000000000
+      internalID: 5464752616211422358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 47
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4904ed069cb416560800000000000000
+      internalID: 7305203398857343124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 47
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa431029842250e0800000000000000
+      internalID: -2282721889756165461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frozen_Icer_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 47
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ab78983dc275970800000000000000
+      internalID: 8743506488620202507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Frozen_Icer_Attack_0: 1180479719656006144
+      Frozen_Icer_Attack_1: -3228695629892058663
+      Frozen_Icer_Attack_10: -7470807621904956588
+      Frozen_Icer_Attack_11: -2798816787989513237
+      Frozen_Icer_Attack_12: 2455656337178292475
+      Frozen_Icer_Attack_13: -7348314641615389613
+      Frozen_Icer_Attack_14: -6442667998764148604
+      Frozen_Icer_Attack_15: -877663434682124623
+      Frozen_Icer_Attack_16: 7352355500093887795
+      Frozen_Icer_Attack_17: 7430812112178500214
+      Frozen_Icer_Attack_18: -5314863501967999027
+      Frozen_Icer_Attack_19: -531458811059367753
+      Frozen_Icer_Attack_2: -7273291685192024440
+      Frozen_Icer_Attack_20: 5464752616211422358
+      Frozen_Icer_Attack_21: 7305203398857343124
+      Frozen_Icer_Attack_22: -2282721889756165461
+      Frozen_Icer_Attack_23: 8743506488620202507
+      Frozen_Icer_Attack_3: 7518172005053785113
+      Frozen_Icer_Attack_4: -9158281068690742810
+      Frozen_Icer_Attack_5: 961376900166235157
+      Frozen_Icer_Attack_6: -2343732395309293209
+      Frozen_Icer_Attack_7: -5883844148660088519
+      Frozen_Icer_Attack_8: -5827637530393941729
+      Frozen_Icer_Attack_9: -6570161177875818004
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

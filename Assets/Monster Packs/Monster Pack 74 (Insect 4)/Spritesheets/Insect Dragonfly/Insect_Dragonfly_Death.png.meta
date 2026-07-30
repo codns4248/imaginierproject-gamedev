@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 5fe7f27a1e524b54f98d963d4c975647
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 422385171862950381
+    second: Insect_Dragonfly_Death_0
+  - first:
+      213: 5953825600279213005
+    second: Insect_Dragonfly_Death_1
+  - first:
+      213: -4995981627091444251
+    second: Insect_Dragonfly_Death_2
+  - first:
+      213: -8733422451886113635
+    second: Insect_Dragonfly_Death_3
+  - first:
+      213: 8340081214157988131
+    second: Insect_Dragonfly_Death_4
+  - first:
+      213: -3377684309001264659
+    second: Insect_Dragonfly_Death_5
+  - first:
+      213: -7130561211199889580
+    second: Insect_Dragonfly_Death_6
+  - first:
+      213: 3645027577488370025
+    second: Insect_Dragonfly_Death_7
+  - first:
+      213: 4797713759679034419
+    second: Insect_Dragonfly_Death_8
+  - first:
+      213: 9168328963477209527
+    second: Insect_Dragonfly_Death_9
+  - first:
+      213: -1424343355279193110
+    second: Insect_Dragonfly_Death_10
+  - first:
+      213: -3580013116429446902
+    second: Insect_Dragonfly_Death_11
+  - first:
+      213: -6175636466772364262
+    second: Insect_Dragonfly_Death_12
+  - first:
+      213: -175767313967193290
+    second: Insect_Dragonfly_Death_13
+  - first:
+      213: 3549731315520446751
+    second: Insect_Dragonfly_Death_14
+  - first:
+      213: 2206953413247864580
+    second: Insect_Dragonfly_Death_15
+  - first:
+      213: 2902385014858969616
+    second: Insect_Dragonfly_Death_16
+  - first:
+      213: -1492748160352249709
+    second: Insect_Dragonfly_Death_17
+  - first:
+      213: -6038787006508019987
+    second: Insect_Dragonfly_Death_18
+  - first:
+      213: -8624012025236978137
+    second: Insect_Dragonfly_Death_19
+  - first:
+      213: -7469770539469205823
+    second: Insect_Dragonfly_Death_20
+  - first:
+      213: 7280579079318066745
+    second: Insect_Dragonfly_Death_21
+  - first:
+      213: -8036250495472356454
+    second: Insect_Dragonfly_Death_22
+  - first:
+      213: 6891979673813240731
+    second: Insect_Dragonfly_Death_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 445
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1984f631d9cd500800000000000000
+      internalID: 422385171862950381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 444
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3f447b6dc30a250800000000000000
+      internalID: 5953825600279213005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 444
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed16d41e25baaab0800000000000000
+      internalID: -4995981627091444251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_3
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 443
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c38e93d86acc680800000000000000
+      internalID: -8733422451886113635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 444
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321abc73dabedb370800000000000000
+      internalID: 8340081214157988131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_5
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 59
+        width: 136
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1a196440e0021d0800000000000000
+      internalID: -3377684309001264659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_6
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 317
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f50459b582b0d90800000000000000
+      internalID: -7130561211199889580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_7
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 316
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96962b0054db59230800000000000000
+      internalID: 3645027577488370025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 316
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3343cabbe37e49240800000000000000
+      internalID: 4797713759679034419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_9
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 315
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b10cfbcd927c3f70800000000000000
+      internalID: 9168328963477209527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_10
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 316
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb456ec347bb3ce0800000000000000
+      internalID: -1424343355279193110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_11
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 314
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01dbffc90d315ec0800000000000000
+      internalID: -3580013116429446902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_12
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 189
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14b5187a5bbb4aa0800000000000000
+      internalID: -6175636466772364262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 188
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6336cd72f8c8f8df0800000000000000
+      internalID: -175767313967193290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_14
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 188
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f112dadf2dd234130800000000000000
+      internalID: 3549731315520446751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_15
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 187
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f8978bf6ca0ae10800000000000000
+      internalID: 2206953413247864580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_16
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 188
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012f5142bc7574820800000000000000
+      internalID: 2902385014858969616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_17
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 186
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39816130571b84be0800000000000000
+      internalID: -1492748160352249709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_18
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 61
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee48d2663be13ca0800000000000000
+      internalID: -6038787006508019987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_19
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 60
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7268d0941ca515880800000000000000
+      internalID: -8624012025236978137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 60
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce8249554b065890800000000000000
+      internalID: -7469770539469205823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_21
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 59
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936d4e53910d90560800000000000000
+      internalID: 7280579079318066745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_22
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 60
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93305390c0897090800000000000000
+      internalID: -8036250495472356454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Dragonfly_Death_23
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 58
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9bc9d08ffa35af50800000000000000
+      internalID: 6891979673813240731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Insect_Dragonfly_Death_0: 422385171862950381
+      Insect_Dragonfly_Death_1: 5953825600279213005
+      Insect_Dragonfly_Death_10: -1424343355279193110
+      Insect_Dragonfly_Death_11: -3580013116429446902
+      Insect_Dragonfly_Death_12: -6175636466772364262
+      Insect_Dragonfly_Death_13: -175767313967193290
+      Insect_Dragonfly_Death_14: 3549731315520446751
+      Insect_Dragonfly_Death_15: 2206953413247864580
+      Insect_Dragonfly_Death_16: 2902385014858969616
+      Insect_Dragonfly_Death_17: -1492748160352249709
+      Insect_Dragonfly_Death_18: -6038787006508019987
+      Insect_Dragonfly_Death_19: -8624012025236978137
+      Insect_Dragonfly_Death_2: -4995981627091444251
+      Insect_Dragonfly_Death_20: -7469770539469205823
+      Insect_Dragonfly_Death_21: 7280579079318066745
+      Insect_Dragonfly_Death_22: -8036250495472356454
+      Insect_Dragonfly_Death_23: 6891979673813240731
+      Insect_Dragonfly_Death_3: -8733422451886113635
+      Insect_Dragonfly_Death_4: 8340081214157988131
+      Insect_Dragonfly_Death_5: -3377684309001264659
+      Insect_Dragonfly_Death_6: -7130561211199889580
+      Insect_Dragonfly_Death_7: 3645027577488370025
+      Insect_Dragonfly_Death_8: 4797713759679034419
+      Insect_Dragonfly_Death_9: 9168328963477209527
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

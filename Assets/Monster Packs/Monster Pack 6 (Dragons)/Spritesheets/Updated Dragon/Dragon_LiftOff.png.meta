@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: be42f2851cff71748bf9efc58d378d33
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5406811210648851329
+    second: Dragon_LiftOff_0
+  - first:
+      213: -675593704016800636
+    second: Dragon_LiftOff_1
+  - first:
+      213: -8449533653049660556
+    second: Dragon_LiftOff_2
+  - first:
+      213: 1832888756520275357
+    second: Dragon_LiftOff_3
+  - first:
+      213: 3252404147451496293
+    second: Dragon_LiftOff_4
+  - first:
+      213: 7116860185840949725
+    second: Dragon_LiftOff_5
+  - first:
+      213: 7627385989015338621
+    second: Dragon_LiftOff_6
+  - first:
+      213: -7648434617211287636
+    second: Dragon_LiftOff_7
+  - first:
+      213: 4059433354576327849
+    second: Dragon_LiftOff_8
+  - first:
+      213: -5676904648148938871
+    second: Dragon_LiftOff_9
+  - first:
+      213: 7916433930305597516
+    second: Dragon_LiftOff_10
+  - first:
+      213: 4125985699530072217
+    second: Dragon_LiftOff_11
+  - first:
+      213: -8250460252133110450
+    second: Dragon_LiftOff_12
+  - first:
+      213: 8176514108667609311
+    second: Dragon_LiftOff_13
+  - first:
+      213: 3312704032395518295
+    second: Dragon_LiftOff_14
+  - first:
+      213: -1509961733697890190
+    second: Dragon_LiftOff_15
+  - first:
+      213: 2104899935712455143
+    second: Dragon_LiftOff_16
+  - first:
+      213: 1805960678409901960
+    second: Dragon_LiftOff_17
+  - first:
+      213: 6735864305533237743
+    second: Dragon_LiftOff_18
+  - first:
+      213: 725695450990532883
+    second: Dragon_LiftOff_19
+  - first:
+      213: 8287874932680263563
+    second: Dragon_LiftOff_20
+  - first:
+      213: 2160504095594256454
+    second: Dragon_LiftOff_21
+  - first:
+      213: 5289246370175984403
+    second: Dragon_LiftOff_22
+  - first:
+      213: 5235396188758524131
+    second: Dragon_LiftOff_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dragon_LiftOff_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 429
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183135a462ad80b40800000000000000
+      internalID: 5406811210648851329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 429
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484969b0b1fcf96f0800000000000000
+      internalID: -675593704016800636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 429
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b244cf8e93dba80800000000000000
+      internalID: -8449533653049660556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 429
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9dc23dec9abf6910800000000000000
+      internalID: 1832888756520275357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 430
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5678ad2175cd22d20800000000000000
+      internalID: 3252404147451496293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_5
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 406
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd99b2dd1aa24c260800000000000000
+      internalID: 7116860185840949725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_6
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 303
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7efc08352be9d960800000000000000
+      internalID: 7627385989015338621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_7
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 303
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca702512d3d4bd590800000000000000
+      internalID: -7648434617211287636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_8
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 303
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4f4e0d021065830800000000000000
+      internalID: 4059433354576327849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_9
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 303
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f815fcc459731b0800000000000000
+      internalID: -5676904648148938871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_10
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 303
+        width: 67
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40f6bf67b2dcdd60800000000000000
+      internalID: 7916433930305597516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_11
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 303
+        width: 86
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990e4d02222724930800000000000000
+      internalID: 4125985699530072217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_12
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 175
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d402e0d1a708d80800000000000000
+      internalID: -8250460252133110450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_13
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 175
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd04a14c240d87170800000000000000
+      internalID: 8176514108667609311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_14
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 175
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75160f814c619fd20800000000000000
+      internalID: 3312704032395518295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_15
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 175
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2781186adc98b0be0800000000000000
+      internalID: -1509961733697890190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_16
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 175
+        width: 67
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e922ebd65b163d10800000000000000
+      internalID: 2104899935712455143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_17
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 175
+        width: 86
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88712fa2baf001910800000000000000
+      internalID: 1805960678409901960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 38
+        width: 25
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9ba82d5e89a7d50800000000000000
+      internalID: 6735864305533237743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_19
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 38
+        width: 25
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3195863fa20321a00800000000000000
+      internalID: 725695450990532883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 38
+        width: 25
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8785491752740370800000000000000
+      internalID: 8287874932680263563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 39
+        width: 25
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6481ca13707abfd10800000000000000
+      internalID: 2160504095594256454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_22
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 39
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3132ddfcc8d276940800000000000000
+      internalID: 5289246370175984403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_LiftOff_23
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 35
+        width: 53
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0c269681dd7a840800000000000000
+      internalID: 5235396188758524131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dragon_LiftOff_0: 5406811210648851329
+      Dragon_LiftOff_1: -675593704016800636
+      Dragon_LiftOff_10: 7916433930305597516
+      Dragon_LiftOff_11: 4125985699530072217
+      Dragon_LiftOff_12: -8250460252133110450
+      Dragon_LiftOff_13: 8176514108667609311
+      Dragon_LiftOff_14: 3312704032395518295
+      Dragon_LiftOff_15: -1509961733697890190
+      Dragon_LiftOff_16: 2104899935712455143
+      Dragon_LiftOff_17: 1805960678409901960
+      Dragon_LiftOff_18: 6735864305533237743
+      Dragon_LiftOff_19: 725695450990532883
+      Dragon_LiftOff_2: -8449533653049660556
+      Dragon_LiftOff_20: 8287874932680263563
+      Dragon_LiftOff_21: 2160504095594256454
+      Dragon_LiftOff_22: 5289246370175984403
+      Dragon_LiftOff_23: 5235396188758524131
+      Dragon_LiftOff_3: 1832888756520275357
+      Dragon_LiftOff_4: 3252404147451496293
+      Dragon_LiftOff_5: 7116860185840949725
+      Dragon_LiftOff_6: 7627385989015338621
+      Dragon_LiftOff_7: -7648434617211287636
+      Dragon_LiftOff_8: 4059433354576327849
+      Dragon_LiftOff_9: -5676904648148938871
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

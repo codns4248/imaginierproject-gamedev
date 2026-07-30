@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: cd62b24554b6c31499fb45e7f7f7dd36
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4613466861569024892
+    second: Beagle_Move_0
+  - first:
+      213: 6172763824665875883
+    second: Beagle_Move_1
+  - first:
+      213: -5995612109031438240
+    second: Beagle_Move_2
+  - first:
+      213: 6359268043818869093
+    second: Beagle_Move_3
+  - first:
+      213: -376383769305868653
+    second: Beagle_Move_4
+  - first:
+      213: -4003837389158062217
+    second: Beagle_Move_5
+  - first:
+      213: 2448111998745667241
+    second: Beagle_Move_6
+  - first:
+      213: -748924330590889861
+    second: Beagle_Move_7
+  - first:
+      213: 2763270246594142894
+    second: Beagle_Move_8
+  - first:
+      213: -8388000907858218326
+    second: Beagle_Move_9
+  - first:
+      213: 5873041854002995126
+    second: Beagle_Move_10
+  - first:
+      213: -1355414387488331682
+    second: Beagle_Move_11
+  - first:
+      213: -7381855308733067923
+    second: Beagle_Move_12
+  - first:
+      213: 3378394831567380617
+    second: Beagle_Move_13
+  - first:
+      213: 9072784708808003336
+    second: Beagle_Move_14
+  - first:
+      213: -7379374167678153042
+    second: Beagle_Move_15
+  - first:
+      213: 1747769673797699565
+    second: Beagle_Move_16
+  - first:
+      213: 9166365689403092765
+    second: Beagle_Move_17
+  - first:
+      213: 6969994529250269860
+    second: Beagle_Move_18
+  - first:
+      213: 2347202936496523342
+    second: Beagle_Move_19
+  - first:
+      213: -6249670281257930873
+    second: Beagle_Move_20
+  - first:
+      213: -6103782661733590918
+    second: Beagle_Move_21
+  - first:
+      213: -8673766235227967173
+    second: Beagle_Move_22
+  - first:
+      213: -3631331950012855744
+    second: Beagle_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Beagle_Move_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 319
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c5425255ca9ffb0800000000000000
+      internalID: -4613466861569024892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 319
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5579b6eff0aa550800000000000000
+      internalID: 6172763824665875883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 321
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068862e8d8e4bcca0800000000000000
+      internalID: -5995612109031438240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_3
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 319
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561215fc798a04850800000000000000
+      internalID: 6359268043818869093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_4
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 319
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3961d4bb4f0d6caf0800000000000000
+      internalID: -376383769305868653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_5
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 319
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7776ec89b138f68c0800000000000000
+      internalID: -4003837389158062217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 223
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a66b9764e079f120800000000000000
+      internalID: 2448111998745667241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_7
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 226
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b789b7f0a494b95f0800000000000000
+      internalID: -748924330590889861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_8
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 224
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea266aa16ab195620800000000000000
+      internalID: 2763270246594142894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_9
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 223
+        width: 43
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2f477ad95d79b80800000000000000
+      internalID: -8388000907858218326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_10
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 223
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf99d2137c318150800000000000000
+      internalID: 5873041854002995126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_11
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 223
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58ed4ebbc9903de0800000000000000
+      internalID: -1355414387488331682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 127
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d42ab15b16e8990800000000000000
+      internalID: -7381855308733067923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_13
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 130
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980e696233872ee20800000000000000
+      internalID: 3378394831567380617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_14
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 128
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80fc81c7f9109ed70800000000000000
+      internalID: 9072784708808003336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_15
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 127
+        width: 43
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae89d6ca42379990800000000000000
+      internalID: -7379374167678153042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_16
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 127
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de789eb1243514810800000000000000
+      internalID: 1747769673797699565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_17
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 127
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f233e6709753f70800000000000000
+      internalID: 9166365689403092765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_18
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 31
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aad06288156ab060800000000000000
+      internalID: 6969994529250269860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_19
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 31
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4801ad72a0f29020800000000000000
+      internalID: 2347202936496523342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_20
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 33
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f2e4acdf5b449a0800000000000000
+      internalID: -6249670281257930873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_21
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 31
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a785e2522020b4ba0800000000000000
+      internalID: -6103782661733590918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_22
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 31
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31b57c809790a780800000000000000
+      internalID: -8673766235227967173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagle_Move_23
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 31
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a05f1c4daea9dc0800000000000000
+      internalID: -3631331950012855744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Beagle_Move_0: -4613466861569024892
+      Beagle_Move_1: 6172763824665875883
+      Beagle_Move_10: 5873041854002995126
+      Beagle_Move_11: -1355414387488331682
+      Beagle_Move_12: -7381855308733067923
+      Beagle_Move_13: 3378394831567380617
+      Beagle_Move_14: 9072784708808003336
+      Beagle_Move_15: -7379374167678153042
+      Beagle_Move_16: 1747769673797699565
+      Beagle_Move_17: 9166365689403092765
+      Beagle_Move_18: 6969994529250269860
+      Beagle_Move_19: 2347202936496523342
+      Beagle_Move_2: -5995612109031438240
+      Beagle_Move_20: -6249670281257930873
+      Beagle_Move_21: -6103782661733590918
+      Beagle_Move_22: -8673766235227967173
+      Beagle_Move_23: -3631331950012855744
+      Beagle_Move_3: 6359268043818869093
+      Beagle_Move_4: -376383769305868653
+      Beagle_Move_5: -4003837389158062217
+      Beagle_Move_6: 2448111998745667241
+      Beagle_Move_7: -748924330590889861
+      Beagle_Move_8: 2763270246594142894
+      Beagle_Move_9: -8388000907858218326
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

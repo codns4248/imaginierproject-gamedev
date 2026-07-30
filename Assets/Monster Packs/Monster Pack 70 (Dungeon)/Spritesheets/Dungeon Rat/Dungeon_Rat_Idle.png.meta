@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: eaaec8881836cd8408a7405ea0046311
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2770212417576165476
+    second: Dungeon_Rat_Idle_0
+  - first:
+      213: 7457909362720976896
+    second: Dungeon_Rat_Idle_1
+  - first:
+      213: -7335538962602501975
+    second: Dungeon_Rat_Idle_2
+  - first:
+      213: -1689661876553363220
+    second: Dungeon_Rat_Idle_3
+  - first:
+      213: 8068843170563934469
+    second: Dungeon_Rat_Idle_4
+  - first:
+      213: -4901607122907890798
+    second: Dungeon_Rat_Idle_5
+  - first:
+      213: -705544048794838404
+    second: Dungeon_Rat_Idle_6
+  - first:
+      213: -884794430595623467
+    second: Dungeon_Rat_Idle_7
+  - first:
+      213: -1405926115526116051
+    second: Dungeon_Rat_Idle_8
+  - first:
+      213: -980191645850060164
+    second: Dungeon_Rat_Idle_9
+  - first:
+      213: 7253783936254426560
+    second: Dungeon_Rat_Idle_10
+  - first:
+      213: 4478345667182130315
+    second: Dungeon_Rat_Idle_11
+  - first:
+      213: 1722618221939594274
+    second: Dungeon_Rat_Idle_12
+  - first:
+      213: -6675897506395344060
+    second: Dungeon_Rat_Idle_13
+  - first:
+      213: 1665731681426832412
+    second: Dungeon_Rat_Idle_14
+  - first:
+      213: 4059060291120604029
+    second: Dungeon_Rat_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dungeon_Rat_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 432
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460e00e3485c17620800000000000000
+      internalID: 2770212417576165476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 431
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0003b0c3d01df7760800000000000000
+      internalID: 7457909362720976896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 431
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a85a0acd2ee23a90800000000000000
+      internalID: -7335538962602501975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 431
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce05489b97d1d88e0800000000000000
+      internalID: -1689661876553363220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 303
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509ccc1fc1a4aff60800000000000000
+      internalID: 8068843170563934469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 303
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29bfc82aa4ef9fbb0800000000000000
+      internalID: -4901607122907890798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 303
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a513efc676536f0800000000000000
+      internalID: -705544048794838404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 303
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d59a19372498b3f0800000000000000
+      internalID: -884794430595623467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 175
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2dfe9795a52d7ce0800000000000000
+      internalID: -1405926115526116051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 175
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a3d4134e8a562f0800000000000000
+      internalID: -980191645850060164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 175
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd31edce0e9aa460800000000000000
+      internalID: 7253783936254426560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 175
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84fcc138a7462e30800000000000000
+      internalID: 4478345667182130315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 42
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22413526528f7e710800000000000000
+      internalID: 1722618221939594274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 41
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443b36e96927a53a0800000000000000
+      internalID: -6675897506395344060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 41
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c7f8a832edd1710800000000000000
+      internalID: 1665731681426832412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Rat_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 41
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73232634dda45830800000000000000
+      internalID: 4059060291120604029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dungeon_Rat_Idle_0: 2770212417576165476
+      Dungeon_Rat_Idle_1: 7457909362720976896
+      Dungeon_Rat_Idle_10: 7253783936254426560
+      Dungeon_Rat_Idle_11: 4478345667182130315
+      Dungeon_Rat_Idle_12: 1722618221939594274
+      Dungeon_Rat_Idle_13: -6675897506395344060
+      Dungeon_Rat_Idle_14: 1665731681426832412
+      Dungeon_Rat_Idle_15: 4059060291120604029
+      Dungeon_Rat_Idle_2: -7335538962602501975
+      Dungeon_Rat_Idle_3: -1689661876553363220
+      Dungeon_Rat_Idle_4: 8068843170563934469
+      Dungeon_Rat_Idle_5: -4901607122907890798
+      Dungeon_Rat_Idle_6: -705544048794838404
+      Dungeon_Rat_Idle_7: -884794430595623467
+      Dungeon_Rat_Idle_8: -1405926115526116051
+      Dungeon_Rat_Idle_9: -980191645850060164
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 3793fe07d8587b74db19f64cd5f2644b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9116719332272059109
+    second: Harpy_Lift_0
+  - first:
+      213: 3721138362870118639
+    second: Harpy_Lift_1
+  - first:
+      213: -8368811217403114719
+    second: Harpy_Lift_2
+  - first:
+      213: 2487596628742008028
+    second: Harpy_Lift_3
+  - first:
+      213: 103877558760363785
+    second: Harpy_Lift_4
+  - first:
+      213: -1387768473549223187
+    second: Harpy_Lift_5
+  - first:
+      213: 5156388310452044578
+    second: Harpy_Lift_6
+  - first:
+      213: 197102186390250495
+    second: Harpy_Lift_7
+  - first:
+      213: -742818119049390784
+    second: Harpy_Lift_8
+  - first:
+      213: -6089597932774792705
+    second: Harpy_Lift_9
+  - first:
+      213: -3711580195701876338
+    second: Harpy_Lift_10
+  - first:
+      213: -4935674766489615236
+    second: Harpy_Lift_11
+  - first:
+      213: 686962210850260615
+    second: Harpy_Lift_12
+  - first:
+      213: -5374683668216442526
+    second: Harpy_Lift_13
+  - first:
+      213: -8588049020129993090
+    second: Harpy_Lift_14
+  - first:
+      213: -5684437359789517876
+    second: Harpy_Lift_15
+  - first:
+      213: -8628701526596593458
+    second: Harpy_Lift_16
+  - first:
+      213: -761392062270382526
+    second: Harpy_Lift_17
+  - first:
+      213: 1323109920599958627
+    second: Harpy_Lift_18
+  - first:
+      213: -5752523199388314872
+    second: Harpy_Lift_19
+  - first:
+      213: 1137272121662291097
+    second: Harpy_Lift_20
+  - first:
+      213: 5743986856244760887
+    second: Harpy_Lift_21
+  - first:
+      213: 5871623765415418592
+    second: Harpy_Lift_22
+  - first:
+      213: 1977491912097969663
+    second: Harpy_Lift_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Harpy_Lift_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 431
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1dccfad118ea7180800000000000000
+      internalID: -9116719332272059109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 431
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8b3f620a324a330800000000000000
+      internalID: 3721138362870118639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_2
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 431
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b0262a9820cdb80800000000000000
+      internalID: -8368811217403114719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_3
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 431
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc60a834f7b58220800000000000000
+      internalID: 2487596628742008028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_4
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 433
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907db0ed61c017100800000000000000
+      internalID: 103877558760363785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_5
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 437
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deacc9f0de7adbce0800000000000000
+      internalID: -1387768473549223187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_6
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 303
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223887049db2f8740800000000000000
+      internalID: 5156388310452044578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_7
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 303
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff36e3ce46f3cb200800000000000000
+      internalID: 197102186390250495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_8
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 303
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04556593bdaf0b5f0800000000000000
+      internalID: -742818119049390784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_9
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 303
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff16108b1f66d7ba0800000000000000
+      internalID: -6089597932774792705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_10
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 305
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8990df0a71dd7cc0800000000000000
+      internalID: -3711580195701876338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_11
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 309
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74078043f5f08bb0800000000000000
+      internalID: -4935674766489615236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 175
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786c8d7bd74988900800000000000000
+      internalID: 686962210850260615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_13
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 175
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2619dd71ea94965b0800000000000000
+      internalID: -5374683668216442526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 175
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e9289eaee11d880800000000000000
+      internalID: -8588049020129993090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_15
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 175
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc359c5b652dc11b0800000000000000
+      internalID: -5684437359789517876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_16
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 177
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8d65aada1b04880800000000000000
+      internalID: -8628701526596593458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_17
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 181
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e529114fdfe65f0800000000000000
+      internalID: -761392062270382526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_18
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 47
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364e7207671ac5210800000000000000
+      internalID: 1323109920599958627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 47
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803144ad0aeea20b0800000000000000
+      internalID: -5752523199388314872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_20
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 47
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99cb2a818f668cf00800000000000000
+      internalID: 1137272121662291097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_21
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 47
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7315bf0ec9db6bf40800000000000000
+      internalID: 5743986856244760887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_22
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 49
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ead35894b23c7150800000000000000
+      internalID: 5871623765415418592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harpy_Lift_23
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 53
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5bec6ba66717b10800000000000000
+      internalID: 1977491912097969663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Harpy_Lift_0: -9116719332272059109
+      Harpy_Lift_1: 3721138362870118639
+      Harpy_Lift_10: -3711580195701876338
+      Harpy_Lift_11: -4935674766489615236
+      Harpy_Lift_12: 686962210850260615
+      Harpy_Lift_13: -5374683668216442526
+      Harpy_Lift_14: -8588049020129993090
+      Harpy_Lift_15: -5684437359789517876
+      Harpy_Lift_16: -8628701526596593458
+      Harpy_Lift_17: -761392062270382526
+      Harpy_Lift_18: 1323109920599958627
+      Harpy_Lift_19: -5752523199388314872
+      Harpy_Lift_2: -8368811217403114719
+      Harpy_Lift_20: 1137272121662291097
+      Harpy_Lift_21: 5743986856244760887
+      Harpy_Lift_22: 5871623765415418592
+      Harpy_Lift_23: 1977491912097969663
+      Harpy_Lift_3: 2487596628742008028
+      Harpy_Lift_4: 103877558760363785
+      Harpy_Lift_5: -1387768473549223187
+      Harpy_Lift_6: 5156388310452044578
+      Harpy_Lift_7: 197102186390250495
+      Harpy_Lift_8: -742818119049390784
+      Harpy_Lift_9: -6089597932774792705
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

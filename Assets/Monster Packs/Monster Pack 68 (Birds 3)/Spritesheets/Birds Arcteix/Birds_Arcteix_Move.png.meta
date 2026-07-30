@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 780dafba15656af429faa9d0a479c1da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8423986641860301080
+    second: Birds_Arcteix_Move_0
+  - first:
+      213: 3269211604080017390
+    second: Birds_Arcteix_Move_1
+  - first:
+      213: -5881088192785214682
+    second: Birds_Arcteix_Move_2
+  - first:
+      213: 6034111487472120225
+    second: Birds_Arcteix_Move_3
+  - first:
+      213: 762067603254093597
+    second: Birds_Arcteix_Move_4
+  - first:
+      213: -7046652593352757480
+    second: Birds_Arcteix_Move_5
+  - first:
+      213: -4009597588557135473
+    second: Birds_Arcteix_Move_6
+  - first:
+      213: -5710333975832987850
+    second: Birds_Arcteix_Move_7
+  - first:
+      213: 2144521857522194464
+    second: Birds_Arcteix_Move_8
+  - first:
+      213: -306348081326036573
+    second: Birds_Arcteix_Move_9
+  - first:
+      213: -7807909583040822280
+    second: Birds_Arcteix_Move_10
+  - first:
+      213: -8231975444700188195
+    second: Birds_Arcteix_Move_11
+  - first:
+      213: -9052370056538747826
+    second: Birds_Arcteix_Move_12
+  - first:
+      213: -5946388269284975301
+    second: Birds_Arcteix_Move_13
+  - first:
+      213: -6461715900006240639
+    second: Birds_Arcteix_Move_14
+  - first:
+      213: -1328554167356316719
+    second: Birds_Arcteix_Move_15
+  - first:
+      213: 5715099457774909910
+    second: Birds_Arcteix_Move_16
+  - first:
+      213: 722118423658060034
+    second: Birds_Arcteix_Move_17
+  - first:
+      213: 3998147871457338355
+    second: Birds_Arcteix_Move_18
+  - first:
+      213: 8673357100135204323
+    second: Birds_Arcteix_Move_19
+  - first:
+      213: -5473148925581787253
+    second: Birds_Arcteix_Move_20
+  - first:
+      213: -6169058794162439835
+    second: Birds_Arcteix_Move_21
+  - first:
+      213: 5838765962069121718
+    second: Birds_Arcteix_Move_22
+  - first:
+      213: -8441316978652686782
+    second: Birds_Arcteix_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 433
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81118b4f73308e470800000000000000
+      internalID: 8423986641860301080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 434
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef36c402a29e5d20800000000000000
+      internalID: 3269211604080017390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 433
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6231b40b27d226ea0800000000000000
+      internalID: -5881088192785214682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 432
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a131e18d687db350800000000000000
+      internalID: 6034111487472120225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_4
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 433
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d172bc29278639a00800000000000000
+      internalID: 762067603254093597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_5
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 434
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81faf951dc2453e90800000000000000
+      internalID: -7046652593352757480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 311
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f810ac9ac3c0b58c0800000000000000
+      internalID: -4009597588557135473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 311
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63771ade081d0c0b0800000000000000
+      internalID: -5710333975832987850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_8
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 310
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028dbaa644fd2cd10800000000000000
+      internalID: 2144521857522194464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 308
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a960fa0b02afbbf0800000000000000
+      internalID: -306348081326036573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_10
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 311
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3cb703a9bb4a390800000000000000
+      internalID: -7807909583040822280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_11
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 312
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd138eaa2f522cd80800000000000000
+      internalID: -8231975444700188195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 183
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c00a425658f5280800000000000000
+      internalID: -9052370056538747826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 183
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d18b8df5f2a7da0800000000000000
+      internalID: -5946388269284975301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 182
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e62a4ef9f5356a0800000000000000
+      internalID: -6461715900006240639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_15
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 180
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3acd51607009de0800000000000000
+      internalID: -1328554167356316719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_16
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 183
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d973bc4dac105f40800000000000000
+      internalID: 5715099457774909910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_17
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 184
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20957ef51ea750a00800000000000000
+      internalID: 722118423658060034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_18
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 49
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3e2b55e464c7730800000000000000
+      internalID: 3998147871457338355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 48
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5cba34454fd5870800000000000000
+      internalID: 8673357100135204323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_20
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 49
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ff2e7dc087b04b0800000000000000
+      internalID: -5473148925581787253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 50
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569b27736b9136aa0800000000000000
+      internalID: -6169058794162439835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_22
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 50
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba95c715b6770150800000000000000
+      internalID: 5838765962069121718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Move_23
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 49
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246dee29eea6ada80800000000000000
+      internalID: -8441316978652686782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birds_Arcteix_Move_0: 8423986641860301080
+      Birds_Arcteix_Move_1: 3269211604080017390
+      Birds_Arcteix_Move_10: -7807909583040822280
+      Birds_Arcteix_Move_11: -8231975444700188195
+      Birds_Arcteix_Move_12: -9052370056538747826
+      Birds_Arcteix_Move_13: -5946388269284975301
+      Birds_Arcteix_Move_14: -6461715900006240639
+      Birds_Arcteix_Move_15: -1328554167356316719
+      Birds_Arcteix_Move_16: 5715099457774909910
+      Birds_Arcteix_Move_17: 722118423658060034
+      Birds_Arcteix_Move_18: 3998147871457338355
+      Birds_Arcteix_Move_19: 8673357100135204323
+      Birds_Arcteix_Move_2: -5881088192785214682
+      Birds_Arcteix_Move_20: -5473148925581787253
+      Birds_Arcteix_Move_21: -6169058794162439835
+      Birds_Arcteix_Move_22: 5838765962069121718
+      Birds_Arcteix_Move_23: -8441316978652686782
+      Birds_Arcteix_Move_3: 6034111487472120225
+      Birds_Arcteix_Move_4: 762067603254093597
+      Birds_Arcteix_Move_5: -7046652593352757480
+      Birds_Arcteix_Move_6: -4009597588557135473
+      Birds_Arcteix_Move_7: -5710333975832987850
+      Birds_Arcteix_Move_8: 2144521857522194464
+      Birds_Arcteix_Move_9: -306348081326036573
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

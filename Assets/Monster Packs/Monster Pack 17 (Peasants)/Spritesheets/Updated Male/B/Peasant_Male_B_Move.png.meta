@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 577b1ac926875c1468700c3b85e85326
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6756751475649122706
+    second: Peasant_Male_B_Move_0
+  - first:
+      213: -5094674123728169846
+    second: Peasant_Male_B_Move_1
+  - first:
+      213: 1125055112316866428
+    second: Peasant_Male_B_Move_2
+  - first:
+      213: 2897109710932852179
+    second: Peasant_Male_B_Move_3
+  - first:
+      213: 468279104292700360
+    second: Peasant_Male_B_Move_4
+  - first:
+      213: -2068235541861711636
+    second: Peasant_Male_B_Move_5
+  - first:
+      213: -56786278518357305
+    second: Peasant_Male_B_Move_6
+  - first:
+      213: 7222392045276127202
+    second: Peasant_Male_B_Move_7
+  - first:
+      213: -5405538845048055526
+    second: Peasant_Male_B_Move_8
+  - first:
+      213: -468472054451147173
+    second: Peasant_Male_B_Move_9
+  - first:
+      213: 7789199032044176621
+    second: Peasant_Male_B_Move_10
+  - first:
+      213: 6501263226037955460
+    second: Peasant_Male_B_Move_11
+  - first:
+      213: -5478630632475810310
+    second: Peasant_Male_B_Move_12
+  - first:
+      213: 2600411295366438809
+    second: Peasant_Male_B_Move_13
+  - first:
+      213: -5062075832609829683
+    second: Peasant_Male_B_Move_14
+  - first:
+      213: -7984283937380146332
+    second: Peasant_Male_B_Move_15
+  - first:
+      213: 9029034640242803040
+    second: Peasant_Male_B_Move_16
+  - first:
+      213: -6396322590607748023
+    second: Peasant_Male_B_Move_17
+  - first:
+      213: 3899384447293631087
+    second: Peasant_Male_B_Move_18
+  - first:
+      213: 5798287609406872871
+    second: Peasant_Male_B_Move_19
+  - first:
+      213: 5759746868325210893
+    second: Peasant_Male_B_Move_20
+  - first:
+      213: -319282519250973629
+    second: Peasant_Male_B_Move_21
+  - first:
+      213: -8707365220403590415
+    second: Peasant_Male_B_Move_22
+  - first:
+      213: 5085531367644784016
+    second: Peasant_Male_B_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 431
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e665ae4523b32a0800000000000000
+      internalID: -6756751475649122706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 431
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84dec090e41c49b0800000000000000
+      internalID: -5094674123728169846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 431
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f4262f9affc9f00800000000000000
+      internalID: 1125055112316866428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 431
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddbc7bbee9943820800000000000000
+      internalID: 2897109710932852179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_4
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 431
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0ca134d59af7600800000000000000
+      internalID: 468279104292700360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_5
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 431
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0ce7f8bb62c43e0800000000000000
+      internalID: -2068235541861711636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 303
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c20cc83e21463ff0800000000000000
+      internalID: -56786278518357305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 303
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef5a4f9c471b3460800000000000000
+      internalID: 7222392045276127202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_8
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 303
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19d5596f0babf4b0800000000000000
+      internalID: -5405538845048055526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_9
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 303
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5eed370627af79f0800000000000000
+      internalID: -468472054451147173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_10
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 303
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de44fcd204bc81c60800000000000000
+      internalID: 7789199032044176621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_11
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 303
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b6d4b7570293a50800000000000000
+      internalID: 6501263226037955460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_12
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 175
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5a4bf777ef7f3b0800000000000000
+      internalID: -5478630632475810310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 175
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99fda3aab44861420800000000000000
+      internalID: 2600411295366438809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_14
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 175
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc833ba9d4efb9b0800000000000000
+      internalID: -5062075832609829683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 175
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463699ebf00223190800000000000000
+      internalID: -7984283937380146332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_16
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 175
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0618e5cda239d4d70800000000000000
+      internalID: 9029034640242803040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_17
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 175
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944d4063e72bb37a0800000000000000
+      internalID: -6396322590607748023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_18
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 47
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6aae97be756d1630800000000000000
+      internalID: 3899384447293631087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_19
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 47
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72dde303cd7a77050800000000000000
+      internalID: 5798287609406872871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_20
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 47
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b51b2a24bbeef40800000000000000
+      internalID: 5759746868325210893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 47
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ccd098d3ea19bf0800000000000000
+      internalID: -319282519250973629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_22
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 47
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fac0443779392780800000000000000
+      internalID: -8707365220403590415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peasant_Male_B_Move_23
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 47
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095e296a5df639640800000000000000
+      internalID: 5085531367644784016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Peasant_Male_B_Move_0: -6756751475649122706
+      Peasant_Male_B_Move_1: -5094674123728169846
+      Peasant_Male_B_Move_10: 7789199032044176621
+      Peasant_Male_B_Move_11: 6501263226037955460
+      Peasant_Male_B_Move_12: -5478630632475810310
+      Peasant_Male_B_Move_13: 2600411295366438809
+      Peasant_Male_B_Move_14: -5062075832609829683
+      Peasant_Male_B_Move_15: -7984283937380146332
+      Peasant_Male_B_Move_16: 9029034640242803040
+      Peasant_Male_B_Move_17: -6396322590607748023
+      Peasant_Male_B_Move_18: 3899384447293631087
+      Peasant_Male_B_Move_19: 5798287609406872871
+      Peasant_Male_B_Move_2: 1125055112316866428
+      Peasant_Male_B_Move_20: 5759746868325210893
+      Peasant_Male_B_Move_21: -319282519250973629
+      Peasant_Male_B_Move_22: -8707365220403590415
+      Peasant_Male_B_Move_23: 5085531367644784016
+      Peasant_Male_B_Move_3: 2897109710932852179
+      Peasant_Male_B_Move_4: 468279104292700360
+      Peasant_Male_B_Move_5: -2068235541861711636
+      Peasant_Male_B_Move_6: -56786278518357305
+      Peasant_Male_B_Move_7: 7222392045276127202
+      Peasant_Male_B_Move_8: -5405538845048055526
+      Peasant_Male_B_Move_9: -468472054451147173
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: a27ef4adacdf0bd448055c82deaf4f72
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3989710358479982475
+    second: Skeleton_Thug_Attack_0
+  - first:
+      213: 7523183744599848634
+    second: Skeleton_Thug_Attack_1
+  - first:
+      213: 2955763606887615360
+    second: Skeleton_Thug_Attack_2
+  - first:
+      213: -2481188955076789602
+    second: Skeleton_Thug_Attack_3
+  - first:
+      213: -7406537926551630970
+    second: Skeleton_Thug_Attack_4
+  - first:
+      213: -7612828886948146268
+    second: Skeleton_Thug_Attack_5
+  - first:
+      213: 916697878722769360
+    second: Skeleton_Thug_Attack_6
+  - first:
+      213: 170225077352732021
+    second: Skeleton_Thug_Attack_7
+  - first:
+      213: 5011371211541353052
+    second: Skeleton_Thug_Attack_8
+  - first:
+      213: -5037682291822277420
+    second: Skeleton_Thug_Attack_9
+  - first:
+      213: 8846877622122574556
+    second: Skeleton_Thug_Attack_10
+  - first:
+      213: -4276100693812065256
+    second: Skeleton_Thug_Attack_11
+  - first:
+      213: 2040793088013726760
+    second: Skeleton_Thug_Attack_12
+  - first:
+      213: -961072811199530975
+    second: Skeleton_Thug_Attack_13
+  - first:
+      213: 2873461492458947327
+    second: Skeleton_Thug_Attack_14
+  - first:
+      213: 3747660494675320630
+    second: Skeleton_Thug_Attack_15
+  - first:
+      213: -8542320591477351976
+    second: Skeleton_Thug_Attack_16
+  - first:
+      213: -3521695250601026837
+    second: Skeleton_Thug_Attack_17
+  - first:
+      213: 7910203097556849305
+    second: Skeleton_Thug_Attack_18
+  - first:
+      213: 7520571942587696365
+    second: Skeleton_Thug_Attack_19
+  - first:
+      213: -7824294405607299521
+    second: Skeleton_Thug_Attack_20
+  - first:
+      213: 4309120666161153206
+    second: Skeleton_Thug_Attack_21
+  - first:
+      213: 2775902639845195395
+    second: Skeleton_Thug_Attack_22
+  - first:
+      213: -1872715310211140907
+    second: Skeleton_Thug_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 431
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570ba1e3193b1a8c0800000000000000
+      internalID: -3989710358479982475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 431
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6fdd491c7b76860800000000000000
+      internalID: 7523183744599848634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 431
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b4094175bf40920800000000000000
+      internalID: 2955763606887615360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 431
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a76009acb019dd0800000000000000
+      internalID: -2481188955076789602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 431
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b8e605ff0b63990800000000000000
+      internalID: -7406537926551630970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 431
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a39f99367cc95690800000000000000
+      internalID: -7612828886948146268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 303
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1ff932dd3c8bc00800000000000000
+      internalID: 916697878722769360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 303
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57519735ec2cc5200800000000000000
+      internalID: 170225077352732021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 303
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c529a85c097fb8540800000000000000
+      internalID: 5011371211541353052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 303
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc48a875ae861ab0800000000000000
+      internalID: -5037682291822277420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 303
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2f7f5135c66ca70800000000000000
+      internalID: 8846877622122574556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 303
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81cc781231d38a4c0800000000000000
+      internalID: -4276100693812065256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 175
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824712f308a525c10800000000000000
+      internalID: 2040793088013726760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 175
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1287a25ce5599a2f0800000000000000
+      internalID: -961072811199530975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 175
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff287cdc00690e720800000000000000
+      internalID: 2873461492458947327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 175
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f13eb2d5d520430800000000000000
+      internalID: 3747660494675320630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 175
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9dc736ea4937980800000000000000
+      internalID: -8542320591477351976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 175
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beadebc04dc602fc0800000000000000
+      internalID: -3521695250601026837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 47
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9921213aecfa6cd60800000000000000
+      internalID: 7910203097556849305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 47
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de485b906507e5860800000000000000
+      internalID: 7520571942587696365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 47
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3663b761b58a6390800000000000000
+      internalID: -7824294405607299521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 47
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b484d84a621dcb30800000000000000
+      internalID: 4309120666161153206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 47
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38eba0b5ebcf58620800000000000000
+      internalID: 2775902639845195395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Thug_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 47
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2fd61f857c206e0800000000000000
+      internalID: -1872715310211140907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skeleton_Thug_Attack_0: -3989710358479982475
+      Skeleton_Thug_Attack_1: 7523183744599848634
+      Skeleton_Thug_Attack_10: 8846877622122574556
+      Skeleton_Thug_Attack_11: -4276100693812065256
+      Skeleton_Thug_Attack_12: 2040793088013726760
+      Skeleton_Thug_Attack_13: -961072811199530975
+      Skeleton_Thug_Attack_14: 2873461492458947327
+      Skeleton_Thug_Attack_15: 3747660494675320630
+      Skeleton_Thug_Attack_16: -8542320591477351976
+      Skeleton_Thug_Attack_17: -3521695250601026837
+      Skeleton_Thug_Attack_18: 7910203097556849305
+      Skeleton_Thug_Attack_19: 7520571942587696365
+      Skeleton_Thug_Attack_2: 2955763606887615360
+      Skeleton_Thug_Attack_20: -7824294405607299521
+      Skeleton_Thug_Attack_21: 4309120666161153206
+      Skeleton_Thug_Attack_22: 2775902639845195395
+      Skeleton_Thug_Attack_23: -1872715310211140907
+      Skeleton_Thug_Attack_3: -2481188955076789602
+      Skeleton_Thug_Attack_4: -7406537926551630970
+      Skeleton_Thug_Attack_5: -7612828886948146268
+      Skeleton_Thug_Attack_6: 916697878722769360
+      Skeleton_Thug_Attack_7: 170225077352732021
+      Skeleton_Thug_Attack_8: 5011371211541353052
+      Skeleton_Thug_Attack_9: -5037682291822277420
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 570a451664b73ba48a4b814c38784c79
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7729960344663684902
+    second: Deer_Ability_0
+  - first:
+      213: 1364223357182546841
+    second: Deer_Ability_1
+  - first:
+      213: 6373698096025628147
+    second: Deer_Ability_2
+  - first:
+      213: 2771712357086001228
+    second: Deer_Ability_3
+  - first:
+      213: 3293859701159542115
+    second: Deer_Ability_4
+  - first:
+      213: 4345666532372923724
+    second: Deer_Ability_5
+  - first:
+      213: -2242979839093124468
+    second: Deer_Ability_6
+  - first:
+      213: 4789799533060059249
+    second: Deer_Ability_7
+  - first:
+      213: -606642797453001344
+    second: Deer_Ability_8
+  - first:
+      213: -3490228753185512007
+    second: Deer_Ability_9
+  - first:
+      213: 7286938818017549491
+    second: Deer_Ability_10
+  - first:
+      213: 1485316608998689829
+    second: Deer_Ability_11
+  - first:
+      213: 7903379957543319239
+    second: Deer_Ability_12
+  - first:
+      213: -2662915743599961096
+    second: Deer_Ability_13
+  - first:
+      213: -165411743473083174
+    second: Deer_Ability_14
+  - first:
+      213: 5426017512664978884
+    second: Deer_Ability_15
+  - first:
+      213: -4803321773016845843
+    second: Deer_Ability_16
+  - first:
+      213: -5444285420212757075
+    second: Deer_Ability_17
+  - first:
+      213: 1352104867745158140
+    second: Deer_Ability_18
+  - first:
+      213: 5650778196268186201
+    second: Deer_Ability_19
+  - first:
+      213: 8967808930992483360
+    second: Deer_Ability_20
+  - first:
+      213: 8330389923424183624
+    second: Deer_Ability_21
+  - first:
+      213: 4432612045149162568
+    second: Deer_Ability_22
+  - first:
+      213: 4000211191297712051
+    second: Deer_Ability_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Deer_Ability_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 431
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627f8877af5564b60800000000000000
+      internalID: 7729960344663684902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 431
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99318275ae1bee210800000000000000
+      internalID: 1364223357182546841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 431
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fde03726ace37850800000000000000
+      internalID: 6373698096025628147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 431
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48fbaf14b9177620800000000000000
+      internalID: 2771712357086001228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_4
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 431
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36db69352f326bd20800000000000000
+      internalID: 3293859701159542115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_5
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 431
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c454466dfa8ee4c30800000000000000
+      internalID: 4345666532372923724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 303
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82dd7c58b55fd0e0800000000000000
+      internalID: -2242979839093124468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 303
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17070614c49c87240800000000000000
+      internalID: 4789799533060059249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_8
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 303
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08db3400795c497f0800000000000000
+      internalID: -606642797453001344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_9
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 303
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5e585e077309fc0800000000000000
+      internalID: -3490228753185512007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_10
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 303
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bcd0f34f38602560800000000000000
+      internalID: 7286938818017549491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_11
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 303
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52cca5a1697ec9410800000000000000
+      internalID: 1485316608998689829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 175
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6bf4e82327ead60800000000000000
+      internalID: 7903379957543319239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 175
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbddeb6d3c6b0bd0800000000000000
+      internalID: -2662915743599961096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_14
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 175
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adcdb9c45e654bdf0800000000000000
+      internalID: -165411743473083174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 175
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5d173fd261d4b40800000000000000
+      internalID: 5426017512664978884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_16
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 175
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de17e69eb4c275db0800000000000000
+      internalID: -4803321773016845843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_17
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 175
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad516061430274b0800000000000000
+      internalID: -5444285420212757075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_18
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 47
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3d605a634a3c210800000000000000
+      internalID: 1352104867745158140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_19
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 47
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a761594d89b6e40800000000000000
+      internalID: 5650778196268186201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_20
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 47
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ce16195be047c70800000000000000
+      internalID: 8967808930992483360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_21
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 47
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8452132cf7d7b9370800000000000000
+      internalID: 8330389923424183624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_22
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 47
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ccb3a8b2dc38d30800000000000000
+      internalID: 4432612045149162568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Ability_23
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 47
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf97db62ea938730800000000000000
+      internalID: 4000211191297712051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Deer_Ability_0: 7729960344663684902
+      Deer_Ability_1: 1364223357182546841
+      Deer_Ability_10: 7286938818017549491
+      Deer_Ability_11: 1485316608998689829
+      Deer_Ability_12: 7903379957543319239
+      Deer_Ability_13: -2662915743599961096
+      Deer_Ability_14: -165411743473083174
+      Deer_Ability_15: 5426017512664978884
+      Deer_Ability_16: -4803321773016845843
+      Deer_Ability_17: -5444285420212757075
+      Deer_Ability_18: 1352104867745158140
+      Deer_Ability_19: 5650778196268186201
+      Deer_Ability_2: 6373698096025628147
+      Deer_Ability_20: 8967808930992483360
+      Deer_Ability_21: 8330389923424183624
+      Deer_Ability_22: 4432612045149162568
+      Deer_Ability_23: 4000211191297712051
+      Deer_Ability_3: 2771712357086001228
+      Deer_Ability_4: 3293859701159542115
+      Deer_Ability_5: 4345666532372923724
+      Deer_Ability_6: -2242979839093124468
+      Deer_Ability_7: 4789799533060059249
+      Deer_Ability_8: -606642797453001344
+      Deer_Ability_9: -3490228753185512007
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: d70a6c5fc1df5b848ac02ceb4901aec5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2141368730334373264
+    second: Snake_Viper_Idle_0
+  - first:
+      213: -8884838737312439155
+    second: Snake_Viper_Idle_1
+  - first:
+      213: -3414145402484797926
+    second: Snake_Viper_Idle_2
+  - first:
+      213: 5621423538862988252
+    second: Snake_Viper_Idle_3
+  - first:
+      213: -6869518922484126400
+    second: Snake_Viper_Idle_4
+  - first:
+      213: -7091373920752484095
+    second: Snake_Viper_Idle_5
+  - first:
+      213: -1147452822695845938
+    second: Snake_Viper_Idle_6
+  - first:
+      213: 3436682206383780265
+    second: Snake_Viper_Idle_7
+  - first:
+      213: 5397506444243307419
+    second: Snake_Viper_Idle_8
+  - first:
+      213: -5693382612858995549
+    second: Snake_Viper_Idle_9
+  - first:
+      213: -6184580024216122908
+    second: Snake_Viper_Idle_10
+  - first:
+      213: -1060859691939715586
+    second: Snake_Viper_Idle_11
+  - first:
+      213: 6020389870091035451
+    second: Snake_Viper_Idle_12
+  - first:
+      213: -6874212703897650538
+    second: Snake_Viper_Idle_13
+  - first:
+      213: -3989168223665562018
+    second: Snake_Viper_Idle_14
+  - first:
+      213: -2454816469796075462
+    second: Snake_Viper_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Snake_Viper_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 429
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095a5b8c38ba7bd10800000000000000
+      internalID: 2141368730334373264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 428
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84acd70e36b2b480800000000000000
+      internalID: -8884838737312439155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 429
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e4c5968d48e90d0800000000000000
+      internalID: -3414145402484797926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 429
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb92fdccee430e40800000000000000
+      internalID: 5621423538862988252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 303
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d628fafe09aa0a0800000000000000
+      internalID: -6869518922484126400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 303
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1014414adf0669d90800000000000000
+      internalID: -7091373920752484095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 303
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecfd1babcbd6310f0800000000000000
+      internalID: -1147452822695845938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 303
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a13965224c81bf20800000000000000
+      internalID: 3436682206383780265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 175
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b010a838bc7ea40800000000000000
+      internalID: 5397506444243307419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 175
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac772eadaa0df0b0800000000000000
+      internalID: -5693382612858995549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 175
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e90f9b3c35fb2aa0800000000000000
+      internalID: -6184580024216122908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 175
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef527691bb11741f0800000000000000
+      internalID: -1060859691939715586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 44
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33e22080b8bc8350800000000000000
+      internalID: 6020389870091035451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 44
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69af3b987f3e990a0800000000000000
+      internalID: -6874212703897650538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 44
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e5327d2a0a3a8c0800000000000000
+      internalID: -3989168223665562018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Viper_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 44
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38c6094d6dbeedd0800000000000000
+      internalID: -2454816469796075462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Snake_Viper_Idle_0: 2141368730334373264
+      Snake_Viper_Idle_1: -8884838737312439155
+      Snake_Viper_Idle_10: -6184580024216122908
+      Snake_Viper_Idle_11: -1060859691939715586
+      Snake_Viper_Idle_12: 6020389870091035451
+      Snake_Viper_Idle_13: -6874212703897650538
+      Snake_Viper_Idle_14: -3989168223665562018
+      Snake_Viper_Idle_15: -2454816469796075462
+      Snake_Viper_Idle_2: -3414145402484797926
+      Snake_Viper_Idle_3: 5621423538862988252
+      Snake_Viper_Idle_4: -6869518922484126400
+      Snake_Viper_Idle_5: -7091373920752484095
+      Snake_Viper_Idle_6: -1147452822695845938
+      Snake_Viper_Idle_7: 3436682206383780265
+      Snake_Viper_Idle_8: 5397506444243307419
+      Snake_Viper_Idle_9: -5693382612858995549
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

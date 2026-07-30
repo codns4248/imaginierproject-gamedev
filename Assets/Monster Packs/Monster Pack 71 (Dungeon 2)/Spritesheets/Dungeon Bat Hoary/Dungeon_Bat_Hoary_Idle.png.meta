@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: ebd250b623ee0e44ebda6d7b7de85b05
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2613848815453053909
+    second: Dungeon_Bat_Hoary_Idle_0
+  - first:
+      213: -1233892595264677991
+    second: Dungeon_Bat_Hoary_Idle_1
+  - first:
+      213: 8503643438619295212
+    second: Dungeon_Bat_Hoary_Idle_2
+  - first:
+      213: 7049919247163507205
+    second: Dungeon_Bat_Hoary_Idle_3
+  - first:
+      213: 737009054719225316
+    second: Dungeon_Bat_Hoary_Idle_4
+  - first:
+      213: -3084289425957853573
+    second: Dungeon_Bat_Hoary_Idle_5
+  - first:
+      213: -4779968035389490200
+    second: Dungeon_Bat_Hoary_Idle_6
+  - first:
+      213: 6827874239491885644
+    second: Dungeon_Bat_Hoary_Idle_7
+  - first:
+      213: 8418247851959436067
+    second: Dungeon_Bat_Hoary_Idle_8
+  - first:
+      213: 775146372834009198
+    second: Dungeon_Bat_Hoary_Idle_9
+  - first:
+      213: -7194897077570022920
+    second: Dungeon_Bat_Hoary_Idle_10
+  - first:
+      213: -3013907585033035352
+    second: Dungeon_Bat_Hoary_Idle_11
+  - first:
+      213: -270741002630278417
+    second: Dungeon_Bat_Hoary_Idle_12
+  - first:
+      213: 5198321217553445992
+    second: Dungeon_Bat_Hoary_Idle_13
+  - first:
+      213: 2991866039000659487
+    second: Dungeon_Bat_Hoary_Idle_14
+  - first:
+      213: 9135736107948127932
+    second: Dungeon_Bat_Hoary_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dungeon_Bat_Hoary_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 438
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c5852e95eb9bbd0800000000000000
+      internalID: -2613848815453053909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Hoary_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 435
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9979348d83550eee0800000000000000
+      internalID: -1233892595264677991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Hoary_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 439
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cedfb7737a2030670800000000000000
+      internalID: 8503643438619295212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Hoary_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 439
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502ce56043856d160800000000000000
+      internalID: 7049919247163507205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Hoary_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 313
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed29c694d16a3a00800000000000000
+      internalID: 737009054719225316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Hoary_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 312
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76e94dbb176235d0800000000000000
+      internalID: -3084289425957853573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Hoary_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 310
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb33eca5642aadb0800000000000000
+      internalID: -4779968035389490200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Hoary_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 308
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a44f7f17b71ce50800000000000000
+      internalID: 6827874239491885644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Hoary_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 185
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323cc3fc1df93d470800000000000000
+      internalID: 8418247851959436067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Hoary_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 184
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6024b9e48fd1ca00800000000000000
+      internalID: 775146372834009198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Hoary_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 182
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f151f76a37962c90800000000000000
+      internalID: -7194897077570022920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Hoary_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 180
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1204015037c26d0800000000000000
+      internalID: -3013907585033035352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Hoary_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 54
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2d6181e722e3cf0800000000000000
+      internalID: -270741002630278417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Hoary_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 56
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86436a00b95242840800000000000000
+      internalID: 5198321217553445992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Hoary_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 54
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1670369f4e358920800000000000000
+      internalID: 2991866039000659487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_Bat_Hoary_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 51
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb635f34697a8ce70800000000000000
+      internalID: 9135736107948127932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dungeon_Bat_Hoary_Idle_0: -2613848815453053909
+      Dungeon_Bat_Hoary_Idle_1: -1233892595264677991
+      Dungeon_Bat_Hoary_Idle_10: -7194897077570022920
+      Dungeon_Bat_Hoary_Idle_11: -3013907585033035352
+      Dungeon_Bat_Hoary_Idle_12: -270741002630278417
+      Dungeon_Bat_Hoary_Idle_13: 5198321217553445992
+      Dungeon_Bat_Hoary_Idle_14: 2991866039000659487
+      Dungeon_Bat_Hoary_Idle_15: 9135736107948127932
+      Dungeon_Bat_Hoary_Idle_2: 8503643438619295212
+      Dungeon_Bat_Hoary_Idle_3: 7049919247163507205
+      Dungeon_Bat_Hoary_Idle_4: 737009054719225316
+      Dungeon_Bat_Hoary_Idle_5: -3084289425957853573
+      Dungeon_Bat_Hoary_Idle_6: -4779968035389490200
+      Dungeon_Bat_Hoary_Idle_7: 6827874239491885644
+      Dungeon_Bat_Hoary_Idle_8: 8418247851959436067
+      Dungeon_Bat_Hoary_Idle_9: 775146372834009198
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

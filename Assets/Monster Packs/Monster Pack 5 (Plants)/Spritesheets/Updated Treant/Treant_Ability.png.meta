@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 1bb889d65ca4e904397f6bfbba241bb7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 865753955659582964
+    second: Treant_Ability_0
+  - first:
+      213: 8638084301841773109
+    second: Treant_Ability_1
+  - first:
+      213: -8345015518821663467
+    second: Treant_Ability_2
+  - first:
+      213: 6488317804046993209
+    second: Treant_Ability_3
+  - first:
+      213: -5712385767426716775
+    second: Treant_Ability_4
+  - first:
+      213: 1385900745891305174
+    second: Treant_Ability_5
+  - first:
+      213: -6495950280028683608
+    second: Treant_Ability_6
+  - first:
+      213: 2687400171169723630
+    second: Treant_Ability_7
+  - first:
+      213: -4371470879266499068
+    second: Treant_Ability_8
+  - first:
+      213: 339950926538534494
+    second: Treant_Ability_9
+  - first:
+      213: 1771056753623812222
+    second: Treant_Ability_10
+  - first:
+      213: -4940803793700505586
+    second: Treant_Ability_11
+  - first:
+      213: 6852022425279746172
+    second: Treant_Ability_12
+  - first:
+      213: 234648836617477137
+    second: Treant_Ability_13
+  - first:
+      213: 2973351542815963951
+    second: Treant_Ability_14
+  - first:
+      213: -4330519688165694892
+    second: Treant_Ability_15
+  - first:
+      213: 5264910344669930088
+    second: Treant_Ability_16
+  - first:
+      213: 5904397483391387452
+    second: Treant_Ability_17
+  - first:
+      213: -3055156986872809335
+    second: Treant_Ability_18
+  - first:
+      213: 7521922384894626419
+    second: Treant_Ability_19
+  - first:
+      213: 34379540696793047
+    second: Treant_Ability_20
+  - first:
+      213: 2340295251672781365
+    second: Treant_Ability_21
+  - first:
+      213: -232161732335404767
+    second: Treant_Ability_22
+  - first:
+      213: 8495896633114863781
+    second: Treant_Ability_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Treant_Ability_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 431
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd8afdb2a6c30c00800000000000000
+      internalID: 865753955659582964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 431
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532382fe7e3a0e770800000000000000
+      internalID: 8638084301841773109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 431
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d3383799c803c80800000000000000
+      internalID: -8345015518821663467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_3
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 431
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937401c8aa22b0a50800000000000000
+      internalID: 6488317804046993209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_4
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 431
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b8888f86789b0b0800000000000000
+      internalID: -5712385767426716775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_5
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 431
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6dcc4b265bb3310800000000000000
+      internalID: 1385900745891305174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 303
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a28a4823afb9d5a0800000000000000
+      internalID: -6495950280028683608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_7
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 303
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee435eb97309b4520800000000000000
+      internalID: 2687400171169723630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_8
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 303
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4061b57756a6553c0800000000000000
+      internalID: -4371470879266499068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_9
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 303
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ee469019fb7b400800000000000000
+      internalID: 339950926538534494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_10
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 303
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78cdc4ebbe049810800000000000000
+      internalID: 1771056753623812222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_11
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 303
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08349b802dbe6bb0800000000000000
+      internalID: -4940803793700505586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 175
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c705fcb9716471f50800000000000000
+      internalID: 6852022425279746172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_13
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 175
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c1b89afd3a14300800000000000000
+      internalID: 234648836617477137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_14
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 175
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bb7e58977734920800000000000000
+      internalID: 2973351542815963951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_15
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 175
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4526c06a947e6e3c0800000000000000
+      internalID: -4330519688165694892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_16
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 175
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862a4545018b01940800000000000000
+      internalID: 5264910344669930088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_17
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 175
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3701427a32a0f150800000000000000
+      internalID: 5904397483391387452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_18
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 47
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988b46848e6e995d0800000000000000
+      internalID: -3055156986872809335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_19
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 47
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a04b36e8c336860800000000000000
+      internalID: 7521922384894626419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_20
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 47
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dff5c692042a7000800000000000000
+      internalID: 34379540696793047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_21
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 47
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5325d79c1266a7020800000000000000
+      internalID: 2340295251672781365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_22
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 47
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12975bd622237ccf0800000000000000
+      internalID: -232161732335404767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Ability_23
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 47
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8af3189fc77e570800000000000000
+      internalID: 8495896633114863781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Treant_Ability_0: 865753955659582964
+      Treant_Ability_1: 8638084301841773109
+      Treant_Ability_10: 1771056753623812222
+      Treant_Ability_11: -4940803793700505586
+      Treant_Ability_12: 6852022425279746172
+      Treant_Ability_13: 234648836617477137
+      Treant_Ability_14: 2973351542815963951
+      Treant_Ability_15: -4330519688165694892
+      Treant_Ability_16: 5264910344669930088
+      Treant_Ability_17: 5904397483391387452
+      Treant_Ability_18: -3055156986872809335
+      Treant_Ability_19: 7521922384894626419
+      Treant_Ability_2: -8345015518821663467
+      Treant_Ability_20: 34379540696793047
+      Treant_Ability_21: 2340295251672781365
+      Treant_Ability_22: -232161732335404767
+      Treant_Ability_23: 8495896633114863781
+      Treant_Ability_3: 6488317804046993209
+      Treant_Ability_4: -5712385767426716775
+      Treant_Ability_5: 1385900745891305174
+      Treant_Ability_6: -6495950280028683608
+      Treant_Ability_7: 2687400171169723630
+      Treant_Ability_8: -4371470879266499068
+      Treant_Ability_9: 339950926538534494
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

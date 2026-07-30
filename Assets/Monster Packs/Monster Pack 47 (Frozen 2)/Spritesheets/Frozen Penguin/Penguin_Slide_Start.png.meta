@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: d0557351a7a79f94db48aa3593ce3e0e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5052316613634130363
+    second: Penguin_Slide_Start_0
+  - first:
+      213: -5018124114407403109
+    second: Penguin_Slide_Start_1
+  - first:
+      213: 4377730199562961762
+    second: Penguin_Slide_Start_2
+  - first:
+      213: 4343928217835781587
+    second: Penguin_Slide_Start_3
+  - first:
+      213: -3903323945261406845
+    second: Penguin_Slide_Start_4
+  - first:
+      213: -3739698591826152857
+    second: Penguin_Slide_Start_5
+  - first:
+      213: 2518039069686125165
+    second: Penguin_Slide_Start_6
+  - first:
+      213: -7390311854972719583
+    second: Penguin_Slide_Start_7
+  - first:
+      213: -2887206116619501728
+    second: Penguin_Slide_Start_8
+  - first:
+      213: 3231985860071858652
+    second: Penguin_Slide_Start_9
+  - first:
+      213: 3980117167112021516
+    second: Penguin_Slide_Start_10
+  - first:
+      213: 6917923396296989797
+    second: Penguin_Slide_Start_11
+  - first:
+      213: 7567760696184029753
+    second: Penguin_Slide_Start_12
+  - first:
+      213: -5687286719855404715
+    second: Penguin_Slide_Start_13
+  - first:
+      213: 8158455838154172497
+    second: Penguin_Slide_Start_14
+  - first:
+      213: 5629539168318152284
+    second: Penguin_Slide_Start_15
+  - first:
+      213: -7114641590102673332
+    second: Penguin_Slide_Start_16
+  - first:
+      213: 6011259130074324024
+    second: Penguin_Slide_Start_17
+  - first:
+      213: -7370615293166255778
+    second: Penguin_Slide_Start_18
+  - first:
+      213: -8108596671273415956
+    second: Penguin_Slide_Start_19
+  - first:
+      213: 8219163870183023992
+    second: Penguin_Slide_Start_20
+  - first:
+      213: -3873754710558658320
+    second: Penguin_Slide_Start_21
+  - first:
+      213: 5109697870775816772
+    second: Penguin_Slide_Start_22
+  - first:
+      213: 7489146683039271716
+    second: Penguin_Slide_Start_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 431
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e7887eec092e9b0800000000000000
+      internalID: -5052316613634130363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 433
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91dce184ba0c5ab0800000000000000
+      internalID: -5018124114407403109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 430
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263437b1c62d0cc30800000000000000
+      internalID: 4377730199562961762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 422
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddb5e1f2bbb84c30800000000000000
+      internalID: 4343928217835781587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_4
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 421
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385ea6f6d8b94d9c0800000000000000
+      internalID: -3903323945261406845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_5
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 421
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7627c2bc1fbe91cc0800000000000000
+      internalID: -3739698591826152857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 303
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d625237513fd1f220800000000000000
+      internalID: 2518039069686125165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_7
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 304
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e2ef00686507990800000000000000
+      internalID: -7390311854972719583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_8
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 303
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f3f8185559ee7d0800000000000000
+      internalID: -2887206116619501728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_9
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 303
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd12ba414025adc20800000000000000
+      internalID: 3231985860071858652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_10
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 303
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c066526d9773c3730800000000000000
+      internalID: 3980117167112021516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_11
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 303
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c55ab1da6610060800000000000000
+      internalID: 6917923396296989797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 175
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9324639e146160960800000000000000
+      internalID: 7567760696184029753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 176
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559d83f5cd2b211b0800000000000000
+      internalID: -5687286719855404715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_14
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 175
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15824e40c58a83170800000000000000
+      internalID: 8158455838154172497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_15
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 175
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e50c80c04202e40800000000000000
+      internalID: 5629539168318152284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_16
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 175
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48b5b53b27b34d90800000000000000
+      internalID: -7114641590102673332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_17
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 175
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c57ec64584c6350800000000000000
+      internalID: 6011259130074324024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_18
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 47
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5183ca217056b990800000000000000
+      internalID: -7370615293166255778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_19
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 48
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea45d5e94a787f80800000000000000
+      internalID: -8108596671273415956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_20
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 52
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875ebf03ef5501270800000000000000
+      internalID: 8219163870183023992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 50
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0b7226d98ad3ac0800000000000000
+      internalID: -3873754710558658320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_22
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 51
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4429921242b49e640800000000000000
+      internalID: 5109697870775816772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Penguin_Slide_Start_23
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 50
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42bc951aa3bcee760800000000000000
+      internalID: 7489146683039271716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Penguin_Slide_Start_0: -5052316613634130363
+      Penguin_Slide_Start_1: -5018124114407403109
+      Penguin_Slide_Start_10: 3980117167112021516
+      Penguin_Slide_Start_11: 6917923396296989797
+      Penguin_Slide_Start_12: 7567760696184029753
+      Penguin_Slide_Start_13: -5687286719855404715
+      Penguin_Slide_Start_14: 8158455838154172497
+      Penguin_Slide_Start_15: 5629539168318152284
+      Penguin_Slide_Start_16: -7114641590102673332
+      Penguin_Slide_Start_17: 6011259130074324024
+      Penguin_Slide_Start_18: -7370615293166255778
+      Penguin_Slide_Start_19: -8108596671273415956
+      Penguin_Slide_Start_2: 4377730199562961762
+      Penguin_Slide_Start_20: 8219163870183023992
+      Penguin_Slide_Start_21: -3873754710558658320
+      Penguin_Slide_Start_22: 5109697870775816772
+      Penguin_Slide_Start_23: 7489146683039271716
+      Penguin_Slide_Start_3: 4343928217835781587
+      Penguin_Slide_Start_4: -3903323945261406845
+      Penguin_Slide_Start_5: -3739698591826152857
+      Penguin_Slide_Start_6: 2518039069686125165
+      Penguin_Slide_Start_7: -7390311854972719583
+      Penguin_Slide_Start_8: -2887206116619501728
+      Penguin_Slide_Start_9: 3231985860071858652
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

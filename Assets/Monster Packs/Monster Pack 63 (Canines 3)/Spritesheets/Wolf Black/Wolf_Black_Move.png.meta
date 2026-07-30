@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 4bf297e8bdff69847ac290bcc99adfcc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1993544571147910002
+    second: Wolf_Black_Move_0
+  - first:
+      213: -1092395790786235062
+    second: Wolf_Black_Move_1
+  - first:
+      213: -2680274343942005885
+    second: Wolf_Black_Move_2
+  - first:
+      213: -6761274764200591375
+    second: Wolf_Black_Move_3
+  - first:
+      213: 5406152447124666079
+    second: Wolf_Black_Move_4
+  - first:
+      213: 2663162132687933800
+    second: Wolf_Black_Move_5
+  - first:
+      213: -3747632500463250782
+    second: Wolf_Black_Move_6
+  - first:
+      213: -4415382516647791335
+    second: Wolf_Black_Move_7
+  - first:
+      213: -2206048713175656246
+    second: Wolf_Black_Move_8
+  - first:
+      213: 8519823838876956510
+    second: Wolf_Black_Move_9
+  - first:
+      213: 7547087832942472694
+    second: Wolf_Black_Move_10
+  - first:
+      213: 4614525424703339247
+    second: Wolf_Black_Move_11
+  - first:
+      213: 8211480592789673900
+    second: Wolf_Black_Move_12
+  - first:
+      213: -2132330498577446105
+    second: Wolf_Black_Move_13
+  - first:
+      213: 3942365594765823825
+    second: Wolf_Black_Move_14
+  - first:
+      213: 4812252160497355507
+    second: Wolf_Black_Move_15
+  - first:
+      213: 1133759765278250672
+    second: Wolf_Black_Move_16
+  - first:
+      213: 8175011149650528340
+    second: Wolf_Black_Move_17
+  - first:
+      213: 7633825558130965103
+    second: Wolf_Black_Move_18
+  - first:
+      213: 7412907806035003739
+    second: Wolf_Black_Move_19
+  - first:
+      213: 1557375472718349729
+    second: Wolf_Black_Move_20
+  - first:
+      213: -8943774848347941184
+    second: Wolf_Black_Move_21
+  - first:
+      213: 7606545404321865983
+    second: Wolf_Black_Move_22
+  - first:
+      213: 8265176367458870214
+    second: Wolf_Black_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wolf_Black_Move_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 429
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8402d856c18554e0800000000000000
+      internalID: -1993544571147910002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 432
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45fd08e0d707d0f0800000000000000
+      internalID: -1092395790786235062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 433
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b5eb45fa0cdcad0800000000000000
+      internalID: -2680274343942005885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 435
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ffb20bbc602b22a0800000000000000
+      internalID: -6761274764200591375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 433
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd67974f103860b40800000000000000
+      internalID: 5406152447124666079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 430
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861d22289d375f420800000000000000
+      internalID: 2663162132687933800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_6
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 303
+        width: 70
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2dd2db81cbdfbc0800000000000000
+      internalID: -3747632500463250782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_7
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 303
+        width: 74
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915fcbbaef869b2c0800000000000000
+      internalID: -4415382516647791335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_8
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 303
+        width: 75
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac815fd226a8261e0800000000000000
+      internalID: -2206048713175656246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 303
+        width: 75
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e577a2934ae7c3670800000000000000
+      internalID: 8519823838876956510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_10
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 304
+        width: 73
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd653bd564acb860800000000000000
+      internalID: 7547087832942472694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_11
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 303
+        width: 69
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea737acc661a0040800000000000000
+      internalID: 4614525424703339247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 175
+        width: 70
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca71e35c71a05f170800000000000000
+      internalID: 8211480592789673900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_13
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 175
+        width: 74
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b4f8885b07862e0800000000000000
+      internalID: -2132330498577446105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_14
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 175
+        width: 75
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f0db2fe9816b630800000000000000
+      internalID: 3942365594765823825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_15
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 175
+        width: 75
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa0d04f7dd88c240800000000000000
+      internalID: 4812252160497355507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_16
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 176
+        width: 73
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b65a06ef7cebbf00800000000000000
+      internalID: 1133759765278250672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_17
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 175
+        width: 69
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45807c9d359737170800000000000000
+      internalID: 8175011149650528340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 51
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ab1bd36ebc0f960800000000000000
+      internalID: 7633825558130965103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_19
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 49
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59cf63df50ffd660800000000000000
+      internalID: 7412907806035003739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 47
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a58849bdb8ec9510800000000000000
+      internalID: 1557375472718349729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 47
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6d52d592451e380800000000000000
+      internalID: -8943774848347941184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_22
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 49
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff02c787eb0ef8960800000000000000
+      internalID: 7606545404321865983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Black_Move_23
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 54
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3e65c8d1ec3b270800000000000000
+      internalID: 8265176367458870214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wolf_Black_Move_0: -1993544571147910002
+      Wolf_Black_Move_1: -1092395790786235062
+      Wolf_Black_Move_10: 7547087832942472694
+      Wolf_Black_Move_11: 4614525424703339247
+      Wolf_Black_Move_12: 8211480592789673900
+      Wolf_Black_Move_13: -2132330498577446105
+      Wolf_Black_Move_14: 3942365594765823825
+      Wolf_Black_Move_15: 4812252160497355507
+      Wolf_Black_Move_16: 1133759765278250672
+      Wolf_Black_Move_17: 8175011149650528340
+      Wolf_Black_Move_18: 7633825558130965103
+      Wolf_Black_Move_19: 7412907806035003739
+      Wolf_Black_Move_2: -2680274343942005885
+      Wolf_Black_Move_20: 1557375472718349729
+      Wolf_Black_Move_21: -8943774848347941184
+      Wolf_Black_Move_22: 7606545404321865983
+      Wolf_Black_Move_23: 8265176367458870214
+      Wolf_Black_Move_3: -6761274764200591375
+      Wolf_Black_Move_4: 5406152447124666079
+      Wolf_Black_Move_5: 2663162132687933800
+      Wolf_Black_Move_6: -3747632500463250782
+      Wolf_Black_Move_7: -4415382516647791335
+      Wolf_Black_Move_8: -2206048713175656246
+      Wolf_Black_Move_9: 8519823838876956510
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

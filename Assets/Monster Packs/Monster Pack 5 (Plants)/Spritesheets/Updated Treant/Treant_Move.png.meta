@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 6ad0b372ef7cd8244a999f76e6123c4c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 272080340907853061
+    second: Treant_Move_0
+  - first:
+      213: 4796368881679844341
+    second: Treant_Move_1
+  - first:
+      213: 6632802053550203489
+    second: Treant_Move_2
+  - first:
+      213: 7093410012399177059
+    second: Treant_Move_3
+  - first:
+      213: 1017829176862626199
+    second: Treant_Move_4
+  - first:
+      213: -2686152191898743486
+    second: Treant_Move_5
+  - first:
+      213: 5160174199155183531
+    second: Treant_Move_6
+  - first:
+      213: -2000790370008506486
+    second: Treant_Move_7
+  - first:
+      213: -7402467557210778732
+    second: Treant_Move_8
+  - first:
+      213: -4098302099461887463
+    second: Treant_Move_9
+  - first:
+      213: 8355512706331107452
+    second: Treant_Move_10
+  - first:
+      213: -9211597460179614091
+    second: Treant_Move_11
+  - first:
+      213: -2095891029828532488
+    second: Treant_Move_12
+  - first:
+      213: 5792973903869298151
+    second: Treant_Move_13
+  - first:
+      213: -3497296124914721692
+    second: Treant_Move_14
+  - first:
+      213: 4426856802003398347
+    second: Treant_Move_15
+  - first:
+      213: 825649676726954720
+    second: Treant_Move_16
+  - first:
+      213: 3474795758379172497
+    second: Treant_Move_17
+  - first:
+      213: -3820764472871767443
+    second: Treant_Move_18
+  - first:
+      213: 6507016425605205919
+    second: Treant_Move_19
+  - first:
+      213: -7466172252570331889
+    second: Treant_Move_20
+  - first:
+      213: 5171718568811794982
+    second: Treant_Move_21
+  - first:
+      213: 1111939479574441233
+    second: Treant_Move_22
+  - first:
+      213: -7739995297751484564
+    second: Treant_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Treant_Move_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 431
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5050e26e0af96c300800000000000000
+      internalID: 272080340907853061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 431
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3c34ce510209240800000000000000
+      internalID: 4796368881679844341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 431
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162675b53527c0c50800000000000000
+      internalID: 6632802053550203489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_3
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 431
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d8043e2dad07260800000000000000
+      internalID: 7093410012399177059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 431
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791dce06e3e002e00800000000000000
+      internalID: 1017829176862626199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_5
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 431
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d0d3530ded8bad0800000000000000
+      internalID: -2686152191898743486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_6
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 303
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafc7c7281f9c9740800000000000000
+      internalID: 5160174199155183531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_7
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 303
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fde9552c3cb34e0800000000000000
+      internalID: -2000790370008506486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_8
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 303
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49319170af6254990800000000000000
+      internalID: -7402467557210778732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_9
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 303
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a265b44f7ef17c0800000000000000
+      internalID: -4098302099461887463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_10
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 303
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70e029798eb4f370800000000000000
+      internalID: 8355512706331107452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_11
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 303
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5768a144ae4d92080800000000000000
+      internalID: -9211597460179614091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 175
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6842f7636e9e2e0800000000000000
+      internalID: -2095891029828532488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_13
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 175
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5cc35b217c46050800000000000000
+      internalID: 5792973903869298151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 175
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c9b1034bb177fc0800000000000000
+      internalID: -3497296124914721692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 175
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce2fe29eca5f6d30800000000000000
+      internalID: 4426856802003398347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_16
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 175
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eae93aa10c457b00800000000000000
+      internalID: 825649676726954720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_17
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 175
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192893df454f83030800000000000000
+      internalID: 3474795758379172497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 47
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62bb0884fae9fac0800000000000000
+      internalID: -3820764472871767443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_19
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 47
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f84d3a6f09d4a50800000000000000
+      internalID: 6507016425605205919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_20
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 47
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05daadc4e3d26890800000000000000
+      internalID: -7466172252570331889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_21
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 47
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622915c23a2a5c740800000000000000
+      internalID: 5171718568811794982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_22
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 47
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d64cbb0176e6f00800000000000000
+      internalID: 1111939479574441233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Treant_Move_23
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 47
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c673452f843069490800000000000000
+      internalID: -7739995297751484564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Treant_Move_0: 272080340907853061
+      Treant_Move_1: 4796368881679844341
+      Treant_Move_10: 8355512706331107452
+      Treant_Move_11: -9211597460179614091
+      Treant_Move_12: -2095891029828532488
+      Treant_Move_13: 5792973903869298151
+      Treant_Move_14: -3497296124914721692
+      Treant_Move_15: 4426856802003398347
+      Treant_Move_16: 825649676726954720
+      Treant_Move_17: 3474795758379172497
+      Treant_Move_18: -3820764472871767443
+      Treant_Move_19: 6507016425605205919
+      Treant_Move_2: 6632802053550203489
+      Treant_Move_20: -7466172252570331889
+      Treant_Move_21: 5171718568811794982
+      Treant_Move_22: 1111939479574441233
+      Treant_Move_23: -7739995297751484564
+      Treant_Move_3: 7093410012399177059
+      Treant_Move_4: 1017829176862626199
+      Treant_Move_5: -2686152191898743486
+      Treant_Move_6: 5160174199155183531
+      Treant_Move_7: -2000790370008506486
+      Treant_Move_8: -7402467557210778732
+      Treant_Move_9: -4098302099461887463
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

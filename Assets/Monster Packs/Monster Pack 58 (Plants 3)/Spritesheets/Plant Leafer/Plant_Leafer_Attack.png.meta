@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 8d3310ee0e365d943aa4ceef5c58170f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5080605821443646593
+    second: Plant_Leafer_Attack_0
+  - first:
+      213: -5322245154693983799
+    second: Plant_Leafer_Attack_1
+  - first:
+      213: -6923859065319752226
+    second: Plant_Leafer_Attack_2
+  - first:
+      213: -5052967184969810640
+    second: Plant_Leafer_Attack_3
+  - first:
+      213: -4017912657994769982
+    second: Plant_Leafer_Attack_4
+  - first:
+      213: 153735290272641810
+    second: Plant_Leafer_Attack_5
+  - first:
+      213: -2969066563460520032
+    second: Plant_Leafer_Attack_6
+  - first:
+      213: -6246104386380463685
+    second: Plant_Leafer_Attack_7
+  - first:
+      213: 4095291109451262626
+    second: Plant_Leafer_Attack_8
+  - first:
+      213: 1569343029560787212
+    second: Plant_Leafer_Attack_9
+  - first:
+      213: 8140937903088286758
+    second: Plant_Leafer_Attack_10
+  - first:
+      213: 2973382680738525124
+    second: Plant_Leafer_Attack_11
+  - first:
+      213: -3995905715847346617
+    second: Plant_Leafer_Attack_12
+  - first:
+      213: 5651603057251538671
+    second: Plant_Leafer_Attack_13
+  - first:
+      213: 8863159608550577315
+    second: Plant_Leafer_Attack_14
+  - first:
+      213: 263760230879521855
+    second: Plant_Leafer_Attack_15
+  - first:
+      213: 2113119344301997972
+    second: Plant_Leafer_Attack_16
+  - first:
+      213: 5703258044998837265
+    second: Plant_Leafer_Attack_17
+  - first:
+      213: 4516498419591805964
+    second: Plant_Leafer_Attack_18
+  - first:
+      213: 5975904283469106467
+    second: Plant_Leafer_Attack_19
+  - first:
+      213: -4353866322746468579
+    second: Plant_Leafer_Attack_20
+  - first:
+      213: -8713391974305547532
+    second: Plant_Leafer_Attack_21
+  - first:
+      213: 4236760442735992769
+    second: Plant_Leafer_Attack_22
+  - first:
+      213: 4923763842559228496
+    second: Plant_Leafer_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 433
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7bd1117cef0e79b0800000000000000
+      internalID: -5080605821443646593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 434
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1dbe2fa369326b0800000000000000
+      internalID: -5322245154693983799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 434
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd7fb04dd289ef90800000000000000
+      internalID: -6923859065319752226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 434
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d3b26fd1140e9b0800000000000000
+      internalID: -5052967184969810640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 434
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c91da1b9b18d38c0800000000000000
+      internalID: -4017912657994769982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 434
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21374269e6d222200800000000000000
+      internalID: 153735290272641810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 305
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7227af0b1cbc6d0800000000000000
+      internalID: -2969066563460520032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 306
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb188c367216159a0800000000000000
+      internalID: -6246104386380463685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 306
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa68a6f09565d830800000000000000
+      internalID: 4095291109451262626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 306
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01c4bfab2d67c510800000000000000
+      internalID: 1569343029560787212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 306
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c371ce3eb6af070800000000000000
+      internalID: 8140937903088286758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 306
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfe7b26bc3934920800000000000000
+      internalID: 2973382680738525124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 177
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74647f23ce0bb88c0800000000000000
+      internalID: -3995905715847346617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 178
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe65dfe79078e6e40800000000000000
+      internalID: 5651603057251538671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 178
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a45f3774b4400b70800000000000000
+      internalID: 8863159608550577315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 178
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ce273588019a300800000000000000
+      internalID: 263760230879521855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 178
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f702d09de435d10800000000000000
+      internalID: 2113119344301997972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 178
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1146b8a89fa062f40800000000000000
+      internalID: 5703258044998837265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 49
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0cf1681263ddae30800000000000000
+      internalID: 4516498419591805964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 50
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d49ebb84daee250800000000000000
+      internalID: 5975904283469106467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 50
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d171921b5a5f393c0800000000000000
+      internalID: -4353866322746468579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 50
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa37c63a20d31780800000000000000
+      internalID: -8713391974305547532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 50
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf94b3ec2ffbca30800000000000000
+      internalID: 4236760442735992769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Leafer_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 50
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ab7a9a029b45440800000000000000
+      internalID: 4923763842559228496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Plant_Leafer_Attack_0: -5080605821443646593
+      Plant_Leafer_Attack_1: -5322245154693983799
+      Plant_Leafer_Attack_10: 8140937903088286758
+      Plant_Leafer_Attack_11: 2973382680738525124
+      Plant_Leafer_Attack_12: -3995905715847346617
+      Plant_Leafer_Attack_13: 5651603057251538671
+      Plant_Leafer_Attack_14: 8863159608550577315
+      Plant_Leafer_Attack_15: 263760230879521855
+      Plant_Leafer_Attack_16: 2113119344301997972
+      Plant_Leafer_Attack_17: 5703258044998837265
+      Plant_Leafer_Attack_18: 4516498419591805964
+      Plant_Leafer_Attack_19: 5975904283469106467
+      Plant_Leafer_Attack_2: -6923859065319752226
+      Plant_Leafer_Attack_20: -4353866322746468579
+      Plant_Leafer_Attack_21: -8713391974305547532
+      Plant_Leafer_Attack_22: 4236760442735992769
+      Plant_Leafer_Attack_23: 4923763842559228496
+      Plant_Leafer_Attack_3: -5052967184969810640
+      Plant_Leafer_Attack_4: -4017912657994769982
+      Plant_Leafer_Attack_5: 153735290272641810
+      Plant_Leafer_Attack_6: -2969066563460520032
+      Plant_Leafer_Attack_7: -6246104386380463685
+      Plant_Leafer_Attack_8: 4095291109451262626
+      Plant_Leafer_Attack_9: 1569343029560787212
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

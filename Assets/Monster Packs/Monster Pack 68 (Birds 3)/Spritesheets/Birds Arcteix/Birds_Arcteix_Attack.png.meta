@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: e131ff1042ad7614aae1e256fb4dab5c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2434741035211107487
+    second: Birds_Arcteix_Attack_0
+  - first:
+      213: -4952158005023124366
+    second: Birds_Arcteix_Attack_1
+  - first:
+      213: 683745314303289108
+    second: Birds_Arcteix_Attack_2
+  - first:
+      213: -38901232968128356
+    second: Birds_Arcteix_Attack_3
+  - first:
+      213: 1546036402457098239
+    second: Birds_Arcteix_Attack_4
+  - first:
+      213: -5617480320702945568
+    second: Birds_Arcteix_Attack_5
+  - first:
+      213: -8337170920607118468
+    second: Birds_Arcteix_Attack_6
+  - first:
+      213: -5795692106020735088
+    second: Birds_Arcteix_Attack_7
+  - first:
+      213: 6708357167925326925
+    second: Birds_Arcteix_Attack_8
+  - first:
+      213: -4315640869966197790
+    second: Birds_Arcteix_Attack_9
+  - first:
+      213: -4085986021539259771
+    second: Birds_Arcteix_Attack_10
+  - first:
+      213: 5056724135510636745
+    second: Birds_Arcteix_Attack_11
+  - first:
+      213: 5664850159257278419
+    second: Birds_Arcteix_Attack_12
+  - first:
+      213: 2521171323450932907
+    second: Birds_Arcteix_Attack_13
+  - first:
+      213: -1185332201044544868
+    second: Birds_Arcteix_Attack_14
+  - first:
+      213: -6356625395930003265
+    second: Birds_Arcteix_Attack_15
+  - first:
+      213: 5154090995792457368
+    second: Birds_Arcteix_Attack_16
+  - first:
+      213: -4514797765895266289
+    second: Birds_Arcteix_Attack_17
+  - first:
+      213: -2084833516342686599
+    second: Birds_Arcteix_Attack_18
+  - first:
+      213: -6995776152472743986
+    second: Birds_Arcteix_Attack_19
+  - first:
+      213: 7914552543637818630
+    second: Birds_Arcteix_Attack_20
+  - first:
+      213: -7763852451201941002
+    second: Birds_Arcteix_Attack_21
+  - first:
+      213: -2765435587632138132
+    second: Birds_Arcteix_Attack_22
+  - first:
+      213: 6104000689412173749
+    second: Birds_Arcteix_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 425
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163dc24adef063ed0800000000000000
+      internalID: -2434741035211107487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 420
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2745df63886664bb0800000000000000
+      internalID: -4952158005023124366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 419
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417a2ef9db62d7900800000000000000
+      internalID: 683745314303289108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 422
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c982c93e88bc57ff0800000000000000
+      internalID: -38901232968128356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 429
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff73742baef947510800000000000000
+      internalID: 1546036402457098239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 433
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6e0c73963ba02b0800000000000000
+      internalID: -5617480320702945568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 310
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b0f7d483b6c4c80800000000000000
+      internalID: -8337170920607118468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 308
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09739198cb0919fa0800000000000000
+      internalID: -5795692106020735088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 307
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4472a44d4fd81d50800000000000000
+      internalID: 6708357167925326925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 309
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebc1877e73cb14c0800000000000000
+      internalID: -4315640869966197790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 307
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ad0f4ac59ab47c0800000000000000
+      internalID: -4085986021539259771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 310
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c871404fc71d2640800000000000000
+      internalID: 5056724135510636745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 182
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d75858c4379d9e40800000000000000
+      internalID: 5664850159257278419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 180
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baeb13006fffcf220800000000000000
+      internalID: 2521171323450932907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 179
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9278efa4aadc8fe0800000000000000
+      internalID: -1185332201044544868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 181
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb88d5991eab8c7a0800000000000000
+      internalID: -6356625395930003265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 179
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89eaf300472078740800000000000000
+      internalID: 5154090995792457368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 182
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00e5133a573851c0800000000000000
+      internalID: -4514797765895266289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 54
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cc09a76fe2113e0800000000000000
+      internalID: -2084833516342686599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 58
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf86bf87a20aee90800000000000000
+      internalID: -6995776152472743986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 69
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d42b7fa9326dd60800000000000000
+      internalID: 7914552543637818630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 65
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1009d8451414490800000000000000
+      internalID: -7763852451201941002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 58
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6876f52cf23f99d0800000000000000
+      internalID: -2765435587632138132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Arcteix_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 52
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bfe6216944c5b450800000000000000
+      internalID: 6104000689412173749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birds_Arcteix_Attack_0: -2434741035211107487
+      Birds_Arcteix_Attack_1: -4952158005023124366
+      Birds_Arcteix_Attack_10: -4085986021539259771
+      Birds_Arcteix_Attack_11: 5056724135510636745
+      Birds_Arcteix_Attack_12: 5664850159257278419
+      Birds_Arcteix_Attack_13: 2521171323450932907
+      Birds_Arcteix_Attack_14: -1185332201044544868
+      Birds_Arcteix_Attack_15: -6356625395930003265
+      Birds_Arcteix_Attack_16: 5154090995792457368
+      Birds_Arcteix_Attack_17: -4514797765895266289
+      Birds_Arcteix_Attack_18: -2084833516342686599
+      Birds_Arcteix_Attack_19: -6995776152472743986
+      Birds_Arcteix_Attack_2: 683745314303289108
+      Birds_Arcteix_Attack_20: 7914552543637818630
+      Birds_Arcteix_Attack_21: -7763852451201941002
+      Birds_Arcteix_Attack_22: -2765435587632138132
+      Birds_Arcteix_Attack_23: 6104000689412173749
+      Birds_Arcteix_Attack_3: -38901232968128356
+      Birds_Arcteix_Attack_4: 1546036402457098239
+      Birds_Arcteix_Attack_5: -5617480320702945568
+      Birds_Arcteix_Attack_6: -8337170920607118468
+      Birds_Arcteix_Attack_7: -5795692106020735088
+      Birds_Arcteix_Attack_8: 6708357167925326925
+      Birds_Arcteix_Attack_9: -4315640869966197790
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

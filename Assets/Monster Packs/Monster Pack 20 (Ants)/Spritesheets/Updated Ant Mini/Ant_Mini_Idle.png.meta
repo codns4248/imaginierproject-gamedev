@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 3719c2180af08ac4cb63aa90b3c638be
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8259257683523135933
+    second: Ant_Mini_Idle_0
+  - first:
+      213: -7437837448672415222
+    second: Ant_Mini_Idle_1
+  - first:
+      213: 2571107502463620689
+    second: Ant_Mini_Idle_2
+  - first:
+      213: -8512618157797083399
+    second: Ant_Mini_Idle_3
+  - first:
+      213: -5263362490222882119
+    second: Ant_Mini_Idle_4
+  - first:
+      213: -5453240195822446581
+    second: Ant_Mini_Idle_5
+  - first:
+      213: -4078482777808666521
+    second: Ant_Mini_Idle_6
+  - first:
+      213: 2801820313404780649
+    second: Ant_Mini_Idle_7
+  - first:
+      213: -8925614562323482429
+    second: Ant_Mini_Idle_8
+  - first:
+      213: 3380243610378880242
+    second: Ant_Mini_Idle_9
+  - first:
+      213: 4292346295998524052
+    second: Ant_Mini_Idle_10
+  - first:
+      213: -952633618454599525
+    second: Ant_Mini_Idle_11
+  - first:
+      213: -6283215457029707106
+    second: Ant_Mini_Idle_12
+  - first:
+      213: 7672982602994984248
+    second: Ant_Mini_Idle_13
+  - first:
+      213: 1560443659182930647
+    second: Ant_Mini_Idle_14
+  - first:
+      213: 8588346735817662239
+    second: Ant_Mini_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ant_Mini_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 430
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346103175e8316d80800000000000000
+      internalID: -8259257683523135933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 430
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0278ce6f3e77c890800000000000000
+      internalID: -7437837448672415222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 431
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1569fa3b6a86ea320800000000000000
+      internalID: 2571107502463620689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 430
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6f6f323ea1dd980800000000000000
+      internalID: -8512618157797083399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 303
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2562e93b7c4f6b0800000000000000
+      internalID: -5263362490222882119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 303
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b081f153fe23254b0800000000000000
+      internalID: -5453240195822446581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 303
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7608a26b5815667c0800000000000000
+      internalID: -4078482777808666521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 303
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96037f8fab012e620800000000000000
+      internalID: 2801820313404780649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 175
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8b7a278d8d12480800000000000000
+      internalID: -8925614562323482429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 175
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4cae287a909ee20800000000000000
+      internalID: 3380243610378880242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 175
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49aa4f1e63a719b30800000000000000
+      internalID: 4292346295998524052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 175
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b982be275c097c2f0800000000000000
+      internalID: -952633618454599525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 45
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a208ce4d88dc8a0800000000000000
+      internalID: -6283215457029707106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 45
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835a4433609eb7a60800000000000000
+      internalID: 7672982602994984248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 44
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dafb9d8d3fc7a510800000000000000
+      internalID: 1560443659182930647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Mini_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 44
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f1c4c6adfef2770800000000000000
+      internalID: 8588346735817662239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ant_Mini_Idle_0: -8259257683523135933
+      Ant_Mini_Idle_1: -7437837448672415222
+      Ant_Mini_Idle_10: 4292346295998524052
+      Ant_Mini_Idle_11: -952633618454599525
+      Ant_Mini_Idle_12: -6283215457029707106
+      Ant_Mini_Idle_13: 7672982602994984248
+      Ant_Mini_Idle_14: 1560443659182930647
+      Ant_Mini_Idle_15: 8588346735817662239
+      Ant_Mini_Idle_2: 2571107502463620689
+      Ant_Mini_Idle_3: -8512618157797083399
+      Ant_Mini_Idle_4: -5263362490222882119
+      Ant_Mini_Idle_5: -5453240195822446581
+      Ant_Mini_Idle_6: -4078482777808666521
+      Ant_Mini_Idle_7: 2801820313404780649
+      Ant_Mini_Idle_8: -8925614562323482429
+      Ant_Mini_Idle_9: 3380243610378880242
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

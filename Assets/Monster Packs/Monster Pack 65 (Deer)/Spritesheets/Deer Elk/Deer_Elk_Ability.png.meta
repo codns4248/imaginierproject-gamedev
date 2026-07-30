@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: c3e4d2b4f1568144aa7db1a219075000
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8940041653187420787
+    second: Deer_Elk_Ability_0
+  - first:
+      213: 767476448315811352
+    second: Deer_Elk_Ability_1
+  - first:
+      213: -8113792033634867105
+    second: Deer_Elk_Ability_2
+  - first:
+      213: 3136378694146521051
+    second: Deer_Elk_Ability_3
+  - first:
+      213: 4650209891590564555
+    second: Deer_Elk_Ability_4
+  - first:
+      213: 286589205077996397
+    second: Deer_Elk_Ability_5
+  - first:
+      213: 713425171182860176
+    second: Deer_Elk_Ability_6
+  - first:
+      213: -5254563630798525087
+    second: Deer_Elk_Ability_7
+  - first:
+      213: -4684208887198832825
+    second: Deer_Elk_Ability_8
+  - first:
+      213: 2204690305740081459
+    second: Deer_Elk_Ability_9
+  - first:
+      213: 4926139424429194297
+    second: Deer_Elk_Ability_10
+  - first:
+      213: -2890726680183532823
+    second: Deer_Elk_Ability_11
+  - first:
+      213: 1247403541402965314
+    second: Deer_Elk_Ability_12
+  - first:
+      213: 6451682934500185162
+    second: Deer_Elk_Ability_13
+  - first:
+      213: -2303648412501577258
+    second: Deer_Elk_Ability_14
+  - first:
+      213: -7360538155045515080
+    second: Deer_Elk_Ability_15
+  - first:
+      213: 7666643260272324279
+    second: Deer_Elk_Ability_16
+  - first:
+      213: 3825733272607872379
+    second: Deer_Elk_Ability_17
+  - first:
+      213: 3793731679504607213
+    second: Deer_Elk_Ability_18
+  - first:
+      213: -3963905301266544223
+    second: Deer_Elk_Ability_19
+  - first:
+      213: -1312907934569133840
+    second: Deer_Elk_Ability_20
+  - first:
+      213: 2428060382708775301
+    second: Deer_Elk_Ability_21
+  - first:
+      213: -5757703968544300909
+    second: Deer_Elk_Ability_22
+  - first:
+      213: 7318617329847221454
+    second: Deer_Elk_Ability_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 431
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372ae676488611c70800000000000000
+      internalID: 8940041653187420787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 431
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816a75373cf96aa00800000000000000
+      internalID: 767476448315811352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_2
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 428
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58acc55225066f80800000000000000
+      internalID: -8113792033634867105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 429
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7f4b91ec7a68b20800000000000000
+      internalID: 3136378694146521051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_4
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 428
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca634f224dd88040800000000000000
+      internalID: 4650209891590564555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_5
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 431
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63b2251d5b2af300800000000000000
+      internalID: 286589205077996397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 303
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0973d2ec96896e900800000000000000
+      internalID: 713425171182860176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_7
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 303
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d2198b73a0417b0800000000000000
+      internalID: -5254563630798525087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_8
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 303
+        width: 66
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74729c8c5d85efeb0800000000000000
+      internalID: -4684208887198832825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_9
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 303
+        width: 66
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3398261f622a89e10800000000000000
+      internalID: 2204690305740081459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_10
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 303
+        width: 67
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c362be4b92d5440800000000000000
+      internalID: 4926139424429194297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_11
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 303
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e29aec666312e7d0800000000000000
+      internalID: -2890726680183532823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 175
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24553e079eaaf4110800000000000000
+      internalID: 1247403541402965314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 175
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44555a427bf88950800000000000000
+      internalID: 6451682934500185162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_14
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 175
+        width: 66
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1737d59fbc700e0800000000000000
+      internalID: -2303648412501577258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_15
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 175
+        width: 66
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b09dc8bb8d1ad990800000000000000
+      internalID: -7360538155045515080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_16
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 175
+        width: 67
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7beac24fc63656a60800000000000000
+      internalID: 7666643260272324279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_17
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 175
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b755f2f442cb71530800000000000000
+      internalID: 3825733272607872379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_18
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 47
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7a40accda06a430800000000000000
+      internalID: 3793731679504607213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_19
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 47
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a948b251216df8c0800000000000000
+      internalID: -3963905301266544223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_20
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 47
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f80739803d97cde0800000000000000
+      internalID: -1312907934569133840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_21
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 47
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5893e8cbd0432b120800000000000000
+      internalID: 2428060382708775301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_22
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 47
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3906f090fb68810b0800000000000000
+      internalID: -5757703968544300909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Elk_Ability_23
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 47
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eccbf809fa3f09560800000000000000
+      internalID: 7318617329847221454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Deer_Elk_Ability_0: 8940041653187420787
+      Deer_Elk_Ability_1: 767476448315811352
+      Deer_Elk_Ability_10: 4926139424429194297
+      Deer_Elk_Ability_11: -2890726680183532823
+      Deer_Elk_Ability_12: 1247403541402965314
+      Deer_Elk_Ability_13: 6451682934500185162
+      Deer_Elk_Ability_14: -2303648412501577258
+      Deer_Elk_Ability_15: -7360538155045515080
+      Deer_Elk_Ability_16: 7666643260272324279
+      Deer_Elk_Ability_17: 3825733272607872379
+      Deer_Elk_Ability_18: 3793731679504607213
+      Deer_Elk_Ability_19: -3963905301266544223
+      Deer_Elk_Ability_2: -8113792033634867105
+      Deer_Elk_Ability_20: -1312907934569133840
+      Deer_Elk_Ability_21: 2428060382708775301
+      Deer_Elk_Ability_22: -5757703968544300909
+      Deer_Elk_Ability_23: 7318617329847221454
+      Deer_Elk_Ability_3: 3136378694146521051
+      Deer_Elk_Ability_4: 4650209891590564555
+      Deer_Elk_Ability_5: 286589205077996397
+      Deer_Elk_Ability_6: 713425171182860176
+      Deer_Elk_Ability_7: -5254563630798525087
+      Deer_Elk_Ability_8: -4684208887198832825
+      Deer_Elk_Ability_9: 2204690305740081459
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

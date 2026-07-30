@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: a158b07e4971fd2448cddc6e08e664b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8634212528912180712
+    second: Wolf_Grey_Move_0
+  - first:
+      213: -6583813521515188735
+    second: Wolf_Grey_Move_1
+  - first:
+      213: -8716980794600005354
+    second: Wolf_Grey_Move_2
+  - first:
+      213: -6847468359707243226
+    second: Wolf_Grey_Move_3
+  - first:
+      213: 4590900940173947380
+    second: Wolf_Grey_Move_4
+  - first:
+      213: -7269078509006566037
+    second: Wolf_Grey_Move_5
+  - first:
+      213: 3402183530422632143
+    second: Wolf_Grey_Move_6
+  - first:
+      213: -2674649720605741738
+    second: Wolf_Grey_Move_7
+  - first:
+      213: 1199392066257767936
+    second: Wolf_Grey_Move_8
+  - first:
+      213: 8584946117011442752
+    second: Wolf_Grey_Move_9
+  - first:
+      213: 7261404162107802797
+    second: Wolf_Grey_Move_10
+  - first:
+      213: 249589556992825265
+    second: Wolf_Grey_Move_11
+  - first:
+      213: -1983964779500868594
+    second: Wolf_Grey_Move_12
+  - first:
+      213: 620990842604615313
+    second: Wolf_Grey_Move_13
+  - first:
+      213: -2730895210807194337
+    second: Wolf_Grey_Move_14
+  - first:
+      213: -8509906997632684346
+    second: Wolf_Grey_Move_15
+  - first:
+      213: 8970114473538274362
+    second: Wolf_Grey_Move_16
+  - first:
+      213: -5611159482637575202
+    second: Wolf_Grey_Move_17
+  - first:
+      213: 1537354682628146287
+    second: Wolf_Grey_Move_18
+  - first:
+      213: -8154065467138801701
+    second: Wolf_Grey_Move_19
+  - first:
+      213: 6360389457223694273
+    second: Wolf_Grey_Move_20
+  - first:
+      213: -6202759590038128215
+    second: Wolf_Grey_Move_21
+  - first:
+      213: -2560575791372956045
+    second: Wolf_Grey_Move_22
+  - first:
+      213: 4025286624725492034
+    second: Wolf_Grey_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 429
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a56f2737d1d2880800000000000000
+      internalID: -8634212528912180712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 432
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e6ca61c7891a4a0800000000000000
+      internalID: -6583813521515188735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 433
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611e6ffd620170780800000000000000
+      internalID: -8716980794600005354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 435
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d4ce86ec7e8f0a0800000000000000
+      internalID: -6847468359707243226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 433
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1331ad41826bf30800000000000000
+      internalID: 4590900940173947380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 430
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6dcc3afb9b0f1b90800000000000000
+      internalID: -7269078509006566037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_6
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 303
+        width: 70
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce768735ebf63f20800000000000000
+      internalID: 3402183530422632143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_7
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 303
+        width: 74
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d62b0004cb1ead0800000000000000
+      internalID: -2674649720605741738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_8
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 303
+        width: 75
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e47b7cab815a010800000000000000
+      internalID: 1199392066257767936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 303
+        width: 75
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c0658220bd32770800000000000000
+      internalID: 8584946117011442752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_10
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 304
+        width: 73
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da48af4ec90b5c460800000000000000
+      internalID: 7261404162107802797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_11
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 303
+        width: 69
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b754343168b67300800000000000000
+      internalID: 249589556992825265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 175
+        width: 70
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ce6f66b8a8774e0800000000000000
+      internalID: -1983964779500868594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_13
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 175
+        width: 74
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196f73691e33e9800800000000000000
+      internalID: 620990842604615313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_14
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 175
+        width: 75
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d85015649e91ad0800000000000000
+      internalID: -2730895210807194337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_15
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 175
+        width: 75
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce2e7e4cacb6e980800000000000000
+      internalID: -8509906997632684346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_16
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 176
+        width: 73
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34c6d5869f3c7c70800000000000000
+      internalID: 8970114473538274362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_17
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 175
+        width: 69
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb92530e282122b0800000000000000
+      internalID: -5611159482637575202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 51
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6485d740f7c55510800000000000000
+      internalID: 1537354682628146287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_19
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 49
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf79e3e8a0f6de80800000000000000
+      internalID: -8154065467138801701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 47
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c735f63384a44850800000000000000
+      internalID: 6360389457223694273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 47
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a931a8340f5be9a0800000000000000
+      internalID: -6202759590038128215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_22
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 49
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e00ce52e1077cd0800000000000000
+      internalID: -2560575791372956045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Grey_Move_23
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 54
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241e4e9bbd0bcd730800000000000000
+      internalID: 4025286624725492034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wolf_Grey_Move_0: -8634212528912180712
+      Wolf_Grey_Move_1: -6583813521515188735
+      Wolf_Grey_Move_10: 7261404162107802797
+      Wolf_Grey_Move_11: 249589556992825265
+      Wolf_Grey_Move_12: -1983964779500868594
+      Wolf_Grey_Move_13: 620990842604615313
+      Wolf_Grey_Move_14: -2730895210807194337
+      Wolf_Grey_Move_15: -8509906997632684346
+      Wolf_Grey_Move_16: 8970114473538274362
+      Wolf_Grey_Move_17: -5611159482637575202
+      Wolf_Grey_Move_18: 1537354682628146287
+      Wolf_Grey_Move_19: -8154065467138801701
+      Wolf_Grey_Move_2: -8716980794600005354
+      Wolf_Grey_Move_20: 6360389457223694273
+      Wolf_Grey_Move_21: -6202759590038128215
+      Wolf_Grey_Move_22: -2560575791372956045
+      Wolf_Grey_Move_23: 4025286624725492034
+      Wolf_Grey_Move_3: -6847468359707243226
+      Wolf_Grey_Move_4: 4590900940173947380
+      Wolf_Grey_Move_5: -7269078509006566037
+      Wolf_Grey_Move_6: 3402183530422632143
+      Wolf_Grey_Move_7: -2674649720605741738
+      Wolf_Grey_Move_8: 1199392066257767936
+      Wolf_Grey_Move_9: 8584946117011442752
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

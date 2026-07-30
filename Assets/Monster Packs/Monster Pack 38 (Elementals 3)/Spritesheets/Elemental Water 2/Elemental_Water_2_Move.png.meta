@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 4919936f07812864cbfb3d24b8929685
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 76085863850693486
+    second: Elemental_Water_2_Move_0
+  - first:
+      213: -3645872193583911432
+    second: Elemental_Water_2_Move_1
+  - first:
+      213: 432976694280531292
+    second: Elemental_Water_2_Move_2
+  - first:
+      213: 3165036820361699769
+    second: Elemental_Water_2_Move_3
+  - first:
+      213: 879762643843617407
+    second: Elemental_Water_2_Move_4
+  - first:
+      213: 1647828864918892136
+    second: Elemental_Water_2_Move_5
+  - first:
+      213: -7010942726980384825
+    second: Elemental_Water_2_Move_6
+  - first:
+      213: -4579671872944715053
+    second: Elemental_Water_2_Move_7
+  - first:
+      213: 5808497740323906131
+    second: Elemental_Water_2_Move_8
+  - first:
+      213: -7301437594270194556
+    second: Elemental_Water_2_Move_9
+  - first:
+      213: -58344440289360228
+    second: Elemental_Water_2_Move_10
+  - first:
+      213: -309289273085924172
+    second: Elemental_Water_2_Move_11
+  - first:
+      213: 6296692142269112916
+    second: Elemental_Water_2_Move_12
+  - first:
+      213: -5895642122990474374
+    second: Elemental_Water_2_Move_13
+  - first:
+      213: -925429710787493774
+    second: Elemental_Water_2_Move_14
+  - first:
+      213: 37239456027228530
+    second: Elemental_Water_2_Move_15
+  - first:
+      213: -6960143444887327812
+    second: Elemental_Water_2_Move_16
+  - first:
+      213: 331182476271352844
+    second: Elemental_Water_2_Move_17
+  - first:
+      213: 3716776984520191804
+    second: Elemental_Water_2_Move_18
+  - first:
+      213: 7045753111681558323
+    second: Elemental_Water_2_Move_19
+  - first:
+      213: -1677059914657674773
+    second: Elemental_Water_2_Move_20
+  - first:
+      213: 7983780780200953479
+    second: Elemental_Water_2_Move_21
+  - first:
+      213: 8561778767108865650
+    second: Elemental_Water_2_Move_22
+  - first:
+      213: -890637431363525181
+    second: Elemental_Water_2_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 442
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63df37a0bf4e0100800000000000000
+      internalID: 76085863850693486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 440
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fde4fc7e82476dc0800000000000000
+      internalID: -3645872193583911432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 440
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d2d9a620e320600800000000000000
+      internalID: 432976694280531292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 442
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1e0b218387ceb20800000000000000
+      internalID: 3165036820361699769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 442
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7215f0a67b853c00800000000000000
+      internalID: 879762643843617407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_5
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 442
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e20204f934ed610800000000000000
+      internalID: 1647828864918892136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 314
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7c9b14cb024be90800000000000000
+      internalID: -7010942726980384825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_7
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 313
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da484912bcb170c0800000000000000
+      internalID: -4579671872944715053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_8
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 313
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3526aaa8bedeb9050800000000000000
+      internalID: 5808497740323906131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 313
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484a7d351351caa90800000000000000
+      internalID: -7301437594270194556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_10
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 313
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c960fe96a08b03ff0800000000000000
+      internalID: -58344440289360228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_11
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 313
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bcefd87b0f25bbf0800000000000000
+      internalID: -309289273085924172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_12
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 186
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452a1ff5428526750800000000000000
+      internalID: 6296692142269112916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 185
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ba250c9b87e2ea0800000000000000
+      internalID: -5895642122990474374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_14
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 185
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2704be7c4963823f0800000000000000
+      internalID: -925429710787493774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_15
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 185
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279b124861d448000800000000000000
+      internalID: 37239456027228530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_16
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 185
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb2abdc96a986f90800000000000000
+      internalID: -6960143444887327812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_17
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 185
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0cfcfd15b8989400800000000000000
+      internalID: 331182476271352844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_18
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 58
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f6caf99f4a49330800000000000000
+      internalID: 3716776984520191804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_19
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 56
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337e1e4002b87c160800000000000000
+      internalID: 7045753111681558323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_20
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 56
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be948cf94e2e9b8e0800000000000000
+      internalID: -1677059914657674773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_21
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 58
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7860878d1561cce60800000000000000
+      internalID: 7983780780200953479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_22
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 58
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e710b2d6c81d670800000000000000
+      internalID: 8561778767108865650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Water_2_Move_23
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 58
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c529e799f1d3a3f0800000000000000
+      internalID: -890637431363525181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Elemental_Water_2_Move_0: 76085863850693486
+      Elemental_Water_2_Move_1: -3645872193583911432
+      Elemental_Water_2_Move_10: -58344440289360228
+      Elemental_Water_2_Move_11: -309289273085924172
+      Elemental_Water_2_Move_12: 6296692142269112916
+      Elemental_Water_2_Move_13: -5895642122990474374
+      Elemental_Water_2_Move_14: -925429710787493774
+      Elemental_Water_2_Move_15: 37239456027228530
+      Elemental_Water_2_Move_16: -6960143444887327812
+      Elemental_Water_2_Move_17: 331182476271352844
+      Elemental_Water_2_Move_18: 3716776984520191804
+      Elemental_Water_2_Move_19: 7045753111681558323
+      Elemental_Water_2_Move_2: 432976694280531292
+      Elemental_Water_2_Move_20: -1677059914657674773
+      Elemental_Water_2_Move_21: 7983780780200953479
+      Elemental_Water_2_Move_22: 8561778767108865650
+      Elemental_Water_2_Move_23: -890637431363525181
+      Elemental_Water_2_Move_3: 3165036820361699769
+      Elemental_Water_2_Move_4: 879762643843617407
+      Elemental_Water_2_Move_5: 1647828864918892136
+      Elemental_Water_2_Move_6: -7010942726980384825
+      Elemental_Water_2_Move_7: -4579671872944715053
+      Elemental_Water_2_Move_8: 5808497740323906131
+      Elemental_Water_2_Move_9: -7301437594270194556
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

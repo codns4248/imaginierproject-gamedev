@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 7c13a3d40e8c2a745ae3e1da0bd421a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9018247493456169401
+    second: Spider_Large_Attack_0
+  - first:
+      213: 2684066164282266922
+    second: Spider_Large_Attack_1
+  - first:
+      213: -2999988922709219247
+    second: Spider_Large_Attack_2
+  - first:
+      213: -1391363443002050560
+    second: Spider_Large_Attack_3
+  - first:
+      213: 1068879312814180615
+    second: Spider_Large_Attack_4
+  - first:
+      213: 6887356289795147371
+    second: Spider_Large_Attack_5
+  - first:
+      213: 8216172325551115774
+    second: Spider_Large_Attack_6
+  - first:
+      213: -7203572639768871697
+    second: Spider_Large_Attack_7
+  - first:
+      213: 4803795871452802990
+    second: Spider_Large_Attack_8
+  - first:
+      213: -5728862574884741740
+    second: Spider_Large_Attack_9
+  - first:
+      213: 5604641457185983375
+    second: Spider_Large_Attack_10
+  - first:
+      213: -5861552870541146752
+    second: Spider_Large_Attack_11
+  - first:
+      213: 994014350600368525
+    second: Spider_Large_Attack_12
+  - first:
+      213: -7007186131406279402
+    second: Spider_Large_Attack_13
+  - first:
+      213: -7954638544773063012
+    second: Spider_Large_Attack_14
+  - first:
+      213: -2408726414984484715
+    second: Spider_Large_Attack_15
+  - first:
+      213: 7132442327942790105
+    second: Spider_Large_Attack_16
+  - first:
+      213: 6413553364883280828
+    second: Spider_Large_Attack_17
+  - first:
+      213: 5473341746386081192
+    second: Spider_Large_Attack_18
+  - first:
+      213: -6848072676946245727
+    second: Spider_Large_Attack_19
+  - first:
+      213: -3144708890040197135
+    second: Spider_Large_Attack_20
+  - first:
+      213: -4327903335613737510
+    second: Spider_Large_Attack_21
+  - first:
+      213: 3030052477099820036
+    second: Spider_Large_Attack_22
+  - first:
+      213: -5238976326769305669
+    second: Spider_Large_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spider_Large_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 430
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b903088050472d70800000000000000
+      internalID: 9018247493456169401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 430
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2590b3a4f7bf3520800000000000000
+      internalID: 2684066164282266922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 430
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1586fcb28f5ed56d0800000000000000
+      internalID: -2999988922709219247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 428
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008f5620252e0bce0800000000000000
+      internalID: -1391363443002050560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 429
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7098d04621c65de00800000000000000
+      internalID: 1068879312814180615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 430
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66cac60e0ec49f50800000000000000
+      internalID: 6887356289795147371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 303
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd8edde235b50270800000000000000
+      internalID: 8216172325551115774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 303
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec7adca9d4c70c90800000000000000
+      internalID: -7203572639768871697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 303
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eafae6bb4e28aa240800000000000000
+      internalID: 4803795871452802990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 303
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d17f847ddfe70b0800000000000000
+      internalID: -5728862574884741740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 303
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b8ffce5bfa7cd40800000000000000
+      internalID: 5604641457185983375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 303
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085493758b497aea0800000000000000
+      internalID: -5861552870541146752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 175
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81fc2d09c27bcd00800000000000000
+      internalID: 994014350600368525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 175
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d2c72d65971ce90800000000000000
+      internalID: -7007186131406279402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 175
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9edb2693627b9190800000000000000
+      internalID: -7954638544773063012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 175
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598efb9661c729ed0800000000000000
+      internalID: -2408726414984484715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 175
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db7df902868bf260800000000000000
+      internalID: 7132442327942790105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 175
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb311ed0ec4810950800000000000000
+      internalID: 6413553364883280828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 46
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a598afb15735fb40800000000000000
+      internalID: 5473341746386081192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 46
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a78f86de22c6f0a0800000000000000
+      internalID: -6848072676946245727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 46
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff14270defbb54d0800000000000000
+      internalID: -3144708890040197135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 46
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5d382b8d230f3c0800000000000000
+      internalID: -4327903335613737510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 46
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404c35c8ca8ec0a20800000000000000
+      internalID: 3030052477099820036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Large_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 46
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb71c30c9ca6b47b0800000000000000
+      internalID: -5238976326769305669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spider_Large_Attack_0: 9018247493456169401
+      Spider_Large_Attack_1: 2684066164282266922
+      Spider_Large_Attack_10: 5604641457185983375
+      Spider_Large_Attack_11: -5861552870541146752
+      Spider_Large_Attack_12: 994014350600368525
+      Spider_Large_Attack_13: -7007186131406279402
+      Spider_Large_Attack_14: -7954638544773063012
+      Spider_Large_Attack_15: -2408726414984484715
+      Spider_Large_Attack_16: 7132442327942790105
+      Spider_Large_Attack_17: 6413553364883280828
+      Spider_Large_Attack_18: 5473341746386081192
+      Spider_Large_Attack_19: -6848072676946245727
+      Spider_Large_Attack_2: -2999988922709219247
+      Spider_Large_Attack_20: -3144708890040197135
+      Spider_Large_Attack_21: -4327903335613737510
+      Spider_Large_Attack_22: 3030052477099820036
+      Spider_Large_Attack_23: -5238976326769305669
+      Spider_Large_Attack_3: -1391363443002050560
+      Spider_Large_Attack_4: 1068879312814180615
+      Spider_Large_Attack_5: 6887356289795147371
+      Spider_Large_Attack_6: 8216172325551115774
+      Spider_Large_Attack_7: -7203572639768871697
+      Spider_Large_Attack_8: 4803795871452802990
+      Spider_Large_Attack_9: -5728862574884741740
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

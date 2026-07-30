@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 162cfb2e8ed18c442a54c01e0034cb66
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1142273606904994731
+    second: Wolf_Brown_Ability_0
+  - first:
+      213: -702174951868157655
+    second: Wolf_Brown_Ability_1
+  - first:
+      213: -8265477516985946237
+    second: Wolf_Brown_Ability_2
+  - first:
+      213: -900678126259278621
+    second: Wolf_Brown_Ability_3
+  - first:
+      213: 9137658894009786966
+    second: Wolf_Brown_Ability_4
+  - first:
+      213: -7063305846353172548
+    second: Wolf_Brown_Ability_5
+  - first:
+      213: 934432616582065456
+    second: Wolf_Brown_Ability_6
+  - first:
+      213: -2599154965851012829
+    second: Wolf_Brown_Ability_7
+  - first:
+      213: -3957611257539369578
+    second: Wolf_Brown_Ability_8
+  - first:
+      213: -169605760788200974
+    second: Wolf_Brown_Ability_9
+  - first:
+      213: 4585276203405944341
+    second: Wolf_Brown_Ability_10
+  - first:
+      213: -1264707203967049094
+    second: Wolf_Brown_Ability_11
+  - first:
+      213: -3760022429663854794
+    second: Wolf_Brown_Ability_12
+  - first:
+      213: 4745119831505334883
+    second: Wolf_Brown_Ability_13
+  - first:
+      213: 232745634596817836
+    second: Wolf_Brown_Ability_14
+  - first:
+      213: -6781738152037625021
+    second: Wolf_Brown_Ability_15
+  - first:
+      213: 552855869533155062
+    second: Wolf_Brown_Ability_16
+  - first:
+      213: 6538331024914669951
+    second: Wolf_Brown_Ability_17
+  - first:
+      213: -4067362601374978603
+    second: Wolf_Brown_Ability_18
+  - first:
+      213: 2643939529073550889
+    second: Wolf_Brown_Ability_19
+  - first:
+      213: 1983467754087432576
+    second: Wolf_Brown_Ability_20
+  - first:
+      213: -4080892202648209799
+    second: Wolf_Brown_Ability_21
+  - first:
+      213: 6951137789548975400
+    second: Wolf_Brown_Ability_22
+  - first:
+      213: -647645160652367177
+    second: Wolf_Brown_Ability_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 426
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab50ef1bcb2adf00800000000000000
+      internalID: 1142273606904994731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 429
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921b8bff99f5146f0800000000000000
+      internalID: -702174951868157655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 429
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f231d9dff1b4d80800000000000000
+      internalID: -8265477516985946237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 429
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ece95324062083f0800000000000000
+      internalID: -900678126259278621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_4
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 429
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6526428c95c7fce70800000000000000
+      internalID: 9137658894009786966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 429
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7ed2871c81afd90800000000000000
+      internalID: -7063305846353172548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_6
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 303
+        width: 64
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03da9e19385c7fc00800000000000000
+      internalID: 934432616582065456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_7
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 303
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32102485452fdebd0800000000000000
+      internalID: -2599154965851012829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 303
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6956743978db319c0800000000000000
+      internalID: -3957611257539369578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_9
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 303
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f10c5c857075adf0800000000000000
+      internalID: -169605760788200974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_10
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 303
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5162015c96c22af30800000000000000
+      internalID: 4585276203405944341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_11
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 303
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72aaaaaf7bd27ee0800000000000000
+      internalID: -1264707203967049094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 175
+        width: 64
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f726c8587b1dbc0800000000000000
+      internalID: -3760022429663854794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_13
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 175
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3627985985d0ad140800000000000000
+      internalID: 4745119831505334883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_14
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 175
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab8a29ebe0ea3300800000000000000
+      internalID: 232745634596817836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_15
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 175
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3435518f41d62e1a0800000000000000
+      internalID: -6781738152037625021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_16
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 175
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe6383fb732ca700800000000000000
+      internalID: 552855869533155062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_17
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 175
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7164f3fc61dcba50800000000000000
+      internalID: 6538331024914669951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 45
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dde55c8343dd87c0800000000000000
+      internalID: -4067362601374978603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_19
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 45
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926ea065ef821b420800000000000000
+      internalID: 2643939529073550889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 45
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081c2d9d961b68b10800000000000000
+      internalID: 1983467754087432576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 45
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976fd76c922cd57c0800000000000000
+      internalID: -4080892202648209799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_22
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 45
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8255cdaadf6677060800000000000000
+      internalID: 6951137789548975400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_Brown_Ability_23
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 45
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba90d2682a1307f0800000000000000
+      internalID: -647645160652367177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wolf_Brown_Ability_0: 1142273606904994731
+      Wolf_Brown_Ability_1: -702174951868157655
+      Wolf_Brown_Ability_10: 4585276203405944341
+      Wolf_Brown_Ability_11: -1264707203967049094
+      Wolf_Brown_Ability_12: -3760022429663854794
+      Wolf_Brown_Ability_13: 4745119831505334883
+      Wolf_Brown_Ability_14: 232745634596817836
+      Wolf_Brown_Ability_15: -6781738152037625021
+      Wolf_Brown_Ability_16: 552855869533155062
+      Wolf_Brown_Ability_17: 6538331024914669951
+      Wolf_Brown_Ability_18: -4067362601374978603
+      Wolf_Brown_Ability_19: 2643939529073550889
+      Wolf_Brown_Ability_2: -8265477516985946237
+      Wolf_Brown_Ability_20: 1983467754087432576
+      Wolf_Brown_Ability_21: -4080892202648209799
+      Wolf_Brown_Ability_22: 6951137789548975400
+      Wolf_Brown_Ability_23: -647645160652367177
+      Wolf_Brown_Ability_3: -900678126259278621
+      Wolf_Brown_Ability_4: 9137658894009786966
+      Wolf_Brown_Ability_5: -7063305846353172548
+      Wolf_Brown_Ability_6: 934432616582065456
+      Wolf_Brown_Ability_7: -2599154965851012829
+      Wolf_Brown_Ability_8: -3957611257539369578
+      Wolf_Brown_Ability_9: -169605760788200974
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

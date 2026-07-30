@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 25293ff6246ad8b448dbe3ba10d95905
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1672769912608968437
+    second: Feline_Mutated_Panther_Idle_0
+  - first:
+      213: -5499069137513168649
+    second: Feline_Mutated_Panther_Idle_1
+  - first:
+      213: 4192431884756963320
+    second: Feline_Mutated_Panther_Idle_2
+  - first:
+      213: 7964643211230822107
+    second: Feline_Mutated_Panther_Idle_3
+  - first:
+      213: -7376171487306432888
+    second: Feline_Mutated_Panther_Idle_4
+  - first:
+      213: 1515417377315728351
+    second: Feline_Mutated_Panther_Idle_5
+  - first:
+      213: 5204492723766609744
+    second: Feline_Mutated_Panther_Idle_6
+  - first:
+      213: 3052519041008774196
+    second: Feline_Mutated_Panther_Idle_7
+  - first:
+      213: -396020361001173145
+    second: Feline_Mutated_Panther_Idle_8
+  - first:
+      213: 7956868510658929684
+    second: Feline_Mutated_Panther_Idle_9
+  - first:
+      213: 5993104776244411870
+    second: Feline_Mutated_Panther_Idle_10
+  - first:
+      213: -1250247598663701105
+    second: Feline_Mutated_Panther_Idle_11
+  - first:
+      213: -5908475019868478589
+    second: Feline_Mutated_Panther_Idle_12
+  - first:
+      213: -2928885368157281891
+    second: Feline_Mutated_Panther_Idle_13
+  - first:
+      213: 3263229517048656328
+    second: Feline_Mutated_Panther_Idle_14
+  - first:
+      213: -6605657990090541174
+    second: Feline_Mutated_Panther_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Feline_Mutated_Panther_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 431
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fec4007f5fd63710800000000000000
+      internalID: 1672769912608968437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Feline_Mutated_Panther_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 431
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0c63731c16fa3b0800000000000000
+      internalID: -5499069137513168649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Feline_Mutated_Panther_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 431
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffc5f336928e2a30800000000000000
+      internalID: 4192431884756963320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Feline_Mutated_Panther_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 431
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdeb3285dc8188e60800000000000000
+      internalID: 7964643211230822107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Feline_Mutated_Panther_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 303
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e3cb8ec1392a990800000000000000
+      internalID: -7376171487306432888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Feline_Mutated_Panther_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 303
+        width: 57
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbab5d5318d70510800000000000000
+      internalID: 1515417377315728351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Feline_Mutated_Panther_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 303
+        width: 57
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057c634ce821a3840800000000000000
+      internalID: 5204492723766609744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Feline_Mutated_Panther_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 303
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ca17515e9bc5a20800000000000000
+      internalID: 3052519041008774196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Feline_Mutated_Panther_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 175
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ff3b2749d018af0800000000000000
+      internalID: -396020361001173145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Feline_Mutated_Panther_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 175
+        width: 57
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414215ec0c97c6e60800000000000000
+      internalID: 7956868510658929684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Feline_Mutated_Panther_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 175
+        width: 57
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eddbeb98a09cb2350800000000000000
+      internalID: 5993104776244411870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Feline_Mutated_Panther_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 175
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d6d50ee6a36aee0800000000000000
+      internalID: -1250247598663701105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Feline_Mutated_Panther_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 47
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383687c1641e00ea0800000000000000
+      internalID: -5908475019868478589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Feline_Mutated_Panther_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 47
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91652b86428a57d0800000000000000
+      internalID: -2928885368157281891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Feline_Mutated_Panther_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 47
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c13148d4f1594d20800000000000000
+      internalID: 3263229517048656328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Feline_Mutated_Panther_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 47
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87bee86e0df354a0800000000000000
+      internalID: -6605657990090541174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Feline_Mutated_Panther_Idle_0: 1672769912608968437
+      Feline_Mutated_Panther_Idle_1: -5499069137513168649
+      Feline_Mutated_Panther_Idle_10: 5993104776244411870
+      Feline_Mutated_Panther_Idle_11: -1250247598663701105
+      Feline_Mutated_Panther_Idle_12: -5908475019868478589
+      Feline_Mutated_Panther_Idle_13: -2928885368157281891
+      Feline_Mutated_Panther_Idle_14: 3263229517048656328
+      Feline_Mutated_Panther_Idle_15: -6605657990090541174
+      Feline_Mutated_Panther_Idle_2: 4192431884756963320
+      Feline_Mutated_Panther_Idle_3: 7964643211230822107
+      Feline_Mutated_Panther_Idle_4: -7376171487306432888
+      Feline_Mutated_Panther_Idle_5: 1515417377315728351
+      Feline_Mutated_Panther_Idle_6: 5204492723766609744
+      Feline_Mutated_Panther_Idle_7: 3052519041008774196
+      Feline_Mutated_Panther_Idle_8: -396020361001173145
+      Feline_Mutated_Panther_Idle_9: 7956868510658929684
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

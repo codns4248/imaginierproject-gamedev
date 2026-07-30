@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 52b3b0219471c0841ad5232029a02f82
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4682357367317221951
+    second: Goblin_Warrior_Attack_0
+  - first:
+      213: 6950607609764723318
+    second: Goblin_Warrior_Attack_1
+  - first:
+      213: -2815041061066757686
+    second: Goblin_Warrior_Attack_2
+  - first:
+      213: 8951818437800221912
+    second: Goblin_Warrior_Attack_3
+  - first:
+      213: 1580959426942678992
+    second: Goblin_Warrior_Attack_4
+  - first:
+      213: 4094858353054239370
+    second: Goblin_Warrior_Attack_5
+  - first:
+      213: 6926599319989527428
+    second: Goblin_Warrior_Attack_6
+  - first:
+      213: 7999878026599208078
+    second: Goblin_Warrior_Attack_7
+  - first:
+      213: -2618200820462620419
+    second: Goblin_Warrior_Attack_8
+  - first:
+      213: 5517122078903013402
+    second: Goblin_Warrior_Attack_9
+  - first:
+      213: -1058843062926462181
+    second: Goblin_Warrior_Attack_10
+  - first:
+      213: 8172289589564816401
+    second: Goblin_Warrior_Attack_11
+  - first:
+      213: 3609764227353513522
+    second: Goblin_Warrior_Attack_12
+  - first:
+      213: 1499028652988943535
+    second: Goblin_Warrior_Attack_13
+  - first:
+      213: -5269076084966626351
+    second: Goblin_Warrior_Attack_14
+  - first:
+      213: 1290869274002710292
+    second: Goblin_Warrior_Attack_15
+  - first:
+      213: 5038233016299426634
+    second: Goblin_Warrior_Attack_16
+  - first:
+      213: 749944169855636463
+    second: Goblin_Warrior_Attack_17
+  - first:
+      213: -6362139570754871316
+    second: Goblin_Warrior_Attack_18
+  - first:
+      213: 4542881851911523234
+    second: Goblin_Warrior_Attack_19
+  - first:
+      213: 3978885509272769173
+    second: Goblin_Warrior_Attack_20
+  - first:
+      213: -1987324109475697435
+    second: Goblin_Warrior_Attack_21
+  - first:
+      213: -5950923793268064449
+    second: Goblin_Warrior_Attack_22
+  - first:
+      213: -6089668239915773625
+    second: Goblin_Warrior_Attack_23
+  - first:
+      213: 4291596791655631927
+    second: Goblin_Warrior_Attack_24
+  - first:
+      213: -3712516148199595044
+    second: Goblin_Warrior_Attack_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 431
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cdaf9958cce40fb0800000000000000
+      internalID: -4682357367317221951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 425
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a37219bc4857060800000000000000
+      internalID: 6950607609764723318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 430
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac92af6d117fee8d0800000000000000
+      internalID: -2815041061066757686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 423
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcdfdeb07f3b3c70800000000000000
+      internalID: 8951818437800221912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 422
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d73937f832b0f510800000000000000
+      internalID: 1580959426942678992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 431
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ac6530afbd3d830800000000000000
+      internalID: 4094858353054239370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 431
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48320710269302060800000000000000
+      internalID: 6926599319989527428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 303
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8416e51ea6450f60800000000000000
+      internalID: 7999878026599208078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 303
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df070b1c9384aabd0800000000000000
+      internalID: -2618200820462620419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 303
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a109a7fbc41c09c40800000000000000
+      internalID: 5517122078903013402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 303
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13b16128db3e41f0800000000000000
+      internalID: -1058843062926462181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 303
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c32a3451ec96170800000000000000
+      internalID: 8172289589564816401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 303
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e815e7075781230800000000000000
+      internalID: 3609764227353513522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 175
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: facc9812e9e9dc410800000000000000
+      internalID: 1499028652988943535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 175
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbee0da73b70e6b0800000000000000
+      internalID: -5269076084966626351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 175
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41fd560f3c61ae110800000000000000
+      internalID: 1290869274002710292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 175
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a431c201c366be540800000000000000
+      internalID: 5038233016299426634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 175
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3de95cf36586a00800000000000000
+      internalID: 749944169855636463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 175
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef13b9b4c325b7a0800000000000000
+      internalID: -6362139570754871316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 47
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab41cf99fe8b0f30800000000000000
+      internalID: 4542881851911523234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 47
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59217262a47d73730800000000000000
+      internalID: 3978885509272769173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 57
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eca121704b9b64e0800000000000000
+      internalID: -1987324109475697435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 47
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f36d0e6521a6da0800000000000000
+      internalID: -5950923793268064449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 47
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74197df00072d7ba0800000000000000
+      internalID: -6089668239915773625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 47
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c07dd4b80de8b30800000000000000
+      internalID: 4291596791655631927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Warrior_Attack_25
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 47
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd369a3ab3e7a7cc0800000000000000
+      internalID: -3712516148199595044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Goblin_Warrior_Attack_0: -4682357367317221951
+      Goblin_Warrior_Attack_1: 6950607609764723318
+      Goblin_Warrior_Attack_10: -1058843062926462181
+      Goblin_Warrior_Attack_11: 8172289589564816401
+      Goblin_Warrior_Attack_12: 3609764227353513522
+      Goblin_Warrior_Attack_13: 1499028652988943535
+      Goblin_Warrior_Attack_14: -5269076084966626351
+      Goblin_Warrior_Attack_15: 1290869274002710292
+      Goblin_Warrior_Attack_16: 5038233016299426634
+      Goblin_Warrior_Attack_17: 749944169855636463
+      Goblin_Warrior_Attack_18: -6362139570754871316
+      Goblin_Warrior_Attack_19: 4542881851911523234
+      Goblin_Warrior_Attack_2: -2815041061066757686
+      Goblin_Warrior_Attack_20: 3978885509272769173
+      Goblin_Warrior_Attack_21: -1987324109475697435
+      Goblin_Warrior_Attack_22: -5950923793268064449
+      Goblin_Warrior_Attack_23: -6089668239915773625
+      Goblin_Warrior_Attack_24: 4291596791655631927
+      Goblin_Warrior_Attack_25: -3712516148199595044
+      Goblin_Warrior_Attack_3: 8951818437800221912
+      Goblin_Warrior_Attack_4: 1580959426942678992
+      Goblin_Warrior_Attack_5: 4094858353054239370
+      Goblin_Warrior_Attack_6: 6926599319989527428
+      Goblin_Warrior_Attack_7: 7999878026599208078
+      Goblin_Warrior_Attack_8: -2618200820462620419
+      Goblin_Warrior_Attack_9: 5517122078903013402
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

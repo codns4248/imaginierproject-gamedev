@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 941f62866cab26c48b9d9d70484d44b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1534516819081259387
+    second: Elemental_Earth_3_Idle_0
+  - first:
+      213: -4834542046047694067
+    second: Elemental_Earth_3_Idle_1
+  - first:
+      213: -5571763049982656010
+    second: Elemental_Earth_3_Idle_2
+  - first:
+      213: -3948138344500465776
+    second: Elemental_Earth_3_Idle_3
+  - first:
+      213: 4869694935144207938
+    second: Elemental_Earth_3_Idle_4
+  - first:
+      213: -7814208822867638150
+    second: Elemental_Earth_3_Idle_5
+  - first:
+      213: 7132056132288312663
+    second: Elemental_Earth_3_Idle_6
+  - first:
+      213: 7897746701359602366
+    second: Elemental_Earth_3_Idle_7
+  - first:
+      213: -4608961896900366934
+    second: Elemental_Earth_3_Idle_8
+  - first:
+      213: -2218660519347218829
+    second: Elemental_Earth_3_Idle_9
+  - first:
+      213: -1829694395491984632
+    second: Elemental_Earth_3_Idle_10
+  - first:
+      213: -2233953316306820462
+    second: Elemental_Earth_3_Idle_11
+  - first:
+      213: -697082980709942219
+    second: Elemental_Earth_3_Idle_12
+  - first:
+      213: 936819714287781497
+    second: Elemental_Earth_3_Idle_13
+  - first:
+      213: -2808372067538717734
+    second: Elemental_Earth_3_Idle_14
+  - first:
+      213: 7151323644066048343
+    second: Elemental_Earth_3_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elemental_Earth_3_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 436
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79633faae2bb4510800000000000000
+      internalID: 1534516819081259387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_3_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 436
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0313a5af9148ecb0800000000000000
+      internalID: -4834542046047694067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_3_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 435
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f10329c60f1da2b0800000000000000
+      internalID: -5571763049982656010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_3_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 435
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f63f308156539c0800000000000000
+      internalID: -3948138344500465776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_3_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 308
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2461ac52eb1a49340800000000000000
+      internalID: 4869694935144207938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_3_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 308
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7840402a7a5e8390800000000000000
+      internalID: -7814208822867638150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_3_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 307
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755f03bd3472af260800000000000000
+      internalID: 7132056132288312663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_3_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 307
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba5d84e7ce6a9d60800000000000000
+      internalID: 7897746701359602366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_3_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 180
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad61f7f29da900c0800000000000000
+      internalID: -4608961896900366934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_3_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 180
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376102b330cb531e0800000000000000
+      internalID: -2218660519347218829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_3_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 179
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b5d2534ae9b96e0800000000000000
+      internalID: -1829694395491984632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_3_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 179
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292e9b87b476ff0e0800000000000000
+      internalID: -2233953316306820462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_3_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 52
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c30dbe8b67356f0800000000000000
+      internalID: -697082980709942219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_3_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 52
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976c4b01190400d00800000000000000
+      internalID: 936819714287781497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_3_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 51
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3b935eb78a609d0800000000000000
+      internalID: -2808372067538717734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemental_Earth_3_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 51
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759a86607fa9e3360800000000000000
+      internalID: 7151323644066048343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Elemental_Earth_3_Idle_0: 1534516819081259387
+      Elemental_Earth_3_Idle_1: -4834542046047694067
+      Elemental_Earth_3_Idle_10: -1829694395491984632
+      Elemental_Earth_3_Idle_11: -2233953316306820462
+      Elemental_Earth_3_Idle_12: -697082980709942219
+      Elemental_Earth_3_Idle_13: 936819714287781497
+      Elemental_Earth_3_Idle_14: -2808372067538717734
+      Elemental_Earth_3_Idle_15: 7151323644066048343
+      Elemental_Earth_3_Idle_2: -5571763049982656010
+      Elemental_Earth_3_Idle_3: -3948138344500465776
+      Elemental_Earth_3_Idle_4: 4869694935144207938
+      Elemental_Earth_3_Idle_5: -7814208822867638150
+      Elemental_Earth_3_Idle_6: 7132056132288312663
+      Elemental_Earth_3_Idle_7: 7897746701359602366
+      Elemental_Earth_3_Idle_8: -4608961896900366934
+      Elemental_Earth_3_Idle_9: -2218660519347218829
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

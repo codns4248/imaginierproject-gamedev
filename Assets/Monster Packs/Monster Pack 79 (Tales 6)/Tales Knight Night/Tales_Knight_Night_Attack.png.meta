@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 2d62c31cb294d05409dee0da7edd8e7f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7096477786486927403
+    second: Tales_Knight_Night_Attack_0
+  - first:
+      213: 6631525993812684890
+    second: Tales_Knight_Night_Attack_1
+  - first:
+      213: -1987439655139223295
+    second: Tales_Knight_Night_Attack_2
+  - first:
+      213: 4955522854939113934
+    second: Tales_Knight_Night_Attack_3
+  - first:
+      213: 3477006509314058630
+    second: Tales_Knight_Night_Attack_4
+  - first:
+      213: 5423828931656009561
+    second: Tales_Knight_Night_Attack_5
+  - first:
+      213: -4287841546633381468
+    second: Tales_Knight_Night_Attack_6
+  - first:
+      213: -332045317411145477
+    second: Tales_Knight_Night_Attack_7
+  - first:
+      213: 3769314726681983343
+    second: Tales_Knight_Night_Attack_8
+  - first:
+      213: 1537039194837326627
+    second: Tales_Knight_Night_Attack_9
+  - first:
+      213: 1359084513160871084
+    second: Tales_Knight_Night_Attack_10
+  - first:
+      213: -8475767878628230742
+    second: Tales_Knight_Night_Attack_11
+  - first:
+      213: -2348951057229698213
+    second: Tales_Knight_Night_Attack_12
+  - first:
+      213: -2657743235952522456
+    second: Tales_Knight_Night_Attack_13
+  - first:
+      213: 813296245135210186
+    second: Tales_Knight_Night_Attack_14
+  - first:
+      213: -1784240466362466531
+    second: Tales_Knight_Night_Attack_15
+  - first:
+      213: -8424937321606235314
+    second: Tales_Knight_Night_Attack_16
+  - first:
+      213: 6977489509976010020
+    second: Tales_Knight_Night_Attack_17
+  - first:
+      213: 7687224290830515092
+    second: Tales_Knight_Night_Attack_18
+  - first:
+      213: -1286113955415885040
+    second: Tales_Knight_Night_Attack_19
+  - first:
+      213: 8148735949598901112
+    second: Tales_Knight_Night_Attack_20
+  - first:
+      213: 414271583768651272
+    second: Tales_Knight_Night_Attack_21
+  - first:
+      213: 155591294454246946
+    second: Tales_Knight_Night_Attack_22
+  - first:
+      213: -2484129658368562112
+    second: Tales_Knight_Night_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 431
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20f004b2f0cb7260800000000000000
+      internalID: 7096477786486927403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 431
+        width: 36
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5079fb81c9e70c50800000000000000
+      internalID: 6631525993812684890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 431
+        width: 61
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109d6eed9223b64e0800000000000000
+      internalID: -1987439655139223295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 431
+        width: 61
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9b9f4f7cd85c440800000000000000
+      internalID: 4955522854939113934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 431
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689a26d8ffec04030800000000000000
+      internalID: 3477006509314058630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 431
+        width: 26
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957c7d93daf454b40800000000000000
+      internalID: 5423828931656009561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 303
+        width: 51
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a971cfc4d68e74c0800000000000000
+      internalID: -4287841546633381468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 303
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf870660b86546bf0800000000000000
+      internalID: -332045317411145477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 303
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f693782f5cb4f4430800000000000000
+      internalID: 3769314726681983343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 303
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b912e0109a45510800000000000000
+      internalID: 1537039194837326627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 303
+        width: 60
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac30baf9207cd210800000000000000
+      internalID: 1359084513160871084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 303
+        width: 60
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9b2bb5506006a80800000000000000
+      internalID: -8475767878628230742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 175
+        width: 51
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5bab0f6579d66fd0800000000000000
+      internalID: -2348951057229698213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 175
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b4ad4bb9ccd1bd0800000000000000
+      internalID: -2657743235952522456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 175
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac6717c30a8694b00800000000000000
+      internalID: 813296245135210186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 175
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f7698cfba1d37e0800000000000000
+      internalID: -1784240466362466531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 175
+        width: 60
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4bbabaa42c941b80800000000000000
+      internalID: -8424937321606235314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 175
+        width: 60
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d6222bdb505d060800000000000000
+      internalID: 6977489509976010020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 47
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bf4bb83c18eaa60800000000000000
+      internalID: 7687224290830515092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 47
+        width: 24
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b73c2fb2ec62ee0800000000000000
+      internalID: -1286113955415885040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 47
+        width: 61
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8734c4c1c20261170800000000000000
+      internalID: 8148735949598901112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 47
+        width: 61
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806a11f7fc9cfb500800000000000000
+      internalID: 414271583768651272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 47
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ea61c3575c82200800000000000000
+      internalID: 155591294454246946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tales_Knight_Night_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 47
+        width: 31
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cede8bc39968dd0800000000000000
+      internalID: -2484129658368562112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tales_Knight_Night_Attack_0: 7096477786486927403
+      Tales_Knight_Night_Attack_1: 6631525993812684890
+      Tales_Knight_Night_Attack_10: 1359084513160871084
+      Tales_Knight_Night_Attack_11: -8475767878628230742
+      Tales_Knight_Night_Attack_12: -2348951057229698213
+      Tales_Knight_Night_Attack_13: -2657743235952522456
+      Tales_Knight_Night_Attack_14: 813296245135210186
+      Tales_Knight_Night_Attack_15: -1784240466362466531
+      Tales_Knight_Night_Attack_16: -8424937321606235314
+      Tales_Knight_Night_Attack_17: 6977489509976010020
+      Tales_Knight_Night_Attack_18: 7687224290830515092
+      Tales_Knight_Night_Attack_19: -1286113955415885040
+      Tales_Knight_Night_Attack_2: -1987439655139223295
+      Tales_Knight_Night_Attack_20: 8148735949598901112
+      Tales_Knight_Night_Attack_21: 414271583768651272
+      Tales_Knight_Night_Attack_22: 155591294454246946
+      Tales_Knight_Night_Attack_23: -2484129658368562112
+      Tales_Knight_Night_Attack_3: 4955522854939113934
+      Tales_Knight_Night_Attack_4: 3477006509314058630
+      Tales_Knight_Night_Attack_5: 5423828931656009561
+      Tales_Knight_Night_Attack_6: -4287841546633381468
+      Tales_Knight_Night_Attack_7: -332045317411145477
+      Tales_Knight_Night_Attack_8: 3769314726681983343
+      Tales_Knight_Night_Attack_9: 1537039194837326627
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

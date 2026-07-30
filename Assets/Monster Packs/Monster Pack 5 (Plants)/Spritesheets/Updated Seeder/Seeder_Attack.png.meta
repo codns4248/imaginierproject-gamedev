@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: bfd37f3ba21647447a337860e19a6402
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6424434159062929002
+    second: Seeder_Attack_0
+  - first:
+      213: -5012159193668600150
+    second: Seeder_Attack_1
+  - first:
+      213: -5318356418653001023
+    second: Seeder_Attack_2
+  - first:
+      213: 1163895913744186395
+    second: Seeder_Attack_3
+  - first:
+      213: -488600214297768614
+    second: Seeder_Attack_4
+  - first:
+      213: 5045026442994913615
+    second: Seeder_Attack_5
+  - first:
+      213: -1813214729484897805
+    second: Seeder_Attack_6
+  - first:
+      213: -5965022530740056692
+    second: Seeder_Attack_7
+  - first:
+      213: -6814113675874863675
+    second: Seeder_Attack_8
+  - first:
+      213: 1556744790825638534
+    second: Seeder_Attack_9
+  - first:
+      213: -4935856867460387332
+    second: Seeder_Attack_10
+  - first:
+      213: 3170957073906217867
+    second: Seeder_Attack_11
+  - first:
+      213: 4950049286360218524
+    second: Seeder_Attack_12
+  - first:
+      213: 357676627885060121
+    second: Seeder_Attack_13
+  - first:
+      213: 3805733266737687122
+    second: Seeder_Attack_14
+  - first:
+      213: 8328675658761805827
+    second: Seeder_Attack_15
+  - first:
+      213: 206415928760214710
+    second: Seeder_Attack_16
+  - first:
+      213: 7526394839847971073
+    second: Seeder_Attack_17
+  - first:
+      213: -4093994125765786893
+    second: Seeder_Attack_18
+  - first:
+      213: 4635246066971416384
+    second: Seeder_Attack_19
+  - first:
+      213: -1441242074046450945
+    second: Seeder_Attack_20
+  - first:
+      213: -8173054910900332717
+    second: Seeder_Attack_21
+  - first:
+      213: -123153801661669269
+    second: Seeder_Attack_22
+  - first:
+      213: 474794962193123075
+    second: Seeder_Attack_23
+  - first:
+      213: 2914653090170768852
+    second: Seeder_Attack_24
+  - first:
+      213: 4270616094481614543
+    second: Seeder_Attack_25
+  - first:
+      213: 1809861652428627335
+    second: Seeder_Attack_26
+  - first:
+      213: -701096423640441243
+    second: Seeder_Attack_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Seeder_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 431
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6913b22ab23d7d6a0800000000000000
+      internalID: -6424434159062929002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 431
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaebca7d4cb317ab0800000000000000
+      internalID: -5012159193668600150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 419
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cae44dd3076136b0800000000000000
+      internalID: -5318356418653001023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 417
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c304eba2df62010800000000000000
+      internalID: 1163895913744186395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 405
+        width: 21
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d0a9d91b42839f0800000000000000
+      internalID: -488600214297768614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 403
+        width: 21
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f411a29f1d8830640800000000000000
+      internalID: 5045026442994913615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 303
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1fb837fca26d6e0800000000000000
+      internalID: -1813214729484897805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 303
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d8902cc9bf73da0800000000000000
+      internalID: -5965022530740056692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 303
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5f85ae6b76f61a0800000000000000
+      internalID: -6814113675874863675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 303
+        width: 63
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a1a17a32baa9510800000000000000
+      internalID: 1556744790825638534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 303
+        width: 68
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfde9d09450508bb0800000000000000
+      internalID: -4935856867460387332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 303
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83313488a0810c20800000000000000
+      internalID: 3170957073906217867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 308
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b3d26799b12b440800000000000000
+      internalID: 4950049286360218524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 303
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9107c8d7ff8b6f400800000000000000
+      internalID: 357676627885060121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 175
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a69c11e3ea0d430800000000000000
+      internalID: 3805733266737687122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 175
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300a0f96266659370800000000000000
+      internalID: 8328675658761805827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 175
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b42cbd81365dd200800000000000000
+      internalID: 206415928760214710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 175
+        width: 63
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109a874fa30237860800000000000000
+      internalID: 7526394839847971073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 175
+        width: 68
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2c13598063f27c0800000000000000
+      internalID: -4093994125765786893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 175
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0479b544db3b35040800000000000000
+      internalID: 4635246066971416384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 180
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff23d1d38fdaffbe0800000000000000
+      internalID: -1441242074046450945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 175
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357160a7cd9739e80800000000000000
+      internalID: -8173054910900332717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 47
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60a73715487a4ef0800000000000000
+      internalID: -123153801661669269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 47
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3078aa6a08fc69600800000000000000
+      internalID: 474794962193123075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 47
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd8f130b8de27820800000000000000
+      internalID: 2914653090170768852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_25
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 47
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc684a316b6444b30800000000000000
+      internalID: 4270616094481614543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_26
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 47
+        width: 22
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d1c95759bed1910800000000000000
+      internalID: 1809861652428627335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeder_Attack_27
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 47
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e5d9b64843546f0800000000000000
+      internalID: -701096423640441243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Seeder_Attack_0: -6424434159062929002
+      Seeder_Attack_1: -5012159193668600150
+      Seeder_Attack_10: -4935856867460387332
+      Seeder_Attack_11: 3170957073906217867
+      Seeder_Attack_12: 4950049286360218524
+      Seeder_Attack_13: 357676627885060121
+      Seeder_Attack_14: 3805733266737687122
+      Seeder_Attack_15: 8328675658761805827
+      Seeder_Attack_16: 206415928760214710
+      Seeder_Attack_17: 7526394839847971073
+      Seeder_Attack_18: -4093994125765786893
+      Seeder_Attack_19: 4635246066971416384
+      Seeder_Attack_2: -5318356418653001023
+      Seeder_Attack_20: -1441242074046450945
+      Seeder_Attack_21: -8173054910900332717
+      Seeder_Attack_22: -123153801661669269
+      Seeder_Attack_23: 474794962193123075
+      Seeder_Attack_24: 2914653090170768852
+      Seeder_Attack_25: 4270616094481614543
+      Seeder_Attack_26: 1809861652428627335
+      Seeder_Attack_27: -701096423640441243
+      Seeder_Attack_3: 1163895913744186395
+      Seeder_Attack_4: -488600214297768614
+      Seeder_Attack_5: 5045026442994913615
+      Seeder_Attack_6: -1813214729484897805
+      Seeder_Attack_7: -5965022530740056692
+      Seeder_Attack_8: -6814113675874863675
+      Seeder_Attack_9: 1556744790825638534
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 3fb468d328ab45346ac7f90ef077b3e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6810821816304204516
+    second: Pet_Raccoon_Move_0
+  - first:
+      213: -3075800479167691093
+    second: Pet_Raccoon_Move_1
+  - first:
+      213: -8441069182646007440
+    second: Pet_Raccoon_Move_2
+  - first:
+      213: 6026949616629082698
+    second: Pet_Raccoon_Move_3
+  - first:
+      213: 1342213869185547564
+    second: Pet_Raccoon_Move_4
+  - first:
+      213: 2497005929356975230
+    second: Pet_Raccoon_Move_5
+  - first:
+      213: -5200843748285902237
+    second: Pet_Raccoon_Move_6
+  - first:
+      213: -8362044833472097467
+    second: Pet_Raccoon_Move_7
+  - first:
+      213: -8469880371025478427
+    second: Pet_Raccoon_Move_8
+  - first:
+      213: -7492862400822402715
+    second: Pet_Raccoon_Move_9
+  - first:
+      213: 7180131750873981724
+    second: Pet_Raccoon_Move_10
+  - first:
+      213: 6671688648398264463
+    second: Pet_Raccoon_Move_11
+  - first:
+      213: -6987132735916127814
+    second: Pet_Raccoon_Move_12
+  - first:
+      213: -6148765205002262726
+    second: Pet_Raccoon_Move_13
+  - first:
+      213: -7909320627387937967
+    second: Pet_Raccoon_Move_14
+  - first:
+      213: 6547664815780601594
+    second: Pet_Raccoon_Move_15
+  - first:
+      213: -9142686579246014101
+    second: Pet_Raccoon_Move_16
+  - first:
+      213: -7922047272949558576
+    second: Pet_Raccoon_Move_17
+  - first:
+      213: -7923405109494405196
+    second: Pet_Raccoon_Move_18
+  - first:
+      213: 7214145726845140558
+    second: Pet_Raccoon_Move_19
+  - first:
+      213: -7238217422431016182
+    second: Pet_Raccoon_Move_20
+  - first:
+      213: -7452843262006426308
+    second: Pet_Raccoon_Move_21
+  - first:
+      213: 6663885404939287372
+    second: Pet_Raccoon_Move_22
+  - first:
+      213: 2548791711003696995
+    second: Pet_Raccoon_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 431
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1505b2b4a91b71a0800000000000000
+      internalID: -6810821816304204516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 431
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6cb3fa2cf8055d0800000000000000
+      internalID: -3075800479167691093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 431
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07943e31d4c4bda80800000000000000
+      internalID: -8441069182646007440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 431
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a6a528eb604a350800000000000000
+      internalID: 6026949616629082698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_4
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 431
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d3865176080a210800000000000000
+      internalID: 1342213869185547564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_5
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 431
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7cdd5db9a527a220800000000000000
+      internalID: 2497005929356975230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 303
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3629b1b8a24e2d7b0800000000000000
+      internalID: -5200843748285902237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_7
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 303
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5435109278c04fb80800000000000000
+      internalID: -8362044833472097467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_8
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 303
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecf8fa8da0f47a80800000000000000
+      internalID: -8469880371025478427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_9
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 303
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561a9186851040890800000000000000
+      internalID: -7492862400822402715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_10
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 303
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13e85319c3f4a360800000000000000
+      internalID: 7180131750873981724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_11
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 303
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88d8c34a79969c50800000000000000
+      internalID: 6671688648398264463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 175
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9473dcbc7b80f90800000000000000
+      internalID: -6987132735916127814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_13
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 175
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37ee84af923baaa0800000000000000
+      internalID: -6148765205002262726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_14
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 175
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b4fd57bc27c3290800000000000000
+      internalID: -7909320627387937967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_15
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 175
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe1dec757afdda50800000000000000
+      internalID: 6547664815780601594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_16
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 175
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b616f470ff6ae1180800000000000000
+      internalID: -9142686579246014101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_17
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 175
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d25df16afb3f0290800000000000000
+      internalID: -7922047272949558576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_18
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 47
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7221d68096a0290800000000000000
+      internalID: -7923405109494405196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_19
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 47
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4eb18ef05bcd1460800000000000000
+      internalID: 7214145726845140558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_20
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 47
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ba4f0aa9fac8b90800000000000000
+      internalID: -7238217422431016182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 47
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3581714a8e229890800000000000000
+      internalID: -7452843262006426308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_22
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 47
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4bf0511870ea7c50800000000000000
+      internalID: 6663885404939287372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Raccoon_Move_23
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 47
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36fd5dc9e802f5320800000000000000
+      internalID: 2548791711003696995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pet_Raccoon_Move_0: -6810821816304204516
+      Pet_Raccoon_Move_1: -3075800479167691093
+      Pet_Raccoon_Move_10: 7180131750873981724
+      Pet_Raccoon_Move_11: 6671688648398264463
+      Pet_Raccoon_Move_12: -6987132735916127814
+      Pet_Raccoon_Move_13: -6148765205002262726
+      Pet_Raccoon_Move_14: -7909320627387937967
+      Pet_Raccoon_Move_15: 6547664815780601594
+      Pet_Raccoon_Move_16: -9142686579246014101
+      Pet_Raccoon_Move_17: -7922047272949558576
+      Pet_Raccoon_Move_18: -7923405109494405196
+      Pet_Raccoon_Move_19: 7214145726845140558
+      Pet_Raccoon_Move_2: -8441069182646007440
+      Pet_Raccoon_Move_20: -7238217422431016182
+      Pet_Raccoon_Move_21: -7452843262006426308
+      Pet_Raccoon_Move_22: 6663885404939287372
+      Pet_Raccoon_Move_23: 2548791711003696995
+      Pet_Raccoon_Move_3: 6026949616629082698
+      Pet_Raccoon_Move_4: 1342213869185547564
+      Pet_Raccoon_Move_5: 2497005929356975230
+      Pet_Raccoon_Move_6: -5200843748285902237
+      Pet_Raccoon_Move_7: -8362044833472097467
+      Pet_Raccoon_Move_8: -8469880371025478427
+      Pet_Raccoon_Move_9: -7492862400822402715
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

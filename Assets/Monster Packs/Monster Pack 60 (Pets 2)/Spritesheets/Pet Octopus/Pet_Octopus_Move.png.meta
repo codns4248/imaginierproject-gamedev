@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 5611479286c064d4baa5e0f8d68e3fe5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2351811428023441541
+    second: Pet_Octopus_Move_0
+  - first:
+      213: 3368502477054989500
+    second: Pet_Octopus_Move_1
+  - first:
+      213: -2017019549578733298
+    second: Pet_Octopus_Move_2
+  - first:
+      213: 7699424612893142773
+    second: Pet_Octopus_Move_3
+  - first:
+      213: -1373770828476328952
+    second: Pet_Octopus_Move_4
+  - first:
+      213: 2623724501961946234
+    second: Pet_Octopus_Move_5
+  - first:
+      213: 2103751493377266157
+    second: Pet_Octopus_Move_6
+  - first:
+      213: 7667972648853492205
+    second: Pet_Octopus_Move_7
+  - first:
+      213: 7813326004949767061
+    second: Pet_Octopus_Move_8
+  - first:
+      213: -5494570428312442780
+    second: Pet_Octopus_Move_9
+  - first:
+      213: -378072163756040949
+    second: Pet_Octopus_Move_10
+  - first:
+      213: -1448147500310602689
+    second: Pet_Octopus_Move_11
+  - first:
+      213: -2560462354936823110
+    second: Pet_Octopus_Move_12
+  - first:
+      213: -169520949257777538
+    second: Pet_Octopus_Move_13
+  - first:
+      213: -216828796829009712
+    second: Pet_Octopus_Move_14
+  - first:
+      213: -5440219050616244934
+    second: Pet_Octopus_Move_15
+  - first:
+      213: 7740358673678758145
+    second: Pet_Octopus_Move_16
+  - first:
+      213: -8030315960849779125
+    second: Pet_Octopus_Move_17
+  - first:
+      213: 3082309984326806981
+    second: Pet_Octopus_Move_18
+  - first:
+      213: -766317322144516386
+    second: Pet_Octopus_Move_19
+  - first:
+      213: 9186171762538019836
+    second: Pet_Octopus_Move_20
+  - first:
+      213: 4772754872238185550
+    second: Pet_Octopus_Move_21
+  - first:
+      213: 3427402159368580145
+    second: Pet_Octopus_Move_22
+  - first:
+      213: -793207962846357318
+    second: Pet_Octopus_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 429
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7765f577ffac5fd0800000000000000
+      internalID: -2351811428023441541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 428
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4d2e1e7235fbe20800000000000000
+      internalID: 3368502477054989500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 429
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e095752086b1204e0800000000000000
+      internalID: -2017019549578733298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_3
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 431
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe256264e9d9da60800000000000000
+      internalID: 7699424612893142773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_4
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 433
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804dfd5c5b26fece0800000000000000
+      internalID: -1373770828476328952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 433
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a743eef8887596420800000000000000
+      internalID: 2623724501961946234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 303
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1137a46d6023d10800000000000000
+      internalID: 2103751493377266157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 303
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1d25a5f7c1a6a60800000000000000
+      internalID: 7667972648853492205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_8
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 303
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5935a5fca928e6c60800000000000000
+      internalID: 7813326004949767061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_9
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 303
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46822139e4d5fb3b0800000000000000
+      internalID: -5494570428312442780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_10
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 304
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d9bd3ce51d0caf0800000000000000
+      internalID: -378072163756040949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_11
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 306
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3cdd95658527ebe0800000000000000
+      internalID: -1448147500310602689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 175
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab20b39dd09677cd0800000000000000
+      internalID: -2560462354936823110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_13
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 175
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ec085489db5adf0800000000000000
+      internalID: -169520949257777538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_14
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 175
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d87eebab5badfcf0800000000000000
+      internalID: -216828796829009712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 175
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35b4b3d8957084b0800000000000000
+      internalID: -5440219050616244934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_16
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 176
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1017cba14374b6b60800000000000000
+      internalID: 7740358673678758145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_17
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 178
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4636671e269e8090800000000000000
+      internalID: -8030315960849779125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 45
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd6077999096ca20800000000000000
+      internalID: 3082309984326806981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_19
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 44
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6f854a47e7d55f0800000000000000
+      internalID: -766317322144516386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 45
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb7dcf2c86db7f70800000000000000
+      internalID: 9186171762538019836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_21
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 47
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c95c7e44b3c3240800000000000000
+      internalID: 4772754872238185550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_22
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 49
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c2293da14909f20800000000000000
+      internalID: 3427402159368580145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet_Octopus_Move_23
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 49
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab818857f85fdf4f0800000000000000
+      internalID: -793207962846357318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pet_Octopus_Move_0: -2351811428023441541
+      Pet_Octopus_Move_1: 3368502477054989500
+      Pet_Octopus_Move_10: -378072163756040949
+      Pet_Octopus_Move_11: -1448147500310602689
+      Pet_Octopus_Move_12: -2560462354936823110
+      Pet_Octopus_Move_13: -169520949257777538
+      Pet_Octopus_Move_14: -216828796829009712
+      Pet_Octopus_Move_15: -5440219050616244934
+      Pet_Octopus_Move_16: 7740358673678758145
+      Pet_Octopus_Move_17: -8030315960849779125
+      Pet_Octopus_Move_18: 3082309984326806981
+      Pet_Octopus_Move_19: -766317322144516386
+      Pet_Octopus_Move_2: -2017019549578733298
+      Pet_Octopus_Move_20: 9186171762538019836
+      Pet_Octopus_Move_21: 4772754872238185550
+      Pet_Octopus_Move_22: 3427402159368580145
+      Pet_Octopus_Move_23: -793207962846357318
+      Pet_Octopus_Move_3: 7699424612893142773
+      Pet_Octopus_Move_4: -1373770828476328952
+      Pet_Octopus_Move_5: 2623724501961946234
+      Pet_Octopus_Move_6: 2103751493377266157
+      Pet_Octopus_Move_7: 7667972648853492205
+      Pet_Octopus_Move_8: 7813326004949767061
+      Pet_Octopus_Move_9: -5494570428312442780
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

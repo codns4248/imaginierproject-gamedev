@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 846a537a4f1795243b1f70ef83d86c46
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7945193056118646889
+    second: Grin_Green_Attack_0
+  - first:
+      213: 1832675214527964663
+    second: Grin_Green_Attack_1
+  - first:
+      213: -5065617223246614160
+    second: Grin_Green_Attack_2
+  - first:
+      213: 7524392100116564101
+    second: Grin_Green_Attack_3
+  - first:
+      213: -17623507938577104
+    second: Grin_Green_Attack_4
+  - first:
+      213: 1519263553358543995
+    second: Grin_Green_Attack_5
+  - first:
+      213: -7116604141326216625
+    second: Grin_Green_Attack_6
+  - first:
+      213: 7173065837319649028
+    second: Grin_Green_Attack_7
+  - first:
+      213: -5130983545938572394
+    second: Grin_Green_Attack_8
+  - first:
+      213: 6394670825936603761
+    second: Grin_Green_Attack_9
+  - first:
+      213: -5838990606492204086
+    second: Grin_Green_Attack_10
+  - first:
+      213: 2842737522144334926
+    second: Grin_Green_Attack_11
+  - first:
+      213: -3686695183250997426
+    second: Grin_Green_Attack_12
+  - first:
+      213: 114134580035973756
+    second: Grin_Green_Attack_13
+  - first:
+      213: -9120790795817598095
+    second: Grin_Green_Attack_14
+  - first:
+      213: -6746354208525450731
+    second: Grin_Green_Attack_15
+  - first:
+      213: 7137875140873707378
+    second: Grin_Green_Attack_16
+  - first:
+      213: 1059318886972277484
+    second: Grin_Green_Attack_17
+  - first:
+      213: -3883997236899928663
+    second: Grin_Green_Attack_18
+  - first:
+      213: 3439639939117459912
+    second: Grin_Green_Attack_19
+  - first:
+      213: -5497311167507392708
+    second: Grin_Green_Attack_20
+  - first:
+      213: -6077471055862626717
+    second: Grin_Green_Attack_21
+  - first:
+      213: 2822237983490636728
+    second: Grin_Green_Attack_22
+  - first:
+      213: 2080338896216475723
+    second: Grin_Green_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grin_Green_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 436
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797d52ac2010db190800000000000000
+      internalID: -7945193056118646889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 437
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f52a9ec568fe6910800000000000000
+      internalID: 1832675214527964663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 436
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071f84869ff43b9b0800000000000000
+      internalID: -5065617223246614160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 435
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5880436cfb20c6860800000000000000
+      internalID: 7524392100116564101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 435
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035ff9d438361cff0800000000000000
+      internalID: -17623507938577104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 436
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c32220722851510800000000000000
+      internalID: 1519263553358543995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 308
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f425d252d3ebc3d90800000000000000
+      internalID: -7116604141326216625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 309
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4077defdf59db8360800000000000000
+      internalID: 7173065837319649028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 308
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b05fb66a51bc8b0800000000000000
+      internalID: -5130983545938572394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 307
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a418b5c3f6eb850800000000000000
+      internalID: 6394670825936603761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 307
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3803dcafcb7fea0800000000000000
+      internalID: -5838990606492204086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 308
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44561507be637720800000000000000
+      internalID: 2842737522144334926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 180
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f3e27834a36dcc0800000000000000
+      internalID: -3686695183250997426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 181
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72f1abbbcc759100800000000000000
+      internalID: 114134580035973756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 180
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173c3a068117c6180800000000000000
+      internalID: -9120790795817598095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 179
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51201ef47922062a0800000000000000
+      internalID: -6746354208525450731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 179
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f5ede5f93de0360800000000000000
+      internalID: 7137875140873707378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 180
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce248d94ae473be00800000000000000
+      internalID: 1059318886972277484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 52
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a52bf16715491ac0800000000000000
+      internalID: -3883997236899928663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 53
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9a756fc4e0cbf20800000000000000
+      internalID: 3439639939117459912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 52
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c371fe08e90a5b3b0800000000000000
+      internalID: -5497311167507392708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 51
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3660796464c78aba0800000000000000
+      internalID: -6077471055862626717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 51
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbf29d3e7a9a2720800000000000000
+      internalID: 2822237983490636728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Green_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 52
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4849693439dedc10800000000000000
+      internalID: 2080338896216475723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Grin_Green_Attack_0: -7945193056118646889
+      Grin_Green_Attack_1: 1832675214527964663
+      Grin_Green_Attack_10: -5838990606492204086
+      Grin_Green_Attack_11: 2842737522144334926
+      Grin_Green_Attack_12: -3686695183250997426
+      Grin_Green_Attack_13: 114134580035973756
+      Grin_Green_Attack_14: -9120790795817598095
+      Grin_Green_Attack_15: -6746354208525450731
+      Grin_Green_Attack_16: 7137875140873707378
+      Grin_Green_Attack_17: 1059318886972277484
+      Grin_Green_Attack_18: -3883997236899928663
+      Grin_Green_Attack_19: 3439639939117459912
+      Grin_Green_Attack_2: -5065617223246614160
+      Grin_Green_Attack_20: -5497311167507392708
+      Grin_Green_Attack_21: -6077471055862626717
+      Grin_Green_Attack_22: 2822237983490636728
+      Grin_Green_Attack_23: 2080338896216475723
+      Grin_Green_Attack_3: 7524392100116564101
+      Grin_Green_Attack_4: -17623507938577104
+      Grin_Green_Attack_5: 1519263553358543995
+      Grin_Green_Attack_6: -7116604141326216625
+      Grin_Green_Attack_7: 7173065837319649028
+      Grin_Green_Attack_8: -5130983545938572394
+      Grin_Green_Attack_9: 6394670825936603761
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

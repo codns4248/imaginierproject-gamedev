@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 15cdf7b9051e9a0479bf546896097fc5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3464018842256683898
+    second: RoyalGuard_Move_0
+  - first:
+      213: -156670499490289608
+    second: RoyalGuard_Move_1
+  - first:
+      213: 3541151434909979125
+    second: RoyalGuard_Move_2
+  - first:
+      213: 6837864901843803265
+    second: RoyalGuard_Move_3
+  - first:
+      213: 1585065032897725674
+    second: RoyalGuard_Move_4
+  - first:
+      213: -7889166566239307932
+    second: RoyalGuard_Move_5
+  - first:
+      213: 1478286064177619484
+    second: RoyalGuard_Move_6
+  - first:
+      213: 5845908098926300537
+    second: RoyalGuard_Move_7
+  - first:
+      213: -4024900595109950150
+    second: RoyalGuard_Move_8
+  - first:
+      213: 905638894530576192
+    second: RoyalGuard_Move_9
+  - first:
+      213: -7141241806791809599
+    second: RoyalGuard_Move_10
+  - first:
+      213: 4697499228741827797
+    second: RoyalGuard_Move_11
+  - first:
+      213: 2639170017406390399
+    second: RoyalGuard_Move_12
+  - first:
+      213: -1467820602634349165
+    second: RoyalGuard_Move_13
+  - first:
+      213: -1742016114435293229
+    second: RoyalGuard_Move_14
+  - first:
+      213: -6685066033124115303
+    second: RoyalGuard_Move_15
+  - first:
+      213: -3770961090450355359
+    second: RoyalGuard_Move_16
+  - first:
+      213: 5984754729000492854
+    second: RoyalGuard_Move_17
+  - first:
+      213: -618403331964413065
+    second: RoyalGuard_Move_18
+  - first:
+      213: -2194098909380728145
+    second: RoyalGuard_Move_19
+  - first:
+      213: 4400126757956550198
+    second: RoyalGuard_Move_20
+  - first:
+      213: 2097883536319048372
+    second: RoyalGuard_Move_21
+  - first:
+      213: 7956565570768648953
+    second: RoyalGuard_Move_22
+  - first:
+      213: 711585790823545777
+    second: RoyalGuard_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RoyalGuard_Move_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 431
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68cc70457355defc0800000000000000
+      internalID: -3464018842256683898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 431
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8382913c20563ddf0800000000000000
+      internalID: -156670499490289608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 431
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f19cadd772b42130800000000000000
+      internalID: 3541151434909979125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_3
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 431
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18cd28056e9f4ee50800000000000000
+      internalID: 6837864901843803265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_4
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 431
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae403c7df384ff510800000000000000
+      internalID: 1585065032897725674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_5
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 431
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467fa6d7ecc048290800000000000000
+      internalID: -7889166566239307932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 303
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12a7b3d75de38410800000000000000
+      internalID: 1478286064177619484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_7
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 303
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97dc41a6176d02150800000000000000
+      internalID: 5845908098926300537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 303
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d863ccb3ea428c0800000000000000
+      internalID: -4024900595109950150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_9
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 303
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04fb54bb6c9719c00800000000000000
+      internalID: 905638894530576192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_10
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 303
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c56103a96635ec90800000000000000
+      internalID: -7141241806791809599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_11
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 303
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dcf3ddf8aed03140800000000000000
+      internalID: 4697499228741827797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 175
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f709e5dd52730a420800000000000000
+      internalID: 2639170017406390399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_13
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 175
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395daf150f041abe0800000000000000
+      internalID: -1467820602634349165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 175
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dff312d29d13d7e0800000000000000
+      internalID: -1742016114435293229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_15
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 175
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c7b93acdfd933a0800000000000000
+      internalID: -6685066033124115303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_16
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 175
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b03ed1edadaabc0800000000000000
+      internalID: -3770961090450355359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_17
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 175
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fd9e9a7be1e0350800000000000000
+      internalID: 5984754729000492854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_18
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 47
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bd75e227dfa67f0800000000000000
+      internalID: -618403331964413065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_19
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 47
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa2a40baaefc81e0800000000000000
+      internalID: -2194098909380728145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 47
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ef0b639f3601d30800000000000000
+      internalID: 4400126757956550198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_21
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 47
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4baef6216fd2d1d10800000000000000
+      internalID: 2097883536319048372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_22
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 47
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fab4cd1b366b6e60800000000000000
+      internalID: 7956565570768648953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoyalGuard_Move_23
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 47
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbb041b18f00e900800000000000000
+      internalID: 711585790823545777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RoyalGuard_Move_0: -3464018842256683898
+      RoyalGuard_Move_1: -156670499490289608
+      RoyalGuard_Move_10: -7141241806791809599
+      RoyalGuard_Move_11: 4697499228741827797
+      RoyalGuard_Move_12: 2639170017406390399
+      RoyalGuard_Move_13: -1467820602634349165
+      RoyalGuard_Move_14: -1742016114435293229
+      RoyalGuard_Move_15: -6685066033124115303
+      RoyalGuard_Move_16: -3770961090450355359
+      RoyalGuard_Move_17: 5984754729000492854
+      RoyalGuard_Move_18: -618403331964413065
+      RoyalGuard_Move_19: -2194098909380728145
+      RoyalGuard_Move_2: 3541151434909979125
+      RoyalGuard_Move_20: 4400126757956550198
+      RoyalGuard_Move_21: 2097883536319048372
+      RoyalGuard_Move_22: 7956565570768648953
+      RoyalGuard_Move_23: 711585790823545777
+      RoyalGuard_Move_3: 6837864901843803265
+      RoyalGuard_Move_4: 1585065032897725674
+      RoyalGuard_Move_5: -7889166566239307932
+      RoyalGuard_Move_6: 1478286064177619484
+      RoyalGuard_Move_7: 5845908098926300537
+      RoyalGuard_Move_8: -4024900595109950150
+      RoyalGuard_Move_9: 905638894530576192
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

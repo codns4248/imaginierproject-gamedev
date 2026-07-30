@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: af3eaf9e367677143991f174e2bfed1b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6959876573264219543
+    second: Mushroom_Melee_0
+  - first:
+      213: 8724933820692153100
+    second: Mushroom_Melee_1
+  - first:
+      213: 5126467260821861048
+    second: Mushroom_Melee_2
+  - first:
+      213: -4936326740467627089
+    second: Mushroom_Melee_3
+  - first:
+      213: -5057412387280317313
+    second: Mushroom_Melee_4
+  - first:
+      213: -6478056191420288857
+    second: Mushroom_Melee_5
+  - first:
+      213: -8288572984066364878
+    second: Mushroom_Melee_6
+  - first:
+      213: 1726128357070260791
+    second: Mushroom_Melee_7
+  - first:
+      213: 3971998432070692665
+    second: Mushroom_Melee_8
+  - first:
+      213: -2603815794229560710
+    second: Mushroom_Melee_9
+  - first:
+      213: -6160702145191857413
+    second: Mushroom_Melee_10
+  - first:
+      213: -4832372082743747336
+    second: Mushroom_Melee_11
+  - first:
+      213: 8762055607078215068
+    second: Mushroom_Melee_12
+  - first:
+      213: 5379278953861722921
+    second: Mushroom_Melee_13
+  - first:
+      213: 3588971279849606601
+    second: Mushroom_Melee_14
+  - first:
+      213: 4953806383572851124
+    second: Mushroom_Melee_15
+  - first:
+      213: 3016768585666623266
+    second: Mushroom_Melee_16
+  - first:
+      213: -1773288714195180230
+    second: Mushroom_Melee_17
+  - first:
+      213: -1402662502672211407
+    second: Mushroom_Melee_18
+  - first:
+      213: -1364955630764460271
+    second: Mushroom_Melee_19
+  - first:
+      213: 1601382868597783561
+    second: Mushroom_Melee_20
+  - first:
+      213: 8025263018450310772
+    second: Mushroom_Melee_21
+  - first:
+      213: -8850870272239725864
+    second: Mushroom_Melee_22
+  - first:
+      213: 2227084534858134465
+    second: Mushroom_Melee_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mushroom_Melee_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 431
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962f502b12d896f90800000000000000
+      internalID: -6959876573264219543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 431
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03c52f4511351970800000000000000
+      internalID: 8724933820692153100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 419
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2f4f100ded42740800000000000000
+      internalID: 5126467260821861048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 419
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab4a2bbbf4ae7bb0800000000000000
+      internalID: -4936326740467627089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_4
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 421
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f741f75aa3670d9b0800000000000000
+      internalID: -5057412387280317313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 427
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0bf5357325916a0800000000000000
+      internalID: -6478056191420288857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_6
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 303
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a23d529c219fc80800000000000000
+      internalID: -8288572984066364878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_7
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 303
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ac6e7689074f710800000000000000
+      internalID: 1726128357070260791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_8
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 303
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f6bf7878f5f1730800000000000000
+      internalID: 3971998432070692665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_9
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 303
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a356ca4536ddbd0800000000000000
+      internalID: -2603815794229560710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_10
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 303
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf23adc2a0ac08aa0800000000000000
+      internalID: -6160702145191857413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_11
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 303
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc5b899137ffecb0800000000000000
+      internalID: -4832372082743747336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 175
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ddd1ab623199970800000000000000
+      internalID: 8762055607078215068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 175
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923b9a835b907aa40800000000000000
+      internalID: 5379278953861722921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_14
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 175
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cdc3842d569ec130800000000000000
+      internalID: 3588971279849606601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_15
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 175
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b91ce2d8a47fb440800000000000000
+      internalID: 4953806383572851124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_16
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 175
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227773e8b07bdd920800000000000000
+      internalID: 3016768585666623266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_17
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 175
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35ef2a4f430467e0800000000000000
+      internalID: -1773288714195180230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 47
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132667ca2edb88ce0800000000000000
+      internalID: -1402662502672211407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_19
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 47
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1177d1ee514be0de0800000000000000
+      internalID: -1364955630764460271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 47
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90cba280c31493610800000000000000
+      internalID: 1601382868597783561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 47
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4765fc312367f5f60800000000000000
+      internalID: 8025263018450310772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_22
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 47
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2161e91646b2580800000000000000
+      internalID: -8850870272239725864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom_Melee_23
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 47
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c33cf8b59138ee10800000000000000
+      internalID: 2227084534858134465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mushroom_Melee_0: -6959876573264219543
+      Mushroom_Melee_1: 8724933820692153100
+      Mushroom_Melee_10: -6160702145191857413
+      Mushroom_Melee_11: -4832372082743747336
+      Mushroom_Melee_12: 8762055607078215068
+      Mushroom_Melee_13: 5379278953861722921
+      Mushroom_Melee_14: 3588971279849606601
+      Mushroom_Melee_15: 4953806383572851124
+      Mushroom_Melee_16: 3016768585666623266
+      Mushroom_Melee_17: -1773288714195180230
+      Mushroom_Melee_18: -1402662502672211407
+      Mushroom_Melee_19: -1364955630764460271
+      Mushroom_Melee_2: 5126467260821861048
+      Mushroom_Melee_20: 1601382868597783561
+      Mushroom_Melee_21: 8025263018450310772
+      Mushroom_Melee_22: -8850870272239725864
+      Mushroom_Melee_23: 2227084534858134465
+      Mushroom_Melee_3: -4936326740467627089
+      Mushroom_Melee_4: -5057412387280317313
+      Mushroom_Melee_5: -6478056191420288857
+      Mushroom_Melee_6: -8288572984066364878
+      Mushroom_Melee_7: 1726128357070260791
+      Mushroom_Melee_8: 3971998432070692665
+      Mushroom_Melee_9: -2603815794229560710
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

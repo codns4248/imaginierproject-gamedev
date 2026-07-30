@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 6d639ad8f407cf34fb55263b15abfa89
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6927088486398865566
+    second: Insect_Beetle_Death_0
+  - first:
+      213: 8097111271601683392
+    second: Insect_Beetle_Death_1
+  - first:
+      213: -6196716839592132865
+    second: Insect_Beetle_Death_2
+  - first:
+      213: 5973784264624921027
+    second: Insect_Beetle_Death_3
+  - first:
+      213: -5606636074544549368
+    second: Insect_Beetle_Death_4
+  - first:
+      213: 4835666956354242674
+    second: Insect_Beetle_Death_5
+  - first:
+      213: -612359384251272636
+    second: Insect_Beetle_Death_6
+  - first:
+      213: 2886583086582116083
+    second: Insect_Beetle_Death_7
+  - first:
+      213: 5337574913019738646
+    second: Insect_Beetle_Death_8
+  - first:
+      213: -3481790388935726525
+    second: Insect_Beetle_Death_9
+  - first:
+      213: -8084961762073635838
+    second: Insect_Beetle_Death_10
+  - first:
+      213: -5956486236267453926
+    second: Insect_Beetle_Death_11
+  - first:
+      213: -8460492441756222211
+    second: Insect_Beetle_Death_12
+  - first:
+      213: 2981398530237370252
+    second: Insect_Beetle_Death_13
+  - first:
+      213: -6054621310206160091
+    second: Insect_Beetle_Death_14
+  - first:
+      213: -6177363549354239359
+    second: Insect_Beetle_Death_15
+  - first:
+      213: -8454794927083561191
+    second: Insect_Beetle_Death_16
+  - first:
+      213: -3804020921108357670
+    second: Insect_Beetle_Death_17
+  - first:
+      213: -5285120164216050894
+    second: Insect_Beetle_Death_18
+  - first:
+      213: -5298871793791521657
+    second: Insect_Beetle_Death_19
+  - first:
+      213: -285050556711628637
+    second: Insect_Beetle_Death_20
+  - first:
+      213: -6568715857120777720
+    second: Insect_Beetle_Death_21
+  - first:
+      213: 3872764727288103079
+    second: Insect_Beetle_Death_22
+  - first:
+      213: -9091660069751755310
+    second: Insect_Beetle_Death_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 445
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90b08fe646f12060800000000000000
+      internalID: 6927088486398865566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 444
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb31aa1dc7be5070800000000000000
+      internalID: 8097111271601683392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 444
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffefd62bdd6d00aa0800000000000000
+      internalID: -6196716839592132865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_3
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 443
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c959c1632527e250800000000000000
+      internalID: 5973784264624921027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 444
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802b1e7023a3132b0800000000000000
+      internalID: -5606636074544549368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_5
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 59
+        width: 136
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278c691f97dbb1340800000000000000
+      internalID: 4835666956354242674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_6
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 317
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44273da62667087f0800000000000000
+      internalID: -612359384251272636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_7
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 316
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fea06206043f0820800000000000000
+      internalID: 2886583086582116083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 316
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61af39c8a10e21a40800000000000000
+      internalID: 5337574913019738646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_9
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 315
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34aed1da6123eafc0800000000000000
+      internalID: -3481790388935726525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_10
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 316
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2041cf40d127ccf80800000000000000
+      internalID: -8084961762073635838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_11
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 314
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1266c1b35f465da0800000000000000
+      internalID: -5956486236267453926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_12
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 189
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc3e3823fa469a80800000000000000
+      internalID: -8460492441756222211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 188
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f8ba8ca2e006920800000000000000
+      internalID: 2981398530237370252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_14
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 188
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523d6a34ff9a9fba0800000000000000
+      internalID: -6054621310206160091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_15
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 187
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a5b48b498954aa0800000000000000
+      internalID: -6177363549354239359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_16
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 188
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fd86a2fc88aaa80800000000000000
+      internalID: -8454794927083561191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_17
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 186
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add9e277027653bc0800000000000000
+      internalID: -3804020921108357670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_18
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 61
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23be5a0663b77a6b0800000000000000
+      internalID: -5285120164216050894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_19
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 60
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c28bc9d20a676b0800000000000000
+      internalID: -5298871793791521657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 60
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a01d28670c4b0cf0800000000000000
+      internalID: -285050556711628637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_21
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 59
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a27d10bbb37d4a0800000000000000
+      internalID: -6568715857120777720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_22
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 60
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a08bac2003deb530800000000000000
+      internalID: 3872764727288103079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insect_Beetle_Death_23
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 58
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dde7d3165fe3d180800000000000000
+      internalID: -9091660069751755310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Insect_Beetle_Death_0: 6927088486398865566
+      Insect_Beetle_Death_1: 8097111271601683392
+      Insect_Beetle_Death_10: -8084961762073635838
+      Insect_Beetle_Death_11: -5956486236267453926
+      Insect_Beetle_Death_12: -8460492441756222211
+      Insect_Beetle_Death_13: 2981398530237370252
+      Insect_Beetle_Death_14: -6054621310206160091
+      Insect_Beetle_Death_15: -6177363549354239359
+      Insect_Beetle_Death_16: -8454794927083561191
+      Insect_Beetle_Death_17: -3804020921108357670
+      Insect_Beetle_Death_18: -5285120164216050894
+      Insect_Beetle_Death_19: -5298871793791521657
+      Insect_Beetle_Death_2: -6196716839592132865
+      Insect_Beetle_Death_20: -285050556711628637
+      Insect_Beetle_Death_21: -6568715857120777720
+      Insect_Beetle_Death_22: 3872764727288103079
+      Insect_Beetle_Death_23: -9091660069751755310
+      Insect_Beetle_Death_3: 5973784264624921027
+      Insect_Beetle_Death_4: -5606636074544549368
+      Insect_Beetle_Death_5: 4835666956354242674
+      Insect_Beetle_Death_6: -612359384251272636
+      Insect_Beetle_Death_7: 2886583086582116083
+      Insect_Beetle_Death_8: 5337574913019738646
+      Insect_Beetle_Death_9: -3481790388935726525
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

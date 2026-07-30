@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: beade2b8eaa87d047bba315c402bd8f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8927989520352562343
+    second: Skeleton_Witch_Attack_0
+  - first:
+      213: 8827565052817490203
+    second: Skeleton_Witch_Attack_1
+  - first:
+      213: -242611471652057780
+    second: Skeleton_Witch_Attack_2
+  - first:
+      213: -3648902125233336529
+    second: Skeleton_Witch_Attack_3
+  - first:
+      213: 1031933670363685652
+    second: Skeleton_Witch_Attack_4
+  - first:
+      213: 422044253254495458
+    second: Skeleton_Witch_Attack_5
+  - first:
+      213: -4292537182816236185
+    second: Skeleton_Witch_Attack_6
+  - first:
+      213: -5338289204459803090
+    second: Skeleton_Witch_Attack_7
+  - first:
+      213: -6709849691800345069
+    second: Skeleton_Witch_Attack_8
+  - first:
+      213: 5946689138400300674
+    second: Skeleton_Witch_Attack_9
+  - first:
+      213: -8828750440583047407
+    second: Skeleton_Witch_Attack_10
+  - first:
+      213: -5498319901596487014
+    second: Skeleton_Witch_Attack_11
+  - first:
+      213: 6673087418578614333
+    second: Skeleton_Witch_Attack_12
+  - first:
+      213: -2845281352172154876
+    second: Skeleton_Witch_Attack_13
+  - first:
+      213: 4218618258846990086
+    second: Skeleton_Witch_Attack_14
+  - first:
+      213: 3807844922774869491
+    second: Skeleton_Witch_Attack_15
+  - first:
+      213: 1128466688995811558
+    second: Skeleton_Witch_Attack_16
+  - first:
+      213: -5669286587134740870
+    second: Skeleton_Witch_Attack_17
+  - first:
+      213: -5775725014336909774
+    second: Skeleton_Witch_Attack_18
+  - first:
+      213: 8085921382850503987
+    second: Skeleton_Witch_Attack_19
+  - first:
+      213: -340277752783518934
+    second: Skeleton_Witch_Attack_20
+  - first:
+      213: 8889166508097936832
+    second: Skeleton_Witch_Attack_21
+  - first:
+      213: -6417098174192035669
+    second: Skeleton_Witch_Attack_22
+  - first:
+      213: 843371350636029375
+    second: Skeleton_Witch_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 431
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953b9f075d8691480800000000000000
+      internalID: -8927989520352562343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 431
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11c6d425afc18a70800000000000000
+      internalID: 8827565052817490203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 431
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d8eb5e62212acf0800000000000000
+      internalID: -242611471652057780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 431
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f8c4d89de7c5dc0800000000000000
+      internalID: -3648902125233336529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 431
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413eacda43a225e00800000000000000
+      internalID: 1031933670363685652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 431
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ecaab223076bd500800000000000000
+      internalID: 422044253254495458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 303
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d0511dc28dd64c0800000000000000
+      internalID: -4292537182816236185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 303
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2eeed380469ae5b0800000000000000
+      internalID: -5338289204459803090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 303
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316e9ff6143d1e2a0800000000000000
+      internalID: -6709849691800345069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 303
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e0604b342e68250800000000000000
+      internalID: 5946689138400300674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 303
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1175972404af97580800000000000000
+      internalID: -8828750440583047407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 303
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9271eb4e2b02b3b0800000000000000
+      internalID: -5498319901596487014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 175
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38b183d6a19b9c50800000000000000
+      internalID: 6673087418578614333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 175
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4005cb56fa78388d0800000000000000
+      internalID: -2845281352172154876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 175
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f3d8984fa8b8a30800000000000000
+      internalID: 4218618258846990086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 175
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f555cd48ce28d430800000000000000
+      internalID: 3807844922774869491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 175
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0e47a897e19af00800000000000000
+      internalID: 1128466688995811558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 175
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7672fbd2e5a251b0800000000000000
+      internalID: -5669286587134740870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 47
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e4c1853b088dfa0800000000000000
+      internalID: -5775725014336909774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 47
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3352a8a18a6f63070800000000000000
+      internalID: 8085921382850503987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 47
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23ce5ccf27174bf0800000000000000
+      internalID: -340277752783518934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 47
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd1a70a7d9ac5b70800000000000000
+      internalID: 8889166508097936832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 47
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8d976b533e1f6a0800000000000000
+      internalID: -6417098174192035669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Witch_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 47
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5e66866c144bb00800000000000000
+      internalID: 843371350636029375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skeleton_Witch_Attack_0: -8927989520352562343
+      Skeleton_Witch_Attack_1: 8827565052817490203
+      Skeleton_Witch_Attack_10: -8828750440583047407
+      Skeleton_Witch_Attack_11: -5498319901596487014
+      Skeleton_Witch_Attack_12: 6673087418578614333
+      Skeleton_Witch_Attack_13: -2845281352172154876
+      Skeleton_Witch_Attack_14: 4218618258846990086
+      Skeleton_Witch_Attack_15: 3807844922774869491
+      Skeleton_Witch_Attack_16: 1128466688995811558
+      Skeleton_Witch_Attack_17: -5669286587134740870
+      Skeleton_Witch_Attack_18: -5775725014336909774
+      Skeleton_Witch_Attack_19: 8085921382850503987
+      Skeleton_Witch_Attack_2: -242611471652057780
+      Skeleton_Witch_Attack_20: -340277752783518934
+      Skeleton_Witch_Attack_21: 8889166508097936832
+      Skeleton_Witch_Attack_22: -6417098174192035669
+      Skeleton_Witch_Attack_23: 843371350636029375
+      Skeleton_Witch_Attack_3: -3648902125233336529
+      Skeleton_Witch_Attack_4: 1031933670363685652
+      Skeleton_Witch_Attack_5: 422044253254495458
+      Skeleton_Witch_Attack_6: -4292537182816236185
+      Skeleton_Witch_Attack_7: -5338289204459803090
+      Skeleton_Witch_Attack_8: -6709849691800345069
+      Skeleton_Witch_Attack_9: 5946689138400300674
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

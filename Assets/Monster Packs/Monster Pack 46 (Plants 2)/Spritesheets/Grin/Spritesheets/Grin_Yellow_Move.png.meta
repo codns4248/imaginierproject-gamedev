@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 10b8383eed7cfd94ca31467742d8dcc5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4002682040973150176
+    second: Grin_Yellow_Move_0
+  - first:
+      213: 6518137849319687123
+    second: Grin_Yellow_Move_1
+  - first:
+      213: 7068292817149164268
+    second: Grin_Yellow_Move_2
+  - first:
+      213: 1458385169112871808
+    second: Grin_Yellow_Move_3
+  - first:
+      213: -6661566788480459112
+    second: Grin_Yellow_Move_4
+  - first:
+      213: -4453374543330623721
+    second: Grin_Yellow_Move_5
+  - first:
+      213: -8258021998862716511
+    second: Grin_Yellow_Move_6
+  - first:
+      213: 8019233115404767832
+    second: Grin_Yellow_Move_7
+  - first:
+      213: -4012808932279786905
+    second: Grin_Yellow_Move_8
+  - first:
+      213: -4713041435988246575
+    second: Grin_Yellow_Move_9
+  - first:
+      213: 7957621251075033978
+    second: Grin_Yellow_Move_10
+  - first:
+      213: -561834738092858010
+    second: Grin_Yellow_Move_11
+  - first:
+      213: 7462394902131001810
+    second: Grin_Yellow_Move_12
+  - first:
+      213: -1595422036290121901
+    second: Grin_Yellow_Move_13
+  - first:
+      213: -1640882717449209322
+    second: Grin_Yellow_Move_14
+  - first:
+      213: -2652017079680075866
+    second: Grin_Yellow_Move_15
+  - first:
+      213: 3663432028058300382
+    second: Grin_Yellow_Move_16
+  - first:
+      213: -6458824854592302972
+    second: Grin_Yellow_Move_17
+  - first:
+      213: 6406339092977448497
+    second: Grin_Yellow_Move_18
+  - first:
+      213: -5390636105173700861
+    second: Grin_Yellow_Move_19
+  - first:
+      213: -2551918655075015166
+    second: Grin_Yellow_Move_20
+  - first:
+      213: 5358629913016542363
+    second: Grin_Yellow_Move_21
+  - first:
+      213: 3429113486571625401
+    second: Grin_Yellow_Move_22
+  - first:
+      213: -561854963701095314
+    second: Grin_Yellow_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 436
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028b5fe04ed9378c0800000000000000
+      internalID: -4002682040973150176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 437
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d38ab1e6d3157a50800000000000000
+      internalID: 6518137849319687123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 437
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceafe962ede971260800000000000000
+      internalID: 7068292817149164268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 436
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083bbae95993d3410800000000000000
+      internalID: 1458385169112871808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 435
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e1515ec4c5d83a0800000000000000
+      internalID: -6661566788480459112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_5
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 435
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fb205a27f6232c0800000000000000
+      internalID: -4453374543330623721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_6
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 308
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a13d62bebc956d80800000000000000
+      internalID: -8258021998862716511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 309
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85210ced70a0a4f60800000000000000
+      internalID: 8019233115404767832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 309
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762e2ff6983af48c0800000000000000
+      internalID: -4012808932279786905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_9
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 308
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df3934e8c9e79eb0800000000000000
+      internalID: -4713041435988246575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_10
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 307
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b4d67dd562f6e60800000000000000
+      internalID: 7957621251075033978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_11
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 307
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665208d4846f338f0800000000000000
+      internalID: -561834738092858010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_12
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 180
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9443340a0cf8760800000000000000
+      internalID: 7462394902131001810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_13
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 181
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fc8146c1cebd9e0800000000000000
+      internalID: -1595422036290121901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_14
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 181
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61abc5cbcd96a39e0800000000000000
+      internalID: -1640882717449209322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_15
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 180
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a7766b5484223bd0800000000000000
+      internalID: -2652017079680075866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_16
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 179
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf2433150027d230800000000000000
+      internalID: 3663432028058300382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_17
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 179
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480df8bd305ad56a0800000000000000
+      internalID: -6458824854592302972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_18
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 52
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1367e9b7673e7e850800000000000000
+      internalID: 6406339092977448497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_19
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 53
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fe9bde50d9035b0800000000000000
+      internalID: -5390636105173700861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 53
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206af8cf083c59cd0800000000000000
+      internalID: -2551918655075015166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_21
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 52
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b942220c38dad5a40800000000000000
+      internalID: 5358629913016542363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_22
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 51
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb5a9d3c88a69f20800000000000000
+      internalID: 3429113486571625401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grin_Yellow_Move_23
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 51
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e646e4923e3e338f0800000000000000
+      internalID: -561854963701095314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Grin_Yellow_Move_0: -4002682040973150176
+      Grin_Yellow_Move_1: 6518137849319687123
+      Grin_Yellow_Move_10: 7957621251075033978
+      Grin_Yellow_Move_11: -561834738092858010
+      Grin_Yellow_Move_12: 7462394902131001810
+      Grin_Yellow_Move_13: -1595422036290121901
+      Grin_Yellow_Move_14: -1640882717449209322
+      Grin_Yellow_Move_15: -2652017079680075866
+      Grin_Yellow_Move_16: 3663432028058300382
+      Grin_Yellow_Move_17: -6458824854592302972
+      Grin_Yellow_Move_18: 6406339092977448497
+      Grin_Yellow_Move_19: -5390636105173700861
+      Grin_Yellow_Move_2: 7068292817149164268
+      Grin_Yellow_Move_20: -2551918655075015166
+      Grin_Yellow_Move_21: 5358629913016542363
+      Grin_Yellow_Move_22: 3429113486571625401
+      Grin_Yellow_Move_23: -561854963701095314
+      Grin_Yellow_Move_3: 1458385169112871808
+      Grin_Yellow_Move_4: -6661566788480459112
+      Grin_Yellow_Move_5: -4453374543330623721
+      Grin_Yellow_Move_6: -8258021998862716511
+      Grin_Yellow_Move_7: 8019233115404767832
+      Grin_Yellow_Move_8: -4012808932279786905
+      Grin_Yellow_Move_9: -4713041435988246575
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

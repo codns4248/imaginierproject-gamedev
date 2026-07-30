@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 473590c870ca19d43ba7752071873811
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5155881674395632116
+    second: Skeleton_Mage_Attack_0
+  - first:
+      213: 6478281753996248206
+    second: Skeleton_Mage_Attack_1
+  - first:
+      213: 1631189132743405412
+    second: Skeleton_Mage_Attack_2
+  - first:
+      213: -7239179488586625370
+    second: Skeleton_Mage_Attack_3
+  - first:
+      213: -6190454505053335148
+    second: Skeleton_Mage_Attack_4
+  - first:
+      213: 7079130564639041895
+    second: Skeleton_Mage_Attack_5
+  - first:
+      213: -2934399890042040448
+    second: Skeleton_Mage_Attack_6
+  - first:
+      213: 3907685100207186153
+    second: Skeleton_Mage_Attack_7
+  - first:
+      213: 5372809934584920074
+    second: Skeleton_Mage_Attack_8
+  - first:
+      213: 5215007841100249357
+    second: Skeleton_Mage_Attack_9
+  - first:
+      213: 398083449995577580
+    second: Skeleton_Mage_Attack_10
+  - first:
+      213: 2330926199256795804
+    second: Skeleton_Mage_Attack_11
+  - first:
+      213: 3777223672881016320
+    second: Skeleton_Mage_Attack_12
+  - first:
+      213: -5491286703652539898
+    second: Skeleton_Mage_Attack_13
+  - first:
+      213: -5845928835810191872
+    second: Skeleton_Mage_Attack_14
+  - first:
+      213: -4051231790358913390
+    second: Skeleton_Mage_Attack_15
+  - first:
+      213: -8586171020809619484
+    second: Skeleton_Mage_Attack_16
+  - first:
+      213: 6577633807670431006
+    second: Skeleton_Mage_Attack_17
+  - first:
+      213: 1609290648597459673
+    second: Skeleton_Mage_Attack_18
+  - first:
+      213: -6049494629487578412
+    second: Skeleton_Mage_Attack_19
+  - first:
+      213: 5964255662056908604
+    second: Skeleton_Mage_Attack_20
+  - first:
+      213: -179474255209956018
+    second: Skeleton_Mage_Attack_21
+  - first:
+      213: -6619094378081897646
+    second: Skeleton_Mage_Attack_22
+  - first:
+      213: 4683608871709728114
+    second: Skeleton_Mage_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 431
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0eb3b52fe0a278b0800000000000000
+      internalID: -5155881674395632116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 431
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8447dd8eea77e950800000000000000
+      internalID: 6478281753996248206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 431
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46fe5a2bfd523a610800000000000000
+      internalID: 1631189132743405412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 431
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae00852c94498b90800000000000000
+      internalID: -7239179488586625370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 431
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49154141d66171aa0800000000000000
+      internalID: -6190454505053335148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 431
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769abefddbf1e3260800000000000000
+      internalID: 7079130564639041895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 303
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f491dd8dae647d0800000000000000
+      internalID: -2934399890042040448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 303
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0afe315e2ea3630800000000000000
+      internalID: 3907685100207186153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 303
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08bf9c4b2e009a40800000000000000
+      internalID: 5372809934584920074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 303
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0938ad400e6f5840800000000000000
+      internalID: 5215007841100249357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 303
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8c2f3e9c6468500800000000000000
+      internalID: 398083449995577580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 303
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a4a58470d195020800000000000000
+      internalID: 2330926199256795804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 175
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ee44bfae46b6430800000000000000
+      internalID: 3777223672881016320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 175
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602f6fc46d70bc3b0800000000000000
+      internalID: -5491286703652539898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 175
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006125762b61fdea0800000000000000
+      internalID: -5845928835810191872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 175
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e13e8a62227c7c0800000000000000
+      internalID: -4051231790358913390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 175
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7b3e3b2fac7d880800000000000000
+      internalID: -8586171020809619484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 175
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1dcbc82913784b50800000000000000
+      internalID: 6577633807670431006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 47
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2720a8159555610800000000000000
+      internalID: 1609290648597459673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 47
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d272c2afa0eb0ca0800000000000000
+      internalID: -6049494629487578412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 47
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37a386bcea45c250800000000000000
+      internalID: 5964255662056908604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 47
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4df1e3ad11628df0800000000000000
+      internalID: -179474255209956018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 47
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253b4ab8bb04424a0800000000000000
+      internalID: -6619094378081897646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Mage_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 47
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d502934758ff040800000000000000
+      internalID: 4683608871709728114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skeleton_Mage_Attack_0: -5155881674395632116
+      Skeleton_Mage_Attack_1: 6478281753996248206
+      Skeleton_Mage_Attack_10: 398083449995577580
+      Skeleton_Mage_Attack_11: 2330926199256795804
+      Skeleton_Mage_Attack_12: 3777223672881016320
+      Skeleton_Mage_Attack_13: -5491286703652539898
+      Skeleton_Mage_Attack_14: -5845928835810191872
+      Skeleton_Mage_Attack_15: -4051231790358913390
+      Skeleton_Mage_Attack_16: -8586171020809619484
+      Skeleton_Mage_Attack_17: 6577633807670431006
+      Skeleton_Mage_Attack_18: 1609290648597459673
+      Skeleton_Mage_Attack_19: -6049494629487578412
+      Skeleton_Mage_Attack_2: 1631189132743405412
+      Skeleton_Mage_Attack_20: 5964255662056908604
+      Skeleton_Mage_Attack_21: -179474255209956018
+      Skeleton_Mage_Attack_22: -6619094378081897646
+      Skeleton_Mage_Attack_23: 4683608871709728114
+      Skeleton_Mage_Attack_3: -7239179488586625370
+      Skeleton_Mage_Attack_4: -6190454505053335148
+      Skeleton_Mage_Attack_5: 7079130564639041895
+      Skeleton_Mage_Attack_6: -2934399890042040448
+      Skeleton_Mage_Attack_7: 3907685100207186153
+      Skeleton_Mage_Attack_8: 5372809934584920074
+      Skeleton_Mage_Attack_9: 5215007841100249357
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

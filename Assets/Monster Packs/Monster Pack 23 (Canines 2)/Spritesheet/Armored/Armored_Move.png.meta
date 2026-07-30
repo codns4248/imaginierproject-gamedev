@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 9302e18ab1c5d4d47a66ac3fd46b20a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1648375147250612891
+    second: Armored_Move_0
+  - first:
+      213: 1473694556264097055
+    second: Armored_Move_1
+  - first:
+      213: 4203780096298991092
+    second: Armored_Move_2
+  - first:
+      213: -5738439532453893040
+    second: Armored_Move_3
+  - first:
+      213: -2269872226549344795
+    second: Armored_Move_4
+  - first:
+      213: -4754286451786166588
+    second: Armored_Move_5
+  - first:
+      213: 5759218794330342723
+    second: Armored_Move_6
+  - first:
+      213: 6395746501679523611
+    second: Armored_Move_7
+  - first:
+      213: -8390823225998959252
+    second: Armored_Move_8
+  - first:
+      213: 5516241220640497935
+    second: Armored_Move_9
+  - first:
+      213: -4400852429600747550
+    second: Armored_Move_10
+  - first:
+      213: -6420320655517001278
+    second: Armored_Move_11
+  - first:
+      213: -8890906472736147143
+    second: Armored_Move_12
+  - first:
+      213: -2019336272899366263
+    second: Armored_Move_13
+  - first:
+      213: -1947842160255153889
+    second: Armored_Move_14
+  - first:
+      213: -7626169493155590785
+    second: Armored_Move_15
+  - first:
+      213: -2025671149039189771
+    second: Armored_Move_16
+  - first:
+      213: 4872652561964530678
+    second: Armored_Move_17
+  - first:
+      213: 5509870438423800826
+    second: Armored_Move_18
+  - first:
+      213: -2921644147011743424
+    second: Armored_Move_19
+  - first:
+      213: -5695597270038381543
+    second: Armored_Move_20
+  - first:
+      213: 3786350644448318127
+    second: Armored_Move_21
+  - first:
+      213: -628649416947323381
+    second: Armored_Move_22
+  - first:
+      213: 7925215217686023558
+    second: Armored_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armored_Move_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 319
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5658b8b798bcf19e0800000000000000
+      internalID: -1648375147250612891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 319
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f156c85146d937410800000000000000
+      internalID: 1473694556264097055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 321
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd32c999b3d65a30800000000000000
+      internalID: 4203780096298991092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_3
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 319
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ce60716a7fc50b0800000000000000
+      internalID: -5738439532453893040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_4
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 319
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5500b7c3bcf70e0800000000000000
+      internalID: -2269872226549344795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_5
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 319
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce45d059a1650eb0800000000000000
+      internalID: -4754286451786166588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 223
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34540d3dafadcef40800000000000000
+      internalID: 5759218794330342723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_7
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 226
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b172e02ae8142c850800000000000000
+      internalID: 6395746501679523611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_8
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 224
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d1c318bbecd8b80800000000000000
+      internalID: -8390823225998959252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_9
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 223
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01e4a3f920ad8c40800000000000000
+      internalID: 5516241220640497935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_10
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 223
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef8bb038080de2c0800000000000000
+      internalID: -4400852429600747550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_11
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 223
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c95ecf416076e6a0800000000000000
+      internalID: -6420320655517001278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 127
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93937594ba72d9480800000000000000
+      internalID: -8890906472736147143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_13
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 130
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982a5c3db50e9f3e0800000000000000
+      internalID: -2019336272899366263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_14
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 128
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19467710efd7f4e0800000000000000
+      internalID: -1947842160255153889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_15
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 127
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d4a8b40476a2690800000000000000
+      internalID: -7626169493155590785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_16
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 127
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f003c982de53e3e0800000000000000
+      internalID: -2025671149039189771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_17
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 127
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbfacd40b32f9340800000000000000
+      internalID: 4872652561964530678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_18
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 31
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb2da0a8fdf67c40800000000000000
+      internalID: 5509870438423800826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_19
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 31
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0411449b02c3477d0800000000000000
+      internalID: -2921644147011743424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_20
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 33
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c7daf957c25f0b0800000000000000
+      internalID: -5695597270038381543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_21
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 31
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2d965a9d1db8430800000000000000
+      internalID: 3786350644448318127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_22
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 31
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e299e9fa69647f0800000000000000
+      internalID: -628649416947323381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored_Move_23
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 31
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d02ba30450cfd60800000000000000
+      internalID: 7925215217686023558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Armored_Move_0: -1648375147250612891
+      Armored_Move_1: 1473694556264097055
+      Armored_Move_10: -4400852429600747550
+      Armored_Move_11: -6420320655517001278
+      Armored_Move_12: -8890906472736147143
+      Armored_Move_13: -2019336272899366263
+      Armored_Move_14: -1947842160255153889
+      Armored_Move_15: -7626169493155590785
+      Armored_Move_16: -2025671149039189771
+      Armored_Move_17: 4872652561964530678
+      Armored_Move_18: 5509870438423800826
+      Armored_Move_19: -2921644147011743424
+      Armored_Move_2: 4203780096298991092
+      Armored_Move_20: -5695597270038381543
+      Armored_Move_21: 3786350644448318127
+      Armored_Move_22: -628649416947323381
+      Armored_Move_23: 7925215217686023558
+      Armored_Move_3: -5738439532453893040
+      Armored_Move_4: -2269872226549344795
+      Armored_Move_5: -4754286451786166588
+      Armored_Move_6: 5759218794330342723
+      Armored_Move_7: 6395746501679523611
+      Armored_Move_8: -8390823225998959252
+      Armored_Move_9: 5516241220640497935
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

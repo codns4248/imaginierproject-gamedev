@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 6e967dbf4b7f4fd4cb8fbca177b77312
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1321226953779815825
+    second: Ant_Idle_0
+  - first:
+      213: 8213439195111706548
+    second: Ant_Idle_1
+  - first:
+      213: 4730468745901999299
+    second: Ant_Idle_2
+  - first:
+      213: 6878928662490945731
+    second: Ant_Idle_3
+  - first:
+      213: 8178485546206601459
+    second: Ant_Idle_4
+  - first:
+      213: 7612003698827218612
+    second: Ant_Idle_5
+  - first:
+      213: -8058711362969371595
+    second: Ant_Idle_6
+  - first:
+      213: -6665162777783737269
+    second: Ant_Idle_7
+  - first:
+      213: 3281356604073448620
+    second: Ant_Idle_8
+  - first:
+      213: 3482457624367392382
+    second: Ant_Idle_9
+  - first:
+      213: -6190433814236910781
+    second: Ant_Idle_10
+  - first:
+      213: 3934463453220265493
+    second: Ant_Idle_11
+  - first:
+      213: -7506320476204335188
+    second: Ant_Idle_12
+  - first:
+      213: 3395634581647815585
+    second: Ant_Idle_13
+  - first:
+      213: -4354902962607681187
+    second: Ant_Idle_14
+  - first:
+      213: 2296663529337285397
+    second: Ant_Idle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ant_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 430
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a5840f51f0aade0800000000000000
+      internalID: -1321226953779815825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 430
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf47e86e6ffbf170800000000000000
+      internalID: 8213439195111706548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 430
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c48394e24006a140800000000000000
+      internalID: 4730468745901999299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 430
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c896032c2dd67f50800000000000000
+      internalID: 6878928662490945731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 303
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0af46d541df7170800000000000000
+      internalID: 8178485546206601459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 303
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be4e81b80543a960800000000000000
+      internalID: 7612003698827218612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 303
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c7ec656b4b92090800000000000000
+      internalID: -8058711362969371595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 303
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b446b0464c59083a0800000000000000
+      internalID: -6665162777783737269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 175
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca41e2f2278b98d20800000000000000
+      internalID: 3281356604073448620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 175
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76e4cd22cc245030800000000000000
+      internalID: 3482457624367392382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 175
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ba7d88e39271aa0800000000000000
+      internalID: -6190433814236910781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 175
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e53fe3aa50a9630800000000000000
+      internalID: 3934463453220265493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 43
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf799d0c4134d790800000000000000
+      internalID: -7506320476204335188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 43
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3762249a7bf1f20800000000000000
+      internalID: 3395634581647815585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 42
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51197a24d64093c0800000000000000
+      internalID: -4354902962607681187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 42
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b6ebacf436fdf10800000000000000
+      internalID: 2296663529337285397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ant_Idle_0: -1321226953779815825
+      Ant_Idle_1: 8213439195111706548
+      Ant_Idle_10: -6190433814236910781
+      Ant_Idle_11: 3934463453220265493
+      Ant_Idle_12: -7506320476204335188
+      Ant_Idle_13: 3395634581647815585
+      Ant_Idle_14: -4354902962607681187
+      Ant_Idle_15: 2296663529337285397
+      Ant_Idle_2: 4730468745901999299
+      Ant_Idle_3: 6878928662490945731
+      Ant_Idle_4: 8178485546206601459
+      Ant_Idle_5: 7612003698827218612
+      Ant_Idle_6: -8058711362969371595
+      Ant_Idle_7: -6665162777783737269
+      Ant_Idle_8: 3281356604073448620
+      Ant_Idle_9: 3482457624367392382
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
