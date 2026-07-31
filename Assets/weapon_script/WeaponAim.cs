@@ -1,73 +1,104 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-// 캐릭터 손에 들린 무기(권총)를 마우스 방향으로 회전시키고, 좌클릭 시 발사 반동 모션과 공격속도 제한을 처리한다.
-// 이 오브젝트는 Player의 자식으로 배치되어 있고, 스프라이트의 피벗(회전축)이 총의 손잡이 부분에 맞춰져 있어서
-// 여기서 transform을 회전시키면 손잡이는 캐릭터 중심에 고정된 채 총구(오른쪽 끝)만 마우스 쪽으로 돌아간다.
+// 무기가 항상 마우스 방향을 바라보도록 회전시키는 공용 컴포넌트.
+// orbitRadius가 0이면 Pistol처럼 부모(플레이어)에 고정된 위치에서 제자리 회전만 한다.
+// orbitRadius가 0보다 크면 Sword처럼 부모를 중심으로 한 원 궤도 위의 "마우스 방향 지점"에
+// 실제로 위치까지 이동시킨다 (플레이어-무기-마우스가 항상 일직선이 되도록).
+// 실제 공격(발사/휘두르기 등 무기별로 다른 동작)은 같은 오브젝트의 다른 스크립트
+// (PistolAttack, SwordAttack 등)가 따로 처리한다.
 public class WeaponAim : MonoBehaviour
 {
-    // 발사 시 순간적으로 튀어 오르는 반동 각도(도 단위). 클수록 반동이 커 보인다.
-    public float recoilKickAngle = 25f;
-
-    // 반동이 원래 각도로 돌아오는 속도(초당 도). 클수록 더 빨리 원위치로 돌아온다.
+    [Header("피격/발사 모션")]
+    // 공격 스크립트가 Kick()을 호출하면 이 속도로 원래 각도까지 서서히 돌아온다. (Pistol 반동용)
     public float recoilRecoverySpeed = 200f;
 
-    // 연속 발사 사이의 최소 간격(초). 이 시간이 지나기 전에는 좌클릭해도 발사되지 않는다.
-    public float attackInterval = 0.3f;
+    [Header("스프라이트 기본 방향 보정")]
+    // 원본 이미지가 오른쪽(0도)을 바라보는 모양이 아닐 때(예: Sword_0은 세로로 서 있는 칼) 쓰는 보정 각도.
+    // 조준 각도에 그대로 더해지는 값이라 원본 스프라이트/투사체에는 영향을 주지 않는다.
+    public float visualRotationOffset = 0f;
+
+    [Header("궤도 설정 (0이면 Pistol처럼 제자리 고정, 0보다 크면 Sword처럼 궤도를 따라 이동)")]
+    // 부모(플레이어)로부터 얼마나 떨어진 원 궤도 위에 위치할지.
+    public float orbitRadius = 0f;
+
+    [Header("좌우 반전 여부")]
+    // Pistol처럼 마우스가 왼쪽에 있을 때 스프라이트를 세로로 뒤집어야 자연스러운 무기는 true.
+    // Sword처럼 어느 방향을 보든 이미지가 항상 같은 모습이어야 하는 무기는 false로 꺼둔다.
+    public bool allowFlip = true;
+
+    // true인 동안에는 이 컴포넌트가 위치/회전을 건드리지 않는다. SwordAttack처럼 직접 회전/이동을
+    // 커스텀 모션(휘두르기 등)으로 제어해야 하는 공격 스크립트가 켜고 끈다.
+    [HideInInspector] public bool externalControl = false;
 
     private Camera mainCamera;
     private SpriteRenderer spriteRenderer;
+    private Transform pivot; // 궤도의 중심점 = 부모(Player) Transform
 
-    // 현재 남아있는 반동 각도. 발사 순간 recoilKickAngle로 세팅되고, 매 프레임 0을 향해 서서히 줄어든다.
-    private float recoilAngle;
+    // 현재 남아있는 킥(반동) 각도. Kick()으로 세팅되고 매 프레임 0을 향해 줄어든다.
+    private float kickAngle;
 
-    // 다음 발사까지 남은 쿨다운 시간(초). 0 이하가 되어야 다시 발사할 수 있다.
-    private float attackCooldown;
+    // 무기(궤도 모드일 땐 부모) 위치에서 마우스를 향하는 방향. 공격 스크립트가 발사/판정 방향으로 사용한다.
+    public Vector2 AimDirection { get; private set; }
+
+    // 궤도의 중심점(보통 Player). 궤도를 직접 계산해야 하는 공격 스크립트(SwordAttack)가 참조한다.
+    public Transform Pivot => pivot;
 
     void Start()
     {
         mainCamera = Camera.main;
         spriteRenderer = GetComponent<SpriteRenderer>();
+        pivot = transform.parent != null ? transform.parent : transform;
     }
 
     void Update()
     {
-        // 매 프레임 쿨다운을 줄여나간다.
-        attackCooldown -= Time.deltaTime;
-
-        // leftButton.isPressed는 "눌려있는 동안 계속 true"이기 때문에,
-        // 마우스를 꾹 누르고 있으면 쿨다운이 풀리는 즉시 자동으로 재발사되고(연사),
-        // 아무리 빠르게 연타해도 attackCooldown이 0보다 클 때는 무시되어 0.3초에 한 번으로 제한된다.
-        if (Mouse.current.leftButton.isPressed && attackCooldown <= 0f)
-        {
-            recoilAngle = recoilKickAngle; // 반동 시작 (즉시 최대 각도로 튐)
-            attackCooldown = attackInterval; // 다음 발사 가능 시점까지 쿨다운 설정
-        }
-
-        // 반동 각도를 매 프레임 0으로 서서히 되돌린다 (MoveTowards는 목표를 넘어서지 않는 선형 감소).
-        recoilAngle = Mathf.MoveTowards(recoilAngle, 0f, recoilRecoverySpeed * Time.deltaTime);
-
         // 마우스의 스크린 좌표를 월드 좌표로 변환한다.
-        // z에는 카메라와 무기(z=0 평면) 사이의 거리를 넣어줘야 정확한 위치가 나온다 (Player_Movement.cs와 동일한 방식).
+        // z에는 카메라와 무기(z=0 평면) 사이의 거리를 넣어줘야 정확한 위치가 나온다.
         Vector3 screenPos = Mouse.current.position.ReadValue();
         screenPos.z = -mainCamera.transform.position.z;
         Vector3 mouseWorldPos = mainCamera.ScreenToWorldPoint(screenPos);
 
-        // 무기 위치에서 마우스 위치를 향하는 방향 벡터의 각도(도 단위)를 계산한다.
-        // Atan2(y, x)는 (1,0) 방향을 0도로 놓고 반시계 방향으로 각도가 증가하는 표준적인 2D 각도 계산 방식이다.
-        Vector3 dir = mouseWorldPos - transform.position;
+        // 궤도 모드일 때는 궤도 중심(플레이어) 기준으로 각도를 계산해야 무기가 궤도 반지름을 벗어나지 않고
+        // 안정적으로 마우스를 따라간다. 궤도 모드가 아니면(Pistol) 기존처럼 무기 자신의 위치 기준으로 계산한다.
+        Vector3 originPoint = orbitRadius > 0f ? pivot.position : transform.position;
+        Vector3 dir = mouseWorldPos - originPoint;
+        AimDirection = dir;
+
+        // 외부(SwordAttack 등)가 휘두르기 같은 커스텀 모션으로 위치/회전을 직접 제어하는 중이면
+        // 조준 방향 계산만 갱신해주고 나머지(회전/위치 적용)는 건드리지 않는다.
+        if (externalControl) return;
+
         float aimAngle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
 
-        // 마우스가 왼쪽에 있을 때(각도가 90도를 넘어감) 총 스프라이트를 그대로 회전시키면 위아래가 뒤집힌 것처럼
-        // 보이므로, flipY로 세로 방향을 보정해서 항상 자연스러운 모습을 유지한다.
-        bool facingLeft = Mathf.Abs(aimAngle) > 90f;
+        // 킥 각도를 매 프레임 0으로 서서히 되돌린다 (MoveTowards는 목표를 넘어서지 않는 선형 감소).
+        kickAngle = Mathf.MoveTowards(kickAngle, 0f, recoilRecoverySpeed * Time.deltaTime);
+
+        // 마우스가 왼쪽에 있을 때(각도가 90도를 넘어감) 스프라이트를 그대로 회전시키면 위아래가 뒤집힌 것처럼
+        // 보이므로, allowFlip인 무기는 flipY로 세로 방향을 보정해서 항상 자연스러운 모습을 유지한다.
+        // allowFlip이 꺼져있으면(Sword) 항상 원본 그대로 두고, 킥 방향도 뒤집지 않는다.
+        bool facingLeft = allowFlip && Mathf.Abs(aimAngle) > 90f;
         spriteRenderer.flipY = facingLeft;
 
-        // 반동 각도를 그대로 더하면 flipY로 뒤집힌 상태에서는 반동이 아래로 튀는 것처럼 보이게 된다.
-        // 따라서 왼쪽을 볼 때는 반동 부호를 반대로 뒤집어서, 좌우 어느 쪽을 보든 항상 "위로" 튀어 보이도록 만든다.
+        // 킥 각도를 그대로 더하면 flipY로 뒤집힌 상태에서는 반대 방향으로 튀는 것처럼 보이게 된다.
+        // 따라서 왼쪽을 볼 때는 부호를 반대로 뒤집어서, 좌우 어느 쪽을 보든 항상 같은 방향으로 튀어 보이게 한다.
         float kickSign = facingLeft ? -1f : 1f;
+        float finalAngle = aimAngle + kickAngle * kickSign;
 
-        // 최종 회전 = 마우스를 향한 조준 각도 + (부호가 보정된) 반동 각도.
-        transform.rotation = Quaternion.Euler(0f, 0f, aimAngle + recoilAngle * kickSign);
+        // 궤도 모드: 킥까지 반영된 최종 각도로 위치 자체를 궤도 위로 옮긴다.
+        if (orbitRadius > 0f)
+        {
+            float rad = finalAngle * Mathf.Deg2Rad;
+            Vector3 orbitOffset = new Vector3(Mathf.Cos(rad), Mathf.Sin(rad), 0f) * orbitRadius;
+            transform.position = pivot.position + orbitOffset;
+        }
+
+        transform.rotation = Quaternion.Euler(0f, 0f, finalAngle + visualRotationOffset);
+    }
+
+    // 공격 스크립트가 발사 순간 호출한다. 무기가 즉시 angle만큼 튀었다가 서서히 원래 각도로 돌아온다. (Pistol 반동용)
+    public void Kick(float angle)
+    {
+        kickAngle = angle;
     }
 }

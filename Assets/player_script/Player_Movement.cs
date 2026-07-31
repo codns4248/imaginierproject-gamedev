@@ -6,6 +6,12 @@ public class PlayerMovement : MonoBehaviour
     // 초당 이동 속도(유닛/초). Inspector에서 조절 가능.
     public float moveSpeed = 5f;
 
+    // 맵 경계 (SurvivorMapBuilder의 MapHalfExtent와 맞춰야 함: 현재 맵은 -20 ~ 20 범위의 40x40 유닛 정사각형).
+    public float mapHalfExtent = 20f;
+
+    // 캐릭터가 맵 가장자리 타일 끝에 딱 붙어 파고들지 않도록 살짝 여유를 두는 값.
+    public float boundaryMargin = 0.5f;
+
     private Rigidbody2D rb;              // 물리 기반 이동에 사용 (MovePosition으로 밀어줌)
     private Vector2 movement;             // 이번 프레임의 이동 입력 방향 (정규화된 -1~1 범위)
     private SpriteRenderer spriteRenderer; // 좌우 반전(flipX) 제어용
@@ -61,7 +67,16 @@ public class PlayerMovement : MonoBehaviour
 
         // rb.MovePosition은 Transform.position을 직접 바꾸는 대신 물리 엔진에게 "다음 스텝에 여기로 옮겨줘"라고
         // 요청하는 방식이라, 벽 등 다른 콜라이더와의 충돌 처리가 자연스럽게 유지된다.
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        Vector2 nextPosition = rb.position + movement * moveSpeed * Time.fixedDeltaTime;
+
+        // 맵 밖으로 못 나가게 좌표를 경계 안으로 강제로 눌러준다.
+        // 콜라이더로 벽을 세우는 대신 코드로 직접 클램프하면, 아무리 빠른 속도로 부딪혀도 벽을 뚫고 나가는(터널링)
+        // 문제 없이 항상 확실하게 경계 안에 머무른다.
+        float limit = mapHalfExtent - boundaryMargin;
+        nextPosition.x = Mathf.Clamp(nextPosition.x, -limit, limit);
+        nextPosition.y = Mathf.Clamp(nextPosition.y, -limit, limit);
+
+        rb.MovePosition(nextPosition);
     }
 
     // 외부(적 공격 등)에서 캐릭터를 죽은 상태로 전환할 때 호출하는 함수.
