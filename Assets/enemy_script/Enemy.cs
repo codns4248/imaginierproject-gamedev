@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 // 모든 적 종류가 공통으로 쓰는 기본 동작.
@@ -24,6 +25,9 @@ public class Enemy : MonoBehaviour
     public float knockbackForce = 3f;    // 맞은 직후의 넉백 속도
     public float knockbackDecay = 15f;   // 넉백 속도가 줄어드는 속도 (클수록 빨리 멈춤)
 
+    [Header("사망 연출")]
+    public float deathFadeDuration = 0.5f; // 죽은 뒤 점점 투명해지며 사라지는 데 걸리는 시간
+
     private float currentHealth;
     private Rigidbody2D rb;
     private Transform player;
@@ -32,6 +36,7 @@ public class Enemy : MonoBehaviour
 
     private float hitStunTimer;
     private Vector2 knockbackVelocity;
+    private bool isDying; // Die()가 한 번 호출된 뒤 true. 이후 이동/공격/추가 피격을 전부 무시한다.
 
     void Awake()
     {
@@ -70,6 +75,9 @@ public class Enemy : MonoBehaviour
 
     void FixedUpdate()
     {
+        // 죽어서 페이드아웃 되는 중이면 그 자리에서 멈춘다.
+        if (isDying) return;
+
         // 플레이어가 사망하면 모든 적이 그 자리에서 멈춘다.
         if (EnemyManager.PlayerDead) return;
 
@@ -127,6 +135,8 @@ public class Enemy : MonoBehaviour
     // 투사체 등에 맞았을 때 호출: 데미지를 주고, 잠깐 애니메이션을 멈추고, 맞은 방향으로 살짝 밀려난다.
     public void Hit(Vector2 knockbackDirection, float damage)
     {
+        if (isDying) return; // 이미 죽는 중이면 더 이상 반응하지 않는다
+
         TakeDamage(damage);
 
         hitStunTimer = hitStunDuration;
@@ -138,6 +148,8 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(float amount)
     {
+        if (isDying) return;
+
         currentHealth -= amount;
         if (currentHealth <= 0f)
         {
@@ -145,15 +157,44 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    // 그 자리에서 즉시 사라지는 대신, 애니메이션을 멈춘 채로 서서히 투명해지다가 사라진다.
     private void Die()
     {
+        if (isDying) return;
+        isDying = true;
+
+        if (spriteAnimator != null) spriteAnimator.enabled = false; // 현재 프레임에 고정
+        StartCoroutine(FadeOutAndDestroy());
+    }
+
+    private IEnumerator FadeOutAndDestroy()
+    {
+        Color startColor = spriteRenderer.color;
+        float elapsed = 0f;
+
+        while (elapsed < deathFadeDuration)
+        {
+            elapsed += Time.deltaTime;
+            float alpha = Mathf.Lerp(1f, 0f, elapsed / deathFadeDuration);
+            spriteRenderer.color = new Color(startColor.r, startColor.g, startColor.b, alpha);
+            yield return null;
+        }
+
         Destroy(gameObject);
+    }
+
+    // 외부(StageTimer의 스테이지 클리어 처리 등)에서 데미지 계산 없이 즉시 제거할 때 호출한다.
+    public void Kill()
+    {
+        Die();
     }
 
     // 플레이어와 계속 겹쳐있는 동안 매 물리 프레임 호출된다. 실제 데미지 빈도는 PlayerHealth의
     // 무적 시간이 알아서 제한해주므로, 여기서는 접촉할 때마다 그냥 계속 시도하면 된다.
     void OnTriggerStay2D(Collider2D other)
     {
+        if (isDying) return; // 죽는 중에는 더 이상 접촉 데미지를 주지 않는다
+
         PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
         if (playerHealth == null) return;
 
