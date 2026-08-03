@@ -19,6 +19,10 @@ public class PlayerMovement : MonoBehaviour
     private Camera mainCamera;            // 마우스 스크린 좌표 -> 월드 좌표 변환에 필요
     private bool IsDead = false;          // 죽음 처리 이후 모든 입력/이동을 막기 위한 내부 플래그
 
+    // 피격 넉백용. ApplyKnockback()으로 세팅되고, 남아있는 동안은 이동 입력 대신 이 속도로만 움직인다.
+    private Vector2 knockbackVelocity;
+    private float knockbackTimer;
+
     void Start()
     {
         // GetComponent는 비용이 있으므로 매 프레임 호출하지 않고 시작 시 한 번만 캐싱해둔다.
@@ -65,6 +69,20 @@ public class PlayerMovement : MonoBehaviour
         // 프레임레이트가 들쭉날쭉해도 이동 속도가 흔들리지 않는다.
         if (IsDead) return;
 
+        float limit = mapHalfExtent - boundaryMargin;
+
+        // 피격 넉백 중에는 WASD 입력을 무시하고 넉백 속도로만 아주 짧게 밀려난다.
+        if (knockbackTimer > 0f)
+        {
+            knockbackTimer -= Time.fixedDeltaTime;
+
+            Vector2 knockPos = rb.position + knockbackVelocity * Time.fixedDeltaTime;
+            knockPos.x = Mathf.Clamp(knockPos.x, -limit, limit);
+            knockPos.y = Mathf.Clamp(knockPos.y, -limit, limit);
+            rb.MovePosition(knockPos);
+            return;
+        }
+
         // rb.MovePosition은 Transform.position을 직접 바꾸는 대신 물리 엔진에게 "다음 스텝에 여기로 옮겨줘"라고
         // 요청하는 방식이라, 벽 등 다른 콜라이더와의 충돌 처리가 자연스럽게 유지된다.
         Vector2 nextPosition = rb.position + movement * moveSpeed * Time.fixedDeltaTime;
@@ -72,11 +90,17 @@ public class PlayerMovement : MonoBehaviour
         // 맵 밖으로 못 나가게 좌표를 경계 안으로 강제로 눌러준다.
         // 콜라이더로 벽을 세우는 대신 코드로 직접 클램프하면, 아무리 빠른 속도로 부딪혀도 벽을 뚫고 나가는(터널링)
         // 문제 없이 항상 확실하게 경계 안에 머무른다.
-        float limit = mapHalfExtent - boundaryMargin;
         nextPosition.x = Mathf.Clamp(nextPosition.x, -limit, limit);
         nextPosition.y = Mathf.Clamp(nextPosition.y, -limit, limit);
 
         rb.MovePosition(nextPosition);
+    }
+
+    // 피격 시 PlayerHealth가 호출한다. duration 동안 WASD 입력 대신 velocity 방향으로 밀려난다.
+    public void ApplyKnockback(Vector2 velocity, float duration)
+    {
+        knockbackVelocity = velocity;
+        knockbackTimer = duration;
     }
 
     // 외부(적 공격 등)에서 캐릭터를 죽은 상태로 전환할 때 호출하는 함수.
@@ -86,6 +110,7 @@ public class PlayerMovement : MonoBehaviour
 
         IsDead = true;
         movement = Vector2.zero;       // 남아있던 이동 입력을 즉시 0으로
+        knockbackTimer = 0f;
         animator.SetFloat("Speed", 0f); // idle 프레임으로 고정
         animator.SetBool("IsDead", true); // Player.controller의 AnyState -> dead 트랜지션을 발동시킴
     }

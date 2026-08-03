@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
     [Header("스탯 (종류별로 프리팹에서 다르게 설정)")]
     public float maxHealth = 10f;
     public float moveSpeed = 2f;
+    public float contactDamage = 1f; // 플레이어와 접촉했을 때 주는 데미지
 
     [Header("무리 짓기(분리) 설정")]
     public float separationRadius = 0.6f;   // 이 거리 안에 다른 적이 있으면 밀어내는 힘이 작용한다
@@ -69,6 +70,9 @@ public class Enemy : MonoBehaviour
 
     void FixedUpdate()
     {
+        // 플레이어가 사망하면 모든 적이 그 자리에서 멈춘다.
+        if (EnemyManager.PlayerDead) return;
+
         float limit = mapHalfExtent - boundaryMargin;
 
         // 피격 경직 중에는 추격/분리 로직 대신 넉백만 적용하고, 시간이 지날수록 넉백 속도를 줄인다.
@@ -144,5 +148,17 @@ public class Enemy : MonoBehaviour
     private void Die()
     {
         Destroy(gameObject);
+    }
+
+    // 플레이어와 계속 겹쳐있는 동안 매 물리 프레임 호출된다. 실제 데미지 빈도는 PlayerHealth의
+    // 무적 시간이 알아서 제한해주므로, 여기서는 접촉할 때마다 그냥 계속 시도하면 된다.
+    void OnTriggerStay2D(Collider2D other)
+    {
+        PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
+        if (playerHealth == null) return;
+
+        // 플레이어가 적의 반대 방향(적 -> 플레이어 방향)으로 밀려나도록 방향을 계산한다.
+        Vector2 knockbackDirection = (Vector2)other.transform.position - (Vector2)transform.position;
+        playerHealth.TakeHit(Mathf.RoundToInt(contactDamage), knockbackDirection);
     }
 }

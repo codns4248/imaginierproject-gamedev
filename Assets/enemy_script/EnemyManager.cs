@@ -8,6 +8,9 @@ public static class EnemyManager
 {
     public static readonly List<Enemy> ActiveEnemies = new List<Enemy>();
 
+    // 플레이어가 사망하면 true로 바뀐다. 모든 Enemy가 매 프레임 이 값을 확인해서, true면 추격/이동을 멈춘다.
+    public static bool PlayerDead { get; private set; }
+
     public static void Register(Enemy enemy)
     {
         if (!ActiveEnemies.Contains(enemy))
@@ -17,5 +20,10 @@ public static class EnemyManager
     public static void Unregister(Enemy enemy)
     {
         ActiveEnemies.Remove(enemy);
+    }
+
+    public static void SetPlayerDead(bool isDead)
+    {
+        PlayerDead = isDead;
     }
 }

@@ -18,6 +18,9 @@ public class EnemySpawner : MonoBehaviour
 
     void Update()
     {
+        // 플레이어가 사망하면 스폰도 함께 멈춘다.
+        if (EnemyManager.PlayerDead) return;
+
         timer += Time.deltaTime;
         if (timer < spawnInterval) return;
         timer = 0f;
