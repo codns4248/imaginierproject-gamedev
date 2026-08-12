@@ -1,13 +1,14 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-// Pistol 전용 공격 스크립트. 좌클릭을 누르고 있으면 attackInterval마다 자동으로 투사체를 발사하고,
-// 발사 순간 WeaponAim에 반동 모션을 재생시킨다.
-// 조준 방향/회전은 같은 오브젝트의 WeaponAim이 담당하므로, 여기서는 "언제, 무엇을" 발사할지만 처리한다.
+// Pistol 전용 공격 스크립트.
+// 들고 있을 때(isHeld)는 좌클릭을 누르고 있으면 attackInterval마다 자동으로 마우스 방향으로 발사한다.
+// 들고 있지 않을 때는 자동공격 모드로 전환되어, autoAttackRange 안의 가장 가까운 적을 향해
+// 같은 attackInterval로 끊임없이 계속 발사한다 (무기 자체는 보이지 않고 투사체만 나간다).
 [RequireComponent(typeof(WeaponAim))]
 public class PistolAttack : MonoBehaviour
 {
-    // 연속 발사 사이의 최소 간격(초). 이 시간이 지나기 전에는 좌클릭해도 발사되지 않는다.
+    // 연속 발사 사이의 최소 간격(초). 이 시간이 지나기 전에는 발사되지 않는다.
     public float attackInterval = 0.3f;
 
     // 발사 순간 무기가 튀어 오르는 반동 각도(도 단위).
@@ -18,6 +19,10 @@ public class PistolAttack : MonoBehaviour
     // 확장할 예정이라, 데미지 계산은 전부 이 값 하나만 참조하게 해뒀다.
     public float damage = 1f;
     public GameObject projectilePrefab;
+
+    [Header("자동공격 (들고 있지 않을 때)")]
+    // 들고 있지 않을 때, 플레이어를 중심으로 이 반경 안의 가장 가까운 적에게 자동으로 발사한다.
+    public float autoAttackRange = 10f;
 
     private WeaponAim weaponAim;
 
@@ -31,20 +36,34 @@ public class PistolAttack : MonoBehaviour
 
     void Update()
     {
-        attackCooldown -= Time.deltaTime;
+        if (EnemyManager.PlayerDead) return; // 플레이어가 죽으면 자동/수동 상관없이 더 이상 발사하지 않는다
 
-        // leftButton.isPressed는 "눌려있는 동안 계속 true"이기 때문에,
-        // 마우스를 꾹 누르고 있으면 쿨다운이 풀리는 즉시 자동으로 재발사되고(연사),
-        // 아무리 빠르게 연타해도 attackCooldown이 0보다 클 때는 무시되어 attackInterval에 한 번으로 제한된다.
-        if (Mouse.current.leftButton.isPressed && attackCooldown <= 0f)
+        attackCooldown -= Time.deltaTime;
+        if (attackCooldown > 0f) return;
+
+        if (weaponAim.isHeld)
         {
-            attackCooldown = attackInterval;
-            weaponAim.Kick(recoilKickAngle);
-            Fire(weaponAim.AimDirection);
+            // leftButton.isPressed는 눌려있는 동안 계속 true라서, 꾹 누르고 있으면 쿨다운이 풀리는
+            // 즉시 자동으로 재발사되고(연사), attackInterval보다 빠르게는 발사되지 않는다.
+            if (Mouse.current.leftButton.isPressed)
+            {
+                attackCooldown = attackInterval;
+                weaponAim.Kick(recoilKickAngle);
+                Fire(weaponAim.AimDirection);
+            }
+        }
+        else
+        {
+            Enemy target = EnemyManager.FindNearest(transform.position, autoAttackRange);
+            if (target != null)
+            {
+                attackCooldown = attackInterval;
+                Fire((Vector2)target.transform.position - (Vector2)transform.position);
+            }
         }
     }
 
-    // Pistol 위치에서 조준 방향으로 투사체를 하나 생성해서 날려보낸다.
+    // Pistol 위치에서 주어진 방향으로 투사체를 하나 생성해서 날려보낸다.
     private void Fire(Vector2 direction)
     {
         if (projectilePrefab == null) return;

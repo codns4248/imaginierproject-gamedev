@@ -38,6 +38,9 @@ public class Enemy : MonoBehaviour
     private Vector2 knockbackVelocity;
     private bool isDying; // Die()가 한 번 호출된 뒤 true. 이후 이동/공격/추가 피격을 전부 무시한다.
 
+    // 죽는 중(페이드아웃 중)인 적은 자동조준 대상에서 제외해야 하므로 외부에서 읽을 수 있게 열어둔다.
+    public bool IsDying => isDying;
+
     void Awake()
     {
         currentHealth = maxHealth;

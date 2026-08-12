@@ -2,18 +2,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-// Sword 전용 공격 스크립트. Pistol의 반동(살짝 튀었다 돌아오는 것)과 달리, 마우스 방향을 중심으로
+// Sword 전용 공격 스크립트. Pistol의 반동(살짝 튀었다 돌아오는 것)과 달리, 목표 방향을 중심으로
 // 위에서 아래로(시계 방향) 크게 한 번 휘두르는 모션을 직접 계산해서 재생한다.
-// 휘두르는 동안에는 WeaponAim의 자동 조준/회전을 잠깐 꺼두고(Pivot, AimDirection, orbitRadius 등
+// 휘두르는 동안에는 WeaponAim의 자동 조준/회전을 잠깐 꺼두고(Pivot, orbitRadius 등
 // WeaponAim의 값은 그대로 읽어 쓰면서) 이 스크립트가 위치/회전을 직접 제어한다.
+//
+// 들고 있을 때는 마우스 방향으로 좌클릭 시 휘두르고(수동), 들고 있지 않을 때는
+// MeleeAutoAttackQueue가 차례가 되면 TriggerAutoAttack()을 호출해서 가장 가까운 적 방향으로
+// 같은 휘두르기 모션을 재생한다(자동). IAutoMeleeWeapon으로 큐에 자신을 등록한다.
 [RequireComponent(typeof(WeaponAim))]
-public class SwordAttack : MonoBehaviour
+public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon
 {
     // 연속 공격 사이의 최소 간격(초).
     public float attackInterval = 0.45f;
 
     [Header("휘두르기 모션")]
-    // 휘두르는 전체 각도. 공격을 시작하는 순간의 마우스 방향이 이 범위의 정중앙이 된다.
+    // 휘두르는 전체 각도. 공격을 시작하는 순간의 목표 방향이 이 범위의 정중앙이 된다.
     public float swingAngle = 120f;
 
     // 위(swingAngle/2 만큼 위)에서 아래(swingAngle/2 만큼 아래)까지 휘두르는 데 걸리는 시간(초).
@@ -33,26 +37,43 @@ public class SwordAttack : MonoBehaviour
 
     private bool isSwinging;
     private float swingElapsed;
-    private float swingCenterAngle; // 스윙을 시작한 순간의 마우스 방향 각도 (스윙 내내 고정)
+    private float swingCenterAngle; // 스윙을 시작한 순간의 목표 방향 각도 (스윙 내내 고정)
 
     // 이번 스윙 동안 이미 맞힌 적 목록 (같은 스윙에서 같은 적이 여러 프레임에 걸쳐 중복으로 맞지 않도록).
     private readonly HashSet<Enemy> hitThisSwing = new HashSet<Enemy>();
+
+    // === IAutoMeleeWeapon ===
+    // 궤도 반지름 + 판정 반지름 = 칼끝이 플레이어로부터 닿을 수 있는 최대 거리.
+    // hitRadius나 orbitRadius가 강화로 바뀌면 이 값도 자동으로 같이 늘어난다.
+    public float MaxReach => weaponAim.orbitRadius + hitRadius;
+    public bool IsHeld => weaponAim.isHeld;
+    public bool IsAttacking => isSwinging;
+    public bool IsOnCooldown => attackCooldown > 0f;
 
     void Awake()
     {
         weaponAim = GetComponent<WeaponAim>();
     }
 
+    void OnEnable()
+    {
+        MeleeAutoAttackQueue.Register(this);
+    }
+
+    void OnDisable()
+    {
+        MeleeAutoAttackQueue.Unregister(this);
+    }
+
     void Update()
     {
         attackCooldown -= Time.deltaTime;
 
-        // leftButton.isPressed는 눌려있는 동안 계속 true라서, 꾹 누르고 있으면 쿨다운이 풀릴 때마다
-        // 자동으로 다음 스윙이 시작된다. 스윙 도중에는 새 스윙을 시작하지 않는다.
-        if (!isSwinging && Mouse.current.leftButton.isPressed && attackCooldown <= 0f)
+        // 들고 있을 때만 마우스 좌클릭으로 수동 발동한다. 자동 발동은 MeleeAutoAttackQueue가
+        // TriggerAutoAttack()을 직접 호출해서 처리하므로 여기서는 신경 쓰지 않는다.
+        if (weaponAim.isHeld && !isSwinging && Mouse.current.leftButton.isPressed && attackCooldown <= 0f)
         {
-            attackCooldown = attackInterval;
-            StartSwing();
+            StartSwing(weaponAim.AimDirection);
         }
 
         if (isSwinging)
@@ -61,16 +82,24 @@ public class SwordAttack : MonoBehaviour
         }
     }
 
-    private void StartSwing()
+    // MeleeAutoAttackQueue가 자기 차례가 되면 호출한다.
+    public void TriggerAutoAttack(Vector2 targetPosition)
+    {
+        Vector2 dir = targetPosition - (Vector2)weaponAim.Pivot.position;
+        StartSwing(dir);
+    }
+
+    private void StartSwing(Vector2 dir)
     {
         isSwinging = true;
         swingElapsed = 0f;
+        attackCooldown = attackInterval;
         hitThisSwing.Clear();
 
         // 이 순간부터 WeaponAim의 자동 회전/위치 갱신을 멈추고 이 스크립트가 직접 제어한다.
         weaponAim.externalControl = true;
+        weaponAim.SetForceVisible(true); // 들고 있지 않아도 공격하는 동안은 보이게 한다
 
-        Vector2 dir = weaponAim.AimDirection;
         swingCenterAngle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
     }
 
@@ -79,7 +108,7 @@ public class SwordAttack : MonoBehaviour
         swingElapsed += Time.deltaTime;
         float t = Mathf.Clamp01(swingElapsed / swingDuration);
 
-        // 마우스 방향(중앙각)을 기준으로 +half(위) ~ -half(아래) 사이를 시간에 따라 훑는다.
+        // 목표 방향(중앙각)을 기준으로 +half(위) ~ -half(아래) 사이를 시간에 따라 훑는다.
         float half = swingAngle * 0.5f;
         float currentAngle = Mathf.Lerp(swingCenterAngle + half, swingCenterAngle - half, t);
 
@@ -90,6 +119,7 @@ public class SwordAttack : MonoBehaviour
         {
             isSwinging = false;
             weaponAim.externalControl = false;
+            weaponAim.SetForceVisible(false); // 공격이 끝나면 다시 숨긴다 (들고 있는 중이면 WeaponAim이 계속 보이게 유지)
         }
     }
 

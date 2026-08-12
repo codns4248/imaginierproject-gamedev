@@ -7,6 +7,10 @@ using UnityEngine.InputSystem;
 // 실제로 위치까지 이동시킨다 (플레이어-무기-마우스가 항상 일직선이 되도록).
 // 실제 공격(발사/휘두르기 등 무기별로 다른 동작)은 같은 오브젝트의 다른 스크립트
 // (PistolAttack, SwordAttack 등)가 따로 처리한다.
+//
+// isHeld(들고 있는 중인지)는 WeaponSwitcher가 매 프레임 갱신한다. 들고 있지 않은 무기도
+// 자동공격을 위해 오브젝트/스크립트 자체는 계속 켜져 있지만, 이 컴포넌트는 마우스 추적을 멈추고
+// (공격 스크립트가 필요할 때 직접 위치/회전을 제어한다) 평소엔 보이지 않는다.
 public class WeaponAim : MonoBehaviour
 {
     [Header("피격/발사 모션")]
@@ -31,9 +35,13 @@ public class WeaponAim : MonoBehaviour
     // 커스텀 모션(휘두르기 등)으로 제어해야 하는 공격 스크립트가 켜고 끈다.
     [HideInInspector] public bool externalControl = false;
 
+    // 지금 플레이어가 손에 들고 마우스로 조종 중인 무기인지. WeaponSwitcher가 슬롯을 바꿀 때마다 갱신한다.
+    public bool isHeld = false;
+
     private Camera mainCamera;
     private SpriteRenderer spriteRenderer;
     private Transform pivot; // 궤도의 중심점 = 부모(Player) Transform
+    private bool forceVisible; // 자동공격 스크립트가 "지금 이 순간만은 보여줘"라고 요청할 때 true
 
     // 현재 남아있는 킥(반동) 각도. Kick()으로 세팅되고 매 프레임 0을 향해 줄어든다.
     private float kickAngle;
@@ -53,6 +61,14 @@ public class WeaponAim : MonoBehaviour
 
     void Update()
     {
+        // 들고 있는 중이거나(항상 보임), 자동공격 스크립트가 공격 연출 중이라 강제로 보여달라고
+        // 요청한 경우에만 스프라이트를 그린다. 그 외(자동공격 대기 중)에는 숨긴다.
+        if (spriteRenderer != null) spriteRenderer.enabled = isHeld || forceVisible;
+
+        // 들고 있지 않은 무기는 여기서 더 이상 처리하지 않는다. 자동공격 스크립트가 필요할 때
+        // (근접무기는 공격 순간에만) transform.position/rotation을 직접 제어한다.
+        if (!isHeld) return;
+
         // 마우스의 스크린 좌표를 월드 좌표로 변환한다.
         // z에는 카메라와 무기(z=0 평면) 사이의 거리를 넣어줘야 정확한 위치가 나온다.
         Vector3 screenPos = Mouse.current.position.ReadValue();
@@ -100,5 +116,17 @@ public class WeaponAim : MonoBehaviour
     public void Kick(float angle)
     {
         kickAngle = angle;
+    }
+
+    // WeaponSwitcher가 슬롯을 바꿀 때마다 모든 슬롯에 대해 호출해서 "지금 손에 들고 있는지"를 갱신한다.
+    public void SetHeld(bool held)
+    {
+        isHeld = held;
+    }
+
+    // 자동공격 스크립트가 공격 연출(등장~공격~소멸)을 진행하는 동안 강제로 보이게 하고 싶을 때 사용한다.
+    public void SetForceVisible(bool visible)
+    {
+        forceVisible = visible;
     }
 }
