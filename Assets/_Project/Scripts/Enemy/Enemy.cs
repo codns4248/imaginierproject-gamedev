@@ -163,6 +163,8 @@ public class Enemy : MonoBehaviour
         if (isDying) return;
         isDying = true;
 
+        ResourcePickup.SpawnRandomDrop(transform.position); // 파밍용 자원 드랍
+
         if (spriteAnimator != null) spriteAnimator.enabled = false; // 현재 프레임에 고정
         StartCoroutine(FadeOutAndDestroy());
     }

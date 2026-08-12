@@ -43,6 +43,9 @@ public class PlayerHealth : MonoBehaviour
     // 체력이 바뀔 때마다 호출된다. 체력 UI 등 표시가 필요한 쪽에서 구독해서 갱신 타이밍으로 쓴다.
     public event Action OnHealthChanged;
 
+    // 실제로 사망 처리(Die())가 실행될 때 딱 한 번 호출된다. 파밍 자원 소실 처리 등에서 구독한다.
+    public event Action OnDied;
+
     void Awake()
     {
         maxHealth = Mathf.Max(0, maxHealth);
@@ -144,6 +147,8 @@ public class PlayerHealth : MonoBehaviour
         EnemyManager.SetPlayerDead(true); // 모든 적이 그 자리에서 멈추도록 알림
 
         if (deathFadeUI != null) deathFadeUI.FadeToBlack(deathFadeDuration);
+
+        OnDied?.Invoke();
     }
 
     // 최대 체력 자체를 바꾼다 (체력 강화 아이템 등에서 사용 예정).
