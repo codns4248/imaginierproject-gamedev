@@ -20,6 +20,12 @@ public class PistolAttack : MonoBehaviour
     public float damage = 1f;
     public GameObject projectilePrefab;
 
+    [Header("치명타")]
+    // 공격마다 이 확률로 치명타가 터져서 데미지가 critMultiplier배 들어간다.
+    // 나중에 강화나 스탯 아이템으로 두 값 다 바뀔 수 있어서 인스턴스 필드로 뒀다.
+    public float critChance = 0.3f;
+    public float critMultiplier = 1.5f;
+
     [Header("자동공격 (들고 있지 않을 때)")]
     // 들고 있지 않을 때, 플레이어를 중심으로 이 반경 안의 가장 가까운 적에게 자동으로 발사한다.
     public float autoAttackRange = 10f;
@@ -68,11 +74,13 @@ public class PistolAttack : MonoBehaviour
     {
         if (projectilePrefab == null) return;
 
+        float finalDamage = CriticalHit.Roll(damage, critChance, critMultiplier, out bool isCrit);
+
         GameObject projGO = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
         Projectile projectile = projGO.GetComponent<Projectile>();
         if (projectile != null)
         {
-            projectile.Fire(direction, damage);
+            projectile.Fire(direction, finalDamage, isCrit);
         }
     }
 }

@@ -16702,6 +16702,54 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &435329879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 435329881}
+  - component: {fileID: 435329880}
+  m_Layer: 0
+  m_Name: EliteEnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &435329880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435329879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 867ed0a6ffb078b4d911233de4807b5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
+  enemyPrefab: {fileID: 1288179095139181549, guid: b7aec2f37a421914a82d0551f507c712, type: 3}
+  spawnInterval: 30
+  maxEnemies: 999
+  mapHalfExtent: 20
+--- !u!4 &435329881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435329879}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &437725502
 GameObject:
   m_ObjectHideFlags: 0
@@ -17936,8 +17984,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 971993361}
-  deadZoneSize: {x: 1.75, y: 2.25}
-  smoothTime: 0.35
+  deadZoneSize: {x: 1.75, y: 0.7}
+  smoothTime: 0.2
 --- !u!1 &1984889480
 GameObject:
   m_ObjectHideFlags: 0
@@ -18401,3 +18449,4 @@ SceneRoots:
   - {fileID: 1777842588}
   - {fileID: 2036647914}
   - {fileID: 1984889483}
+  - {fileID: 435329881}

@@ -15,6 +15,10 @@ public class GrenadeAttack : MonoBehaviour
     public float damage = 1f;
     public GameObject grenadeProjectilePrefab;
 
+    [Header("치명타")]
+    public float critChance = 0.3f;
+    public float critMultiplier = 1.5f;
+
     private WeaponAim weaponAim;
     private Camera mainCamera;
     private float attackCooldown;
@@ -75,11 +79,13 @@ public class GrenadeAttack : MonoBehaviour
             ? origin + toTarget.normalized * maxRange
             : rawTarget;
 
+        float finalDamage = CriticalHit.Roll(damage, critChance, critMultiplier, out bool isCrit);
+
         GameObject projGO = Instantiate(grenadeProjectilePrefab, transform.position, Quaternion.identity);
         GrenadeProjectile projectile = projGO.GetComponent<GrenadeProjectile>();
         if (projectile != null)
         {
-            projectile.Launch(transform.position, targetPos, damage);
+            projectile.Launch(transform.position, targetPos, finalDamage, isCrit);
         }
     }
 }

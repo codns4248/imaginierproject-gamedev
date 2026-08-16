@@ -28,11 +28,23 @@ public class Enemy : MonoBehaviour
     [Header("사망 연출")]
     public float deathFadeDuration = 0.5f; // 죽은 뒤 점점 투명해지며 사라지는 데 걸리는 시간
 
+    [Header("피격 표시")]
+    public float outlineOffset = 0.04f; // 흰색 테두리용 복제 스프라이트를 원본에서 얼마나 떨어뜨릴지
+    // 텍스처 알파만 읽어서 무조건 흰색으로 칠하는 전용 머티리얼 (Sprites-Default는 색을 "곱하기"만 해서
+    // 흰색을 줘도 원본 색이 그대로 나오기 때문에, 진짜 흰색 실루엣을 만들려면 이 머티리얼이 필요하다).
+    public Material outlineMaterial;
+    public GameObject damageNumberPrefab; // 피격 시 위에 띄울 데미지 숫자 프리팹
+
+    [Header("사망 시 자원 드랍")]
+    public int minResourceDrops = 1; // 죽을 때 드랍되는 자원 개수의 최소값
+    public int maxResourceDrops = 1; // 죽을 때 드랍되는 자원 개수의 최대값 (기본은 항상 1개, 엘리트 등은 더 크게 설정)
+
     private float currentHealth;
     private Rigidbody2D rb;
     private Transform player;
     private SpriteRenderer spriteRenderer;
     private SpriteAnimator spriteAnimator;
+    private SpriteRenderer[] hitOutlineRenderers;
 
     private float hitStunTimer;
     private Vector2 knockbackVelocity;
@@ -47,6 +59,29 @@ public class Enemy : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteAnimator = GetComponent<SpriteAnimator>();
+        CreateHitOutline();
+    }
+
+    // 피격 시 잠깐 보여줄 흰색 테두리를 만든다. 원본 스프라이트를 좌우상하로 살짝 떨어뜨려
+    // 흰색으로 복제해두고, 본체 스프라이트보다 한 단계 뒤에 그려서 가장자리만 삐져나와 보이게 한다.
+    private void CreateHitOutline()
+    {
+        Vector2[] offsets = { Vector2.left, Vector2.right, Vector2.up, Vector2.down };
+        hitOutlineRenderers = new SpriteRenderer[offsets.Length];
+
+        for (int i = 0; i < offsets.Length; i++)
+        {
+            GameObject go = new GameObject("HitOutline");
+            go.transform.SetParent(transform, false);
+            go.transform.localPosition = (Vector3)(offsets[i] * outlineOffset);
+
+            var outlineSr = go.AddComponent<SpriteRenderer>();
+            if (outlineMaterial != null) outlineSr.material = outlineMaterial; // 없으면 기본 머티리얼로 남고, 그냥 원본 색으로 보임
+            outlineSr.sortingOrder = spriteRenderer.sortingOrder - 1;
+            outlineSr.enabled = false;
+
+            hitOutlineRenderers[i] = outlineSr;
+        }
     }
 
     void Start()
@@ -74,6 +109,26 @@ public class Enemy : MonoBehaviour
             spriteRenderer.flipX = true;
         else if (player.position.x < transform.position.x)
             spriteRenderer.flipX = false;
+
+        UpdateHitOutline();
+    }
+
+    // 피격 경직 중(hitStunTimer > 0)에만 흰색 테두리를 보여준다. 애니메이션이 그동안 멈춰있으므로
+    // 프레임/좌우반전을 매번 본체 스프라이트와 맞춰주기만 하면 된다.
+    private void UpdateHitOutline()
+    {
+        if (isDying) return; // 사망 연출 중에는 테두리를 아예 표시하지 않는다 (Die()에서 이미 꺼둠)
+
+        bool visible = hitStunTimer > 0f;
+        for (int i = 0; i < hitOutlineRenderers.Length; i++)
+        {
+            hitOutlineRenderers[i].enabled = visible;
+            if (visible)
+            {
+                hitOutlineRenderers[i].sprite = spriteRenderer.sprite;
+                hitOutlineRenderers[i].flipX = spriteRenderer.flipX;
+            }
+        }
     }
 
     void FixedUpdate()
@@ -135,8 +190,9 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    // 투사체 등에 맞았을 때 호출: 데미지를 주고, 잠깐 애니메이션을 멈추고, 맞은 방향으로 살짝 밀려난다.
-    public void Hit(Vector2 knockbackDirection, float damage)
+    // 투사체 등에 맞았을 때 호출: 데미지를 주고, 잠깐 애니메이션을 멈추고, 맞은 방향으로 살짝 밀려나고,
+    // 흰색 테두리 + 데미지 숫자를 띄운다. isCrit이 true면 치명타 연출(더 크고 연노랑)로 표시된다.
+    public void Hit(Vector2 knockbackDirection, float damage, bool isCrit = false)
     {
         if (isDying) return; // 이미 죽는 중이면 더 이상 반응하지 않는다
 
@@ -147,6 +203,18 @@ public class Enemy : MonoBehaviour
 
         if (spriteAnimator != null)
             spriteAnimator.Pause(hitStunDuration);
+
+        SpawnDamageNumber(damage, isCrit);
+    }
+
+    private void SpawnDamageNumber(float damage, bool isCrit)
+    {
+        if (damageNumberPrefab == null) return;
+
+        Vector3 spawnPos = transform.position + Vector3.up * 0.5f;
+        GameObject go = Instantiate(damageNumberPrefab, spawnPos, Quaternion.identity);
+        DamageNumber number = go.GetComponent<DamageNumber>();
+        if (number != null) number.Setup(damage, isCrit);
     }
 
     public void TakeDamage(float amount)
@@ -166,9 +234,22 @@ public class Enemy : MonoBehaviour
         if (isDying) return;
         isDying = true;
 
-        ResourcePickup.SpawnRandomDrop(transform.position); // 파밍용 자원 드랍
+        // 파밍용 자원 드랍. minResourceDrops~maxResourceDrops개 사이로 랜덤하게 여러 개 드랍할 수 있다
+        // (일반 슬라임은 항상 1개, 엘리트처럼 더 많이 주는 적은 프리팹에서 범위를 넓게 설정).
+        int dropCount = Random.Range(minResourceDrops, maxResourceDrops + 1);
+        for (int i = 0; i < dropCount; i++)
+        {
+            ResourcePickup.SpawnRandomDrop(transform.position);
+        }
 
         if (spriteAnimator != null) spriteAnimator.enabled = false; // 현재 프레임에 고정
+
+        // 죽는 순간 흰색 테두리는 바로 꺼서, 사망 연출(페이드아웃) 동안에는 아예 보이지 않게 한다.
+        for (int i = 0; i < hitOutlineRenderers.Length; i++)
+        {
+            hitOutlineRenderers[i].enabled = false;
+        }
+
         StartCoroutine(FadeOutAndDestroy());
     }
 

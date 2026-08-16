@@ -30,6 +30,11 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon
     // 칼의 현재 위치를 중심으로 한 판정 반지름 (칼날 크기에 맞춰 설정).
     public float hitRadius = 1f;
 
+    [Header("치명타")]
+    // 이번 스윙이 치명타인지는 스윙 시작 시점에 한 번만 판정해서, 스윙 도중 맞는 모든 적에게 동일하게 적용한다.
+    public float critChance = 0.3f;
+    public float critMultiplier = 1.5f;
+
     private WeaponAim weaponAim;
 
     // 다음 공격까지 남은 쿨다운 시간(초).
@@ -38,6 +43,8 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon
     private bool isSwinging;
     private float swingElapsed;
     private float swingCenterAngle; // 스윙을 시작한 순간의 목표 방향 각도 (스윙 내내 고정)
+    private float swingDamage;      // 이번 스윙의 최종 데미지 (치명타면 이미 배율이 적용된 값)
+    private bool swingIsCrit;       // 이번 스윙이 치명타인지
 
     // 이번 스윙 동안 이미 맞힌 적 목록 (같은 스윙에서 같은 적이 여러 프레임에 걸쳐 중복으로 맞지 않도록).
     private readonly HashSet<Enemy> hitThisSwing = new HashSet<Enemy>();
@@ -95,6 +102,7 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon
         swingElapsed = 0f;
         attackCooldown = attackInterval;
         hitThisSwing.Clear();
+        swingDamage = CriticalHit.Roll(damage, critChance, critMultiplier, out swingIsCrit);
 
         // 이 순간부터 WeaponAim의 자동 회전/위치 갱신을 멈추고 이 스크립트가 직접 제어한다.
         weaponAim.externalControl = true;
@@ -145,7 +153,7 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon
 
             Vector2 knockDir = (Vector2)hit.transform.position - (Vector2)transform.position;
             if (knockDir.sqrMagnitude < 0.0001f) knockDir = Vector2.up;
-            enemy.Hit(knockDir.normalized, damage);
+            enemy.Hit(knockDir.normalized, swingDamage, swingIsCrit);
         }
     }
 }

@@ -21,6 +21,11 @@ public class SmgAttack : MonoBehaviour
     public float damage = 1f;
     public GameObject projectilePrefab; // Pistol과 같은 Projectile 프리팹을 그대로 쓰되, 발사 시 maxHits를 1로 덮어써서 관통을 없앤다.
 
+    [Header("치명타")]
+    // 3점사의 발 하나하나가 각자 독립적으로 치명타 판정을 받는다.
+    public float critChance = 0.3f;
+    public float critMultiplier = 1.5f;
+
     [Header("자동공격 (들고 있지 않을 때)")]
     public float autoAttackRange = 10f;
 
@@ -88,12 +93,14 @@ public class SmgAttack : MonoBehaviour
     {
         if (projectilePrefab == null) return;
 
+        float finalDamage = CriticalHit.Roll(damage, critChance, critMultiplier, out bool isCrit);
+
         GameObject projGO = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
         Projectile projectile = projGO.GetComponent<Projectile>();
         if (projectile != null)
         {
             projectile.maxHits = 1; // Smg 투사체는 관통하지 않고 첫 번째로 맞은 적에게서 사라진다.
-            projectile.Fire(direction, damage);
+            projectile.Fire(direction, finalDamage, isCrit);
         }
     }
 }

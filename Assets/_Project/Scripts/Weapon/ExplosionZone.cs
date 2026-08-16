@@ -10,6 +10,7 @@ public class ExplosionZone : MonoBehaviour
     public float warningDuration = 0.5f; // 경고 범위가 유지되는 시간
 
     private float damage;
+    private bool isCrit;
     private float timer;
 
     private static Sprite cachedCircleSprite; // 매번 새로 안 만들고 한 번 만든 걸 재사용한다
@@ -25,10 +26,11 @@ public class ExplosionZone : MonoBehaviour
         transform.localScale = new Vector3(radius * 2f, radius * 2f, 1f);
     }
 
-    // Grenade가 폭발 위치에 이 컴포넌트를 생성한 직후 호출해서 데미지를 넘겨준다.
-    public void Init(float explosionDamage)
+    // Grenade가 폭발 위치에 이 컴포넌트를 생성한 직후 호출해서 데미지(치명타 여부 포함)를 넘겨준다.
+    public void Init(float explosionDamage, bool critical = false)
     {
         damage = explosionDamage;
+        isCrit = critical;
         timer = warningDuration;
     }
 
@@ -51,7 +53,7 @@ public class ExplosionZone : MonoBehaviour
 
             Vector2 knockDir = (Vector2)hit.transform.position - (Vector2)transform.position;
             if (knockDir.sqrMagnitude < 0.0001f) knockDir = Vector2.up;
-            enemy.Hit(knockDir.normalized, damage);
+            enemy.Hit(knockDir.normalized, damage, isCrit);
         }
 
         Destroy(gameObject);

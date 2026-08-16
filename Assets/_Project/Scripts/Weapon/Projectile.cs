@@ -8,6 +8,7 @@ public class Projectile : MonoBehaviour
     public int maxHits = 3; // 이 횟수만큼 적과 접촉하면 소멸
 
     private float damage;
+    private bool isCrit;
     private Vector2 direction;
     private int hitCount;
 
@@ -24,11 +25,12 @@ public class Projectile : MonoBehaviour
         mainCamera = Camera.main;
     }
 
-    // WeaponAim이 발사 순간 방향과 데미지를 넘겨줄 때 호출한다.
-    public void Fire(Vector2 fireDirection, float fireDamage)
+    // WeaponAim이 발사 순간 방향과 데미지(치명타 여부 포함, 이미 계산된 최종 데미지)를 넘겨줄 때 호출한다.
+    public void Fire(Vector2 fireDirection, float fireDamage, bool critical = false)
     {
         direction = fireDirection.normalized;
         damage = fireDamage;
+        isCrit = critical;
 
         // 스프라이트가 기본적으로 위(90도)를 향하고 있으므로, 실제 진행 방향에 맞춰 -90도 보정해서 회전시킨다.
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
@@ -57,7 +59,7 @@ public class Projectile : MonoBehaviour
         Enemy enemy = other.GetComponent<Enemy>();
         if (enemy == null) return;
 
-        enemy.Hit(direction, damage);
+        enemy.Hit(direction, damage, isCrit);
 
         // Destroy하지 않고 계속 날아가서 다음 적도 관통한다. 정해진 횟수만큼 맞히면 그때 소멸.
         hitCount++;

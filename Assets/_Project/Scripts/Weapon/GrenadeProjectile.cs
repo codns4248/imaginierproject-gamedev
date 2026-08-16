@@ -11,15 +11,17 @@ public class GrenadeProjectile : MonoBehaviour
     private Vector2 startPos;
     private Vector2 targetPos;
     private float damage;
+    private bool isCrit;
     private float flightDuration;
     private float elapsed;
 
     // GrenadeAttack이 던지는 순간 호출한다.
-    public void Launch(Vector2 from, Vector2 to, float explosionDamage)
+    public void Launch(Vector2 from, Vector2 to, float explosionDamage, bool critical = false)
     {
         startPos = from;
         targetPos = to;
         damage = explosionDamage;
+        isCrit = critical;
         transform.position = from;
 
         float distance = Vector2.Distance(from, to);
@@ -47,7 +49,7 @@ public class GrenadeProjectile : MonoBehaviour
         {
             GameObject zoneGO = Instantiate(explosionZonePrefab, transform.position, Quaternion.identity);
             ExplosionZone zone = zoneGO.GetComponent<ExplosionZone>();
-            if (zone != null) zone.Init(damage);
+            if (zone != null) zone.Init(damage, isCrit);
         }
 
         Destroy(gameObject);

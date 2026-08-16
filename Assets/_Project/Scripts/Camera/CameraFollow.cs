@@ -8,7 +8,8 @@ public class CameraFollow : MonoBehaviour
     public Transform target; // 카메라가 쫓아갈 대상 (Player)
 
     // 데드존 박스의 가로/세로 크기(월드 유닛). 이 안에서는 타겟이 자유롭게 움직여도 카메라가 반응하지 않는다.
-    public Vector2 deadZoneSize = new Vector2(1.75f, 2.25f);
+    // 화면 비율(16:9)에 맞춰 가로는 그대로 두고 세로만 줄인 비율(가로 * 9/16)을 기본값으로 쓴다.
+    public Vector2 deadZoneSize = new Vector2(1.75f, 0.984375f);
 
     // SmoothDamp의 반응 속도를 조절하는 값. 작을수록 빠르고 즉각적으로, 클수록 느긋하고 관성이 강하게 따라간다.
     public float smoothTime = 0.35f;

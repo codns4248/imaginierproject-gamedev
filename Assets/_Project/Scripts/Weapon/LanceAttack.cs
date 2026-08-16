@@ -26,12 +26,19 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon
     public float hitRadius = 0.8f; // 목표 방향(찌르는 방향) 기준 판정 범위 (세로 방향)
     public float hitWidthScale = 0.8f; // 찌르는 방향에 수직인 폭은 hitRadius의 이 배율만큼만 사용 (가로를 좁혀서 타원형 판정)
 
+    [Header("치명타")]
+    // 이번 찌르기가 치명타인지는 시작 시점에 한 번만 판정해서, 찌르는 동안 맞는 모든 적에게 동일하게 적용한다.
+    public float critChance = 0.3f;
+    public float critMultiplier = 1.5f;
+
     private WeaponAim weaponAim;
     private float attackCooldown;
 
     private bool isThrusting;
     private float restRadius;   // 찌르기 시작 시점의 평소 궤도 반지름 (WeaponAim.orbitRadius)
     private float thrustAngle;  // 찌르기 시작 시점의 목표 방향 각도 (찌르는 동안 고정)
+    private float thrustDamage; // 이번 찌르기의 최종 데미지 (치명타면 이미 배율이 적용된 값)
+    private bool thrustIsCrit;  // 이번 찌르기가 치명타인지
 
     private readonly HashSet<Enemy> hitThisThrust = new HashSet<Enemy>();
 
@@ -87,6 +94,7 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon
     {
         isThrusting = true;
         hitThisThrust.Clear();
+        thrustDamage = CriticalHit.Roll(damage, critChance, critMultiplier, out thrustIsCrit);
         weaponAim.externalControl = true; // 찌르는 동안은 WeaponAim의 자동 궤도 추적을 잠깐 끈다
         weaponAim.SetForceVisible(true);  // 들고 있지 않아도 공격하는 동안은 보이게 한다
 
@@ -159,7 +167,7 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon
             hitThisThrust.Add(enemy);
 
             Vector2 knockDir = offset.sqrMagnitude < 0.0001f ? Vector2.up : offset.normalized;
-            enemy.Hit(knockDir, damage);
+            enemy.Hit(knockDir, thrustDamage, thrustIsCrit);
         }
     }
 }
