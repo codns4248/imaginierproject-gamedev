@@ -37,6 +37,11 @@ public class PlayerMovement : MonoBehaviour
         // 죽은 상태면 아래 입력 처리/애니메이션 갱신을 전부 건너뛴다.
         if (IsDead) return;
 
+        // 실제 이동(FixedUpdate)은 Time.timeScale=0이면 자동으로 멈추지만, 이 아래의 마우스 기준
+        // 좌우 반전(flipX)은 deltaTime과 무관하게 매 프레임 실행되므로 일시정지 중 마우스만 움직여도
+        // 캐릭터가 방향을 바꿔버린다. WeaponAim과 동일하게 별도로 멈춰준다.
+        if (PauseManager.IsPaused) return;
+
         // WASD 입력을 -1/0/1 값으로 변환해 이동 벡터를 만든다.
         // A/D가 X축, W/S가 Y축을 담당하며, 대각선 이동 시 속도가 더 빨라지지 않도록 normalized로 크기를 1로 맞춘다.
         movement = new Vector2(
