@@ -69,6 +69,10 @@ public class WeaponAim : MonoBehaviour
         // (근접무기는 공격 순간에만) transform.position/rotation을 직접 제어한다.
         if (!isHeld) return;
 
+        // Time.timeScale = 0이어도 Update()는 계속 호출되고, 여기서는 deltaTime이 아니라
+        // 마우스 좌표를 직접 읽어 회전/위치를 갱신하므로 일시정지 중에는 별도로 멈춰줘야 한다.
+        if (PauseManager.IsPaused) return;
+
         // 마우스의 스크린 좌표를 월드 좌표로 변환한다.
         // z에는 카메라와 무기(z=0 평면) 사이의 거리를 넣어줘야 정확한 위치가 나온다.
         Vector3 screenPos = Mouse.current.position.ReadValue();
