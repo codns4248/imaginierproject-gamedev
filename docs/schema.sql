@@ -319,3 +319,258 @@ REFERENCES `player` (
 	`player_id`
 );
 
+-- 아래부터는 컬럼 COMMENT로만 명시돼있던 FK를 실제 제약으로 추가한 것.
+-- ERDCloud 원본에는 아직 관계선이 없으므로, ERDCloud에서 이 SQL을 재-import(또는 수동으로 관계 추가)해서 동기화할 것.
+
+ALTER TABLE `player_start_setting` ADD CONSTRAINT `FK_item_TO_player_start_setting_1` FOREIGN KEY (
+	`start_item_id`
+)
+REFERENCES `item` (
+	`item_id`
+);
+
+ALTER TABLE `player_start_setting` ADD CONSTRAINT `FK_item_TO_player_start_setting_2` FOREIGN KEY (
+	`inherited_item_id`
+)
+REFERENCES `item` (
+	`item_id`
+);
+
+ALTER TABLE `player_permanent_upgrade` ADD CONSTRAINT `FK_player_TO_player_permanent_upgrade_1` FOREIGN KEY (
+	`player_id`
+)
+REFERENCES `player` (
+	`player_id`
+);
+
+ALTER TABLE `player_permanent_upgrade` ADD CONSTRAINT `FK_permanent_upgrade_type_TO_player_permanent_upgrade_1` FOREIGN KEY (
+	`permanent_upgrade_type_id`
+)
+REFERENCES `permanent_upgrade_type` (
+	`permanent_upgrade_type_id`
+);
+
+ALTER TABLE `expedition_resource` ADD CONSTRAINT `FK_expedition_TO_expedition_resource_1` FOREIGN KEY (
+	`expedition_id`
+)
+REFERENCES `expedition` (
+	`expedition_id`
+);
+
+ALTER TABLE `expedition_resource` ADD CONSTRAINT `FK_resource_type_TO_expedition_resource_1` FOREIGN KEY (
+	`resource_type_id`
+)
+REFERENCES `resource_type` (
+	`resource_type_id`
+);
+
+ALTER TABLE `item_enhance_milestone` ADD CONSTRAINT `FK_item_TO_item_enhance_milestone_1` FOREIGN KEY (
+	`item_id`
+)
+REFERENCES `item` (
+	`item_id`
+);
+
+ALTER TABLE `expedition_item` ADD CONSTRAINT `FK_expedition_TO_expedition_item_1` FOREIGN KEY (
+	`expedition_id`
+)
+REFERENCES `expedition` (
+	`expedition_id`
+);
+
+ALTER TABLE `expedition_item` ADD CONSTRAINT `FK_item_TO_expedition_item_1` FOREIGN KEY (
+	`item_id`
+)
+REFERENCES `item` (
+	`item_id`
+);
+
+ALTER TABLE `expedition_reward_choice` ADD CONSTRAINT `FK_expedition_TO_expedition_reward_choice_1` FOREIGN KEY (
+	`expedition_id`
+)
+REFERENCES `expedition` (
+	`expedition_id`
+);
+
+ALTER TABLE `expedition_reward_choice` ADD CONSTRAINT `FK_stage_TO_expedition_reward_choice_1` FOREIGN KEY (
+	`stage_id`
+)
+REFERENCES `stage` (
+	`stage_id`
+);
+
+ALTER TABLE `expedition_reward_choice` ADD CONSTRAINT `FK_reward_group_TO_expedition_reward_choice_1` FOREIGN KEY (
+	`reward_group_id`
+)
+REFERENCES `reward_group` (
+	`reward_group_id`
+);
+
+ALTER TABLE `stage_enemy` ADD CONSTRAINT `FK_stage_TO_stage_enemy_1` FOREIGN KEY (
+	`stage_id`
+)
+REFERENCES `stage` (
+	`stage_id`
+);
+
+ALTER TABLE `stage_enemy` ADD CONSTRAINT `FK_enemy_type_TO_stage_enemy_1` FOREIGN KEY (
+	`enemy_type_id`
+)
+REFERENCES `enemy_type` (
+	`enemy_type_id`
+);
+
+ALTER TABLE `recipe` ADD CONSTRAINT `FK_item_TO_recipe_1` FOREIGN KEY (
+	`result_item_id`
+)
+REFERENCES `item` (
+	`item_id`
+);
+
+ALTER TABLE `recipe` ADD CONSTRAINT `FK_resource_type_TO_recipe_1` FOREIGN KEY (
+	`rare_resource_type_id`
+)
+REFERENCES `resource_type` (
+	`resource_type_id`
+);
+
+ALTER TABLE `stage_resource_drop` ADD CONSTRAINT `FK_stage_TO_stage_resource_drop_1` FOREIGN KEY (
+	`stage_id`
+)
+REFERENCES `stage` (
+	`stage_id`
+);
+
+ALTER TABLE `stage_resource_drop` ADD CONSTRAINT `FK_resource_type_TO_stage_resource_drop_1` FOREIGN KEY (
+	`resource_type_id`
+)
+REFERENCES `resource_type` (
+	`resource_type_id`
+);
+
+ALTER TABLE `weapon_enhance_stat` ADD CONSTRAINT `FK_resource_type_TO_weapon_enhance_stat_1` FOREIGN KEY (
+	`resource_type_id`
+)
+REFERENCES `resource_type` (
+	`resource_type_id`
+);
+
+ALTER TABLE `expedition` ADD CONSTRAINT `FK_player_TO_expedition_1` FOREIGN KEY (
+	`player_id`
+)
+REFERENCES `player` (
+	`player_id`
+);
+
+ALTER TABLE `expedition` ADD CONSTRAINT `FK_stage_TO_expedition_1` FOREIGN KEY (
+	`final_stage_id`
+)
+REFERENCES `stage` (
+	`stage_id`
+);
+
+ALTER TABLE `expedition_stage_log` ADD CONSTRAINT `FK_expedition_TO_expedition_stage_log_1` FOREIGN KEY (
+	`expedition_id`
+)
+REFERENCES `expedition` (
+	`expedition_id`
+);
+
+ALTER TABLE `expedition_stage_log` ADD CONSTRAINT `FK_stage_TO_expedition_stage_log_1` FOREIGN KEY (
+	`stage_id`
+)
+REFERENCES `stage` (
+	`stage_id`
+);
+
+ALTER TABLE `expedition_stage_log` ADD CONSTRAINT `FK_weather_type_TO_expedition_stage_log_1` FOREIGN KEY (
+	`weather_type_id`
+)
+REFERENCES `weather_type` (
+	`weather_type_id`
+);
+
+ALTER TABLE `merchant_goods` ADD CONSTRAINT `FK_stage_TO_merchant_goods_1` FOREIGN KEY (
+	`stage_id`
+)
+REFERENCES `stage` (
+	`stage_id`
+);
+
+ALTER TABLE `merchant_goods` ADD CONSTRAINT `FK_item_TO_merchant_goods_1` FOREIGN KEY (
+	`sell_item_id`
+)
+REFERENCES `item` (
+	`item_id`
+);
+
+ALTER TABLE `merchant_goods` ADD CONSTRAINT `FK_resource_type_TO_merchant_goods_1` FOREIGN KEY (
+	`sell_resource_type_id`
+)
+REFERENCES `resource_type` (
+	`resource_type_id`
+);
+
+ALTER TABLE `merchant_goods` ADD CONSTRAINT `FK_resource_type_TO_merchant_goods_2` FOREIGN KEY (
+	`cost_resource_type_id`
+)
+REFERENCES `resource_type` (
+	`resource_type_id`
+);
+
+ALTER TABLE `player_unlock` ADD CONSTRAINT `FK_player_TO_player_unlock_1` FOREIGN KEY (
+	`player_id`
+)
+REFERENCES `player` (
+	`player_id`
+);
+
+ALTER TABLE `player_resource` ADD CONSTRAINT `FK_player_TO_player_resource_1` FOREIGN KEY (
+	`player_id`
+)
+REFERENCES `player` (
+	`player_id`
+);
+
+ALTER TABLE `player_resource` ADD CONSTRAINT `FK_resource_type_TO_player_resource_1` FOREIGN KEY (
+	`resource_type_id`
+)
+REFERENCES `resource_type` (
+	`resource_type_id`
+);
+
+ALTER TABLE `reward_group_detail` ADD CONSTRAINT `FK_reward_group_TO_reward_group_detail_1` FOREIGN KEY (
+	`reward_group_id`
+)
+REFERENCES `reward_group` (
+	`reward_group_id`
+);
+
+ALTER TABLE `reward_group_detail` ADD CONSTRAINT `FK_resource_type_TO_reward_group_detail_1` FOREIGN KEY (
+	`resource_type_id`
+)
+REFERENCES `resource_type` (
+	`resource_type_id`
+);
+
+ALTER TABLE `reward_group_detail` ADD CONSTRAINT `FK_item_TO_reward_group_detail_1` FOREIGN KEY (
+	`item_id`
+)
+REFERENCES `item` (
+	`item_id`
+);
+
+ALTER TABLE `item` ADD CONSTRAINT `FK_item_type_TO_item_1` FOREIGN KEY (
+	`item_type_id`
+)
+REFERENCES `item_type` (
+	`item_type_id`
+);
+
+ALTER TABLE `item` ADD CONSTRAINT `FK_item_TO_item_1` FOREIGN KEY (
+	`parent_item_id`
+)
+REFERENCES `item` (
+	`item_id`
+);
+
