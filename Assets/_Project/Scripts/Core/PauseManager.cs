@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-// ESC 키로 설정 패널(PausePanel)을 열고 닫는다. V키로 여는 인벤토리 패널(InventoryManager)과는
+// ESC 키로 설정 패널(PausePanel)을 열고 닫는다. V키로 여는 무기 강화 팝업(WeaponEnhancementManager)과는
 // 완전히 별도의 상태로 동작하지만, 둘 중 하나라도 열려 있으면 Time.timeScale을 0으로 만들어
 // 물리/애니메이션/스폰 등 deltaTime 기반 로직을 전부 함께 멈춘다.
 public class PauseManager : MonoBehaviour
@@ -10,9 +10,9 @@ public class PauseManager : MonoBehaviour
     public GameObject blurVolume; // Depth of Field 블러를 담은 Volume 오브젝트
 
     private bool isEscPaused;      // ESC로 연 설정 패널이 열려 있는지
-    private bool isInventoryPaused; // InventoryManager가 V로 연 인벤토리 패널이 열려 있는지 (SetInventoryPaused로 전달받음)
+    private bool isInventoryPaused; // WeaponEnhancementManager가 V로 연 무기 강화 팝업이 열려 있는지 (SetInventoryPaused로 전달받음)
 
-    // ESC 설정 패널이 지금 열려 있는지. InventoryManager가 "ESC가 눌린 상태에서는 V키 무시"를
+    // ESC 설정 패널이 지금 열려 있는지. WeaponEnhancementManager가 "ESC가 눌린 상태에서는 V키 무시"를
     // 판단할 때 이 값을 참조한다.
     public bool IsEscPaused => isEscPaused;
 
@@ -34,13 +34,18 @@ public class PauseManager : MonoBehaviour
     {
         isEscPaused = paused;
 
-        if (pausePanel != null) pausePanel.SetActive(paused);
+        if (pausePanel != null)
+        {
+            pausePanel.SetActive(paused);
+            // 무기 슬롯/자원량 등 다른 HUD 요소보다 항상 위에 그려지도록 씬 계층상 마지막으로 이동
+            if (paused) pausePanel.transform.SetAsLastSibling();
+        }
         if (blurVolume != null) blurVolume.SetActive(paused);
 
         ApplyTimeScale();
     }
 
-    // InventoryManager가 V키로 인벤토리 패널을 열고 닫을 때마다 호출해서 현재 상태를 알려준다.
+    // WeaponEnhancementManager가 V키로 무기 강화 팝업을 열고 닫을 때마다 호출해서 현재 상태를 알려준다.
     public void SetInventoryPaused(bool paused)
     {
         isInventoryPaused = paused;
