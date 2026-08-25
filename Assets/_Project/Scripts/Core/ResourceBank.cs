@@ -31,6 +31,17 @@ public static class ResourceBank
         OnChanged?.Invoke();
     }
 
+    /// <summary>무기/플레이어 강화 등으로 이번 런 파밍분을 소모한다. 부족하면 아무 일도 하지 않고 false.</summary>
+    public static bool TrySpendRunResource(ResourceType type, int amount)
+    {
+        if (amount <= 0) return true;
+        if (runHeld[(int)type] < amount) return false;
+
+        runHeld[(int)type] -= amount;
+        OnChanged?.Invoke();
+        return true;
+    }
+
     /// <summary>스테이지 클리어(로비 도착) 시 호출. runHeld를 stash로 합치고 저장한다.</summary>
     public static void CommitRunToStash()
     {

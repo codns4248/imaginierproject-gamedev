@@ -8,7 +8,7 @@ using UnityEngine.InputSystem;
 // 들고 있지 않을 때는 자동공격 모드로 전환되어, autoAttackRange 안의 가장 가까운 적을 향해
 // 같은 3점사 사이클을 끊임없이 반복한다 (무기 자체는 보이지 않고 투사체만 나간다).
 [RequireComponent(typeof(WeaponAim))]
-public class SmgAttack : MonoBehaviour
+public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
 {
     [Header("3점사 타이밍")]
     public int burstCount = 3;        // 한 번에 발사되는 탄 수
@@ -31,6 +31,26 @@ public class SmgAttack : MonoBehaviour
 
     private WeaponAim weaponAim;
     private bool isFiring; // 3점사 + 휴식 사이클이 진행 중이면 true (이 동안은 새 사이클을 시작하지 않는다)
+
+    // === IEnhanceableWeapon ===
+    private readonly int[] enhanceLevels = new int[4];
+    public int MaxEnhanceLevel => WeaponEnhanceUtil.MaxLevel;
+    public int GetEnhanceLevel(ResourceType type) => enhanceLevels[WeaponEnhanceUtil.IndexOf(type)];
+
+    public void ApplyEnhance(ResourceType type)
+    {
+        int idx = WeaponEnhanceUtil.IndexOf(type);
+        if (idx < 0 || enhanceLevels[idx] >= MaxEnhanceLevel) return;
+        enhanceLevels[idx]++;
+
+        switch (type)
+        {
+            case ResourceType.Wood: burstInterval = Mathf.Max(0.05f, burstInterval - 0.015f); break;
+            case ResourceType.Iron: damage += 0.3f; break;
+            case ResourceType.Copper: autoAttackRange += 0.5f; break;
+            case ResourceType.Chemical: critChance = Mathf.Min(1f, critChance + 0.05f); break;
+        }
+    }
 
     void Awake()
     {

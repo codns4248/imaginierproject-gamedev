@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 // 들고 있지 않을 때는 자동공격 모드로 전환되어, autoAttackRange 안의 가장 가까운 적을 향해
 // 같은 attackInterval로 끊임없이 계속 발사한다 (무기 자체는 보이지 않고 투사체만 나간다).
 [RequireComponent(typeof(WeaponAim))]
-public class PistolAttack : MonoBehaviour
+public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
 {
     // 연속 발사 사이의 최소 간격(초). 이 시간이 지나기 전에는 발사되지 않는다.
     public float attackInterval = 0.3f;
@@ -34,6 +34,26 @@ public class PistolAttack : MonoBehaviour
 
     // 다음 발사까지 남은 쿨다운 시간(초). 0 이하가 되어야 다시 발사할 수 있다.
     private float attackCooldown;
+
+    // === IEnhanceableWeapon ===
+    private readonly int[] enhanceLevels = new int[4]; // Wood,Iron,Copper,Chemical 순서 (WeaponEnhanceUtil.IndexOf)
+    public int MaxEnhanceLevel => WeaponEnhanceUtil.MaxLevel;
+    public int GetEnhanceLevel(ResourceType type) => enhanceLevels[WeaponEnhanceUtil.IndexOf(type)];
+
+    public void ApplyEnhance(ResourceType type)
+    {
+        int idx = WeaponEnhanceUtil.IndexOf(type);
+        if (idx < 0 || enhanceLevels[idx] >= MaxEnhanceLevel) return;
+        enhanceLevels[idx]++;
+
+        switch (type)
+        {
+            case ResourceType.Wood: attackInterval = Mathf.Max(0.05f, attackInterval - 0.02f); break;
+            case ResourceType.Iron: damage += 0.3f; break;
+            case ResourceType.Copper: autoAttackRange += 0.5f; break;
+            case ResourceType.Chemical: critChance = Mathf.Min(1f, critChance + 0.05f); break;
+        }
+    }
 
     void Awake()
     {

@@ -11,7 +11,7 @@ using UnityEngine.InputSystem;
 // MeleeAutoAttackQueue가 차례가 되면 TriggerAutoAttack()을 호출해서 가장 가까운 적 방향으로
 // 같은 휘두르기 모션을 재생한다(자동). IAutoMeleeWeapon으로 큐에 자신을 등록한다.
 [RequireComponent(typeof(WeaponAim))]
-public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon
+public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
 {
     // 연속 공격 사이의 최소 간격(초).
     public float attackInterval = 0.45f;
@@ -56,6 +56,26 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon
     public bool IsHeld => weaponAim.isHeld;
     public bool IsAttacking => isSwinging;
     public bool IsOnCooldown => attackCooldown > 0f;
+
+    // === IEnhanceableWeapon ===
+    private readonly int[] enhanceLevels = new int[4];
+    public int MaxEnhanceLevel => WeaponEnhanceUtil.MaxLevel;
+    public int GetEnhanceLevel(ResourceType type) => enhanceLevels[WeaponEnhanceUtil.IndexOf(type)];
+
+    public void ApplyEnhance(ResourceType type)
+    {
+        int idx = WeaponEnhanceUtil.IndexOf(type);
+        if (idx < 0 || enhanceLevels[idx] >= MaxEnhanceLevel) return;
+        enhanceLevels[idx]++;
+
+        switch (type)
+        {
+            case ResourceType.Wood: attackInterval = Mathf.Max(0.1f, attackInterval - 0.02f); break;
+            case ResourceType.Iron: damage += 0.3f; break;
+            case ResourceType.Copper: hitRadius += 0.1f; break;
+            case ResourceType.Chemical: critChance = Mathf.Min(1f, critChance + 0.05f); break;
+        }
+    }
 
     void Awake()
     {
