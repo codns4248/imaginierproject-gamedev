@@ -33,7 +33,8 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
     private bool isFiring; // 3점사 + 휴식 사이클이 진행 중이면 true (이 동안은 새 사이클을 시작하지 않는다)
 
     // === IEnhanceableWeapon ===
-    private readonly int[] enhanceLevels = new int[4];
+    private readonly int[] enhanceLevels = new int[5];
+    private float projectileSpeedBonus; // 기름(발사속도) 강화 누적분. Fire()에서 Projectile.speed에 더해준다.
     public int MaxEnhanceLevel => WeaponEnhanceUtil.MaxLevel;
     public int GetEnhanceLevel(ResourceType type) => enhanceLevels[WeaponEnhanceUtil.IndexOf(type)];
 
@@ -49,6 +50,7 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
             case ResourceType.Iron: damage += 0.3f; break;
             case ResourceType.Copper: autoAttackRange += 0.5f; break;
             case ResourceType.Chemical: critChance = Mathf.Min(1f, critChance + 0.05f); break;
+            case ResourceType.Oil: projectileSpeedBonus += 2f; break;
         }
     }
 
@@ -120,6 +122,7 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
         if (projectile != null)
         {
             projectile.maxHits = 1; // Smg 투사체는 관통하지 않고 첫 번째로 맞은 적에게서 사라진다.
+            projectile.speed += projectileSpeedBonus;
             projectile.Fire(direction, finalDamage, isCrit);
         }
     }

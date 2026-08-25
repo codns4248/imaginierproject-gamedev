@@ -9,13 +9,17 @@ using UnityEngine.UI;
 // ESC 설정 패널이 열려 있는 동안에는 V키를 무시한다.
 //
 // 강화: 지금 "들고 있는"(WeaponAim.isHeld) 무기 하나를 대상으로, 몬스터가 떨구는 5종 자원(이번 런
-// 파밍분, runHeld)을 소모해서 스탯을 올린다. 목재/철/구리/화학물질은 무기 스탯
-// (IEnhanceableWeapon), 기름은 플레이어 이동속도(PlayerMovement)에 적용된다 - docs/schema.sql의
-// weapon_enhance_stat 매핑 그대로. 마일스톤 패시브(item_enhance_milestone)는 아직 범위 밖.
+// 파밍분, runHeld)을 소모해서 스탯을 올린다. 5개 전부 무기 스탯(IEnhanceableWeapon)에 적용된다 -
+// 씬에 이미 구현된 EnhancementPanel의 5개 항목(공격속도/공격력/공격범위/치명타 확률/발사속도) 그대로.
 //
-// 씬에 미리 만들어진 EnhancementPanel 하위의 StatRow_* 5개(공격속도/공격력/공격범위/치명타 확률/
-// 발사속도)를 이름으로 찾아서 각 EnhanceButton에 코드로 리스너를 붙인다. "발사속도" 라벨은 실제로는
-// 기름=이동속도 강화라 런타임에 "이동속도"로 고쳐서 보여준다 (스키마 기준 라벨과 실제 동작을 맞춤).
+// 참고: docs/schema.sql은 기름을 "이동속도"(플레이어 스탯)로 적어뒀고, 그건 별도의
+// permanent_upgrade_type(영구 강화)와 겹치는 부분이 있어 정리가 필요하다. 스키마 정리 전까지는
+// 지금 이미 만들어진 UI(발사속도 = 무기 스탯)를 그대로 따른다.
+//
+// 마일스톤 패시브(item_enhance_milestone)는 아직 범위 밖.
+//
+// 씬에 미리 만들어진 EnhancementPanel 하위의 StatRow_* 5개를 이름으로 찾아서
+// 각 EnhanceButton에 코드로 리스너를 붙인다.
 public class WeaponEnhancementManager : MonoBehaviour
 {
     public GameObject enhancementPanel; // 무기 강화 팝업 UI 오브젝트 (EnhancementPanel)
@@ -69,20 +73,20 @@ public class WeaponEnhancementManager : MonoBehaviour
         if (open) RefreshAllRows();
     }
 
-    // StatRow_* 5개를 찾아서 라벨->자원타입 매핑, 라벨 텍스트 보정, 버튼 리스너 연결까지 한 번에 처리한다.
+    // StatRow_* 5개를 찾아서 라벨->자원타입 매핑, 버튼 리스너 연결까지 한 번에 처리한다.
     private void BuildRows()
     {
         rows = new EnhanceRow[]
         {
-            BindRow("StatRow_공격속도", ResourceType.Wood, null),
-            BindRow("StatRow_공격력", ResourceType.Iron, null),
-            BindRow("StatRow_공격범위", ResourceType.Copper, null),
-            BindRow("StatRow_치명타 확률", ResourceType.Chemical, null),
-            BindRow("StatRow_발사속도", ResourceType.Oil, "이동속도"), // 실제 동작(기름=이동속도)에 맞춰 라벨 교체
+            BindRow("StatRow_공격속도", ResourceType.Wood),
+            BindRow("StatRow_공격력", ResourceType.Iron),
+            BindRow("StatRow_공격범위", ResourceType.Copper),
+            BindRow("StatRow_치명타 확률", ResourceType.Chemical),
+            BindRow("StatRow_발사속도", ResourceType.Oil),
         };
     }
 
-    private EnhanceRow BindRow(string rowName, ResourceType type, string relabelTo)
+    private EnhanceRow BindRow(string rowName, ResourceType type)
     {
         EnhanceRow row = new EnhanceRow { type = type };
 
@@ -91,12 +95,6 @@ public class WeaponEnhancementManager : MonoBehaviour
         {
             Debug.LogWarning($"WeaponEnhancementManager: '{rowName}'을 찾지 못했습니다.");
             return row;
-        }
-
-        if (relabelTo != null)
-        {
-            Text label = statRow.Find("Label")?.GetComponent<Text>();
-            if (label != null) label.text = relabelTo;
         }
 
         row.stepsRow = statRow.Find("StepsRow");
@@ -128,23 +126,11 @@ public class WeaponEnhancementManager : MonoBehaviour
 
     private void OnEnhanceClicked(ResourceType type)
     {
-        if (type == ResourceType.Oil)
-        {
-            PlayerMovement movement = FindFirstObjectByType<PlayerMovement>();
-            if (movement == null || movement.OilEnhanceLevel >= PlayerMovement.MaxOilEnhanceLevel) return;
-            if (!ResourceBank.TrySpendRunResource(type, CostPerLevel)) return;
+        IEnhanceableWeapon weapon = FindHeldWeapon();
+        if (weapon == null || weapon.GetEnhanceLevel(type) >= weapon.MaxEnhanceLevel) return;
+        if (!ResourceBank.TrySpendRunResource(type, CostPerLevel)) return;
 
-            movement.ApplyOilEnhance();
-        }
-        else
-        {
-            IEnhanceableWeapon weapon = FindHeldWeapon();
-            if (weapon == null || weapon.GetEnhanceLevel(type) >= weapon.MaxEnhanceLevel) return;
-            if (!ResourceBank.TrySpendRunResource(type, CostPerLevel)) return;
-
-            weapon.ApplyEnhance(type);
-        }
-
+        weapon.ApplyEnhance(type);
         RefreshAllRows();
     }
 
@@ -167,14 +153,10 @@ public class WeaponEnhancementManager : MonoBehaviour
         if (rows == null) return;
 
         IEnhanceableWeapon heldWeapon = FindHeldWeapon();
-        PlayerMovement movement = FindFirstObjectByType<PlayerMovement>();
 
         foreach (EnhanceRow row in rows)
         {
-            int level = row.type == ResourceType.Oil
-                ? (movement != null ? movement.OilEnhanceLevel : 0)
-                : (heldWeapon != null ? heldWeapon.GetEnhanceLevel(row.type) : 0);
-
+            int level = heldWeapon != null ? heldWeapon.GetEnhanceLevel(row.type) : 0;
             RefreshRow(row, level);
         }
     }

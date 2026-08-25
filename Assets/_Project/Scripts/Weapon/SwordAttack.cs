@@ -58,7 +58,7 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     public bool IsOnCooldown => attackCooldown > 0f;
 
     // === IEnhanceableWeapon ===
-    private readonly int[] enhanceLevels = new int[4];
+    private readonly int[] enhanceLevels = new int[5];
     public int MaxEnhanceLevel => WeaponEnhanceUtil.MaxLevel;
     public int GetEnhanceLevel(ResourceType type) => enhanceLevels[WeaponEnhanceUtil.IndexOf(type)];
 
@@ -74,6 +74,8 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
             case ResourceType.Iron: damage += 0.3f; break;
             case ResourceType.Copper: hitRadius += 0.1f; break;
             case ResourceType.Chemical: critChance = Mathf.Min(1f, critChance + 0.05f); break;
+            // 발사체가 없는 근접무기라 "발사속도"는 휘두르는 모션 자체를 빠르게 하는 것으로 대체.
+            case ResourceType.Oil: swingDuration = Mathf.Max(0.05f, swingDuration - 0.015f); break;
         }
     }
 

@@ -36,7 +36,8 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
     private float attackCooldown;
 
     // === IEnhanceableWeapon ===
-    private readonly int[] enhanceLevels = new int[4]; // Wood,Iron,Copper,Chemical 순서 (WeaponEnhanceUtil.IndexOf)
+    private readonly int[] enhanceLevels = new int[5]; // Wood,Iron,Copper,Chemical,Oil 순서 (WeaponEnhanceUtil.IndexOf)
+    private float projectileSpeedBonus; // 기름(발사속도) 강화 누적분. Fire()에서 Projectile.speed에 더해준다.
     public int MaxEnhanceLevel => WeaponEnhanceUtil.MaxLevel;
     public int GetEnhanceLevel(ResourceType type) => enhanceLevels[WeaponEnhanceUtil.IndexOf(type)];
 
@@ -52,6 +53,7 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
             case ResourceType.Iron: damage += 0.3f; break;
             case ResourceType.Copper: autoAttackRange += 0.5f; break;
             case ResourceType.Chemical: critChance = Mathf.Min(1f, critChance + 0.05f); break;
+            case ResourceType.Oil: projectileSpeedBonus += 2f; break;
         }
     }
 
@@ -100,6 +102,7 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
         Projectile projectile = projGO.GetComponent<Projectile>();
         if (projectile != null)
         {
+            projectile.speed += projectileSpeedBonus;
             projectile.Fire(direction, finalDamage, isCrit);
         }
     }

@@ -23,17 +23,6 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 knockbackVelocity;
     private float knockbackTimer;
 
-    // 기름(Oil) 강화: 이동속도버프 (docs/schema.sql weapon_enhance_stat 기준, 무기가 아니라 플레이어 스탯).
-    public int OilEnhanceLevel { get; private set; }
-    public const int MaxOilEnhanceLevel = 10;
-
-    public void ApplyOilEnhance()
-    {
-        if (OilEnhanceLevel >= MaxOilEnhanceLevel) return;
-        OilEnhanceLevel++;
-        moveSpeed += 0.3f;
-    }
-
     void Start()
     {
         // GetComponent는 비용이 있으므로 매 프레임 호출하지 않고 시작 시 한 번만 캐싱해둔다.

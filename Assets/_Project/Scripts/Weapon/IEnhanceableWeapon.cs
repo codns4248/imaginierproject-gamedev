@@ -1,5 +1,7 @@
-// 자원 소모로 강화 가능한 무기가 구현하는 인터페이스 (docs/schema.sql weapon_enhance_stat 기준).
-// 목재/철/구리/화학물질 4종만 다룬다 - 기름(이동속도)은 무기가 아니라 플레이어 자체 스탯이라 별도 처리.
+// 자원 소모로 강화 가능한 무기가 구현하는 인터페이스.
+// 지금 EnhancementPanel UI에 이미 구현된 5개 스탯(공격속도/공격력/공격범위/치명타 확률/발사속도) 그대로 따른다.
+// docs/schema.sql은 기름->이동속도로 적어뒀지만, 이동속도는 permanent_upgrade_type에도 별도로 있어서
+// 두 시스템이 겹치는 문제가 있음 - 스키마 정리 전까지는 UI에 이미 있는 "발사속도"(무기 스탯)로 둔다.
 // 마일스톤 패시브(item_enhance_milestone)는 아직 범위 밖, 여기선 단순 스탯 증가만 다룬다.
 public interface IEnhanceableWeapon
 {
@@ -21,7 +23,8 @@ public static class WeaponEnhanceUtil
             case ResourceType.Iron: return 1;
             case ResourceType.Copper: return 2;
             case ResourceType.Chemical: return 3;
-            default: return -1; // Oil은 무기 강화 대상이 아님
+            case ResourceType.Oil: return 4;
+            default: return -1;
         }
     }
 }
