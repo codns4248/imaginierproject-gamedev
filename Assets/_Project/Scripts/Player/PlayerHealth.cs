@@ -55,6 +55,10 @@ public class PlayerHealth : MonoBehaviour
         playerMovement = GetComponent<PlayerMovement>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+
+        // 이전 런에서 죽어서 멈춰있던 적 이동/스폰/자동공격 등을 새 런 시작과 함께 다시 풀어준다.
+        // (EnemyManager.PlayerDead는 정적 필드라 씬을 다시 불러와도 저절로 초기화되지 않는다)
+        EnemyManager.SetPlayerDead(false);
     }
 
     // 적과 접촉하는 등 피해를 입었을 때 호출한다.
