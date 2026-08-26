@@ -22,6 +22,8 @@ public class WeaponSwitcher : MonoBehaviour
 
     void Update()
     {
+        if (PauseManager.IsPaused) return;
+
         if (Keyboard.current.qKey.wasPressedThisFrame)
         {
             currentIndex = (currentIndex + 1) % weaponSlots.Length;

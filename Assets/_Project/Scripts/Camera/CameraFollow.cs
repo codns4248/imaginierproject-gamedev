@@ -14,8 +14,18 @@ public class CameraFollow : MonoBehaviour
     // SmoothDamp의 반응 속도를 조절하는 값. 작을수록 빠르고 즉각적으로, 클수록 느긋하고 관성이 강하게 따라간다.
     public float smoothTime = 0.35f;
 
+    [Header("맵 경계")]
+    public float mapHalfExtent = 20f; // Player_Movement/Enemy의 mapHalfExtent와 맞춰야 함
+
     // SmoothDamp가 내부적으로 현재 속도를 계속 추적하기 위해 필요한 변수 (ref로 전달되어 매 프레임 갱신됨).
     private Vector3 velocity;
+
+    private Camera cam;
+
+    private void Awake()
+    {
+        cam = GetComponent<Camera>();
+    }
 
     private void LateUpdate()
     {
@@ -48,13 +58,33 @@ public class CameraFollow : MonoBehaviour
 
         // 목표 지점까지 즉시 이동하지 않고, 속도 기반으로 가속/감속하며 부드럽게 이동한다.
         // -> 캐릭터가 데드존을 벗어나 계속 움직이면 카메라가 "끌려오는" 듯한 자연스러운 느낌을 준다.
-        transform.position = Vector3.SmoothDamp(camPos, desiredPosition, ref velocity, smoothTime);
+        Vector3 newPos = Vector3.SmoothDamp(camPos, desiredPosition, ref velocity, smoothTime);
+
+        // 카메라가 비추는 화면(직교 투영 범위)이 맵 밖으로 나가지 않도록, 카메라 중심 좌표를
+        // "맵 경계 - 화면 절반 크기"만큼만 움직일 수 있게 눌러준다. 화면이 맵보다 크면(limit이 0 이하)
+        // 카메라를 중앙에 고정한다.
+        if (cam != null && cam.orthographic)
+        {
+            float halfViewHeight = cam.orthographicSize;
+            float halfViewWidth = halfViewHeight * cam.aspect;
+
+            float limitX = Mathf.Max(0f, mapHalfExtent - halfViewWidth);
+            float limitY = Mathf.Max(0f, mapHalfExtent - halfViewHeight);
+
+            newPos.x = Mathf.Clamp(newPos.x, -limitX, limitX);
+            newPos.y = Mathf.Clamp(newPos.y, -limitY, limitY);
+        }
+
+        transform.position = newPos;
     }
 
-    // Scene 뷰에서 카메라 오브젝트를 선택했을 때 데드존 범위를 노란 박스로 시각화해준다 (게임에는 영향 없음).
+    // Scene 뷰에서 카메라 오브젝트를 선택했을 때 데드존(노란색)과 맵 경계(빨간색) 범위를 시각화해준다 (게임에는 영향 없음).
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireCube(transform.position, new Vector3(deadZoneSize.x, deadZoneSize.y, 0f));
+
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(Vector3.zero, new Vector3(mapHalfExtent * 2f, mapHalfExtent * 2f, 0f));
     }
 }
