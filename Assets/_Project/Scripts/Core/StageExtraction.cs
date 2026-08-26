@@ -6,8 +6,9 @@ using UnityEngine.SceneManagement;
 // StageTimer가 스테이지 클리어를 알리면: 5층마다(StageProgress.IsExtractionFloor) 자원을 확정하고
 // 거점으로 가는 포탈을 스폰한다 (자동 이동 아님, 직접 걸어 들어가야 함 - 조장 지시사항).
 // 그 외 층에서는 자원을 유지한 채 자동으로 다음 층으로 넘어간다(익스트랙션 전까진 계속 위험 부담).
-// 플레이어가 죽으면 파밍한 자원(아직 확정되지 않은 분)을 잃고, 사망 페이드가 끝난 뒤 자동으로 로비로 이동한다
-// (죽은 상태라 걸어서 포탈로 갈 수 없으므로 사망만 예외적으로 자동 이동 유지).
+// 플레이어가 죽으면 (임시로) 파밍한 자원을 그대로 확정해서 stash로 저장한다 - 원래는 사망 시 소실이
+// 맞는 익스트랙션 규칙이지만, 강화가 거점 전용으로 바뀌면서 우선 자원을 살려서 강화에 쓸 수 있게 해뒀다.
+// 사망 페이드가 끝난 뒤 자동으로 로비로 이동한다 (죽은 상태라 걸어서 포탈로 갈 수 없으므로 예외).
 // MainScene에 빈 오브젝트를 만들어 이 컴포넌트를 붙여두면 된다.
 //
 // ponytail: 아직 구역별 실제 씬(숲/공장/오염호수 등)이 없어서 "다음 층"을 같은 씬 재시작으로 흉내낸다.
@@ -67,7 +68,7 @@ public class StageExtraction : MonoBehaviour
 
     void HandleDeath()
     {
-        ResourceBank.DiscardRun();
+        ResourceBank.CommitRunToStash();
         StageProgress.ResetToFirstStage();
         StartCoroutine(ReturnToLobbyAfterFade());
     }

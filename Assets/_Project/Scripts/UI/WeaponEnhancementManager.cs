@@ -8,9 +8,9 @@ using UnityEngine.UI;
 //
 // ESC 설정 패널이 열려 있는 동안에는 V키를 무시한다.
 //
-// 강화: 지금 "들고 있는"(WeaponAim.isHeld) 무기 하나를 대상으로, 몬스터가 떨구는 5종 자원(이번 런
-// 파밍분, runHeld)을 소모해서 스탯을 올린다. 5개 전부 무기 스탯(IEnhanceableWeapon)에 적용된다 -
-// 씬에 이미 구현된 EnhancementPanel의 5개 항목(공격속도/공격력/공격범위/치명타 확률/발사속도) 그대로.
+// 강화는 거점(로비)에서만 한다 - 스테이지 도중이 아니라 영구 보관된 자원(stash)을 소모해서
+// "들고 있는"(WeaponAim.isHeld) 무기 하나의 스탯을 올린다. 강화 레벨 자체는 WeaponEnhanceStore에
+// 무기 이름 기준으로 저장돼서, MainScene에서 실제 그 무기를 쓸 때도 그대로 반영된다.
 //
 // 참고: docs/schema.sql은 기름을 "이동속도"(플레이어 스탯)로 적어뒀고, 그건 별도의
 // permanent_upgrade_type(영구 강화)와 겹치는 부분이 있어 정리가 필요하다. 스키마 정리 전까지는
@@ -19,13 +19,15 @@ using UnityEngine.UI;
 // 마일스톤 패시브(item_enhance_milestone)는 아직 범위 밖.
 //
 // 씬에 미리 만들어진 EnhancementPanel 하위의 StatRow_* 5개를 이름으로 찾아서
-// 각 EnhanceButton에 코드로 리스너를 붙인다.
+// 각 EnhanceButton에 코드로 리스너를 붙이고, CurrencyText 옆에 어떤 자원이 얼마나 필요한지
+// 아이콘으로 보여준다.
 public class WeaponEnhancementManager : MonoBehaviour
 {
     public GameObject enhancementPanel; // 무기 강화 팝업 UI 오브젝트 (EnhancementPanel)
     public PauseManager pauseManager; // ESC 상태 확인 + Time.timeScale 계산에 상태를 알려주기 위한 참조
 
     private const int CostPerLevel = 5;
+    private const float CostIconSize = 20f;
 
     private bool isPanelOpen;
     private EnhanceRow[] rows;
@@ -73,7 +75,7 @@ public class WeaponEnhancementManager : MonoBehaviour
         if (open) RefreshAllRows();
     }
 
-    // StatRow_* 5개를 찾아서 라벨->자원타입 매핑, 버튼 리스너 연결까지 한 번에 처리한다.
+    // StatRow_* 5개를 찾아서 라벨->자원타입 매핑, 자원 아이콘 배치, 버튼 리스너 연결까지 한 번에 처리한다.
     private void BuildRows()
     {
         rows = new EnhanceRow[]
@@ -101,6 +103,8 @@ public class WeaponEnhancementManager : MonoBehaviour
         row.currencyText = statRow.Find("CurrencyText")?.GetComponent<Text>();
         row.button = statRow.Find("EnhanceButton")?.GetComponent<Button>();
 
+        CreateCostIcon(statRow, type, row.currencyText);
+
         if (row.button != null)
         {
             ResourceType capturedType = type; // 클로저 캡처용
@@ -108,6 +112,26 @@ public class WeaponEnhancementManager : MonoBehaviour
         }
 
         return row;
+    }
+
+    // CurrencyText 바로 앞에 자원 아이콘을 하나 만들어서, "이 강화는 어떤 자원을 쓰는지" 한눈에 보이게 한다.
+    // HorizontalLayoutGroup이 이미 StatRow에 붙어있어서, 형제 순서만 맞추면 자동으로 배치된다.
+    private static void CreateCostIcon(Transform statRow, ResourceType type, Text currencyText)
+    {
+        if (currencyText == null) return;
+
+        GameObject iconGO = new GameObject("CostIcon", typeof(RectTransform), typeof(Image), typeof(LayoutElement));
+        iconGO.transform.SetParent(statRow, false);
+        iconGO.transform.SetSiblingIndex(currencyText.transform.GetSiblingIndex());
+
+        Image img = iconGO.GetComponent<Image>();
+        img.sprite = ResourcePickup.GetIconSprite(type);
+        img.preserveAspect = true;
+        img.raycastTarget = false;
+
+        LayoutElement layout = iconGO.GetComponent<LayoutElement>();
+        layout.preferredWidth = CostIconSize;
+        layout.preferredHeight = CostIconSize;
     }
 
     // 이름으로 자손을 재귀 탐색한다 (비활성 오브젝트도 찾을 수 있게 transform.Find 대신 직접 순회).
@@ -128,7 +152,7 @@ public class WeaponEnhancementManager : MonoBehaviour
     {
         IEnhanceableWeapon weapon = FindHeldWeapon();
         if (weapon == null || weapon.GetEnhanceLevel(type) >= weapon.MaxEnhanceLevel) return;
-        if (!ResourceBank.TrySpendRunResource(type, CostPerLevel)) return;
+        if (!ResourceBank.TrySpendStash(type, CostPerLevel)) return;
 
         weapon.ApplyEnhance(type);
         RefreshAllRows();
@@ -179,7 +203,7 @@ public class WeaponEnhancementManager : MonoBehaviour
 
         if (row.currencyText != null)
         {
-            int held = ResourceBank.GetRunHeld(row.type);
+            int held = ResourceBank.GetStash(row.type);
             row.currencyText.text = $"{held}/{CostPerLevel}";
         }
     }

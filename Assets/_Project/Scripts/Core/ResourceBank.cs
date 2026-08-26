@@ -62,6 +62,18 @@ public static class ResourceBank
         OnChanged?.Invoke();
     }
 
+    /// <summary>거점(로비) 강화 등으로 영구 보관분(stash)을 소모한다. 부족하면 아무 일도 하지 않고 false.</summary>
+    public static bool TrySpendStash(ResourceType type, int amount)
+    {
+        if (amount <= 0) return true;
+        if (stash[(int)type] < amount) return false;
+
+        stash[(int)type] -= amount;
+        Save();
+        OnChanged?.Invoke();
+        return true;
+    }
+
     [Serializable]
     private class SaveData
     {

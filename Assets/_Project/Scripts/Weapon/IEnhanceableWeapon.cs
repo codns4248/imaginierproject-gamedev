@@ -15,6 +15,12 @@ public static class WeaponEnhanceUtil
 {
     public const int MaxLevel = 10;
 
+    // 무기가 Awake()에서 저장된 레벨만큼 스탯을 다시 적용(재생)할 때 순회할 목록.
+    public static readonly ResourceType[] AllTypes =
+    {
+        ResourceType.Wood, ResourceType.Iron, ResourceType.Copper, ResourceType.Chemical, ResourceType.Oil
+    };
+
     public static int IndexOf(ResourceType type)
     {
         switch (type)

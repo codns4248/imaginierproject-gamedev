@@ -58,16 +58,17 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     public bool IsOnCooldown => attackCooldown > 0f;
 
     // === IEnhanceableWeapon ===
-    private readonly int[] enhanceLevels = new int[5];
     public int MaxEnhanceLevel => WeaponEnhanceUtil.MaxLevel;
-    public int GetEnhanceLevel(ResourceType type) => enhanceLevels[WeaponEnhanceUtil.IndexOf(type)];
+    public int GetEnhanceLevel(ResourceType type) => WeaponEnhanceStore.GetLevel(gameObject.name, type);
 
     public void ApplyEnhance(ResourceType type)
     {
-        int idx = WeaponEnhanceUtil.IndexOf(type);
-        if (idx < 0 || enhanceLevels[idx] >= MaxEnhanceLevel) return;
-        enhanceLevels[idx]++;
+        if (!WeaponEnhanceStore.TryEnhance(gameObject.name, type)) return;
+        ApplyStatDelta(type);
+    }
 
+    private void ApplyStatDelta(ResourceType type)
+    {
         switch (type)
         {
             case ResourceType.Wood: attackInterval = Mathf.Max(0.1f, attackInterval - 0.02f); break;
@@ -82,6 +83,12 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     void Awake()
     {
         weaponAim = GetComponent<WeaponAim>();
+
+        foreach (ResourceType type in WeaponEnhanceUtil.AllTypes)
+        {
+            int level = WeaponEnhanceStore.GetLevel(gameObject.name, type);
+            for (int i = 0; i < level; i++) ApplyStatDelta(type);
+        }
     }
 
     void OnEnable()
