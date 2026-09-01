@@ -244,6 +244,9 @@ public class Enemy : MonoBehaviour
             ResourcePickup.SpawnRandomDrop(transform.position);
         }
 
+        // 낮은 확률(1%)로 무기 아이템도 별도로 드랍한다.
+        WeaponPickup.TrySpawnRandomDrop(transform.position);
+
         if (spriteAnimator != null) spriteAnimator.enabled = false; // 현재 프레임에 고정
 
         // 죽는 순간 흰색 테두리는 바로 꺼서, 사망 연출(페이드아웃) 동안에는 아예 보이지 않게 한다.

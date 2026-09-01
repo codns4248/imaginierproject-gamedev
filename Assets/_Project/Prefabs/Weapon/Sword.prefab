@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5011680299387445598}
   - component: {fileID: 1728751877156879753}
   - component: {fileID: 7718261064080690343}
+  - component: {fileID: 4738584683363759381}
   m_Layer: 0
   m_Name: Sword
   m_TagString: Untagged
@@ -128,3 +129,18 @@ MonoBehaviour:
   swingDuration: 0.225
   damage: 1
   hitRadius: 1
+  critChance: 0.3
+  critMultiplier: 1.5
+--- !u!114 &4738584683363759381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8713748919474309832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae9b3b50cee436a48a04887f683caeaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponIdentity
+  type: 1
