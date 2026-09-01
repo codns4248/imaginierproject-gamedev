@@ -1,0 +1,8 @@
+# Unity 텍스트 에셋 병합: UnityYAMLMerge(SmartMerge) 사용
+*.unity      merge=unityyamlmerge eol=lf
+*.prefab     merge=unityyamlmerge eol=lf
+*.asset      merge=unityyamlmerge eol=lf
+*.mat        merge=unityyamlmerge eol=lf
+*.controller merge=unityyamlmerge eol=lf
+*.anim       merge=unityyamlmerge eol=lf
+*.meta       merge=unityyamlmerge eol=lf
