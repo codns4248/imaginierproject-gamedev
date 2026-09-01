@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2037266116875775502}
   - component: {fileID: 2711649263393894900}
   - component: {fileID: 7955627373998617263}
+  - component: {fileID: 6220354432166504233}
   m_Layer: 0
   m_Name: Smg
   m_TagString: Untagged
@@ -129,4 +130,19 @@ MonoBehaviour:
   recoilKickAngle: 15
   damage: 1
   projectilePrefab: {fileID: 6375256007673843717, guid: 1c498f379aebef44e841c2ec4053c3b9, type: 3}
+  critChance: 0.3
+  critMultiplier: 1.5
   autoAttackRange: 10
+--- !u!114 &6220354432166504233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130496623239448277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae9b3b50cee436a48a04887f683caeaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponIdentity
+  type: 2

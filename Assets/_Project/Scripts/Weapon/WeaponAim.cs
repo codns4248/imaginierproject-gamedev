@@ -57,6 +57,12 @@ public class WeaponAim : MonoBehaviour
         mainCamera = Camera.main;
         spriteRenderer = GetComponent<SpriteRenderer>();
         pivot = transform.parent != null ? transform.parent : transform;
+
+        // Update()가 아직 한 번도 안 돈 상태에서 다른 스크립트(PistolAttack 등)가 같은 프레임에
+        // AimDirection을 먼저 읽어버리면 기본값(0,0)인 채로 발사되어, 투사체가 방향 없이
+        // 제자리에 멈춰버리는 버그가 있었다(특히 스테이지 전환 직후 새 무기가 막 생성된 순간).
+        // 스크립트 실행 순서는 보장되지 않으므로, Start()에서 미리 한 번 계산해서 방지한다.
+        RecalculateAimDirection();
     }
 
     void Update()
@@ -73,17 +79,8 @@ public class WeaponAim : MonoBehaviour
         // 마우스 좌표를 직접 읽어 회전/위치를 갱신하므로 일시정지 중에는 별도로 멈춰줘야 한다.
         if (PauseManager.IsPaused) return;
 
-        // 마우스의 스크린 좌표를 월드 좌표로 변환한다.
-        // z에는 카메라와 무기(z=0 평면) 사이의 거리를 넣어줘야 정확한 위치가 나온다.
-        Vector3 screenPos = Mouse.current.position.ReadValue();
-        screenPos.z = -mainCamera.transform.position.z;
-        Vector3 mouseWorldPos = mainCamera.ScreenToWorldPoint(screenPos);
-
-        // 궤도 모드일 때는 궤도 중심(플레이어) 기준으로 각도를 계산해야 무기가 궤도 반지름을 벗어나지 않고
-        // 안정적으로 마우스를 따라간다. 궤도 모드가 아니면(Pistol) 기존처럼 무기 자신의 위치 기준으로 계산한다.
-        Vector3 originPoint = orbitRadius > 0f ? pivot.position : transform.position;
-        Vector3 dir = mouseWorldPos - originPoint;
-        AimDirection = dir;
+        RecalculateAimDirection();
+        Vector2 dir = AimDirection;
 
         // 외부(SwordAttack 등)가 휘두르기 같은 커스텀 모션으로 위치/회전을 직접 제어하는 중이면
         // 조준 방향 계산만 갱신해주고 나머지(회전/위치 적용)는 건드리지 않는다.
@@ -114,6 +111,19 @@ public class WeaponAim : MonoBehaviour
         }
 
         transform.rotation = Quaternion.Euler(0f, 0f, finalAngle + visualRotationOffset);
+    }
+
+    // 마우스의 스크린 좌표를 월드 좌표로 변환해서 AimDirection을 갱신한다.
+    // 궤도 모드일 때는 궤도 중심(플레이어) 기준으로 계산해야 무기가 궤도 반지름을 벗어나지 않고
+    // 안정적으로 마우스를 따라간다. 궤도 모드가 아니면(Pistol) 무기 자신의 위치 기준으로 계산한다.
+    private void RecalculateAimDirection()
+    {
+        Vector3 screenPos = Mouse.current.position.ReadValue();
+        screenPos.z = -mainCamera.transform.position.z;
+        Vector3 mouseWorldPos = mainCamera.ScreenToWorldPoint(screenPos);
+
+        Vector3 originPoint = orbitRadius > 0f ? pivot.position : transform.position;
+        AimDirection = mouseWorldPos - originPoint;
     }
 
     // 공격 스크립트가 발사 순간 호출한다. 무기가 즉시 angle만큼 튀었다가 서서히 원래 각도로 돌아온다. (Pistol 반동용)
