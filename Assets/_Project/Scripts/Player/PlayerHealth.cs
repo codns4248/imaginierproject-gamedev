@@ -171,4 +171,20 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         OnHealthChanged?.Invoke();
     }
+
+    // 사망 후 거점으로 복귀했을 때 StageManager가 호출해서 다시 플레이할 수 있는 상태로 되돌린다.
+    public void Revive()
+    {
+        isDead = false;
+        isInvulnerable = false;
+        currentHealth = maxHealth;
+
+        if (spriteRenderer != null) spriteRenderer.enabled = true;
+        if (animator != null) animator.enabled = true;
+        if (playerMovement != null) playerMovement.Revive();
+        if (deathFadeUI != null) deathFadeUI.ResetFade();
+
+        EnemyManager.SetPlayerDead(false);
+        OnHealthChanged?.Invoke();
+    }
 }

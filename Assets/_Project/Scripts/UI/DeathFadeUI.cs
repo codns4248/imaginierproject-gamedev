@@ -21,6 +21,13 @@ public class DeathFadeUI : MonoBehaviour
         StartCoroutine(FadeRoutine(duration));
     }
 
+    // 거점으로 복귀했을 때 검게 덮인 화면을 다시 투명하게 되돌린다.
+    public void ResetFade()
+    {
+        StopAllCoroutines();
+        SetAlpha(0f);
+    }
+
     private IEnumerator FadeRoutine(float duration)
     {
         float elapsed = 0f;

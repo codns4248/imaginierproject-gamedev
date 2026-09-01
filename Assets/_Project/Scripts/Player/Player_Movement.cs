@@ -7,7 +7,8 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
 
     // 맵 경계 (SurvivorMapBuilder의 MapHalfExtent와 맞춰야 함: 현재 맵은 -20 ~ 20 범위의 40x40 유닛 정사각형).
-    public float mapHalfExtent = 20f;
+    public Vector2 mapCenter = Vector2.zero; // 맵 경계 상자의 중심 월드 좌표
+    public Vector2 mapHalfExtent = new Vector2(20f, 20f); // 가로/세로 절반 크기
 
     // 캐릭터가 맵 가장자리 타일 끝에 딱 붙어 파고들지 않도록 살짝 여유를 두는 값.
     public float boundaryMargin = 0.5f;
@@ -74,7 +75,8 @@ public class PlayerMovement : MonoBehaviour
         // 프레임레이트가 들쭉날쭉해도 이동 속도가 흔들리지 않는다.
         if (IsDead) return;
 
-        float limit = mapHalfExtent - boundaryMargin;
+        float limitX = mapHalfExtent.x - boundaryMargin;
+        float limitY = mapHalfExtent.y - boundaryMargin;
 
         // 피격 넉백 중에는 WASD 입력을 무시하고 넉백 속도로만 아주 짧게 밀려난다.
         if (knockbackTimer > 0f)
@@ -82,8 +84,8 @@ public class PlayerMovement : MonoBehaviour
             knockbackTimer -= Time.fixedDeltaTime;
 
             Vector2 knockPos = rb.position + knockbackVelocity * Time.fixedDeltaTime;
-            knockPos.x = Mathf.Clamp(knockPos.x, -limit, limit);
-            knockPos.y = Mathf.Clamp(knockPos.y, -limit, limit);
+            knockPos.x = Mathf.Clamp(knockPos.x, mapCenter.x - limitX, mapCenter.x + limitX);
+            knockPos.y = Mathf.Clamp(knockPos.y, mapCenter.y - limitY, mapCenter.y + limitY);
             rb.MovePosition(knockPos);
             return;
         }
@@ -95,8 +97,8 @@ public class PlayerMovement : MonoBehaviour
         // 맵 밖으로 못 나가게 좌표를 경계 안으로 강제로 눌러준다.
         // 콜라이더로 벽을 세우는 대신 코드로 직접 클램프하면, 아무리 빠른 속도로 부딪혀도 벽을 뚫고 나가는(터널링)
         // 문제 없이 항상 확실하게 경계 안에 머무른다.
-        nextPosition.x = Mathf.Clamp(nextPosition.x, -limit, limit);
-        nextPosition.y = Mathf.Clamp(nextPosition.y, -limit, limit);
+        nextPosition.x = Mathf.Clamp(nextPosition.x, mapCenter.x - limitX, mapCenter.x + limitX);
+        nextPosition.y = Mathf.Clamp(nextPosition.y, mapCenter.y - limitY, mapCenter.y + limitY);
 
         rb.MovePosition(nextPosition);
     }
@@ -118,5 +120,13 @@ public class PlayerMovement : MonoBehaviour
         knockbackTimer = 0f;
         animator.SetFloat("Speed", 0f); // idle 프레임으로 고정
         animator.SetBool("IsDead", true); // Player.controller의 AnyState -> dead 트랜지션을 발동시킴
+    }
+
+    // 거점으로 복귀했을 때 PlayerHealth가 호출해서 다시 움직일 수 있게 풀어준다.
+    public void Revive()
+    {
+        IsDead = false;
+        knockbackTimer = 0f;
+        if (animator != null) animator.SetBool("IsDead", false);
     }
 }
