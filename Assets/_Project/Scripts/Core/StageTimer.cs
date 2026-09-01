@@ -24,7 +24,24 @@ public class StageTimer : MonoBehaviour
     void Start()
     {
         remainingTime = duration;
+        isRunning = false; // 거점에서는 대기 상태. StageManager.EnterRandomStage()가 BeginStage()로 시작시킨다.
+        OnTimeChanged?.Invoke();
+    }
+
+    // 스테이지 구역에 진입할 때 호출해서 카운트다운을 새로 시작한다.
+    public void BeginStage()
+    {
+        remainingTime = duration;
         isRunning = true;
+        isCleared = false;
+        OnTimeChanged?.Invoke();
+    }
+
+    // 거점으로 복귀할 때 호출해서 타이머를 멈추고 초기화한다.
+    public void StopAndReset()
+    {
+        isRunning = false;
+        remainingTime = duration;
         OnTimeChanged?.Invoke();
     }
 

@@ -6,6 +6,7 @@ public class EnemySpawner : MonoBehaviour
     public GameObject enemyPrefab;
     public float spawnInterval = 1f;  // 스폰 시도 간격(초)
     public int maxEnemies = 50;       // 동시에 존재할 수 있는 최대 적 수
+    public Vector2 mapCenter = Vector2.zero; // 맵 경계 상자의 중심 월드 좌표
     public float mapHalfExtent = 20f; // 맵 경계. Player_Movement의 mapHalfExtent와 맞춰야 한다
 
     private Camera mainCamera;
@@ -30,7 +31,16 @@ public class EnemySpawner : MonoBehaviour
         if (EnemyManager.ActiveEnemies.Count >= maxEnemies) return;
 
         Vector2 spawnPos = FindOffScreenPosition();
-        Instantiate(enemyPrefab, spawnPos, Quaternion.identity);
+        GameObject enemyObj = Instantiate(enemyPrefab, spawnPos, Quaternion.identity);
+
+        // 스폰한 적도 스포너와 같은 구역 경계를 갖도록 맞춰준다 (안 그러면 다음 물리 프레임에
+        // 자기 기본값(월드 원점 기준)으로 순간이동해버려서 화면 밖으로 사라진다).
+        Enemy enemy = enemyObj.GetComponent<Enemy>();
+        if (enemy != null)
+        {
+            enemy.mapCenter = mapCenter;
+            enemy.mapHalfExtent = mapHalfExtent;
+        }
     }
 
     // 카메라 시야 밖이면서 맵 범위 안쪽인 랜덤 좌표를 찾는다.
@@ -39,8 +49,8 @@ public class EnemySpawner : MonoBehaviour
     {
         for (int attempt = 0; attempt < 30; attempt++)
         {
-            float x = Random.Range(-mapHalfExtent, mapHalfExtent);
-            float y = Random.Range(-mapHalfExtent, mapHalfExtent);
+            float x = mapCenter.x + Random.Range(-mapHalfExtent, mapHalfExtent);
+            float y = mapCenter.y + Random.Range(-mapHalfExtent, mapHalfExtent);
             Vector3 world = new Vector3(x, y, 0f);
 
             // WorldToViewportPoint는 화면 안이면 x/y가 0~1 사이, 카메라 뒤쪽이면 z가 음수로 나온다.
@@ -52,6 +62,6 @@ public class EnemySpawner : MonoBehaviour
                 return world;
         }
 
-        return new Vector2(mapHalfExtent - 0.5f, mapHalfExtent - 0.5f);
+        return new Vector2(mapCenter.x + mapHalfExtent - 0.5f, mapCenter.y + mapHalfExtent - 0.5f);
     }
 }
