@@ -33,13 +33,14 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
     private bool isFiring; // 3점사 + 휴식 사이클이 진행 중이면 true (이 동안은 새 사이클을 시작하지 않는다)
 
     // === IEnhanceableWeapon ===
+    private WeaponIdentity identity;
     private float projectileSpeedBonus; // 기름(발사속도) 강화 누적분. Fire()에서 Projectile.speed에 더해준다.
     public int MaxEnhanceLevel => WeaponEnhanceUtil.MaxLevel;
-    public int GetEnhanceLevel(ResourceType type) => WeaponEnhanceStore.GetLevel(gameObject.name, type);
+    public int GetEnhanceLevel(ResourceType type) => WeaponEnhanceStore.GetLevel(identity.type, type);
 
     public void ApplyEnhance(ResourceType type)
     {
-        if (!WeaponEnhanceStore.TryEnhance(gameObject.name, type)) return;
+        if (!WeaponEnhanceStore.TryEnhance(identity.type, type)) return;
         ApplyStatDelta(type);
     }
 
@@ -58,10 +59,11 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
     void Awake()
     {
         weaponAim = GetComponent<WeaponAim>();
+        identity = GetComponent<WeaponIdentity>();
 
         foreach (ResourceType type in WeaponEnhanceUtil.AllTypes)
         {
-            int level = WeaponEnhanceStore.GetLevel(gameObject.name, type);
+            int level = WeaponEnhanceStore.GetLevel(identity.type, type);
             for (int i = 0; i < level; i++) ApplyStatDelta(type);
         }
     }

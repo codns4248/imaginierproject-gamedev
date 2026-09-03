@@ -36,16 +36,19 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
     private float attackCooldown;
 
     // === IEnhanceableWeapon ===
-    // 강화 레벨 자체는 WeaponEnhanceStore(무기 이름 기준, 씬이 바뀌어도 유지)에 저장된다.
+    // 강화 레벨 자체는 WeaponEnhanceStore(무기 종류 기준, 씬이 바뀌어도 유지)에 저장된다.
     // 이 인스턴스는 그 레벨을 실제 스탯(damage 등)에 반영하는 역할만 한다.
+    // 이름(gameObject.name)이 아니라 WeaponIdentity.type을 키로 쓴다 - F로 주운 무기는
+    // Instantiate라 이름에 "(Clone)"이 붙어서 이름 기준으로는 강화가 이어지지 않기 때문.
+    private WeaponIdentity identity;
     private float projectileSpeedBonus; // 기름(발사속도) 강화 누적분. Fire()에서 Projectile.speed에 더해준다.
     public int MaxEnhanceLevel => WeaponEnhanceUtil.MaxLevel;
-    public int GetEnhanceLevel(ResourceType type) => WeaponEnhanceStore.GetLevel(gameObject.name, type);
+    public int GetEnhanceLevel(ResourceType type) => WeaponEnhanceStore.GetLevel(identity.type, type);
 
     // 거점 강화 UI에서 자원을 소모하고 호출한다. 스토어에 기록 + 스탯 한 단계 적용.
     public void ApplyEnhance(ResourceType type)
     {
-        if (!WeaponEnhanceStore.TryEnhance(gameObject.name, type)) return;
+        if (!WeaponEnhanceStore.TryEnhance(identity.type, type)) return;
         ApplyStatDelta(type);
     }
 
@@ -65,11 +68,12 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
     void Awake()
     {
         weaponAim = GetComponent<WeaponAim>();
+        identity = GetComponent<WeaponIdentity>();
 
         // 다른 씬에서 저장된 강화 레벨만큼, 이 새 인스턴스의 스탯에 다시 적용한다(재생).
         foreach (ResourceType type in WeaponEnhanceUtil.AllTypes)
         {
-            int level = WeaponEnhanceStore.GetLevel(gameObject.name, type);
+            int level = WeaponEnhanceStore.GetLevel(identity.type, type);
             for (int i = 0; i < level; i++) ApplyStatDelta(type);
         }
     }

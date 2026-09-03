@@ -51,12 +51,13 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     public bool IsOnCooldown => attackCooldown > 0f;
 
     // === IEnhanceableWeapon ===
+    private WeaponIdentity identity;
     public int MaxEnhanceLevel => WeaponEnhanceUtil.MaxLevel;
-    public int GetEnhanceLevel(ResourceType type) => WeaponEnhanceStore.GetLevel(gameObject.name, type);
+    public int GetEnhanceLevel(ResourceType type) => WeaponEnhanceStore.GetLevel(identity.type, type);
 
     public void ApplyEnhance(ResourceType type)
     {
-        if (!WeaponEnhanceStore.TryEnhance(gameObject.name, type)) return;
+        if (!WeaponEnhanceStore.TryEnhance(identity.type, type)) return;
         ApplyStatDelta(type);
     }
 
@@ -79,10 +80,11 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     void Awake()
     {
         weaponAim = GetComponent<WeaponAim>();
+        identity = GetComponent<WeaponIdentity>();
 
         foreach (ResourceType type in WeaponEnhanceUtil.AllTypes)
         {
-            int level = WeaponEnhanceStore.GetLevel(gameObject.name, type);
+            int level = WeaponEnhanceStore.GetLevel(identity.type, type);
             for (int i = 0; i < level; i++) ApplyStatDelta(type);
         }
     }
