@@ -2,17 +2,15 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
-// R키로 "로비로 복귀하시겠습니까?" 확인창을 띄운다. Y로 확정하면 지금까지 파밍한 자원을
-// 확정(익스트랙션 포탈과 동일하게 처리)하고 로비로 이동한다. N/ESC로 취소.
-// 스테이지 도중 포탈 위치를 찾아갈 필요 없이 언제든 안전하게 빠져나갈 수 있는 수단.
+// R키로 "거점으로 복귀하시겠습니까?" 확인창을 띄운다. Y로 확정하면 지금까지 파밍한 자원을
+// 확정(익스트랙션과 동일하게 처리)하고 거점으로 이동한다. N/ESC로 취소.
+// 스테이지 클리어(5층)를 못 채웠어도, 도중에 언제든 안전하게 빠져나갈 수 있는 수단
+// (StageExtraction의 자동 복귀는 클리어했을 때만 발동하므로 서로 겹치지 않는다).
 // ponytail: 확인창을 클릭 UI(Button) 대신 순수 키 입력으로만 만들었다 - 최근 EnhanceButton
 // 클릭이 EventSystem 설정 문제로 안 먹었던 걸 겪어서, 정말 간단한 확인창까지 그 리스크를
 // 다시 지지 않으려고 일부러 키보드 전용으로 뒀다.
 public class RetreatManager : MonoBehaviour
 {
-    public string lobbySceneName = "LobbyScene";
-    public string lobbySpawnId = "FromStage";
-
     private GameObject promptGO;
     private bool isPromptOpen;
     private PauseManager pauseManager;
@@ -57,7 +55,7 @@ public class RetreatManager : MonoBehaviour
         ResourceBank.CommitRunToStash();
         StageProgress.ResetToFirstStage();
         ClosePrompt();
-        SceneTravel.GoTo(lobbySceneName, lobbySpawnId);
+        StageManager.ReturnToHub();
     }
 
     // 이미 만들어져 있으면 재사용하고(도메인 리로드 등으로 필드 참조만 끊긴 경우 대비), 없으면 새로 만든다.
@@ -101,7 +99,7 @@ public class RetreatManager : MonoBehaviour
         text.fontSize = 24;
         text.alignment = TextAnchor.MiddleCenter;
         text.color = Color.white;
-        text.text = "로비로 복귀하시겠습니까?\n(Y: 예 / N: 아니오)";
+        text.text = "거점으로 복귀하시겠습니까?\n(Y: 예 / N: 아니오)";
 
         promptGO = go;
         promptGO.SetActive(false);

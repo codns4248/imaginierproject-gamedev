@@ -42,6 +42,8 @@ public class WeaponEnhancementManager : MonoBehaviour
 
     void Awake()
     {
+        // 씬에 켜진 채로 저장돼있어도 시작할 땐 항상 닫힌 상태로 맞춘다 (isPanelOpen 기본값과 동기화).
+        if (enhancementPanel != null) enhancementPanel.SetActive(false);
         if (enhancementPanel != null) BuildRows();
     }
 
