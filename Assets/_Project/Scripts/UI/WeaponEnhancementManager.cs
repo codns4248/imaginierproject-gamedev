@@ -88,6 +88,9 @@ public class WeaponEnhancementManager : MonoBehaviour
             BindRow("StatRow_치명타 확률", ResourceType.Chemical),
             BindRow("StatRow_발사속도", ResourceType.Oil),
         };
+
+        Button closeButton = FindDeep(enhancementPanel.transform, "ButtonX")?.GetComponent<Button>();
+        if (closeButton != null) closeButton.onClick.AddListener(() => SetPanelOpen(false));
     }
 
     private EnhanceRow BindRow(string rowName, ResourceType type)
