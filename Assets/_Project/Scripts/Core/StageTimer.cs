@@ -67,9 +67,11 @@ public class StageTimer : MonoBehaviour
     {
         isCleared = true;
 
-        // 스포너를 꺼서 더 이상 새 적이 생기지 않게 한다.
-        EnemySpawner spawner = FindFirstObjectByType<EnemySpawner>();
-        if (spawner != null) spawner.enabled = false;
+        // 스포너를 전부 꺼서 더 이상 새 적이 생기지 않게 한다 (일반/엘리트 등 스포너가 여러 개 있음).
+        foreach (EnemySpawner spawner in FindObjectsByType<EnemySpawner>(FindObjectsSortMode.None))
+        {
+            spawner.enabled = false;
+        }
 
         // 남아있는 모든 적을 제거한다. Destroy 도중 EnemyManager.ActiveEnemies 목록이 같이 바뀌므로
         // 원본 리스트를 그대로 순회하지 않고 복사본을 만들어서 순회한다.
