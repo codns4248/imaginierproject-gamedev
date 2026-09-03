@@ -9,12 +9,13 @@ public class PauseManager : MonoBehaviour
     public GameObject pausePanel; // 반투명 패널 + "PAUSED" 텍스트
     public GameObject blurVolume; // Depth of Field 블러를 담은 Volume 오브젝트
 
-    private bool isEscPaused;      // ESC로 연 설정 패널이 열려 있는지
-    private bool isInventoryPaused; // WeaponEnhancementManager가 V로 연 무기 강화 팝업이 열려 있는지 (SetInventoryPaused로 전달받음)
+    private static bool isEscPaused; // ESC로 연 설정 패널이 열려 있는지
+    private bool isInventoryPaused;  // WeaponEnhancementManager가 V로 연 무기 강화 팝업이 열려 있는지 (SetInventoryPaused로 전달받음)
 
-    // ESC 설정 패널이 지금 열려 있는지. WeaponEnhancementManager가 "ESC가 눌린 상태에서는 V키 무시"를
-    // 판단할 때 이 값을 참조한다.
-    public bool IsEscPaused => isEscPaused;
+    // ESC 설정 패널이 지금 열려 있는지. WeaponEnhancementManager가 "ESC가 눌린 상태에서는 V키 무시"를,
+    // WeaponSwitcher가 "ESC 메뉴 중에는 무기 전환 금지"를 판단할 때 이 값을 참조한다.
+    // IsPaused와 마찬가지로 정적으로 노출해서 PauseManager 인스턴스 참조 없이도 쓸 수 있게 했다.
+    public static bool IsEscPaused => isEscPaused;
 
     // Time.timeScale이 0이어도 Update()는 계속 호출되므로, deltaTime에 의존하지 않고
     // 마우스 좌표를 직접 읽어 회전/이동시키는 스크립트(WeaponAim, PlayerMovement 등)는
