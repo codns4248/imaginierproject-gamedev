@@ -11,7 +11,7 @@ using UnityEngine.InputSystem;
 // MeleeAutoAttackQueue가 차례가 되면 TriggerAutoAttack()을 호출해서 가장 가까운 적 방향으로
 // 같은 찌르기 모션을 재생한다(자동). IAutoMeleeWeapon으로 큐에 자신을 등록한다.
 [RequireComponent(typeof(WeaponAim))]
-public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon
+public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
 {
     // 연속 공격 사이의 최소 간격(초).
     public float attackInterval = 0.4f;
@@ -50,9 +50,43 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon
     public bool IsAttacking => isThrusting;
     public bool IsOnCooldown => attackCooldown > 0f;
 
+    // === IEnhanceableWeapon ===
+    private WeaponIdentity identity;
+    public int MaxEnhanceLevel => WeaponEnhanceUtil.MaxLevel;
+    public int GetEnhanceLevel(ResourceType type) => WeaponEnhanceStore.GetLevel(identity.type, type);
+
+    public void ApplyEnhance(ResourceType type)
+    {
+        if (!WeaponEnhanceStore.TryEnhance(identity.type, type)) return;
+        ApplyStatDelta(type);
+    }
+
+    private void ApplyStatDelta(ResourceType type)
+    {
+        switch (type)
+        {
+            case ResourceType.Wood: attackInterval = Mathf.Max(0.1f, attackInterval - 0.02f); break;
+            case ResourceType.Iron: damage += 0.3f; break;
+            case ResourceType.Copper: hitRadius += 0.1f; break;
+            case ResourceType.Chemical: critChance = Mathf.Min(1f, critChance + 0.05f); break;
+            // 발사체가 없는 근접무기라 "발사속도"는 찌르고 돌아오는 모션 자체를 빠르게 하는 것으로 대체.
+            case ResourceType.Oil:
+                thrustOutDuration = Mathf.Max(0.03f, thrustOutDuration - 0.005f);
+                thrustBackDuration = Mathf.Max(0.05f, thrustBackDuration - 0.008f);
+                break;
+        }
+    }
+
     void Awake()
     {
         weaponAim = GetComponent<WeaponAim>();
+        identity = GetComponent<WeaponIdentity>();
+
+        foreach (ResourceType type in WeaponEnhanceUtil.AllTypes)
+        {
+            int level = WeaponEnhanceStore.GetLevel(identity.type, type);
+            for (int i = 0; i < level; i++) ApplyStatDelta(type);
+        }
     }
 
     void OnEnable()
