@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
-// R키로 "거점으로 복귀하시겠습니까?" 확인창을 띄운다. Y로 확정하면 지금까지 파밍한 자원을
+// H키(Home)로 "거점으로 복귀하시겠습니까?" 확인창을 띄운다. Y로 확정하면 지금까지 파밍한 자원을
 // 확정(익스트랙션과 동일하게 처리)하고 거점으로 이동한다. N/ESC로 취소.
 // 스테이지 클리어(5층)를 못 채웠어도, 도중에 언제든 안전하게 빠져나갈 수 있는 수단
 // (StageExtraction의 자동 복귀는 클리어했을 때만 발동하므로 서로 겹치지 않는다).
@@ -30,7 +30,7 @@ public class RetreatManager : MonoBehaviour
             return;
         }
 
-        if (Keyboard.current.rKey.wasPressedThisFrame) OpenPrompt();
+        if (Keyboard.current.hKey.wasPressedThisFrame) OpenPrompt();
     }
 
     private void OpenPrompt()
