@@ -19,6 +19,11 @@ public static class StageManager
 
     private static readonly Zone hub = new Zone(-200f, -100f, 9.5f, "거점");
 
+    // 지금 거점(false)인지 스테이지 구역(true)인지. ResourceBankUI가 이걸 보고 runHeld/stash 중
+    // 뭘 보여줄지 정한다 - 예전엔 씬이 달라서(MainScene/LobbyScene) 각각 다른 UI 인스턴스를
+    // 뒀지만, 이제 한 씬 안에서 좌표만 이동하니 이 플래그로 구분해야 한다.
+    public static bool IsInStage { get; private set; }
+
     // 각 스테이지 구역의 실제 타일 범위에 맞춘 중심/절반 크기 (타일맵 실측값 기준, 가로/세로 중 작은 쪽 - 0.5 여유).
     private static readonly Zone[] stages =
     {
@@ -118,6 +123,8 @@ public static class StageManager
     // 전투 스포너 on/off + 체력바 표시 여부를 한 번에 맞춘다. 거점에서는 꺼지고, 스테이지에서는 켜진다.
     private static void SetInStage(bool inStage, Vector2 center, float halfExtent)
     {
+        IsInStage = inStage;
+
         foreach (EnemySpawner spawner in Object.FindObjectsByType<EnemySpawner>(FindObjectsSortMode.None))
         {
             spawner.mapCenter = center;
@@ -138,12 +145,8 @@ public static class StageManager
             Transform stageNumberText = canvas.transform.Find("StageNumberText");
             if (stageNumberText != null) stageNumberText.gameObject.SetActive(inStage);
 
-            // 자원 표시는 거점/스테이지가 서로 반대: 스테이지에선 이번 런 파밍분(runHeld), 거점에선 확정 보관량(stash).
-            Transform resourceRunHeldText = canvas.transform.Find("ResourceBankText");
-            if (resourceRunHeldText != null) resourceRunHeldText.gameObject.SetActive(inStage);
-
-            Transform resourceStashText = canvas.transform.Find("ResourceStashText");
-            if (resourceStashText != null) resourceStashText.gameObject.SetActive(!inStage);
+            // 자원 표시(ResourceBankText)는 항상 켜둔다 - ResourceBankUI가 매 프레임 IsInStage를
+            // 직접 보고 runHeld/stash 중 뭘 보여줄지 스스로 정하므로 여기서 SetActive로 껐다 켰다 하면 안 된다.
 
             // DeathFade는 항상 켜져 있어야 한다: 사망 연출(FadeToBlack)이 코루틴을 켜진 오브젝트에서 시작해야 하기 때문.
             Transform deathFade = canvas.transform.Find("DeathFade");
