@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5187303701282990393}
   - component: {fileID: 1284381248953386099}
   - component: {fileID: 5463206165936475698}
+  - component: {fileID: 5034972901993085335}
   m_Layer: 0
   m_Name: Pistol
   m_TagString: Untagged
@@ -127,4 +128,19 @@ MonoBehaviour:
   recoilKickAngle: 25
   damage: 1
   projectilePrefab: {fileID: 6375256007673843717, guid: 1c498f379aebef44e841c2ec4053c3b9, type: 3}
+  critChance: 0.3
+  critMultiplier: 1.5
   autoAttackRange: 10
+--- !u!114 &5034972901993085335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5269102658406726116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae9b3b50cee436a48a04887f683caeaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponIdentity
+  type: 0

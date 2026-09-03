@@ -17,6 +17,7 @@ public class Enemy : MonoBehaviour
     public float separationStrength = 1.5f; // 밀어내는 힘의 세기. 클수록 서로 더 확실히 벌어진다
 
     [Header("맵 경계")]
+    public Vector2 mapCenter = Vector2.zero; // 맵 경계 상자의 중심 월드 좌표. EnemySpawner가 스폰 시 설정해준다
     public float mapHalfExtent = 20f;  // Player_Movement의 mapHalfExtent와 맞춰야 함
     public float boundaryMargin = 0.3f; // 가장자리 타일 끝에 딱 붙지 않도록 살짝 여유
 
@@ -139,7 +140,8 @@ public class Enemy : MonoBehaviour
         // 플레이어가 사망하면 모든 적이 그 자리에서 멈춘다.
         if (EnemyManager.PlayerDead) return;
 
-        float limit = mapHalfExtent - boundaryMargin;
+        float limitX = mapHalfExtent - boundaryMargin;
+        float limitY = mapHalfExtent - boundaryMargin;
 
         // 피격 경직 중에는 추격/분리 로직 대신 넉백만 적용하고, 시간이 지날수록 넉백 속도를 줄인다.
         if (hitStunTimer > 0f)
@@ -149,8 +151,8 @@ public class Enemy : MonoBehaviour
             Vector2 knockPos = rb.position + knockbackVelocity * Time.fixedDeltaTime;
             knockbackVelocity = Vector2.MoveTowards(knockbackVelocity, Vector2.zero, knockbackDecay * Time.fixedDeltaTime);
 
-            knockPos.x = Mathf.Clamp(knockPos.x, -limit, limit);
-            knockPos.y = Mathf.Clamp(knockPos.y, -limit, limit);
+            knockPos.x = Mathf.Clamp(knockPos.x, mapCenter.x - limitX, mapCenter.x + limitX);
+            knockPos.y = Mathf.Clamp(knockPos.y, mapCenter.y - limitY, mapCenter.y + limitY);
             rb.MovePosition(knockPos);
             return;
         }
@@ -183,8 +185,8 @@ public class Enemy : MonoBehaviour
             Vector2 nextPosition = rb.position + moveDir.normalized * moveSpeed * Time.fixedDeltaTime;
 
             // 플레이어와 마찬가지로 맵 경계 밖으로 못 나가게 좌표를 눌러준다.
-            nextPosition.x = Mathf.Clamp(nextPosition.x, -limit, limit);
-            nextPosition.y = Mathf.Clamp(nextPosition.y, -limit, limit);
+            nextPosition.x = Mathf.Clamp(nextPosition.x, mapCenter.x - limitX, mapCenter.x + limitX);
+            nextPosition.y = Mathf.Clamp(nextPosition.y, mapCenter.y - limitY, mapCenter.y + limitY);
 
             rb.MovePosition(nextPosition);
         }
@@ -241,6 +243,9 @@ public class Enemy : MonoBehaviour
         {
             ResourcePickup.SpawnRandomDrop(transform.position);
         }
+
+        // 낮은 확률(1%)로 무기 아이템도 별도로 드랍한다.
+        WeaponPickup.TrySpawnRandomDrop(transform.position);
 
         if (spriteAnimator != null) spriteAnimator.enabled = false; // 현재 프레임에 고정
 

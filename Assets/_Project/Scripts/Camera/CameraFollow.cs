@@ -15,7 +15,8 @@ public class CameraFollow : MonoBehaviour
     public float smoothTime = 0.35f;
 
     [Header("맵 경계")]
-    public float mapHalfExtent = 20f; // Player_Movement/Enemy의 mapHalfExtent와 맞춰야 함
+    public Vector2 mapCenter = Vector2.zero; // 맵(카메라 이동 제한 범위)의 중심 월드 좌표
+    public float mapHalfExtent = 20f; // Player_Movement/EnemySpawner의 mapHalfExtent와 맞춰야 함
 
     // SmoothDamp가 내부적으로 현재 속도를 계속 추적하기 위해 필요한 변수 (ref로 전달되어 매 프레임 갱신됨).
     private Vector3 velocity;
@@ -71,8 +72,8 @@ public class CameraFollow : MonoBehaviour
             float limitX = Mathf.Max(0f, mapHalfExtent - halfViewWidth);
             float limitY = Mathf.Max(0f, mapHalfExtent - halfViewHeight);
 
-            newPos.x = Mathf.Clamp(newPos.x, -limitX, limitX);
-            newPos.y = Mathf.Clamp(newPos.y, -limitY, limitY);
+            newPos.x = Mathf.Clamp(newPos.x, mapCenter.x - limitX, mapCenter.x + limitX);
+            newPos.y = Mathf.Clamp(newPos.y, mapCenter.y - limitY, mapCenter.y + limitY);
         }
 
         transform.position = newPos;
@@ -85,6 +86,6 @@ public class CameraFollow : MonoBehaviour
         Gizmos.DrawWireCube(transform.position, new Vector3(deadZoneSize.x, deadZoneSize.y, 0f));
 
         Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(Vector3.zero, new Vector3(mapHalfExtent * 2f, mapHalfExtent * 2f, 0f));
+        Gizmos.DrawWireCube(new Vector3(mapCenter.x, mapCenter.y, 0f), new Vector3(mapHalfExtent * 2f, mapHalfExtent * 2f, 0f));
     }
 }
