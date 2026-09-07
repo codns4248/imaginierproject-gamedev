@@ -54,6 +54,14 @@ public class Enemy : MonoBehaviour
     // 죽는 중(페이드아웃 중)인 적은 자동조준 대상에서 제외해야 하므로 외부에서 읽을 수 있게 열어둔다.
     public bool IsDying => isDying;
 
+    // 피격 경직 중인지 외부(원거리 몬스터의 애니메이션/공격 타이머 등)에서 읽을 수 있게 열어둔다.
+    public bool IsHitStunned => hitStunTimer > 0f;
+
+    // true인 동안 FixedUpdate()의 "플레이어 추격" 이동을 건너뛴다(피격 경직/넉백은 그대로 적용됨).
+    // WeaponAim.externalControl과 같은 패턴 - 원거리 공격 몬스터처럼 제자리에 멈춰 서야 하는
+    // 특수 행동 컴포넌트가 이 값을 켜고 끄면서 Enemy.cs의 기본 추격 이동만 잠깐 빌려 쓴다.
+    [HideInInspector] public bool externalMovementControl;
+
     void Awake()
     {
         currentHealth = maxHealth;
@@ -156,6 +164,9 @@ public class Enemy : MonoBehaviour
             rb.MovePosition(knockPos);
             return;
         }
+
+        // 원거리 몬스터 등이 제자리에서 멈춰 공격해야 할 때 이동만 잠깐 꺼둔다.
+        if (externalMovementControl) return;
 
         if (player == null) return;
 

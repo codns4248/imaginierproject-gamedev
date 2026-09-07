@@ -60,7 +60,8 @@ public class ExplosionZone : MonoBehaviour
     }
 
     // 지름 1유닛짜리 원 모양 스프라이트를 코드로 직접 그려서 만든다 (별도 원형 이미지 에셋이 없어도 되게).
-    private static Sprite GetCircleSprite()
+    // 원거리 몬스터 투사체(EnemyProjectile) 등 다른 곳에서도 같은 붉은 원 모양을 재사용할 수 있게 공개해둔다.
+    public static Sprite GetCircleSprite()
     {
         if (cachedCircleSprite != null) return cachedCircleSprite;
 
