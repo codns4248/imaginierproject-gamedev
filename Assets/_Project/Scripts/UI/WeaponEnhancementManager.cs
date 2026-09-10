@@ -42,6 +42,10 @@ public class WeaponEnhancementManager : MonoBehaviour
     // RefreshRow()에서 레벨보다 높은 칸을 이 색으로 되돌린다 (런 리셋 후 빈 상태 표시용).
     private Color defaultStepColor = Color.white;
 
+    // 무기를 안 들고 있을 때 패널에 띄우는 안내 문구 (코드로 생성). 무기를 들면 숨긴다.
+    private Text noticeText;
+    private const string NoWeaponNotice = "무기를 든 상태에서 강화할 수 있습니다";
+
     private struct EnhanceRow
     {
         public ResourceType type;
@@ -113,6 +117,35 @@ public class WeaponEnhancementManager : MonoBehaviour
         Transform firstStep = rows.Length > 0 && rows[0].stepsRow != null ? rows[0].stepsRow.Find("Step_0") : null;
         Image firstStepImage = firstStep != null ? firstStep.GetComponent<Image>() : null;
         if (firstStepImage != null) defaultStepColor = firstStepImage.color;
+
+        noticeText = CreateNotice();
+    }
+
+    // 패널 하단 중앙에 안내 문구 텍스트를 하나 만든다. 폰트는 패널이 이미 쓰는 것(한글 지원)을 그대로 빌려 쓴다.
+    private Text CreateNotice()
+    {
+        GameObject go = new GameObject("EnhanceNotice", typeof(RectTransform), typeof(CanvasRenderer), typeof(Text));
+        go.transform.SetParent(enhancementPanel.transform, false);
+
+        RectTransform rt = go.GetComponent<RectTransform>();
+        rt.anchorMin = new Vector2(0.5f, 0f);
+        rt.anchorMax = new Vector2(0.5f, 0f);
+        rt.pivot = new Vector2(0.5f, 0f);
+        rt.anchoredPosition = new Vector2(0f, 10f);
+        rt.sizeDelta = new Vector2(420f, 26f);
+
+        Text t = go.GetComponent<Text>();
+        t.font = rows.Length > 0 && rows[0].currencyText != null
+            ? rows[0].currencyText.font
+            : Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+        t.fontSize = 16;
+        t.alignment = TextAnchor.MiddleCenter;
+        t.color = new Color(1f, 0.85f, 0.35f);
+        t.raycastTarget = false;
+        t.horizontalOverflow = HorizontalWrapMode.Overflow;
+        t.text = NoWeaponNotice;
+        t.enabled = false; // 기본은 숨김. RefreshAllRows()가 무기 유무에 따라 켠다.
+        return t;
     }
 
     private EnhanceRow BindRow(string rowName, ResourceType type)
@@ -204,15 +237,20 @@ public class WeaponEnhancementManager : MonoBehaviour
         if (rows == null) return;
 
         IEnhanceableWeapon heldWeapon = FindHeldWeapon();
+        bool hasWeapon = heldWeapon != null;
+
+        // 무기를 안 들고 있으면 안내 문구를 띄우고 모든 강화 버튼을 잠근다.
+        if (noticeText != null) noticeText.enabled = !hasWeapon;
 
         foreach (EnhanceRow row in rows)
         {
-            int level = heldWeapon != null ? heldWeapon.GetEnhanceLevel(row.type) : 0;
-            RefreshRow(row, level);
+            int level = hasWeapon ? heldWeapon.GetEnhanceLevel(row.type) : 0;
+            int maxLevel = hasWeapon ? heldWeapon.MaxEnhanceLevel : WeaponEnhanceUtil.MaxLevel;
+            RefreshRow(row, level, maxLevel, hasWeapon);
         }
     }
 
-    private void RefreshRow(EnhanceRow row, int level)
+    private void RefreshRow(EnhanceRow row, int level, int maxLevel, bool hasWeapon)
     {
         if (row.stepsRow != null)
         {
@@ -226,10 +264,22 @@ public class WeaponEnhancementManager : MonoBehaviour
             }
         }
 
+        bool atMax = hasWeapon && level >= maxLevel;
+
+        // 무기가 없거나 MAX 레벨이면 이 줄의 강화 버튼을 잠근다.
+        if (row.button != null) row.button.interactable = hasWeapon && !atMax;
+
         if (row.currencyText != null)
         {
-            int held = ResourceBank.GetRunHeld(row.type);
-            row.currencyText.text = $"{held}/{CostPerLevel}";
+            if (atMax)
+            {
+                row.currencyText.text = "MAX";
+            }
+            else
+            {
+                int held = ResourceBank.GetRunHeld(row.type);
+                row.currencyText.text = $"{held}/{CostPerLevel}";
+            }
         }
     }
 }
