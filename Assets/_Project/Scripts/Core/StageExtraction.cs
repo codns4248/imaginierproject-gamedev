@@ -95,8 +95,10 @@ public class StageExtraction : MonoBehaviour
 
     void HandleDeath()
     {
-        // 사망 시 파밍한(아직 확정 안 된) 자원은 잃는다 - 이건 결과 화면 유무와 무관하게 항상.
+        // 사망 = 하드 리셋: 파밍한(아직 확정 안 된) 자원 + 이번 런의 무기 강화를 전부 잃는다.
+        // (결과 화면 유무와 무관하게 항상. 층수 초기화는 아래 결과 화면 쪽/자동 복귀 쪽에서 처리.)
         ResourceBank.DiscardRun();
+        WeaponEnhanceStore.ResetForNewRun();
 
         // 결과 화면(DeathResultUI)이 씬에 있으면 층수 초기화 + 거점 복귀는 그 쪽이 담당한다
         // (플레이어가 버튼/Enter를 누를 때까지 기다렸다가 복귀).
