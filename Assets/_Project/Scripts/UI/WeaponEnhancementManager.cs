@@ -26,6 +26,11 @@ public class WeaponEnhancementManager : MonoBehaviour
     public GameObject enhancementPanel; // 무기 강화 팝업 UI 오브젝트 (EnhancementPanel)
     public PauseManager pauseManager; // ESC 상태 확인 + Time.timeScale 계산에 상태를 알려주기 위한 참조
 
+    [Header("강화 바(Step) 색")]
+    // 강화가 채워진 칸만 이 색으로 바꾼다 (프리팹 기본색보다 더 밝고 빨갛게).
+    // 아직 강화 안 된 칸은 씬/프리팹에 지정된 원래 색 그대로 두고 전혀 건드리지 않는다.
+    public Color filledStepColor = new Color(1f, 0.2f, 0.15f, 1f);
+
     private const int CostPerLevel = 5;
     private const float CostIconSize = 20f;
 
@@ -199,10 +204,9 @@ public class WeaponEnhancementManager : MonoBehaviour
                 Transform step = row.stepsRow.Find("Step_" + i);
                 if (step == null) continue;
 
-                Image img = step.GetComponent<Image>();
-                Color c = img.color;
-                c.a = i < level ? 1f : 0.3f;
-                img.color = c;
+                // 강화된 칸만 색을 칠하고, 아직 강화 안 된 칸은 원래 색 그대로 둔다.
+                if (i < level)
+                    step.GetComponent<Image>().color = filledStepColor;
             }
         }
 

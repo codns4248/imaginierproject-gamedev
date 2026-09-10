@@ -95,9 +95,17 @@ public class StageExtraction : MonoBehaviour
 
     void HandleDeath()
     {
+        // 사망 시 파밍한(아직 확정 안 된) 자원은 잃는다 - 이건 결과 화면 유무와 무관하게 항상.
         ResourceBank.DiscardRun();
-        StageProgress.ResetToFirstStage();
-        StartCoroutine(ReturnToHubAfterFade());
+
+        // 결과 화면(DeathResultUI)이 씬에 있으면 층수 초기화 + 거점 복귀는 그 쪽이 담당한다
+        // (플레이어가 버튼/Enter를 누를 때까지 기다렸다가 복귀).
+        // 결과 화면이 없는 씬에서만 예전처럼 자동으로 거점에 돌려보낸다.
+        if (FindFirstObjectByType<DeathResultUI>() == null)
+        {
+            StageProgress.ResetToFirstStage();
+            StartCoroutine(ReturnToHubAfterFade());
+        }
     }
 
     // 죽는 연출(PlayerHealth의 화면 페이드)이 끝날 때까지 기다렸다가 거점으로 보낸다.
