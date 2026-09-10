@@ -8,9 +8,10 @@ using UnityEngine.UI;
 //
 // ESC 설정 패널이 열려 있는 동안에는 V키를 무시한다.
 //
-// 강화는 거점(로비)에서만 한다 - 스테이지 도중이 아니라 영구 보관된 자원(stash)을 소모해서
-// "들고 있는"(WeaponAim.isHeld) 무기 하나의 스탯을 올린다. 강화 레벨 자체는 WeaponEnhanceStore에
-// 무기 이름 기준으로 저장돼서, MainScene에서 실제 그 무기를 쓸 때도 그대로 반영된다.
+// 강화는 스테이지(런) 안에서만 한다 - 거점에서는 V키가 아무 반응도 하지 않는다. 이번 런에 파밍한
+// 자원(ResourceBank.runHeld)을 소모해서 "들고 있는"(WeaponAim.isHeld) 무기 하나의 스탯을 올린다.
+// 강화 레벨은 WeaponEnhanceStore에 런 단위로만 유지되고, 사망/추출로 런이 끝나면 전부 초기화된다.
+// 포탈로 다음 스테이지에 넘어가는 동안에는 유지된다 (같은 씬 좌표이동).
 //
 // 참고: docs/schema.sql은 기름을 "이동속도"(플레이어 스탯)로 적어뒀고, 그건 별도의
 // permanent_upgrade_type(영구 강화)와 겹치는 부분이 있어 정리가 필요하다. 스키마 정리 전까지는
@@ -36,6 +37,10 @@ public class WeaponEnhancementManager : MonoBehaviour
 
     private bool isPanelOpen;
     private EnhanceRow[] rows;
+
+    // 강화 안 된 칸의 원래 색. BuildRows()에서 아직 아무것도 칠하기 전에 한 번 캡처해두고,
+    // RefreshRow()에서 레벨보다 높은 칸을 이 색으로 되돌린다 (런 리셋 후 빈 상태 표시용).
+    private Color defaultStepColor = Color.white;
 
     private struct EnhanceRow
     {
@@ -64,6 +69,13 @@ public class WeaponEnhancementManager : MonoBehaviour
 
     void Update()
     {
+        // 강화는 스테이지(런) 안에서만. 거점에서는 V키를 무시하고, 혹시 열린 채로 넘어왔으면 닫는다.
+        if (!StageManager.IsInStage)
+        {
+            if (isPanelOpen) SetPanelOpen(false);
+            return;
+        }
+
         if (!Keyboard.current.vKey.wasPressedThisFrame) return;
 
         // ESC 설정 패널이 열려 있으면 V키를 완전히 무시한다.
@@ -96,6 +108,11 @@ public class WeaponEnhancementManager : MonoBehaviour
 
         Button closeButton = FindDeep(enhancementPanel.transform, "ButtonX")?.GetComponent<Button>();
         if (closeButton != null) closeButton.onClick.AddListener(() => SetPanelOpen(false));
+
+        // 아직 아무 칸도 칠하기 전에 원래 색을 캡처한다 (RefreshRow에서 빈 칸 되돌릴 때 사용).
+        Transform firstStep = rows.Length > 0 && rows[0].stepsRow != null ? rows[0].stepsRow.Find("Step_0") : null;
+        Image firstStepImage = firstStep != null ? firstStep.GetComponent<Image>() : null;
+        if (firstStepImage != null) defaultStepColor = firstStepImage.color;
     }
 
     private EnhanceRow BindRow(string rowName, ResourceType type)
@@ -162,7 +179,7 @@ public class WeaponEnhancementManager : MonoBehaviour
     {
         IEnhanceableWeapon weapon = FindHeldWeapon();
         if (weapon == null || weapon.GetEnhanceLevel(type) >= weapon.MaxEnhanceLevel) return;
-        if (!ResourceBank.TrySpendStash(type, CostPerLevel)) return;
+        if (!ResourceBank.TrySpendRunResource(type, CostPerLevel)) return;
 
         weapon.ApplyEnhance(type);
         RefreshAllRows();
@@ -204,15 +221,14 @@ public class WeaponEnhancementManager : MonoBehaviour
                 Transform step = row.stepsRow.Find("Step_" + i);
                 if (step == null) continue;
 
-                // 강화된 칸만 색을 칠하고, 아직 강화 안 된 칸은 원래 색 그대로 둔다.
-                if (i < level)
-                    step.GetComponent<Image>().color = filledStepColor;
+                // 강화된 칸은 강조색, 그 위 칸은 원래 색으로 되돌린다 (런 리셋 후 빈 상태가 정확히 보이도록).
+                step.GetComponent<Image>().color = i < level ? filledStepColor : defaultStepColor;
             }
         }
 
         if (row.currencyText != null)
         {
-            int held = ResourceBank.GetStash(row.type);
+            int held = ResourceBank.GetRunHeld(row.type);
             row.currencyText.text = $"{held}/{CostPerLevel}";
         }
     }
