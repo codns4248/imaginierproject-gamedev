@@ -8,6 +8,10 @@ public interface IEnhanceableWeapon
     int MaxEnhanceLevel { get; }
     int GetEnhanceLevel(ResourceType type);
     void ApplyEnhance(ResourceType type);
+
+    // WeaponEnhanceStore의 현재 강화 레벨을 스탯에 다시 반영한다. 원본값으로 되돌린 뒤
+    // 레벨 수만큼 재적용하므로, 런 종료로 강화가 0으로 리셋된 뒤 호출해도 정확히 맞는다.
+    void ReapplyEnhancements();
 }
 
 // 각 무기 스크립트가 enhanceLevels 배열 인덱스를 통일해서 쓰기 위한 공용 유틸.
