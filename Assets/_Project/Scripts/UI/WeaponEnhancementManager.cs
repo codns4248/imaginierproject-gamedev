@@ -45,6 +45,10 @@ public class WeaponEnhancementManager : MonoBehaviour
     // 패널 상단에 코드로 생성하는 헤더 텍스트. 무기를 들고 있으면 "강화 대상: <무기>",
     // 안 들고 있으면 안내 문구를 노란색으로 표시한다.
     private Text headerText;
+
+    // 마지막으로 RefreshAllRows()가 반영한 무기. 패널이 열린 채 Q로 무기를 바꾸면 이 값과 달라지므로
+    // Update()에서 감지해 행/헤더를 새 무기 기준으로 다시 그린다 (예전엔 이전 무기 강화 상태가 그대로 남았음).
+    private MonoBehaviour lastShownWeapon;
     private const string NoWeaponNotice = "무기를 든 상태에서 강화할 수 있습니다";
     private static readonly Color HeaderNormalColor = new Color(0.9f, 0.9f, 0.9f);
     private static readonly Color HeaderWarnColor = new Color(1f, 0.85f, 0.35f);
@@ -82,6 +86,9 @@ public class WeaponEnhancementManager : MonoBehaviour
             if (isPanelOpen) SetPanelOpen(false);
             return;
         }
+
+        // 패널이 열린 채 Q로 무기를 바꾸면 강화 행/헤더를 새 무기 기준으로 다시 그린다.
+        if (isPanelOpen && !ReferenceEquals(FindHeldWeapon(), lastShownWeapon)) RefreshAllRows();
 
         if (!Keyboard.current.vKey.wasPressedThisFrame) return;
 
@@ -252,6 +259,7 @@ public class WeaponEnhancementManager : MonoBehaviour
         MonoBehaviour heldComponent = FindHeldWeapon();
         IEnhanceableWeapon heldWeapon = heldComponent as IEnhanceableWeapon;
         bool hasWeapon = heldWeapon != null;
+        lastShownWeapon = heldComponent;
 
         // 헤더: 무기를 들고 있으면 강화 대상, 아니면 안내 문구.
         if (headerText != null)
