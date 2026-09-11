@@ -23,6 +23,15 @@ public class PauseManager : MonoBehaviour
     // 있도록 "설정 또는 인벤토리 중 하나라도 열려 있는지"를 정적 플래그로 노출한다.
     public static bool IsPaused { get; private set; }
 
+    void Awake()
+    {
+        // isEscPaused가 static이라 Domain Reload를 꺼둔 상태로 플레이를 반복하면 이전 세션 값이
+        // 그대로 남아있을 수 있고, pausePanel이 씬에 켜진 채로 저장돼 있으면 그 값과 실제 패널의
+        // 활성 상태가 어긋난다(패널만 보이고 정지/조작차단은 안 되거나, 반대로 ESC를 눌러도
+        // 안 사라지는 등). WeaponEnhancementManager와 마찬가지로 시작할 땐 항상 닫힌 상태로 맞춘다.
+        SetEscPaused(false);
+    }
+
     void Update()
     {
         if (Keyboard.current.escapeKey.wasPressedThisFrame)

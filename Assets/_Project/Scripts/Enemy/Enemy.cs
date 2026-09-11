@@ -62,6 +62,15 @@ public class Enemy : MonoBehaviour
     // 특수 행동 컴포넌트가 이 값을 켜고 끄면서 Enemy.cs의 기본 추격 이동만 잠깐 빌려 쓴다.
     [HideInInspector] public bool externalMovementControl;
 
+    // true인 동안 Update()의 "플레이어 방향으로 좌우반전" 로직을 건너뛴다 (마지막 값 유지).
+    // 돌진 몬스터가 돌진 도중 플레이어를 지나쳐도 갑자기 뒤돌아보지 않게 하는 용도.
+    [HideInInspector] public bool externalFlipControl;
+
+    // 돌진 몬스터의 "돌진 대기" 예고 등, 피격 경직이 아닌 다른 이유로 테두리를 보여주고 싶을 때
+    // 특수 행동 컴포넌트가 켜고 끄는 값 (SetExternalOutline 참고). 피격 중(흰색)이 항상 우선한다.
+    private bool externalOutlineActive;
+    private Color externalOutlineColor = Color.white;
+
     void Awake()
     {
         currentHealth = maxHealth;
@@ -85,7 +94,11 @@ public class Enemy : MonoBehaviour
             go.transform.localPosition = (Vector3)(offsets[i] * outlineOffset);
 
             var outlineSr = go.AddComponent<SpriteRenderer>();
-            if (outlineMaterial != null) outlineSr.material = outlineMaterial; // 없으면 기본 머티리얼로 남고, 그냥 원본 색으로 보임
+            // renderer.color로 색을 덮어씌우려 하면 SRP 배칭 때문에 값이 무시되고 항상 머티리얼
+            // 기본색(흰색)으로만 렌더링되는 문제가 있었다 (돌진 몬스터 노란 테두리가 흰색으로 보이던 원인).
+            // 그래서 공유 머티리얼을 그대로 쓰지 않고 렌더러마다 복제된 인스턴스를 만들어서,
+            // 이후 UpdateHitOutline()에서 material.color로 직접 써야 확실히 반영된다.
+            if (outlineMaterial != null) outlineSr.material = new Material(outlineMaterial);
             outlineSr.sortingOrder = spriteRenderer.sortingOrder - 1;
             outlineSr.enabled = false;
 
@@ -114,21 +127,30 @@ public class Enemy : MonoBehaviour
 
         // 몬스터 기준 플레이어가 오른쪽에 있으면 좌우 반전, 왼쪽에 있으면 원본 그대로.
         // (스프라이트 원본이 왼쪽을 보고 있는 모양이라 기본값 = 왼쪽 방향)
-        if (player.position.x > transform.position.x)
-            spriteRenderer.flipX = true;
-        else if (player.position.x < transform.position.x)
-            spriteRenderer.flipX = false;
+        // externalFlipControl이 켜진 동안은 건드리지 않고 마지막 방향을 그대로 유지한다
+        // (돌진 몬스터가 돌진 도중 플레이어를 지나쳐도 뒤돌아보지 않게 하는 용도).
+        if (!externalFlipControl)
+        {
+            if (player.position.x > transform.position.x)
+                spriteRenderer.flipX = true;
+            else if (player.position.x < transform.position.x)
+                spriteRenderer.flipX = false;
+        }
 
         UpdateHitOutline();
     }
 
-    // 피격 경직 중(hitStunTimer > 0)에만 흰색 테두리를 보여준다. 애니메이션이 그동안 멈춰있으므로
+    // 피격 경직 중(hitStunTimer > 0)이면 흰색 테두리를, 그렇지 않은데 외부에서 테두리를 요청했으면
+    // (예: 돌진 몬스터의 돌진 대기 예고) 그 색으로 테두리를 보여준다. 애니메이션이 멈춰있는 동안이므로
     // 프레임/좌우반전을 매번 본체 스프라이트와 맞춰주기만 하면 된다.
     private void UpdateHitOutline()
     {
         if (isDying) return; // 사망 연출 중에는 테두리를 아예 표시하지 않는다 (Die()에서 이미 꺼둠)
 
-        bool visible = hitStunTimer > 0f;
+        bool hitStun = hitStunTimer > 0f;
+        bool visible = hitStun || externalOutlineActive;
+        Color color = hitStun ? Color.white : externalOutlineColor;
+
         for (int i = 0; i < hitOutlineRenderers.Length; i++)
         {
             hitOutlineRenderers[i].enabled = visible;
@@ -136,8 +158,17 @@ public class Enemy : MonoBehaviour
             {
                 hitOutlineRenderers[i].sprite = spriteRenderer.sprite;
                 hitOutlineRenderers[i].flipX = spriteRenderer.flipX;
+                hitOutlineRenderers[i].material.color = color; // renderer.color는 SRP 배칭 때문에 무시된다
             }
         }
+    }
+
+    // 피격 경직이 아닌 다른 이유로 테두리를 보이거나 숨길 때 외부 컴포넌트가 호출한다.
+    // 피격으로 인한 흰색 테두리가 항상 우선하며, 이 값은 그 외의 경우에만 적용된다.
+    public void SetExternalOutline(bool active, Color color)
+    {
+        externalOutlineActive = active;
+        externalOutlineColor = color;
     }
 
     void FixedUpdate()
