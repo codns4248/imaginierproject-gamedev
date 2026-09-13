@@ -23,7 +23,7 @@ public class StageExtraction : MonoBehaviour
     };
     private static readonly Color ExtractionPortalColor = new Color(1f, 1f, 1f, 0.5f); // 반투명 흰색
 
-    // 추출 포탈이 뜰 때 일정 확률로 같이 등장하는 떠돌이 상인 (거점 앞에 있는 것과 같은 오브젝트를 복제).
+    // 스테이지 클리어마다(추출 포탈 유무와 무관) 일정 확률로 등장하는 떠돌이 상인 (거점 앞에 있는 것과 같은 오브젝트를 복제).
     private const float MerchantSpawnChance = 0.3f;
 
     private PlayerHealth playerHealth;
@@ -79,21 +79,22 @@ public class StageExtraction : MonoBehaviour
         {
             float x = center.x + halfExtent - 2f;
             CreatePortal(group.transform, new Vector2(x, center.y), null, ExtractionPortalColor);
-
-            // 추출 포탈이 뜰 때마다 확정으로 등장하는 게 아니라, 그중 일부만 상인이 같이 나타난다.
-            if (Random.value < MerchantSpawnChance)
-                SpawnMerchant(group.transform, center, halfExtent);
         }
+
+        // 추출 포탈 유무와 무관하게 스테이지를 클리어할 때마다 확률적으로 상인이 나타난다.
+        if (Random.value < MerchantSpawnChance)
+            SpawnMerchant(group.transform, center, halfExtent);
     }
 
-    // 구역 좌측 아래에 상인+카펫을 띄운다. 원본(거점 앞) 오브젝트를 복제하고, 상인과 카펫의
+    // 구역 왼쪽 가장자리, 추출 포탈과 같은 높이(y)에 상인+카펫을 띄운다 (추출 포탈은 오른쪽,
+    // 상인은 왼쪽이라 서로 마주보는 배치). 원본(거점 앞) 오브젝트를 복제하고, 상인과 카펫의
     // 원래 상대 위치(오프셋)를 그대로 유지해서 카펫 위에 서 있는 배치가 흐트러지지 않게 한다.
     private void SpawnMerchant(Transform parent, Vector2 center, float halfExtent)
     {
         if (merchantTemplate == null || merchantCarpetTemplate == null) return;
 
         Vector3 offset = merchantTemplate.transform.position - merchantCarpetTemplate.transform.position;
-        Vector3 carpetPos = new Vector3(center.x - halfExtent + 2f, center.y - halfExtent + 2f, 0f);
+        Vector3 carpetPos = new Vector3(center.x - halfExtent + 2f, center.y, 0f);
 
         GameObject carpet = Instantiate(merchantCarpetTemplate, parent);
         carpet.name = "상인_카펫";
@@ -102,6 +103,13 @@ public class StageExtraction : MonoBehaviour
         GameObject merchant = Instantiate(merchantTemplate, parent);
         merchant.name = "상인";
         merchant.transform.position = carpetPos + offset;
+
+        // 원본 둘 다 sortingOrder가 같아서(0) 그리는 순서가 들쭉날쭉했다.
+        // 상인이 카펫에 가려지지 않도록 상인을 항상 한 단계 앞에 그리게 고정한다.
+        SpriteRenderer carpetSr = carpet.GetComponent<SpriteRenderer>();
+        SpriteRenderer merchantSr = merchant.GetComponent<SpriteRenderer>();
+        int carpetOrder = carpetSr != null ? carpetSr.sortingOrder : 0;
+        if (merchantSr != null) merchantSr.sortingOrder = carpetOrder + 1;
     }
 
     private void CreatePortal(Transform parent, Vector2 position, string targetTheme, Color color)
