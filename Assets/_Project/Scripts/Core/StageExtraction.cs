@@ -23,8 +23,13 @@ public class StageExtraction : MonoBehaviour
     };
     private static readonly Color ExtractionPortalColor = new Color(1f, 1f, 1f, 0.5f); // 반투명 흰색
 
+    // 추출 포탈이 뜰 때 일정 확률로 같이 등장하는 떠돌이 상인 (거점 앞에 있는 것과 같은 오브젝트를 복제).
+    private const float MerchantSpawnChance = 0.3f;
+
     private PlayerHealth playerHealth;
     private GameObject hubPortalTemplate;
+    private GameObject merchantTemplate;
+    private GameObject merchantCarpetTemplate;
 
     void Start()
     {
@@ -38,6 +43,11 @@ public class StageExtraction : MonoBehaviour
         StagePortal hubPortal = FindFirstObjectByType<StagePortal>();
         hubPortalTemplate = hubPortal != null ? hubPortal.gameObject : null;
         if (hubPortalTemplate == null) Debug.LogWarning("StageExtraction: 거점 포탈(StagePortal)을 찾지 못해 클리어 포탈을 만들 수 없음");
+
+        merchantTemplate = GameObject.Find("상인");
+        merchantCarpetTemplate = GameObject.Find("상인_카펫");
+        if (merchantTemplate == null || merchantCarpetTemplate == null)
+            Debug.LogWarning("StageExtraction: 상인/상인_카펫 오브젝트를 찾지 못해 상인 등장 연출을 만들 수 없음");
     }
 
     void HandleStageClear()
@@ -69,7 +79,29 @@ public class StageExtraction : MonoBehaviour
         {
             float x = center.x + halfExtent - 2f;
             CreatePortal(group.transform, new Vector2(x, center.y), null, ExtractionPortalColor);
+
+            // 추출 포탈이 뜰 때마다 확정으로 등장하는 게 아니라, 그중 일부만 상인이 같이 나타난다.
+            if (Random.value < MerchantSpawnChance)
+                SpawnMerchant(group.transform, center, halfExtent);
         }
+    }
+
+    // 구역 좌측 아래에 상인+카펫을 띄운다. 원본(거점 앞) 오브젝트를 복제하고, 상인과 카펫의
+    // 원래 상대 위치(오프셋)를 그대로 유지해서 카펫 위에 서 있는 배치가 흐트러지지 않게 한다.
+    private void SpawnMerchant(Transform parent, Vector2 center, float halfExtent)
+    {
+        if (merchantTemplate == null || merchantCarpetTemplate == null) return;
+
+        Vector3 offset = merchantTemplate.transform.position - merchantCarpetTemplate.transform.position;
+        Vector3 carpetPos = new Vector3(center.x - halfExtent + 2f, center.y - halfExtent + 2f, 0f);
+
+        GameObject carpet = Instantiate(merchantCarpetTemplate, parent);
+        carpet.name = "상인_카펫";
+        carpet.transform.position = carpetPos;
+
+        GameObject merchant = Instantiate(merchantTemplate, parent);
+        merchant.name = "상인";
+        merchant.transform.position = carpetPos + offset;
     }
 
     private void CreatePortal(Transform parent, Vector2 position, string targetTheme, Color color)
