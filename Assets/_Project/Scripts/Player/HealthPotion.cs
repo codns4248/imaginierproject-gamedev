@@ -9,8 +9,10 @@ public class HealthPotion : MonoBehaviour
 {
     public int healAmount = 2;
 
-    // 아직 파밍/픽업으로 회복약을 얻는 시스템이 없어서, 테스트용으로 기본 개수를 들고 시작하게 해뒀다.
-    public int potionCount = 2;
+    // 매 런 시작(그리고 사망 시 초기화) 기본 소지 개수. 상인에게 사서 늘릴 수 있지만,
+    // 사망하면 이번 런에서 늘어난 만큼은 잃고 이 개수로 되돌아간다 (자원 소실과 같은 규칙).
+    private const int StartingPotionCount = 2;
+    public int potionCount = StartingPotionCount;
 
     private PlayerHealth playerHealth;
 
@@ -47,6 +49,13 @@ public class HealthPotion : MonoBehaviour
     {
         if (amount <= 0) return;
         potionCount += amount;
+        OnPotionCountChanged?.Invoke();
+    }
+
+    // 사망 시 호출: 상인에게 사서 늘린 분을 포함해 전부 잃고 기본 개수로 되돌아간다.
+    public void ResetToStarting()
+    {
+        potionCount = StartingPotionCount;
         OnPotionCountChanged?.Invoke();
     }
 }

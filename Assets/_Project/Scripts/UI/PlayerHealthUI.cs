@@ -24,6 +24,10 @@ public class PlayerHealthUI : MonoBehaviour
     void OnEnable()
     {
         if (playerHealth != null) playerHealth.OnHealthChanged += Refresh;
+
+        // 꺼져 있는 동안(거점 체류 등) 체력이 바뀌었을 수 있으니, 다시 켜질 때 바로 최신 상태로 맞춘다.
+        // 안 그러면 사망 순간(하트 전부 빈 상태)이 그대로 얼어붙어 있다가 다음 스테이지에서도 그렇게 보인다.
+        Refresh();
     }
 
     void OnDisable()
