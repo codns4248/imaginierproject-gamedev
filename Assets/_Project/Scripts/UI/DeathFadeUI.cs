@@ -34,10 +34,12 @@ public class DeathFadeUI : MonoBehaviour
 
     private IEnumerator FadeRoutine(float duration)
     {
+        // unscaled를 쓴다: 페이드 도중 DeathResultUI가 Time.timeScale을 0으로 만드는데,
+        // 스케일 시간을 쓰면 그 순간 deltaTime이 0이 되어 암전이 중간값(반투명)에서 영영 멈춰버린다.
         float elapsed = 0f;
         while (elapsed < duration)
         {
-            elapsed += Time.deltaTime;
+            elapsed += Time.unscaledDeltaTime;
             SetAlpha(Mathf.Clamp01(elapsed / duration));
             yield return null;
         }
