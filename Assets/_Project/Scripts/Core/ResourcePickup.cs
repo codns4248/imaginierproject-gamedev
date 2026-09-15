@@ -73,8 +73,28 @@ public class ResourcePickup : MonoBehaviour
     /// <summary>지정 위치에 랜덤 자원 타입 드랍 아이템을 스폰한다. Enemy.Die() 등에서 호출한다.</summary>
     public static void SpawnRandomDrop(Vector3 position)
     {
-        ResourceType type = (ResourceType)Random.Range(0, 5);
+        SpawnDropOfType(position, (ResourceType)Random.Range(0, 5));
+    }
 
+    /// <summary>biasedChance 확률로 biasedType이 드랍되고, 그 외엔 biasedType을 뺀 나머지 4종류 중 균등 랜덤.
+    /// 몬스터별로 특정 자원이 잘 나오게 만들 때 쓴다 (예: 공장 몬스터는 구리가 80% 확률로 나오게).</summary>
+    public static void SpawnRandomDrop(Vector3 position, ResourceType biasedType, float biasedChance)
+    {
+        ResourceType type;
+        if (Random.value < biasedChance)
+        {
+            type = biasedType;
+        }
+        else
+        {
+            type = biasedType;
+            while (type == biasedType) type = (ResourceType)Random.Range(0, 5);
+        }
+        SpawnDropOfType(position, type);
+    }
+
+    private static void SpawnDropOfType(Vector3 position, ResourceType type)
+    {
         GameObject go = new GameObject($"{type}Pickup");
         go.transform.position = position;
 

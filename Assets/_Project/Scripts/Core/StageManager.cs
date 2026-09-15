@@ -43,6 +43,11 @@ public static class StageManager
     public static float CurrentZoneHalfExtent { get; private set; }
     public static string CurrentTheme { get; private set; }
 
+    // 모든 몬스터 종류가 섞여 나오는 특수 구역 - restrictToTheme이 지정된 스포너도 여기서는 전부 켜진다
+    // (SetInStage 참고). 대신 이 맵에서는 자원 드랍 확률이 평소의 1/4로 낮다 (Enemy.Die()가 참고).
+    private const string MixedMonsterTheme = "생각의 방";
+    public static float ResourceDropRateMultiplier => CurrentTheme == MixedMonsterTheme ? 0.25f : 1f;
+
     public static void EnterRandomStage()
     {
         EnterZone(stages[Random.Range(0, stages.Length)]);
@@ -65,7 +70,7 @@ public static class StageManager
     private static void EnterZone(Zone zone)
     {
         MoveTo(zone.center, zone.halfExtent);
-        SetInStage(true, zone.center, zone.halfExtent);
+        SetInStage(true, zone.center, zone.halfExtent, zone.theme);
         CurrentZoneCenter = zone.center;
         CurrentZoneHalfExtent = zone.halfExtent;
         CurrentTheme = zone.theme;
@@ -77,7 +82,7 @@ public static class StageManager
     public static void ReturnToHub()
     {
         MoveTo(hub.center, hub.halfExtent);
-        SetInStage(false, hub.center, hub.halfExtent);
+        SetInStage(false, hub.center, hub.halfExtent, hub.theme);
         CurrentZoneCenter = hub.center;
         CurrentZoneHalfExtent = hub.halfExtent;
         CurrentTheme = hub.theme;
@@ -121,15 +126,20 @@ public static class StageManager
     }
 
     // 전투 스포너 on/off + 체력바 표시 여부를 한 번에 맞춘다. 거점에서는 꺼지고, 스테이지에서는 켜진다.
-    private static void SetInStage(bool inStage, Vector2 center, float halfExtent)
+    private static void SetInStage(bool inStage, Vector2 center, float halfExtent, string theme)
     {
         IsInStage = inStage;
 
         foreach (EnemySpawner spawner in Object.FindObjectsByType<EnemySpawner>(FindObjectsSortMode.None))
         {
+            // restrictToTheme이 비어있으면 예전처럼 모든 스테이지에서 스폰. 값이 있으면 지금 구역의
+            // 테마와 같을 때만 켜진다 (예: 공장 전용 몬스터 스포너는 다른 맵에서는 비활성 상태로 남는다).
+            // MixedMonsterTheme(생각의 방)에서는 restrictToTheme과 상관없이 전부 켜진다.
+            bool matchesTheme = string.IsNullOrEmpty(spawner.restrictToTheme) || spawner.restrictToTheme == theme || theme == MixedMonsterTheme;
+
             spawner.mapCenter = center;
             spawner.mapHalfExtent = halfExtent;
-            spawner.enabled = inStage;
+            spawner.enabled = inStage && matchesTheme;
         }
 
         // GameObject.Find는 비활성 오브젝트를 찾지 못하므로, 항상 켜져 있는 Canvas를 통해 찾는다.

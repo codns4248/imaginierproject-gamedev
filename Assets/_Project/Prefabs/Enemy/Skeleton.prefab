@@ -187,8 +187,11 @@ MonoBehaviour:
   damageNumberPrefab: {fileID: 6004782567351073867, guid: 8bdcd309ec145a242b31770788451034, type: 3}
   minResourceDrops: 1
   maxResourceDrops: 1
+  biasedDropChance: 0.8
+  biasedDropType: 1
   externalMovementControl: 0
   externalFlipControl: 0
+  externalDeathAnimation: 0
 --- !u!114 &7131900889296205563
 MonoBehaviour:
   m_ObjectHideFlags: 0

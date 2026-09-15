@@ -175,6 +175,7 @@ MonoBehaviour:
   contactDamage: 1
   separationRadius: 0.6
   separationStrength: 1.5
+  mapCenter: {x: 0, y: 0}
   mapHalfExtent: 20
   boundaryMargin: 0.3
   hitStunDuration: 0.2
@@ -186,6 +187,11 @@ MonoBehaviour:
   damageNumberPrefab: {fileID: 6004782567351073867, guid: 8bdcd309ec145a242b31770788451034, type: 3}
   minResourceDrops: 1
   maxResourceDrops: 5
+  biasedDropChance: 0.8
+  biasedDropType: 3
+  externalMovementControl: 0
+  externalFlipControl: 0
+  externalDeathAnimation: 0
 --- !u!114 &7956814206703596503
 MonoBehaviour:
   m_ObjectHideFlags: 0

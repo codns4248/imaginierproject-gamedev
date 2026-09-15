@@ -40,6 +40,10 @@ public class Enemy : MonoBehaviour
     public int minResourceDrops = 1; // 죽을 때 드랍되는 자원 개수의 최소값
     public int maxResourceDrops = 1; // 죽을 때 드랍되는 자원 개수의 최대값 (기본은 항상 1개, 엘리트 등은 더 크게 설정)
 
+    [Header("드랍 자원 편향 (0이면 5종류 균등, 0보다 크면 biasedDropType이 이 확률로 나오고 나머지는 그 확률을 뺀 나머지를 다른 4종류가 나눠 가짐)")]
+    [Range(0f, 1f)] public float biasedDropChance = 0f;
+    public ResourceType biasedDropType;
+
     private float currentHealth;
     private Rigidbody2D rb;
     private Transform player;
@@ -81,6 +85,15 @@ public class Enemy : MonoBehaviour
     private bool externalOutlineActive;
     private Color externalOutlineColor = Color.white;
 
+    // true면 Die()가 기본 페이드아웃(FadeOutAndDestroy)을 실행하지 않는다. 대신 OnDeathStart를 구독한
+    // 별도 컴포넌트(예: ExplosionDeathAnimation)가 자기만의 사망 연출을 재생하고 스스로 Destroy(gameObject)를
+    // 호출해야 한다. RangedEnemyAI 등과 같은 "특수 컴포넌트가 기본 동작을 잠깐 빌려 쓴다" 패턴.
+    [HideInInspector] public bool externalDeathAnimation;
+
+    // Die()가 시작되는 시점(자원/무기 드랍 이후, 기본 페이드아웃 시작 직전)에 한 번 호출된다.
+    // 커스텀 사망 연출 컴포넌트가 이걸 구독해서 자기 애니메이션을 시작한다.
+    public event System.Action OnDeathStart;
+
     void Awake()
     {
         currentHealth = maxHealth;
@@ -88,6 +101,16 @@ public class Enemy : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteAnimator = GetComponent<SpriteAnimator>();
         CreateHitOutline();
+    }
+
+    // 스폰 직후(EnemySpawner)에 스테이지 난이도에 따라 체력을 올릴 때 쓴다. Awake()가 이미 원래
+    // maxHealth 기준으로 currentHealth를 채운 뒤라, 최대/현재 체력을 같은 비율로 같이 올려줘야 한다
+    // (이 시점엔 항상 풀피 상태이므로 currentHealth = maxHealth로 그냥 다시 채워도 된다).
+    public void ApplyHealthMultiplier(float multiplier)
+    {
+        if (multiplier <= 0f) return;
+        maxHealth *= multiplier;
+        currentHealth = maxHealth;
     }
 
     // 피격 시 잠깐 보여줄 흰색 테두리를 만든다. 원본 스프라이트를 좌우상하로 살짝 떨어뜨려
@@ -305,7 +328,13 @@ public class Enemy : MonoBehaviour
         int dropCount = Random.Range(minResourceDrops, maxResourceDrops + 1);
         for (int i = 0; i < dropCount; i++)
         {
-            ResourcePickup.SpawnRandomDrop(transform.position);
+            // 특정 맵(생각의 방)은 자원 드랍 확률 자체가 평소보다 낮다. 그 외 맵은 배율이 1이라 항상 드랍된다.
+            if (Random.value > StageManager.ResourceDropRateMultiplier) continue;
+
+            if (biasedDropChance > 0f)
+                ResourcePickup.SpawnRandomDrop(transform.position, biasedDropType, biasedDropChance);
+            else
+                ResourcePickup.SpawnRandomDrop(transform.position);
         }
 
         // 낮은 확률(1%)로 무기 아이템도 별도로 드랍한다.
@@ -313,13 +342,17 @@ public class Enemy : MonoBehaviour
 
         if (spriteAnimator != null) spriteAnimator.enabled = false; // 현재 프레임에 고정
 
-        // 죽는 순간 흰색 테두리는 바로 꺼서, 사망 연출(페이드아웃) 동안에는 아예 보이지 않게 한다.
+        // 죽는 순간 흰색 테두리는 바로 꺼서, 사망 연출 동안에는 아예 보이지 않게 한다.
         for (int i = 0; i < hitOutlineRenderers.Length; i++)
         {
             hitOutlineRenderers[i].enabled = false;
         }
 
-        StartCoroutine(FadeOutAndDestroy());
+        OnDeathStart?.Invoke();
+
+        // 커스텀 사망 연출(폭발 애니메이션 등)을 재생하는 컴포넌트가 있으면 기본 페이드아웃은 건너뛴다 -
+        // 그 컴포넌트가 애니메이션이 끝난 뒤 직접 Destroy(gameObject)를 호출해야 한다.
+        if (!externalDeathAnimation) StartCoroutine(FadeOutAndDestroy());
     }
 
     private IEnumerator FadeOutAndDestroy()

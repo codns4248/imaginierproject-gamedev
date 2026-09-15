@@ -9,6 +9,9 @@ public class EnemySpawner : MonoBehaviour
     public Vector2 mapCenter = Vector2.zero; // 맵 경계 상자의 중심 월드 좌표
     public float mapHalfExtent = 20f; // 맵 경계. Player_Movement의 mapHalfExtent와 맞춰야 한다
 
+    [Tooltip("비워두면 모든 스테이지에서 스폰. 값을 넣으면 StageManager.CurrentTheme이 이 이름과 같을 때만 이 스포너가 켜진다 (StageManager.SetInStage 참고).")]
+    public string restrictToTheme = "";
+
     private Camera mainCamera;
     private float timer;
 
@@ -40,6 +43,9 @@ public class EnemySpawner : MonoBehaviour
         {
             enemy.mapCenter = mapCenter;
             enemy.mapHalfExtent = mapHalfExtent;
+
+            // 스테이지 진행에 따른 난이도 상승 - 지금은 체력만 실제로 늘어난다 (MonsterDifficulty 참고).
+            enemy.ApplyHealthMultiplier(MonsterDifficulty.HealthMultiplier);
         }
     }
 
