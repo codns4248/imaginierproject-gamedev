@@ -334,6 +334,12 @@ public class StageExtraction : MonoBehaviour
         HealthPotion potion = FindFirstObjectByType<HealthPotion>();
         if (potion != null) potion.ResetToStarting();
 
+        // 필드/상인에게서 얻은 무기도 자원과 같은 규칙: 처음부터 들고 있던 무기(슬롯 0) 하나만
+        // 남기고 전부 사라진다. 강화 초기화보다 먼저 해서, 어차피 사라질 무기의 스탯을 되돌리는
+        // 낭비를 피한다.
+        WeaponSwitcher weaponSwitcher = FindFirstObjectByType<WeaponSwitcher>();
+        if (weaponSwitcher != null) weaponSwitcher.ResetToStartingWeapon();
+
         // 무기 강화도 사망하면 전부 초기화한다. 저장소(WeaponEnhanceStore)를 지우는 것만으론
         // 부족한데, 거점 복귀가 씬 재로드가 아니라 좌표 이동이라 이미 만들어진 무기 인스턴스는
         // Awake()를 다시 타지 않기 때문 - 그래서 지금 씬에 존재하는 무기들의 스탯도 직접 되돌린다.
