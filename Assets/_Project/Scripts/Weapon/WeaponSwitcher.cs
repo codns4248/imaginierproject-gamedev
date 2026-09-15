@@ -2,9 +2,9 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 // 플레이어가 가질 수 있는 무기 슬롯(최대 5칸)을 관리한다.
-// Q를 누르면 1 -> 2 -> 3 -> 4 -> 5 -> 1 순서로 다음 슬롯으로 넘어가고,
-// 그 슬롯의 무기를 "들고 있는" 상태로 바꾼다(WeaponAim.SetHeld).
-// 슬롯이 비어있으면(연결된 무기가 없으면) 아무것도 들지 않은 "빈손" 상태가 된다.
+// Q를 누르면 1 -> 2 -> 3 -> 4 -> 5 -> 1 순서로 다음 슬롯을 검사하되, 비어있는 슬롯은 건너뛰고
+// 무기가 실제로 있는 슬롯에서만 멈춘다(CycleToNextWeapon 참고). 슬롯이 비어있으면(연결된 무기가
+// 없으면) 아무것도 들지 않은 "빈손" 상태가 된다.
 //
 // 예전에는 선택되지 않은 무기를 SetActive(false)로 완전히 꺼뒀지만, 이제는 선택되지 않은 무기도
 // 자동공격을 위해 오브젝트/스크립트가 계속 켜져 있어야 하므로 항상 active 상태로 두고
@@ -32,8 +32,7 @@ public class WeaponSwitcher : MonoBehaviour
         // 열려있는 동안에도 Q로 무기를 바꿔가며 다른 무기를 강화할 수 있어야 하기 때문.
         if (!PauseManager.IsEscPaused && Keyboard.current.qKey.wasPressedThisFrame)
         {
-            currentIndex = (currentIndex + 1) % weaponSlots.Length;
-            ApplyCurrentSlot();
+            CycleToNextWeapon();
         }
 
         // 줍기/버리기는 강화 팝업이 떠 있을 때도 막는다(패널 보면서 바닥 무기를 만질 이유가 없음).
@@ -52,6 +51,34 @@ public class WeaponSwitcher : MonoBehaviour
         {
             DropCurrentWeapon();
         }
+    }
+
+    // Q 입력 처리: currentIndex 다음 슬롯부터 한 바퀴 돌며 무기가 있는 첫 슬롯을 찾아 장착한다.
+    // 빈 슬롯은 그냥 건너뛴다 - 예전엔 인덱스만 +1 하고 ApplyCurrentSlot()을 불러서, 빈 슬롯을
+    // 선택한 채로 "빈손" 상태가 되는 게 정상이었다. 무기가 하나도 없으면(FindNextOccupiedSlot이
+    // -1) 아무 것도 하지 않고 조용히 끝낸다(요구사항: 무기 0개일 때 무한루프/오류 없이 안전 종료).
+    private void CycleToNextWeapon()
+    {
+        int next = FindNextOccupiedSlot(currentIndex);
+        if (next < 0) return; // 무기가 하나도 없음 - 빈손 상태 그대로 유지
+
+        currentIndex = next;
+        ApplyCurrentSlot();
+    }
+
+    // fromIndex 바로 다음 슬롯부터 한 바퀴(최대 weaponSlots.Length번) 돌며 무기가 있는 첫 슬롯의
+    // 인덱스를 찾는다. fromIndex 자신도 마지막 후보로 포함되므로, 무기가 정확히 1개뿐이고 그게
+    // 지금 들고 있는 무기라면(혹은 currentIndex 슬롯이 비어버렸어도 다른 유효한 무기가 없다면)
+    // 제자리로 돌아와 같은 결과가 된다. 전부 비어있으면 -1.
+    private int FindNextOccupiedSlot(int fromIndex)
+    {
+        int length = weaponSlots.Length;
+        for (int step = 1; step <= length; step++)
+        {
+            int idx = (fromIndex + step) % length;
+            if (weaponSlots[idx] != null) return idx;
+        }
+        return -1;
     }
 
     private void TryPickUpNearestWeapon()
@@ -102,6 +129,21 @@ public class WeaponSwitcher : MonoBehaviour
 
         weaponSlots[currentIndex] = null;
         Destroy(current);
+        ApplyCurrentSlot();
+    }
+
+    // 사망 시 호출: 0번 슬롯(처음부터 들고 있던 무기)만 남기고, 필드에서 줍거나 상인에게 산
+    // 나머지 무기는 전부 사라진다 (자원/회복약/무기강화와 같은 규칙 - 이번 런에서 얻은 건 잃는다).
+    public void ResetToStartingWeapon()
+    {
+        for (int i = 1; i < weaponSlots.Length; i++)
+        {
+            if (weaponSlots[i] == null) continue;
+            Destroy(weaponSlots[i]);
+            weaponSlots[i] = null;
+        }
+
+        currentIndex = 0;
         ApplyCurrentSlot();
     }
 
