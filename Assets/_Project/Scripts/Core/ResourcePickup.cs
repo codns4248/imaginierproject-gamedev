@@ -31,8 +31,9 @@ public class ResourcePickup : MonoBehaviour
         new Color(0.85f, 0.5f, 0.2f),   // Copper
         new Color(0.3f, 0.9f, 0.3f),    // Chemical
         new Color(0.15f, 0.15f, 0.15f), // Oil
+        new Color(0.9f, 0.75f, 0.15f),  // Rare (금색, 상인 전용이라 눈에 띄게)
     };
-    private static readonly Sprite[] fallbackSprites = new Sprite[5];
+    private static readonly Sprite[] fallbackSprites = new Sprite[6];
 
     // 자원 타입별 실제 아이콘 세트. Resources 폴더에서 한 번만 불러와 캐싱한다.
     private static ResourceIconSet iconSet;

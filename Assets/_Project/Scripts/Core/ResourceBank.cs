@@ -10,7 +10,7 @@ using UnityEngine;
 //             (CLAUDE.md의 player_resource / expedition_resource 이원 구조를 그대로 반영).
 public static class ResourceBank
 {
-    private const int TypeCount = 5;
+    private const int TypeCount = 6;
 
     private static readonly int[] stash = new int[TypeCount];
     private static readonly int[] runHeld = new int[TypeCount];
@@ -95,9 +95,10 @@ public static class ResourceBank
         try
         {
             SaveData data = JsonUtility.FromJson<SaveData>(File.ReadAllText(SavePath));
-            if (data?.stash == null || data.stash.Length != TypeCount) return;
+            if (data?.stash == null) return;
 
-            Array.Copy(data.stash, stash, TypeCount);
+            // 자원 종류가 늘어난(Rare 추가) 이전 세이브 파일도 겹치는 만큼은 그대로 살린다.
+            Array.Copy(data.stash, stash, Mathf.Min(data.stash.Length, TypeCount));
             OnChanged?.Invoke();
         }
         catch (Exception e)

@@ -47,6 +47,16 @@ public class Enemy : MonoBehaviour
     private SpriteAnimator spriteAnimator;
     private SpriteRenderer[] hitOutlineRenderers;
 
+    // 4개 테두리 렌더러가 공유하는 머티리얼 인스턴스 하나 (예전엔 렌더러마다 new Material 4개씩
+    // 만들어서 적 1마리당 4개 - 적이 많으면 SRP 배칭이 깨지고 OnDestroy에서 안 지워 누수됐다).
+    // 4개 테두리는 항상 같은 색이라 인스턴스 하나를 공유하고 색도 한 번만 쓰면 된다.
+    private Material outlineMat;
+
+    // 겹침 방지(분리) 계산용. 예전엔 매 FixedUpdate마다 살아있는 모든 적을 순회(O(n^2))했는데,
+    // 적이 수백이면 프레임이 무너진다. 물리 브로드페이즈(OverlapCircle)로 반경 안 후보만 뽑아 쓴다.
+    private static readonly Collider2D[] separationBuf = new Collider2D[24];
+    private static ContactFilter2D separationFilter = new ContactFilter2D { useTriggers = true };
+
     private float hitStunTimer;
     private Vector2 knockbackVelocity;
     private bool isDying; // Die()가 한 번 호출된 뒤 true. 이후 이동/공격/추가 피격을 전부 무시한다.
@@ -87,6 +97,10 @@ public class Enemy : MonoBehaviour
         Vector2[] offsets = { Vector2.left, Vector2.right, Vector2.up, Vector2.down };
         hitOutlineRenderers = new SpriteRenderer[offsets.Length];
 
+        // 이 적 전용 머티리얼 인스턴스 하나. renderer.color는 SRP 배칭 때문에 무시되므로 색은
+        // UpdateHitOutline()에서 이 머티리얼에 직접 쓴다. 4개 렌더러가 같은 인스턴스를 공유한다.
+        if (outlineMaterial != null) outlineMat = new Material(outlineMaterial);
+
         for (int i = 0; i < offsets.Length; i++)
         {
             GameObject go = new GameObject("HitOutline");
@@ -94,11 +108,7 @@ public class Enemy : MonoBehaviour
             go.transform.localPosition = (Vector3)(offsets[i] * outlineOffset);
 
             var outlineSr = go.AddComponent<SpriteRenderer>();
-            // renderer.color로 색을 덮어씌우려 하면 SRP 배칭 때문에 값이 무시되고 항상 머티리얼
-            // 기본색(흰색)으로만 렌더링되는 문제가 있었다 (돌진 몬스터 노란 테두리가 흰색으로 보이던 원인).
-            // 그래서 공유 머티리얼을 그대로 쓰지 않고 렌더러마다 복제된 인스턴스를 만들어서,
-            // 이후 UpdateHitOutline()에서 material.color로 직접 써야 확실히 반영된다.
-            if (outlineMaterial != null) outlineSr.material = new Material(outlineMaterial);
+            if (outlineMat != null) outlineSr.sharedMaterial = outlineMat; // .material은 또 인스턴스를 뜨므로 sharedMaterial로 직접 지정
             outlineSr.sortingOrder = spriteRenderer.sortingOrder - 1;
             outlineSr.enabled = false;
 
@@ -119,6 +129,7 @@ public class Enemy : MonoBehaviour
     void OnDestroy()
     {
         EnemyManager.Unregister(this);
+        if (outlineMat != null) Destroy(outlineMat); // 인스턴스 머티리얼은 직접 지워야 누수되지 않는다
     }
 
     void Update()
@@ -151,6 +162,9 @@ public class Enemy : MonoBehaviour
         bool visible = hitStun || externalOutlineActive;
         Color color = hitStun ? Color.white : externalOutlineColor;
 
+        // 색은 공유 머티리얼 인스턴스에 한 번만 쓴다 (renderer.color는 SRP 배칭 때문에 무시됨).
+        if (visible && outlineMat != null) outlineMat.color = color;
+
         for (int i = 0; i < hitOutlineRenderers.Length; i++)
         {
             hitOutlineRenderers[i].enabled = visible;
@@ -158,7 +172,6 @@ public class Enemy : MonoBehaviour
             {
                 hitOutlineRenderers[i].sprite = spriteRenderer.sprite;
                 hitOutlineRenderers[i].flipX = spriteRenderer.flipX;
-                hitOutlineRenderers[i].material.color = color; // renderer.color는 SRP 배칭 때문에 무시된다
             }
         }
     }
@@ -206,16 +219,25 @@ public class Enemy : MonoBehaviour
         Vector2 chaseDir = toPlayer.sqrMagnitude > 0.0001f ? toPlayer.normalized : Vector2.zero;
 
         // 2) 가까운 다른 적들로부터 멀어지는 방향 (겹침 방지용).
-        //    거리가 가까울수록 더 강하게 밀어내서 자연스럽게 서로 간격이 벌어지게 한다.
+        //    거리가 가까울수록 더 강하게 밀어낸다. 전체 목록을 훑는 대신 물리 브로드페이즈로
+        //    separationRadius 안의 콜라이더만 뽑아서 검사한다 (적이 많아도 비용이 거의 안 늘어남).
         Vector2 separation = Vector2.zero;
-        foreach (Enemy other in EnemyManager.ActiveEnemies)
+        Vector2 myPos = transform.position;
+        float radiusSqr = separationRadius * separationRadius;
+        int hitCount = Physics2D.OverlapCircle(myPos, separationRadius, separationFilter, separationBuf);
+        for (int i = 0; i < hitCount; i++)
         {
-            if (other == this) continue;
-            Vector2 diff = (Vector2)(transform.position - other.transform.position);
-            float dist = diff.magnitude;
-            if (dist > 0f && dist < separationRadius)
+            Collider2D col = separationBuf[i];
+            if (col == null || col.gameObject == gameObject) continue;
+            Enemy other = col.GetComponent<Enemy>();
+            if (other == null || other == this) continue;
+
+            Vector2 diff = myPos - (Vector2)other.transform.position;
+            float distSqr = diff.sqrMagnitude;
+            if (distSqr > 0f && distSqr < radiusSqr)
             {
-                separation += diff.normalized * (1f - dist / separationRadius);
+                float dist = Mathf.Sqrt(distSqr);
+                separation += diff / dist * (1f - dist / separationRadius);
             }
         }
 

@@ -39,7 +39,11 @@ public class WeaponSwitcher : MonoBehaviour
         // 줍기/버리기는 강화 팝업이 떠 있을 때도 막는다(패널 보면서 바닥 무기를 만질 이유가 없음).
         if (PauseManager.IsPaused) return;
 
-        if (Keyboard.current.fKey.wasPressedThisFrame)
+        // 줍기 대상이 실제로 있을 때만 F를 "가져간다" - 그래야 근처에 상인 상품이 같이 있어도
+        // F 한 번에 상인 구매까지 같이 발동하는 중복 반응이 안 생긴다 (InteractInput 참고).
+        if (Keyboard.current.fKey.wasPressedThisFrame
+            && WeaponPickup.FindNearestInRange(transform.position) != null
+            && InteractInput.TryConsumeFKey())
         {
             TryPickUpNearestWeapon();
         }
@@ -55,17 +59,24 @@ public class WeaponSwitcher : MonoBehaviour
         WeaponPickup nearest = WeaponPickup.FindNearestInRange(transform.position);
         if (nearest == null) return;
 
-        int emptyIndex = FindFirstEmptySlot();
-        if (emptyIndex < 0) return; // 빈 슬롯이 없으면 줍지 않는다
+        if (TryGiveWeapon(nearest.weaponType))
+            Destroy(nearest.gameObject);
+    }
 
-        GameObject prefab = WeaponPickup.GetPrefab(nearest.weaponType);
-        if (prefab == null) return;
+    /// <summary>바닥 픽업을 거치지 않고 빈 슬롯에 무기를 바로 지급한다 (상인 구매 등에서 사용).
+    /// 빈 슬롯이 없으면 아무 일도 하지 않고 false.</summary>
+    public bool TryGiveWeapon(WeaponType type)
+    {
+        int emptyIndex = FindFirstEmptySlot();
+        if (emptyIndex < 0) return false; // 빈 슬롯이 없으면 지급하지 않는다
+
+        GameObject prefab = WeaponPickup.GetPrefab(type);
+        if (prefab == null) return false;
 
         GameObject weaponGO = Instantiate(prefab, transform);
         weaponSlots[emptyIndex] = weaponGO;
-
-        Destroy(nearest.gameObject);
         ApplyCurrentSlot();
+        return true;
     }
 
     // 1번 슬롯부터 순서대로 비어있는 첫 슬롯의 인덱스를 찾는다 (없으면 -1).

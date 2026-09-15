@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 // 스테이지-거점 이동 및 층수 진행을 담당한다.
 // StageTimer가 스테이지 클리어를 알리면 스테이지 위쪽에 색깔이 다른 랜덤 포탈 3개를 띄운다.
@@ -23,8 +24,28 @@ public class StageExtraction : MonoBehaviour
     };
     private static readonly Color ExtractionPortalColor = new Color(1f, 1f, 1f, 0.5f); // 반투명 흰색
 
+    // 스테이지 클리어마다(추출 포탈 유무와 무관) 일정 확률로 등장하는 떠돌이 상인 (거점 앞에 있는 것과 같은 오브젝트를 복제).
+    private const float MerchantSpawnChance = 0.3f;
+
+    // 상인이 나타났을 때, 그중에서도 희귀자원까지 파는 경우의 확률 (회복약/무기는 항상 판다).
+    private const float RareGoodsChance = 0.2f;
+
+    // 판매 가격 (자원 1~2종류 섞어서 지불). 회복약은 싸게, 무기는 비싸게, 희귀자원은 매우매우 비싸게.
+    private const int PotionCost = 3;
+    private const int WeaponCostPerType = 8;
+    private const int RareGoodsCostPerType = 20;
+
+    private static readonly ResourceType[] CommonResourceTypes =
+    {
+        ResourceType.Wood, ResourceType.Iron, ResourceType.Copper, ResourceType.Chemical, ResourceType.Oil
+    };
+
     private PlayerHealth playerHealth;
     private GameObject hubPortalTemplate;
+    private GameObject merchantTemplate;
+    private GameObject merchantCarpetTemplate;
+    private Material merchantOutlineMaterial;
+    private Sprite potionIconSprite;
 
     void Start()
     {
@@ -38,6 +59,32 @@ public class StageExtraction : MonoBehaviour
         StagePortal hubPortal = FindFirstObjectByType<StagePortal>();
         hubPortalTemplate = hubPortal != null ? hubPortal.gameObject : null;
         if (hubPortalTemplate == null) Debug.LogWarning("StageExtraction: 거점 포탈(StagePortal)을 찾지 못해 클리어 포탈을 만들 수 없음");
+
+        merchantTemplate = GameObject.Find("상인");
+        merchantCarpetTemplate = GameObject.Find("상인_카펫");
+        if (merchantTemplate == null || merchantCarpetTemplate == null)
+            Debug.LogWarning("StageExtraction: 상인/상인_카펫 오브젝트를 찾지 못해 상인 등장 연출을 만들 수 없음");
+
+        // 상품 진열용 흰색 테두리는 적(Enemy)이 이미 쓰는 것과 같은 머티리얼을 재사용한다.
+        EnemySpawner anySpawner = FindFirstObjectByType<EnemySpawner>();
+        Enemy enemyPrefabComponent = anySpawner != null && anySpawner.enemyPrefab != null
+            ? anySpawner.enemyPrefab.GetComponent<Enemy>() : null;
+        merchantOutlineMaterial = enemyPrefabComponent != null ? enemyPrefabComponent.outlineMaterial : null;
+
+        // 회복약 아이콘은 이미 있는 PotionUI의 아이콘 이미지를 그대로 빌려 쓴다.
+        GameObject potionUI = FindInactiveByName("PotionUI");
+        Image potionIcon = potionUI != null ? potionUI.GetComponentInChildren<Image>(true) : null;
+        potionIconSprite = potionIcon != null ? potionIcon.sprite : null;
+    }
+
+    // GameObject.Find는 비활성 오브젝트를 못 찾으므로, 씬 전체를 뒤져서 이름으로 찾는다.
+    private static GameObject FindInactiveByName(string name)
+    {
+        foreach (GameObject go in FindObjectsByType<GameObject>(FindObjectsInactive.Include, FindObjectsSortMode.None))
+        {
+            if (go.name == name) return go;
+        }
+        return null;
     }
 
     void HandleStageClear()
@@ -70,6 +117,191 @@ public class StageExtraction : MonoBehaviour
             float x = center.x + halfExtent - 2f;
             CreatePortal(group.transform, new Vector2(x, center.y), null, ExtractionPortalColor);
         }
+
+        // 추출 포탈 유무와 무관하게 스테이지를 클리어할 때마다 확률적으로 상인이 나타난다.
+        if (Random.value < MerchantSpawnChance)
+            SpawnMerchant(group.transform, center, halfExtent);
+    }
+
+    // 구역 왼쪽 가장자리, 추출 포탈과 같은 높이(y)에 상인+카펫을 띄운다 (추출 포탈은 오른쪽,
+    // 상인은 왼쪽이라 서로 마주보는 배치). 원본(거점 앞) 오브젝트를 복제하고, 상인과 카펫의
+    // 원래 상대 위치(오프셋)를 그대로 유지해서 카펫 위에 서 있는 배치가 흐트러지지 않게 한다.
+    private void SpawnMerchant(Transform parent, Vector2 center, float halfExtent)
+    {
+        if (merchantTemplate == null || merchantCarpetTemplate == null) return;
+
+        Vector3 offset = merchantTemplate.transform.position - merchantCarpetTemplate.transform.position;
+        Vector3 carpetPos = new Vector3(center.x - halfExtent + 2f, center.y, 0f);
+
+        GameObject carpet = Instantiate(merchantCarpetTemplate, parent);
+        carpet.name = "상인_카펫";
+        carpet.transform.position = carpetPos;
+
+        GameObject merchant = Instantiate(merchantTemplate, parent);
+        merchant.name = "상인";
+        merchant.transform.position = carpetPos + offset;
+
+        // 원본 둘 다 sortingOrder가 같아서(0) 그리는 순서가 들쭉날쭉했다.
+        // 상인이 카펫에 가려지지 않도록 상인을 항상 한 단계 앞에 그리게 고정한다.
+        SpriteRenderer carpetSr = carpet.GetComponent<SpriteRenderer>();
+        SpriteRenderer merchantSr = merchant.GetComponent<SpriteRenderer>();
+        int carpetOrder = carpetSr != null ? carpetSr.sortingOrder : 0;
+        if (merchantSr != null) merchantSr.sortingOrder = carpetOrder + 1;
+
+        SpawnMerchantGoods(parent, merchant, carpetSr, carpetOrder);
+    }
+
+    // 카펫 위에 왼쪽=회복약, 가운데=무기(둘 다 확정 등장), 오른쪽=희귀자원(낮은 확률)을 늘어놓는다.
+    private void SpawnMerchantGoods(Transform parent, GameObject merchant, SpriteRenderer carpetSr, int carpetOrder)
+    {
+        if (carpetSr == null) return;
+
+        Bounds bounds = carpetSr.bounds;
+        float y = bounds.center.y;
+        float leftX = bounds.center.x - bounds.extents.x * 0.5f;
+        float centerX = bounds.center.x;
+        float rightX = bounds.center.x + bounds.extents.x * 0.5f;
+
+        // 상품에 가까이 가면 이 말풍선에 가격이 뜬다. 상인 오른쪽에 하나만 만들어서 상품들이 공유한다.
+        GameObject priceBubble = CreatePriceBubble(parent, merchant.transform.position + new Vector3(1.6f, 0.4f, 0f));
+        Text priceText = priceBubble.GetComponentInChildren<Text>();
+        priceBubble.SetActive(false);
+
+        // 회복약: 싸게, 자원 1종류.
+        ResourceType potionCostType = CommonResourceTypes[Random.Range(0, CommonResourceTypes.Length)];
+        List<ResourceType> potionCostTypes = new List<ResourceType> { potionCostType };
+        List<int> potionCostAmounts = new List<int> { PotionCost };
+        SpawnGoodsItem(parent, new Vector3(leftX, y, 0f), carpetOrder, potionIconSprite,
+            potionCostTypes, potionCostAmounts, priceBubble, priceText,
+            () =>
+            {
+                HealthPotion potion = FindFirstObjectByType<HealthPotion>();
+                if (potion != null) potion.AddPotions(1);
+            });
+
+        // 무기: 비싸게, 자원 2종류 섞어서. 5종류 중 랜덤 한 가지를 그 자리에서 바로 지급한다.
+        WeaponType weaponType = (WeaponType)Random.Range(0, 5);
+        GameObject weaponPrefab = WeaponPickup.GetPrefab(weaponType);
+        SpriteRenderer weaponPrefabSr = weaponPrefab != null ? weaponPrefab.GetComponentInChildren<SpriteRenderer>() : null;
+        List<ResourceType> weaponCostTypes = PickDistinctResourceTypes(2);
+        List<int> weaponCostAmounts = new List<int> { WeaponCostPerType, WeaponCostPerType };
+        SpawnGoodsItem(parent, new Vector3(centerX, y, 0f), carpetOrder, weaponPrefabSr != null ? weaponPrefabSr.sprite : null,
+            weaponCostTypes, weaponCostAmounts, priceBubble, priceText,
+            () =>
+            {
+                WeaponSwitcher switcher = FindFirstObjectByType<WeaponSwitcher>();
+                if (switcher != null) switcher.TryGiveWeapon(weaponType);
+            });
+
+        // 희귀자원: 낮은 확률로만 진열되고, 매우매우 비싸게(자원 2종류 섞어서 대량) 판다.
+        if (Random.value < RareGoodsChance)
+        {
+            List<ResourceType> rareCostTypes = PickDistinctResourceTypes(2);
+            List<int> rareCostAmounts = new List<int> { RareGoodsCostPerType, RareGoodsCostPerType };
+            SpawnGoodsItem(parent, new Vector3(rightX, y, 0f), carpetOrder, ResourcePickup.GetIconSprite(ResourceType.Rare),
+                rareCostTypes, rareCostAmounts, priceBubble, priceText,
+                () => ResourceBank.AddRunResource(ResourceType.Rare, 1));
+        }
+    }
+
+    // 상품 아이콘의 목표 표시 크기(월드 유닛). 원본 해상도가 다른 스프라이트끼리도 이 크기에 맞춰진다.
+    private const float GoodsIconTargetSize = 0.7f;
+
+    private void SpawnGoodsItem(Transform parent, Vector3 position, int carpetOrder, Sprite sprite,
+        List<ResourceType> costTypes, List<int> costAmounts, GameObject priceBubble, Text priceText, System.Action onPurchase)
+    {
+        if (sprite == null) return; // 아이콘을 못 구했으면(무기 프리팹 못 찾음 등) 진열하지 않는다
+
+        GameObject go = new GameObject("상인_상품");
+        go.transform.SetParent(parent);
+        go.transform.position = position;
+
+        MerchantItem item = go.AddComponent<MerchantItem>();
+        item.Init(sprite, GoodsIconTargetSize, costTypes, costAmounts, merchantOutlineMaterial, onPurchase,
+            priceBubble, priceText, BuildPriceLabel(costTypes, costAmounts));
+
+        SpriteRenderer sr = go.GetComponent<SpriteRenderer>();
+        if (sr != null) sr.sortingOrder = carpetOrder + 1;
+    }
+
+    private static List<ResourceType> PickDistinctResourceTypes(int count)
+    {
+        List<ResourceType> pool = new List<ResourceType>(CommonResourceTypes);
+        List<ResourceType> picked = new List<ResourceType>();
+        for (int i = 0; i < count && pool.Count > 0; i++)
+        {
+            int idx = Random.Range(0, pool.Count);
+            picked.Add(pool[idx]);
+            pool.RemoveAt(idx);
+        }
+        return picked;
+    }
+
+    private static string BuildPriceLabel(List<ResourceType> types, List<int> amounts)
+    {
+        string[] parts = new string[types.Count];
+        for (int i = 0; i < types.Count; i++) parts[i] = ResourceKoreanName(types[i]) + " x" + amounts[i];
+        return string.Join(" + ", parts);
+    }
+
+    private static string ResourceKoreanName(ResourceType type)
+    {
+        switch (type)
+        {
+            case ResourceType.Wood: return "나무";
+            case ResourceType.Iron: return "철";
+            case ResourceType.Copper: return "구리";
+            case ResourceType.Chemical: return "화학물질";
+            case ResourceType.Oil: return "기름";
+            case ResourceType.Rare: return "희귀자원";
+            default: return type.ToString();
+        }
+    }
+
+    // 상인 옆에 뜨는 가격표 말풍선을 만든다. TextMesh는 URP 폰트 셰이더와 호환 문제가 있어서
+    // (DamageNumber.cs 참고) 이 프로젝트 관례대로 World Space Canvas + UI.Text로 만든다.
+    private static GameObject CreatePriceBubble(Transform parent, Vector3 position)
+    {
+        GameObject root = new GameObject("상인_가격표", typeof(RectTransform), typeof(Canvas));
+        root.transform.SetParent(parent);
+        root.transform.position = position;
+        root.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
+
+        Canvas canvas = root.GetComponent<Canvas>();
+        canvas.renderMode = RenderMode.WorldSpace;
+
+        // 자원 2종류 섞인 가격("화학물질 x8 + 나무 x8" 등)까지 한 줄로 다 들어가도록 충분히 넓게 잡는다.
+        RectTransform rootRt = root.GetComponent<RectTransform>();
+        rootRt.sizeDelta = new Vector2(340f, 60f);
+
+        GameObject bg = new GameObject("Background", typeof(RectTransform), typeof(Image));
+        bg.transform.SetParent(root.transform, false);
+        RectTransform bgRt = bg.GetComponent<RectTransform>();
+        bgRt.anchorMin = Vector2.zero;
+        bgRt.anchorMax = Vector2.one;
+        bgRt.offsetMin = Vector2.zero;
+        bgRt.offsetMax = Vector2.zero;
+        Image bgImg = bg.GetComponent<Image>();
+        bgImg.color = new Color(0f, 0f, 0f, 0.8f);
+
+        GameObject textGO = new GameObject("Text", typeof(RectTransform), typeof(Text));
+        textGO.transform.SetParent(root.transform, false);
+        RectTransform textRt = textGO.GetComponent<RectTransform>();
+        textRt.anchorMin = Vector2.zero;
+        textRt.anchorMax = Vector2.one;
+        textRt.offsetMin = new Vector2(10f, 6f);
+        textRt.offsetMax = new Vector2(-10f, -6f);
+        Text text = textGO.GetComponent<Text>();
+        text.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+        text.fontSize = 22;
+        text.alignment = TextAnchor.MiddleCenter;
+        text.color = Color.white;
+        // 줄바꿈(Wrap) + 세로 Truncate 기본값 조합 때문에 두 번째 줄("+" 뒤)이 통째로 잘려 보이지
+        // 않던 문제가 있었다. 한 줄로 넘치더라도 절대 잘리지 않도록 가로/세로 다 Overflow로 둔다.
+        text.horizontalOverflow = HorizontalWrapMode.Overflow;
+        text.verticalOverflow = VerticalWrapMode.Overflow;
+
+        return root;
     }
 
     private void CreatePortal(Transform parent, Vector2 position, string targetTheme, Color color)
@@ -97,6 +329,10 @@ public class StageExtraction : MonoBehaviour
     {
         // 사망 시 파밍한(아직 확정 안 된) 자원은 잃는다 - 이건 결과 화면 유무와 무관하게 항상.
         ResourceBank.DiscardRun();
+
+        // 상인에게 사서 늘렸던 회복약도 자원과 같은 규칙: 이번 런에서 늘어난 만큼은 잃고 기본 개수로 되돌아간다.
+        HealthPotion potion = FindFirstObjectByType<HealthPotion>();
+        if (potion != null) potion.ResetToStarting();
 
         // 결과 화면(DeathResultUI)이 씬에 있으면 층수 초기화 + 거점 복귀는 그 쪽이 담당한다
         // (플레이어가 버튼/Enter를 누를 때까지 기다렸다가 복귀).

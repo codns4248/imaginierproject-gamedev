@@ -14,7 +14,7 @@ public class ResourceBankUI : MonoBehaviour
 
     private static readonly ResourceType[] Order =
     {
-        ResourceType.Wood, ResourceType.Iron, ResourceType.Copper, ResourceType.Chemical, ResourceType.Oil
+        ResourceType.Wood, ResourceType.Iron, ResourceType.Copper, ResourceType.Chemical, ResourceType.Oil, ResourceType.Rare
     };
 
     private Text[] countTexts;
