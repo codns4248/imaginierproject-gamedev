@@ -26,6 +26,13 @@ public static class WeaponEnhanceStore
         return levels.TryGetValue(weaponType, out int[] arr) ? arr[idx] : 0;
     }
 
+    /// <summary>모든 무기의 강화 레벨을 전부 지운다 (플레이어 사망 시 호출). 세이브 파일에도 반영된다.</summary>
+    public static void ResetAll()
+    {
+        levels.Clear();
+        Save();
+    }
+
     /// <summary>레벨이 최대치 미만이면 1 올리고 true, 이미 최대면 아무 일도 하지 않고 false.</summary>
     public static bool TryEnhance(WeaponType weaponType, ResourceType type)
     {

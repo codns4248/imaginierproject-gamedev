@@ -55,10 +55,30 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     public int MaxEnhanceLevel => WeaponEnhanceUtil.MaxLevel;
     public int GetEnhanceLevel(ResourceType type) => WeaponEnhanceStore.GetLevel(identity.type, type);
 
+    // 강화 적용 전(Awake 시점) 원본 스탯. ResetEnhance()에서 되돌리는 기준값.
+    private float baseAttackInterval;
+    private float baseDamage;
+    private float baseHitRadius;
+    private float baseCritChance;
+    private float baseThrustOutDuration;
+    private float baseThrustBackDuration;
+
     public void ApplyEnhance(ResourceType type)
     {
         if (!WeaponEnhanceStore.TryEnhance(identity.type, type)) return;
         ApplyStatDelta(type);
+    }
+
+    // 사망 시 호출된다. WeaponEnhanceStore는 이미 0으로 초기화된 상태이므로, 이 인스턴스의
+    // 스탯만 Awake 시점(강화 전) 값으로 되돌린다.
+    public void ResetEnhance()
+    {
+        attackInterval = baseAttackInterval;
+        damage = baseDamage;
+        hitRadius = baseHitRadius;
+        critChance = baseCritChance;
+        thrustOutDuration = baseThrustOutDuration;
+        thrustBackDuration = baseThrustBackDuration;
     }
 
     private void ApplyStatDelta(ResourceType type)
@@ -81,6 +101,13 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     {
         weaponAim = GetComponent<WeaponAim>();
         identity = GetComponent<WeaponIdentity>();
+
+        baseAttackInterval = attackInterval;
+        baseDamage = damage;
+        baseHitRadius = hitRadius;
+        baseCritChance = critChance;
+        baseThrustOutDuration = thrustOutDuration;
+        baseThrustBackDuration = thrustBackDuration;
 
         foreach (ResourceType type in WeaponEnhanceUtil.AllTypes)
         {

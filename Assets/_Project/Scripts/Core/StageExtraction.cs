@@ -334,6 +334,17 @@ public class StageExtraction : MonoBehaviour
         HealthPotion potion = FindFirstObjectByType<HealthPotion>();
         if (potion != null) potion.ResetToStarting();
 
+        // 무기 강화도 사망하면 전부 초기화한다. 저장소(WeaponEnhanceStore)를 지우는 것만으론
+        // 부족한데, 거점 복귀가 씬 재로드가 아니라 좌표 이동이라 이미 만들어진 무기 인스턴스는
+        // Awake()를 다시 타지 않기 때문 - 그래서 지금 씬에 존재하는 무기들의 스탯도 직접 되돌린다.
+        WeaponEnhanceStore.ResetAll();
+        WeaponAim[] weaponAims = FindObjectsByType<WeaponAim>(FindObjectsSortMode.None);
+        foreach (WeaponAim aim in weaponAims)
+        {
+            IEnhanceableWeapon weapon = aim.GetComponent<IEnhanceableWeapon>();
+            weapon?.ResetEnhance();
+        }
+
         // 결과 화면(DeathResultUI)이 씬에 있으면 층수 초기화 + 거점 복귀는 그 쪽이 담당한다
         // (플레이어가 버튼/Enter를 누를 때까지 기다렸다가 복귀).
         // 결과 화면이 없는 씬에서만 예전처럼 자동으로 거점에 돌려보낸다.

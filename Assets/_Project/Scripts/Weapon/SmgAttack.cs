@@ -38,10 +38,27 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
     public int MaxEnhanceLevel => WeaponEnhanceUtil.MaxLevel;
     public int GetEnhanceLevel(ResourceType type) => WeaponEnhanceStore.GetLevel(identity.type, type);
 
+    // 강화 적용 전(Awake 시점) 원본 스탯. ResetEnhance()에서 되돌리는 기준값.
+    private float baseBurstInterval;
+    private float baseDamage;
+    private float baseAutoAttackRange;
+    private float baseCritChance;
+
     public void ApplyEnhance(ResourceType type)
     {
         if (!WeaponEnhanceStore.TryEnhance(identity.type, type)) return;
         ApplyStatDelta(type);
+    }
+
+    // 사망 시 호출된다. WeaponEnhanceStore는 이미 0으로 초기화된 상태이므로, 이 인스턴스의
+    // 스탯만 Awake 시점(강화 전) 값으로 되돌린다.
+    public void ResetEnhance()
+    {
+        burstInterval = baseBurstInterval;
+        damage = baseDamage;
+        autoAttackRange = baseAutoAttackRange;
+        critChance = baseCritChance;
+        projectileSpeedBonus = 0f;
     }
 
     private void ApplyStatDelta(ResourceType type)
@@ -60,6 +77,11 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
     {
         weaponAim = GetComponent<WeaponAim>();
         identity = GetComponent<WeaponIdentity>();
+
+        baseBurstInterval = burstInterval;
+        baseDamage = damage;
+        baseAutoAttackRange = autoAttackRange;
+        baseCritChance = critChance;
 
         foreach (ResourceType type in WeaponEnhanceUtil.AllTypes)
         {

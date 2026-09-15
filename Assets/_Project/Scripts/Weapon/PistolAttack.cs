@@ -45,11 +45,28 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
     public int MaxEnhanceLevel => WeaponEnhanceUtil.MaxLevel;
     public int GetEnhanceLevel(ResourceType type) => WeaponEnhanceStore.GetLevel(identity.type, type);
 
+    // 강화 적용 전(Awake 시점) 원본 스탯. ResetEnhance()에서 되돌리는 기준값.
+    private float baseAttackInterval;
+    private float baseDamage;
+    private float baseAutoAttackRange;
+    private float baseCritChance;
+
     // 거점 강화 UI에서 자원을 소모하고 호출한다. 스토어에 기록 + 스탯 한 단계 적용.
     public void ApplyEnhance(ResourceType type)
     {
         if (!WeaponEnhanceStore.TryEnhance(identity.type, type)) return;
         ApplyStatDelta(type);
+    }
+
+    // 사망 시 호출된다. WeaponEnhanceStore는 이미 0으로 초기화된 상태이므로, 이 인스턴스의
+    // 스탯만 Awake 시점(강화 전) 값으로 되돌린다.
+    public void ResetEnhance()
+    {
+        attackInterval = baseAttackInterval;
+        damage = baseDamage;
+        autoAttackRange = baseAutoAttackRange;
+        critChance = baseCritChance;
+        projectileSpeedBonus = 0f;
     }
 
     // 스탯 한 단계분을 실제 필드에 반영한다. ApplyEnhance(구매 시)와 Awake의 재적용(로드 시) 둘 다에서 쓰인다.
@@ -69,6 +86,11 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
     {
         weaponAim = GetComponent<WeaponAim>();
         identity = GetComponent<WeaponIdentity>();
+
+        baseAttackInterval = attackInterval;
+        baseDamage = damage;
+        baseAutoAttackRange = autoAttackRange;
+        baseCritChance = critChance;
 
         // 다른 씬에서 저장된 강화 레벨만큼, 이 새 인스턴스의 스탯에 다시 적용한다(재생).
         foreach (ResourceType type in WeaponEnhanceUtil.AllTypes)
