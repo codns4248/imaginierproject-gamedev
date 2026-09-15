@@ -327,8 +327,10 @@ public class StageExtraction : MonoBehaviour
 
     void HandleDeath()
     {
-        // 사망 시 파밍한(아직 확정 안 된) 자원은 잃는다 - 이건 결과 화면 유무와 무관하게 항상.
+        // 사망 = 하드 리셋: 파밍한(아직 확정 안 된) 자원 + 이번 런의 무기 강화를 전부 잃는다.
+        // (결과 화면 유무와 무관하게 항상. 층수 초기화는 아래 결과 화면 쪽/자동 복귀 쪽에서 처리.)
         ResourceBank.DiscardRun();
+        WeaponEnhanceStore.ResetForNewRun();
 
         // 상인에게 사서 늘렸던 회복약도 자원과 같은 규칙: 이번 런에서 늘어난 만큼은 잃고 기본 개수로 되돌아간다.
         HealthPotion potion = FindFirstObjectByType<HealthPotion>();

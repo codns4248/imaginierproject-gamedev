@@ -42,6 +42,11 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
     // Instantiate라 이름에 "(Clone)"이 붙어서 이름 기준으로는 강화가 이어지지 않기 때문.
     private WeaponIdentity identity;
     private float projectileSpeedBonus; // 기름(발사속도) 강화 누적분. Fire()에서 Projectile.speed에 더해준다.
+
+    // 강화로 바뀌는 스탯의 원본값. Awake에서 저장해두고, 런 종료(사망/추출)로 강화가 리셋되면
+    // 여기로 되돌린 뒤 현재 레벨만큼 다시 적용한다 (포탈 이동은 무기 인스턴스가 유지되므로 직접 되돌려야 함).
+    private float baseAttackInterval, baseDamage, baseCritChance, baseAutoAttackRange;
+
     public int MaxEnhanceLevel => WeaponEnhanceUtil.MaxLevel;
     public int GetEnhanceLevel(ResourceType type) => WeaponEnhanceStore.GetLevel(identity.type, type);
 
@@ -70,7 +75,24 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
         weaponAim = GetComponent<WeaponAim>();
         identity = GetComponent<WeaponIdentity>();
 
-        // 다른 씬에서 저장된 강화 레벨만큼, 이 새 인스턴스의 스탯에 다시 적용한다(재생).
+        baseAttackInterval = attackInterval;
+        baseDamage = damage;
+        baseCritChance = critChance;
+        baseAutoAttackRange = autoAttackRange;
+
+        ReapplyEnhancements();
+    }
+
+    // WeaponEnhanceStore의 현재 강화 레벨을 스탯에 반영한다. 먼저 원본값으로 되돌린 뒤
+    // 레벨 수만큼 ApplyStatDelta를 다시 적용하므로, 강화가 리셋된 뒤 호출해도 정확히 맞는다.
+    public void ReapplyEnhancements()
+    {
+        attackInterval = baseAttackInterval;
+        damage = baseDamage;
+        critChance = baseCritChance;
+        autoAttackRange = baseAutoAttackRange;
+        projectileSpeedBonus = 0f;
+
         foreach (ResourceType type in WeaponEnhanceUtil.AllTypes)
         {
             int level = WeaponEnhanceStore.GetLevel(identity.type, type);
