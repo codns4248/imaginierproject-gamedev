@@ -45,8 +45,7 @@ public class DeathResultUI : MonoBehaviour
     public string returnButtonLabel = "거점으로 돌아가기";
     public string hint = "PRESS ENTER TO CONTINUE";
 
-    // 레퍼런스 디자인 색
-    static readonly Color BgColor      = new Color(0.039f, 0.031f, 0.027f, 1f); // #0a0807
+    // 레퍼런스 디자인 색 (배경 자체는 DeathFadeUI가 담당 - 씬의 DeathFade Image 색을 #0a0807로 맞춰둠)
     static readonly Color InkTitle     = new Color(0.941f, 0.843f, 0.788f, 1f); // #f0d7c9
     static readonly Color InkTitleDim  = new Color(0.788f, 0.671f, 0.612f, 1f); // #c9ab9c
     static readonly Color InkLabel     = new Color(0.549f, 0.498f, 0.463f, 1f); // #8c7f76
@@ -236,13 +235,15 @@ public class DeathResultUI : MonoBehaviour
             return;
         }
 
-        // 루트: 화면 전체를 덮는 불투명 배경 + CanvasGroup
+        // 루트: 텍스트/버튼을 담는 CanvasGroup. 암전(화면을 검게 덮는 것) 자체는 DeathFadeUI가
+        // 전담하므로 여기선 불투명 배경을 따로 두지 않는다 - Image는 클릭 판정을 막는 투명한
+        // 레이캐스트 차단용으로만 쓴다.
         GameObject rootGo = new GameObject("DeathResultScreen",
             typeof(RectTransform), typeof(CanvasRenderer), typeof(Image), typeof(CanvasGroup));
         rootGo.transform.SetParent(canvas.transform, false);
         root = rootGo.GetComponent<RectTransform>();
         Stretch(root);
-        rootGo.GetComponent<Image>().color = BgColor;
+        rootGo.GetComponent<Image>().color = Color.clear;
         group = rootGo.GetComponent<CanvasGroup>();
         group.alpha = 0f;
 
