@@ -15,6 +15,10 @@ public class MerchantItem : MonoBehaviour
     // 둘 다 한꺼번에 구매되는 일이 없게 한다.
     public float interactRadius = 0.3f;
 
+    // true면 이번 런 파밍분(runHeld) 대신 거점 영구 보관 자원(stash)을 소모한다.
+    // 스테이지 상인은 기본값(false, runHeld)을 그대로 쓰고, 거점 제작대(HubCrafting)만 켠다.
+    public bool useStash;
+
     private List<ResourceType> costTypes;
     private List<int> costAmounts;
     private System.Func<bool> onPurchase; // 실제로 지급했으면 true. false면 자원을 쓰지 않는다.
@@ -119,7 +123,7 @@ public class MerchantItem : MonoBehaviour
     {
         for (int i = 0; i < costTypes.Count; i++)
         {
-            if (ResourceBank.GetRunHeld(costTypes[i]) < costAmounts[i]) return; // 하나라도 부족하면 구매 취소
+            if (GetHeld(costTypes[i]) < costAmounts[i]) return; // 하나라도 부족하면 구매 취소
         }
 
         // 자원을 쓰기 전에 실제로 지급이 되는지 먼저 확인한다 (예: 무기 슬롯이 꽉 찬 경우).
@@ -128,7 +132,7 @@ public class MerchantItem : MonoBehaviour
 
         for (int i = 0; i < costTypes.Count; i++)
         {
-            ResourceBank.TrySpendRunResource(costTypes[i], costAmounts[i]);
+            TrySpend(costTypes[i], costAmounts[i]);
         }
 
         purchased = true;
@@ -136,8 +140,82 @@ public class MerchantItem : MonoBehaviour
         Destroy(gameObject);
     }
 
+    private int GetHeld(ResourceType type) => useStash ? ResourceBank.GetStash(type) : ResourceBank.GetRunHeld(type);
+    private bool TrySpend(ResourceType type, int amount) => useStash ? ResourceBank.TrySpendStash(type, amount) : ResourceBank.TrySpendRunResource(type, amount);
+
     void OnDestroy()
     {
         if (outlineMat != null) Destroy(outlineMat);
+    }
+
+    // ── 상인/제작대가 공유하는 UI 헬퍼 ──────────────────────────────────────
+    // 원래 StageExtraction 안에 있었는데, 거점 제작대(HubCrafting)도 똑같은 가격표/라벨이
+    // 필요해져서 이쪽(공용 상품 컴포넌트)으로 옮겼다.
+
+    public static string ResourceKoreanName(ResourceType type)
+    {
+        switch (type)
+        {
+            case ResourceType.Wood: return "나무";
+            case ResourceType.Iron: return "철";
+            case ResourceType.Copper: return "구리";
+            case ResourceType.Chemical: return "화학물질";
+            case ResourceType.Oil: return "기름";
+            case ResourceType.Rare: return "희귀자원";
+            default: return type.ToString();
+        }
+    }
+
+    public static string BuildPriceLabel(List<ResourceType> types, List<int> amounts)
+    {
+        string[] parts = new string[types.Count];
+        for (int i = 0; i < types.Count; i++) parts[i] = ResourceKoreanName(types[i]) + " x" + amounts[i];
+        return string.Join(" + ", parts);
+    }
+
+    // 상품 옆에 뜨는 가격표 말풍선을 만든다. TextMesh는 URP 폰트 셰이더와 호환 문제가 있어서
+    // (DamageNumber.cs 참고) 이 프로젝트 관례대로 World Space Canvas + UI.Text로 만든다.
+    public static GameObject CreatePriceBubble(Transform parent, Vector3 position)
+    {
+        GameObject root = new GameObject("가격표", typeof(RectTransform), typeof(Canvas));
+        root.transform.SetParent(parent);
+        root.transform.position = position;
+        root.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
+
+        Canvas canvas = root.GetComponent<Canvas>();
+        canvas.renderMode = RenderMode.WorldSpace;
+
+        // 자원 2종류 섞인 가격("화학물질 x8 + 나무 x8" 등)까지 한 줄로 다 들어가도록 충분히 넓게 잡는다.
+        RectTransform rootRt = root.GetComponent<RectTransform>();
+        rootRt.sizeDelta = new Vector2(340f, 60f);
+
+        GameObject bg = new GameObject("Background", typeof(RectTransform), typeof(Image));
+        bg.transform.SetParent(root.transform, false);
+        RectTransform bgRt = bg.GetComponent<RectTransform>();
+        bgRt.anchorMin = Vector2.zero;
+        bgRt.anchorMax = Vector2.one;
+        bgRt.offsetMin = Vector2.zero;
+        bgRt.offsetMax = Vector2.zero;
+        Image bgImg = bg.GetComponent<Image>();
+        bgImg.color = new Color(0f, 0f, 0f, 0.8f);
+
+        GameObject textGO = new GameObject("Text", typeof(RectTransform), typeof(Text));
+        textGO.transform.SetParent(root.transform, false);
+        RectTransform textRt = textGO.GetComponent<RectTransform>();
+        textRt.anchorMin = Vector2.zero;
+        textRt.anchorMax = Vector2.one;
+        textRt.offsetMin = new Vector2(10f, 6f);
+        textRt.offsetMax = new Vector2(-10f, -6f);
+        Text text = textGO.GetComponent<Text>();
+        text.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+        text.fontSize = 22;
+        text.alignment = TextAnchor.MiddleCenter;
+        text.color = Color.white;
+        // 줄바꿈(Wrap) + 세로 Truncate 기본값 조합 때문에 두 번째 줄("+" 뒤)이 통째로 잘려 보이지
+        // 않던 문제가 있었다. 한 줄로 넘치더라도 절대 잘리지 않도록 가로/세로 다 Overflow로 둔다.
+        text.horizontalOverflow = HorizontalWrapMode.Overflow;
+        text.verticalOverflow = VerticalWrapMode.Overflow;
+
+        return root;
     }
 }

@@ -163,7 +163,7 @@ public class StageExtraction : MonoBehaviour
         float rightX = bounds.center.x + bounds.extents.x * 0.5f;
 
         // 상품에 가까이 가면 이 말풍선에 가격이 뜬다. 상인 오른쪽에 하나만 만들어서 상품들이 공유한다.
-        GameObject priceBubble = CreatePriceBubble(parent, merchant.transform.position + new Vector3(1.6f, 0.4f, 0f));
+        GameObject priceBubble = MerchantItem.CreatePriceBubble(parent, merchant.transform.position + new Vector3(1.6f, 0.4f, 0f));
         Text priceText = priceBubble.GetComponentInChildren<Text>();
         priceBubble.SetActive(false);
 
@@ -221,7 +221,7 @@ public class StageExtraction : MonoBehaviour
 
         MerchantItem item = go.AddComponent<MerchantItem>();
         item.Init(sprite, GoodsIconTargetSize, costTypes, costAmounts, merchantOutlineMaterial, onPurchase,
-            priceBubble, priceText, BuildPriceLabel(costTypes, costAmounts));
+            priceBubble, priceText, MerchantItem.BuildPriceLabel(costTypes, costAmounts));
 
         SpriteRenderer sr = go.GetComponent<SpriteRenderer>();
         if (sr != null) sr.sortingOrder = carpetOrder + 1;
@@ -240,72 +240,8 @@ public class StageExtraction : MonoBehaviour
         return picked;
     }
 
-    private static string BuildPriceLabel(List<ResourceType> types, List<int> amounts)
-    {
-        string[] parts = new string[types.Count];
-        for (int i = 0; i < types.Count; i++) parts[i] = ResourceKoreanName(types[i]) + " x" + amounts[i];
-        return string.Join(" + ", parts);
-    }
-
-    private static string ResourceKoreanName(ResourceType type)
-    {
-        switch (type)
-        {
-            case ResourceType.Wood: return "나무";
-            case ResourceType.Iron: return "철";
-            case ResourceType.Copper: return "구리";
-            case ResourceType.Chemical: return "화학물질";
-            case ResourceType.Oil: return "기름";
-            case ResourceType.Rare: return "희귀자원";
-            default: return type.ToString();
-        }
-    }
-
-    // 상인 옆에 뜨는 가격표 말풍선을 만든다. TextMesh는 URP 폰트 셰이더와 호환 문제가 있어서
-    // (DamageNumber.cs 참고) 이 프로젝트 관례대로 World Space Canvas + UI.Text로 만든다.
-    private static GameObject CreatePriceBubble(Transform parent, Vector3 position)
-    {
-        GameObject root = new GameObject("상인_가격표", typeof(RectTransform), typeof(Canvas));
-        root.transform.SetParent(parent);
-        root.transform.position = position;
-        root.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
-
-        Canvas canvas = root.GetComponent<Canvas>();
-        canvas.renderMode = RenderMode.WorldSpace;
-
-        // 자원 2종류 섞인 가격("화학물질 x8 + 나무 x8" 등)까지 한 줄로 다 들어가도록 충분히 넓게 잡는다.
-        RectTransform rootRt = root.GetComponent<RectTransform>();
-        rootRt.sizeDelta = new Vector2(340f, 60f);
-
-        GameObject bg = new GameObject("Background", typeof(RectTransform), typeof(Image));
-        bg.transform.SetParent(root.transform, false);
-        RectTransform bgRt = bg.GetComponent<RectTransform>();
-        bgRt.anchorMin = Vector2.zero;
-        bgRt.anchorMax = Vector2.one;
-        bgRt.offsetMin = Vector2.zero;
-        bgRt.offsetMax = Vector2.zero;
-        Image bgImg = bg.GetComponent<Image>();
-        bgImg.color = new Color(0f, 0f, 0f, 0.8f);
-
-        GameObject textGO = new GameObject("Text", typeof(RectTransform), typeof(Text));
-        textGO.transform.SetParent(root.transform, false);
-        RectTransform textRt = textGO.GetComponent<RectTransform>();
-        textRt.anchorMin = Vector2.zero;
-        textRt.anchorMax = Vector2.one;
-        textRt.offsetMin = new Vector2(10f, 6f);
-        textRt.offsetMax = new Vector2(-10f, -6f);
-        Text text = textGO.GetComponent<Text>();
-        text.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
-        text.fontSize = 22;
-        text.alignment = TextAnchor.MiddleCenter;
-        text.color = Color.white;
-        // 줄바꿈(Wrap) + 세로 Truncate 기본값 조합 때문에 두 번째 줄("+" 뒤)이 통째로 잘려 보이지
-        // 않던 문제가 있었다. 한 줄로 넘치더라도 절대 잘리지 않도록 가로/세로 다 Overflow로 둔다.
-        text.horizontalOverflow = HorizontalWrapMode.Overflow;
-        text.verticalOverflow = VerticalWrapMode.Overflow;
-
-        return root;
-    }
+    // BuildPriceLabel / ResourceKoreanName / CreatePriceBubble는 MerchantItem.cs로 옮겼다
+    // (거점 제작대 HubCrafting도 같은 가격표 UI가 필요해져서 공용 상품 컴포넌트 쪽에 둠).
 
     private void CreatePortal(Transform parent, Vector2 position, string targetTheme, Color color)
     {
