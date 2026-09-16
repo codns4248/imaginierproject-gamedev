@@ -176,7 +176,9 @@ public class StageExtraction : MonoBehaviour
             () =>
             {
                 HealthPotion potion = FindFirstObjectByType<HealthPotion>();
-                if (potion != null) potion.AddPotions(1);
+                if (potion == null) return false;
+                potion.AddPotions(1);
+                return true; // 회복약은 개수 제한이 없어 항상 지급 성공
             });
 
         // 무기: 비싸게, 자원 2종류 섞어서. 5종류 중 랜덤 한 가지를 그 자리에서 바로 지급한다.
@@ -190,7 +192,8 @@ public class StageExtraction : MonoBehaviour
             () =>
             {
                 WeaponSwitcher switcher = FindFirstObjectByType<WeaponSwitcher>();
-                if (switcher != null) switcher.TryGiveWeapon(weaponType);
+                // 무기 슬롯이 꽉 찼으면 false - MerchantItem이 이 경우 자원을 쓰지 않고 상품도 남겨둔다.
+                return switcher != null && switcher.TryGiveWeapon(weaponType);
             });
 
         // 희귀자원: 낮은 확률로만 진열되고, 매우매우 비싸게(자원 2종류 섞어서 대량) 판다.
@@ -200,7 +203,7 @@ public class StageExtraction : MonoBehaviour
             List<int> rareCostAmounts = new List<int> { RareGoodsCostPerType, RareGoodsCostPerType };
             SpawnGoodsItem(parent, new Vector3(rightX, y, 0f), carpetOrder, ResourcePickup.GetIconSprite(ResourceType.Rare),
                 rareCostTypes, rareCostAmounts, priceBubble, priceText,
-                () => ResourceBank.AddRunResource(ResourceType.Rare, 1));
+                () => { ResourceBank.AddRunResource(ResourceType.Rare, 1); return true; }); // 개수 제한 없어 항상 성공
         }
     }
 
@@ -208,7 +211,7 @@ public class StageExtraction : MonoBehaviour
     private const float GoodsIconTargetSize = 0.7f;
 
     private void SpawnGoodsItem(Transform parent, Vector3 position, int carpetOrder, Sprite sprite,
-        List<ResourceType> costTypes, List<int> costAmounts, GameObject priceBubble, Text priceText, System.Action onPurchase)
+        List<ResourceType> costTypes, List<int> costAmounts, GameObject priceBubble, Text priceText, System.Func<bool> onPurchase)
     {
         if (sprite == null) return; // 아이콘을 못 구했으면(무기 프리팹 못 찾음 등) 진열하지 않는다
 
