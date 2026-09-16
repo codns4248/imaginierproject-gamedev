@@ -5,8 +5,10 @@ using UnityEngine.UI;
 
 // 상인이 파는 상품 하나. 플레이어가 interactRadius 안으로 들어오면 흰색 테두리(Enemy.cs의 피격
 // 테두리와 같은 방식: 스프라이트를 4방향으로 살짝 띄워 전용 머티리얼로 흰색 실루엣을 겹쳐 그림)와
-// 상인 옆 가격표 말풍선이 뜨고, F키를 누르면 지정된 자원(1~2종류)을 전부 가지고 있을 때만 소모하고
-// onPurchase 콜백을 실행한 뒤 사라진다. 하나라도 부족하면 아무 일도 일어나지 않는다.
+// 상인 옆 가격표 말풍선이 뜨고, F키를 누르면 지정된 자원(1~2종류)을 전부 가지고 있을 때만 onPurchase를
+// 실행한다. onPurchase는 실제로 지급했는지를 bool로 돌려준다 - 무기 슬롯이 꽉 찬 경우처럼 지급이
+// 실패하면 자원을 쓰지 않고 상품도 그대로 남는다(예전엔 지급 성공 여부와 무관하게 항상 자원을
+// 먼저 쓰고 상품을 지워서, 슬롯이 꽉 찼을 때 자원만 날리고 아무것도 못 받는 문제가 있었다).
 public class MerchantItem : MonoBehaviour
 {
     // 카펫 위 상품 간격보다 충분히 좁게 잡아서, 두 상품 사이에서 F를 눌렀을 때
@@ -15,7 +17,7 @@ public class MerchantItem : MonoBehaviour
 
     private List<ResourceType> costTypes;
     private List<int> costAmounts;
-    private System.Action onPurchase;
+    private System.Func<bool> onPurchase; // 실제로 지급했으면 true. false면 자원을 쓰지 않는다.
     private Transform player;
     private SpriteRenderer[] outlineRenderers;
     private Material outlineMat;
@@ -29,7 +31,7 @@ public class MerchantItem : MonoBehaviour
     // 아이콘) 화면에 보이는 크기가 맞도록, 고정 배율 대신 "가로/세로 중 큰 쪽 기준 목표 크기"로
     // 스케일을 역산한다.
     public void Init(Sprite sprite, float targetWorldSize, List<ResourceType> costTypes, List<int> costAmounts,
-        Material outlineMaterial, System.Action onPurchase,
+        Material outlineMaterial, System.Func<bool> onPurchase,
         GameObject priceBubbleRoot, Text priceText, string priceLabel)
     {
         this.costTypes = costTypes;
@@ -119,6 +121,11 @@ public class MerchantItem : MonoBehaviour
         {
             if (ResourceBank.GetRunHeld(costTypes[i]) < costAmounts[i]) return; // 하나라도 부족하면 구매 취소
         }
+
+        // 자원을 쓰기 전에 실제로 지급이 되는지 먼저 확인한다 (예: 무기 슬롯이 꽉 찬 경우).
+        // 실패하면 자원도 안 쓰고 상품도 그대로 남겨서, 나중에 슬롯을 비우고 다시 살 수 있게 한다.
+        if (onPurchase == null || !onPurchase()) return;
+
         for (int i = 0; i < costTypes.Count; i++)
         {
             ResourceBank.TrySpendRunResource(costTypes[i], costAmounts[i]);
@@ -126,7 +133,6 @@ public class MerchantItem : MonoBehaviour
 
         purchased = true;
         if (priceBubbleRoot != null) priceBubbleRoot.SetActive(false);
-        onPurchase?.Invoke();
         Destroy(gameObject);
     }
 
