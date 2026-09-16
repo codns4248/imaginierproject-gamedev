@@ -11,6 +11,9 @@ using UnityEngine.UI;
 // 다시 지지 않으려고 일부러 키보드 전용으로 뒀다.
 public class RetreatManager : MonoBehaviour
 {
+    [Tooltip("확인창 문구 폰트 (프로젝트 한글 UI와 동일한 neodgm 권장). 비우면 내장 폰트로 폴백.")]
+    public Font promptFont;
+
     private GameObject promptGO;
     private bool isPromptOpen;
     private PauseManager pauseManager;
@@ -52,7 +55,9 @@ public class RetreatManager : MonoBehaviour
 
     private void Confirm()
     {
+        // 탈출(도중 안전 복귀): 파밍 자원은 stash로 확정하되, 이번 런의 무기 강화는 초기화한다.
         ResourceBank.CommitRunToStash();
+        WeaponEnhanceStore.ResetForNewRun();
         StageProgress.ResetToFirstStage();
         ClosePrompt();
         StageManager.ReturnToHub();
@@ -95,7 +100,7 @@ public class RetreatManager : MonoBehaviour
         textRT.offsetMax = Vector2.zero;
 
         Text text = textGO.GetComponent<Text>();
-        text.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+        text.font = promptFont != null ? promptFont : Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
         text.fontSize = 24;
         text.alignment = TextAnchor.MiddleCenter;
         text.color = Color.white;
