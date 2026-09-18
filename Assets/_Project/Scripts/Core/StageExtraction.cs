@@ -324,6 +324,16 @@ public class StageExtraction : MonoBehaviour
             Destroy(clonedHubBehaviour);
         }
 
+        // 거점 포탈이 Start()에서 자기 몫으로 붙여둔 InteractOutline도 같이 복제돼 온다.
+        // StageExitPortal.Init()이 새로 하나 붙이므로, 안 지우면 같은 오브젝트에 두 개가 남아
+        // F키 반응이 뒤섞인다(둘 중 하나가 랜덤 스테이지 이동을 일으킬 수 있음).
+        InteractOutline clonedOutline = go.GetComponent<InteractOutline>();
+        if (clonedOutline != null)
+        {
+            clonedOutline.enabled = false;
+            Destroy(clonedOutline);
+        }
+
         StageExitPortal portal = go.AddComponent<StageExitPortal>();
         portal.Init(targetTheme, color);
     }

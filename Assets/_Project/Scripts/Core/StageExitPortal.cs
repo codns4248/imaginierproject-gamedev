@@ -3,6 +3,7 @@ using UnityEngine;
 // 스테이지 클리어 후 나타나는 이동용 포탈 하나. 거점 포탈("potal") 오브젝트를 복제해서 만들어지므로
 // 스프라이트/콜라이더 구성을 그대로 물려받고, 여기서는 색깔만 다시 입힌다 (원본 아트를 바꾸면 같이 따라간다).
 // targetTheme이 있으면 그 테마의 스테이지로, 비어있으면(추출 포탈) 자원을 확정하고 거점으로 이동한다.
+// 근처에서 흰색 테두리가 뜰 때 F키를 눌러야 실제로 이동한다 (InteractOutline 참고).
 public class StageExitPortal : MonoBehaviour
 {
     private string targetTheme;
@@ -18,12 +19,13 @@ public class StageExitPortal : MonoBehaviour
 
         BoxCollider2D col = GetComponent<BoxCollider2D>();
         if (col != null) col.isTrigger = true;
+
+        InteractOutline outline = gameObject.AddComponent<InteractOutline>();
+        outline.Init(Activate);
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    private void Activate()
     {
-        if (other.gameObject.name != "Player") return;
-
         if (string.IsNullOrEmpty(targetTheme))
         {
             // 추출 성공: 파밍 자원은 stash로 확정하되, 이번 런의 무기 강화는 초기화한다.

@@ -100,7 +100,8 @@ public class ResourcePickup : MonoBehaviour
 
         SpriteRenderer sr = go.AddComponent<SpriteRenderer>();
         sr.sprite = GetIconSprite(type);
-        sr.sortingOrder = 0;
+        // 상인(carpetOrder+1, 보통 1)보다 위로 둬서, 상인 근처에 자원이 떨어져도 가려지지 않게 한다.
+        sr.sortingOrder = 2;
 
         float scale = GetIconScale(type);
         go.transform.localScale = new Vector3(scale, scale, 1f);
