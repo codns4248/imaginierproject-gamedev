@@ -48,9 +48,16 @@ public static class StageManager
     private const string MixedMonsterTheme = "생각의 방";
     public static float ResourceDropRateMultiplier => CurrentTheme == MixedMonsterTheme ? 0.25f : 1f;
 
+    // 거점 포탈에서 처음 스테이지를 고를 때 쓰는 테마 풀. "겨울 (테스트용)"은 절대 나오면 안 되므로
+    // 여기 두 풀 어디에도 넣지 않는다 (stages 배열엔 남겨둬서 EnterStage로 직접 테스트는 계속 가능).
+    private static readonly string[] CommonStartThemes = { "오염된 호수", "광산", "숲", "공장", "모래 황무지" };
+    private static readonly string[] RareStartThemes = { "NASA", "군부대", "생각의 방" };
+    private const float RareStartChance = 0.15f; // 희귀자원 맵 3종은 낮은 확률로만 등장
+
     public static void EnterRandomStage()
     {
-        EnterZone(stages[Random.Range(0, stages.Length)]);
+        string[] pool = Random.value < RareStartChance ? RareStartThemes : CommonStartThemes;
+        EnterStage(pool[Random.Range(0, pool.Length)]);
     }
 
     // 특정 테마의 스테이지로 이동한다 (스테이지 클리어 후 뜨는 색깔 포탈이 사용).
