@@ -8,6 +8,9 @@ using UnityEngine;
 // 플레이어가 interactRadius 안까지 다가가서 F키를 누르면(WeaponSwitcher가) 빈 무기 슬롯에 장착해준다.
 // 이 컴포넌트 자신은 "여기 이런 무기가 떨어져 있다"는 상태 + 시각적 표시만 맡고,
 // 실제 장착/드랍 판단(빈 슬롯 찾기 등)은 WeaponSwitcher가 담당한다.
+// 트리거 콜라이더가 아니라 거리 비교(FindNearestInRange)로 판단하므로 InteractOutline을 그대로
+// 못 쓰고, 같은 방식(Enemy 피격 테두리 재사용, MerchantItem 참고)을 직접 구현한다. 여러 무기가
+// 겹쳐 떨어져 있어도 실제로는 F키에 가장 가까운 것 하나만 주워지므로, 테두리도 그 하나에만 뜬다.
 public class WeaponPickup : MonoBehaviour
 {
     public WeaponType weaponType;
@@ -23,6 +26,13 @@ public class WeaponPickup : MonoBehaviour
     public float popMaxDistance = 0.7f;   // 착지 지점까지의 최대 거리
 
     private bool isPopping;
+
+    private Transform player;
+    private SpriteRenderer[] outlineRenderers;
+    private Material outlineMat;
+
+    private static Material sharedOutlineMaterial;
+    private static bool outlineMaterialLoaded;
 
     // 바닥에 떨어져 있을 때(장착 중이 아닐 때) 무기 종류별로 얼마나 확대/축소해서 보여줄지.
     // Pistol은 원본 스프라이트가 커서 오히려 줄이고, 나머지는 눈에 잘 띄도록 더 키운다.
@@ -89,6 +99,61 @@ public class WeaponPickup : MonoBehaviour
         WeaponPickup pickup = go.AddComponent<WeaponPickup>();
         pickup.weaponType = type;
         pickup.StartPop(position);
+        pickup.CreateOutline(sr);
+    }
+
+    // 적(Enemy)이 이미 쓰는 피격 테두리 머티리얼을 그대로 재사용한다 (InteractOutline/MerchantItem과 동일한 방식).
+    private static Material GetSharedOutlineMaterial()
+    {
+        if (!outlineMaterialLoaded)
+        {
+            EnemySpawner spawner = Object.FindFirstObjectByType<EnemySpawner>();
+            Enemy enemyPrefab = spawner != null && spawner.enemyPrefab != null ? spawner.enemyPrefab.GetComponent<Enemy>() : null;
+            sharedOutlineMaterial = enemyPrefab != null ? enemyPrefab.outlineMaterial : null;
+            outlineMaterialLoaded = true;
+        }
+        return sharedOutlineMaterial;
+    }
+
+    private void CreateOutline(SpriteRenderer sr)
+    {
+        GameObject playerObj = GameObject.Find("Player");
+        if (playerObj != null) player = playerObj.transform;
+
+        Material outlineMaterial = GetSharedOutlineMaterial();
+        if (outlineMaterial != null) outlineMat = new Material(outlineMaterial);
+
+        Vector2[] offsets = { Vector2.left, Vector2.right, Vector2.up, Vector2.down };
+        outlineRenderers = new SpriteRenderer[offsets.Length];
+
+        for (int i = 0; i < offsets.Length; i++)
+        {
+            GameObject go = new GameObject("Outline");
+            go.transform.SetParent(transform, false);
+            go.transform.localPosition = (Vector3)(offsets[i] * 0.06f);
+
+            SpriteRenderer outlineSr = go.AddComponent<SpriteRenderer>();
+            outlineSr.sprite = sr.sprite;
+            if (outlineMat != null) outlineSr.sharedMaterial = outlineMat;
+            outlineSr.sortingOrder = sr.sortingOrder - 1;
+            outlineSr.enabled = false;
+
+            outlineRenderers[i] = outlineSr;
+        }
+        if (outlineMat != null) outlineMat.color = Color.white;
+    }
+
+    void Update()
+    {
+        if (outlineRenderers == null || player == null) return;
+
+        bool isNearest = !isPopping && this == FindNearestInRange(player.position);
+        for (int i = 0; i < outlineRenderers.Length; i++) outlineRenderers[i].enabled = isNearest;
+    }
+
+    void OnDestroy()
+    {
+        if (outlineMat != null) Destroy(outlineMat);
     }
 
     // 드랍된 자리(originPos)에서 무작위 방향으로 살짝 떨어진 착지 지점까지 포물선을 그리며 튀어나간다.
