@@ -127,11 +127,12 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
             }
 
             // 마지막 발 이후에는 점사 간격 대신 아래의 휴식 시간을 기다린다.
+            // 기믹 "한파" 중에는 WeaponTimeScale(<1)로 나눠서 대기 시간을 늘린다 = 점사/휴식이 느려진다.
             if (i < burstCount - 1)
-                yield return new WaitForSeconds(burstInterval);
+                yield return new WaitForSeconds(burstInterval / StageGimmickManager.WeaponTimeScale);
         }
 
-        yield return new WaitForSeconds(restDuration);
+        yield return new WaitForSeconds(restDuration / StageGimmickManager.WeaponTimeScale);
         isFiring = false;
     }
 

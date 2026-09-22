@@ -127,7 +127,7 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
 
     void Update()
     {
-        attackCooldown -= Time.deltaTime;
+        attackCooldown -= Time.deltaTime * StageGimmickManager.WeaponTimeScale;
 
         // 들고 있을 때만 마우스 좌클릭으로 수동 발동한다. 자동 발동은 MeleeAutoAttackQueue가
         // TriggerAutoAttack()을 직접 호출해서 처리하므로 여기서는 신경 쓰지 않는다.
@@ -167,7 +167,7 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
         float elapsed = 0f;
         while (elapsed < thrustOutDuration)
         {
-            elapsed += Time.deltaTime;
+            elapsed += Time.deltaTime * StageGimmickManager.WeaponTimeScale;
             float t = Mathf.Clamp01(elapsed / thrustOutDuration);
             ApplyLanceTransform(Mathf.Lerp(restRadius, outTarget, t));
             CheckHit();
@@ -178,7 +178,7 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
         elapsed = 0f;
         while (elapsed < thrustBackDuration)
         {
-            elapsed += Time.deltaTime;
+            elapsed += Time.deltaTime * StageGimmickManager.WeaponTimeScale;
             float t = Mathf.Clamp01(elapsed / thrustBackDuration);
             ApplyLanceTransform(Mathf.Lerp(outTarget, restRadius, t));
             yield return null;

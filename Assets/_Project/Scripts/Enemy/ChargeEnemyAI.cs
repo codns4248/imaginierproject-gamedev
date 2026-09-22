@@ -101,7 +101,7 @@ public class ChargeEnemyAI : MonoBehaviour
         float limitX = enemy.mapHalfExtent - enemy.boundaryMargin;
         float limitY = enemy.mapHalfExtent - enemy.boundaryMargin;
 
-        float step = Mathf.Min(enemy.moveSpeed * chargeSpeedMultiplier * Time.fixedDeltaTime, chargeRemainingDistance);
+        float step = Mathf.Min(enemy.EffectiveMoveSpeed * chargeSpeedMultiplier * Time.fixedDeltaTime, chargeRemainingDistance);
         Vector2 nextPos = rb.position + chargeDirection * step;
         nextPos.x = Mathf.Clamp(nextPos.x, enemy.mapCenter.x - limitX, enemy.mapCenter.x + limitX);
         nextPos.y = Mathf.Clamp(nextPos.y, enemy.mapCenter.y - limitY, enemy.mapCenter.y + limitY);
@@ -161,7 +161,7 @@ public class ChargeEnemyAI : MonoBehaviour
         if (moveFrames == null || moveFrames.Length == 0) return;
 
         animTimer += Time.deltaTime * speedMultiplier;
-        float frameDuration = 1f / frameRate;
+        float frameDuration = 1f / (frameRate * StageGimmickManager.EnemySpeedMultiplier);
         if (animTimer >= frameDuration)
         {
             animTimer -= frameDuration;

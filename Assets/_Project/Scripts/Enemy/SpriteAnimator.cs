@@ -9,6 +9,10 @@ public class SpriteAnimator : MonoBehaviour
     public Sprite[] frames;
     public float frameRate = 12f;
 
+    // 재생 속도 배율 (기본 1). 몬스터 기믹(태풍 등)처럼 외부에서 애니메이션 속도를 조절해야 할 때
+    // Enemy.cs가 매 프레임 이 값을 갱신한다 - 이 컴포넌트 자체는 기믹을 몰라도 된다.
+    [HideInInspector] public float speedMultiplier = 1f;
+
     private SpriteRenderer spriteRenderer;
     private int currentFrame;
     private float timer;
@@ -36,7 +40,7 @@ public class SpriteAnimator : MonoBehaviour
         }
 
         timer += Time.deltaTime;
-        float frameDuration = 1f / frameRate;
+        float frameDuration = 1f / (frameRate * Mathf.Max(0.01f, speedMultiplier));
         if (timer >= frameDuration)
         {
             timer -= frameDuration;

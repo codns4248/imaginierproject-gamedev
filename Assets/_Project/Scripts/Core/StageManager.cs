@@ -84,6 +84,9 @@ public static class StageManager
 
         StageTimer timer = Object.FindFirstObjectByType<StageTimer>();
         if (timer != null) timer.BeginStage();
+
+        // 스테이지에 새로 들어올 때마다 확률적으로 맵 전역 기믹이 하나 뽑힌다 (StageGimmickManager 참고).
+        StageGimmickManager.RollForStage();
     }
 
     public static void ReturnToHub()
@@ -96,6 +99,9 @@ public static class StageManager
 
         StageTimer timer = Object.FindFirstObjectByType<StageTimer>();
         if (timer != null) timer.StopAndReset();
+
+        // 거점에는 기믹이 없으므로 스테이지에서 뽑혔던 기믹을 정리한다.
+        StageGimmickManager.ClearGimmick();
 
         // 사망 후 복귀한 경우일 수 있으니, 거점에서는 항상 다시 움직일 수 있는 상태로 되돌린다.
         GameObject player = GameObject.Find("Player");

@@ -89,6 +89,8 @@ public class StageExtraction : MonoBehaviour
 
     void HandleStageClear()
     {
+        // 스테이지를 클리어해서 포탈이 뜨는 순간부터는 전투 구간이 아니므로 진행 중이던 기믹을 멈춘다.
+        StageGimmickManager.ClearGimmick();
         SpawnExitPortals();
     }
 

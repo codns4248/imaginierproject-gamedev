@@ -104,7 +104,8 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
     {
         if (EnemyManager.PlayerDead) return; // 플레이어가 죽으면 자동/수동 상관없이 더 이상 발사하지 않는다
 
-        attackCooldown -= Time.deltaTime;
+        // 기믹 "한파" 중에는 WeaponTimeScale이 1보다 작아져 쿨다운 회복이 느려진다(재장전 체감 저하).
+        attackCooldown -= Time.deltaTime * StageGimmickManager.WeaponTimeScale;
         if (attackCooldown > 0f) return;
 
         if (weaponAim.isHeld)

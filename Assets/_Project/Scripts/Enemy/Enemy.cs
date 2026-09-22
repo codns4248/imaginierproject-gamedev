@@ -71,6 +71,10 @@ public class Enemy : MonoBehaviour
     // 피격 경직 중인지 외부(원거리 몬스터의 애니메이션/공격 타이머 등)에서 읽을 수 있게 열어둔다.
     public bool IsHitStunned => hitStunTimer > 0f;
 
+    // 기믹 "태풍"이 활성화된 동안 moveSpeed에 곱해지는 실제 이동속도. Enemy.cs 자체 추격 이동뿐
+    // 아니라 ChargeEnemyAI의 돌진 속도 계산도 이 값을 그대로 가져다 쓴다.
+    public float EffectiveMoveSpeed => moveSpeed * StageGimmickManager.EnemySpeedMultiplier;
+
     // true인 동안 FixedUpdate()의 "플레이어 추격" 이동을 건너뛴다(피격 경직/넉백은 그대로 적용됨).
     // WeaponAim.externalControl과 같은 패턴 - 원거리 공격 몬스터처럼 제자리에 멈춰 서야 하는
     // 특수 행동 컴포넌트가 이 값을 켜고 끄면서 Enemy.cs의 기본 추격 이동만 잠깐 빌려 쓴다.
@@ -172,6 +176,10 @@ public class Enemy : MonoBehaviour
         }
 
         UpdateHitOutline();
+
+        // 기믹 "태풍" 중에는 애니메이션도 같은 배율로 빨라진다 (SpriteAnimator는 자기 자신이 몬스터인지
+        // 몰라도 되게, speedMultiplier 필드만 노출하고 갱신은 Enemy.cs가 책임진다).
+        if (spriteAnimator != null) spriteAnimator.speedMultiplier = StageGimmickManager.EnemySpeedMultiplier;
     }
 
     // 피격 경직 중(hitStunTimer > 0)이면 흰색 테두리를, 그렇지 않은데 외부에서 테두리를 요청했으면
@@ -269,7 +277,7 @@ public class Enemy : MonoBehaviour
         Vector2 moveDir = chaseDir + separation * separationStrength;
         if (moveDir.sqrMagnitude > 0.0001f)
         {
-            Vector2 nextPosition = rb.position + moveDir.normalized * moveSpeed * Time.fixedDeltaTime;
+            Vector2 nextPosition = rb.position + moveDir.normalized * EffectiveMoveSpeed * Time.fixedDeltaTime;
 
             // 플레이어와 마찬가지로 맵 경계 밖으로 못 나가게 좌표를 눌러준다.
             nextPosition.x = Mathf.Clamp(nextPosition.x, mapCenter.x - limitX, mapCenter.x + limitX);

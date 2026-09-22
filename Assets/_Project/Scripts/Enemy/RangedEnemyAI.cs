@@ -119,7 +119,7 @@ public class RangedEnemyAI : MonoBehaviour
         if (frames == null || frames.Length == 0) return;
 
         animTimer += Time.deltaTime;
-        float frameDuration = 1f / frameRate;
+        float frameDuration = 1f / (frameRate * StageGimmickManager.EnemySpeedMultiplier);
         if (animTimer >= frameDuration)
         {
             animTimer -= frameDuration;
@@ -136,7 +136,7 @@ public class RangedEnemyAI : MonoBehaviour
         spriteRenderer.sprite = frames[Mathf.Min(animFrame, frames.Length - 1)];
 
         animTimer += Time.deltaTime;
-        float frameDuration = 1f / frameRate;
+        float frameDuration = 1f / (frameRate * StageGimmickManager.EnemySpeedMultiplier);
         if (animTimer >= frameDuration)
         {
             animTimer -= frameDuration;

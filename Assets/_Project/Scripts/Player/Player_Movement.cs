@@ -92,7 +92,8 @@ public class PlayerMovement : MonoBehaviour
 
         // rb.MovePosition은 Transform.position을 직접 바꾸는 대신 물리 엔진에게 "다음 스텝에 여기로 옮겨줘"라고
         // 요청하는 방식이라, 벽 등 다른 콜라이더와의 충돌 처리가 자연스럽게 유지된다.
-        Vector2 nextPosition = rb.position + movement * moveSpeed * Time.fixedDeltaTime;
+        // 기믹 "호우"가 활성화된 동안은 PlayerMoveSpeedMultiplier가 1보다 작아져 이동이 둔해진다.
+        Vector2 nextPosition = rb.position + movement * moveSpeed * StageGimmickManager.PlayerMoveSpeedMultiplier * Time.fixedDeltaTime;
 
         // 맵 밖으로 못 나가게 좌표를 경계 안으로 강제로 눌러준다.
         // 콜라이더로 벽을 세우는 대신 코드로 직접 클램프하면, 아무리 빠른 속도로 부딪혀도 벽을 뚫고 나가는(터널링)

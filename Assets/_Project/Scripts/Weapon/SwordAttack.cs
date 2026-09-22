@@ -129,7 +129,7 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
 
     void Update()
     {
-        attackCooldown -= Time.deltaTime;
+        attackCooldown -= Time.deltaTime * StageGimmickManager.WeaponTimeScale;
 
         // 들고 있을 때만 마우스 좌클릭으로 수동 발동한다. 자동 발동은 MeleeAutoAttackQueue가
         // TriggerAutoAttack()을 직접 호출해서 처리하므로 여기서는 신경 쓰지 않는다.
@@ -168,7 +168,8 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
 
     private void UpdateSwing()
     {
-        swingElapsed += Time.deltaTime;
+        // 기믹 "한파" 중에는 휘두르는 모션 자체가 느리게 재생된다.
+        swingElapsed += Time.deltaTime * StageGimmickManager.WeaponTimeScale;
         float t = Mathf.Clamp01(swingElapsed / swingDuration);
 
         // 목표 방향(중앙각)을 기준으로 +half(위) ~ -half(아래) 사이를 시간에 따라 훑는다.

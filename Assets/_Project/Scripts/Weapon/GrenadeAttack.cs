@@ -37,7 +37,7 @@ public class GrenadeAttack : MonoBehaviour
     {
         if (EnemyManager.PlayerDead) return;
 
-        attackCooldown -= Time.deltaTime;
+        attackCooldown -= Time.deltaTime * StageGimmickManager.WeaponTimeScale;
         if (attackCooldown > 0f) return;
 
         if (weaponAim.isHeld)
