@@ -36,6 +36,10 @@ public class PlayerHealth : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Animator animator;
 
+    // 거점 영구 강화(체력) 적용 전 원본 최대 체력. 레벨이 바뀔 때마다 이 값 기준으로 다시 계산한다.
+    // ponytail: 레벨당 +1 고정치. 밸런스 수치는 나중에 조정.
+    private int baseMaxHealth;
+
     public int MaxHealth => maxHealth;
     public int CurrentHealth => currentHealth;
     public bool IsDead => isDead;
@@ -48,7 +52,8 @@ public class PlayerHealth : MonoBehaviour
 
     void Awake()
     {
-        maxHealth = Mathf.Max(0, maxHealth);
+        baseMaxHealth = Mathf.Max(0, maxHealth);
+        maxHealth = baseMaxHealth + PermanentUpgradeManager.GetLevel(ResourceType.Copper);
         reviveCount = Mathf.Max(0, reviveCount);
         currentHealth = maxHealth;
 
@@ -59,6 +64,23 @@ public class PlayerHealth : MonoBehaviour
         // 이전 런에서 죽어서 멈춰있던 적 이동/스폰/자동공격 등을 새 런 시작과 함께 다시 풀어준다.
         // (EnemyManager.PlayerDead는 정적 필드라 씬을 다시 불러와도 저절로 초기화되지 않는다)
         EnemyManager.SetPlayerDead(false);
+    }
+
+    void OnEnable()
+    {
+        PermanentUpgradeManager.OnChanged += ApplyPermanentHealthBonus;
+    }
+
+    void OnDisable()
+    {
+        PermanentUpgradeManager.OnChanged -= ApplyPermanentHealthBonus;
+    }
+
+    // 거점에서 체력 영구 강화를 구매하면 즉시 최대 체력에 반영한다 (기존 currentHealth 비율 등은 신경 쓰지 않고,
+    // SetMaxHealth와 동일하게 넘치는 현재 체력만 클램프한다).
+    private void ApplyPermanentHealthBonus()
+    {
+        SetMaxHealth(baseMaxHealth + PermanentUpgradeManager.GetLevel(ResourceType.Copper));
     }
 
     // 적과 접촉하는 등 피해를 입었을 때 호출한다.

@@ -113,16 +113,23 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
             int level = WeaponEnhanceStore.GetLevel(identity.type, type);
             for (int i = 0; i < level; i++) ApplyStatDelta(type);
         }
+
+        // 거점 영구 강화(공격력/공속/치명타)도 같은 델타 공식으로 적용한다. 런 종료로 리셋되지 않는다.
+        for (int i = 0; i < PermanentUpgradeManager.GetLevel(ResourceType.Iron); i++) ApplyStatDelta(ResourceType.Iron);
+        for (int i = 0; i < PermanentUpgradeManager.GetLevel(ResourceType.Wood); i++) ApplyStatDelta(ResourceType.Wood);
+        for (int i = 0; i < PermanentUpgradeManager.GetLevel(ResourceType.Chemical); i++) ApplyStatDelta(ResourceType.Chemical);
     }
 
     void OnEnable()
     {
         MeleeAutoAttackQueue.Register(this);
+        PermanentUpgradeManager.OnChanged += ReapplyEnhancements;
     }
 
     void OnDisable()
     {
         MeleeAutoAttackQueue.Unregister(this);
+        PermanentUpgradeManager.OnChanged -= ReapplyEnhancements;
     }
 
     void Update()
