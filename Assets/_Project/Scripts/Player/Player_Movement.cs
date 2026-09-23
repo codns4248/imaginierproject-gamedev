@@ -13,6 +13,11 @@ public class PlayerMovement : MonoBehaviour
     // 캐릭터가 맵 가장자리 타일 끝에 딱 붙어 파고들지 않도록 살짝 여유를 두는 값.
     public float boundaryMargin = 0.5f;
 
+    // 거점 영구 강화(이동속도) 적용 전 원본 이동속도. 레벨이 바뀔 때마다 이 값 기준으로 다시 계산한다.
+    // ponytail: 레벨당 +0.15 고정치. 밸런스 수치는 나중에 조정.
+    private const float PermanentMoveSpeedPerLevel = 0.15f;
+    private float baseMoveSpeed;
+
     private Rigidbody2D rb;              // 물리 기반 이동에 사용 (MovePosition으로 밀어줌)
     private Vector2 movement;             // 이번 프레임의 이동 입력 방향 (정규화된 -1~1 범위)
     private SpriteRenderer spriteRenderer; // 좌우 반전(flipX) 제어용
@@ -31,6 +36,27 @@ public class PlayerMovement : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         mainCamera = Camera.main;
+
+        baseMoveSpeed = moveSpeed;
+        ApplyPermanentMoveSpeed();
+    }
+
+    void OnEnable()
+    {
+        PermanentUpgradeManager.OnChanged += ApplyPermanentMoveSpeed;
+    }
+
+    void OnDisable()
+    {
+        PermanentUpgradeManager.OnChanged -= ApplyPermanentMoveSpeed;
+    }
+
+    // 거점 영구 강화(이동속도) 레벨을 moveSpeed에 반영한다. baseMoveSpeed가 Start에서 아직 캐싱되지 않았으면
+    // (OnEnable이 Start보다 먼저 실행됨) 아무 일도 하지 않고, Start에서 다시 한 번 호출해 정확히 맞춘다.
+    private void ApplyPermanentMoveSpeed()
+    {
+        if (baseMoveSpeed <= 0f) return;
+        moveSpeed = baseMoveSpeed + PermanentUpgradeManager.GetLevel(ResourceType.Oil) * PermanentMoveSpeedPerLevel;
     }
 
     void Update()
