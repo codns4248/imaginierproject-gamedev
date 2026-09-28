@@ -12,8 +12,10 @@ using UnityEngine.UI;
 public class MerchantItem : MonoBehaviour
 {
     // 카펫 위 상품 간격보다 충분히 좁게 잡아서, 두 상품 사이에서 F를 눌렀을 때
-    // 둘 다 한꺼번에 구매되는 일이 없게 한다.
-    public float interactRadius = 0.3f;
+    // 둘 다 한꺼번에 구매되는 일이 없게 한다. (0.3은 실제 플레이에서 거의 상품 위에 정확히
+    // 서 있어야 할 만큼 좁아서 테두리가 잘 안 뜨는 것처럼 느껴짐 - 0.6으로 늘림. 상품 간격이
+    // 보통 1유닛이라 반경이 겹쳐도, 구매는 말풍선이 "이 상품" 가격을 보여줄 때만 되므로 안전함)
+    public float interactRadius = 0.6f;
 
     private List<ResourceType> costTypes;
     private List<int> costAmounts;
@@ -32,7 +34,7 @@ public class MerchantItem : MonoBehaviour
     // 스케일을 역산한다.
     public void Init(Sprite sprite, float targetWorldSize, List<ResourceType> costTypes, List<int> costAmounts,
         Material outlineMaterial, System.Func<bool> onPurchase,
-        GameObject priceBubbleRoot, Text priceText, string priceLabel)
+        GameObject priceBubbleRoot, Text priceText, string priceLabel, int baseSortingOrder = 0)
     {
         this.costTypes = costTypes;
         this.costAmounts = costAmounts;
@@ -43,6 +45,10 @@ public class MerchantItem : MonoBehaviour
 
         SpriteRenderer sr = gameObject.AddComponent<SpriteRenderer>();
         sr.sprite = sprite;
+        // sortingOrder는 여기서(CreateOutline보다 먼저) 정해야 한다 - 테두리가 "본체보다 한 단계
+        // 아래"로 그려지는데, 나중에 호출부가 따로 sortingOrder를 바꾸면 테두리가 계산될 때는
+        // 아직 기본값(0)이라 카펫 등 다른 오브젝트와 순서가 겹쳐 테두리가 가려질 수 있다.
+        sr.sortingOrder = baseSortingOrder;
 
         float nativeSize = Mathf.Max(sprite.bounds.size.x, sprite.bounds.size.y);
         float autoScale = nativeSize > 0.0001f ? targetWorldSize / nativeSize : 1f;
@@ -54,6 +60,12 @@ public class MerchantItem : MonoBehaviour
         CreateOutline(outlineMaterial, sr);
     }
 
+    // 테두리를 얼마나 띄울지(월드 유닛 기준 고정값). 이 오브젝트의 localPosition은 부모(자기 자신)의
+    // localScale(=autoScale, 아이콘마다 원본 해상도에 맞춰 다름)만큼 곱해져서 실제 월드 오프셋이 되므로,
+    // 여기서 미리 autoScale로 나눠 넣어야 아이콘마다 autoScale이 달라도 테두리 두께가 항상 똑같아진다.
+    // (전에는 로컬 값을 고정해서, 원본이 작아 autoScale이 큰 아이콘(회복약)만 테두리가 두껍게 보였다)
+    private const float OutlineWorldOffset = 0.05f;
+
     private void CreateOutline(Material outlineMaterial, SpriteRenderer sr)
     {
         Vector2[] offsets = { Vector2.left, Vector2.right, Vector2.up, Vector2.down };
@@ -61,11 +73,14 @@ public class MerchantItem : MonoBehaviour
 
         if (outlineMaterial != null) outlineMat = new Material(outlineMaterial);
 
+        float scale = transform.localScale.x;
+        float localOffset = Mathf.Abs(scale) > 0.0001f ? OutlineWorldOffset / scale : OutlineWorldOffset;
+
         for (int i = 0; i < offsets.Length; i++)
         {
             GameObject go = new GameObject("Outline");
             go.transform.SetParent(transform, false);
-            go.transform.localPosition = (Vector3)(offsets[i] * 0.06f);
+            go.transform.localPosition = (Vector3)(offsets[i] * localOffset);
 
             SpriteRenderer outlineSr = go.AddComponent<SpriteRenderer>();
             outlineSr.sprite = sr.sprite;

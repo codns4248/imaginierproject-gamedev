@@ -221,12 +221,12 @@ public class StageExtraction : MonoBehaviour
         go.transform.SetParent(parent);
         go.transform.position = position;
 
+        // 상품 본체는 carpetOrder+2, 테두리(MerchantItem 내부에서 본체보다 한 단계 아래로 그림)는
+        // carpetOrder+1이 되어 카펫(carpetOrder)보다는 위, 상품 본체보다는 아래에 그려진다.
+        // +1로 두면 테두리가 카펫과 같은 순서로 겹쳐서 카펫에 가려질 수 있었다.
         MerchantItem item = go.AddComponent<MerchantItem>();
         item.Init(sprite, GoodsIconTargetSize, costTypes, costAmounts, merchantOutlineMaterial, onPurchase,
-            priceBubble, priceText, BuildPriceLabel(costTypes, costAmounts));
-
-        SpriteRenderer sr = go.GetComponent<SpriteRenderer>();
-        if (sr != null) sr.sortingOrder = carpetOrder + 1;
+            priceBubble, priceText, BuildPriceLabel(costTypes, costAmounts), carpetOrder + 2);
     }
 
     private static List<ResourceType> PickDistinctResourceTypes(int count)
