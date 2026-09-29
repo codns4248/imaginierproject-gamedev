@@ -101,3 +101,8 @@ InitTestScene*.unity*
 # GDK Edition asset auto-generated on entering/exiting Play mode and on build
 /[Aa]ssets/[Rr]esources/GDKEditionAutoGen*
 .claude/worktrees/
+
+# Claude Code project instructions - 로컬 전용, 팀 공유 안 함
+/CLAUDE.md
+/Assets/Art/CLAUDE.md
+/Assets/Art/CLAUDE.md.meta
