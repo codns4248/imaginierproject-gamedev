@@ -126,11 +126,17 @@ public class WeaponPickup : MonoBehaviour
         Vector2[] offsets = { Vector2.left, Vector2.right, Vector2.up, Vector2.down };
         outlineRenderers = new SpriteRenderer[offsets.Length];
 
+        // 이 오프셋은 로컬 좌표라 부모(this.transform)의 스케일(WorldIconScales, 무기별로 2/3~3배)을
+        // 그대로 곱해서 월드에 나간다 - 스케일을 안 나눠주면 3배 큰 무기는 테두리 4개가 3배 멀리
+        // 떨어져서 따로따로 노는 것처럼 보인다 (Enemy.cs 테두리와 같은 종류의 문제).
+        float scale = WorldIconScales[(int)weaponType];
+        float outlineOffset = scale > 0f ? 0.06f / scale : 0.06f;
+
         for (int i = 0; i < offsets.Length; i++)
         {
             GameObject go = new GameObject("Outline");
             go.transform.SetParent(transform, false);
-            go.transform.localPosition = (Vector3)(offsets[i] * 0.06f);
+            go.transform.localPosition = (Vector3)(offsets[i] * outlineOffset);
 
             SpriteRenderer outlineSr = go.AddComponent<SpriteRenderer>();
             outlineSr.sprite = sr.sprite;

@@ -78,7 +78,7 @@ public class StageTimer : MonoBehaviour
         List<Enemy> remainingEnemies = new List<Enemy>(EnemyManager.ActiveEnemies);
         foreach (Enemy enemy in remainingEnemies)
         {
-            if (enemy != null) enemy.Kill();
+            if (enemy != null) enemy.Kill(dropLoot: false); // 직접 잡은 게 아니므로 자원/무기를 드랍하지 않는다
         }
 
         Debug.Log("스테이지 클리어!");

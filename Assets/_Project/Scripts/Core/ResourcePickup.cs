@@ -19,9 +19,18 @@ public class ResourcePickup : MonoBehaviour
     public float popMinDistance = 0.25f;  // 착지 지점까지의 최소 거리
     public float popMaxDistance = 0.7f;   // 착지 지점까지의 최대 거리
 
+    [Header("클리어 시 강제 회수 (ForceAttract - 거리 무관하게 끌려옴)")]
+    public float forceAttractStartDelay = 0.5f;  // 호출 후 실제로 끌려오기 시작하기까지의 대기 시간
+    public float forceAttractBaseSpeed = 10f;    // 끌려오기 시작할 때의 속도 (평소 흡입보다 빠르게)
+    public float forceAttractAcceleration = 20f; // 초당 속도 증가량 - 날아오면서 점점 빨라지는 느낌
+
     private Transform player;
     private bool isAttracting;
     private bool isPopping;
+
+    private bool forceAttractPending;  // 대기 중(카운트다운 중, 아직 안 움직임)
+    private bool forceAttracted;       // 대기가 끝나서 실제로 가속하며 끌려오는 중
+    private float forceAttractTimer;   // 대기 중엔 남은 대기시간, 끌려오기 시작한 뒤엔 경과시간(가속용)으로 재사용
 
     // 실제 아이콘이 없는 자원 종류를 위한 단색 임시 스프라이트 (즉석 생성 후 캐싱).
     private static readonly Color[] FallbackColors =
@@ -53,21 +62,57 @@ public class ResourcePickup : MonoBehaviour
         // 근처 자원을 마저 주워버려서 초기화된 runHeld에 자원이 도로 남는 문제가 생긴다.
         if (EnemyManager.PlayerDead) return;
 
+        if (forceAttractPending)
+        {
+            forceAttractTimer -= Time.deltaTime;
+            if (forceAttractTimer <= 0f)
+            {
+                forceAttractPending = false;
+                forceAttracted = true;
+                forceAttractTimer = 0f; // 이제부터는 "가속을 위해 흐른 시간"으로 재사용
+            }
+            return; // 대기 중엔 제자리 그대로
+        }
+
         float dist = Vector2.Distance(transform.position, player.position);
+
+        if (forceAttracted)
+        {
+            // 시간이 지날수록(가까워지는 것과 무관하게) 속도가 계속 붙는다 - 날아오면서 점점 빨라지는 느낌.
+            forceAttractTimer += Time.deltaTime;
+            float speed = forceAttractBaseSpeed + forceAttractTimer * forceAttractAcceleration;
+            transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+
+            if (dist <= pickupRadius) Collect();
+            return;
+        }
+
         if (!isAttracting && dist <= attractRadius)
             isAttracting = true;
 
         if (isAttracting)
         {
-            float speed = moveSpeed + (attractRadius - dist) * 4f;
+            float speed = moveSpeed + Mathf.Max(0f, attractRadius - dist) * 4f;
             transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
 
-            if (dist <= pickupRadius)
-            {
-                ResourceBank.AddRunResource(resourceType, amount);
-                Destroy(gameObject);
-            }
+            if (dist <= pickupRadius) Collect();
         }
+    }
+
+    private void Collect()
+    {
+        ResourceBank.AddRunResource(resourceType, amount);
+        Destroy(gameObject);
+    }
+
+    // 거리와 상관없이 플레이어에게 끌려오기 시작하게 만든다 (스테이지 클리어 시 바닥에 남은 자원을
+    // 전부 자동 회수하는 기능 - StageExtraction.HandleStageClear() 참고). 호출 즉시 움직이는 게 아니라
+    // forceAttractStartDelay만큼 기다린 뒤 시작하고, 이후 시간이 지날수록 점점 빨라진다.
+    public void ForceAttract()
+    {
+        if (forceAttracted) return; // 이미 끌려오는 중이면 다시 대기시키지 않는다
+        forceAttractPending = true;
+        forceAttractTimer = forceAttractStartDelay;
     }
 
     /// <summary>지정 위치에 랜덤 자원 타입 드랍 아이템을 스폰한다. Enemy.Die() 등에서 호출한다.</summary>
