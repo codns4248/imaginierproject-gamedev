@@ -200,6 +200,15 @@ public class WeaponEnhancementManager : MonoBehaviour
     {
         if (currencyText == null) return;
 
+        // 씬에 미리 배치된 CurrencyIcon이 있으면 새로 만들지 않고 스프라이트만 드랍 아이콘과 같은 걸로 맞춘다.
+        Image existing = statRow.Find("CurrencyIcon")?.GetComponent<Image>();
+        if (existing != null)
+        {
+            existing.sprite = ResourcePickup.GetIconSprite(type);
+            existing.preserveAspect = true;
+            return;
+        }
+
         GameObject iconGO = new GameObject("CostIcon", typeof(RectTransform), typeof(Image), typeof(LayoutElement));
         iconGO.transform.SetParent(statRow, false);
         iconGO.transform.SetSiblingIndex(currencyText.transform.GetSiblingIndex());

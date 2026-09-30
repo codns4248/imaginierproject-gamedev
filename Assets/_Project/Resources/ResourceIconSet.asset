@@ -13,14 +13,16 @@ MonoBehaviour:
   m_Name: ResourceIconSet
   m_EditorClassIdentifier: Assembly-CSharp::ResourceIconSet
   icons:
-  - {fileID: -6243899074800240088, guid: 6bc5f4617265ce84b8f0943dd1b7e595, type: 3}
-  - {fileID: -4212787150736939295, guid: c4c6f9e16d4a2b748a2fdf40dfc28a5f, type: 3}
-  - {fileID: -7515082885987712489, guid: add43dedc9140f441b1a68ba7e7e9843, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: fb9e4b10317e4b2dacb2418481e5f08b, type: 3}
+  - {fileID: 21300000, guid: 98a18a0e3705415cbd635a9028cf1e02, type: 3}
+  - {fileID: 21300000, guid: 41bd1f9f106b4f268198de1e2c9f255e, type: 3}
+  - {fileID: 21300000, guid: 4d0a67de7ae84cecaeb00d1e59fd1343, type: 3}
+  - {fileID: 21300000, guid: 96d10dd6706b4f58a260f33b4beace84, type: 3}
+  - {fileID: 21300000, guid: 22422bc6754f4590acb172b2674fa37d, type: 3}
   scales:
   - 3
   - 3
   - 3
-  - 1
-  - 1
+  - 3
+  - 3
+  - 3
