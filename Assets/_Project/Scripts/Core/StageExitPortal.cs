@@ -28,9 +28,12 @@ public class StageExitPortal : MonoBehaviour
     {
         if (string.IsNullOrEmpty(targetTheme))
         {
-            // 추출 성공: 파밍 자원은 stash로 확정하되, 이번 런의 무기 강화는 초기화한다.
+            // 추출 성공: 파밍 자원은 stash로 확정하되, 이번 런의 무기(강화 + 필드/상인에서 얻은
+            // 여분 무기)는 사망/도망과 같은 규칙으로 전부 초기화한다.
             ResourceBank.CommitRunToStash();
             WeaponEnhanceStore.ResetForNewRun();
+            WeaponSwitcher weaponSwitcher = FindFirstObjectByType<WeaponSwitcher>();
+            if (weaponSwitcher != null) weaponSwitcher.ResetToStartingWeapon();
             StageProgress.ResetToFirstStage();
             StageManager.ReturnToHub();
         }

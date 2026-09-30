@@ -55,9 +55,12 @@ public class RetreatManager : MonoBehaviour
 
     private void Confirm()
     {
-        // 탈출(도중 안전 복귀): 파밍 자원은 stash로 확정하되, 이번 런의 무기 강화는 초기화한다.
+        // 탈출(도중 안전 복귀): 파밍 자원은 stash로 확정하되, 이번 런의 무기(강화 + 필드/상인에서
+        // 얻은 여분 무기)는 사망/추출과 같은 규칙으로 전부 초기화한다.
         ResourceBank.CommitRunToStash();
         WeaponEnhanceStore.ResetForNewRun();
+        WeaponSwitcher weaponSwitcher = FindFirstObjectByType<WeaponSwitcher>();
+        if (weaponSwitcher != null) weaponSwitcher.ResetToStartingWeapon();
         StageProgress.ResetToFirstStage();
         ClosePrompt();
         StageManager.ReturnToHub();
