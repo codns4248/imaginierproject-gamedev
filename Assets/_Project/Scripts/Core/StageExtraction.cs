@@ -92,6 +92,12 @@ public class StageExtraction : MonoBehaviour
         // 스테이지를 클리어해서 포탈이 뜨는 순간부터는 전투 구간이 아니므로 진행 중이던 기믹을 멈춘다.
         StageGimmickManager.ClearGimmick();
         SpawnExitPortals();
+
+        // 클리어 시점에 바닥에 남아있던 자원은 거리와 상관없이 전부 플레이어에게 끌려와 자동 회수된다.
+        foreach (ResourcePickup pickup in FindObjectsByType<ResourcePickup>(FindObjectsSortMode.None))
+        {
+            pickup.ForceAttract();
+        }
     }
 
     // 현재 구역 위쪽에 랜덤 색깔 포탈 3개, 5층마다 오른쪽에 추출 포탈 1개를 추가로 띄운다.

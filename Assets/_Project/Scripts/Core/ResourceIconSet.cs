@@ -6,9 +6,9 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "ResourceIconSet", menuName = "뱀서라이크/자원 아이콘 세트")]
 public class ResourceIconSet : ScriptableObject
 {
-    // ResourceType의 순서(Wood, Iron, Copper, Chemical, Oil)와 정확히 맞춰서 채운다.
-    public Sprite[] icons = new Sprite[5];
+    // ResourceType의 순서(Wood, Iron, Copper, Chemical, Oil, Rare)와 정확히 맞춰서 채운다.
+    public Sprite[] icons = new Sprite[6];
 
     // 아이콘별 표시 배율. icons와 순서를 맞춰서 쓰고, 기본값은 1(원본 크기)이다.
-    public float[] scales = { 1f, 1f, 1f, 1f, 1f };
+    public float[] scales = { 1f, 1f, 1f, 1f, 1f, 1f };
 }

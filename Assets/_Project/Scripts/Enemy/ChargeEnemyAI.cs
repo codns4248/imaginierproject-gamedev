@@ -58,10 +58,11 @@ public class ChargeEnemyAI : MonoBehaviour
         if (enemy.IsDying || player == null) return;
         if (EnemyManager.PlayerDead) return;
 
-        // 대기(예고)나 돌진 중에 피격당하면 그 자리에서 패턴을 취소한다 (이후 넉백은 Enemy.cs가 처리).
-        if (enemy.IsHitStunned)
+        // 대기(예고) 중 피격당하면 그 자리에서 패턴을 취소한다. 돌진(Charging) 중에는 맞아도 끊기지
+        // 않고 그대로 돌진을 계속한다 (enemy.suppressKnockback이 넉백 이동도 같이 막아준다).
+        if (enemy.IsHitStunned && state != State.Charging)
         {
-            if (state != State.Chase) CancelCharge();
+            if (state == State.Windup) CancelCharge();
             return;
         }
 
@@ -95,8 +96,10 @@ public class ChargeEnemyAI : MonoBehaviour
     {
         if (enemy.IsDying || player == null) return;
         if (EnemyManager.PlayerDead) return;
-        if (enemy.IsHitStunned) return; // 이번 프레임 이동은 Enemy.cs의 넉백 처리에 맡긴다
         if (state != State.Charging) return;
+
+        // 여기 도달했다는 건 이미 Charging 상태라는 뜻 - 피격 경직 중이어도(suppressKnockback 덕분에
+        // Enemy.cs의 넉백 이동도 없으니) 그대로 계속 이동시킨다.
 
         float limitX = enemy.mapHalfExtent - enemy.boundaryMargin;
         float limitY = enemy.mapHalfExtent - enemy.boundaryMargin;
@@ -130,6 +133,7 @@ public class ChargeEnemyAI : MonoBehaviour
         chargeRemainingDistance = detectRadius * chargeDistanceMultiplier;
         enemy.SetExternalOutline(false, Color.white);
         enemy.externalFlipControl = true; // 돌진 도중엔 방향을 고정 - 플레이어를 지나쳐도 뒤돌아보지 않는다
+        enemy.suppressKnockback = true;   // 돌진 도중엔 맞아도 밀려나지 않는다 (궤도 유지)
         ResetAnim();
     }
 
@@ -138,6 +142,7 @@ public class ChargeEnemyAI : MonoBehaviour
         state = State.Chase;
         enemy.externalMovementControl = false;
         enemy.externalFlipControl = false; // 돌진이 끝났으니 다시 플레이어 위치에 따라 좌우반전
+        enemy.suppressKnockback = false;   // 돌진이 끝났으니 다시 평소처럼 넉백 적용
         ResetAnim();
     }
 
@@ -146,6 +151,7 @@ public class ChargeEnemyAI : MonoBehaviour
         state = State.Chase;
         enemy.externalMovementControl = false;
         enemy.externalFlipControl = false;
+        enemy.suppressKnockback = false;
         enemy.SetExternalOutline(false, Color.white);
         ResetAnim();
     }

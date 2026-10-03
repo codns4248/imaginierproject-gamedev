@@ -80,6 +80,10 @@ public class Enemy : MonoBehaviour
     // 특수 행동 컴포넌트가 이 값을 켜고 끄면서 Enemy.cs의 기본 추격 이동만 잠깐 빌려 쓴다.
     [HideInInspector] public bool externalMovementControl;
 
+    // true인 동안 피격 경직 중에도 넉백으로 인한 이동을 하지 않는다(경직 자체와 흰 테두리 표시는
+    // 그대로 적용된다). 돌진 몬스터가 돌진 도중 맞아도 밀려나서 궤도가 흐트러지지 않게 하는 용도.
+    [HideInInspector] public bool suppressKnockback;
+
     // true인 동안 Update()의 "플레이어 방향으로 좌우반전" 로직을 건너뛴다 (마지막 값 유지).
     // 돌진 몬스터가 돌진 도중 플레이어를 지나쳐도 갑자기 뒤돌아보지 않게 하는 용도.
     [HideInInspector] public bool externalFlipControl;
@@ -231,12 +235,15 @@ public class Enemy : MonoBehaviour
         {
             hitStunTimer -= Time.fixedDeltaTime;
 
-            Vector2 knockPos = rb.position + knockbackVelocity * Time.fixedDeltaTime;
-            knockbackVelocity = Vector2.MoveTowards(knockbackVelocity, Vector2.zero, knockbackDecay * Time.fixedDeltaTime);
+            if (!suppressKnockback)
+            {
+                Vector2 knockPos = rb.position + knockbackVelocity * Time.fixedDeltaTime;
+                knockbackVelocity = Vector2.MoveTowards(knockbackVelocity, Vector2.zero, knockbackDecay * Time.fixedDeltaTime);
 
-            knockPos.x = Mathf.Clamp(knockPos.x, mapCenter.x - limitX, mapCenter.x + limitX);
-            knockPos.y = Mathf.Clamp(knockPos.y, mapCenter.y - limitY, mapCenter.y + limitY);
-            rb.MovePosition(knockPos);
+                knockPos.x = Mathf.Clamp(knockPos.x, mapCenter.x - limitX, mapCenter.x + limitX);
+                knockPos.y = Mathf.Clamp(knockPos.y, mapCenter.y - limitY, mapCenter.y + limitY);
+                rb.MovePosition(knockPos);
+            }
             return;
         }
 
@@ -321,32 +328,37 @@ public class Enemy : MonoBehaviour
         currentHealth -= amount;
         if (currentHealth <= 0f)
         {
-            Die();
+            Die(dropLoot: true);
         }
     }
 
     // 그 자리에서 즉시 사라지는 대신, 애니메이션을 멈춘 채로 서서히 투명해지다가 사라진다.
-    private void Die()
+    // dropLoot가 false면 자원/무기를 전혀 드랍하지 않는다 - 스테이지 클리어로 강제 전멸시킬 때
+    // 쓴다(직접 잡은 게 아닌데 자원을 주는 게 이상하다는 피드백으로 추가됨).
+    private void Die(bool dropLoot)
     {
         if (isDying) return;
         isDying = true;
 
-        // 파밍용 자원 드랍. minResourceDrops~maxResourceDrops개 사이로 랜덤하게 여러 개 드랍할 수 있다
-        // (일반 슬라임은 항상 1개, 엘리트처럼 더 많이 주는 적은 프리팹에서 범위를 넓게 설정).
-        int dropCount = Random.Range(minResourceDrops, maxResourceDrops + 1);
-        for (int i = 0; i < dropCount; i++)
+        if (dropLoot)
         {
-            // 특정 맵(생각의 방)은 자원 드랍 확률 자체가 평소보다 낮다. 그 외 맵은 배율이 1이라 항상 드랍된다.
-            if (Random.value > StageManager.ResourceDropRateMultiplier) continue;
+            // 파밍용 자원 드랍. minResourceDrops~maxResourceDrops개 사이로 랜덤하게 여러 개 드랍할 수 있다
+            // (일반 슬라임은 항상 1개, 엘리트처럼 더 많이 주는 적은 프리팹에서 범위를 넓게 설정).
+            int dropCount = Random.Range(minResourceDrops, maxResourceDrops + 1);
+            for (int i = 0; i < dropCount; i++)
+            {
+                // 특정 맵(생각의 방)은 자원 드랍 확률 자체가 평소보다 낮다. 그 외 맵은 배율이 1이라 항상 드랍된다.
+                if (Random.value > StageManager.ResourceDropRateMultiplier) continue;
 
-            if (biasedDropChance > 0f)
-                ResourcePickup.SpawnRandomDrop(transform.position, biasedDropType, biasedDropChance);
-            else
-                ResourcePickup.SpawnRandomDrop(transform.position);
+                if (biasedDropChance > 0f)
+                    ResourcePickup.SpawnRandomDrop(transform.position, biasedDropType, biasedDropChance);
+                else
+                    ResourcePickup.SpawnRandomDrop(transform.position);
+            }
+
+            // 낮은 확률(1%)로 무기 아이템도 별도로 드랍한다.
+            WeaponPickup.TrySpawnRandomDrop(transform.position);
         }
-
-        // 낮은 확률(1%)로 무기 아이템도 별도로 드랍한다.
-        WeaponPickup.TrySpawnRandomDrop(transform.position);
 
         if (spriteAnimator != null) spriteAnimator.enabled = false; // 현재 프레임에 고정
 
@@ -380,9 +392,11 @@ public class Enemy : MonoBehaviour
     }
 
     // 외부(StageTimer의 스테이지 클리어 처리 등)에서 데미지 계산 없이 즉시 제거할 때 호출한다.
-    public void Kill()
+    // dropLoot: 스테이지 클리어로 남은 몹을 강제로 쓸어버릴 때는 false로 넘겨서 드랍을 막는다
+    // (플레이어가 직접 잡은 게 아니므로 보상을 안 주는 게 맞다는 피드백으로 추가됨).
+    public void Kill(bool dropLoot = true)
     {
-        Die();
+        Die(dropLoot);
     }
 
     // 플레이어와 계속 겹쳐있는 동안 매 물리 프레임 호출된다. 실제 데미지 빈도는 PlayerHealth의
