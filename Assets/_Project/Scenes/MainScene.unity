@@ -5605,7 +5605,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 1163643626}
     m_Modifications:
     - target: {fileID: 3450463399224342345, guid: 9135de20f5be2194d9c45865c92c1180, type: 3}
-      propertyPath: m_ActiveFontFeatures.Array.data[0]
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
       value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 4983803472905396515, guid: 9135de20f5be2194d9c45865c92c1180, type: 3}
@@ -483130,7 +483130,7 @@ PrefabInstance:
       value: Green
       objectReference: {fileID: 0}
     - target: {fileID: 8390884308342585349, guid: def9cf0e1efb8f44cbaf40637b30365c, type: 3}
-      propertyPath: m_ActiveFontFeatures.Array.data[0]
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
       value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 9206032922162342980, guid: def9cf0e1efb8f44cbaf40637b30365c, type: 3}
@@ -509000,7 +509000,7 @@ PrefabInstance:
       value: ActionBarSlot
       objectReference: {fileID: 0}
     - target: {fileID: 6354838565957041923, guid: 2457823d9a719c1499d1711b5350781d, type: 3}
-      propertyPath: m_ActiveFontFeatures.Array.data[0]
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
       value: 1801810542
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -509117,6 +509117,7 @@ RectTransform:
   - {fileID: 1043835908}
   - {fileID: 63438775}
   - {fileID: 151532447}
+  - {fileID: 1927037145}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -512239,6 +512240,60 @@ PolygonCollider2D:
       - {x: 0.22, y: 0.049999997}
       - {x: 0.17, y: 0.11}
   m_UseDelaunayMesh: 1
+--- !u!1 &1927037144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1927037145}
+  - component: {fileID: 1927037146}
+  m_Layer: 0
+  m_Name: DeathResultUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1927037145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927037144}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1818642504}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1927037146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927037144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d39a6dc03914fe048bee80b92fa6c5b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DeathResultUI
+  titleFont: {fileID: 12800000, guid: e715fcabbb6163e48b780b3b92979f8e, type: 3}
+  labelFont: {fileID: 12800000, guid: ebe3050e2f27e764ba8791f10bc0ba57, type: 3}
+  fadeInDuration: 0.6
+  animWaitTimeout: 3
+  runEndedLabel: RUN ENDED
+  dieTitle: YOU DIE
+  depthReachedLabel: DEPTH REACHED
+  floorUnit: "\uCE35"
+  returnButtonLabel: "\uAC70\uC810\uC73C\uB85C \uB3CC\uC544\uAC00\uAE30"
+  hint: PRESS ENTER TO CONTINUE
 --- !u!28 &1928928756
 Texture2D:
   m_ObjectHideFlags: 0
