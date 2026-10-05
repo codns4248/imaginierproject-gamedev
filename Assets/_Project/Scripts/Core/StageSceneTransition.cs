@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 // 맵을 개별 씬으로 분리해서 불러오는 기능 - 씬을 내리고/올리는 동안 화면을 검은색으로
 // 가려서 로딩 과정이 안 보이게 한다. StageManager는 static 클래스라 코루틴을 직접 돌릴 수 없어서,
-// 이 컴포넌트(MainScene에 항상 떠 있는 오브젝트)를 통해 실행한다.
+// 이 컴포넌트(hub 씬에 항상 떠 있는 오브젝트)를 통해 실행한다.
 public class StageSceneTransition : MonoBehaviour
 {
     public static StageSceneTransition Instance { get; private set; }

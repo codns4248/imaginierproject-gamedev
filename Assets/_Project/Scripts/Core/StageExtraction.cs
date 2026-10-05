@@ -9,7 +9,7 @@ using UnityEngine.UI;
 // 플레이어가 어느 포탈에 닿는지는 StageExitPortal이 처리한다.
 // 플레이어가 죽으면 파밍한 자원(아직 확정되지 않은 분)을 잃고, 사망 페이드가 끝난 뒤 거점으로 이동한다 (익스트랙션 실패).
 // (조장 확인 완료: 사망 시 자원은 확정하지 않고 소실시키는 게 맞는 규칙 - 임시로 CommitRunToStash를 쓰던 걸 원복함)
-// MainScene에 빈 오브젝트를 만들어 이 컴포넌트를 붙여두면 된다.
+// hub 씬에 빈 오브젝트를 만들어 이 컴포넌트를 붙여두면 된다.
 public class StageExtraction : MonoBehaviour
 {
     // 스테이지 클리어 시 위에 뜨는 색깔 포탈이 연결되는 테마들 (거점 포탈과 색깔만 다름).

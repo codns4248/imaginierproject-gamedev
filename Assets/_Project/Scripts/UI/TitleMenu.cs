@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-// 타이틀 화면(start_lobby) 버튼 동작. FUN-SYS-02~04.
+// 타이틀 화면(title 씬) 버튼 동작. FUN-SYS-02~04.
 public class TitleMenu : MonoBehaviour
 {
-    public string firstSceneName = "MainScene";
+    public string firstSceneName = "hub";
     public GameObject settingsPanel;
 
     public void OnClickStart()
