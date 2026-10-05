@@ -12,7 +12,7 @@ using UnityEngine.UI;
 // 각 소비처(PlayerHealth, PlayerMovement, Pistol/Sword/Smg/LanceAttack)가 PermanentUpgradeManager.OnChanged를
 // 구독해서 스스로 처리한다 - 이 매니저는 UI(레벨 칸 채우기/버튼 잠금/자원 표시)만 담당한다.
 //
-// EnhancementPanel을 복제한 HubUpgradePanel 하위의 StatRow_* 5개를 이름으로 찾아서 그대로 재사용한다.
+// WeaponUpgradePanel을 복제한 HubUpgradePanel 하위의 StatRow_* 5개를 이름으로 찾아서 그대로 재사용한다.
 public class HubUpgradeManager : MonoBehaviour
 {
     public GameObject hubUpgradePanel; // 거점 영구 강화 팝업 UI 오브젝트 (HubUpgradePanel)

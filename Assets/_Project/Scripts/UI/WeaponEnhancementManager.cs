@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
-// V키로 무기 강화 팝업(EnhancementPanel)을 열고 닫는다. ESC의 설정 패널(PauseManager)과는 완전히
+// V키로 무기 강화 팝업(WeaponUpgradePanel)을 열고 닫는다. ESC의 설정 패널(PauseManager)과는 완전히
 // 별도의 상태로 동작하지만, 열려 있는 동안은 PauseManager.SetInventoryPaused()로 알려서
 // Time.timeScale을 0으로 만들어 게임을 함께 멈추다.
 //
@@ -19,12 +19,12 @@ using UnityEngine.UI;
 //
 // 마일스톤 패시브(item_enhance_milestone)는 아직 범위 밖.
 //
-// 씬에 미리 만들어진 EnhancementPanel 하위의 StatRow_* 5개를 이름으로 찾아서
+// 씬에 미리 만들어진 WeaponUpgradePanel 하위의 StatRow_* 5개를 이름으로 찾아서
 // 각 EnhanceButton에 코드로 리스너를 붙이고, CurrencyText 옆에 어떤 자원이 얼마나 필요한지
 // 아이콘으로 보여준다.
 public class WeaponEnhancementManager : MonoBehaviour
 {
-    public GameObject enhancementPanel; // 무기 강화 팝업 UI 오브젝트 (EnhancementPanel)
+    public GameObject enhancementPanel; // 무기 강화 팝업 UI 오브젝트 (WeaponUpgradePanel)
     public PauseManager pauseManager; // ESC 상태 확인 + Time.timeScale 계산에 상태를 알려주기 위한 참조
 
     [Header("강화 바(Step) 색")]

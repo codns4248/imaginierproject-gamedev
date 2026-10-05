@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-// 무기 강화 팝업(EnhancementPanel) 왼쪽 위의 네모 칸(WeaponIconBox)을 무기 슬롯과 같은 프레임 도형으로
+// 무기 강화 팝업(WeaponUpgradePanel) 왼쪽 위의 네모 칸(WeaponIconBox)을 무기 슬롯과 같은 프레임 도형으로
 // 보이게 하고, 그 안에 "지금 손에 들고 있는 무기"(WeaponAim.isHeld)의 스프라이트를 아이콘으로 표시한다.
 // V키로 팝업이 열릴 때(OnEnable)와 열려 있는 동안 매 프레임 갱신하므로, 팝업이 떠 있는 상태에서
 // Q로 무기를 바꿔도 바로 반영된다.
