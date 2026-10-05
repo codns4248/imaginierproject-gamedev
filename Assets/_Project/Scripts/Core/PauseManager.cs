@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-// ESC 키로 설정 패널(PausePanel)을 열고 닫는다. V키로 여는 무기 강화 팝업(WeaponEnhancementManager)과는
+// ESC 키로 설정 패널(SettingPanel)을 열고 닫는다. V키로 여는 무기 강화 팝업(WeaponEnhancementManager)과는
 // 완전히 별도의 상태로 동작하지만, 둘 중 하나라도 열려 있으면 Time.timeScale을 0으로 만들어
 // 물리/애니메이션/스폰 등 deltaTime 기반 로직을 전부 함께 멈춘다.
 public class PauseManager : MonoBehaviour
