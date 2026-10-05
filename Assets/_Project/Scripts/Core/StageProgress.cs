@@ -1,7 +1,7 @@
 // 런 중 현재 층수(스테이지 번호)를 추적하는 정적 유틸 (ResourceBank와 같은 스타일).
 // docs/schema.sql의 stage.stage_no / return_available_yn(stage_no % 5 = 0) 규칙을 그대로 반영한다.
 // 실제 구역별 씬(숲/공장/오염호수 등, 김성철 브랜치 머지 예정)은 아직 없어서,
-// 지금은 로직 뼈대만 두고 StageExtraction이 같은 MainScene을 재시작하는 식으로 "다음 층 이동"을 흉내낸다.
+// 지금은 로직 뼈대만 두고 StageExtraction이 같은 hub 씬을 재시작하는 식으로 "다음 층 이동"을 흉내낸다.
 public static class StageProgress
 {
     private const int ExtractionInterval = 5;

@@ -6,7 +6,7 @@ using UnityEngine;
 // 사망/추출로 런이 끝나면 ResetForNewRun()으로 전부 버려진다.
 // (schema.sql의 expedition_item = 플레이어가 아니라 원정에 종속되는 무기별 강화 횟수).
 //
-// 포탈로 다음 스테이지에 넘어가는 것은 씬 전환이 아니라 같은 MainScene 안의 좌표 이동이라
+// 포탈로 다음 스테이지에 넘어가는 것은 씬 전환이 아니라 같은 hub 씬 안의 좌표 이동이라
 // 무기 GameObject가 그대로 유지되므로, 이 값도 자연히 유지된다 (= "포탈 이동 시 강화 유지").
 //
 // 키는 GameObject.name이 아니라 WeaponIdentity.type(WeaponType)을 쓴다 - 시작부터 들고 있는

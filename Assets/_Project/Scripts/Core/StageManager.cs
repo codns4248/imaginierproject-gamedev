@@ -1,6 +1,6 @@
 using UnityEngine;
 
-// 거점 <-> 스테이지 구역 이동을 담당한다. 거점은 MainScene에 그대로 남아있고(좌표만 옮김),
+// 거점 <-> 스테이지 구역 이동을 담당한다. 거점은 hub 씬에 그대로 남아있고(좌표만 옮김),
 // 나머지 스테이지 맵들은 각자 별도 씬(ThemeScenePaths)으로 분리되어 있어서 EnterStage/ReturnToHub
 // 때 StageSceneTransition을 통해 검은 화면을 거치며 해당 씬을 additive로 불러오고/내린다.
 public static class StageManager
@@ -22,26 +22,26 @@ public static class StageManager
 
     // 맵을 개별 씬으로 분리한 결과 - 여기 매핑이 있는 테마는 EnterStage/ReturnToHub 때 해당 씬을
     // additive로 불러오고/내린다 (StageSceneTransition이 실제 로드와 검은 화면 전환을 담당).
-    // 거점(MainScene)을 뺀 모든 스테이지 맵이 각자의 씬으로 분리되어 있다.
+    // 거점(hub 씬)을 뺀 모든 스테이지 맵이 각자의 씬으로 분리되어 있다.
     private static readonly System.Collections.Generic.Dictionary<string, string> ThemeScenePaths =
         new System.Collections.Generic.Dictionary<string, string>
     {
-        { "오염된 호수", "Assets/_Project/Scenes/Map_오염된호수.unity" },
-        { "광산", "Assets/_Project/Scenes/Map_광산.unity" },
-        { "숲", "Assets/_Project/Scenes/Map_숲.unity" },
-        { "공장", "Assets/_Project/Scenes/Map_공장.unity" },
-        { "NASA", "Assets/_Project/Scenes/Map_NASA.unity" },
-        { "모래 황무지", "Assets/_Project/Scenes/Map_모래황무지.unity" },
-        { "생각의 방", "Assets/_Project/Scenes/Map_생각의방.unity" },
-        { "군부대", "Assets/_Project/Scenes/Map_군부대.unity" },
-        { "겨울 (테스트용)", "Assets/_Project/Scenes/Map_겨울테스트용.unity" },
+        { "오염된 호수", "Assets/_Project/Scenes/map_lake.unity" },
+        { "광산", "Assets/_Project/Scenes/map_mine.unity" },
+        { "숲", "Assets/_Project/Scenes/map_forest.unity" },
+        { "공장", "Assets/_Project/Scenes/map_factory.unity" },
+        { "NASA", "Assets/_Project/Scenes/map_nasa.unity" },
+        { "모래 황무지", "Assets/_Project/Scenes/map_desert.unity" },
+        { "생각의 방", "Assets/_Project/Scenes/map_mindroom.unity" },
+        { "군부대", "Assets/_Project/Scenes/map_military.unity" },
+        { "겨울 (테스트용)", "Assets/_Project/Scenes/map_winter_test.unity" },
     };
 
     // 지금 additive로 불러와져 있는 스테이지 전용 씬 경로 (없으면 null).
     private static string currentStageScenePath;
 
     // 지금 거점(false)인지 스테이지 구역(true)인지. ResourceBankUI가 이걸 보고 runHeld/stash 중
-    // 뭘 보여줄지 정한다 - 예전엔 씬이 달라서(MainScene/LobbyScene) 각각 다른 UI 인스턴스를
+    // 뭘 보여줄지 정한다 - 예전엔 씬이 달라서(hub 씬/LobbyScene) 각각 다른 UI 인스턴스를
     // 뒀지만, 이제 한 씬 안에서 좌표만 이동하니 이 플래그로 구분해야 한다.
     public static bool IsInStage { get; private set; }
 
