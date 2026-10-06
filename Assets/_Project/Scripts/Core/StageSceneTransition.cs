@@ -14,12 +14,14 @@ public class StageSceneTransition : MonoBehaviour
     [Header("검은 화면이 최소한 눈에 보이도록 유지하는 시간")]
     public float minVisibleDuration = 0.15f;
 
-    private Image blackImage;
+    [Header("검은 화면 (UI_SceneTransitionOverlay 인스턴스, 비워두면 코드로 만든다)")]
+    [SerializeField] private Image blackImage;
 
     void Awake()
     {
         Instance = this;
-        CreateBlackOverlay();
+        if (blackImage == null) CreateBlackOverlay();
+        else blackImage.gameObject.SetActive(false);
     }
 
     private void CreateBlackOverlay()
