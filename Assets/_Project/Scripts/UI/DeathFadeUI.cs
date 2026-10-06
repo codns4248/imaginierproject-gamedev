@@ -17,8 +17,8 @@ public class DeathFadeUI : MonoBehaviour
 
     public void FadeToBlack(float duration)
     {
-        // 씬에 비활성 상태로 배치돼 있으면 코루틴을 시작할 수 없어 콘솔에 에러가 찍힌다.
-        // 지금은 그 암전 연출 자체를 쓰지 않는 구성이라, 조용히 무시하고 넘어간다.
+        // 비활성 상태에서는 코루틴을 시작할 수 없어 콘솔에 에러가 찍히므로 조용히 무시한다.
+        // (StageManager가 DeathFade를 항상 켜 두기 때문에 정상 흐름에선 이 경로를 타지 않는다.)
         if (!gameObject.activeInHierarchy) return;
 
         StopAllCoroutines();
