@@ -21,7 +21,7 @@ public class ColdWaveGimmickEffect : MonoBehaviour
 
         GameObject go = new GameObject("ColdWaveFrost");
         go.transform.SetParent(canvas.transform, false);
-        go.transform.SetAsLastSibling();
+        go.transform.SetAsFirstSibling(); // HUD는 서리 위에 그려지도록 맨 앞(=맨 아래)으로
 
         RectTransform rt = go.AddComponent<RectTransform>();
         rt.anchorMin = Vector2.zero;

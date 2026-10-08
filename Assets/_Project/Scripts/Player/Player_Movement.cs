@@ -36,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         mainCamera = Camera.main;
+        gameObject.AddComponent<PlayerOutline>(); // 밝은 바닥/적 무리 속에서도 윤곽이 보이게 (씬 수정 없이 코드로 부착)
 
         baseMoveSpeed = moveSpeed;
         ApplyPermanentMoveSpeed();

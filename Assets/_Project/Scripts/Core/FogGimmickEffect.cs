@@ -20,7 +20,7 @@ public class FogGimmickEffect : MonoBehaviour
 
         GameObject go = new GameObject("FogMask");
         go.transform.SetParent(canvas.transform, false);
-        go.transform.SetAsLastSibling(); // 다른 UI 위에 그려지도록 맨 뒤(=맨 위)로
+        go.transform.SetAsFirstSibling(); // 게임 화면만 가리고 HUD는 안개 위에 그려지도록 맨 앞(=맨 아래)으로
 
         RectTransform rt = go.AddComponent<RectTransform>();
         rt.anchorMin = Vector2.zero;
