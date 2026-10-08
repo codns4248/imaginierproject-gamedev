@@ -96,6 +96,11 @@ public class ResourceBankUI : MonoBehaviour
             text.raycastTarget = false;
             text.horizontalOverflow = HorizontalWrapMode.Overflow;
 
+            // 밝은 바닥(NASA 등)에서도 흰 글자가 묻히지 않게 검은 외곽선 (GimmickAnnounceUI와 동일한 값)
+            Outline outline = textGO.AddComponent<Outline>();
+            outline.effectColor = Color.black;
+            outline.effectDistance = new Vector2(2f, -2f);
+
             countTexts[i] = text;
         }
     }

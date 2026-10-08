@@ -63,6 +63,7 @@ GameObject:
   - component: {fileID: 5344732724332358352}
   - component: {fileID: 7186559293446442732}
   - component: {fileID: 6619308625825892702}
+  - component: {fileID: 4144816283760033146}
   m_Layer: 0
   m_Name: CountText
   m_TagString: Untagged
@@ -131,6 +132,21 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: x0
+--- !u!114 &4144816283760033146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3274795873481246746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 2, y: -2}
+  m_UseGraphicAlpha: 1
 --- !u!1 &6651059169020223036
 GameObject:
   m_ObjectHideFlags: 0
