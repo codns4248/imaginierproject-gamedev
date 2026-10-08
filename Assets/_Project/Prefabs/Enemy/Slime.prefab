@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -190,6 +190,7 @@ MonoBehaviour:
   biasedDropChance: 0.8
   biasedDropType: 3
   externalMovementControl: 0
+  suppressKnockback: 0
   externalFlipControl: 0
   externalDeathAnimation: 0
 --- !u!114 &7218500602923251139
@@ -212,3 +213,4 @@ MonoBehaviour:
   - {fileID: 1889920798237400501, guid: 34652ba31e935e943afd4b99e394ca76, type: 3}
   - {fileID: 4894100785119197558, guid: 34652ba31e935e943afd4b99e394ca76, type: 3}
   frameRate: 12
+  speedMultiplier: 1

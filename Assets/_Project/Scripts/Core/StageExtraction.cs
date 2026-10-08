@@ -171,7 +171,8 @@ public class StageExtraction : MonoBehaviour
         float rightX = bounds.center.x + bounds.extents.x * 0.5f;
 
         // 상품에 가까이 가면 이 말풍선에 가격이 뜬다. 상인 오른쪽에 하나만 만들어서 상품들이 공유한다.
-        GameObject priceBubble = CreatePriceBubble(parent, merchant.transform.position + new Vector3(1.6f, 0.4f, 0f));
+        // (오프셋도 전체 축소 배율 0.5를 곱해서, 작아진 상인 옆에 그대로 붙어 보이게 한다)
+        GameObject priceBubble = CreatePriceBubble(parent, merchant.transform.position + new Vector3(1.6f, 0.4f, 0f) * 0.5f);
         Text priceText = priceBubble.GetComponentInChildren<Text>();
         priceBubble.SetActive(false);
 
@@ -216,7 +217,8 @@ public class StageExtraction : MonoBehaviour
     }
 
     // 상품 아이콘의 목표 표시 크기(월드 유닛). 원본 해상도가 다른 스프라이트끼리도 이 크기에 맞춰진다.
-    private const float GoodsIconTargetSize = 0.7f;
+    // (전체 오브젝트 축소 배율 0.5가 곱해져 있음)
+    private const float GoodsIconTargetSize = 0.7f * 0.5f;
 
     private void SpawnGoodsItem(Transform parent, Vector3 position, int carpetOrder, Sprite sprite,
         List<ResourceType> costTypes, List<int> costAmounts, GameObject priceBubble, Text priceText, System.Func<bool> onPurchase)
@@ -276,7 +278,7 @@ public class StageExtraction : MonoBehaviour
         GameObject root = new GameObject("상인_가격표", typeof(RectTransform), typeof(Canvas));
         root.transform.SetParent(parent);
         root.transform.position = position;
-        root.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
+        root.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f) * 0.5f; // 전체 축소 배율(0.5) 반영
 
         Canvas canvas = root.GetComponent<Canvas>();
         canvas.renderMode = RenderMode.WorldSpace;

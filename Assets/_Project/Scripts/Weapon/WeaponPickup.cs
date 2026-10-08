@@ -36,13 +36,14 @@ public class WeaponPickup : MonoBehaviour
 
     // 바닥에 떨어져 있을 때(장착 중이 아닐 때) 무기 종류별로 얼마나 확대/축소해서 보여줄지.
     // Pistol은 원본 스프라이트가 커서 오히려 줄이고, 나머지는 눈에 잘 띄도록 더 키운다.
+    // (전체 오브젝트 축소 배율 0.5가 곱해져 있음 - 다른 오브젝트들과 같은 비율로 작아지도록)
     private static readonly float[] WorldIconScales =
     {
-        2f / 3f, // Pistol
-        3f,      // Sword
-        3f,      // Smg
-        3f,      // Lance
-        3f,      // Grenade
+        2f / 3f * 0.5f, // Pistol
+        3f * 0.5f,      // Sword
+        3f * 0.5f,      // Smg
+        3f * 0.5f,      // Lance
+        3f * 0.5f,      // Grenade
     };
 
     private static readonly List<WeaponPickup> active = new List<WeaponPickup>();
