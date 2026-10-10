@@ -52,6 +52,7 @@ public class MeleeAutoAttackQueue : MonoBehaviour
         foreach (IAutoMeleeWeapon weapon in registered)
         {
             if (weapon.IsHeld || weapon.IsAttacking || weapon.IsOnCooldown) continue;
+            if (weapon.ExcludeFromQueue) continue; // 스스로 계속 도는 무기(검 상시 회전)는 큐에 넣지 않는다
             if (queuedSet.Contains(weapon)) continue;
 
             Enemy nearest = EnemyManager.FindNearest(transform.position, weapon.MaxReach);
@@ -71,6 +72,7 @@ public class MeleeAutoAttackQueue : MonoBehaviour
             queuedSet.Remove(next);
 
             if (next.IsHeld) continue; // 대기하는 동안 플레이어가 이 무기를 손에 들었으면 건너뛴다
+            if (next.ExcludeFromQueue) continue; // 대기하는 동안 상시 회전 단계가 되었으면 건너뛴다
 
             // 대기하는 동안 적이 다시 범위를 벗어났을 수 있으니 공격 시작 직전에 다시 한번 확인한다.
             Enemy target = EnemyManager.FindNearest(transform.position, next.MaxReach);

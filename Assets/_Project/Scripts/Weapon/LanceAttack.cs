@@ -49,6 +49,7 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     public bool IsHeld => weaponAim.isHeld;
     public bool IsAttacking => isThrusting;
     public bool IsOnCooldown => attackCooldown > 0f;
+    public bool ExcludeFromQueue => false; // 창은 항상 큐를 거쳐서 공격한다
 
     // === IEnhanceableWeapon ===
     private WeaponIdentity identity;
@@ -58,11 +59,11 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     private float baseAttackInterval, baseDamage, baseHitRadius, baseCritChance, baseThrustOutDuration, baseThrustBackDuration;
 
     public int MaxEnhanceLevel => WeaponEnhanceUtil.MaxLevel;
-    public int GetEnhanceLevel(ResourceType type) => WeaponEnhanceStore.GetLevel(identity.type, type);
+    public int GetEnhanceLevel(ResourceType type) => WeaponEnhanceStore.GetLevel(identity, type);
 
     public void ApplyEnhance(ResourceType type)
     {
-        if (!WeaponEnhanceStore.TryEnhance(identity.type, type)) return;
+        if (!WeaponEnhanceStore.TryEnhance(identity, type)) return;
         ApplyStatDelta(type);
     }
 
@@ -110,7 +111,7 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
 
         foreach (ResourceType type in WeaponEnhanceUtil.AllTypes)
         {
-            int level = WeaponEnhanceStore.GetLevel(identity.type, type);
+            int level = WeaponEnhanceStore.GetLevel(identity, type);
             for (int i = 0; i < level; i++) ApplyStatDelta(type);
         }
 

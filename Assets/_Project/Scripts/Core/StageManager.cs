@@ -103,6 +103,8 @@ public static class StageManager
     // (PlayerAoeZone)은 몬스터와 상관없이 자기 타이머로 돌다가 다른 맵에서도 터지는 문제가 있었다.
     private static void ClearBattlefield()
     {
+        PlayerBuffs.Clear(); // 처치 질주 같은 임시 버프는 스테이지를 벗어나면 같이 사라진다
+
         foreach (Enemy enemy in Object.FindObjectsByType<Enemy>(FindObjectsSortMode.None))
             enemy.Kill(dropLoot: false);
 

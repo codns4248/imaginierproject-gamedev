@@ -15,6 +15,10 @@ public class WeaponPickup : MonoBehaviour
 {
     public WeaponType weaponType;
 
+    // 플레이어가 버린 무기라면 그 무기의 강화 레벨(WeaponIdentity의 자원별 레벨 배열). 몬스터 드랍처럼 새로 생긴
+    // 무기는 null(0레벨). 줍는 쪽(WeaponSwitcher.TryPickUpNearestWeapon)이 받아서 새 인스턴스에 복원한다.
+    [System.NonSerialized] public int[] enhanceLevels;
+
     // 자원 흡입 범위(ResourcePickup.attractRadius=0.75)보다 살짝 좁게 잡아서,
     // 자원과 겹쳐 있어도 무기를 주우려면 그보다 더 바짝 다가가야 하게 한다.
     // (전체 오브젝트 축소(0.5배)+카메라 줌인 이후 월드 단위 거리 값도 같은 비율로 줄였다: 1 -> 0.5)
@@ -83,8 +87,9 @@ public class WeaponPickup : MonoBehaviour
         SpawnDrop(position, type);
     }
 
-    /// <summary>지정한 종류의 무기 아이템을 그 자리에 만든다. 플레이어가 무기를 버릴 때도 사용한다.</summary>
-    public static void SpawnDrop(Vector3 position, WeaponType type)
+    /// <summary>지정한 종류의 무기 아이템을 그 자리에 만든다. 플레이어가 무기를 버릴 때도 사용한다.
+    /// enhanceLevels는 그 무기 한 자루가 가지고 있던 강화 레벨(없으면 새 무기라 0레벨) - 다시 주울 때 그대로 돌려받는다.</summary>
+    public static void SpawnDrop(Vector3 position, WeaponType type, int[] enhanceLevels = null)
     {
         GameObject prefab = GetPrefab(type);
         if (prefab == null) return;
@@ -100,6 +105,7 @@ public class WeaponPickup : MonoBehaviour
 
         WeaponPickup pickup = go.AddComponent<WeaponPickup>();
         pickup.weaponType = type;
+        pickup.enhanceLevels = enhanceLevels;
         pickup.StartPop(position);
         pickup.CreateOutline(sr);
     }

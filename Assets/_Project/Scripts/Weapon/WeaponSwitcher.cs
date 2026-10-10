@@ -86,13 +86,14 @@ public class WeaponSwitcher : MonoBehaviour
         WeaponPickup nearest = WeaponPickup.FindNearestInRange(transform.position);
         if (nearest == null) return;
 
-        if (TryGiveWeapon(nearest.weaponType))
+        if (TryGiveWeapon(nearest.weaponType, nearest.enhanceLevels))
             Destroy(nearest.gameObject);
     }
 
     /// <summary>바닥 픽업을 거치지 않고 빈 슬롯에 무기를 바로 지급한다 (상인 구매 등에서 사용).
-    /// 빈 슬롯이 없으면 아무 일도 하지 않고 false.</summary>
-    public bool TryGiveWeapon(WeaponType type)
+    /// 빈 슬롯이 없으면 아무 일도 하지 않고 false.
+    /// enhanceLevels: 이전에 버렸던 무기를 다시 줍는 경우 그 무기의 강화 레벨 (null이면 새 무기라 0레벨).</summary>
+    public bool TryGiveWeapon(WeaponType type, int[] enhanceLevels = null)
     {
         int emptyIndex = FindFirstEmptySlot();
         if (emptyIndex < 0) return false; // 빈 슬롯이 없으면 지급하지 않는다
@@ -102,6 +103,17 @@ public class WeaponSwitcher : MonoBehaviour
 
         GameObject weaponGO = Instantiate(prefab, transform);
         weaponSlots[emptyIndex] = weaponGO;
+
+        // Instantiate 중에 Awake가 이미 0레벨 기준으로 한 번 돌았으므로, 가져온 레벨을 넣고 스탯을 다시 계산한다.
+        if (enhanceLevels != null)
+        {
+            WeaponIdentity identity = weaponGO.GetComponent<WeaponIdentity>();
+            if (identity != null) identity.SetLevels(enhanceLevels);
+
+            IEnhanceableWeapon enhanceable = weaponGO.GetComponent<IEnhanceableWeapon>();
+            if (enhanceable != null) enhanceable.ReapplyEnhancements();
+        }
+
         ApplyCurrentSlot();
         return true;
     }
@@ -124,7 +136,7 @@ public class WeaponSwitcher : MonoBehaviour
         var identity = current.GetComponent<WeaponIdentity>();
         if (identity != null)
         {
-            WeaponPickup.SpawnDrop(transform.position, identity.type);
+            WeaponPickup.SpawnDrop(transform.position, identity.type, identity.CopyLevels()); // 강화 레벨도 같이 실려 가서 다시 주우면 돌려받는다
         }
 
         weaponSlots[currentIndex] = null;

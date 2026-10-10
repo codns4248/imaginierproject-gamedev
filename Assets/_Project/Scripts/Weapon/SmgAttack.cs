@@ -41,11 +41,11 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
     private float baseBurstInterval, baseDamage, baseCritChance, baseAutoAttackRange;
 
     public int MaxEnhanceLevel => WeaponEnhanceUtil.MaxLevel;
-    public int GetEnhanceLevel(ResourceType type) => WeaponEnhanceStore.GetLevel(identity.type, type);
+    public int GetEnhanceLevel(ResourceType type) => WeaponEnhanceStore.GetLevel(identity, type);
 
     public void ApplyEnhance(ResourceType type)
     {
-        if (!WeaponEnhanceStore.TryEnhance(identity.type, type)) return;
+        if (!WeaponEnhanceStore.TryEnhance(identity, type)) return;
         ApplyStatDelta(type);
     }
 
@@ -86,7 +86,7 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
 
         foreach (ResourceType type in WeaponEnhanceUtil.AllTypes)
         {
-            int level = WeaponEnhanceStore.GetLevel(identity.type, type);
+            int level = WeaponEnhanceStore.GetLevel(identity, type);
             for (int i = 0; i < level; i++) ApplyStatDelta(type);
         }
 

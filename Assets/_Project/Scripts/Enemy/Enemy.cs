@@ -68,6 +68,11 @@ public class Enemy : MonoBehaviour
 
     private float hitStunTimer;
     private Vector2 knockbackVelocity;
+
+    // Stun()으로 걸리는 기절. 피격 경직(hitStunTimer)과 달리 접촉 데미지도 막고, 기절 중에는 받는 피해를
+    // 늘릴 수도 있다 (검 화학물질 강화 특수효과). 이동/AI 정지는 hitStunTimer를 같이 늘려서 기존 로직을 그대로 쓴다.
+    private float stunTimer;
+    private float stunDamageTakenMultiplier = 1f;
     private bool isDying; // Die()가 한 번 호출된 뒤 true. 이후 이동/공격/추가 피격을 전부 무시한다.
 
     // 죽는 중(페이드아웃 중)인 적은 자동조준 대상에서 제외해야 하므로 외부에서 읽을 수 있게 열어둔다.
@@ -75,6 +80,12 @@ public class Enemy : MonoBehaviour
 
     // 피격 경직 중인지 외부(원거리 몬스터의 애니메이션/공격 타이머 등)에서 읽을 수 있게 열어둔다.
     public bool IsHitStunned => hitStunTimer > 0f;
+
+    // 기절 중인지 (Stun 참고). 기절 중에는 접촉 데미지를 주지 않는다.
+    public bool IsStunned => stunTimer > 0f;
+
+    // 지금 받는 피해에 곱해지는 배율 (기절 중이면 Stun에서 정한 값, 아니면 1).
+    private float DamageTakenMultiplier => stunTimer > 0f ? stunDamageTakenMultiplier : 1f;
 
     // 기믹 "태풍"이 활성화된 동안 moveSpeed에 곱해지는 실제 이동속도. Enemy.cs 자체 추격 이동뿐
     // 아니라 ChargeEnemyAI의 돌진 속도 계산도 이 값을 그대로 가져다 쓴다.
@@ -171,6 +182,8 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
+        if (stunTimer > 0f) stunTimer -= Time.deltaTime;
+
         if (player == null || spriteRenderer == null) return;
 
         // 몬스터 기준 플레이어가 오른쪽에 있으면 좌우 반전, 왼쪽에 있으면 원본 그대로.
@@ -302,19 +315,23 @@ public class Enemy : MonoBehaviour
 
     // 투사체 등에 맞았을 때 호출: 데미지를 주고, 잠깐 애니메이션을 멈추고, 맞은 방향으로 살짝 밀려나고,
     // 흰색 테두리 + 데미지 숫자를 띄운다. isCrit이 true면 치명타 연출(더 크고 연노랑)로 표시된다.
-    public void Hit(Vector2 knockbackDirection, float damage, bool isCrit = false)
+    // knockbackMultiplier: 강타 같은 특수 공격이 평소보다 세게 밀어낼 때 쓴다 (기본 1배).
+    public void Hit(Vector2 knockbackDirection, float damage, bool isCrit = false, float knockbackMultiplier = 1f)
     {
         if (isDying) return; // 이미 죽는 중이면 더 이상 반응하지 않는다
 
-        TakeDamage(damage);
+        // 기절 중이면 받는 피해가 늘어난다. 표시되는 데미지 숫자도 실제 들어간 값과 같도록 미리 곱해둔다
+        // (TakeDamage는 이 배율을 다시 곱하지 않도록 아래에서 원본 damage가 아니라 곱한 값을 넘긴다).
+        float dealt = damage * DamageTakenMultiplier;
+        TakeDamageRaw(dealt);
 
-        hitStunTimer = hitStunDuration;
-        knockbackVelocity = knockbackDirection.normalized * knockbackForce;
+        hitStunTimer = Mathf.Max(hitStunTimer, hitStunDuration);
+        knockbackVelocity = knockbackDirection.normalized * knockbackForce * knockbackMultiplier;
 
         if (spriteAnimator != null)
             spriteAnimator.Pause(hitStunDuration);
 
-        SpawnDamageNumber(damage, isCrit);
+        SpawnDamageNumber(dealt, isCrit);
     }
 
     private void SpawnDamageNumber(float damage, bool isCrit)
@@ -327,7 +344,14 @@ public class Enemy : MonoBehaviour
         if (number != null) number.Setup(damage, isCrit);
     }
 
+    // 폭발 등 Hit() 없이 직접 데미지를 주는 쪽도 기절 중 받는 피해 증가가 똑같이 적용된다.
     public void TakeDamage(float amount)
+    {
+        TakeDamageRaw(amount * DamageTakenMultiplier);
+    }
+
+    // 배율이 이미 반영된 최종 데미지를 그대로 깎는다 (Hit()에서 숫자 표시와 맞추려고 따로 뺐다).
+    private void TakeDamageRaw(float amount)
     {
         if (isDying) return;
 
@@ -405,11 +429,28 @@ public class Enemy : MonoBehaviour
         Die(dropLoot);
     }
 
+    // duration초 동안 기절시킨다: 이동/행동(AI)이 멈추고(피격 경직을 같이 늘려서 기존 로직 재사용), 접촉 데미지를
+    // 주지 않으며, 기절 중에는 받는 피해에 damageTakenMultiplier가 곱해진다. 이미 기절 중이면 더 긴 쪽 시간,
+    // 더 큰 쪽 배율만 남는다 (겹쳐도 합산되지 않음).
+    public void Stun(float duration, float damageTakenMultiplier = 1f)
+    {
+        if (isDying || duration <= 0f) return;
+
+        if (stunTimer <= 0f) stunDamageTakenMultiplier = 1f;
+        stunDamageTakenMultiplier = Mathf.Max(stunDamageTakenMultiplier, damageTakenMultiplier);
+        stunTimer = Mathf.Max(stunTimer, duration);
+
+        hitStunTimer = Mathf.Max(hitStunTimer, duration);
+        knockbackVelocity = Vector2.zero; // 기절은 밀어내지 않는다 (제자리에서 멈춘다)
+        if (spriteAnimator != null) spriteAnimator.Pause(duration);
+    }
+
     // 플레이어와 계속 겹쳐있는 동안 매 물리 프레임 호출된다. 실제 데미지 빈도는 PlayerHealth의
     // 무적 시간이 알아서 제한해주므로, 여기서는 접촉할 때마다 그냥 계속 시도하면 된다.
     void OnTriggerStay2D(Collider2D other)
     {
         if (isDying) return; // 죽는 중에는 더 이상 접촉 데미지를 주지 않는다
+        if (stunTimer > 0f) return; // 기절 중에도 마찬가지
 
         PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
         if (playerHealth == null) return;

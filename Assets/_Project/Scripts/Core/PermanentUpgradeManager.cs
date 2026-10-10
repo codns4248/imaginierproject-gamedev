@@ -3,7 +3,7 @@ using System.IO;
 using UnityEngine;
 
 // 거점(로비)에서 자원(ResourceBank.stash)을 영구히 소모해 플레이어 전체 스탯을 강화한다.
-// WeaponEnhanceStore(런 한정, 무기 종류별)와 달리 세이브 파일에 저장되어 게임을 껐다 켜도 유지된다
+// WeaponEnhanceStore(런 한정, 무기 한 자루별)와 달리 세이브 파일에 저장되어 게임을 껐다 켜도 유지된다
 // (CLAUDE.md의 player_permanent_upgrade를 로컬 세이브로 반영. Express API 붙으면 Save/Load 내부만 교체할 예정).
 //
 // 자원 종류를 그대로 강화 대상 스탯의 키로 재사용한다 (무기 강화의 WeaponEnhanceUtil.AllTypes와 동일 5종류):

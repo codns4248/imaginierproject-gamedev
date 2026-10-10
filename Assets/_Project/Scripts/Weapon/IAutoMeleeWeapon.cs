@@ -19,6 +19,10 @@ public interface IAutoMeleeWeapon
     // 공격 쿨다운 중이면 true (쿨다운이 끝나야 다시 큐에 들어갈 수 있다).
     bool IsOnCooldown { get; }
 
+    // true면 큐와 상관없이 스스로 계속 공격하는 상태(예: 검 나무 10단계 상시 회전)라서 큐에서 제외한다.
+    // 큐에 넣으면 이 무기가 계속 "공격 중"이라 다른 근접 무기의 차례가 영원히 오지 않는다.
+    bool ExcludeFromQueue { get; }
+
     // MeleeAutoAttackQueue가 이 무기의 차례가 되었을 때 호출한다. targetPosition 방향으로
     // (수동 공격과 동일한) 공격 연출을 재생한다.
     void TriggerAutoAttack(Vector2 targetPosition);
