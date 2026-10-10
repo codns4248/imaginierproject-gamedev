@@ -448,16 +448,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   maxHealth: 1
-  moveSpeed: 2
+  moveSpeed: 1
   contactDamage: 1
-  separationRadius: 0.6
+  contactRangeScale: 0.5
+  separationRadius: 0.3
   separationStrength: 1.5
   mapCenter: {x: 0, y: 0}
   mapHalfExtent: 20
   boundaryMargin: 0.3
   hitStunDuration: 0.2
   knockbackForce: 0
-  knockbackDecay: 15
+  knockbackDecay: 7.5
   deathFadeDuration: 0.5
   outlineOffset: 0.013333333
   outlineMaterial: {fileID: 2100000, guid: 908fa15e549d3d348ad3ae0dc1295e6e, type: 2}
@@ -482,7 +483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: befab3a1129ab6642b2a22ee31fbc55c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatAI
-  speed: 6
+  speed: 3
   frameRate: 12
   moveFrames:
   - {fileID: -2019637785822288117, guid: 080b859ee295c0144908708921871f77, type: 3}

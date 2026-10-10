@@ -15,15 +15,16 @@ public class WeaponPickup : MonoBehaviour
 {
     public WeaponType weaponType;
 
-    // 자원 흡입 범위(ResourcePickup.attractRadius=1.5)보다 살짝 좁게 잡아서,
+    // 자원 흡입 범위(ResourcePickup.attractRadius=0.75)보다 살짝 좁게 잡아서,
     // 자원과 겹쳐 있어도 무기를 주우려면 그보다 더 바짝 다가가야 하게 한다.
-    public float interactRadius = 1f;
+    // (전체 오브젝트 축소(0.5배)+카메라 줌인 이후 월드 단위 거리 값도 같은 비율로 줄였다: 1 -> 0.5)
+    public float interactRadius = 0.5f;
 
     [Header("드랍 연출 (몹에게서 튀어나와 바닥에 떨어지는 모션)")]
     public float popDuration = 0.35f;     // 튀어나왔다가 착지하기까지 걸리는 시간
-    public float popArcHeight = 0.5f;     // 튀어오르는 높이(포물선 정점)
-    public float popMinDistance = 0.25f;  // 착지 지점까지의 최소 거리
-    public float popMaxDistance = 0.7f;   // 착지 지점까지의 최대 거리
+    public float popArcHeight = 0.25f;    // 튀어오르는 높이(포물선 정점)
+    public float popMinDistance = 0.125f; // 착지 지점까지의 최소 거리
+    public float popMaxDistance = 0.35f;  // 착지 지점까지의 최대 거리
 
     private bool isPopping;
 

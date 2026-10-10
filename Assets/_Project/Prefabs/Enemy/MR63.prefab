@@ -171,16 +171,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   maxHealth: 3
-  moveSpeed: 1
+  moveSpeed: 0.5
   contactDamage: 1
-  separationRadius: 0.6
+  contactRangeScale: 0.5
+  separationRadius: 0.3
   separationStrength: 1.5
   mapCenter: {x: 0, y: 0}
   mapHalfExtent: 20
   boundaryMargin: 0.3
   hitStunDuration: 0.2
-  knockbackForce: 3
-  knockbackDecay: 15
+  knockbackForce: 1.5
+  knockbackDecay: 7.5
   deathFadeDuration: 0.5
   outlineOffset: 0.013333333
   outlineMaterial: {fileID: 2100000, guid: 908fa15e549d3d348ad3ae0dc1295e6e, type: 2}
@@ -205,10 +206,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e06cb476c72968b4ca78ac622d24d921, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RangedEnemyAI
-  chaseStopRadius: 6.75
+  chaseStopRadius: 3.375
   attackInterval: 2
   projectilePrefab: {fileID: 7168897038559877047, guid: 324e92697190e1a40a1379d6da20a26f, type: 3}
-  projectileSpeed: 4.4444447
+  projectileSpeed: 2.2222
   projectileDamage: 1
   frameRate: 12
   moveFrames:

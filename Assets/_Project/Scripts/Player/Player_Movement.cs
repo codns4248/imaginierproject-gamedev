@@ -14,8 +14,10 @@ public class PlayerMovement : MonoBehaviour
     public float boundaryMargin = 0.5f;
 
     // 거점 영구 강화(이동속도) 적용 전 원본 이동속도. 레벨이 바뀔 때마다 이 값 기준으로 다시 계산한다.
-    // ponytail: 레벨당 +0.15 고정치. 밸런스 수치는 나중에 조정.
-    private const float PermanentMoveSpeedPerLevel = 0.15f;
+    // ponytail: 레벨당 +0.075 고정치. 밸런스 수치는 나중에 조정.
+    // (전체 축소(0.5배)+카메라 줌인에 맞춰 기본 이동속도를 5에서 2.5로 줄이면서 레벨당 증가량도
+    //  0.15에서 같은 비율인 0.075로 줄였다 - 안 그러면 강화할수록 원래보다 상대적으로 더 빨라진다.)
+    private const float PermanentMoveSpeedPerLevel = 0.075f;
     private float baseMoveSpeed;
 
     private Rigidbody2D rb;              // 물리 기반 이동에 사용 (MovePosition으로 밀어줌)

@@ -108,7 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WeaponAim
   recoilRecoverySpeed: 200
   visualRotationOffset: -90
-  orbitRadius: 1.2
+  orbitRadius: 0.6
   allowFlip: 0
   externalControl: 0
   isHeld: 0
@@ -128,7 +128,7 @@ MonoBehaviour:
   swingAngle: 120
   swingDuration: 0.225
   damage: 1
-  hitRadius: 1
+  hitRadius: 0.5
   critChance: 0.3
   critMultiplier: 1.5
 --- !u!114 &4738584683363759381

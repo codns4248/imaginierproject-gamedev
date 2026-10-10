@@ -11,6 +11,10 @@ public class Enemy : MonoBehaviour
     public float maxHealth = 10f;
     public float moveSpeed = 2f;
     public float contactDamage = 1f; // 플레이어와 접촉했을 때 주는 데미지
+    // 충돌 원(트리거)은 투사체/근접 무기가 이 몬스터를 맞히는 판정에도 같이 쓰이는데, 스프라이트보다 훨씬 크게
+    // 잡혀 있어서(예: 스켈레톤은 스프라이트 너비 0.32인데 충돌 지름 0.9) 접촉 데미지가 너무 멀리서 들어갔다.
+    // 그래서 접촉 데미지만 "충돌 원 반지름 x 이 비율" 안에 플레이어 몸이 들어왔을 때만 준다 (명중 판정은 그대로).
+    [Range(0.1f, 1f)] public float contactRangeScale = 0.5f;
 
     [Header("무리 짓기(분리) 설정")]
     public float separationRadius = 0.6f;   // 이 거리 안에 다른 적이 있으면 밀어내는 힘이 작용한다
@@ -49,6 +53,7 @@ public class Enemy : MonoBehaviour
     private Transform player;
     private SpriteRenderer spriteRenderer;
     private SpriteAnimator spriteAnimator;
+    private CircleCollider2D contactCircle; // 접촉 데미지 거리 계산용 (OnTriggerStay2D 참고)
     private SpriteRenderer[] hitOutlineRenderers;
 
     // 4개 테두리 렌더러가 공유하는 머티리얼 인스턴스 하나 (예전엔 렌더러마다 new Material 4개씩
@@ -108,6 +113,7 @@ public class Enemy : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteAnimator = GetComponent<SpriteAnimator>();
+        contactCircle = GetComponent<CircleCollider2D>();
         CreateHitOutline();
     }
 
@@ -407,6 +413,14 @@ public class Enemy : MonoBehaviour
 
         PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
         if (playerHealth == null) return;
+
+        // 충돌 원 중심에서 플레이어 몸의 가장 가까운 점까지가 (반지름 x contactRangeScale) 이내일 때만 데미지.
+        if (contactCircle != null)
+        {
+            Vector2 center = contactCircle.bounds.center;
+            float reach = contactCircle.radius * Mathf.Max(transform.lossyScale.x, transform.lossyScale.y) * contactRangeScale;
+            if (Vector2.Distance(other.ClosestPoint(center), center) > reach) return;
+        }
 
         // 플레이어가 적의 반대 방향(적 -> 플레이어 방향)으로 밀려나도록 방향을 계산한다.
         Vector2 knockbackDirection = (Vector2)other.transform.position - (Vector2)transform.position;

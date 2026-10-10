@@ -171,16 +171,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   maxHealth: 6
-  moveSpeed: 1.4
+  moveSpeed: 0.7
   contactDamage: 1
-  separationRadius: 0.6
+  contactRangeScale: 0.5
+  separationRadius: 0.3
   separationStrength: 1.5
   mapCenter: {x: 0, y: 0}
   mapHalfExtent: 20
   boundaryMargin: 0.3
   hitStunDuration: 0.2
-  knockbackForce: 2.4
-  knockbackDecay: 15
+  knockbackForce: 1.2
+  knockbackDecay: 7.5
   deathFadeDuration: 0.5
   outlineOffset: 0.013333333
   outlineMaterial: {fileID: 2100000, guid: 908fa15e549d3d348ad3ae0dc1295e6e, type: 2}

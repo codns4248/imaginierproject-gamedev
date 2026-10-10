@@ -108,7 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WeaponAim
   recoilRecoverySpeed: 200
   visualRotationOffset: -45
-  orbitRadius: 1.2
+  orbitRadius: 0.6
   allowFlip: 0
   externalControl: 0
   isHeld: 0
@@ -125,11 +125,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LanceAttack
   attackInterval: 0.4
-  thrustDistance: 1.2
+  thrustDistance: 0.6
   thrustOutDuration: 0.1
   thrustBackDuration: 0.15
   damage: 1
-  hitRadius: 0.8
+  hitRadius: 0.4
   hitWidthScale: 0.8
   critChance: 0.3
   critMultiplier: 1.5

@@ -10,7 +10,7 @@ public class LightningGimmickEffect : MonoBehaviour
     [Header("주기/타이밍")]
     public float strikeInterval = 2.5f;   // 장판이 새로 뜨는 간격
     public float warningDuration = 1.5f;  // 장판이 뜬 뒤 실제로 벼락이 치기까지 걸리는 시간
-    public float strikeRadius = 1.5f;
+    public float strikeRadius = 0.75f; // 전체 축소(0.5배)+카메라 줌인에 맞춰 1.5 -> 0.75
 
     [Header("데미지 (플레이스홀더 수치)")]
     public int playerDamage = 2;

@@ -171,16 +171,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   maxHealth: 3
-  moveSpeed: 2
+  moveSpeed: 1
   contactDamage: 1
-  separationRadius: 0.6
+  contactRangeScale: 0.5
+  separationRadius: 0.3
   separationStrength: 1.5
   mapCenter: {x: 0, y: 0}
   mapHalfExtent: 20
   boundaryMargin: 0.3
   hitStunDuration: 0.2
-  knockbackForce: 3
-  knockbackDecay: 15
+  knockbackForce: 1.5
+  knockbackDecay: 7.5
   deathFadeDuration: 0.5
   outlineOffset: 0.013333333
   outlineMaterial: {fileID: 2100000, guid: 908fa15e549d3d348ad3ae0dc1295e6e, type: 2}
@@ -225,9 +226,9 @@ MonoBehaviour:
   - {fileID: -8646905855638096418, guid: 1a67a7ea9f2d2b94e8dccb23c6444a86, type: 3}
   - {fileID: -3112295470269721547, guid: 1a67a7ea9f2d2b94e8dccb23c6444a86, type: 3}
   - {fileID: -6414524533473487014, guid: 1a67a7ea9f2d2b94e8dccb23c6444a86, type: 3}
-  diveMoveDistance: 0.5
+  diveMoveDistance: 0.25
   preAoeDelay: 0.5
   aoeWarningDuration: 1.5
-  aoeRadius: 1.5
+  aoeRadius: 0.75
   aoeDamage: 1
   reemergeDelay: 0.5

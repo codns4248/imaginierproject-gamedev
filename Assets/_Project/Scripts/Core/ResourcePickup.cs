@@ -9,20 +9,21 @@ public class ResourcePickup : MonoBehaviour
     public ResourceType resourceType;
     public int amount = 1;
 
-    public float attractRadius = 1.5f;
-    public float moveSpeed = 6f;
-    public float pickupRadius = 0.2f;
+    // 전체 오브젝트 축소(0.5배)+카메라 줌인 이후, 월드 단위 거리/속도 값도 같은 비율(0.5배)로 줄였다.
+    public float attractRadius = 0.75f;
+    public float moveSpeed = 3f;
+    public float pickupRadius = 0.1f;
 
     [Header("드랍 연출 (몹에게서 튀어나와 바닥에 떨어지는 모션)")]
     public float popDuration = 0.35f;     // 튀어나왔다가 착지하기까지 걸리는 시간
-    public float popArcHeight = 0.5f;     // 튀어오르는 높이(포물선 정점)
-    public float popMinDistance = 0.25f;  // 착지 지점까지의 최소 거리
-    public float popMaxDistance = 0.7f;   // 착지 지점까지의 최대 거리
+    public float popArcHeight = 0.25f;    // 튀어오르는 높이(포물선 정점)
+    public float popMinDistance = 0.125f; // 착지 지점까지의 최소 거리
+    public float popMaxDistance = 0.35f;  // 착지 지점까지의 최대 거리
 
     [Header("클리어 시 강제 회수 (ForceAttract - 거리 무관하게 끌려옴)")]
     public float forceAttractStartDelay = 0.5f;  // 호출 후 실제로 끌려오기 시작하기까지의 대기 시간
-    public float forceAttractBaseSpeed = 10f;    // 끌려오기 시작할 때의 속도 (평소 흡입보다 빠르게)
-    public float forceAttractAcceleration = 20f; // 초당 속도 증가량 - 날아오면서 점점 빨라지는 느낌
+    public float forceAttractBaseSpeed = 5f;     // 끌려오기 시작할 때의 속도 (평소 흡입보다 빠르게)
+    public float forceAttractAcceleration = 10f; // 초당 속도 증가량 - 날아오면서 점점 빨라지는 느낌
 
     private Transform player;
     private bool isAttracting;
