@@ -84,8 +84,10 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     public float waveFanAngle = 20f;            // 10단계 3갈래: 가운데 검기에서 양옆으로 벌어지는 각도
     public Color waveColor = new Color(0.3f, 0.6f, 1f, 0.85f);
 
+    // 최대 강화가 15로 늘어도 10단계 효과는 10강에서 켜져야 하므로 MaxLevel이 아니라 고정값으로 둔다.
+    // 15단계 효과는 아직 기획 전이라, 15강에서도 10단계 효과가 그대로 유지된다.
     private const int TierLow = 5;
-    private int TierHigh => WeaponEnhanceUtil.MaxLevel;
+    private const int TierHigh = 10;
 
     // 스윙 방식: 기본 부채꼴 / 나무 5단계 360도 회전 베기 / 나무 10단계 상시 회전.
     private enum SwingMode { Arc, Spin360, Orbit }
@@ -185,6 +187,30 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
             // 발사체가 없는 근접무기라 "발사속도"는 휘두르는 모션 자체를 빠르게 하는 것으로 대체.
             case ResourceType.Oil: swingDuration = Mathf.Max(0.05f, swingDuration - 0.015f); break;
         }
+    }
+
+    // 강화 UI에 보여줄 특수효과 설명. 수치는 인스펙터 값을 그대로 읽어서 밸런스를 바꿔도 설명이 따라간다.
+    public string GetMilestoneEffect(ResourceType type, int tier)
+    {
+        bool high = tier == TierHigh;
+        if (tier != TierLow && !high) return null; // 15단계는 아직 미정
+        switch (type)
+        {
+            case ResourceType.Wood:
+                return high ? "상시 회전 (안 들어도 주위를 돎)" : "회전 베기 (360도 스윙)";
+            case ResourceType.Iron:
+                return high ? $"모든 스윙 피해 +{ironTier10DamageBonus * 100f:0}%"
+                            : $"강타: {heavySwingEvery}타마다 피해 x{heavySwingDamageMultiplier:0.#}";
+            case ResourceType.Copper:
+                return high ? $"매 스윙 검기, {waveEvery}타마다 3갈래" : $"검기: {waveEvery}타마다 발사";
+            case ResourceType.Chemical:
+                return high ? $"치명타 기절 {stunDurationTier10:0.#}초 + 받는 피해 x{stunDamageTakenTier10:0.#}"
+                            : $"치명타 시 기절 {stunDurationTier5:0.#}초";
+            case ResourceType.Oil:
+                return high ? $"처치 시 질주 +{sprintMoveBonusTier10 * 100f:0}%, 쿨다운 -{sprintCooldownReductionTier10 * 100f:0}%"
+                            : $"처치 시 질주 +{sprintMoveBonusTier5 * 100f:0}% ({sprintDurationTier5:0.#}초)";
+        }
+        return null;
     }
 
     // 특수효과가 켜지는 단계를 구한다: 0(없음) / 5 / 10. 강화 레벨은 이 검 "한 자루"(identity)의 값이라서,
