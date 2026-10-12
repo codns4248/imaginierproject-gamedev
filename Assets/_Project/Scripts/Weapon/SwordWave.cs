@@ -78,7 +78,7 @@ public class SwordWave : MonoBehaviour
     }
 
     // 지름 1유닛짜리 흰색 원 (가장자리는 살짝 부드럽게). 색은 SpriteRenderer.color로 입힌다.
-    private static Sprite GetCircleSprite()
+    public static Sprite GetCircleSprite()
     {
         if (circleSprite != null) return circleSprite;
 

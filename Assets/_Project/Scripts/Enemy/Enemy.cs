@@ -16,6 +16,10 @@ public class Enemy : MonoBehaviour
     // 그래서 접촉 데미지만 "충돌 원 반지름 x 이 비율" 안에 플레이어 몸이 들어왔을 때만 준다 (명중 판정은 그대로).
     [Range(0.1f, 1f)] public float contactRangeScale = 0.5f;
 
+    [Header("등급")]
+    public bool isElite; // 정예 몬스터. 즉사(처형) 같은 효과가 통하지 않는다 (창의 급소 처형 참고).
+    public bool isBoss;  // 보스 (아직 없음). 정예와 같이 처형이 통하지 않는다.
+
     [Header("무리 짓기(분리) 설정")]
     public float separationRadius = 0.6f;   // 이 거리 안에 다른 적이 있으면 밀어내는 힘이 작용한다
     public float separationStrength = 1.5f; // 밀어내는 힘의 세기. 클수록 서로 더 확실히 벌어진다
@@ -83,6 +87,36 @@ public class Enemy : MonoBehaviour
 
     // 기절 중인지 (Stun 참고). 기절 중에는 접촉 데미지를 주지 않는다.
     public bool IsStunned => stunTimer > 0f;
+
+    // 정예/보스는 처형 같은 즉사 효과의 대상이 아니다.
+    public bool IsEliteOrBoss => isElite || isBoss;
+
+    // 현재 체력 비율 (0~1). 체력 배율(ApplyHealthMultiplier)이 적용된 maxHealth 기준이라 난이도 단계와 상관없이 같은 비율로 비교된다.
+    public float HealthRatio => maxHealth > 0f ? Mathf.Clamp01(currentHealth / maxHealth) : 1f;
+
+    // 체력과 상관없이 그 자리에서 처치한다 (처형). 남은 체력만큼의 피해를 주는 일반 Hit이라 데미지 숫자/넉백/자원 드랍이 똑같이 나온다.
+    public void Execute(Vector2 knockbackDirection)
+    {
+        if (isDying) return;
+        Hit(knockbackDirection, currentHealth / Mathf.Max(0.01f, DamageTakenMultiplier) + 0.01f, true, 0.5f);
+    }
+
+    // 몸통 원: 충돌 원보다 작게(반지름 x contactRangeScale) 잡은, 스프라이트에 가까운 실제 몸 크기.
+    // 접촉 데미지와 같은 기준이라 검 같은 근접무기가 "칼이 몸에 실제로 닿았는지" 따질 때도 쓴다 (SwordAttack 접촉 판정).
+    // 원형 충돌체가 없는 적은 false (호출한 쪽이 충돌 판정을 그대로 믿으면 된다).
+    public bool TryGetBodyCircle(out Vector2 center, out float radius)
+    {
+        if (contactCircle == null)
+        {
+            center = transform.position;
+            radius = 0f;
+            return false;
+        }
+
+        center = contactCircle.bounds.center;
+        radius = contactCircle.radius * Mathf.Max(transform.lossyScale.x, transform.lossyScale.y) * contactRangeScale;
+        return true;
+    }
 
     // 지금 받는 피해에 곱해지는 배율 (기절 중이면 Stun에서 정한 값, 아니면 1).
     private float DamageTakenMultiplier => stunTimer > 0f ? stunDamageTakenMultiplier : 1f;

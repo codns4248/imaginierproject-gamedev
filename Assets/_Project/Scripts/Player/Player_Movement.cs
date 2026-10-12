@@ -31,6 +31,17 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 knockbackVelocity;
     private float knockbackTimer;
 
+    // 캐릭터가 바라보는 방향: 스프라이트가 좌우 반전(마우스가 캐릭터 왼쪽)이면 왼쪽, 아니면 오른쪽 (아래 Update 참고).
+    // 360도 회전 단계의 검처럼 "마우스가 아니라 캐릭터가 보는 쪽"을 기준으로 삼는 쪽에서 읽는다.
+    public Vector2 FacingDirection
+    {
+        get
+        {
+            if (spriteRenderer == null) spriteRenderer = GetComponent<SpriteRenderer>();
+            return spriteRenderer != null && spriteRenderer.flipX ? Vector2.left : Vector2.right;
+        }
+    }
+
     void Start()
     {
         // GetComponent는 비용이 있으므로 매 프레임 호출하지 않고 시작 시 한 번만 캐싱해둔다.

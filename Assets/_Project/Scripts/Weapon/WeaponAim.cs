@@ -38,6 +38,11 @@ public class WeaponAim : MonoBehaviour
     // 지금 플레이어가 손에 들고 마우스로 조종 중인 무기인지. WeaponSwitcher가 슬롯을 바꿀 때마다 갱신한다.
     public bool isHeld = false;
 
+    // 공격 스크립트가 "들고 있는 동안 마우스 대신 이 각도를 향하게 해줘"라고 요청할 때 쓴다 (SwordAttack 360도 회전 단계:
+    // 캐릭터가 바라보는 방향). AimDirection 자체는 계속 마우스 방향이고, 무기를 들고 있는 자세(회전/궤도 위치)만 바뀐다.
+    [HideInInspector] public bool useAngleOverride;
+    [HideInInspector] public float angleOverride;
+
     private Camera mainCamera;
     private SpriteRenderer spriteRenderer;
     private Transform pivot; // 궤도의 중심점 = 부모(Player) Transform
@@ -86,7 +91,7 @@ public class WeaponAim : MonoBehaviour
         // 조준 방향 계산만 갱신해주고 나머지(회전/위치 적용)는 건드리지 않는다.
         if (externalControl) return;
 
-        float aimAngle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        float aimAngle = useAngleOverride ? angleOverride : Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
 
         // 킥 각도를 매 프레임 0으로 서서히 되돌린다 (MoveTowards는 목표를 넘어서지 않는 선형 감소).
         kickAngle = Mathf.MoveTowards(kickAngle, 0f, recoilRecoverySpeed * Time.deltaTime);
