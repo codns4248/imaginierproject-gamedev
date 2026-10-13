@@ -124,9 +124,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e677dd33027e8354fb595b1c1088d5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SwordAttack
-  attackInterval: 0.45
+  attackInterval: 0.9
   swingAngle: 120
-  swingDuration: 0.225
+  swingDuration: 0.3
   damage: 1
   hitRadius: 0.5
   critChance: 0.3

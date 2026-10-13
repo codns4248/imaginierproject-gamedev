@@ -124,13 +124,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34b0cdcf402b55d468b0b217b837872d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LanceAttack
-  attackInterval: 0.4
+  attackInterval: 0.8
   thrustDistance: 0.6
-  thrustOutDuration: 0.1
-  thrustBackDuration: 0.15
+  thrustOutDuration: 0.13
+  thrustBackDuration: 0.2
+  flurryTimeScale: 0.2
   damage: 1
   hitRadius: 0.4
-  hitWidthScale: 0.8
   critChance: 0.3
   critMultiplier: 1.5
 --- !u!114 &1841920244276684559

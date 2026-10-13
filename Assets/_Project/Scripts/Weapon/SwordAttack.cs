@@ -13,15 +13,30 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(WeaponAim))]
 public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
 {
-    // 연속 공격 사이의 최소 간격(초).
-    public float attackInterval = 0.45f;
+    // 연속 공격 사이의 최소 간격(초). 스윙을 시작한 순간부터 센다 (휘두르는 시간도 이 안에 포함).
+    public float attackInterval = 0.9f;
 
     [Header("휘두르기 모션")]
     // 휘두르는 전체 각도. 공격을 시작하는 순간의 목표 방향이 이 범위의 정중앙이 된다.
     public float swingAngle = 120f;
 
     // 위(swingAngle/2 만큼 위)에서 아래(swingAngle/2 만큼 아래)까지 휘두르는 데 걸리는 시간(초).
-    public float swingDuration = 0.225f;
+    public float swingDuration = 0.3f;
+
+    [Header("속도 강화 (목재=공격 간격, 기름=휘두르는 시간)")]
+    // 최대 강화(10레벨)에서 간격 0.9 -> 0.5, 휘두르는 시간 0.3 -> 0.15가 되도록 잡았다.
+    public float intervalReductionPerWood = 0.04f;
+    public float minAttackInterval = 0.2f;
+    public float swingDurationReductionPerOil = 0.015f;
+    public float minSwingDuration = 0.1f;
+
+    // 360도 회전 베기/상시 회전은 부채꼴처럼 "휘두르는 시간"이 없어서 기름(휘두르는 시간 단축)이 효과가 없어지므로,
+    // 그 단계에서는 기름이 회전 한 바퀴 시간에 대신 적용된다: 바퀴 시간 x (현재 휘두르는 시간 / rotationReferenceSwingDuration).
+    // 기준 시간(0.45)은 기본 휘두르는 시간(0.3)보다 크게 잡아서, 기름 0레벨의 회전도 기준보다 1.5배 빠르게 시작하고
+    // 기름 10레벨(0.15)에서는 기준의 1/3 시간이 된다 (회전 시간이 부채꼴 휘두르기와 같은 비율로 빨라지도록).
+    // oilRotationEffect: 1이면 위 비율을 그대로 반영, 0.5면 절반만 반영, 0이면 반영 안 함(기름이 회전에 영향 없음).
+    public float rotationReferenceSwingDuration = 0.45f;
+    public float oilRotationEffect = 1f;
 
     [Header("공격력 / 판정 범위")]
     // Sword의 공격력. Pistol과 마찬가지로 나중에 강화 요소가 생기면 이 값만 바꾸면 되게 해뒀다.
@@ -30,9 +45,25 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     // 칼의 현재 위치를 중심으로 한 판정 반지름 (칼날 크기에 맞춰 설정).
     public float hitRadius = 1f;
 
-    // 구리(공격 범위) 강화로 판정이 커진 만큼 칼 그림을 얼마나 따라 키울지. 1이면 판정과 같은 배율(10단계에서 3배),
-    // 0.5면 증가분의 절반만(10단계에서 2배), 0이면 그림은 그대로.
+    // 구리(공격 범위) 강화 1레벨당 판정 반지름이 늘어나는 양 = 원본 판정 반지름 x 이 비율.
+    // 0.1이면 최대 강화(10레벨)에서 판정이 원본의 2배가 된다 (1 + 10 x 0.1).
+    public float rangeGrowthPerLevel = 0.1f;
+
+    // 구리(공격 범위) 강화로 판정이 커진 만큼 칼 그림을 얼마나 따라 키울지. 1이면 판정과 같은 배율(최대 강화에서 2배),
+    // 0.5면 증가분의 절반만(최대 강화에서 1.5배), 0이면 그림은 그대로.
     public float rangeVisualSizeFollow = 1f;
+
+    [Header("판정 방식 (접촉 판정)")]
+    // 접촉 판정: "칼 주변 원형 범위(hitRadius)"가 아니라 칼 모양 상자가 적의 몸통 원(Enemy.TryGetBodyCircle)에 실제로 닿은 적만 맞힌다.
+    // 360도 회전 베기/상시 회전은 항상 접촉 판정이다. 부채꼴 스윙도 기본은 접촉 판정이고, 이 값을 true로 하면 부채꼴만 옛날식 원형 판정(hitRadius)으로 돌아간다.
+    public bool arcSwingUsesCircleHit = false;
+
+    // 접촉 판정 상자의 길이는 칼 그림 길이 그대로(구리 강화로 커지면 같이 커진다), 폭은 그림 가로폭(날밑 포함)에 이 비율을 곱한 값.
+    // 적 몸통 원의 크기는 따로 더해지므로 폭 자체는 날 두께보다 약간 넉넉한 정도면 된다.
+    public float contactWidthRatio = 0.45f;
+
+    // 칼이 한 프레임에 움직인 각도를 이 간격(도)으로 쪼개서 중간 위치마다 검사한다 (빠르게 돌 때 적을 건너뛰지 않게).
+    public float contactStepDegrees = 8f;
 
     [Header("치명타")]
     // 이번 스윙이 치명타인지는 스윙 시작 시점에 한 번만 판정해서, 스윙 도중 맞는 모든 적에게 동일하게 적용한다.
@@ -65,7 +96,7 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     [Header("특수효과: 나무(공속) - 회전 베기 / 상시 회전")]
     public float spinSwingAngle = 360f;       // 5단계: 스윙이 부채꼴(120도) 대신 한 바퀴(360도)로 바뀐다
     public float spinDurationRatio = 0.9f;    // 한 바퀴 도는 시간 = 공격 간격 x 이 비율 (나무 강화가 계속 의미를 갖도록 간격에 묶는다)
-    public float spinStartOffset = 60f;       // 360도 스윙은 목표 방향에서 이만큼 위쪽에서 출발해 시계방향으로 한 바퀴 돈다
+    public float spinStartAngleFromFacing = 0f; // 360도 스윙이 캐릭터가 바라보는 방향에서 이만큼 위쪽에서 출발해 시계방향으로 한 바퀴 돈다 (0이면 바라보는 방향에서 출발하고 그 자리에서 끝난다)
     public float autoOrbitDamageMultiplier = 0.5f;    // 10단계 상시 회전: 안 들고 있을 때(자동)의 데미지 배율
     public float autoOrbitKnockbackMultiplier = 0.5f; // 같은 조건의 넉백 배율
     public float orbitSpreadEaseSpeed = 360f; // 여러 자루가 동시에 돌 때 서로 간격을 벌리는 속도(도/초)
@@ -108,6 +139,8 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
 
     private bool isSwinging;
     private float swingElapsed;
+    private float lastSwingT;       // 직전 프레임의 스윙 진행도(0~1) - 접촉 판정이 이 프레임에 훑은 구간을 구하는 데 쓴다
+    private float lastBladeAngle;   // 직전 프레임의 상시 회전 칼 각도(도)
     private float swingCenterAngle; // 스윙을 시작한 순간의 목표 방향 각도 (스윙 내내 고정)
     private float swingDamage;      // 이번 스윙의 최종 데미지 (치명타면 이미 배율이 적용된 값)
     private bool swingIsCrit;       // 이번 스윙이 치명타인지
@@ -180,12 +213,12 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     {
         switch (type)
         {
-            case ResourceType.Wood: attackInterval = Mathf.Max(0.1f, attackInterval - 0.02f); break;
+            case ResourceType.Wood: attackInterval = Mathf.Max(minAttackInterval, attackInterval - intervalReductionPerWood); break;
             case ResourceType.Iron: damage += 0.3f; break;
-            case ResourceType.Copper: hitRadius += 0.1f; break;
+            case ResourceType.Copper: hitRadius += baseHitRadius * rangeGrowthPerLevel; break;
             case ResourceType.Chemical: critChance = Mathf.Min(1f, critChance + 0.05f); break;
             // 발사체가 없는 근접무기라 "발사속도"는 휘두르는 모션 자체를 빠르게 하는 것으로 대체.
-            case ResourceType.Oil: swingDuration = Mathf.Max(0.05f, swingDuration - 0.015f); break;
+            case ResourceType.Oil: swingDuration = Mathf.Max(minSwingDuration, swingDuration - swingDurationReductionPerOil); break;
         }
     }
 
@@ -273,6 +306,7 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     void OnDisable()
     {
         if (spriteRenderer != null) spriteRenderer.color = Color.white; // 강타 도중 비활성화돼도 색이 남지 않게
+        if (weaponAim != null) weaponAim.useAngleOverride = false;
         orbiters.Remove(this);
         MeleeAutoAttackQueue.Unregister(this);
         PermanentUpgradeManager.OnChanged -= ReapplyEnhancements;
@@ -282,6 +316,12 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     {
         // 질주(기름 10단계) 버프 중에는 쿨다운이 더 빨리 돈다.
         attackCooldown -= Time.deltaTime * StageGimmickManager.WeaponTimeScale * PlayerBuffs.MeleeCooldownSpeedMultiplier;
+
+        // 360도 회전 단계(나무 5단계 이상)는 어차피 한 바퀴를 도니까, 들고 있는 검을 마우스 쪽이 아니라 캐릭터가 바라보는 쪽에 둔다.
+        // (회전 베기는 그 자리에서 출발해 그 자리로 돌아오고, 상시 회전도 거기서 이어서 돈다)
+        bool facingPose = EffectTier(ResourceType.Wood) >= TierLow;
+        weaponAim.useAngleOverride = facingPose;
+        if (facingPose) weaponAim.angleOverride = FacingAngle();
 
         if (!isSwinging)
         {
@@ -321,6 +361,7 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     {
         isSwinging = true;
         swingElapsed = 0f;
+        lastSwingT = 0f;
         attackCooldown = attackInterval;
 
         // 나무(공속) 특수효과: 5단계부터 스윙이 부채꼴(120도) 대신 한 바퀴(360도) 회전 베기로 바뀐다.
@@ -329,8 +370,8 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
         {
             mode = SwingMode.Spin360;
             activeSwingAngle = spinSwingAngle;
-            activeSwingDuration = Mathf.Max(0.05f, attackInterval * spinDurationRatio);
-            swingStartOffset = spinStartOffset;
+            activeSwingDuration = Mathf.Max(0.05f, attackInterval * spinDurationRatio * RotationTimeFactor);
+            swingStartOffset = spinStartAngleFromFacing;
         }
         else
         {
@@ -346,9 +387,22 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
         weaponAim.externalControl = true;
         weaponAim.SetForceVisible(true); // 들고 있지 않아도 공격하는 동안은 보이게 한다
 
-        swingCenterAngle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        // 360도 회전 베기는 공격 방향(마우스/적)과 상관없이 캐릭터가 바라보는 방향에서 출발한다. 부채꼴은 공격 방향이 중심.
+        swingCenterAngle = mode == SwingMode.Spin360 ? FacingAngle() : Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
 
         PrepareWave(swingCenterAngle + swingStartOffset); // 칼날은 이 각도에서 출발해 시계방향으로 돈다
+    }
+
+    private PlayerMovement playerMovement;
+
+    // 캐릭터가 바라보는 방향 각도(오른쪽 0도, 왼쪽 180도). 플레이어 정보를 못 찾으면 마우스 방향을 쓴다.
+    private float FacingAngle()
+    {
+        if (playerMovement == null && weaponAim.Pivot != null) playerMovement = weaponAim.Pivot.GetComponent<PlayerMovement>();
+
+        Vector2 facing = playerMovement != null ? playerMovement.FacingDirection : weaponAim.AimDirection;
+        if (facing.sqrMagnitude < 0.0001f) facing = Vector2.right;
+        return Mathf.Atan2(facing.y, facing.x) * Mathf.Rad2Deg;
     }
 
     // 스윙(상시 회전은 한 바퀴)이 시작될 때마다 한 번: 철(강타)/치명타 판정과 "이번 스윙에 이미 맞힌 적" 초기화.
@@ -383,7 +437,13 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
         float currentAngle = swingCenterAngle + swingStartOffset - activeSwingAngle * t;
 
         ApplySwordTransform(currentAngle);
-        CheckHit();
+
+        float previousT = lastSwingT;
+        lastSwingT = t;
+        if (UseContactHit)
+            SweepContact(swingCenterAngle + swingStartOffset - activeSwingAngle * previousT, -activeSwingAngle * (t - previousT));
+        else
+            CheckHit();
         UpdateWave(activeSwingAngle * t);
 
         if (t >= 1f) EndSwing();
@@ -400,7 +460,7 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     }
 
     // === 나무 10단계: 상시 회전 ===
-    // 칼이 플레이어 주변을 계속 돈다. 한 바퀴 시간은 공격 간격이고, 한 바퀴가 스윙 1회다(적은 바퀴마다 1번만 맞는다).
+    // 칼이 플레이어 주변을 계속 돈다. 한 바퀴 시간은 공격 간격(기름 강화로 더 짧아짐)이고, 한 바퀴가 스윙 1회다(적은 바퀴마다 1번만 맞는다).
     // 직접 조작: 마우스를 누르고 있는 동안만 돌고, 놓으면 현재 바퀴를 끝까지 돈 뒤 멈춘다.
     // 자동(안 들고 있을 때): 계속 돌되 데미지/넉백이 줄어든다. 자동공격 큐와 상관없이 스스로 돈다(ExcludeFromQueue).
     // 같은 종류의 칼이 여러 자루 동시에 돌면 모두 하나의 공유 시계를 따르면서 360/N도 간격으로 벌어진다.
@@ -417,8 +477,19 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
         orbiters.Clear();
     }
 
-    // 한 바퀴 시간 = 공격 간격 (질주 버프의 쿨다운 단축이 켜져 있으면 그만큼 빨라진다).
-    private float OrbitDegreesPerSecond => 360f / Mathf.Max(0.05f, attackInterval / PlayerBuffs.MeleeCooldownSpeedMultiplier);
+    // 회전 단계(360도 회전 베기/상시 회전)에서 기름이 바퀴 시간에 곱하는 배율 (1 이하: 기름을 올릴수록 빨라진다). oilRotationEffect 참고.
+    private float RotationTimeFactor
+    {
+        get
+        {
+            float oilRatio = rotationReferenceSwingDuration > 0f ? swingDuration / rotationReferenceSwingDuration : 1f;
+            return Mathf.Max(0.1f, 1f + (oilRatio - 1f) * oilRotationEffect);
+        }
+    }
+
+    // 한 바퀴 시간 = 공격 간격 x 기름 배율 (질주 버프의 쿨다운 단축이 켜져 있으면 그만큼 더 빨라진다).
+    private float OrbitDegreesPerSecond =>
+        360f / Mathf.Max(0.05f, attackInterval * RotationTimeFactor / PlayerBuffs.MeleeCooldownSpeedMultiplier);
 
     // 한 바퀴가 끝날 때마다 다음 바퀴를 이어서 돌지 판단한다.
     private bool ShouldKeepOrbiting()
@@ -436,6 +507,7 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
 
         // 지금 칼날이 있는 각도에서 이어서 돈다 (갑자기 튀지 않게).
         float startAngle = CurrentBladeAngle();
+        lastBladeAngle = startAngle;
         orbiters.RemoveAll(o => o == null);
         if (orbiters.Count == 0) orbitClockAngle = startAngle;
         if (!orbiters.Contains(this)) orbiters.Add(this);
@@ -468,8 +540,11 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
         float desiredOffset = 360f * index / Mathf.Max(1, orbiters.Count);
         orbitPhaseOffset = Mathf.MoveTowardsAngle(orbitPhaseOffset, desiredOffset, orbitSpreadEaseSpeed * dt);
 
-        ApplySwordTransform(orbitClockAngle + orbitPhaseOffset);
-        CheckHit();
+        float bladeAngle = orbitClockAngle + orbitPhaseOffset;
+        ApplySwordTransform(bladeAngle);
+        if (UseContactHit) SweepContact(lastBladeAngle, Mathf.DeltaAngle(lastBladeAngle, bladeAngle));
+        else CheckHit();
+        lastBladeAngle = bladeAngle;
 
         orbitProgress += speed * dt;
         UpdateWave(orbitProgress);
@@ -505,29 +580,76 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
         transform.rotation = Quaternion.Euler(0f, 0f, angle + weaponAim.visualRotationOffset);
     }
 
-    // 칼의 현재 위치를 검사해서 아직 이번 스윙에서 맞히지 않은 적에게만 데미지를 준다.
+    // 칼의 현재 위치를 검사해서 아직 이번 스윙에서 맞히지 않은 적에게만 데미지를 준다 (칼 주변 원형 판정).
     private void CheckHit()
     {
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, hitRadius);
-        foreach (var hit in hits)
-        {
-            Enemy enemy = hit.GetComponent<Enemy>();
-            if (enemy == null || hitThisSwing.Contains(enemy)) continue;
+        foreach (var hit in hits) HitEnemy(hit, transform.position);
+    }
 
-            hitThisSwing.Add(enemy);
+    // 이 스윙이 접촉 판정을 쓰는지: 360도 회전 베기/상시 회전은 항상, 부채꼴은 arcSwingUsesCircleHit를 켜지 않은 한 접촉 판정.
+    private bool UseContactHit =>
+        (mode != SwingMode.Arc || !arcSwingUsesCircleHit) && spriteRenderer != null && spriteRenderer.sprite != null;
 
-            Vector2 knockDir = (Vector2)hit.transform.position - (Vector2)transform.position;
-            if (knockDir.sqrMagnitude < 0.0001f) knockDir = Vector2.up;
-            bool wasDying = enemy.IsDying;
-            enemy.Hit(knockDir.normalized, swingDamage, swingIsCrit, swingKnockbackMultiplier);
-            if (wasDying) continue; // 이미 죽는 중이던 적은 효과 대상이 아니다
+    // 칼이 fromAngle에서 signedDegrees만큼(시계방향이면 음수) 움직인 동안 지나간 자리를 일정 간격으로 쪼개서 검사한다.
+    // 한 프레임에 수십 도씩 도는 상시 회전도 칼 모양 상자가 지나간 길 위의 적을 빠짐없이 맞힌다.
+    private void SweepContact(float fromAngle, float signedDegrees)
+    {
+        int steps = Mathf.Max(1, Mathf.CeilToInt(Mathf.Abs(signedDegrees) / Mathf.Max(1f, contactStepDegrees)));
+        for (int i = 1; i <= steps; i++)
+            CheckContactAt(fromAngle + signedDegrees * i / steps);
+    }
 
-            // 화학물질(치명타) 특수효과: 치명타 스윙에 맞은 적 기절. 죽은 적에게는 걸 필요 없다.
-            if (swingIsCrit && !enemy.IsDying) ApplyStun(enemy);
+    // 칼날이 angle(플레이어 기준 각도)에 있을 때의 칼 모양 상자와 닿은 적을 때린다.
+    // 상자는 칼 그림의 월드 크기에서 구하므로(길이=그림 길이, 폭=그림 폭 x contactWidthRatio) 구리 강화로 칼이 커지면 같이 커진다.
+    // 칼 스프라이트는 위쪽(+Y)이 칼끝이고 visualRotationOffset이 이를 바깥 방향으로 돌려주므로 상자의 긴 축이 바깥 방향이다.
+    private void CheckContactAt(float angle)
+    {
+        float rad = angle * Mathf.Deg2Rad;
+        Vector2 center = (Vector2)weaponAim.Pivot.position + new Vector2(Mathf.Cos(rad), Mathf.Sin(rad)) * weaponAim.orbitRadius;
 
-            // 기름(속도) 특수효과: 적을 처치하면 질주 버프.
-            if (enemy.IsDying) OnKill();
-        }
+        Vector2 spriteSize = spriteRenderer.sprite.bounds.size;
+        Vector3 scale = transform.lossyScale;
+        Vector2 boxSize = new Vector2(spriteSize.x * Mathf.Abs(scale.x) * contactWidthRatio, spriteSize.y * Mathf.Abs(scale.y));
+
+        // 충돌체로 후보를 뽑은 뒤 적 몸통 원이 칼 상자에 실제로 닿은 것만 남긴다 (MeleeContact 참고).
+        foreach (var hit in MeleeContact.Touched(center, boxSize, angle + weaponAim.visualRotationOffset))
+            HitEnemy(hit, center);
+    }
+
+    // 에디터에서 접촉 판정 상자가 어떻게 생겼는지 보기 위한 표시 (Scene 뷰, 또는 Game 뷰의 Gizmos 켜기). 접촉 판정으로 휘두르는 동안만 그린다.
+    void OnDrawGizmos()
+    {
+        if (!isSwinging || !UseContactHit) return;
+
+        Vector2 spriteSize = spriteRenderer.sprite.bounds.size;
+        Vector3 scale = transform.lossyScale;
+        Vector3 boxSize = new Vector3(spriteSize.x * Mathf.Abs(scale.x) * contactWidthRatio, spriteSize.y * Mathf.Abs(scale.y), 0f);
+
+        Gizmos.color = Color.green;
+        Gizmos.matrix = Matrix4x4.TRS(transform.position, transform.rotation, Vector3.one);
+        Gizmos.DrawWireCube(Vector3.zero, boxSize);
+    }
+
+    // 칼에 맞은 콜라이더가 적이면 (이번 스윙에서 처음 맞는 경우만) 데미지/넉백과 특수효과를 준다.
+    private void HitEnemy(Collider2D hit, Vector2 bladeCenter)
+    {
+        Enemy enemy = hit.GetComponent<Enemy>();
+        if (enemy == null || hitThisSwing.Contains(enemy)) return;
+
+        hitThisSwing.Add(enemy);
+
+        Vector2 knockDir = (Vector2)hit.transform.position - bladeCenter;
+        if (knockDir.sqrMagnitude < 0.0001f) knockDir = Vector2.up;
+        bool wasDying = enemy.IsDying;
+        enemy.Hit(knockDir.normalized, swingDamage, swingIsCrit, swingKnockbackMultiplier);
+        if (wasDying) return; // 이미 죽는 중이던 적은 효과 대상이 아니다
+
+        // 화학물질(치명타) 특수효과: 치명타 스윙에 맞은 적 기절. 죽은 적에게는 걸 필요 없다.
+        if (swingIsCrit && !enemy.IsDying) ApplyStun(enemy);
+
+        // 기름(속도) 특수효과: 적을 처치하면 질주 버프.
+        if (enemy.IsDying) OnKill();
     }
 
     // === 구리(범위) 특수효과: 검기 ===

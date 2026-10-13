@@ -14,7 +14,7 @@ Assets/
     Resources/     Resources.Load로 불러오는 ScriptableObject (이름 변경 금지)
     Art/  Animations/  Fonts/  Settings/
   ThirdParty/      외부 에셋과 AI로 생성한 이미지 (prop_*, npc_*)
-  LevelPlay/  TextMesh Pro/  ...   패키지/SDK (건드리지 않음)
+  TextMesh Pro/  ...   패키지/SDK (건드리지 않음)
 ```
 
 ## 이름 규칙
@@ -81,7 +81,7 @@ PascalCase + 종류 접두어. 위치는 `Prefabs/<종류>/`.
 ## 이름을 바꾸면 안 되는 것
 
 - `Resources.Load("...")`로 이름을 불러오는 에셋: `ResourceIconSet`, `WeaponCatalog`
-- 서드파티 폴더: `Guns`, `Honeti`, `Modern Park`, `Monster Packs`, `Pixel Plains Premium Pack`, `Undead Survivor`, `LevelPlay`, `TextMesh Pro`
+- 서드파티 폴더: `Guns`, `Honeti`, `Modern Park`, `Monster Packs`, `Pixel Plains Premium Pack`, `Undead Survivor`, `TextMesh Pro`
 - 코드에서 `transform.Find("...")`나 `GameObject.Find("...")`로 찾는 오브젝트 (예: `Canvas`, `Player`, `HealthUI`, `StageTimerText`). 바꾸기 전에 코드 검색부터 한다.
 
 ## 에셋 이름을 바꾸거나 옮길 때
@@ -96,4 +96,3 @@ PascalCase + 종류 접두어. 위치는 `Prefabs/<종류>/`.
 
 - 씬과 프리팹은 병합이 어렵다. 한 씬은 한 사람이 맡고, 작업 전에 팀에 알린다.
 - 충돌이 나면 UnityYAMLMerge로 수동 병합한다.
-- `Assets/LevelPlay/Editor/*`의 자동 생성 변경은 의도한 경우에만 커밋한다.
