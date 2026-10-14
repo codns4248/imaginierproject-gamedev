@@ -105,8 +105,31 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     public float flurryAngleSpread = 10f;   // 목표 방향에서 좌/우로 비스듬히 벗어나는 각도(도)
     public float flurryTimeScale = 0.2f;    // 연속 찌르기 중 찌르기/돌아오기 시간 배율 (작을수록 빠름). 0.2면 기본 찌르기보다 5배 빠르다.
 
+    // 최대 강화가 15로 늘어도 10단계 효과는 10강에서 켜져야 하므로 MaxLevel이 아니라 고정값으로 둔다 (SwordAttack과 동일).
+    // 15단계 효과는 아직 기획 전이라, 15강에서도 10단계 효과가 그대로 유지된다.
     private const int TierLow = 5;
-    private int TierHigh => WeaponEnhanceUtil.MaxLevel;
+    private const int TierHigh = 10;
+
+    // 강화 UI에 보여줄 특수효과 설명. 수치는 인스펙터 값을 그대로 읽어서 밸런스를 바꿔도 설명이 따라간다.
+    public string GetMilestoneEffect(ResourceType type, int tier)
+    {
+        bool high = tier == TierHigh;
+        if (tier != TierLow && !high) return null; // 15단계는 아직 미정
+        switch (type)
+        {
+            case ResourceType.Wood:
+                return $"연속 찌르기 {(high ? flurryThrustsTier10 : flurryThrustsTier5)}연타";
+            case ResourceType.Iron:
+                return $"달아오름: 적중마다 피해 +{heatDamagePerStack * 100f:0}% (최대 {(high ? heatMaxStacksTier10 : heatMaxStacksTier5)}중첩)";
+            case ResourceType.Copper:
+                return $"창끝 충격: 피해 x{(high ? burstDamageTier10 : burstDamageTier5):0.#}, 반경 {(high ? burstRadiusTier10 : burstRadiusTier5):0.#}";
+            case ResourceType.Chemical:
+                return $"급소 처형: 치명타 후 체력 {(high ? executeThresholdTier10 : executeThresholdTier5) * 100f:0}% 이하 즉사";
+            case ResourceType.Oil:
+                return $"연타 환급: 적중마다 쿨다운 -{(high ? refundPerHitTier10 : refundPerHitTier5):0.##}초 (최대 {(high ? refundCapTier10 : refundCapTier5):0.#}초)";
+        }
+        return null;
+    }
 
     private WeaponAim weaponAim;
     private SpriteRenderer spriteRenderer;
