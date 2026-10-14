@@ -12,8 +12,7 @@ using UnityEngine;
 //  기름은 원래 docs/schema.sql이 적어둔 대로 이동속도에 배정 - 무기 강화 쪽에서 발사속도로 겹쳐 쓴 것과는 별개).
 public static class PermanentUpgradeManager
 {
-    public const int MaxLevel = WeaponEnhanceUtil.MaxLevel;
-    private const int CostPerLevel = 5;
+    public const int MaxLevel = 10; // 무기 강화(15단계)와 별개.
 
     private static readonly int[] levels = new int[WeaponEnhanceUtil.AllTypes.Length];
 
@@ -33,7 +32,7 @@ public static class PermanentUpgradeManager
     {
         int idx = WeaponEnhanceUtil.IndexOf(type);
         if (idx < 0 || levels[idx] >= MaxLevel) return false;
-        if (!ResourceBank.TrySpendStash(type, CostPerLevel)) return false;
+        if (!ResourceBank.TrySpendStash(type, WeaponEnhanceUtil.CostForLevel(levels[idx]))) return false;
 
         levels[idx]++;
         Save();

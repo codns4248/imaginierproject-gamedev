@@ -18,49 +18,36 @@ using UnityEngine.UI;
 // permanent_upgrade_type(영구 강화)와 겹치는 부분이 있어 정리가 필요하다. 스키마 정리 전까지는
 // 지금 이미 만들어진 UI(발사속도 = 무기 스탯)를 그대로 따른다.
 //
-// 마일스톤 패시브(item_enhance_milestone)는 아직 범위 밖.
+// 강화는 자원별 최대 15단계, 5강마다(5/10/15) 무기별 특수효과가 켜진다 (item_enhance_milestone 대응).
+// 특수효과 설명은 무기가 IEnhanceableWeapon.GetMilestoneEffect로 제공하고, 패널 아래쪽에 목록으로 보여준다.
+// 특수효과 단계에 닿으면 무기 이름 아래에 금색 해금 배너가 잠깐 뜬다.
 //
-// 씬에 미리 만들어진 WeaponUpgradePanel 하위의 StatRow_* 5개를 이름으로 찾아서
-// 각 EnhanceButton에 코드로 리스너를 붙이고, CurrencyText 옆에 어떤 자원이 얼마나 필요한지
-// 아이콘으로 보여준다.
+// 각 줄(진행바/마커/버튼/자원 표시)과 팝업 스케일 보정은 UpgradeRowUI가 담당한다 (거점 영구 강화와 공용).
 public class WeaponEnhancementManager : MonoBehaviour
 {
     public GameObject enhancementPanel; // 무기 강화 팝업 UI 오브젝트 (WeaponUpgradePanel)
     public PauseManager pauseManager; // ESC 상태 확인 + Time.timeScale 계산에 상태를 알려주기 위한 참조
 
-    [Header("강화 바(Step) 색")]
-    // 강화가 채워진 칸만 이 색으로 바꾼다 (프리팹 기본색보다 더 밝고 빨갛게).
-    // 아직 강화 안 된 칸은 씬/프리팹에 지정된 원래 색 그대로 두고 전혀 건드리지 않는다.
-    public Color filledStepColor = new Color(1f, 0.2f, 0.15f, 1f);
+    private const float BannerDuration = 2.2f;
 
-    private const int CostPerLevel = 5;
-    private const float CostIconSize = 20f;
+    private const string EffectOnHex = "FFC94A";
+    private const string EffectOffHex = "8C94A6";
+    private static readonly Color HeaderNormalColor = new Color(0.9f, 0.9f, 0.9f);
+    private static readonly Color HeaderWarnColor = new Color(1f, 0.85f, 0.35f);
+    private const string NoWeaponNotice = "무기를 든 상태에서 강화할 수 있습니다";
 
     private bool isPanelOpen;
-    private EnhanceRow[] rows;
+    private UpgradeRowUI[] rows;
 
-    // 강화 안 된 칸의 원래 색. BuildRows()에서 아직 아무것도 칠하기 전에 한 번 캡처해두고,
-    // RefreshRow()에서 레벨보다 높은 칸을 이 색으로 되돌린다 (런 리셋 후 빈 상태 표시용).
-    private Color defaultStepColor = Color.white;
-
-    // 패널 상단에 코드로 생성하는 헤더 텍스트. 무기를 들고 있으면 "강화 대상: <무기>",
-    // 안 들고 있으면 안내 문구를 노란색으로 표시한다.
-    private Text headerText;
+    private Text headerText;     // 무기 아이콘 옆 무기 이름 (무기가 없으면 안내 문구)
+    private Text bannerText;     // 특수효과 해금 배너
+    private float bannerTimer;
+    private Text effectsLabels;  // 특수효과 목록 왼쪽 열 (자원/스탯 이름)
+    private Text effectsText;    // 오른쪽 열 (현재 효과 → 다음 효과)
 
     // 마지막으로 RefreshAllRows()가 반영한 무기. 패널이 열린 채 Q로 무기를 바꾸면 이 값과 달라지므로
     // Update()에서 감지해 행/헤더를 새 무기 기준으로 다시 그린다 (예전엔 이전 무기 강화 상태가 그대로 남았음).
     private MonoBehaviour lastShownWeapon;
-    private const string NoWeaponNotice = "무기를 든 상태에서 강화할 수 있습니다";
-    private static readonly Color HeaderNormalColor = new Color(0.9f, 0.9f, 0.9f);
-    private static readonly Color HeaderWarnColor = new Color(1f, 0.85f, 0.35f);
-
-    private struct EnhanceRow
-    {
-        public ResourceType type;
-        public Transform stepsRow;
-        public Text currencyText;
-        public Button button;
-    }
 
     void Awake()
     {
@@ -88,8 +75,12 @@ public class WeaponEnhancementManager : MonoBehaviour
             return;
         }
 
-        // 패널이 열린 채 Q로 무기를 바꾸면 강화 행/헤더를 새 무기 기준으로 다시 그린다.
-        if (isPanelOpen && !ReferenceEquals(FindHeldWeapon(), lastShownWeapon)) RefreshAllRows();
+        if (isPanelOpen)
+        {
+            // 패널이 열린 채 Q로 무기를 바꾸면 강화 행/헤더를 새 무기 기준으로 다시 그린다.
+            if (!ReferenceEquals(FindHeldWeapon(), lastShownWeapon)) RefreshAllRows();
+            Animate(Time.unscaledDeltaTime);
+        }
 
         if (!Keyboard.current.vKey.wasPressedThisFrame) return;
 
@@ -106,54 +97,56 @@ public class WeaponEnhancementManager : MonoBehaviour
         if (enhancementPanel != null) enhancementPanel.SetActive(open);
         if (pauseManager != null) pauseManager.SetInventoryPaused(open);
 
-        if (open) RefreshAllRows();
+        if (!open) return;
+        RefreshAllRows();
+        foreach (UpgradeRowUI row in rows) row.Snap();
+        bannerTimer = 0f;
+        Animate(0f);
     }
 
-    // StatRow_* 5개를 찾아서 라벨->자원타입 매핑, 자원 아이콘 배치, 버튼 리스너 연결까지 한 번에 처리한다.
     private void BuildRows()
     {
-        rows = new EnhanceRow[]
-        {
-            BindRow("StatRow_공격속도", ResourceType.Wood),
-            BindRow("StatRow_공격력", ResourceType.Iron),
-            BindRow("StatRow_공격범위", ResourceType.Copper),
-            BindRow("StatRow_치명타 확률", ResourceType.Chemical),
-            BindRow("StatRow_발사속도", ResourceType.Oil),
-        };
+        Transform window = UpgradeRowUI.FindDeep(enhancementPanel.transform, "PopupWindow") ?? enhancementPanel.transform;
+        UpgradeRowUI.BakeScale((RectTransform)window); // 이후 크기 값은 캔버스 기준 해상도(1280x720) 단위
+        Font font = enhancementPanel.GetComponentInChildren<Text>(true)?.font;
 
-        Button closeButton = FindDeep(enhancementPanel.transform, "ButtonX")?.GetComponent<Button>();
+        rows = new[]
+        {
+            BindRow("StatRow_공격속도", ResourceType.Wood, font),
+            BindRow("StatRow_공격력", ResourceType.Iron, font),
+            BindRow("StatRow_공격범위", ResourceType.Copper, font),
+            BindRow("StatRow_치명타 확률", ResourceType.Chemical, font),
+            BindRow("StatRow_발사속도", ResourceType.Oil, font),
+        };
+        rows = System.Array.FindAll(rows, r => r != null);
+
+        Button closeButton = UpgradeRowUI.FindDeep(enhancementPanel.transform, "ButtonX")?.GetComponent<Button>();
         if (closeButton != null) closeButton.onClick.AddListener(() => SetPanelOpen(false));
 
-        // 아직 아무 칸도 칠하기 전에 원래 색을 캡처한다 (RefreshRow에서 빈 칸 되돌릴 때 사용).
-        Transform firstStep = rows.Length > 0 && rows[0].stepsRow != null ? rows[0].stepsRow.Find("Step_0") : null;
-        Image firstStepImage = firstStep != null ? firstStep.GetComponent<Image>() : null;
-        if (firstStepImage != null) defaultStepColor = firstStepImage.color;
+        // 무기 아이콘(왼쪽 위 78px 박스) 오른쪽에 무기 이름, 그 아래에 해금 배너.
+        headerText = UpgradeRowUI.CreateText(window, "EnhanceHeader", font, 24, TextAnchor.MiddleLeft, new Vector2(0f, 1f), new Vector2(120f, -70f), new Vector2(480f, 30f));
+        bannerText = UpgradeRowUI.CreateText(window, "EnhanceBanner", font, 16, TextAnchor.MiddleLeft, new Vector2(0f, 1f), new Vector2(120f, -99f), new Vector2(540f, 24f));
+        bannerText.color = new Color(UpgradeRowUI.Gold.r, UpgradeRowUI.Gold.g, UpgradeRowUI.Gold.b, 0f);
 
-        headerText = CreateHeader();
+        // 강화 행 아래 빈 공간에 자원별 특수효과 목록 (두 열: 이름 / 현재 효과 → 다음 효과).
+        effectsLabels = UpgradeRowUI.CreateText(window, "EnhanceEffectLabels", font, 16, TextAnchor.UpperLeft, Vector2.zero, new Vector2(42f, 12f), new Vector2(110f, 126f));
+        effectsText = UpgradeRowUI.CreateText(window, "EnhanceEffects", font, 16, TextAnchor.UpperLeft, Vector2.zero, new Vector2(156f, 12f), new Vector2(534f, 126f));
+        foreach (Text t in new[] { effectsLabels, effectsText })
+        {
+            t.supportRichText = true;
+            t.lineSpacing = 1.2f;
+        }
     }
 
-    // 패널 상단 중앙에 헤더 텍스트를 하나 만든다. 폰트는 패널이 이미 쓰는 것(한글 지원)을 그대로 빌려 쓴다.
-    private Text CreateHeader()
+    private UpgradeRowUI BindRow(string rowName, ResourceType type, Font font)
     {
-        GameObject go = new GameObject("EnhanceHeader", typeof(RectTransform), typeof(CanvasRenderer), typeof(Text));
-        go.transform.SetParent(enhancementPanel.transform, false);
-
-        RectTransform rt = go.GetComponent<RectTransform>();
-        rt.anchorMin = new Vector2(0.5f, 1f);
-        rt.anchorMax = new Vector2(0.5f, 1f);
-        rt.pivot = new Vector2(0.5f, 1f);
-        rt.anchoredPosition = new Vector2(0f, -8f);
-        rt.sizeDelta = new Vector2(420f, 26f);
-
-        Text t = go.GetComponent<Text>();
-        t.font = rows.Length > 0 && rows[0].currencyText != null
-            ? rows[0].currencyText.font
-            : Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
-        t.fontSize = 16;
-        t.alignment = TextAnchor.MiddleCenter;
-        t.raycastTarget = false;
-        t.horizontalOverflow = HorizontalWrapMode.Overflow;
-        return t;
+        Transform statRow = UpgradeRowUI.FindDeep(enhancementPanel.transform, rowName);
+        if (statRow == null)
+        {
+            Debug.LogWarning($"WeaponEnhancementManager: '{rowName}'을 찾지 못했습니다.");
+            return null;
+        }
+        return new UpgradeRowUI(statRow, type, WeaponEnhanceUtil.MaxLevel, WeaponEnhanceUtil.MilestoneTiers, font, () => OnEnhanceClicked(type));
     }
 
     private static string WeaponDisplayName(WeaponType type)
@@ -169,83 +162,27 @@ public class WeaponEnhancementManager : MonoBehaviour
         }
     }
 
-    private EnhanceRow BindRow(string rowName, ResourceType type)
-    {
-        EnhanceRow row = new EnhanceRow { type = type };
-
-        Transform statRow = FindDeep(enhancementPanel.transform, rowName);
-        if (statRow == null)
-        {
-            Debug.LogWarning($"WeaponEnhancementManager: '{rowName}'을 찾지 못했습니다.");
-            return row;
-        }
-
-        row.stepsRow = statRow.Find("StepsRow");
-        row.currencyText = statRow.Find("CurrencyText")?.GetComponent<Text>();
-        row.button = statRow.Find("EnhanceButton")?.GetComponent<Button>();
-
-        CreateCostIcon(statRow, type, row.currencyText);
-
-        if (row.button != null)
-        {
-            ResourceType capturedType = type; // 클로저 캡처용
-            row.button.onClick.AddListener(() => OnEnhanceClicked(capturedType));
-        }
-
-        return row;
-    }
-
-    // CurrencyText 바로 앞에 자원 아이콘을 하나 만들어서, "이 강화는 어떤 자원을 쓰는지" 한눈에 보이게 한다.
-    // HorizontalLayoutGroup이 이미 StatRow에 붙어있어서, 형제 순서만 맞추면 자동으로 배치된다.
-    private static void CreateCostIcon(Transform statRow, ResourceType type, Text currencyText)
-    {
-        if (currencyText == null) return;
-
-        // 씬에 미리 배치된 CurrencyIcon이 있으면 새로 만들지 않고 스프라이트만 드랍 아이콘과 같은 걸로 맞춘다.
-        Image existing = statRow.Find("CurrencyIcon")?.GetComponent<Image>();
-        if (existing != null)
-        {
-            existing.sprite = ResourcePickup.GetIconSprite(type);
-            existing.preserveAspect = true;
-            return;
-        }
-
-        GameObject iconGO = new GameObject("CostIcon", typeof(RectTransform), typeof(Image), typeof(LayoutElement));
-        iconGO.transform.SetParent(statRow, false);
-        iconGO.transform.SetSiblingIndex(currencyText.transform.GetSiblingIndex());
-
-        Image img = iconGO.GetComponent<Image>();
-        img.sprite = ResourcePickup.GetIconSprite(type);
-        img.preserveAspect = true;
-        img.raycastTarget = false;
-
-        LayoutElement layout = iconGO.GetComponent<LayoutElement>();
-        layout.preferredWidth = CostIconSize;
-        layout.preferredHeight = CostIconSize;
-    }
-
-    // 이름으로 자손을 재귀 탐색한다 (비활성 오브젝트도 찾을 수 있게 transform.Find 대신 직접 순회).
-    private static Transform FindDeep(Transform root, string name)
-    {
-        for (int i = 0; i < root.childCount; i++)
-        {
-            Transform child = root.GetChild(i);
-            if (child.name == name) return child;
-
-            Transform found = FindDeep(child, name);
-            if (found != null) return found;
-        }
-        return null;
-    }
-
     private void OnEnhanceClicked(ResourceType type)
     {
         IEnhanceableWeapon weapon = FindHeldWeapon() as IEnhanceableWeapon;
-        if (weapon == null || weapon.GetEnhanceLevel(type) >= weapon.MaxEnhanceLevel) return;
-        if (!ResourceBank.TrySpendRunResource(type, CostPerLevel)) return;
+        int current = weapon != null ? weapon.GetEnhanceLevel(type) : 0;
+        if (weapon == null || current >= weapon.MaxEnhanceLevel) return;
+        if (!ResourceBank.TrySpendRunResource(type, WeaponEnhanceUtil.CostForLevel(current))) return;
 
         weapon.ApplyEnhance(type);
         RefreshAllRows();
+
+        UpgradeRowUI row = System.Array.Find(rows, r => r.type == type);
+        if (row == null) return;
+        row.Pulse();
+
+        int level = weapon.GetEnhanceLevel(type);
+        if (System.Array.IndexOf(WeaponEnhanceUtil.MilestoneTiers, level) >= 0)
+        {
+            string effect = weapon.GetMilestoneEffect(type, level);
+            bannerText.text = effect != null ? $"◆ {row.label} {level}강 해금 — {effect}" : $"◆ {row.label} {level}강 달성";
+            bannerTimer = BannerDuration;
+        }
     }
 
     // 지금 플레이어가 "들고 있는"(WeaponAim.isHeld) 강화 가능한 무기의 컴포넌트를 찾는다.
@@ -271,61 +208,65 @@ public class WeaponEnhancementManager : MonoBehaviour
         bool hasWeapon = heldWeapon != null;
         lastShownWeapon = heldComponent;
 
-        // 헤더: 무기를 들고 있으면 강화 대상, 아니면 안내 문구.
         if (headerText != null)
         {
-            if (hasWeapon)
-            {
-                WeaponIdentity id = heldComponent.GetComponent<WeaponIdentity>();
-                headerText.text = id != null ? $"강화 대상: {WeaponDisplayName(id.type)}" : "강화 대상";
-                headerText.color = HeaderNormalColor;
-            }
-            else
-            {
-                headerText.text = NoWeaponNotice;
-                headerText.color = HeaderWarnColor;
-            }
+            WeaponIdentity id = hasWeapon ? heldComponent.GetComponent<WeaponIdentity>() : null;
+            headerText.text = !hasWeapon ? NoWeaponNotice : id != null ? WeaponDisplayName(id.type) : "강화 대상";
+            headerText.color = hasWeapon ? HeaderNormalColor : HeaderWarnColor;
         }
 
-        foreach (EnhanceRow row in rows)
+        foreach (UpgradeRowUI row in rows)
         {
             int level = hasWeapon ? heldWeapon.GetEnhanceLevel(row.type) : 0;
             int maxLevel = hasWeapon ? heldWeapon.MaxEnhanceLevel : WeaponEnhanceUtil.MaxLevel;
-            RefreshRow(row, level, maxLevel, hasWeapon);
+            row.Refresh(level, maxLevel, ResourceBank.GetRunHeld(row.type), WeaponEnhanceUtil.CostForLevel(level), hasWeapon);
         }
+
+        RefreshEffects(heldWeapon);
     }
 
-    private void RefreshRow(EnhanceRow row, int level, int maxLevel, bool hasWeapon)
+    // 자원별로 "지금 켜진 효과(금색) → 다음 단계 효과(회색)"를 한 줄씩.
+    // 같은 자원 안에서는 상위 단계가 하위를 대신하므로(SwordAttack.EffectTier) 켜진 효과는 가장 높은 달성 단계 하나다.
+    private void RefreshEffects(IEnhanceableWeapon weapon)
     {
-        if (row.stepsRow != null)
-        {
-            for (int i = 0; i < WeaponEnhanceUtil.MaxLevel; i++)
-            {
-                Transform step = row.stepsRow.Find("Step_" + i);
-                if (step == null) continue;
+        if (effectsText == null) return;
+        if (weapon == null) { effectsText.text = effectsLabels.text = ""; return; }
 
-                // 강화된 칸은 강조색, 그 위 칸은 원래 색으로 되돌린다 (런 리셋 후 빈 상태가 정확히 보이도록).
-                step.GetComponent<Image>().color = i < level ? filledStepColor : defaultStepColor;
+        var labels = new System.Text.StringBuilder("<color=#DDC775>특수효과</color>\n");
+        var effects = new System.Text.StringBuilder($"<color=#{EffectOffHex}>◆ 5강마다 해금</color>\n");
+        foreach (UpgradeRowUI row in rows)
+        {
+            int level = weapon.GetEnhanceLevel(row.type);
+            string current = null;
+            int nextTier = 0;
+            foreach (int tier in WeaponEnhanceUtil.MilestoneTiers)
+            {
+                string effect = weapon.GetMilestoneEffect(row.type, tier);
+                if (level >= tier) { if (effect != null) current = effect; }
+                else if (nextTier == 0) nextTier = tier;
             }
+
+            labels.Append(row.label).Append('\n');
+            effects.Append(current != null ? $"<color=#{EffectOnHex}>{current}</color>" : $"<color=#{EffectOffHex}>없음</color>");
+            if (nextTier > 0)
+                effects.Append($"<color=#{EffectOffHex}>  →  {nextTier}강 {weapon.GetMilestoneEffect(row.type, nextTier) ?? "미정"}</color>");
+            effects.Append('\n');
         }
+        effectsLabels.text = labels.ToString();
+        effectsText.text = effects.ToString();
+    }
 
-        bool atMax = hasWeapon && level >= maxLevel;
-        bool canAfford = ResourceBank.GetRunHeld(row.type) >= CostPerLevel;
+    private void Animate(float dt)
+    {
+        if (rows == null) return;
+        foreach (UpgradeRowUI row in rows) row.Animate(dt);
 
-        // 무기가 없거나 / MAX 레벨이거나 / 자원이 부족하면 이 줄의 강화 버튼을 잠근다.
-        if (row.button != null) row.button.interactable = hasWeapon && !atMax && canAfford;
-
-        if (row.currencyText != null)
+        if (bannerText != null)
         {
-            if (atMax)
-            {
-                row.currencyText.text = "MAX";
-            }
-            else
-            {
-                int held = ResourceBank.GetRunHeld(row.type);
-                row.currencyText.text = $"{held}/{CostPerLevel}";
-            }
+            bannerTimer = Mathf.Max(0f, bannerTimer - dt);
+            Color c = bannerText.color;
+            c.a = Mathf.Clamp01(bannerTimer / 0.5f); // 마지막 0.5초 동안 서서히 사라진다
+            bannerText.color = c;
         }
     }
 }
