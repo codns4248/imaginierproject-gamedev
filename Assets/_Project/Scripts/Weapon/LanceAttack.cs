@@ -117,16 +117,18 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
         if (tier != TierLow && !high) return null; // 15단계는 아직 미정
         switch (type)
         {
+            // 강화창(너비 534px, 글자 16px)은 "현재 효과 → 다음 단계 효과"를 한 줄에 같이 보여주므로
+            // 한글 기준 효과 하나당 12~14자 안쪽으로, 읽자마자 뭔지 알 수 있는 말로 쓴다.
             case ResourceType.Wood:
-                return $"연속 찌르기 {(high ? flurryThrustsTier10 : flurryThrustsTier5)}연타";
+                return $"공격 시 {(high ? flurryThrustsTier10 : flurryThrustsTier5)}연속 찌르기";
             case ResourceType.Iron:
-                return $"달아오름: 적중마다 피해 +{heatDamagePerStack * 100f:0}% (최대 {(high ? heatMaxStacksTier10 : heatMaxStacksTier5)}중첩)";
+                return $"적중마다 피해+{heatDamagePerStack * 100f:0}%(최대{(high ? heatMaxStacksTier10 : heatMaxStacksTier5)})";
             case ResourceType.Copper:
-                return $"창끝 충격: 피해 x{(high ? burstDamageTier10 : burstDamageTier5):0.#}, 반경 {(high ? burstRadiusTier10 : burstRadiusTier5):0.#}";
+                return $"창끝 충격파 (피해 ×{(high ? burstDamageTier10 : burstDamageTier5):0.#})";
             case ResourceType.Chemical:
-                return $"급소 처형: 치명타 후 체력 {(high ? executeThresholdTier10 : executeThresholdTier5) * 100f:0}% 이하 즉사";
+                return $"치명타 후 체력 {(high ? executeThresholdTier10 : executeThresholdTier5) * 100f:0}%↓ 즉사";
             case ResourceType.Oil:
-                return $"연타 환급: 적중마다 쿨다운 -{(high ? refundPerHitTier10 : refundPerHitTier5):0.##}초 (최대 {(high ? refundCapTier10 : refundCapTier5):0.#}초)";
+                return $"적중마다 쿨다운 -{(high ? refundPerHitTier10 : refundPerHitTier5):0.##}초";
         }
         return null;
     }

@@ -29,6 +29,10 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
     [Header("자동공격 (들고 있지 않을 때)")]
     public float autoAttackRange = 10f;
 
+    [Header("강화 1레벨당 변화량 (전체 축소 0.5배에 맞춘 값)")]
+    public float autoRangePerCopper = 0.25f; // 구리: 자동공격 사거리
+    public float speedPerOil = 0.2f;         // 기름: 투사체 속도 (기본 속도 4 -> 10강에서 +2, 15강에서 +3)
+
     private WeaponAim weaponAim;
     private bool isFiring; // 3점사 + 휴식 사이클이 진행 중이면 true (이 동안은 새 사이클을 시작하지 않는다)
 
@@ -55,9 +59,9 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
         {
             case ResourceType.Wood: burstInterval = Mathf.Max(0.05f, burstInterval - 0.015f); break;
             case ResourceType.Iron: damage += 0.3f; break;
-            case ResourceType.Copper: autoAttackRange += 0.5f; break;
+            case ResourceType.Copper: autoAttackRange += autoRangePerCopper; break;
             case ResourceType.Chemical: critChance = Mathf.Min(1f, critChance + 0.05f); break;
-            case ResourceType.Oil: projectileSpeedBonus += 2f; break;
+            case ResourceType.Oil: projectileSpeedBonus += speedPerOil; break;
         }
     }
 

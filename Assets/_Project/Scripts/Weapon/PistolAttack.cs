@@ -30,7 +30,66 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
     // 들고 있지 않을 때, 플레이어를 중심으로 이 반경 안의 가장 가까운 적에게 자동으로 발사한다.
     public float autoAttackRange = 10f;
 
+    [Header("강화 1레벨당 변화량 (전체 축소 0.5배에 맞춘 값)")]
+    public float intervalReductionPerWood = 0.015f; // 목재: 발사 간격 (15강에서 0.3 -> 약 0.075, 하한 0.05)
+    public float autoRangePerCopper = 0.25f;        // 구리: 자동공격 사거리
+    public float speedPerOil = 0.2f;                // 기름: 투사체 속도 (기본 속도 4 -> 10강에서 +2, 15강에서 +3)
+
+    // === 강화 단계별 특수 효과 ===
+    // 각 강화 종류(자원)가 5단계/10단계에 도달하면 효과가 켜진다. 같은 종류 안에서는 도달한 가장 높은 단계 효과만
+    // 적용된다(10단계가 되면 5단계 효과는 꺼지고 10단계 효과가 그 상위호환으로 대신한다). 다른 종류끼리는 같이 켜진다.
+    // 효과는 쏜 탄(ProjectileModifiers)에 실려 나가며 직접 조작과 자동공격이 똑같이 동작한다. 단계는 이 권총 "한 자루"의 강화 레벨이다.
+    [Header("특수효과: 목재(공속) - 필살탄")]
+    // 일정 발수마다 쏘는 탄이 필살탄이 된다: 크고 금빛에 데미지가 크다. 10단계는 치명타 확정 + 맞을 때마다 충격 링.
+    public int ultimateEveryTier5 = 6;
+    public int ultimateEveryTier10 = 4;
+    public float ultimateDamageTier5 = 2.5f;
+    public float ultimateDamageTier10 = 3.5f;
+    public float ultimateSize = 1.8f;
+    public Color ultimateColor = new Color(1f, 0.85f, 0.25f);
+    public float ultimateImpactRadius = 0.7f;
+
+    [Header("특수효과: 철(공격력) - 눈덩이탄")]
+    // 적을 맞힐 때마다(도탄으로 꺾일 때도) 탄이 커지고 데미지가 오른다.
+    public float snowballPerHitTier5 = 0.15f;
+    public int snowballMaxStacksTier5 = 3;
+    public float snowballPerHitTier10 = 0.25f;
+    public int snowballMaxStacksTier10 = 6;
+
+    [Header("특수효과: 구리(범위) - 도탄")]
+    // 적을 맞히면 반경 안의 아직 안 맞힌 가장 가까운 적에게 꺾인다. 꺾이는 건 관통 횟수를 쓰지 않는다.
+    public int bouncesTier5 = 2;
+    public float bounceRadiusTier5 = 2.5f;
+    public int bouncesTier10 = 4;
+    public float bounceRadiusTier10 = 5f;
+
+    [Header("특수효과: 화학물질(치명타) - 표식")]
+    // 치명타로 맞힌 적에게 표식: 지속시간 동안 모든 무기에게 받는 피해가 늘어난다. 10단계는 표식 적이 죽으면 근처 적에게 옮겨 간다.
+    public float markDurationTier5 = 5f;
+    public float markDamageTier5 = 1.2f;
+    public float markDurationTier10 = 8f;
+    public float markDamageTier10 = 1.4f;
+    public float markSpreadRadiusTier10 = 3f;
+
+    [Header("특수효과: 기름(속도) - 가속탄")]
+    // 날아가면서 점점 빨라지고(최고 속도까지), 멀리 날아갈수록 데미지가 늘어난다 (상한까지).
+    public float accelerationTier5 = 12f;
+    public float maxSpeedTier5 = 12f;
+    public float distanceDamagePerUnitTier5 = 0.125f;
+    public float distanceDamageCapTier5 = 0.5f;
+    public float accelerationTier10 = 30f;
+    public float maxSpeedTier10 = 20f;
+    public float distanceDamagePerUnitTier10 = 0.25f;
+    public float distanceDamageCapTier10 = 1f;
+
+    // 최대 강화가 15로 늘어도 10단계 효과는 10강에서 켜져야 하므로 MaxLevel이 아니라 고정값으로 둔다 (검/창과 동일).
+    // 15단계 효과는 아직 기획 전이라, 15강에서도 10단계 효과가 그대로 유지된다.
+    private const int TierLow = 5;
+    private const int TierHigh = 10;
+
     private WeaponAim weaponAim;
+    private SpriteRenderer spriteRenderer;
+    private int shotCount; // 지금까지 쏜 발수 (필살탄 주기 계산용)
 
     // 다음 발사까지 남은 쿨다운 시간(초). 0 이하가 되어야 다시 발사할 수 있다.
     private float attackCooldown;
@@ -61,17 +120,18 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
     {
         switch (type)
         {
-            case ResourceType.Wood: attackInterval = Mathf.Max(0.05f, attackInterval - 0.02f); break;
+            case ResourceType.Wood: attackInterval = Mathf.Max(0.05f, attackInterval - intervalReductionPerWood); break;
             case ResourceType.Iron: damage += 0.3f; break;
-            case ResourceType.Copper: autoAttackRange += 0.5f; break;
+            case ResourceType.Copper: autoAttackRange += autoRangePerCopper; break;
             case ResourceType.Chemical: critChance = Mathf.Min(1f, critChance + 0.05f); break;
-            case ResourceType.Oil: projectileSpeedBonus += 2f; break;
+            case ResourceType.Oil: projectileSpeedBonus += speedPerOil; break;
         }
     }
 
     void Awake()
     {
         weaponAim = GetComponent<WeaponAim>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         identity = GetComponent<WeaponIdentity>();
 
         baseAttackInterval = attackInterval;
@@ -91,6 +151,7 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
         critChance = baseCritChance;
         autoAttackRange = baseAutoAttackRange;
         projectileSpeedBonus = 0f;
+        shotCount = 0; // 강화가 리셋/재계산될 때(사망, 탈출 등) 필살탄 주기도 처음부터
 
         foreach (ResourceType type in WeaponEnhanceUtil.AllTypes)
         {
@@ -144,19 +205,142 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
         }
     }
 
+    // 강화 UI에 보여줄 특수효과 설명. 강화창(너비 534px, 글자 16px)은 "현재 효과 → 다음 단계 효과"를 한 줄에 같이 보여주므로
+    // 한글 기준 효과 하나당 12~14자 안쪽으로, 읽자마자 뭔지 알 수 있는 말로 쓴다.
+    // 수치는 인스펙터 값을 그대로 읽어서 밸런스를 바꿔도 설명이 따라간다.
+    public string GetMilestoneEffect(ResourceType type, int tier)
+    {
+        bool high = tier == TierHigh;
+        if (tier != TierLow && !high) return null; // 15단계는 아직 미정
+        switch (type)
+        {
+            case ResourceType.Wood:
+                return $"{(high ? ultimateEveryTier10 : ultimateEveryTier5)}발마다 필살탄 ×{(high ? ultimateDamageTier10 : ultimateDamageTier5):0.#}";
+            case ResourceType.Iron:
+                return $"적중마다 크기·피해 +{(high ? snowballPerHitTier10 : snowballPerHitTier5) * 100f:0}%";
+            case ResourceType.Copper:
+                return $"다른 적에게 튕김 {(high ? bouncesTier10 : bouncesTier5)}회";
+            case ResourceType.Chemical:
+                return $"표식: 받는 피해 +{((high ? markDamageTier10 : markDamageTier5) - 1f) * 100f:0}%" + (high ? "·전이" : "");
+            case ResourceType.Oil:
+                return $"가속, 멀수록 피해 +{(high ? distanceDamageCapTier10 : distanceDamageCapTier5) * 100f:0}%";
+        }
+        return null;
+    }
+
+    // 특수효과가 켜지는 단계를 구한다: 0(없음) / 5 / 10. 이 권총 한 자루의 강화 레벨 기준.
+    private int EffectTier(ResourceType type)
+    {
+        int level = GetEnhanceLevel(type);
+        if (level >= TierHigh) return TierHigh;
+        if (level >= TierLow) return TierLow;
+        return 0;
+    }
+
+    // 이번 발이 필살탄인지: 목재 5단계부터 N발마다 한 번 (5단계 6발, 10단계 4발).
+    private bool IsUltimateShot()
+    {
+        int tier = EffectTier(ResourceType.Wood);
+        if (tier < TierLow) return false;
+
+        int every = tier >= TierHigh ? ultimateEveryTier10 : ultimateEveryTier5;
+        return every > 0 && shotCount % every == 0;
+    }
+
     // Pistol 위치에서 주어진 방향으로 투사체를 하나 생성해서 날려보낸다.
     private void Fire(Vector2 direction)
     {
-        if (projectilePrefab == null) return;
+        FireShot(direction);
+    }
 
-        float finalDamage = CriticalHit.Roll(damage, critChance, critMultiplier, out bool isCrit);
+    /// <summary>탄을 한 발 쏘고 그 탄을 돌려준다 (프리팹이 없으면 null). 에디터 테스트에서 직접 불러도 된다.</summary>
+    public Projectile FireShot(Vector2 direction)
+    {
+        if (projectilePrefab == null) return null;
+
+        shotCount++;
+        bool ultimate = IsUltimateShot();
+        bool ultimateHigh = ultimate && EffectTier(ResourceType.Wood) >= TierHigh;
+
+        float shotBaseDamage = damage;
+        if (ultimate) shotBaseDamage *= ultimateHigh ? ultimateDamageTier10 : ultimateDamageTier5;
+
+        // 10단계 필살탄은 치명타 확정 (Random.value가 정확히 1일 수 있어 확률을 1보다 크게 준다).
+        float finalDamage = CriticalHit.Roll(shotBaseDamage, ultimateHigh ? 1.01f : critChance, critMultiplier, out bool isCrit);
 
         GameObject projGO = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
         Projectile projectile = projGO.GetComponent<Projectile>();
         if (projectile != null)
         {
             projectile.speed += projectileSpeedBonus;
+            projectile.ApplyModifiers(BuildModifiers(ultimate, ultimateHigh));
             projectile.Fire(direction, finalDamage, isCrit);
         }
+
+        // 필살탄은 총구에서도 번쩍인다.
+        if (ultimate)
+            CircleFlash.Spawn(transform.position, 0.35f, new Color(ultimateColor.r, ultimateColor.g, ultimateColor.b, 0.6f), 0.2f, spriteRenderer);
+
+        return projectile;
+    }
+
+    // 지금 켜져 있는 강화 효과들을 이번 탄에 실을 값으로 정리한다. 켜진 효과가 하나도 없으면 null (예전과 똑같은 평범한 탄).
+    private ProjectileModifiers BuildModifiers(bool ultimate, bool ultimateHigh)
+    {
+        ProjectileModifiers m = new ProjectileModifiers();
+
+        if (ultimate)
+        {
+            m.sizeMultiplier = ultimateSize;
+            m.tint = ultimateColor;
+            if (ultimateHigh)
+            {
+                m.impactRing = true;
+                m.impactRadius = ultimateImpactRadius;
+                m.impactColor = new Color(ultimateColor.r, ultimateColor.g, ultimateColor.b, 0.6f);
+            }
+        }
+
+        int iron = EffectTier(ResourceType.Iron);
+        if (iron >= TierLow)
+        {
+            bool high = iron >= TierHigh;
+            m.snowballDamagePerHit = high ? snowballPerHitTier10 : snowballPerHitTier5;
+            m.snowballSizePerHit = m.snowballDamagePerHit;
+            m.snowballMaxStacks = high ? snowballMaxStacksTier10 : snowballMaxStacksTier5;
+            m.snowballAura = high;
+        }
+
+        int copper = EffectTier(ResourceType.Copper);
+        if (copper >= TierLow)
+        {
+            bool high = copper >= TierHigh;
+            m.maxBounces = high ? bouncesTier10 : bouncesTier5;
+            m.bounceRadius = high ? bounceRadiusTier10 : bounceRadiusTier5;
+            m.beamColor = high ? new Color(1f, 1f, 1f, 1f) : new Color(0.5f, 0.9f, 1f, 0.8f); // 10단계는 밝고 굵은 번개선
+            m.beamWidth = high ? 0.12f : 0.05f;
+        }
+
+        int chemical = EffectTier(ResourceType.Chemical);
+        if (chemical >= TierLow)
+        {
+            bool high = chemical >= TierHigh;
+            m.markDuration = high ? markDurationTier10 : markDurationTier5;
+            m.markDamageTaken = high ? markDamageTier10 : markDamageTier5;
+            m.markSpreadRadius = high ? markSpreadRadiusTier10 : 0f;
+        }
+
+        int oil = EffectTier(ResourceType.Oil);
+        if (oil >= TierLow)
+        {
+            bool high = oil >= TierHigh;
+            m.acceleration = high ? accelerationTier10 : accelerationTier5;
+            m.maxSpeed = high ? maxSpeedTier10 : maxSpeedTier5;
+            m.distanceDamagePerUnit = high ? distanceDamagePerUnitTier10 : distanceDamagePerUnitTier5;
+            m.distanceDamageCap = high ? distanceDamageCapTier10 : distanceDamageCapTier5;
+            m.tailColor = new Color(0.6f, 0.85f, 1f, high ? 0.8f : 0.6f);
+        }
+
+        return m.HasAnyEffect ? m : null;
     }
 }

@@ -229,19 +229,21 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
         if (tier != TierLow && !high) return null; // 15단계는 아직 미정
         switch (type)
         {
+            // 강화창(너비 534px, 글자 16px)은 "현재 효과 → 다음 단계 효과"를 한 줄에 같이 보여주므로
+            // 한글 기준 효과 하나당 12~14자 안쪽으로, 읽자마자 뭔지 알 수 있는 말로 쓴다.
             case ResourceType.Wood:
-                return high ? "상시 회전 (안 들어도 주위를 돎)" : "회전 베기 (360도 스윙)";
+                return high ? "항상 주위를 회전" : "360도 회전 베기";
             case ResourceType.Iron:
                 return high ? $"모든 스윙 피해 +{ironTier10DamageBonus * 100f:0}%"
-                            : $"강타: {heavySwingEvery}타마다 피해 x{heavySwingDamageMultiplier:0.#}";
+                            : $"{heavySwingEvery}타마다 강타 (피해 ×{heavySwingDamageMultiplier:0.#})";
             case ResourceType.Copper:
-                return high ? $"매 스윙 검기, {waveEvery}타마다 3갈래" : $"검기: {waveEvery}타마다 발사";
+                return high ? $"매 스윙 검기, {waveEvery}타마다 3갈래" : $"{waveEvery}타마다 검기 발사";
             case ResourceType.Chemical:
-                return high ? $"치명타 기절 {stunDurationTier10:0.#}초 + 받는 피해 x{stunDamageTakenTier10:0.#}"
+                return high ? $"기절 {stunDurationTier10:0.#}초 + 받는 피해 ×{stunDamageTakenTier10:0.#}"
                             : $"치명타 시 기절 {stunDurationTier5:0.#}초";
             case ResourceType.Oil:
-                return high ? $"처치 시 질주 +{sprintMoveBonusTier10 * 100f:0}%, 쿨다운 -{sprintCooldownReductionTier10 * 100f:0}%"
-                            : $"처치 시 질주 +{sprintMoveBonusTier5 * 100f:0}% ({sprintDurationTier5:0.#}초)";
+                return high ? $"처치 시 이동속도 +{sprintMoveBonusTier10 * 100f:0}%, 쿨 -{sprintCooldownReductionTier10 * 100f:0}%"
+                            : $"처치 시 이동속도 +{sprintMoveBonusTier5 * 100f:0}%";
         }
         return null;
     }

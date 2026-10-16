@@ -77,6 +77,14 @@ public class Enemy : MonoBehaviour
     // 늘릴 수도 있다 (검 화학물질 강화 특수효과). 이동/AI 정지는 hitStunTimer를 같이 늘려서 기존 로직을 그대로 쓴다.
     private float stunTimer;
     private float stunDamageTakenMultiplier = 1f;
+
+    // ApplyMark()로 걸리는 표식 (권총 화학물질 강화 특수효과). 표식이 걸려 있는 동안 어떤 무기에게든 받는 피해가 늘어난다.
+    // markSpreadRadius > 0이면 표식이 걸린 채로 죽을 때 근처 적에게 남은 시간 그대로 옮겨 간다.
+    private float markTimer;
+    private float markDamageTakenMultiplier = 1f;
+    private float markSpreadRadius;
+    private MarkIndicator markIndicator;
+
     private bool isDying; // Die()가 한 번 호출된 뒤 true. 이후 이동/공격/추가 피격을 전부 무시한다.
 
     // 죽는 중(페이드아웃 중)인 적은 자동조준 대상에서 제외해야 하므로 외부에서 읽을 수 있게 열어둔다.
@@ -87,6 +95,9 @@ public class Enemy : MonoBehaviour
 
     // 기절 중인지 (Stun 참고). 기절 중에는 접촉 데미지를 주지 않는다.
     public bool IsStunned => stunTimer > 0f;
+
+    // 표식이 걸려 있는지 (ApplyMark 참고).
+    public bool IsMarked => markTimer > 0f;
 
     // 정예/보스는 처형 같은 즉사 효과의 대상이 아니다.
     public bool IsEliteOrBoss => isElite || isBoss;
@@ -118,8 +129,9 @@ public class Enemy : MonoBehaviour
         return true;
     }
 
-    // 지금 받는 피해에 곱해지는 배율 (기절 중이면 Stun에서 정한 값, 아니면 1).
-    private float DamageTakenMultiplier => stunTimer > 0f ? stunDamageTakenMultiplier : 1f;
+    // 지금 받는 피해에 곱해지는 배율: 기절 중이면 Stun에서 정한 값, 표식이 걸려 있으면 ApplyMark에서 정한 값 (둘이 같이 걸리면 곱해진다).
+    private float DamageTakenMultiplier =>
+        (stunTimer > 0f ? stunDamageTakenMultiplier : 1f) * (markTimer > 0f ? markDamageTakenMultiplier : 1f);
 
     // 기믹 "태풍"이 활성화된 동안 moveSpeed에 곱해지는 실제 이동속도. Enemy.cs 자체 추격 이동뿐
     // 아니라 ChargeEnemyAI의 돌진 속도 계산도 이 값을 그대로 가져다 쓴다.
@@ -217,6 +229,7 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         if (stunTimer > 0f) stunTimer -= Time.deltaTime;
+        if (markTimer > 0f) markTimer -= Time.deltaTime; // 표식이 풀리면 MarkIndicator가 스스로 사라진다
 
         if (player == null || spriteRenderer == null) return;
 
@@ -422,6 +435,9 @@ public class Enemy : MonoBehaviour
 
             // 낮은 확률(1%)로 무기 아이템도 별도로 드랍한다.
             WeaponPickup.TrySpawnRandomDrop(transform.position);
+
+            // 직접 잡은 경우에만 표식이 옮겨 간다 (스테이지 클리어 정리 같은 강제 전멸에서는 안 옮긴다).
+            SpreadMarkOnDeath();
         }
 
         if (spriteAnimator != null) spriteAnimator.enabled = false; // 현재 프레임에 고정
@@ -477,6 +493,37 @@ public class Enemy : MonoBehaviour
         hitStunTimer = Mathf.Max(hitStunTimer, duration);
         knockbackVelocity = Vector2.zero; // 기절은 밀어내지 않는다 (제자리에서 멈춘다)
         if (spriteAnimator != null) spriteAnimator.Pause(duration);
+    }
+
+    // duration초 동안 표식을 건다: 표식이 걸려 있는 동안 어떤 무기에게든 받는 피해에 damageTakenMultiplier가 곱해진다.
+    // 이미 표식이 있으면 더 긴 쪽 시간, 더 큰 쪽 배율만 남는다 (겹쳐도 합산되지 않음).
+    // spreadRadius > 0이면 표식이 걸린 채로 죽을 때 그 반경 안의 가장 가까운 적에게 남은 시간 그대로 표식이 옮겨 간다.
+    public void ApplyMark(float duration, float damageTakenMultiplier, float spreadRadius = 0f)
+    {
+        if (isDying || duration <= 0f) return;
+
+        if (markTimer <= 0f)
+        {
+            markDamageTakenMultiplier = 1f;
+            markSpreadRadius = 0f;
+        }
+        markDamageTakenMultiplier = Mathf.Max(markDamageTakenMultiplier, damageTakenMultiplier);
+        markSpreadRadius = Mathf.Max(markSpreadRadius, spreadRadius);
+        markTimer = Mathf.Max(markTimer, duration);
+
+        if (markIndicator == null) markIndicator = MarkIndicator.Create(this);
+    }
+
+    // 표식이 걸린 채로 죽는 순간: 근처 가장 가까운 (죽는 중이 아닌) 적에게 표식을 남은 시간 그대로 옮긴다.
+    private void SpreadMarkOnDeath()
+    {
+        if (markTimer <= 0f || markSpreadRadius <= 0f) return;
+
+        Enemy next = EnemyManager.FindNearest(transform.position, markSpreadRadius);
+        if (next == null || next == this) return;
+
+        next.ApplyMark(markTimer, markDamageTakenMultiplier, markSpreadRadius);
+        BeamFlash.Spawn(transform.position, next.transform.position, new Color(1f, 0.3f, 0.25f, 0.9f), 0.07f, 0.3f, spriteRenderer);
     }
 
     // 플레이어와 계속 겹쳐있는 동안 매 물리 프레임 호출된다. 실제 데미지 빈도는 PlayerHealth의
