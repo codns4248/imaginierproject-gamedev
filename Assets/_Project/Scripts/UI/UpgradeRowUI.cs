@@ -77,9 +77,11 @@ public class UpgradeRowUI
     // ===================== 표시 =====================
 
     // held: 이 강화에 쓰는 자원 보유량. enabled: 무기 미장착 등 외부 조건으로 강화 불가면 false (바/레벨도 비움).
-    public void Refresh(int level, int maxLevel, int held, int cost, bool enabled)
+    // capped: 이 종류는 최대 전이 아니지만 무기 전체 강화 횟수 상한에 걸려서 더 못 올리는 경우 (버튼에 "한도"를 보여준다).
+    public void Refresh(int level, int maxLevel, int held, int cost, bool enabled, bool capped = false)
     {
         bool atMax = enabled && level >= maxLevel;
+        capped = enabled && capped && !atMax;
         bool canAfford = held >= cost;
 
         targetRatio = enabled && maxLevel > 0 ? Mathf.Clamp01((float)level / maxLevel) : 0f;
@@ -95,14 +97,14 @@ public class UpgradeRowUI
             levelText.color = atMax ? Gold : TextNormal;
         }
 
-        if (button != null) button.interactable = enabled && !atMax && canAfford;
-        if (buttonText != null) buttonText.text = atMax ? "MAX" : $"강화  {cost}";
+        if (button != null) button.interactable = enabled && !atMax && !capped && canAfford;
+        if (buttonText != null) buttonText.text = atMax ? "MAX" : capped ? "한도" : $"강화  {cost}";
 
         // 보유량. 부족하면 빨간색 (비용은 버튼에 표시).
         if (currencyText != null)
         {
             currencyText.text = $"x{held}";
-            currencyText.color = atMax || canAfford ? TextNormal : TextCantAfford;
+            currencyText.color = atMax || capped || canAfford ? TextNormal : TextCantAfford;
         }
     }
 

@@ -23,7 +23,18 @@ public static class WeaponEnhanceStore
         return weapon.GetLevel(idx);
     }
 
-    /// <summary>레벨이 최대치 미만이면 1 올리고 true, 이미 최대면 아무 일도 하지 않고 false.</summary>
+    /// <summary>이 무기 한 자루에 올린 강화 횟수의 합 (5개 종류 전부).</summary>
+    public static int GetTotalLevel(WeaponIdentity weapon)
+    {
+        if (weapon == null) return 0;
+
+        int total = 0;
+        foreach (ResourceType type in WeaponEnhanceUtil.AllTypes) total += GetLevel(weapon, type);
+        return total;
+    }
+
+    /// <summary>그 종류가 종류별 최대(MaxLevel) 미만이고, 무기 전체 강화 횟수도 상한(TotalMaxLevel) 미만이면 1 올리고 true.
+    /// 둘 중 하나라도 걸리면 아무 일도 하지 않고 false.</summary>
     public static bool TryEnhance(WeaponIdentity weapon, ResourceType type)
     {
         int idx = WeaponEnhanceUtil.IndexOf(type);
@@ -31,6 +42,7 @@ public static class WeaponEnhanceStore
 
         int level = weapon.GetLevel(idx);
         if (level >= WeaponEnhanceUtil.MaxLevel) return false;
+        if (GetTotalLevel(weapon) >= WeaponEnhanceUtil.TotalMaxLevel) return false;
 
         weapon.SetLevel(idx, level + 1);
         return true;

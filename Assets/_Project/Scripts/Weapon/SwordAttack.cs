@@ -115,8 +115,7 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     public float waveFanAngle = 20f;            // 10단계 3갈래: 가운데 검기에서 양옆으로 벌어지는 각도
     public Color waveColor = new Color(0.3f, 0.6f, 1f, 0.85f);
 
-    // 최대 강화가 15로 늘어도 10단계 효과는 10강에서 켜져야 하므로 MaxLevel이 아니라 고정값으로 둔다.
-    // 15단계 효과는 아직 기획 전이라, 15강에서도 10단계 효과가 그대로 유지된다.
+    // 10단계 효과는 10강에서 켜진다 (종류별 최대 강화 WeaponEnhanceUtil.MaxLevel과 따로 고정값으로 둔다).
     private const int TierLow = 5;
     private const int TierHigh = 10;
 

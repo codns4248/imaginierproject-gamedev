@@ -82,8 +82,7 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
     public float distanceDamagePerUnitTier10 = 0.25f;
     public float distanceDamageCapTier10 = 1f;
 
-    // 최대 강화가 15로 늘어도 10단계 효과는 10강에서 켜져야 하므로 MaxLevel이 아니라 고정값으로 둔다 (검/창과 동일).
-    // 15단계 효과는 아직 기획 전이라, 15강에서도 10단계 효과가 그대로 유지된다.
+    // 10단계 효과는 10강에서 켜진다 (종류별 최대 강화 WeaponEnhanceUtil.MaxLevel과 따로 고정값으로 둔다).
     private const int TierLow = 5;
     private const int TierHigh = 10;
 

@@ -105,8 +105,7 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     public float flurryAngleSpread = 10f;   // 목표 방향에서 좌/우로 비스듬히 벗어나는 각도(도)
     public float flurryTimeScale = 0.2f;    // 연속 찌르기 중 찌르기/돌아오기 시간 배율 (작을수록 빠름). 0.2면 기본 찌르기보다 5배 빠르다.
 
-    // 최대 강화가 15로 늘어도 10단계 효과는 10강에서 켜져야 하므로 MaxLevel이 아니라 고정값으로 둔다 (SwordAttack과 동일).
-    // 15단계 효과는 아직 기획 전이라, 15강에서도 10단계 효과가 그대로 유지된다.
+    // 10단계 효과는 10강에서 켜진다 (종류별 최대 강화 WeaponEnhanceUtil.MaxLevel과 따로 고정값으로 둔다).
     private const int TierLow = 5;
     private const int TierHigh = 10;
 

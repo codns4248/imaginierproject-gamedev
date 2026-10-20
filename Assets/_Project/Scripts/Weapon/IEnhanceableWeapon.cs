@@ -16,18 +16,36 @@ public interface IEnhanceableWeapon
     // 강화 UI에 보여줄 특수효과 설명 (tier = WeaponEnhanceUtil.MilestoneTiers 중 하나).
     // 특수효과가 없는 무기/단계는 null을 돌려주면 UI에 "미정"으로 표시된다.
     string GetMilestoneEffect(ResourceType type, int tier) => null;
+
+    // 이 무기 한 자루에 지금까지 올린 강화 횟수의 합 (5개 종류 전부). 무기 전체 강화 횟수 상한(TotalMaxLevel)과 비교하는 데 쓴다.
+    int GetTotalEnhanceLevel()
+    {
+        int total = 0;
+        foreach (ResourceType type in WeaponEnhanceUtil.AllTypes) total += GetEnhanceLevel(type);
+        return total;
+    }
+
+    // 지금 그 종류를 한 단계 더 올릴 수 있는지: 그 종류가 종류별 최대(MaxEnhanceLevel) 미만이고,
+    // 무기 전체 강화 횟수도 상한(TotalMaxLevel) 미만일 때만 true. 자원을 쓰기 전에 이걸로 먼저 확인한다.
+    bool CanEnhance(ResourceType type) =>
+        GetEnhanceLevel(type) < MaxEnhanceLevel && GetTotalEnhanceLevel() < WeaponEnhanceUtil.TotalMaxLevel;
 }
 
 // 각 무기 스크립트가 enhanceLevels 배열 인덱스를 통일해서 쓰기 위한 공용 유틸.
 public static class WeaponEnhanceUtil
 {
-    public const int MaxLevel = 15;
+    // 강화 종류(목재/철/구리/화학물질/기름) 하나당 최대 단계.
+    public const int MaxLevel = 10;
 
-    // 5강마다 특수효과가 켜지는 단계.
-    public static readonly int[] MilestoneTiers = { 5, 10, 15 };
+    // 무기 한 자루가 5개 종류를 통틀어 올릴 수 있는 총 강화 횟수. 그래서 종류별 최대(10)를 다 채울 수는 없고,
+    // 예를 들어 10+5 / 5+5+5 / 7+4+4 처럼 15번 안에서 나눠서 올려야 한다.
+    public const int TotalMaxLevel = 15;
+
+    // 5강마다 특수효과가 켜지는 단계 (종류별 최대가 10이라 5강과 10강).
+    public static readonly int[] MilestoneTiers = { 5, 10 };
 
     // 다음 1단계 강화 비용 (무기 강화/거점 영구 강화 공용). 단계가 오를수록 1.2배씩 비싸진다.
-    // ponytail: 밸런스 임시값 (0강 5개 -> 14강 64개, 15강까지 총 약 360개). 팀 밸런스 확정 시 두 숫자만 조정.
+    // ponytail: 밸런스 임시값 (0강 5개 -> 9강 26개, 한 종류를 10강까지 올리는 데 총 약 130개). 팀 밸런스 확정 시 두 숫자만 조정.
     private const int BaseCost = 5;
     private const float CostGrowth = 1.2f;
     public static int CostForLevel(int currentLevel) =>

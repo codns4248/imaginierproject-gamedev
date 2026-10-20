@@ -166,7 +166,8 @@ public class WeaponEnhancementManager : MonoBehaviour
     {
         IEnhanceableWeapon weapon = FindHeldWeapon() as IEnhanceableWeapon;
         int current = weapon != null ? weapon.GetEnhanceLevel(type) : 0;
-        if (weapon == null || current >= weapon.MaxEnhanceLevel) return;
+        // 종류별 최대(10)와 무기 전체 강화 횟수 상한(15)을 자원을 쓰기 전에 먼저 확인한다 (못 올리는데 자원만 나가면 안 되므로).
+        if (weapon == null || !weapon.CanEnhance(type)) return;
         if (!ResourceBank.TrySpendRunResource(type, WeaponEnhanceUtil.CostForLevel(current))) return;
 
         weapon.ApplyEnhance(type);
@@ -208,10 +209,18 @@ public class WeaponEnhancementManager : MonoBehaviour
         bool hasWeapon = heldWeapon != null;
         lastShownWeapon = heldComponent;
 
+        // 무기 한 자루가 5개 종류를 통틀어 올릴 수 있는 총 횟수(15)와 지금까지 올린 횟수.
+        int total = hasWeapon ? heldWeapon.GetTotalEnhanceLevel() : 0;
+        bool totalFull = hasWeapon && total >= WeaponEnhanceUtil.TotalMaxLevel;
+
         if (headerText != null)
         {
             WeaponIdentity id = hasWeapon ? heldComponent.GetComponent<WeaponIdentity>() : null;
-            headerText.text = !hasWeapon ? NoWeaponNotice : id != null ? WeaponDisplayName(id.type) : "강화 대상";
+            string title = id != null ? WeaponDisplayName(id.type) : "강화 대상";
+            string count = totalFull
+                ? $"<color=#FFCA4A>강화 {total}/{WeaponEnhanceUtil.TotalMaxLevel}</color>"
+                : $"강화 {total}/{WeaponEnhanceUtil.TotalMaxLevel}";
+            headerText.text = !hasWeapon ? NoWeaponNotice : $"{title}  <size=16>{count}</size>";
             headerText.color = hasWeapon ? HeaderNormalColor : HeaderWarnColor;
         }
 
@@ -219,7 +228,7 @@ public class WeaponEnhancementManager : MonoBehaviour
         {
             int level = hasWeapon ? heldWeapon.GetEnhanceLevel(row.type) : 0;
             int maxLevel = hasWeapon ? heldWeapon.MaxEnhanceLevel : WeaponEnhanceUtil.MaxLevel;
-            row.Refresh(level, maxLevel, ResourceBank.GetRunHeld(row.type), WeaponEnhanceUtil.CostForLevel(level), hasWeapon);
+            row.Refresh(level, maxLevel, ResourceBank.GetRunHeld(row.type), WeaponEnhanceUtil.CostForLevel(level), hasWeapon, totalFull);
         }
 
         RefreshEffects(heldWeapon);
