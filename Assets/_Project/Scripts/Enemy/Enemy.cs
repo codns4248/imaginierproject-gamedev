@@ -85,7 +85,14 @@ public class Enemy : MonoBehaviour
     private float markSpreadRadius;
     private MarkIndicator markIndicator;
 
+    // Pull()로 걸리는 끌어당김 (수류탄 구리 강화 "중력탄"). 매 프레임 다시 걸어줘야 유지되고, 끊기면 pullTimer가 다 되는 대로 풀린다.
+    private Vector2 pullVelocity;
+    private float pullTimer;
+
     private bool isDying; // Die()가 한 번 호출된 뒤 true. 이후 이동/공격/추가 피격을 전부 무시한다.
+
+    // 플레이어가 직접 잡아서 죽는 순간(드랍이 있는 사망) 호출된다. 독구름처럼 "그 자리에서 죽은 적"에 반응하는 효과가 구독한다.
+    public static event System.Action<Enemy> Died;
 
     // 죽는 중(페이드아웃 중)인 적은 자동조준 대상에서 제외해야 하므로 외부에서 읽을 수 있게 열어둔다.
     public bool IsDying => isDying;
@@ -296,6 +303,14 @@ public class Enemy : MonoBehaviour
         float limitX = mapHalfExtent - boundaryMargin;
         float limitY = mapHalfExtent - boundaryMargin;
 
+        // 끌어당기는 중이면(Pull 참고) 이번 물리 프레임 이동에 그만큼 더한다.
+        Vector2 pullStep = Vector2.zero;
+        if (pullTimer > 0f)
+        {
+            pullTimer -= Time.fixedDeltaTime;
+            pullStep = pullVelocity * Time.fixedDeltaTime;
+        }
+
         // 피격 경직 중에는 추격/분리 로직 대신 넉백만 적용하고, 시간이 지날수록 넉백 속도를 줄인다.
         if (hitStunTimer > 0f)
         {
@@ -303,7 +318,7 @@ public class Enemy : MonoBehaviour
 
             if (!suppressKnockback)
             {
-                Vector2 knockPos = rb.position + knockbackVelocity * Time.fixedDeltaTime;
+                Vector2 knockPos = rb.position + knockbackVelocity * Time.fixedDeltaTime + pullStep;
                 knockbackVelocity = Vector2.MoveTowards(knockbackVelocity, Vector2.zero, knockbackDecay * Time.fixedDeltaTime);
 
                 knockPos.x = Mathf.Clamp(knockPos.x, mapCenter.x - limitX, mapCenter.x + limitX);
@@ -313,8 +328,18 @@ public class Enemy : MonoBehaviour
             return;
         }
 
-        // 원거리 몬스터 등이 제자리에서 멈춰 공격해야 할 때 이동만 잠깐 꺼둔다.
-        if (externalMovementControl) return;
+        // 원거리 몬스터 등이 제자리에서 멈춰 공격해야 할 때 이동만 잠깐 꺼둔다 (끌어당김만은 그대로 받는다).
+        if (externalMovementControl)
+        {
+            if (pullStep != Vector2.zero)
+            {
+                Vector2 pulledPos = rb.position + pullStep;
+                pulledPos.x = Mathf.Clamp(pulledPos.x, mapCenter.x - limitX, mapCenter.x + limitX);
+                pulledPos.y = Mathf.Clamp(pulledPos.y, mapCenter.y - limitY, mapCenter.y + limitY);
+                rb.MovePosition(pulledPos);
+            }
+            return;
+        }
 
         if (player == null) return;
 
@@ -348,9 +373,11 @@ public class Enemy : MonoBehaviour
         // 두 방향을 합친 뒤 다시 정규화해서 항상 moveSpeed로 고정된 속도를 유지한다.
         // (분리 힘이 섞여도 최종 이동 속도는 변하지 않고 방향만 살짝 휘어지는 느낌을 준다)
         Vector2 moveDir = chaseDir + separation * separationStrength;
-        if (moveDir.sqrMagnitude > 0.0001f)
+        Vector2 step = pullStep;
+        if (moveDir.sqrMagnitude > 0.0001f) step += moveDir.normalized * EffectiveMoveSpeed * Time.fixedDeltaTime;
+        if (step != Vector2.zero)
         {
-            Vector2 nextPosition = rb.position + moveDir.normalized * EffectiveMoveSpeed * Time.fixedDeltaTime;
+            Vector2 nextPosition = rb.position + step;
 
             // 플레이어와 마찬가지로 맵 경계 밖으로 못 나가게 좌표를 눌러준다.
             nextPosition.x = Mathf.Clamp(nextPosition.x, mapCenter.x - limitX, mapCenter.x + limitX);
@@ -397,6 +424,24 @@ public class Enemy : MonoBehaviour
         TakeDamageRaw(amount * DamageTakenMultiplier);
     }
 
+    // 화상/독처럼 시간에 따라 조금씩 들어가는 피해: 경직/넉백 없이 체력만 깎고 데미지 숫자만 띄운다.
+    public void TakeDotDamage(float amount)
+    {
+        if (isDying || amount <= 0f) return;
+        float dealt = amount * DamageTakenMultiplier;
+        TakeDamageRaw(dealt);
+        SpawnDamageNumber(dealt, false);
+    }
+
+    // 외부에서 이 적을 velocity로 끌어당길 때 매 프레임 호출한다 (수류탄 구리 강화 "중력탄"). 물리 프레임마다 평소 이동에
+    // 더해지고, 호출이 끊기면 0.1초 안에 풀린다. 정예/보스는 끌려가지 않는다.
+    public void Pull(Vector2 velocity)
+    {
+        if (isDying || IsEliteOrBoss) return;
+        pullVelocity = velocity;
+        pullTimer = 0.1f;
+    }
+
     // 배율이 이미 반영된 최종 데미지를 그대로 깎는다 (Hit()에서 숫자 표시와 맞추려고 따로 뺐다).
     private void TakeDamageRaw(float amount)
     {
@@ -438,6 +483,8 @@ public class Enemy : MonoBehaviour
 
             // 직접 잡은 경우에만 표식이 옮겨 간다 (스테이지 클리어 정리 같은 강제 전멸에서는 안 옮긴다).
             SpreadMarkOnDeath();
+
+            Died?.Invoke(this);
         }
 
         if (spriteAnimator != null) spriteAnimator.enabled = false; // 현재 프레임에 고정
