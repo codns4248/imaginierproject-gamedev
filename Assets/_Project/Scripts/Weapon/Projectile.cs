@@ -39,6 +39,13 @@ public class Projectile : MonoBehaviour
     public float Travelled => travelled;
     public Vector2 Direction => direction;
     public bool HasModifiers => mods != null;
+    public ProjectileModifiers Modifiers => mods;
+
+    /// <summary>이 탄이 맞히지 않을 적으로 등록한다 (파편이 갈라져 나온 자리의 적을 또 때리지 않게).</summary>
+    public void IgnoreEnemy(Enemy enemy)
+    {
+        hitEnemies.Add(enemy);
+    }
 
     void Awake()
     {
@@ -103,6 +110,9 @@ public class Projectile : MonoBehaviour
         Vector2 target = origin + direction * step;
         if (physics) rb.MovePosition(target);
         else transform.position = target;
+
+        // 파편처럼 사거리가 제한된 탄은 그만큼 날아가면 사라진다.
+        if (mods != null && mods.maxTravel > 0f && travelled >= mods.maxTravel) Destroy(gameObject);
     }
 
     void Update()
@@ -157,11 +167,15 @@ public class Projectile : MonoBehaviour
     private void HandleModifiedHit(Enemy enemy)
     {
         bool wasDying = enemy.IsDying;
-        enemy.Hit(direction, damage * DamageMultiplier(), isCrit);
+        float dealt = damage * DamageMultiplier();
+        enemy.Hit(direction, dealt, isCrit, mods.knockbackMultiplier);
 
         // 화학물질: 치명타로 맞힌 적에게 표식
         if (!wasDying && isCrit && mods.markDuration > 0f)
             enemy.ApplyMark(mods.markDuration, mods.markDamageTaken, mods.markSpreadRadius);
+
+        // 무기가 맡긴 추가 처리 (파편, 폭발 등). 이미 죽는 중이던 적을 또 맞힌 경우는 건너뛴다.
+        if (!wasDying && mods.onHit != null) mods.onHit(this, enemy, dealt, isCrit);
 
         // 필살탄(10단계): 맞을 때마다 충격 링
         if (mods.impactRing)
@@ -253,7 +267,7 @@ public class Projectile : MonoBehaviour
     // (자식으로 두면 탄 크기/회전에 같이 휘둘려서 길이를 정하기 어렵고, 콜라이더에도 영향이 없게 하려는 것).
     private void CreateFx()
     {
-        if (mods.acceleration > 0f) tailRenderer = CreateFxSprite("BulletTail");
+        if (mods.acceleration > 0f || mods.tracerLength > 0f) tailRenderer = CreateFxSprite("BulletTail");
         if (mods.snowballAura) auraRenderer = CreateFxSprite("BulletAura");
     }
 
@@ -277,11 +291,21 @@ public class Projectile : MonoBehaviour
 
         if (tailRenderer != null)
         {
-            // 속도가 시작 속도보다 빨라진 만큼 꼬리가 길고 진해진다 (출발할 땐 거의 안 보이다가 가속하며 확 번진다).
-            float gain = Mathf.Max(0f, speed - startSpeed);
-            float range = Mathf.Max(0.01f, mods.maxSpeed - startSpeed);
-            float t = Mathf.Clamp01(gain / range);
-            float length = 0.08f + 0.06f * gain;
+            float length, alphaFactor;
+            if (mods.acceleration > 0f)
+            {
+                // 속도가 시작 속도보다 빨라진 만큼 꼬리가 길고 진해진다 (출발할 땐 거의 안 보이다가 가속하며 확 번진다).
+                float gain = Mathf.Max(0f, speed - startSpeed);
+                float range = Mathf.Max(0.01f, mods.maxSpeed - startSpeed);
+                alphaFactor = 0.15f + 0.85f * Mathf.Clamp01(gain / range);
+                length = 0.08f + 0.06f * gain;
+            }
+            else
+            {
+                // 일정한 길이의 궤적 (tracerLength)
+                alphaFactor = 1f;
+                length = mods.tracerLength;
+            }
             float width = 0.1f * scale;
 
             Transform tail = tailRenderer.transform;
@@ -290,7 +314,7 @@ public class Projectile : MonoBehaviour
             tail.localScale = new Vector3(length, width, 1f);
 
             Color c = mods.tailColor;
-            c.a = mods.tailColor.a * (0.15f + 0.85f * t);
+            c.a = mods.tailColor.a * alphaFactor;
             tailRenderer.color = c;
         }
 

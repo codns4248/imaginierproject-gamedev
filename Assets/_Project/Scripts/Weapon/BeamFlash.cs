@@ -9,6 +9,20 @@ public class BeamFlash : MonoBehaviour
     private float duration;
     private float elapsed;
 
+    // 지금 떠 있는 연출 개수 (CircleFlash.ActiveCount와 같은 용도).
+    public static int ActiveCount { get; private set; }
+
+    void OnDestroy()
+    {
+        ActiveCount = Mathf.Max(0, ActiveCount - 1);
+    }
+
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+    private static void ResetCount()
+    {
+        ActiveCount = 0;
+    }
+
     public static void Spawn(Vector2 from, Vector2 to, Color color, float width, float duration, SpriteRenderer sortingSource)
     {
         Vector2 delta = to - from;
@@ -30,6 +44,7 @@ public class BeamFlash : MonoBehaviour
         }
 
         BeamFlash beam = go.AddComponent<BeamFlash>();
+        ActiveCount++;
         beam.sr = sr;
         beam.baseColor = color;
         beam.duration = Mathf.Max(0.01f, duration);

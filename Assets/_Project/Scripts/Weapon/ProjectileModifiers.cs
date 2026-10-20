@@ -36,8 +36,18 @@ public class ProjectileModifiers
     public float markDamageTaken = 1f;
     public float markSpreadRadius;
 
+    // --- 공통 (SMG 등) ---
+    public float knockbackMultiplier = 1f;  // 적을 맞혔을 때 밀어내는 힘 배율 (기름: 충격탄)
+    public float maxTravel;                 // 0이면 제한 없음. 이 거리만큼 날아가면 사라진다 (파편)
+    public float tracerLength;              // 0이면 없음. 일정한 길이의 궤적 꼬리 (tailColor 사용)
+    public bool isFragment;                 // 파편인지 (파편은 다시 갈라지지 않는다 - 무기가 구분하는 용도)
+
+    // 적을 맞힌 직후 부르는 콜백: (탄, 맞은 적, 실제로 준 피해, 치명타 여부). 무기가 파편/폭발 같은 추가 처리를 직접 한다.
+    public System.Action<Projectile, Enemy, float, bool> onHit;
+
     /// <summary>적용할 효과가 하나라도 있는지.</summary>
     public bool HasAnyEffect =>
         !Mathf.Approximately(sizeMultiplier, 1f) || impactRing || snowballMaxStacks > 0 || maxBounces > 0
-        || acceleration > 0f || distanceDamageCap > 0f || markDuration > 0f;
+        || acceleration > 0f || distanceDamageCap > 0f || markDuration > 0f
+        || !Mathf.Approximately(knockbackMultiplier, 1f) || maxTravel > 0f || tracerLength > 0f || onHit != null;
 }

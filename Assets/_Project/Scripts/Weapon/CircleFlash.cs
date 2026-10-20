@@ -10,6 +10,21 @@ public class CircleFlash : MonoBehaviour
     private float elapsed;
     private float finalScale;
 
+    // 지금 떠 있는 연출 개수. 탄이 많은 무기(SMG)가 연출을 너무 많이 만들지 않게 제한하는 데 쓴다.
+    public static int ActiveCount { get; private set; }
+
+    void OnDestroy()
+    {
+        ActiveCount = Mathf.Max(0, ActiveCount - 1);
+    }
+
+    // 에디터에서 Domain Reload 없이 재생을 반복해도 이전 플레이에서 남은 개수가 섞이지 않게 초기화한다.
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+    private static void ResetCount()
+    {
+        ActiveCount = 0;
+    }
+
     public static void Spawn(Vector2 position, float radius, Color color, float duration, SpriteRenderer sortingSource)
     {
         GameObject go = new GameObject("CircleFlash");
@@ -25,6 +40,7 @@ public class CircleFlash : MonoBehaviour
         }
 
         CircleFlash flash = go.AddComponent<CircleFlash>();
+        ActiveCount++;
         flash.sr = sr;
         flash.baseColor = color;
         flash.duration = Mathf.Max(0.01f, duration);
