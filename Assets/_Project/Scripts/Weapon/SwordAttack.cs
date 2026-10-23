@@ -185,8 +185,7 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     public void ApplyEnhance(ResourceType type)
     {
         if (!WeaponEnhanceStore.TryEnhance(identity, type)) return;
-        ApplyStatDelta(type);
-        UpdateVisualSize();
+        ReapplyEnhancements(); // 레벨업 공격 범위 배율까지 원본값에서 다시 계산한다
     }
 
     // 판정 반지름(hitRadius)이 원본 대비 몇 배가 됐는지만큼 칼 그림을 키운다 (구리 강화 = 공격 범위).
@@ -295,6 +294,9 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
         for (int i = 0; i < PermanentUpgradeManager.GetLevel(ResourceType.Wood); i++) ApplyStatDelta(ResourceType.Wood);
         for (int i = 0; i < PermanentUpgradeManager.GetLevel(ResourceType.Chemical); i++) ApplyStatDelta(ResourceType.Chemical);
 
+        // 레벨업 공격 범위 (이번 탐험 동안 플레이어에게 쌓인 퍼센트). 원본값에서 매번 다시 계산하므로 중복으로 쌓이지 않는다.
+        hitRadius *= PlayerRunStats.RangeMultiplier;
+
         UpdateVisualSize();
     }
 
@@ -302,6 +304,7 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     {
         MeleeAutoAttackQueue.Register(this);
         PermanentUpgradeManager.OnChanged += ReapplyEnhancements;
+        PlayerRunStats.Changed += ReapplyEnhancements;
     }
 
     void OnDisable()
@@ -311,12 +314,15 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
         orbiters.Remove(this);
         MeleeAutoAttackQueue.Unregister(this);
         PermanentUpgradeManager.OnChanged -= ReapplyEnhancements;
+        PlayerRunStats.Changed -= ReapplyEnhancements;
     }
 
     void Update()
     {
+        if (PauseManager.IsPaused) return; // 멈춘 동안(레벨업 카드 클릭 등) 클릭으로 휘두르지 않게
+
         // 질주(기름 10단계) 버프 중에는 쿨다운이 더 빨리 돈다.
-        attackCooldown -= Time.deltaTime * StageGimmickManager.WeaponTimeScale * PlayerBuffs.MeleeCooldownSpeedMultiplier;
+        attackCooldown -= Time.deltaTime * PlayerRunStats.WeaponTimeScale * PlayerBuffs.MeleeCooldownSpeedMultiplier;
 
         // 360도 회전 단계(나무 5단계 이상)는 어차피 한 바퀴를 도니까, 들고 있는 검을 마우스 쪽이 아니라 캐릭터가 바라보는 쪽에 둔다.
         // (회전 베기는 그 자리에서 출발해 그 자리로 돌아오고, 상시 회전도 거기서 이어서 돈다)
@@ -345,7 +351,7 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
         if (isSwinging)
         {
             // 기믹 "한파" 중에는 휘두르는 모션 자체가 느리게 재생된다.
-            float dt = Time.deltaTime * StageGimmickManager.WeaponTimeScale;
+            float dt = Time.deltaTime * PlayerRunStats.WeaponTimeScale;
             if (mode == SwingMode.Orbit) UpdateOrbit(dt);
             else UpdateSwing(dt);
         }
@@ -711,7 +717,7 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
 
     private void SpawnWave(Vector2 origin, float angle)
     {
-        SwordWave.Spawn(this, origin, angle, waveSpeed, waveRadius, waveRange, waveDamage, waveCrit,
+        SwordWave.Spawn(this, origin, angle, waveSpeed * PlayerRunStats.ProjectileSpeedMultiplier, waveRadius, waveRange, waveDamage, waveCrit,
             waveKnockbackMultiplier, waveColor, spriteRenderer);
     }
 

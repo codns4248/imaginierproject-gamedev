@@ -194,6 +194,15 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     {
         if (!WeaponEnhanceStore.TryEnhance(identity, type)) return;
         ApplyStatDelta(type);
+        RecalculateRange();
+    }
+
+    // 판정 크기(hitRadius)만 원본값에서 다시 계산한다: 구리 강화 x 레벨업 공격 범위.
+    // 레벨업으로 범위가 바뀔 때는 이것만 부른다 (ReapplyEnhancements는 달아오른 상태까지 식혀 버리므로).
+    private void RecalculateRange()
+    {
+        int copper = WeaponEnhanceStore.GetLevel(identity, ResourceType.Copper);
+        hitRadius = baseHitRadius * (1f + rangeGrowthPerLevel * copper) * PlayerRunStats.RangeMultiplier;
         UpdateVisualSize();
     }
 
@@ -286,7 +295,7 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
         for (int i = 0; i < PermanentUpgradeManager.GetLevel(ResourceType.Wood); i++) ApplyStatDelta(ResourceType.Wood);
         for (int i = 0; i < PermanentUpgradeManager.GetLevel(ResourceType.Chemical); i++) ApplyStatDelta(ResourceType.Chemical);
 
-        UpdateVisualSize();
+        RecalculateRange();
 
         // 강화가 리셋/재계산될 때(사망, 탈출 등) 달아오른 상태도 같이 식는다.
         heatStacks = 0;
@@ -299,6 +308,7 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     {
         MeleeAutoAttackQueue.Register(this);
         PermanentUpgradeManager.OnChanged += ReapplyEnhancements;
+        PlayerRunStats.Changed += RecalculateRange;
     }
 
     void OnDisable()
@@ -307,11 +317,14 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
         lastTint = Color.white;
         MeleeAutoAttackQueue.Unregister(this);
         PermanentUpgradeManager.OnChanged -= ReapplyEnhancements;
+        PlayerRunStats.Changed -= RecalculateRange;
     }
 
     void Update()
     {
-        attackCooldown -= Time.deltaTime * StageGimmickManager.WeaponTimeScale;
+        if (PauseManager.IsPaused) return; // 멈춘 동안(레벨업 카드 클릭 등) 클릭으로 찌르지 않게
+
+        attackCooldown -= Time.deltaTime * PlayerRunStats.WeaponTimeScale;
 
         // 들고 있을 때만 마우스 좌클릭으로 수동 발동한다. 자동 발동은 MeleeAutoAttackQueue가
         // TriggerAutoAttack()을 직접 호출해서 처리하므로 여기서는 신경 쓰지 않는다.
@@ -320,7 +333,7 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
             StartThrust(weaponAim.AimDirection);
         }
 
-        if (IsAttacking) UpdateThrust(Time.deltaTime * StageGimmickManager.WeaponTimeScale);
+        if (IsAttacking) UpdateThrust(Time.deltaTime * PlayerRunStats.WeaponTimeScale);
 
         UpdateHeat(Time.deltaTime);
     }

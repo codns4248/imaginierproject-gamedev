@@ -11,6 +11,7 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 5;
 
     // 사망 판정 대신 즉시 부활할 수 있는 횟수. 0이면 다음 치명타에 그대로 사망한다.
+    // 레벨업 보충 카드 "부활"로 늘어나고(AddRevive), 탐험이 끝나면 기본값으로 돌아간다(ResetRunState).
     public int reviveCount = 1;
 
     [Header("피격 반응")]
@@ -39,13 +40,18 @@ public class PlayerHealth : MonoBehaviour
     // 거점 영구 강화(체력) 적용 전 원본 최대 체력. 레벨이 바뀔 때마다 이 값 기준으로 다시 계산한다.
     // ponytail: 레벨당 +1 고정치. 밸런스 수치는 나중에 조정.
     private int baseMaxHealth;
+    private int baseReviveCount;
 
     public int MaxHealth => maxHealth;
     public int CurrentHealth => currentHealth;
     public bool IsDead => isDead;
+    public int ReviveCount => reviveCount;
 
     // 체력이 바뀔 때마다 호출된다. 체력 UI 등 표시가 필요한 쪽에서 구독해서 갱신 타이밍으로 쓴다.
     public event Action OnHealthChanged;
+
+    // 남은 부활 횟수가 바뀔 때마다 호출된다 (부활 아이콘 표시용).
+    public event Action OnReviveCountChanged;
 
     // 실제로 사망 처리(Die())가 실행될 때 딱 한 번 호출된다. 파밍 자원 소실 처리 등에서 구독한다.
     public event Action OnDied;
@@ -53,8 +59,9 @@ public class PlayerHealth : MonoBehaviour
     void Awake()
     {
         baseMaxHealth = Mathf.Max(0, maxHealth);
-        maxHealth = baseMaxHealth + PermanentUpgradeManager.GetLevel(ResourceType.Copper);
+        maxHealth = baseMaxHealth + PermanentUpgradeManager.GetLevel(ResourceType.Copper) + PlayerRunStats.MaxHealthBonus;
         reviveCount = Mathf.Max(0, reviveCount);
+        baseReviveCount = reviveCount;
         currentHealth = maxHealth;
 
         playerMovement = GetComponent<PlayerMovement>();
@@ -69,18 +76,20 @@ public class PlayerHealth : MonoBehaviour
     void OnEnable()
     {
         PermanentUpgradeManager.OnChanged += ApplyPermanentHealthBonus;
+        PlayerRunStats.Changed += ApplyPermanentHealthBonus;
     }
 
     void OnDisable()
     {
         PermanentUpgradeManager.OnChanged -= ApplyPermanentHealthBonus;
+        PlayerRunStats.Changed -= ApplyPermanentHealthBonus;
     }
 
-    // 거점에서 체력 영구 강화를 구매하면 즉시 최대 체력에 반영한다 (기존 currentHealth 비율 등은 신경 쓰지 않고,
-    // SetMaxHealth와 동일하게 넘치는 현재 체력만 클램프한다).
+    // 거점에서 체력 영구 강화를 구매하거나 레벨업으로 최대 체력을 올리면 즉시 최대 체력에 반영한다
+    // (기존 currentHealth 비율 등은 신경 쓰지 않고, SetMaxHealth와 동일하게 넘치는 현재 체력만 클램프한다).
     private void ApplyPermanentHealthBonus()
     {
-        SetMaxHealth(baseMaxHealth + PermanentUpgradeManager.GetLevel(ResourceType.Copper));
+        SetMaxHealth(baseMaxHealth + PermanentUpgradeManager.GetLevel(ResourceType.Copper) + PlayerRunStats.MaxHealthBonus);
     }
 
     // 적과 접촉하는 등 피해를 입었을 때 호출한다.
@@ -103,9 +112,11 @@ public class PlayerHealth : MonoBehaviour
         if (reviveCount > 0)
         {
             reviveCount--;
-            currentHealth = Mathf.Min(3, maxHealth);
+            LevelUpConfig cfg = LevelUpConfig.Instance;
+            currentHealth = Mathf.Clamp(Mathf.CeilToInt(maxHealth * cfg.reviveHealthRatio), 1, maxHealth);
             OnHealthChanged?.Invoke();
-            PlayHitReaction(knockbackDirection);
+            OnReviveCountChanged?.Invoke();
+            PlayReviveEffect(cfg);
         }
         else
         {
@@ -122,22 +133,64 @@ public class PlayerHealth : MonoBehaviour
             playerMovement.ApplyKnockback(knockbackDirection.normalized * knockbackForce, knockbackDuration);
         }
 
-        StartCoroutine(InvulnerabilityRoutine());
-        StartCoroutine(BlinkRoutine());
+        StartCoroutine(InvulnerabilityRoutine(invulnerabilityDuration));
+        StartCoroutine(BlinkRoutine(blinkDuration));
         StartCoroutine(HitSpriteRoutine());
     }
 
-    private IEnumerator InvulnerabilityRoutine()
+    // 부활 순간: 평소 피격보다 긴 무적 + 깜빡임, 그리고 주변 몬스터를 밀어내는 충격파 (둘러싸인 채로 부활하자마자 다시 죽지 않게).
+    private void PlayReviveEffect(LevelUpConfig cfg)
+    {
+        StopAllCoroutines(); // 이전 피격 무적/깜빡임이 먼저 끝나면서 부활 무적을 끊지 않게
+        spriteRenderer.enabled = true;
+        if (animator != null) animator.enabled = true;
+
+        StartCoroutine(InvulnerabilityRoutine(cfg.reviveInvulnerability));
+        StartCoroutine(BlinkRoutine(cfg.reviveInvulnerability));
+
+        Vector2 center = transform.position;
+        float radiusSqr = cfg.reviveShockwaveRadius * cfg.reviveShockwaveRadius;
+        foreach (Enemy enemy in EnemyManager.ActiveEnemies)
+        {
+            if (enemy == null || enemy.IsDying) continue;
+            Vector2 away = (Vector2)enemy.transform.position - center;
+            if (away.sqrMagnitude > radiusSqr) continue;
+            if (away.sqrMagnitude < 0.0001f) away = Vector2.up;
+            enemy.Knockback(away.normalized, cfg.reviveKnockback);
+        }
+
+        CircleFlash.Spawn(center, cfg.reviveShockwaveRadius, new Color(1f, 0.85f, 0.35f, 0.6f), 0.5f, spriteRenderer);
+        CircleFlash.Spawn(center, cfg.reviveShockwaveRadius * 0.5f, new Color(1f, 1f, 1f, 0.8f), 0.3f, spriteRenderer);
+    }
+
+    // 레벨업 보충 카드 "부활".
+    public void AddRevive(int amount)
+    {
+        if (amount <= 0) return;
+        reviveCount += amount;
+        OnReviveCountChanged?.Invoke();
+    }
+
+    // 탐험이 끝날 때(LevelUpSystem.ResetForNewRun): 부활 횟수를 기본값으로 되돌리고, 레벨업 최대 체력 보너스를 뺀다.
+    // 플레이어는 거점 씬에 계속 남아 있어서 Awake가 다시 불리지 않으므로 여기서 직접 되돌려야 한다.
+    public void ResetRunState()
+    {
+        reviveCount = baseReviveCount;
+        OnReviveCountChanged?.Invoke();
+        ApplyPermanentHealthBonus();
+    }
+
+    private IEnumerator InvulnerabilityRoutine(float duration)
     {
         isInvulnerable = true;
-        yield return new WaitForSeconds(invulnerabilityDuration);
+        yield return new WaitForSeconds(duration);
         isInvulnerable = false;
     }
 
-    private IEnumerator BlinkRoutine()
+    private IEnumerator BlinkRoutine(float duration)
     {
         float elapsed = 0f;
-        while (elapsed < blinkDuration)
+        while (elapsed < duration)
         {
             spriteRenderer.enabled = !spriteRenderer.enabled;
             yield return new WaitForSeconds(blinkInterval);

@@ -231,8 +231,9 @@ public class GrenadeAttack : MonoBehaviour, IEnhanceableWeapon
     void Update()
     {
         if (EnemyManager.PlayerDead) return;
+        if (PauseManager.IsPaused) return; // 멈춘 동안(레벨업 카드 클릭 등) 클릭으로 던지지 않게
 
-        attackCooldown -= Time.deltaTime * StageGimmickManager.WeaponTimeScale;
+        attackCooldown -= Time.deltaTime * PlayerRunStats.WeaponTimeScale;
         if (attackCooldown > 0f) return;
 
         if (weaponAim.isHeld)
@@ -279,7 +280,7 @@ public class GrenadeAttack : MonoBehaviour, IEnhanceableWeapon
         {
             owner = this,
             damage = damage,
-            radius = explosionRadius,
+            radius = explosionRadius * PlayerRunStats.RangeMultiplier, // 레벨업 공격 범위 (작은 수류탄/중력/독구름도 이 반경 기준)
             delay = explosionDelay,
             generation = 0,
             bouncesLeft = woodTier == TierHigh ? 2 : woodTier == TierLow ? 1 : 0,
@@ -297,7 +298,7 @@ public class GrenadeAttack : MonoBehaviour, IEnhanceableWeapon
         if (shot.generation > 0) projGO.transform.localScale *= Mathf.Pow(clusterSpriteScale, shot.generation);
 
         GrenadeProjectile projectile = projGO.GetComponent<GrenadeProjectile>();
-        if (projectile != null) projectile.Launch(from, to, shot, speed, arcHeight);
+        if (projectile != null) projectile.Launch(from, to, shot, speed * PlayerRunStats.ProjectileSpeedMultiplier, arcHeight);
         else Destroy(projGO);
     }
 

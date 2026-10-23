@@ -35,6 +35,7 @@ public class MeleeAutoAttackQueue : MonoBehaviour
     void Update()
     {
         if (EnemyManager.PlayerDead) return;
+        if (PauseManager.IsPaused) return; // 멈춘 동안(레벨업 카드 창 등)에는 자동 공격을 시작하지 않는다
 
         // 현재 공격 중인 무기가 있으면, 그 공격이 끝날 때까지 다른 무기는 시작하지 않는다.
         if (currentAttacker != null)

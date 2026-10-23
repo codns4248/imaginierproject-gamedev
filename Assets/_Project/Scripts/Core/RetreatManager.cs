@@ -59,6 +59,7 @@ public class RetreatManager : MonoBehaviour
         // 얻은 여분 무기)는 사망/추출과 같은 규칙으로 전부 초기화한다.
         ResourceBank.CommitRunToStash();
         WeaponEnhanceStore.ResetForNewRun();
+        LevelUpSystem.ResetForNewRun(); // 레벨/경험치/레벨업 능력/부활 횟수
         WeaponSwitcher weaponSwitcher = FindFirstObjectByType<WeaponSwitcher>();
         if (weaponSwitcher != null) weaponSwitcher.ResetToStartingWeapon();
         StageProgress.ResetToFirstStage();

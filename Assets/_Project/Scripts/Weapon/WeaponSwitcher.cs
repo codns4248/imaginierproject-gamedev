@@ -28,9 +28,9 @@ public class WeaponSwitcher : MonoBehaviour
     {
         if (EnemyManager.PlayerDead) return; // 죽은 상태에서는 전환/장착/드랍 전부 막는다
 
-        // 무기 전환(Q)만 ESC 메뉴가 열렸을 때만 막는다 - 강화 팝업(EnhancementWeaponIcon 참고)은
+        // 무기 전환(Q)만 ESC 메뉴(또는 레벨업 카드 창)가 열렸을 때만 막는다 - 강화 팝업(EnhancementWeaponIcon 참고)은
         // 열려있는 동안에도 Q로 무기를 바꿔가며 다른 무기를 강화할 수 있어야 하기 때문.
-        if (!PauseManager.IsEscPaused && Keyboard.current.qKey.wasPressedThisFrame)
+        if (!PauseManager.IsEscPaused && !PauseManager.IsLevelUpOpen && Keyboard.current.qKey.wasPressedThisFrame)
         {
             CycleToNextWeapon();
         }

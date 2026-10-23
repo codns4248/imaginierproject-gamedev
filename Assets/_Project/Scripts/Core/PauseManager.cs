@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 // ESC 키로 설정 패널(SettingPanel)을 열고 닫는다. V키로 여는 무기 강화 팝업(WeaponEnhancementManager)과는
 // 완전히 별도의 상태로 동작하지만, 둘 중 하나라도 열려 있으면 Time.timeScale을 0으로 만들어
-// 물리/애니메이션/스폰 등 deltaTime 기반 로직을 전부 함께 멈춘다.
+// 물리/애니메이션/스폰 등 deltaTime 기반 로직을 전부 함께 멈춘다. 레벨업 카드 창(LevelUpUI)도 같은 방식으로 정지시킨다.
 public class PauseManager : MonoBehaviour
 {
     public GameObject pausePanel; // 반투명 패널 + "PAUSED" 텍스트
@@ -11,11 +11,15 @@ public class PauseManager : MonoBehaviour
 
     private static bool isEscPaused; // ESC로 연 설정 패널이 열려 있는지
     private bool isInventoryPaused;  // WeaponEnhancementManager가 V로 연 무기 강화 팝업이 열려 있는지 (SetInventoryPaused로 전달받음)
+    private static bool isLevelUpPaused; // 레벨업 카드 창(LevelUpUI)이 열려 있는지 (SetLevelUpPaused로 전달받음)
 
     // ESC 설정 패널이 지금 열려 있는지. WeaponEnhancementManager가 "ESC가 눌린 상태에서는 V키 무시"를,
     // WeaponSwitcher가 "ESC 메뉴 중에는 무기 전환 금지"를 판단할 때 이 값을 참조한다.
     // IsPaused와 마찬가지로 정적으로 노출해서 PauseManager 인스턴스 참조 없이도 쓸 수 있게 했다.
     public static bool IsEscPaused => isEscPaused;
+
+    // 레벨업 카드 창이 열려 있는지. 카드를 고르는 동안에는 ESC 설정 패널, V 강화 팝업, Q 무기 전환을 막는다.
+    public static bool IsLevelUpOpen => isLevelUpPaused;
 
     // Time.timeScale이 0이어도 Update()는 계속 호출되므로, deltaTime에 의존하지 않고
     // 마우스 좌표를 직접 읽어 회전/이동시키는 스크립트(WeaponAim, PlayerMovement 등)는
@@ -29,11 +33,14 @@ public class PauseManager : MonoBehaviour
         // 그대로 남아있을 수 있고, pausePanel이 씬에 켜진 채로 저장돼 있으면 그 값과 실제 패널의
         // 활성 상태가 어긋난다(패널만 보이고 정지/조작차단은 안 되거나, 반대로 ESC를 눌러도
         // 안 사라지는 등). WeaponEnhancementManager와 마찬가지로 시작할 땐 항상 닫힌 상태로 맞춘다.
+        isLevelUpPaused = false;
         SetEscPaused(false);
     }
 
     void Update()
     {
+        if (isLevelUpPaused) return; // 레벨업 카드를 고르는 동안 ESC로 설정 패널이 열리거나 정지가 풀리지 않게
+
         if (Keyboard.current.escapeKey.wasPressedThisFrame)
         {
             SetEscPaused(!isEscPaused);
@@ -62,10 +69,17 @@ public class PauseManager : MonoBehaviour
         ApplyTimeScale();
     }
 
-    // ESC 설정 패널과 V 인벤토리 패널 중 하나라도 열려 있으면 정지, 둘 다 닫히면 재개.
+    // 레벨업 카드 창(LevelUpUI)이 열리고 닫힐 때 호출한다.
+    public void SetLevelUpPaused(bool paused)
+    {
+        isLevelUpPaused = paused;
+        ApplyTimeScale();
+    }
+
+    // ESC 설정 패널, V 인벤토리 패널, 레벨업 카드 창 중 하나라도 열려 있으면 정지, 전부 닫히면 재개.
     private void ApplyTimeScale()
     {
-        bool anyOpen = isEscPaused || isInventoryPaused;
+        bool anyOpen = isEscPaused || isInventoryPaused || isLevelUpPaused;
         Time.timeScale = anyOpen ? 0f : 1f;
         IsPaused = anyOpen;
     }

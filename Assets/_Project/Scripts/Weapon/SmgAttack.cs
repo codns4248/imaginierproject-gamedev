@@ -36,7 +36,7 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
 
     [Header("강화 1레벨당 변화량 (전체 축소 0.5배에 맞춘 값)")]
     public float gapReductionPerWood = 0.01f; // 목재: 점사 내 발사 간격 (15강에서 0.2 -> 0.05)
-    public float autoRangePerCopper = 0.25f;  // 구리: 자동공격 사거리
+    public float bulletSizePerCopper = 0.05f; // 구리(공격 범위): 총알 크기 = 맞는 판정 크기 (10강에서 1.5배)
     public float speedPerOil = 0.2f;          // 기름: 투사체 속도 (기본 속도 4 -> 10강에서 +2, 15강에서 +3)
 
     // === 강화 단계별 특수 효과 ===
@@ -102,6 +102,7 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
     // === IEnhanceableWeapon ===
     private WeaponIdentity identity;
     private float projectileSpeedBonus; // 기름(발사속도) 강화 누적분. Fire()에서 Projectile.speed에 더해준다.
+    private float bulletSize = 1f;      // 구리(공격 범위) 강화 누적분. 쏠 때 탄 크기에 곱한다.
 
     // 강화로 바뀌는 스탯의 원본값. Awake에서 저장해두고, 런 종료(사망/추출)로 강화가 리셋되면
     // 여기로 되돌린 뒤 현재 레벨만큼 다시 적용한다 (포탈 이동은 무기 인스턴스가 유지되므로 직접 되돌려야 함).
@@ -133,7 +134,7 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
         {
             case ResourceType.Wood: burstInterval = Mathf.Max(0.05f, burstInterval - gapReductionPerWood); break;
             case ResourceType.Iron: damage += 0.3f; break;
-            case ResourceType.Copper: autoAttackRange += autoRangePerCopper; break;
+            case ResourceType.Copper: bulletSize += bulletSizePerCopper; break;
             case ResourceType.Chemical: critChance = Mathf.Min(1f, critChance + 0.05f); break;
             case ResourceType.Oil: projectileSpeedBonus += speedPerOil; break;
         }
@@ -194,6 +195,7 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
         critChance = baseCritChance;
         autoAttackRange = baseAutoAttackRange;
         projectileSpeedBonus = 0f;
+        bulletSize = 1f;
         modsDirty = true;
 
         foreach (ResourceType type in WeaponEnhanceUtil.AllTypes)
@@ -221,6 +223,7 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
     void Update()
     {
         if (EnemyManager.PlayerDead || isFiring) return;
+        if (PauseManager.IsPaused) return; // 멈춘 동안(레벨업 카드 클릭 등) 클릭으로 발사되지 않게
 
         if (weaponAim.isHeld)
         {
@@ -272,12 +275,13 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
 
                 // 일반 점사는 마지막 발 이후에 간격 대신 아래의 휴식 시간을 기다린다. 난사 모드는 마지막 발 뒤에도 같은 간격만 기다린다.
                 // 기믹 "한파" 중에는 WeaponTimeScale(<1)로 나눠서 대기 시간을 늘린다 = 점사/휴식이 느려진다.
+                // 레벨업 공격속도는 반대로 WeaponTimeScale을 키워서 대기 시간을 줄인다.
                 if (continuous || i < burstCount - 1)
-                    yield return new WaitForSeconds(ShotGap / StageGimmickManager.WeaponTimeScale);
+                    yield return new WaitForSeconds(ShotGap / PlayerRunStats.WeaponTimeScale);
             }
 
             if (!continuous)
-                yield return new WaitForSeconds(restDuration / StageGimmickManager.WeaponTimeScale);
+                yield return new WaitForSeconds(restDuration / PlayerRunStats.WeaponTimeScale);
         }
         while (continuous && KeepFiring(auto));
 
@@ -356,11 +360,13 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
         float finalDamage = CriticalHit.Roll(baseDamage, critChance, critMultiplier, out bool isCrit);
 
         GameObject projGO = Instantiate(projectilePrefab, position, Quaternion.identity);
+        // 탄 크기(=판정 크기): 구리 강화 x 레벨업 공격 범위. 작은 탄/파편 크기는 이 크기를 기준으로 곱해진다.
+        projGO.transform.localScale *= bulletSize * PlayerRunStats.RangeMultiplier;
         Projectile projectile = projGO.GetComponent<Projectile>();
         if (projectile == null) return null;
 
         projectile.maxHits = 1; // Smg 투사체는 관통하지 않고 첫 번째로 맞은 적에게서 사라진다.
-        projectile.speed += projectileSpeedBonus;
+        projectile.speed = (projectile.speed + projectileSpeedBonus) * PlayerRunStats.ProjectileSpeedMultiplier;
         projectile.ApplyModifiers(mods);
         projectile.Fire(dir, finalDamage, isCrit);
         return projectile;
@@ -471,6 +477,7 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
         {
             return;
         }
+        radius *= PlayerRunStats.RangeMultiplier; // 레벨업 공격 범위는 폭발 반경에도 적용
 
         float blastDamage = dealt * multiplier;
 

@@ -98,6 +98,9 @@ public class StageExtraction : MonoBehaviour
         {
             pickup.ForceAttract();
         }
+
+        // 경험치 구슬도 자원과 똑같이 전부 끌려온다.
+        XpOrb.ForceAttractAll();
     }
 
     // 현재 구역 위쪽에 랜덤 색깔 포탈 3개, 5층마다 오른쪽에 추출 포탈 1개를 추가로 띄운다.
@@ -368,6 +371,9 @@ public class StageExtraction : MonoBehaviour
         // 무기 인스턴스들의 스탯도 직접 되돌려준다 - 거점 복귀가 씬 재로드가 아니라 좌표 이동이라
         // Awake()를 다시 타지 않기 때문.
         WeaponEnhanceStore.ResetForNewRun();
+
+        // 레벨/경험치/레벨업 능력/부활 횟수도 이번 탐험과 함께 초기화된다.
+        LevelUpSystem.ResetForNewRun();
 
         // 결과 화면(DeathResultUI)이 씬에 있으면 층수 초기화 + 거점 복귀는 그 쪽이 담당한다
         // (플레이어가 버튼/Enter를 누를 때까지 기다렸다가 복귀).

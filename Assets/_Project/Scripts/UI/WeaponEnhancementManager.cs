@@ -84,8 +84,8 @@ public class WeaponEnhancementManager : MonoBehaviour
 
         if (!Keyboard.current.vKey.wasPressedThisFrame) return;
 
-        // ESC 설정 패널이 열려 있으면 V키를 완전히 무시한다.
-        if (PauseManager.IsEscPaused) return;
+        // ESC 설정 패널이나 레벨업 카드 창이 열려 있으면 V키를 완전히 무시한다.
+        if (PauseManager.IsEscPaused || PauseManager.IsLevelUpOpen) return;
 
         SetPanelOpen(!isPanelOpen);
     }

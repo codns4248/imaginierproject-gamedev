@@ -32,7 +32,7 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
 
     [Header("강화 1레벨당 변화량 (전체 축소 0.5배에 맞춘 값)")]
     public float intervalReductionPerWood = 0.015f; // 목재: 발사 간격 (15강에서 0.3 -> 약 0.075, 하한 0.05)
-    public float autoRangePerCopper = 0.25f;        // 구리: 자동공격 사거리
+    public float bulletSizePerCopper = 0.05f;       // 구리(공격 범위): 총알 크기 = 맞는 판정 크기 (10강에서 1.5배)
     public float speedPerOil = 0.2f;                // 기름: 투사체 속도 (기본 속도 4 -> 10강에서 +2, 15강에서 +3)
 
     // === 강화 단계별 특수 효과 ===
@@ -99,6 +99,7 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
     // 같은 종류를 여러 자루 들어도 자루마다 따로 강화된다.
     private WeaponIdentity identity;
     private float projectileSpeedBonus; // 기름(발사속도) 강화 누적분. Fire()에서 Projectile.speed에 더해준다.
+    private float bulletSize = 1f;      // 구리(공격 범위) 강화 누적분. Fire()에서 탄 크기에 곱한다.
 
     // 강화로 바뀌는 스탯의 원본값. Awake에서 저장해두고, 런 종료(사망/추출)로 강화가 리셋되면
     // 여기로 되돌린 뒤 현재 레벨만큼 다시 적용한다 (포탈 이동은 무기 인스턴스가 유지되므로 직접 되돌려야 함).
@@ -121,7 +122,7 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
         {
             case ResourceType.Wood: attackInterval = Mathf.Max(0.05f, attackInterval - intervalReductionPerWood); break;
             case ResourceType.Iron: damage += 0.3f; break;
-            case ResourceType.Copper: autoAttackRange += autoRangePerCopper; break;
+            case ResourceType.Copper: bulletSize += bulletSizePerCopper; break;
             case ResourceType.Chemical: critChance = Mathf.Min(1f, critChance + 0.05f); break;
             case ResourceType.Oil: projectileSpeedBonus += speedPerOil; break;
         }
@@ -150,6 +151,7 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
         critChance = baseCritChance;
         autoAttackRange = baseAutoAttackRange;
         projectileSpeedBonus = 0f;
+        bulletSize = 1f;
         shotCount = 0; // 강화가 리셋/재계산될 때(사망, 탈출 등) 필살탄 주기도 처음부터
 
         foreach (ResourceType type in WeaponEnhanceUtil.AllTypes)
@@ -177,9 +179,11 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
     void Update()
     {
         if (EnemyManager.PlayerDead) return; // 플레이어가 죽으면 자동/수동 상관없이 더 이상 발사하지 않는다
+        if (PauseManager.IsPaused) return;   // 멈춘 동안(레벨업 카드 클릭 등) 클릭으로 발사되지 않게
 
         // 기믹 "한파" 중에는 WeaponTimeScale이 1보다 작아져 쿨다운 회복이 느려진다(재장전 체감 저하).
-        attackCooldown -= Time.deltaTime * StageGimmickManager.WeaponTimeScale;
+        // 레벨업 공격속도는 반대로 1보다 크게 만들어 쿨다운이 더 빨리 돈다 (PlayerRunStats.WeaponTimeScale).
+        attackCooldown -= Time.deltaTime * PlayerRunStats.WeaponTimeScale;
         if (attackCooldown > 0f) return;
 
         if (weaponAim.isHeld)
@@ -268,10 +272,12 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
         float finalDamage = CriticalHit.Roll(shotBaseDamage, ultimateHigh ? 1.01f : critChance, critMultiplier, out bool isCrit);
 
         GameObject projGO = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+        // 탄 크기(=판정 크기): 구리 강화 x 레벨업 공격 범위. 특수효과 크기(필살탄/눈덩이)는 이 크기를 기준으로 곱해진다.
+        projGO.transform.localScale *= bulletSize * PlayerRunStats.RangeMultiplier;
         Projectile projectile = projGO.GetComponent<Projectile>();
         if (projectile != null)
         {
-            projectile.speed += projectileSpeedBonus;
+            projectile.speed = (projectile.speed + projectileSpeedBonus) * PlayerRunStats.ProjectileSpeedMultiplier;
             projectile.ApplyModifiers(BuildModifiers(ultimate, ultimateHigh));
             projectile.Fire(direction, finalDamage, isCrit);
         }

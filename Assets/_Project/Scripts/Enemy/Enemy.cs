@@ -396,7 +396,8 @@ public class Enemy : MonoBehaviour
 
         // 기절 중이면 받는 피해가 늘어난다. 표시되는 데미지 숫자도 실제 들어간 값과 같도록 미리 곱해둔다
         // (TakeDamage는 이 배율을 다시 곱하지 않도록 아래에서 원본 damage가 아니라 곱한 값을 넘긴다).
-        float dealt = damage * DamageTakenMultiplier;
+        // Hit은 플레이어 무기만 부르므로 레벨업 공격력(+분노)도 여기서 한 번에 곱한다 (무기 수치는 건드리지 않음).
+        float dealt = damage * DamageTakenMultiplier * PlayerRunStats.DamageMultiplier;
         TakeDamageRaw(dealt);
 
         hitStunTimer = Mathf.Max(hitStunTimer, hitStunDuration);
@@ -428,9 +429,17 @@ public class Enemy : MonoBehaviour
     public void TakeDotDamage(float amount)
     {
         if (isDying || amount <= 0f) return;
-        float dealt = amount * DamageTakenMultiplier;
+        float dealt = amount * DamageTakenMultiplier * PlayerRunStats.DamageMultiplier;
         TakeDamageRaw(dealt);
         SpawnDamageNumber(dealt, false);
+    }
+
+    // 피해 없이 밀어내기만 한다 (부활 충격파). 맞았을 때처럼 잠깐 경직되며 밀려난다.
+    public void Knockback(Vector2 direction, float multiplier)
+    {
+        if (isDying) return;
+        hitStunTimer = Mathf.Max(hitStunTimer, hitStunDuration);
+        knockbackVelocity = direction.normalized * knockbackForce * multiplier;
     }
 
     // 외부에서 이 적을 velocity로 끌어당길 때 매 프레임 호출한다 (수류탄 구리 강화 "중력탄"). 물리 프레임마다 평소 이동에
@@ -483,6 +492,9 @@ public class Enemy : MonoBehaviour
 
             // 직접 잡은 경우에만 표식이 옮겨 간다 (스테이지 클리어 정리 같은 강제 전멸에서는 안 옮긴다).
             SpreadMarkOnDeath();
+
+            // 경험치 구슬 (스테이지가 높을수록 많고, 정예/보스는 크고 훨씬 많다).
+            XpOrb.SpawnFromEnemy(transform.position, IsEliteOrBoss);
 
             Died?.Invoke(this);
         }
