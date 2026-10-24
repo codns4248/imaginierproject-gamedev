@@ -32,6 +32,7 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
 
     [Header("강화 1레벨당 변화량 (전체 축소 0.5배에 맞춘 값)")]
     public float intervalReductionPerWood = 0.015f; // 목재: 발사 간격 (15강에서 0.3 -> 약 0.075, 하한 0.05)
+    public float damagePerIron = 0.3f;              // 철(공격력): 레벨당 원래 공격력의 30%
     public float bulletSizePerCopper = 0.05f;       // 구리(공격 범위): 총알 크기 = 맞는 판정 크기 (10강에서 1.5배)
     public float speedPerOil = 0.2f;                // 기름: 투사체 속도 (기본 속도 4 -> 10강에서 +2, 15강에서 +3)
 
@@ -121,7 +122,7 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
         switch (type)
         {
             case ResourceType.Wood: attackInterval = Mathf.Max(0.05f, attackInterval - intervalReductionPerWood); break;
-            case ResourceType.Iron: damage += 0.3f; break;
+            case ResourceType.Iron: damage += baseDamage * damagePerIron; break;
             case ResourceType.Copper: bulletSize += bulletSizePerCopper; break;
             case ResourceType.Chemical: critChance = Mathf.Min(1f, critChance + 0.05f); break;
             case ResourceType.Oil: projectileSpeedBonus += speedPerOil; break;

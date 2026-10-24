@@ -6,6 +6,15 @@ using UnityEngine;
 // (Assets/GoldItem.cs 등 이전 PickupItem 패턴과 동일한 흡입/획득 로직, 이 프로젝트엔 자원 하나뿐이라 단일 클래스로 둠)
 public class ResourcePickup : MonoBehaviour
 {
+    // 일반 몬스터가 자원을 떨어뜨릴 확률 (정예/보스는 항상 떨어뜨린다, Enemy.Die 참고).
+    // 밸런스 1차 조정(2026-10-25): 100% -> 50% (강화 비용을 올린 것과 같이 자원 수급 속도를 맞춘 값).
+    public const float CommonEnemyDropChance = 0.5f;
+
+    // 희귀자원은 위의 일반 자원과 따로 굴린다. 말 그대로 희귀하게: 한 층(일반 약 80마리 + 정예 몇 마리)에서
+    // 평균 0.25개 정도 = 대략 4층에 하나. 상인에게서도 살 수 있다.
+    public const float CommonEnemyRareDropChance = 0.002f; // 일반 몬스터 0.2%
+    public const float EliteRareDropChance = 0.03f;        // 정예/보스 3%
+
     public ResourceType resourceType;
     public int amount = 1;
 
@@ -137,6 +146,12 @@ public class ResourcePickup : MonoBehaviour
             while (type == biasedType) type = (ResourceType)Random.Range(0, 5);
         }
         SpawnDropOfType(position, type);
+    }
+
+    /// <summary>지정 위치에 희귀자원 드랍 아이템을 스폰한다 (Enemy.Die에서 낮은 확률로 호출).</summary>
+    public static void SpawnRareDrop(Vector3 position)
+    {
+        SpawnDropOfType(position, ResourceType.Rare);
     }
 
     private static void SpawnDropOfType(Vector3 position, ResourceType type)

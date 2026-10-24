@@ -1270,7 +1270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
   enemyPrefab: {fileID: 7436819870711711174, guid: d7f478e7aaf9b0540bb63aaa246b46e6, type: 3}
-  spawnInterval: 0.5
+  spawnInterval: 1
   maxEnemies: 100
   mapCenter: {x: -200, y: -100}
   mapHalfExtent: 9.5
@@ -1539,7 +1539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
   enemyPrefab: {fileID: 2308644575250565317, guid: 5cb3c062345ae654cb5f82c7accb74d7, type: 3}
-  spawnInterval: 0.5
+  spawnInterval: 0.6
   maxEnemies: 100
   mapCenter: {x: -200, y: -100}
   mapHalfExtent: 9.5
@@ -18003,7 +18003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
   enemyPrefab: {fileID: 693368056085693773, guid: 8e504d39b8554ff4a9db760d502adfa6, type: 3}
-  spawnInterval: 0.5
+  spawnInterval: 1
   maxEnemies: 100
   mapCenter: {x: -200, y: -100}
   mapHalfExtent: 9.5
@@ -34810,7 +34810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
   enemyPrefab: {fileID: 3277591123637522711, guid: aae48a95cd012034d9753d157601dae9, type: 3}
-  spawnInterval: 0.5
+  spawnInterval: 1
   maxEnemies: 100
   mapCenter: {x: -200, y: -100}
   mapHalfExtent: 9.5
@@ -36313,7 +36313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b117ec45fc77444d98efb89771e355e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StageTimer
-  duration: 30
+  duration: 45
 --- !u!4 &885359104
 Transform:
   m_ObjectHideFlags: 0
@@ -37138,7 +37138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
   enemyPrefab: {fileID: 3066825120369329545, guid: 2d91f4f240699ff4c9eab7beda1b59f5, type: 3}
-  spawnInterval: 0.5
+  spawnInterval: 1.2
   maxEnemies: 100
   mapCenter: {x: -200, y: -100}
   mapHalfExtent: 9.5

@@ -45,8 +45,9 @@ public static class WeaponEnhanceUtil
     public static readonly int[] MilestoneTiers = { 5, 10 };
 
     // 다음 1단계 강화 비용 (무기 강화/거점 영구 강화 공용). 단계가 오를수록 1.2배씩 비싸진다.
-    // ponytail: 밸런스 임시값 (0강 5개 -> 9강 26개, 한 종류를 10강까지 올리는 데 총 약 130개). 팀 밸런스 확정 시 두 숫자만 조정.
-    private const int BaseCost = 5;
+    // 밸런스 1차 조정(2026-10-25): 0강 15개 -> 9강 77개. 한 종류 5강까지 총 112개, 10강까지 총 389개.
+    // (일반 몬스터 자원 드랍 50%, 1층 45초 기준으로 5강 특수효과가 대략 3층 전후에 켜지도록 맞춘 값). 팀 밸런스 확정 시 두 숫자만 조정.
+    private const int BaseCost = 15;
     private const float CostGrowth = 1.2f;
     public static int CostForLevel(int currentLevel) =>
         UnityEngine.Mathf.RoundToInt(BaseCost * UnityEngine.Mathf.Pow(CostGrowth, currentLevel));

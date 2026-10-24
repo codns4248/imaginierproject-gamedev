@@ -68,6 +68,7 @@ public static class StageManager
     // (SetInStage 참고). 대신 이 맵에서는 자원 드랍 확률이 평소의 1/4로 낮다 (Enemy.Die()가 참고).
     private const string MixedMonsterTheme = "생각의 방";
     public static float ResourceDropRateMultiplier => CurrentTheme == MixedMonsterTheme ? 0.25f : 1f;
+    public static bool IsMixedMonsterZone => CurrentTheme == MixedMonsterTheme;
 
     // 거점 포탈에서 처음 스테이지를 고를 때 쓰는 테마 풀. "겨울 (테스트용)"은 절대 나오면 안 되므로
     // 여기 두 풀 어디에도 넣지 않는다 (stages 배열엔 남겨둬서 EnterStage로 직접 테스트는 계속 가능).

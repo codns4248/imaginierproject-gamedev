@@ -475,11 +475,13 @@ public class Enemy : MonoBehaviour
         {
             // 파밍용 자원 드랍. minResourceDrops~maxResourceDrops개 사이로 랜덤하게 여러 개 드랍할 수 있다
             // (일반 슬라임은 항상 1개, 엘리트처럼 더 많이 주는 적은 프리팹에서 범위를 넓게 설정).
+            // 일반 몬스터는 ResourcePickup.CommonEnemyDropChance 확률로만 떨어뜨리고, 정예/보스는 항상 떨어뜨린다.
+            // 특정 맵(생각의 방)은 여기에 드랍 배율이 한 번 더 곱해진다.
             int dropCount = Random.Range(minResourceDrops, maxResourceDrops + 1);
+            float dropChance = (IsEliteOrBoss ? 1f : ResourcePickup.CommonEnemyDropChance) * StageManager.ResourceDropRateMultiplier;
             for (int i = 0; i < dropCount; i++)
             {
-                // 특정 맵(생각의 방)은 자원 드랍 확률 자체가 평소보다 낮다. 그 외 맵은 배율이 1이라 항상 드랍된다.
-                if (Random.value > StageManager.ResourceDropRateMultiplier) continue;
+                if (Random.value > dropChance) continue;
 
                 if (biasedDropChance > 0f)
                     ResourcePickup.SpawnRandomDrop(transform.position, biasedDropType, biasedDropChance);
@@ -487,8 +489,13 @@ public class Enemy : MonoBehaviour
                     ResourcePickup.SpawnRandomDrop(transform.position);
             }
 
-            // 낮은 확률(1%)로 무기 아이템도 별도로 드랍한다.
-            WeaponPickup.TrySpawnRandomDrop(transform.position);
+            // 아주 낮은 확률(일반 0.2%, 정예/보스 3%)로 희귀자원도 따로 떨어뜨린다. 생각의 방 드랍 배율도 똑같이 곱한다.
+            float rareChance = IsEliteOrBoss ? ResourcePickup.EliteRareDropChance : ResourcePickup.CommonEnemyRareDropChance;
+            if (Random.value < rareChance * StageManager.ResourceDropRateMultiplier)
+                ResourcePickup.SpawnRareDrop(transform.position);
+
+            // 낮은 확률(일반 1%, 정예/보스 10%)로 무기 아이템도 별도로 드랍한다.
+            WeaponPickup.TrySpawnRandomDrop(transform.position, IsEliteOrBoss);
 
             // 직접 잡은 경우에만 표식이 옮겨 간다 (스테이지 클리어 정리 같은 강제 전멸에서는 안 옮긴다).
             SpreadMarkOnDeath();

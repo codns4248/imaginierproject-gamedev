@@ -35,6 +35,7 @@ public class GrenadeAttack : MonoBehaviour, IEnhanceableWeapon
 
     [Header("강화 1레벨당 변화량 (전체 축소 0.5배에 맞춘 값)")]
     public float intervalReductionPerWood = 0.05f; // 목재: 투척 간격 (10강에서 1 -> 0.5, 하한 0.3)
+    public float damagePerIron = 0.3f;             // 철(공격력): 레벨당 원래 공격력의 30%
     public float radiusPerCopper = 0.075f;         // 구리: 폭발 반지름 (10강에서 0.75 -> 1.5, 기본의 2배)
     public float speedPerOil = 0.6f;               // 기름: 투사체 속도 (10강에서 3 -> 9)
     public float delayReductionPerOil = 0.07f;     // 기름: 착탄 후 터지기까지의 딜레이 (10강에서 1 -> 0.3, 하한 0.2)
@@ -131,7 +132,7 @@ public class GrenadeAttack : MonoBehaviour, IEnhanceableWeapon
         switch (type)
         {
             case ResourceType.Wood: attackInterval = Mathf.Max(0.3f, attackInterval - intervalReductionPerWood); break;
-            case ResourceType.Iron: damage += 0.3f; break;
+            case ResourceType.Iron: damage += baseDamage * damagePerIron; break;
             case ResourceType.Copper: explosionRadius += radiusPerCopper; break;
             case ResourceType.Chemical: critChance = Mathf.Min(1f, critChance + 0.05f); break;
             case ResourceType.Oil:

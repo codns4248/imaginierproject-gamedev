@@ -75,13 +75,14 @@ public class WeaponPickup : MonoBehaviour
         return c != null ? c.GetPrefab(type) : null;
     }
 
-    // TODO: 드랍 확인 테스트용으로 10%로 올려둠. 확인 끝나면 0.01f(1%)로 되돌릴 것.
-    public const float DropChance = 0.1f;
+    // 밸런스 1차 조정(2026-10-25): 일반 몬스터 1% (한 층에 대략 0~1개), 정예/보스 10%.
+    public const float DropChance = 0.01f;
+    public const float EliteDropChance = 0.1f;
 
-    /// <summary>DropChance 확률로 무기 하나(5종류 중 랜덤)를 드랍한다. Enemy.Die() 등에서 호출한다.</summary>
-    public static void TrySpawnRandomDrop(Vector3 position)
+    /// <summary>DropChance(정예/보스는 EliteDropChance) 확률로 무기 하나(5종류 중 랜덤)를 드랍한다. Enemy.Die() 등에서 호출한다.</summary>
+    public static void TrySpawnRandomDrop(Vector3 position, bool elite = false)
     {
-        if (Random.value > DropChance) return;
+        if (Random.value > (elite ? EliteDropChance : DropChance)) return;
 
         WeaponType type = (WeaponType)Random.Range(0, 5);
         SpawnDrop(position, type);

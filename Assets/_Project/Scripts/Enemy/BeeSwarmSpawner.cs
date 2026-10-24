@@ -83,7 +83,7 @@ public class BeeSwarmSpawner : MonoBehaviour
         if (!inTargetTheme) return;
 
         timer += Time.deltaTime;
-        if (timer < waveInterval) return;
+        if (timer < waveInterval / MonsterDifficulty.SpawnRateMultiplier) return; // 층이 오를수록 웨이브가 잦아진다
 
         if (BeeAI.ActiveCount >= maxActiveBees) return; // 상한 넘으면 타이머만 흐르고 웨이브는 안 터짐(다음 틱에 재시도)
 
@@ -148,7 +148,7 @@ public class BeeSwarmSpawner : MonoBehaviour
                 // 맵 밖까지 날아갈 수 있으니, 피격 경직 중 넉백 클램프(맵 경계)에 걸리지 않도록 아주 크게 잡아둔다.
                 enemy.mapCenter = mapCenter;
                 enemy.mapHalfExtent = mapHalfExtent + 500f;
-                enemy.ApplyHealthMultiplier(MonsterDifficulty.HealthMultiplier);
+                MonsterDifficulty.ApplyTo(enemy);
             }
 
             BeeAI bee = go.GetComponent<BeeAI>();

@@ -31,9 +31,10 @@ public class StageExtraction : MonoBehaviour
     private const float RareGoodsChance = 0.2f;
 
     // 판매 가격 (자원 1~2종류 섞어서 지불). 회복약은 싸게, 무기는 비싸게, 희귀자원은 매우매우 비싸게.
-    private const int PotionCost = 3;
-    private const int WeaponCostPerType = 8;
-    private const int RareGoodsCostPerType = 20;
+    // 밸런스 1차 조정(2026-10-25): 강화 비용을 3배로 올린 것에 맞춰 가격도 약 3배 (3/8/20 -> 10/25/60).
+    private const int PotionCost = 10;
+    private const int WeaponCostPerType = 25;
+    private const int RareGoodsCostPerType = 60;
 
     private static readonly ResourceType[] CommonResourceTypes =
     {

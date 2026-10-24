@@ -25,13 +25,15 @@ public class EnemySpawner : MonoBehaviour
         // 플레이어가 사망하면 스폰도 함께 멈춘다.
         if (EnemyManager.PlayerDead) return;
 
+        // 층이 오를수록 스폰 간격이 짧아진다 (MonsterDifficulty.SpawnRateMultiplier).
         timer += Time.deltaTime;
-        if (timer < spawnInterval) return;
+        if (timer < spawnInterval / MonsterDifficulty.SpawnRateMultiplier) return;
         timer = 0f;
 
         // 현재 살아있는 적이 최대치 이상이면 이번 스폰 시도는 건너뛴다.
         // (개수가 다시 최대치 밑으로 내려가면 다음 간격에 자동으로 재개된다)
-        if (EnemyManager.ActiveEnemies.Count >= maxEnemies) return;
+        // 최대치는 층에 따라 늘어나는 값(MonsterDifficulty.MaxConcurrentEnemies)과 이 스포너의 maxEnemies 중 작은 쪽.
+        if (EnemyManager.ActiveEnemies.Count >= Mathf.Min(maxEnemies, MonsterDifficulty.MaxConcurrentEnemies)) return;
 
         Vector2 spawnPos = FindOffScreenPosition();
         GameObject enemyObj = Instantiate(enemyPrefab, spawnPos, Quaternion.identity);
@@ -44,8 +46,8 @@ public class EnemySpawner : MonoBehaviour
             enemy.mapCenter = mapCenter;
             enemy.mapHalfExtent = mapHalfExtent;
 
-            // 스테이지 진행에 따른 난이도 상승 - 지금은 체력만 실제로 늘어난다 (MonsterDifficulty 참고).
-            enemy.ApplyHealthMultiplier(MonsterDifficulty.HealthMultiplier);
+            // 스테이지 진행에 따른 난이도 상승 - 체력/이동속도/공격력 (MonsterDifficulty 참고).
+            MonsterDifficulty.ApplyTo(enemy);
         }
     }
 

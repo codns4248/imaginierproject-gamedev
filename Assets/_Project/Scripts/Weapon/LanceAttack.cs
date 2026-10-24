@@ -25,6 +25,7 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     [Header("속도 강화 (목재=공격 간격, 기름=찌르는/돌아오는 시간)")]
     // 최대 강화(10레벨)에서 간격 0.8 -> 0.4, 찌르기 0.13 -> 0.10, 돌아오기 0.2 -> 0.14가 되도록 잡았다 (검과 같은 비율).
     public float intervalReductionPerWood = 0.04f;
+    public float damagePerIron = 0.3f; // 철(공격력): 레벨당 원래 공격력의 30% (공격력이 다른 무기끼리도 같은 비율로 오른다)
     public float minAttackInterval = 0.2f;
     public float thrustOutReductionPerOil = 0.003f;
     public float thrustBackReductionPerOil = 0.006f;
@@ -211,7 +212,7 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
         switch (type)
         {
             case ResourceType.Wood: attackInterval = Mathf.Max(minAttackInterval, attackInterval - intervalReductionPerWood); break;
-            case ResourceType.Iron: damage += 0.3f; break;
+            case ResourceType.Iron: damage += baseDamage * damagePerIron; break;
             case ResourceType.Copper: hitRadius += baseHitRadius * rangeGrowthPerLevel; break;
             case ResourceType.Chemical: critChance = Mathf.Min(1f, critChance + 0.05f); break;
             // 발사체가 없는 근접무기라 "발사속도"는 찌르고 돌아오는 모션 자체를 빠르게 하는 것으로 대체.
