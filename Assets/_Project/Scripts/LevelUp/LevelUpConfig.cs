@@ -82,6 +82,7 @@ public class LevelUpConfig : ScriptableObject
     public Sprite barFill;
     public Sprite reviveIcon;
     public Sprite rageIcon;
+    public Sprite orbIcon; // 바닥에 떨어지는 경험치 구슬 그림 (비어 있으면 코드로 그린 임시 구체)
     [Tooltip("UI에서 그림 1픽셀을 몇 칸으로 키워 보일지 (픽셀 아트 배율)")]
     public float pixelScale = 3f;
 

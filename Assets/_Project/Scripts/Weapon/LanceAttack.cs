@@ -618,7 +618,9 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
         Vector2 axis = new Vector2(Mathf.Cos(rad), Mathf.Sin(rad));
         Vector2 tip = (Vector2)transform.position + axis * (WorldSpearLength() * 0.5f);
 
-        CircleFlash.Spawn(tip, radius, burstColor, 0.2f, spriteRenderer);
+        // 충격파 고리 (그림 속 고리가 충격 반경과 같아지게 약간 크게). 그림이 없으면 예전 원으로 대신한다.
+        if (PixelFx.Play("shock_ring", tip, radius * 2f * 1.16f) == null)
+            CircleFlash.Spawn(tip, radius, burstColor, 0.2f, spriteRenderer);
 
         // 후보는 충돌체로 넉넉하게 뽑고(적 충돌 원이 크므로 +0.6), 실제로는 몸통 원이 충격 원에 닿은 적만 맞힌다.
         foreach (Collider2D hit in Physics2D.OverlapCircleAll(tip, radius + 0.6f))

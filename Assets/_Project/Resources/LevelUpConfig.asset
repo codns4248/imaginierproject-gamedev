@@ -28,49 +28,49 @@ MonoBehaviour:
     description: "\uBAA8\uB4E0 \uBB34\uAE30\uC758 \uACF5\uACA9\uB825 {v}"
     perLevel: 0.1
     maxLevel: 5
-    icon: {fileID: 21300000, guid: 924de07b651bc3942ae2c8afa7067ebf, type: 3}
+    icon: {fileID: 21300000, guid: a34823fd6ae24054289e3cf6aa78d684, type: 3}
   - stat: 1
     title: "\uACF5\uACA9\uC18D\uB3C4"
     description: "\uBAA8\uB4E0 \uBB34\uAE30\uC758 \uACF5\uACA9 \uC18D\uB3C4 {v}"
     perLevel: 0.1
     maxLevel: 5
-    icon: {fileID: 21300000, guid: 4b96e41528f25be40b6964233b302592, type: 3}
+    icon: {fileID: 21300000, guid: f37e434f8afa64447b5ff37c2b23d548, type: 3}
   - stat: 2
     title: "\uACF5\uACA9 \uBC94\uC704"
     description: "\uBB34\uAE30\xB7\uD3ED\uBC1C\xB7\uD0C4 \uD06C\uAE30 {v}"
     perLevel: 0.1
     maxLevel: 5
-    icon: {fileID: 21300000, guid: 065e66474324a9f459577583dff2a17e, type: 3}
+    icon: {fileID: 21300000, guid: d13129d831f625346adb187ad3edf126, type: 3}
   - stat: 3
     title: "\uCE58\uBA85\uD0C0"
     description: "\uCE58\uBA85\uD0C0 \uD655\uB960 {v}"
     perLevel: 0.05
     maxLevel: 5
-    icon: {fileID: 21300000, guid: 8c434bef521481b449e92b93b50c5cc6, type: 3}
+    icon: {fileID: 21300000, guid: b85a6f641b466c0408664e3c1a68decc, type: 3}
   - stat: 4
     title: "\uD22C\uC0AC\uCCB4 \uC18D\uB3C4"
     description: "\uD0C4\xB7\uAC80\uAE30\xB7\uC218\uB958\uD0C4 \uC18D\uB3C4 {v}"
     perLevel: 0.1
     maxLevel: 5
-    icon: {fileID: 21300000, guid: b05eb13dbe0abb540a1f5118d9dcc4a5, type: 3}
+    icon: {fileID: 21300000, guid: ea63b3f0b60fece41a212e5cc37adc51, type: 3}
   - stat: 5
     title: "\uC774\uB3D9\uC18D\uB3C4"
     description: "\uC774\uB3D9 \uC18D\uB3C4 {v}"
     perLevel: 0.08
     maxLevel: 5
-    icon: {fileID: 21300000, guid: 0cd82e8a3aea51345b1c31d949043e3e, type: 3}
+    icon: {fileID: 21300000, guid: 947e2b2e7854b634197c5606b71579bd, type: 3}
   - stat: 6
     title: "\uCD5C\uB300 \uCCB4\uB825"
     description: "\uCD5C\uB300 \uCCB4\uB825 {v}, \uBC14\uB85C \uD68C\uBCF5"
     perLevel: 1
     maxLevel: 5
-    icon: {fileID: 21300000, guid: b1698ce191a2c704cbbe4d813e07db2f, type: 3}
+    icon: {fileID: 21300000, guid: e93708d677236414185f9574cb61b6de, type: 3}
   - stat: 7
     title: "\uACBD\uD5D8\uCE58"
     description: "\uACBD\uD5D8\uCE58 \uD68D\uB4DD\uB7C9 {v}"
     perLevel: 0.1
     maxLevel: 5
-    icon: {fileID: 21300000, guid: de41efb0e0c97a2499886941a391622e, type: 3}
+    icon: {fileID: 21300000, guid: 96b9f676b34a6f14e96c441c34627c45, type: 3}
   fillerCards:
   - kind: 0
     resource: 0
@@ -107,38 +107,38 @@ MonoBehaviour:
     title: "\uD76C\uADC0\uC790\uC6D0"
     description: "\uD76C\uADC0\uC790\uC6D0 {n}\uAC1C \uD68D\uB4DD"
     weight: 5
-    icon: {fileID: 21300000, guid: 16f13e7c16918b648b7f614cdd1f839a, type: 3}
+    icon: {fileID: 21300000, guid: fdede175914cec64f9e9ea82900967f2, type: 3}
   - kind: 1
     resource: 0
     title: "\uD68C\uBCF5\uC57D"
     description: "\uD68C\uBCF5\uC57D {n}\uAC1C \uD68D\uB4DD"
     weight: 12
-    icon: {fileID: 21300000, guid: e0a5f6a8b36a783488c2151df8bd4ba5, type: 3}
+    icon: {fileID: 21300000, guid: 64d30f041fd900144b282ff25623fcbf, type: 3}
   - kind: 2
     resource: 0
     title: "\uC790\uC11D"
     description: "\uB9F5\uC758 \uACBD\uD5D8\uCE58\xB7\uC790\uC6D0\uC744 \uC804\uBD80
       \uB04C\uC5B4\uC634"
     weight: 10
-    icon: {fileID: 21300000, guid: b773e15da14fcb1498acde255a11be23, type: 3}
+    icon: {fileID: 21300000, guid: 7318d4cec7aa5354986980ed92451bc9, type: 3}
   - kind: 3
     resource: 0
     title: "\uD3ED\uD0C4"
     description: "\uD654\uBA74 \uC548 \uBAA8\uB4E0 \uC801\uC5D0\uAC8C \uD070 \uD53C\uD574"
     weight: 10
-    icon: {fileID: 21300000, guid: 20cc9ed985fbb4244958c51a4ebc7b75, type: 3}
+    icon: {fileID: 21300000, guid: d8afdb6568ff80e439c76a796a5e18da, type: 3}
   - kind: 4
     resource: 0
     title: "\uBD84\uB178"
     description: "{s}\uCD08 \uB3D9\uC548 \uACF5\uACA9\uB825 +{p}%"
     weight: 10
-    icon: {fileID: 21300000, guid: 7da9dbdd16aeab4419704e9af3aa5d4d, type: 3}
+    icon: {fileID: 21300000, guid: 36370bf1d2d5b544c8abe6f168a96836, type: 3}
   - kind: 5
     resource: 0
     title: "\uBD80\uD65C"
     description: "\uBD80\uD65C \uD69F\uC218 +1"
     weight: 3
-    icon: {fileID: 21300000, guid: 67aa81512389ea246a5144400a5f94ea, type: 3}
+    icon: {fileID: 21300000, guid: c2204d5f8cff87948af9a52e11918ace, type: 3}
   resourceCardBaseAmount: 15
   resourceCardAmountPerStage: 3
   rareCardBaseAmount: 1
@@ -160,6 +160,7 @@ MonoBehaviour:
   corners: {fileID: 21300000, guid: bbd61a5859110e14f85d40278270ed86, type: 3}
   titleBanner: {fileID: 21300000, guid: b94089770ac4e3e45a6bf3ef62e3a8a8, type: 3}
   barFill: {fileID: 21300000, guid: cd42470622f5f15479b23685390aa953, type: 3}
-  reviveIcon: {fileID: 21300000, guid: 67aa81512389ea246a5144400a5f94ea, type: 3}
-  rageIcon: {fileID: 21300000, guid: 7da9dbdd16aeab4419704e9af3aa5d4d, type: 3}
+  reviveIcon: {fileID: 21300000, guid: c2204d5f8cff87948af9a52e11918ace, type: 3}
+  rageIcon: {fileID: 21300000, guid: 36370bf1d2d5b544c8abe6f168a96836, type: 3}
+  orbIcon: {fileID: 21300000, guid: 7fb0033a08d5ec34ba7364711258ed23, type: 3}
   pixelScale: 3

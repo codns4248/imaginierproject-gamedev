@@ -17,6 +17,9 @@ public class GrenadeBurn : MonoBehaviour
     private Enemy target;
     private SpriteRenderer targetSprite;
     private SpriteRenderer sr;
+    private Sprite[] frames;     // 불꽃 그림 프레임 (없으면 코드로 그린 불꽃)
+    private float frameFps = 8f;
+    private float framePixels = 1f;
     private int stacks;
     private int maxStacks;
     private float damagePerStackPerSecond;
@@ -76,6 +79,7 @@ public class GrenadeBurn : MonoBehaviour
         burn.sr = go.AddComponent<SpriteRenderer>();
         burn.sr.sprite = GetFlameSprite();
         burn.sr.color = new Color(1f, 0.5f, 0.12f, 0.85f);
+        burn.frames = PixelFx.GetFrames("burn_flame", out burn.frameFps, out burn.framePixels); // 그림이 있으면 그걸 쓴다
         if (burn.targetSprite != null)
         {
             burn.sr.sortingLayerID = burn.targetSprite.sortingLayerID;
@@ -134,6 +138,18 @@ public class GrenadeBurn : MonoBehaviour
     private void Follow()
     {
         Vector3 center = targetSprite != null ? targetSprite.bounds.center : target.transform.position;
+        if (frames != null)
+        {
+            // 그림 불꽃: 프레임을 돌려 재생하고, 불꽃 밑동(그림의 기준점)을 적 몸 아래쪽에 둔다. 중첩이 많을수록 커진다.
+            sr.sprite = frames[Mathf.FloorToInt(Time.time * frameFps + (GetInstanceID() & 7)) % frames.Length];
+            sr.color = Color.white;
+            float baseY = targetSprite != null ? targetSprite.bounds.center.y - targetSprite.bounds.extents.y * 0.5f : center.y;
+            float s = (0.28f + 0.05f * stacks) / framePixels;
+            transform.position = new Vector3(center.x, baseY, target.transform.position.z);
+            transform.localScale = new Vector3(s, s, 1f);
+            return;
+        }
+
         float flicker = 1f + 0.12f * Mathf.Sin(Time.time * 17f + GetInstanceID());
         float size = 0.2f + 0.04f * stacks;
 

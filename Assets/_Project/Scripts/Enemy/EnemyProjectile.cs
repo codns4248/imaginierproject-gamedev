@@ -19,7 +19,9 @@ public class EnemyProjectile : MonoBehaviour
         // 붉은 원 스프라이트는 코드로 즉석에서 그린 것(에셋 파일이 없음)이라 프리팹에 그대로
         // 저장되지 않는다. ExplosionZone과 마찬가지로 매번 실행 시점에 직접 채워준다.
         SpriteRenderer sr = GetComponent<SpriteRenderer>();
-        if (sr != null && sr.sprite == null) sr.sprite = ExplosionZone.GetCircleSprite();
+        Sprite art = PixelFxLibrary.GetSprite("enemy_shot");
+        if (sr != null && art != null) { sr.sprite = art; sr.color = Color.white; }
+        else if (sr != null && sr.sprite == null) sr.sprite = ExplosionZone.GetCircleSprite();
     }
 
     void Start()

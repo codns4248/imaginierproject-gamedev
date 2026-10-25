@@ -36,7 +36,8 @@ public class GrenadeAttack : MonoBehaviour, IEnhanceableWeapon
     [Header("강화 1레벨당 변화량 (전체 축소 0.5배에 맞춘 값)")]
     public float intervalReductionPerWood = 0.05f; // 목재: 투척 간격 (10강에서 1 -> 0.5, 하한 0.3)
     public float damagePerIron = 0.3f;             // 철(공격력): 레벨당 원래 공격력의 30%
-    public float radiusPerCopper = 0.075f;         // 구리: 폭발 반지름 (10강에서 0.75 -> 1.5, 기본의 2배)
+    public float radiusPerCopper = 0.03f;          // 구리: 폭발 반지름 (10강에서 0.75 -> 1.05, 기본의 1.4배. 예전 0.075는 너무 컸다)
+    public float levelUpRangeEffect = 0.4f;        // 레벨업 "공격 범위" 카드가 수류탄 폭발에 주는 효과 비율 (1이면 다른 무기와 같이 +50%, 0.4면 +20%)
     public float speedPerOil = 0.6f;               // 기름: 투사체 속도 (10강에서 3 -> 9)
     public float delayReductionPerOil = 0.07f;     // 기름: 착탄 후 터지기까지의 딜레이 (10강에서 1 -> 0.3, 하한 0.2)
     public float rangePerOil = 0.15f;              // 기름: 최대 투척 거리 (10강에서 3 -> 4.5)
@@ -281,7 +282,7 @@ public class GrenadeAttack : MonoBehaviour, IEnhanceableWeapon
         {
             owner = this,
             damage = damage,
-            radius = explosionRadius * PlayerRunStats.RangeMultiplier, // 레벨업 공격 범위 (작은 수류탄/중력/독구름도 이 반경 기준)
+            radius = explosionRadius * (1f + (PlayerRunStats.RangeMultiplier - 1f) * levelUpRangeEffect), // 레벨업 공격 범위 (작은 수류탄/중력/독구름도 이 반경 기준)
             delay = explosionDelay,
             generation = 0,
             bouncesLeft = woodTier == TierHigh ? 2 : woodTier == TierLow ? 1 : 0,
@@ -345,6 +346,10 @@ public class GrenadeAttack : MonoBehaviour, IEnhanceableWeapon
 
         float blastDamage = shot.damage * (copperTier == TierHigh ? gravityBlastDamageTier10 : 1f);
         float dealt = CriticalHit.Roll(blastDamage, critChance, critMultiplier, out bool isCrit);
+
+        // 폭발 애니메이션 (그림 속 충격파 고리가 폭발 반경과 같은 크기가 되도록 약간 크게 그린다)
+        // 중력탄(구리 5강 이상)은 전용 폭발(보라색 안으로 빨려 드는 폭발)을 쓴다.
+        PixelFx.Play(copperTier > 0 ? "gravity_explosion" : "explosion", position, shot.radius * 2f * 1.08f);
 
         // 1) 폭발 피해 (+ 화상)
         int count = Physics2D.OverlapCircle(position, shot.radius, triggerFilter, hitBuffer);

@@ -25,8 +25,14 @@ public class CircleFlash : MonoBehaviour
         ActiveCount = 0;
     }
 
+    // 범위를 보여 주는 원은 이제 벼락 날씨/적 공격 범위 표시에만 쓰기로 해서, 플레이어 무기/카드 쪽 호출은 아무것도 그리지 않는다.
+    // (예전 모양이 다시 필요하면 이 값만 true로)
+    public static bool Enabled = false;
+
     public static void Spawn(Vector2 position, float radius, Color color, float duration, SpriteRenderer sortingSource)
     {
+        if (!Enabled) return;
+
         GameObject go = new GameObject("CircleFlash");
         go.transform.position = position;
 

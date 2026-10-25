@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef1c2c281121be0408b0ec9b357cc6c7, type: 3}
+  m_Name: PixelFxLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::PixelFxLibrary
+  clips:
+  - id: explosion
+    sheet: {fileID: 2800000, guid: 082a4e13d7fdc1d4bbe52360852f2f68, type: 3}
+    columns: 3
+    rows: 2
+    frameCount: 4
+    fps: 20
+    pivot: {x: 0.5, y: 0.5}
+    worldWidth: 1.6
+    loop: 0
+  - id: hit_spark
+    sheet: {fileID: 2800000, guid: baff5b349d592de468831e46df19a8d1, type: 3}
+    columns: 3
+    rows: 2
+    frameCount: 4
+    fps: 32
+    pivot: {x: 0.5, y: 0.457}
+    worldWidth: 0.45
+    loop: 0
+  - id: death_smoke
+    sheet: {fileID: 2800000, guid: 0df9efea46832b449a1652e41b2ecef7, type: 3}
+    columns: 3
+    rows: 3
+    frameCount: 5
+    fps: 24
+    pivot: {x: 0.46, y: 0.536}
+    worldWidth: 0.6
+    loop: 0
+  - id: burn_flame
+    sheet: {fileID: 2800000, guid: 6598219077b48594ea65060ec5578ae2, type: 3}
+    columns: 3
+    rows: 2
+    frameCount: 6
+    fps: 16
+    pivot: {x: 0.5, y: 0.27}
+    worldWidth: 0.3
+    loop: 1
+  - id: poison_cloud
+    sheet: {fileID: 2800000, guid: df3b99f7d31101a478d00c1224f5f0d8, type: 3}
+    columns: 3
+    rows: 2
+    frameCount: 6
+    fps: 14
+    pivot: {x: 0.5, y: 0.5}
+    worldWidth: 1
+    loop: 1
+  - id: gravity_sigil
+    sheet: {fileID: 2800000, guid: 3fd50f4347ba00444b78afcc8586f39e, type: 3}
+    columns: 3
+    rows: 2
+    frameCount: 6
+    fps: 18
+    pivot: {x: 0.5, y: 0.5}
+    worldWidth: 1
+    loop: 1
+  - id: shock_ring
+    sheet: {fileID: 2800000, guid: 67bd18ce0ddd533498bc2f60c776ea3e, type: 3}
+    columns: 3
+    rows: 2
+    frameCount: 4
+    fps: 18
+    pivot: {x: 0.5, y: 0.5}
+    worldWidth: 1
+    loop: 0
+  - id: gravity_explosion
+    sheet: {fileID: 2800000, guid: e3dd090f76e37d14090df4b8fb099040, type: 3}
+    columns: 3
+    rows: 2
+    frameCount: 3
+    fps: 14
+    pivot: {x: 0.5, y: 0.5}
+    worldWidth: 1
+    loop: 0
+  - id: black_hole
+    sheet: {fileID: 2800000, guid: 0ea69dc33e7ec0644a0381c5aab0b5b6, type: 3}
+    columns: 3
+    rows: 3
+    frameCount: 9
+    fps: 14
+    pivot: {x: 0.5, y: 0.5}
+    worldWidth: 1
+    loop: 1
+  stills:
+  - id: sword_wave
+    sprite: {fileID: 21300000, guid: d5c8c5e2e5edf4b42a3129d4b0e3fc9d, type: 3}
+  - id: enemy_shot
+    sprite: {fileID: 21300000, guid: 4c318fef44bd7d54db4464ab531920af, type: 3}
+  - id: mark
+    sprite: {fileID: 21300000, guid: 90bf5dca617f7e6409720b22a35b2191, type: 3}
+  - id: stun_stars
+    sprite: {fileID: 21300000, guid: 0d3c762b63bed2943ad6d7367f0ae3c6, type: 3}

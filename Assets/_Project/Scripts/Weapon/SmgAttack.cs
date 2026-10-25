@@ -501,7 +501,8 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
             e.Hit(away.normalized, blastDamage, crit && big, 0.5f);
         }
 
-        if (FxAvailable())
+        // 작은 폭발: 수류탄과 같은 폭발 그림을 크기만 줄여서 쓴다. 그림이 없거나 이펙트가 너무 많으면 예전 원으로 대신한다.
+        if (PixelFx.Play("explosion", center, radius * 2f * 1.08f) == null && FxAvailable())
             CircleFlash.Spawn(center, radius, blastColor, big ? 0.22f : 0.12f, weaponSprite);
     }
 }

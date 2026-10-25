@@ -35,6 +35,7 @@ public class XpOrb : MonoBehaviour
     private bool forceAttracted;
     private float forceAttractTimer;
     private float blinkPhase;
+    private bool usesArt;
 
     // 에디터에서 Domain Reload 없이 재생을 반복해도 이전 플레이의 목록이 남지 않게 한다.
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
@@ -51,12 +52,15 @@ public class XpOrb : MonoBehaviour
         GameObject go = new GameObject("XpOrb");
         go.transform.position = position;
         float size = cfg.orbSize * (elite ? cfg.eliteOrbSizeMultiplier : 1f);
+        // 그림 구슬은 칸 안에 여백이 있어서 조금 크게 그려야 orbSize와 같은 크기로 보인다.
+        if (cfg.orbIcon != null) size *= 1.25f * cfg.orbIcon.pixelsPerUnit / cfg.orbIcon.rect.width * 1f;
         go.transform.localScale = new Vector3(size, size, 1f);
 
         XpOrb orb = go.AddComponent<XpOrb>();
         orb.xp = LevelUpSystem.OrbXpFor(elite);
         orb.sr = go.AddComponent<SpriteRenderer>();
-        orb.sr.sprite = GetOrbSprite();
+        orb.sr.sprite = cfg.orbIcon != null ? cfg.orbIcon : GetOrbSprite();
+        orb.usesArt = cfg.orbIcon != null;
         orb.sr.sortingOrder = 2; // 자원 아이템과 같은 층
         orb.blinkPhase = Random.value * Mathf.PI * 2f;
         orb.StartCoroutine(orb.PopRoutine(position));
@@ -134,7 +138,8 @@ public class XpOrb : MonoBehaviour
     {
         if (sr == null) return;
         float t = 0.5f + 0.5f * Mathf.Sin(Time.time * 9f + blinkPhase);
-        sr.color = Color.Lerp(ColorA, ColorB, t);
+        // 그림 구슬은 색을 입히지 않고 밝기만 살짝 깜빡인다 (노란 쪽으로 약간 번짐).
+        sr.color = usesArt ? Color.Lerp(Color.white, new Color(1f, 1f, 0.6f), t * 0.6f) : Color.Lerp(ColorA, ColorB, t);
     }
 
     private void ForceAttract()

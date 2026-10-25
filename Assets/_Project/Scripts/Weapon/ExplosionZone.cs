@@ -34,6 +34,8 @@ public class ExplosionZone : MonoBehaviour
         sr.sprite = GetCircleSprite();
         sr.color = new Color(1f, 0f, 0f, 0.4f); // 붉고 반투명
         sr.sortingOrder = 3; // 바닥보다 위, 캐릭터/적보다는 아래
+        // 범위 표시 원은 쓰지 않는다 (벼락 날씨/적 공격 범위에만 쓰기로 함). 폭발 판정과 딜레이는 그대로 동작한다.
+        sr.enabled = false;
 
         // 스프라이트는 지름 1유닛짜리로 만들어뒀으니, 원하는 지름(반지름*2)만큼 늘려서 크기를 맞춘다.
         transform.localScale = new Vector3(radius * 2f, radius * 2f, 1f);
@@ -69,19 +71,34 @@ public class ExplosionZone : MonoBehaviour
         GameObject go = new GameObject("PullRing");
         go.transform.SetParent(transform, false);
         var ringSr = go.AddComponent<SpriteRenderer>();
+        // 블랙홀 한가운데를 검게 채우는 원판 (범위 표시가 아니라 블랙홀 그림의 일부). 소용돌이 애니메이션 바로 아래에 깐다.
         ringSr.sprite = GetCircleSprite();
-        ringSr.color = new Color(0.55f, 0.3f, 1f, 0.22f);
-        ringSr.sortingOrder = 2; // 붉은 경고 범위 바로 아래
+        ringSr.color = new Color(0.02f, 0f, 0.05f, 0.92f);
+        ringSr.sortingOrder = 1;
+        ringSr.enabled = false; // 새 블랙홀 그림은 가운데가 이미 검게 채워져 있어서 원판이 필요 없다
         pullRing = go.transform;
+
+        // 빠르게 도는 블랙홀 소용돌이
+        pullFx = PixelFx.Play("black_hole", transform.position, pullRadius * 2f * 1.15f, Color.white, 7); // 바닥의 수류탄(6)과 적(4)보다 위에 그려서, 블랙홀이 수류탄과 끌려오는 적을 덮는다
         UpdatePullRing();
+    }
+
+    private PixelFx pullFx;
+
+    void OnDestroy()
+    {
+        if (pullFx != null) pullFx.Stop();
     }
 
     // 끌어당기는 범위 원: 처음엔 pullRadius 크기, 터지는 순간 폭발 범위 크기가 되도록 줄어든다 (부모가 폭발 지름만큼 늘어나 있으니 비율로 준다).
     private void UpdatePullRing()
     {
         float t = totalDelay > 0f ? 1f - Mathf.Clamp01(timer / totalDelay) : 1f;
+        // 블랙홀처럼: 대부분의 시간은 넓게 버티다가 마지막 40%에서 갑자기 (3제곱으로) 폭발 범위까지 확 빨려 들어간다.
+        t = Mathf.Pow(Mathf.Clamp01((t - 0.6f) / 0.4f), 3f);
         float scale = Mathf.Lerp(pullRadius / radius, 1f, t);
-        pullRing.localScale = new Vector3(scale, scale, 1f);
+        pullRing.localScale = new Vector3(scale * 0.58f, scale * 0.58f, 1f); // 검은 원판은 소용돌이 안쪽만 채운다
+        if (pullFx != null) pullFx.SetWorldWidth(Mathf.Lerp(pullRadius, radius, t) * 2f * 1.15f);
     }
 
     void Update()

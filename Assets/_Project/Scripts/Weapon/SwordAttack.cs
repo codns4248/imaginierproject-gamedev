@@ -110,7 +110,7 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     public int waveEvery = 4;                   // 5단계: 이 횟수째 스윙마다 검기 한 번 (10단계는 매 스윙, 이 횟수째는 3갈래)
     public float waveDamageMultiplier = 0.6f;   // 검기 데미지 = 그 스윙 데미지(치명타/강타/자동 회전 감소 반영)의 이 배율
     public float waveSpeed = 7.5f;              // 플레이어 투사체(Projectile.prefab speed 5)의 1.5배
-    public float waveRadius = 0.2f;             // 임시 파란 원 반지름 (크기는 눈으로 보고 조절)
+    public float waveRadius = 0.4f;             // 검기 반지름 (기본 크기). 실제로는 공격 범위 강화(구리 + 레벨업)에 비례해서 커진다
     public float waveRange = 4f;                // 최대 사거리
     public float waveKnockbackMultiplier = 0.5f;
     public float waveFanAngle = 20f;            // 10단계 3갈래: 가운데 검기에서 양옆으로 벌어지는 각도
@@ -718,7 +718,7 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
 
     private void SpawnWave(Vector2 origin, float angle)
     {
-        SwordWave.Spawn(this, origin, angle, waveSpeed * PlayerRunStats.ProjectileSpeedMultiplier, waveRadius, waveRange, waveDamage, waveCrit,
+        SwordWave.Spawn(this, origin, angle, waveSpeed * PlayerRunStats.ProjectileSpeedMultiplier, waveRadius * (baseHitRadius > 0f ? hitRadius / baseHitRadius : 1f), waveRange, waveDamage, waveCrit,
             waveKnockbackMultiplier, waveColor, spriteRenderer);
     }
 

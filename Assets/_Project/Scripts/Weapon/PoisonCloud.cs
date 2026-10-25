@@ -49,6 +49,9 @@ public class PoisonCloud : MonoBehaviour
         cloud.sr = go.AddComponent<SpriteRenderer>();
         cloud.sr.sprite = ExplosionZone.GetCircleSprite();
         cloud.sr.sortingOrder = 3; // 바닥보다 위, 캐릭터/적보다는 아래 (폭발 경고 범위와 같은 층)
+        // 그림(반복 재생되는 초록 구름)이 있으면 그걸 쓰고 원 스프라이트는 끈다. 그림 속 구름이 프레임의 약 85%라 그만큼 키워 반경에 맞춘다.
+        cloud.fx = PixelFx.Play("poison_cloud", position, radius * 2f * 1.18f, new Color(1f, 1f, 1f, 0f), 3);
+        if (cloud.fx != null) cloud.sr.enabled = false;
         cloud.radius = radius;
         cloud.damagePerSecond = damagePerSecond;
         cloud.duration = duration;
@@ -62,7 +65,10 @@ public class PoisonCloud : MonoBehaviour
     void OnDestroy()
     {
         active.Remove(this);
+        if (fx != null) fx.Stop();
     }
+
+    private PixelFx fx; // 반복 재생 중인 구름 그림 (없으면 예전 원 스프라이트를 쓴다)
 
     void Update()
     {
@@ -98,6 +104,13 @@ public class PoisonCloud : MonoBehaviour
     {
         float fade = Mathf.Min(1f, Mathf.Min(elapsed, duration - elapsed) / FadeTime);
         float wobble = 0.85f + 0.15f * Mathf.Sin(Time.time * 4f + GetInstanceID());
+        if (fx != null)
+        {
+            // 그림 구름은 불투명하게 그려져 있어서 반투명하게 깔고, 처음과 끝에 서서히 나타나고 사라진다.
+            fx.SetColor(new Color(1f, 1f, 1f, 0.7f * Mathf.Clamp01(fade)));
+            return;
+        }
+
         Color c = CloudColor;
         c.a *= Mathf.Clamp01(fade) * wobble;
         sr.color = c;

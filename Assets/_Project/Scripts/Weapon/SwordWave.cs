@@ -31,8 +31,11 @@ public class SwordWave : MonoBehaviour
         go.transform.localScale = Vector3.one * (radius * 2f); // 스프라이트 지름이 1유닛이라 반지름x2
 
         SpriteRenderer sr = go.AddComponent<SpriteRenderer>();
-        sr.sprite = GetCircleSprite();
-        sr.color = color;
+        Sprite art = PixelFxLibrary.GetSprite("sword_wave");
+        sr.sprite = art != null ? art : GetCircleSprite();
+        sr.color = art != null ? Color.white : color;
+        // 그림의 초승달은 오른쪽 아래로 볼록하게(-45도 방향) 그려져 있어서, 진행 방향에 맞게 45도 더 돌려 준다.
+        if (art != null) go.transform.rotation = Quaternion.Euler(0f, 0f, angleDegrees + 45f);
         if (sortingSource != null)
         {
             sr.sortingLayerID = sortingSource.sortingLayerID;

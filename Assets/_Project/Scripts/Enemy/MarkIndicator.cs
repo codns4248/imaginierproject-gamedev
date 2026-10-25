@@ -18,8 +18,9 @@ public class MarkIndicator : MonoBehaviour
         mark.ownerSprite = owner.GetComponent<SpriteRenderer>();
 
         mark.sr = go.AddComponent<SpriteRenderer>();
-        mark.sr.sprite = GetReticleSprite();
-        mark.sr.color = new Color(1f, 0.25f, 0.2f, 0.95f);
+        Sprite art = PixelFxLibrary.GetSprite("mark");
+        mark.sr.sprite = art != null ? art : GetReticleSprite();
+        mark.sr.color = art != null ? Color.white : new Color(1f, 0.25f, 0.2f, 0.95f);
         if (mark.ownerSprite != null)
         {
             mark.sr.sortingLayerID = mark.ownerSprite.sortingLayerID;

@@ -84,6 +84,7 @@ public class Enemy : MonoBehaviour
     private float markDamageTakenMultiplier = 1f;
     private float markSpreadRadius;
     private MarkIndicator markIndicator;
+    private StunIndicator stunIndicator;
 
     // Pull()로 걸리는 끌어당김 (수류탄 구리 강화 "중력탄"). 매 프레임 다시 걸어줘야 유지되고, 끊기면 pullTimer가 다 되는 대로 풀린다.
     private Vector2 pullVelocity;
@@ -559,6 +560,7 @@ public class Enemy : MonoBehaviour
         hitStunTimer = Mathf.Max(hitStunTimer, duration);
         knockbackVelocity = Vector2.zero; // 기절은 밀어내지 않는다 (제자리에서 멈춘다)
         if (spriteAnimator != null) spriteAnimator.Pause(duration);
+        if (stunIndicator == null) stunIndicator = StunIndicator.Create(this); // 머리 위에 별
     }
 
     // duration초 동안 표식을 건다: 표식이 걸려 있는 동안 어떤 무기에게든 받는 피해에 damageTakenMultiplier가 곱해진다.
