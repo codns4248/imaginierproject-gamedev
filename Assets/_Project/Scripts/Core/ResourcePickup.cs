@@ -7,12 +7,12 @@ using UnityEngine;
 public class ResourcePickup : MonoBehaviour
 {
     // 일반 몬스터가 자원을 떨어뜨릴 확률 (정예/보스는 항상 떨어뜨린다, Enemy.Die 참고).
-    // 밸런스 1차 조정(2026-10-25): 100% -> 50% (강화 비용을 올린 것과 같이 자원 수급 속도를 맞춘 값).
-    public const float CommonEnemyDropChance = 0.5f;
+    // 밸런스 1차(10-25): 100% -> 50%, 2차(10-26): 50% -> 30% (몬스터가 약 2배로 늘어서 자원 수급이 비슷하게 유지되도록).
+    public const float CommonEnemyDropChance = 0.3f;
 
     // 희귀자원은 위의 일반 자원과 따로 굴린다. 말 그대로 희귀하게: 한 층(일반 약 80마리 + 정예 몇 마리)에서
     // 평균 0.25개 정도 = 대략 4층에 하나. 상인에게서도 살 수 있다.
-    public const float CommonEnemyRareDropChance = 0.002f; // 일반 몬스터 0.2%
+    public const float CommonEnemyRareDropChance = 0.001f; // 일반 몬스터 0.1% (몬스터가 약 2배 늘어서 절반으로)
     public const float EliteRareDropChance = 0.03f;        // 정예/보스 3%
 
     public ResourceType resourceType;

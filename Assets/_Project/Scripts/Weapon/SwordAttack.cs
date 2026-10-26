@@ -108,9 +108,10 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     //   360도 회전/상시 회전, 자동      -> 무작위 방향
     [Header("특수효과: 구리(범위) - 검기")]
     public int waveEvery = 4;                   // 5단계: 이 횟수째 스윙마다 검기 한 번 (10단계는 매 스윙, 이 횟수째는 3갈래)
-    public float waveDamageMultiplier = 0.6f;   // 검기 데미지 = 그 스윙 데미지(치명타/강타/자동 회전 감소 반영)의 이 배율
+    public float waveDamageMultiplier = 0.5f;   // 검기 데미지 = 그 스윙 데미지(치명타/강타/자동 회전 감소 반영)의 이 배율
     public float waveSpeed = 7.5f;              // 플레이어 투사체(Projectile.prefab speed 5)의 1.5배
-    public float waveRadius = 0.4f;             // 검기 반지름 (기본 크기). 실제로는 공격 범위 강화(구리 + 레벨업)에 비례해서 커진다
+    public float waveSizeRatio = 0.65f;     // 검기 그림의 위아래 길이 = 검이 휘두르는 호의 양 끝 사이 직선 거리(SwingChord, 기본 약 1.9) x 이 값 = 기본 약 1.24 (공격 범위 강화에 따라 같이 커진다). 값을 바꿀 때 프리팹에 저장된 값이 우선하니 인스펙터/프리팹 값도 같이 확인할 것
+    public float waveRadius = 0.5f;             // 검기 반지름 (기본 크기). 실제로는 공격 범위 강화(구리 + 레벨업)에 비례해서 커진다
     public float waveRange = 4f;                // 최대 사거리
     public float waveKnockbackMultiplier = 0.5f;
     public float waveFanAngle = 20f;            // 10단계 3갈래: 가운데 검기에서 양옆으로 벌어지는 각도
@@ -716,10 +717,13 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
         }
     }
 
+    // 검 끝이 휘두르는 호의 양 끝 사이 직선 거리 (검 끝까지의 거리 = 궤도 + 판정 반경 = MaxReach). 기본 약 1.9. 공격 범위 강화에 따라 같이 커진다.
+    private float SwingChord => 2f * MaxReach * Mathf.Sin(swingAngle * 0.5f * Mathf.Deg2Rad);
+
     private void SpawnWave(Vector2 origin, float angle)
     {
         SwordWave.Spawn(this, origin, angle, waveSpeed * PlayerRunStats.ProjectileSpeedMultiplier, waveRadius * (baseHitRadius > 0f ? hitRadius / baseHitRadius : 1f), waveRange, waveDamage, waveCrit,
-            waveKnockbackMultiplier, waveColor, spriteRenderer);
+            waveKnockbackMultiplier, waveColor, spriteRenderer, SwingChord * waveSizeRatio);
     }
 
     // 검기가 적을 맞혔을 때 SwordWave가 돌려주는 콜백: 검 본체와 같은 화학물질(기절)/기름(질주) 효과를 적용한다.

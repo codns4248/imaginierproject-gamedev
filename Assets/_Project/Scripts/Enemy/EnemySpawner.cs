@@ -13,11 +13,24 @@ public class EnemySpawner : MonoBehaviour
     public string restrictToTheme = "";
 
     private Camera mainCamera;
+    private bool isEliteSpawner;
+    private int specialUnlockStage; // 0이면 일반 몬스터. 특수 패턴 몬스터는 이 층부터 점점 나온다.
+    private int specialRampFloors;
     private float timer;
 
     void Start()
     {
         mainCamera = Camera.main;
+        Enemy prefabEnemy = enemyPrefab != null ? enemyPrefab.GetComponent<Enemy>() : null;
+        isEliteSpawner = prefabEnemy != null && prefabEnemy.IsEliteOrBoss;
+
+        // 특수 패턴 몬스터는 초반에 안 나오고 층이 오를수록 점점 늘어난다 (MonsterDifficulty.SpecialSpawnChance).
+        if (enemyPrefab != null)
+        {
+            if (enemyPrefab.GetComponent<ChargeEnemyAI>() != null) { specialUnlockStage = 4; specialRampFloors = 6; }
+            else if (enemyPrefab.GetComponent<AmbushCasterAI>() != null) { specialUnlockStage = 5; specialRampFloors = 6; }
+            else if (enemyPrefab.GetComponent<RangedEnemyAI>() != null) { specialUnlockStage = 6; specialRampFloors = 8; }
+        }
     }
 
     void Update()
@@ -27,13 +40,16 @@ public class EnemySpawner : MonoBehaviour
 
         // 층이 오를수록 스폰 간격이 짧아진다 (MonsterDifficulty.SpawnRateMultiplier).
         timer += Time.deltaTime;
-        if (timer < spawnInterval / MonsterDifficulty.SpawnRateMultiplier) return;
+        if (timer < spawnInterval / MonsterDifficulty.SpawnRateFor(isEliteSpawner)) return;
         timer = 0f;
+
+        // 특수 패턴 몬스터는 확률적으로 건너뛴다 (초반엔 거의 안 나오고 갈수록 100%에 가까워진다).
+        if (specialUnlockStage > 0 && Random.value > MonsterDifficulty.SpecialSpawnChance(specialUnlockStage, specialRampFloors)) return;
 
         // 현재 살아있는 적이 최대치 이상이면 이번 스폰 시도는 건너뛴다.
         // (개수가 다시 최대치 밑으로 내려가면 다음 간격에 자동으로 재개된다)
-        // 최대치는 층에 따라 늘어나는 값(MonsterDifficulty.MaxConcurrentEnemies)과 이 스포너의 maxEnemies 중 작은 쪽.
-        if (EnemyManager.ActiveEnemies.Count >= Mathf.Min(maxEnemies, MonsterDifficulty.MaxConcurrentEnemies)) return;
+        // 최대치는 층에 따라 늘어나는 전체 값(MonsterDifficulty.MaxConcurrentEnemies)이다 (이 스포너의 maxEnemies 필드는 더 이상 쓰이지 않는다).
+        if (EnemyManager.ActiveEnemies.Count >= MonsterDifficulty.MaxConcurrentEnemies) return;
 
         Vector2 spawnPos = FindOffScreenPosition();
         GameObject enemyObj = Instantiate(enemyPrefab, spawnPos, Quaternion.identity);

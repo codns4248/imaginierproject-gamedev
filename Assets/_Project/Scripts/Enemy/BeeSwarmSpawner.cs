@@ -85,6 +85,9 @@ public class BeeSwarmSpawner : MonoBehaviour
         timer += Time.deltaTime;
         if (timer < waveInterval / MonsterDifficulty.SpawnRateMultiplier) return; // 층이 오를수록 웨이브가 잦아진다
 
+        // 벌떼는 7층부터 점점 나온다 (6층 이하에서는 웨이브를 건너뛴다).
+        if (Random.value > MonsterDifficulty.SpecialSpawnChance(7, 6)) { timer = 0f; return; }
+
         if (BeeAI.ActiveCount >= maxActiveBees) return; // 상한 넘으면 타이머만 흐르고 웨이브는 안 터짐(다음 틱에 재시도)
 
         if (!TryFindWaveCorner(out Vector2 corner)) return; // 조건 안 맞으면 그냥 스킵 (강제로 아무 데나 스폰 안 함)

@@ -112,6 +112,8 @@ MonoBehaviour:
   allowFlip: 0
   externalControl: 0
   isHeld: 0
+  useAngleOverride: 0
+  angleOverride: 0
 --- !u!114 &7718261064080690343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127,10 +129,50 @@ MonoBehaviour:
   attackInterval: 0.9
   swingAngle: 120
   swingDuration: 0.3
+  intervalReductionPerWood: 0.04
+  damagePerIron: 0.3
+  minAttackInterval: 0.2
+  swingDurationReductionPerOil: 0.015
+  minSwingDuration: 0.1
+  rotationReferenceSwingDuration: 0.45
+  oilRotationEffect: 1
   damage: 2
   hitRadius: 0.5
+  rangeGrowthPerLevel: 0.1
+  rangeVisualSizeFollow: 1
+  arcSwingUsesCircleHit: 0
+  contactWidthRatio: 0.45
+  contactStepDegrees: 8
   critChance: 0.3
   critMultiplier: 1.5
+  heavySwingEvery: 3
+  heavySwingDamageMultiplier: 2
+  heavySwingKnockbackMultiplier: 2
+  ironTier10DamageBonus: 0.4
+  heavySwingColor: {r: 1, g: 0.4, b: 0.35, a: 1}
+  stunDurationTier5: 0.5
+  stunDurationTier10: 1
+  stunDamageTakenTier10: 1.5
+  sprintMoveBonusTier5: 0.25
+  sprintDurationTier5: 2
+  sprintMoveBonusTier10: 0.4
+  sprintDurationTier10: 3
+  sprintCooldownReductionTier10: 0.2
+  spinSwingAngle: 360
+  spinDurationRatio: 0.9
+  spinStartAngleFromFacing: 0
+  autoOrbitDamageMultiplier: 0.5
+  autoOrbitKnockbackMultiplier: 0.5
+  orbitSpreadEaseSpeed: 360
+  waveEvery: 4
+  waveDamageMultiplier: 0.5
+  waveSpeed: 7.5
+  waveSizeRatio: 0.65
+  waveRadius: 0.5
+  waveRange: 4
+  waveKnockbackMultiplier: 0.5
+  waveFanAngle: 20
+  waveColor: {r: 0.3, g: 0.6, b: 1, a: 0.85}
 --- !u!114 &4738584683363759381
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -94,6 +94,24 @@ MonoBehaviour:
     pivot: {x: 0.5, y: 0.5}
     worldWidth: 1
     loop: 1
+  - id: glow_sparkle
+    sheet: {fileID: 2800000, guid: f50c29e3469bb28449d4fd803f14b20f, type: 3}
+    columns: 3
+    rows: 3
+    frameCount: 6
+    fps: 12
+    pivot: {x: 0.5, y: 0.32}
+    worldWidth: 1
+    loop: 0
+  - id: rage_aura
+    sheet: {fileID: 2800000, guid: 7fe76005a3714454c85f40e34ba10d3b, type: 3}
+    columns: 3
+    rows: 2
+    frameCount: 6
+    fps: 18
+    pivot: {x: 0.5, y: 0.28}
+    worldWidth: 0.75
+    loop: 1
   stills:
   - id: sword_wave
     sprite: {fileID: 21300000, guid: d5c8c5e2e5edf4b42a3129d4b0e3fc9d, type: 3}

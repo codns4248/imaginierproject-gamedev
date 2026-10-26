@@ -76,8 +76,9 @@ public class WeaponPickup : MonoBehaviour
     }
 
     // 밸런스 1차 조정(2026-10-25): 일반 몬스터 1% (한 층에 대략 0~1개), 정예/보스 10%.
-    public const float DropChance = 0.01f;
-    public const float EliteDropChance = 0.1f;
+    // 밸런스 3차(2026-10-26): 무기는 상인/군부대 맵 보상이 주 수급처. 몬스터 드랍은 5층까지 가야 하나 얻을까 말까(0.1%, 정예 1%)로 극히 드물게.
+    public const float DropChance = 0.001f;
+    public const float EliteDropChance = 0.01f;
 
     /// <summary>DropChance(정예/보스는 EliteDropChance) 확률로 무기 하나(5종류 중 랜덤)를 드랍한다. Enemy.Die() 등에서 호출한다.</summary>
     public static void TrySpawnRandomDrop(Vector3 position, bool elite = false)

@@ -199,6 +199,7 @@ public static class LevelUpCardPool
             Vector2 dir = (Vector2)e.transform.position - center;
             if (dir.sqrMagnitude < 0.0001f) dir = Vector2.up;
             e.Hit(dir.normalized, e.maxHealth * ratio, false, 1.5f);
+            PixelFx.Play("explosion", e.transform.position, 0.7f); // 폭탄: 화면 안 적마다 작은 폭발
             CircleFlash.Spawn(e.transform.position, 0.35f, new Color(1f, 0.85f, 0.4f, 0.8f), 0.35f, sorting);
         }
 

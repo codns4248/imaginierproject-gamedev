@@ -121,11 +121,33 @@ public class LevelUpUI : MonoBehaviour
         float rage = PlayerRunStats.RageRemaining;
         rageText.gameObject.SetActive(rage > 0f);
         if (rage > 0f) rageText.text = $"분노 {Mathf.CeilToInt(rage)}초";
+        UpdateRageAura(rage > 0f);
 
         if (playerHealth == null) playerHealth = FindFirstObjectByType<PlayerHealth>();
         int revives = playerHealth != null ? playerHealth.ReviveCount : 0;
         reviveRoot.SetActive(revives > 0);
         if (revives > 0) reviveText.text = $"x{revives}";
+    }
+
+    // 분노 버프가 켜져 있는 동안 플레이어 뒤에서 일렁이는 붉은 불꽃 (반복 재생). 버프가 끝나거나 거점으로 가면 끈다.
+    private PixelFx rageAura;
+
+    private void UpdateRageAura(bool active)
+    {
+        if (!active || !StageManager.IsInStage)
+        {
+            if (rageAura != null) { rageAura.Stop(); rageAura = null; }
+            return;
+        }
+
+        Transform p = PixelFxUtil.Player;
+        if (p == null) return;
+        if (rageAura == null || !rageAura.IsPlaying)
+        {
+            SpriteRenderer psr = p.GetComponent<SpriteRenderer>();
+            rageAura = PixelFx.Play("rage_aura", p.position, 0.75f, new Color(1f, 1f, 1f, 0.85f), psr != null ? psr.sortingOrder - 1 : 1);
+        }
+        if (rageAura != null) rageAura.SetPosition((Vector2)p.position + Vector2.down * 0.08f);
     }
 
     // 경험치 바가 화면 맨 위를 차지하므로, 기존 HUD(체력, 스테이지, 타이머, 자원 등 위쪽에 붙은 것들)를 바 높이만큼 내린다.
@@ -205,6 +227,7 @@ public class LevelUpUI : MonoBehaviour
         yield return new WaitForSecondsRealtime(0.22f);
 
         LevelUpCardPool.Apply(currentCards[index]);
+        PixelFxUtil.PlayOnPlayer("glow_sparkle", 1.1f, new Color(1f, 0.95f, 0.55f)); // 선택이 끝나 게임이 재개되는 순간 플레이어에게 반짝임
         LevelUpSystem.ConsumePending();
         choosing = false;
 

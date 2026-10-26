@@ -40,6 +40,7 @@ public class HealthPotion : MonoBehaviour
         if (playerHealth.CurrentHealth >= playerHealth.MaxHealth) return; // 이미 풀피면 낭비하지 않는다
 
         playerHealth.Heal(healAmount);
+        PixelFxUtil.PlayOnPlayer("glow_sparkle", 0.9f, new Color(0.55f, 1f, 0.65f)); // 회복 반짝임 (초록)
         potionCount--;
         OnPotionCountChanged?.Invoke();
     }

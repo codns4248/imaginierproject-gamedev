@@ -7,6 +7,8 @@ using UnityEngine;
 public class SwordWave : MonoBehaviour
 {
     private static Sprite circleSprite;
+    private const float ArtHeightFraction = 30f / 32f; // 그림 한 칸 중 초승달이 위아래로 차지하는 비율
+    private const float ArtScale = 1.3f; // 검기 그림 배율 (그림이 작아 보이면 이 값만 키운다)
 
     private SwordAttack owner;      // 기절/처치 효과를 돌려줄 검 (그 사이 버려져서 사라졌으면 null)
     private Vector2 direction;
@@ -24,18 +26,22 @@ public class SwordWave : MonoBehaviour
 
     /// <summary>검기 하나를 만들어 날려 보낸다. angleDegrees는 월드 기준 진행 방향 각도.</summary>
     public static SwordWave Spawn(SwordAttack owner, Vector2 position, float angleDegrees, float speed, float radius,
-        float range, float damage, bool isCrit, float knockbackMultiplier, Color color, SpriteRenderer sortingSource)
+        float range, float damage, bool isCrit, float knockbackMultiplier, Color color, SpriteRenderer sortingSource, float visualHeight = -1f)
     {
         GameObject go = new GameObject("SwordWave");
         go.transform.position = position;
-        go.transform.localScale = Vector3.one * (radius * 2f); // 스프라이트 지름이 1유닛이라 반지름x2
+        // 스프라이트 지름이 1유닛이라 반지름x2. 그림 속 초승달은 칸의 절반 정도만 차지해서 그림만 ArtScale배 키운다 (판정 크기는 radius 그대로).
+        // visualHeight > 0이면 그림 속 초승달의 위아래 길이가 그 값(월드 유닛)이 되도록 맞춘다 (검이 휘두르는 호의 길이에 맞추려는 용도). 판정(radius)은 따로다.
+        bool hasArt = PixelFxLibrary.GetSprite("sword_wave") != null;
+        float visualScale = visualHeight > 0f && hasArt ? visualHeight / ArtHeightFraction : radius * 2f * (hasArt ? ArtScale : 1f);
+        go.transform.localScale = Vector3.one * visualScale;
 
         SpriteRenderer sr = go.AddComponent<SpriteRenderer>();
         Sprite art = PixelFxLibrary.GetSprite("sword_wave");
         sr.sprite = art != null ? art : GetCircleSprite();
         sr.color = art != null ? Color.white : color;
-        // 그림의 초승달은 오른쪽 아래로 볼록하게(-45도 방향) 그려져 있어서, 진행 방향에 맞게 45도 더 돌려 준다.
-        if (art != null) go.transform.rotation = Quaternion.Euler(0f, 0f, angleDegrees + 45f);
+        // 그림의 초승달은 오른쪽(+x)으로 볼록하게 그려져 있어서 진행 방향 각도 그대로 돌리면 된다.
+        if (art != null) go.transform.rotation = Quaternion.Euler(0f, 0f, angleDegrees);
         if (sortingSource != null)
         {
             sr.sortingLayerID = sortingSource.sortingLayerID;

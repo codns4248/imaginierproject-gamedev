@@ -402,12 +402,40 @@ public class Enemy : MonoBehaviour
         TakeDamageRaw(dealt);
 
         hitStunTimer = Mathf.Max(hitStunTimer, hitStunDuration);
-        knockbackVelocity = knockbackDirection.normalized * knockbackForce * knockbackMultiplier;
+        // 맞은 적 뒤(밀려나는 방향)에 다른 몬스터가 빽빽하게 있으면 받쳐 줘서 덜 밀려난다 (몬스터가 쌓일수록 점점 플레이어에게 밀려오는 느낌).
+        knockbackVelocity = knockbackDirection.normalized * knockbackForce * knockbackMultiplier * CrowdKnockbackFactor(knockbackDirection);
 
         if (spriteAnimator != null)
             spriteAnimator.Pause(hitStunDuration);
 
         SpawnDamageNumber(dealt, isCrit);
+    }
+
+    // 군집 넉백 감쇠: 이 반경 안에서 밀려나는 쪽에 있는 다른 몬스터 한 마리당 넉백이 이만큼 줄고, 최소 이 비율까지만 줄어든다.
+    public const float CrowdRadius = 0.7f;
+    public const float CrowdPerEnemy = 0.14f;
+    public const float CrowdMinFactor = 0.15f;
+
+    // 밀려날 방향(맞은 방향) 앞쪽 반원에 있는 살아 있는 다른 몬스터를 세어 넉백 배율(0.15~1)을 돌려준다.
+    private float CrowdKnockbackFactor(Vector2 knockbackDirection)
+    {
+        if (knockbackDirection.sqrMagnitude < 0.0001f) return 1f;
+        Vector2 dir = knockbackDirection.normalized;
+        Vector2 pos = transform.position;
+
+        int count = Physics2D.OverlapCircle(pos, CrowdRadius, separationFilter, separationBuf);
+        int behind = 0;
+        for (int i = 0; i < count; i++)
+        {
+            Collider2D col = separationBuf[i];
+            if (col == null) continue;
+            Enemy other = col.GetComponent<Enemy>();
+            if (other == null || other == this || other.isDying) continue;
+
+            Vector2 to = (Vector2)other.transform.position - pos;
+            if (to.sqrMagnitude < 0.0001f || Vector2.Dot(to.normalized, dir) > 0.3f) behind++;
+        }
+        return Mathf.Clamp(1f - CrowdPerEnemy * behind, CrowdMinFactor, 1f);
     }
 
     private void SpawnDamageNumber(float damage, bool isCrit)

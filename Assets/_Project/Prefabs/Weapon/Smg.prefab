@@ -125,8 +125,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SmgAttack
   burstCount: 3
-  burstInterval: 0.2
-  restDuration: 0.4
+  burstInterval: 0.25
+  restDuration: 1
   recoilKickAngle: 15
   damage: 1
   projectilePrefab: {fileID: 6375256007673843717, guid: 1c498f379aebef44e841c2ec4053c3b9, type: 3}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d7fc4506ef8a75418514fe6c83733ea, type: 3}
   m_Name: LevelUpConfig
   m_EditorClassIdentifier: Assembly-CSharp::LevelUpConfig
-  orbBaseXp: 1
+  orbBaseXp: 0.8
   orbXpGrowthPerStage: 0.1
   eliteXpMultiplier: 10
   requiredXpBase: 30

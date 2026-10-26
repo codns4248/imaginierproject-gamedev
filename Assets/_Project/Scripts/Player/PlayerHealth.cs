@@ -159,6 +159,7 @@ public class PlayerHealth : MonoBehaviour
             enemy.Knockback(away.normalized, cfg.reviveKnockback);
         }
 
+        PixelFxUtil.PlayOnPlayer("glow_sparkle", 1.8f, new Color(1f, 0.85f, 0.35f)); // 부활: 큰 금빛 광채 (충격파 원은 쓰지 않는다)
         CircleFlash.Spawn(center, cfg.reviveShockwaveRadius, new Color(1f, 0.85f, 0.35f, 0.6f), 0.5f, spriteRenderer);
         CircleFlash.Spawn(center, cfg.reviveShockwaveRadius * 0.5f, new Color(1f, 1f, 1f, 0.8f), 0.3f, spriteRenderer);
     }

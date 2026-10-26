@@ -46,7 +46,9 @@ public static class PlayerRunStats
 
     // 공격 속도: 무기들이 쓰는 시간 배율(쿨다운/모션)에 곱해진다. 기믹 "한파"의 감속과 같이 쓰려고 WeaponTimeScale로 묶어 둔다.
     public static float AttackSpeedMultiplier => 1f + Bonus(RunStatType.AttackSpeed);
-    public static float WeaponTimeScale => StageGimmickManager.WeaponTimeScale * AttackSpeedMultiplier;
+    // 기본 공격 속도 배율 (핵앤슬래시 느낌으로 모든 무기의 쿨다운/모션/점사 대기를 이만큼 빠르게). 밸런스 2차 조정(2026-10-26): 1 -> 1.5.
+    public const float BasePace = 1.5f;
+    public static float WeaponTimeScale => StageGimmickManager.WeaponTimeScale * AttackSpeedMultiplier * BasePace;
 
     // 공격 범위: 검/창 크기와 판정, 수류탄 폭발 반경, 총알 크기.
     public static float RangeMultiplier => 1f + Bonus(RunStatType.Range);
