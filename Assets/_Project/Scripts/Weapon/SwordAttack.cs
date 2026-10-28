@@ -41,7 +41,7 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
 
     [Header("공격력 / 판정 범위")]
     // Sword의 공격력. Pistol과 마찬가지로 나중에 강화 요소가 생기면 이 값만 바꾸면 되게 해뒀다.
-    public float damage = 1f;
+    public float damage = 10f; // 수치 단위 10배(2026-10-29): 무기 공격력 10~20, 몬스터 체력 30~ (프리팹 값이 우선)
 
     // 칼의 현재 위치를 중심으로 한 판정 반지름 (칼날 크기에 맞춰 설정).
     public float hitRadius = 1f;

@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 1ea4009db51989841be5ddb7eae56344
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2521449226170251284
+    second: poison-explosion-smoke_0
+  - first:
+      213: 8134212006899101664
+    second: poison-explosion-smoke_1
+  - first:
+      213: -1153676535288339966
+    second: poison-explosion-smoke_2
+  - first:
+      213: -8769928137008231952
+    second: poison-explosion-smoke_3
+  - first:
+      213: 4438359700023469215
+    second: poison-explosion-smoke_4
+  - first:
+      213: -8635587243635927099
+    second: poison-explosion-smoke_5
+  - first:
+      213: -8355517049154075279
+    second: poison-explosion-smoke_6
+  - first:
+      213: 6772437858785223546
+    second: poison-explosion-smoke_7
+  - first:
+      213: 4601341970327148924
+    second: poison-explosion-smoke_8
+  - first:
+      213: -3144358403009285041
+    second: poison-explosion-smoke_9
+  - first:
+      213: -7964284123107322169
+    second: poison-explosion-smoke_10
+  - first:
+      213: 3894668146582193588
+    second: poison-explosion-smoke_11
+  - first:
+      213: -6613826242893306928
+    second: poison-explosion-smoke_12
+  - first:
+      213: -1687385320095306971
+    second: poison-explosion-smoke_13
+  - first:
+      213: 3891033198196066342
+    second: poison-explosion-smoke_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: poison-explosion-smoke_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 215
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce740fab943020dd0800000000000000
+      internalID: -2521449226170251284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-explosion-smoke_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 207
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef20fe29b682e070800000000000000
+      internalID: 8134212006899101664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-explosion-smoke_2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 204
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2026f68bd415dffe0800000000000000
+      internalID: -1153676535288339966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-explosion-smoke_3
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 202
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9cbef03d4fa4680800000000000000
+      internalID: -8769928137008231952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-explosion-smoke_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 136
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94ee49b1a8389d30800000000000000
+      internalID: 4438359700023469215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-explosion-smoke_5
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 134
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c79f2cb72b382880800000000000000
+      internalID: -8635587243635927099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-explosion-smoke_6
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 134
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1758372638d3b0c80800000000000000
+      internalID: -8355517049154075279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-explosion-smoke_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 135
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73ec44c9588cfd50800000000000000
+      internalID: 6772437858785223546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-explosion-smoke_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 70
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79127f94204bdf30800000000000000
+      internalID: 4601341970327148924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-explosion-smoke_9
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 115
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44fd1621befc54d0800000000000000
+      internalID: -3144358403009285041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-explosion-smoke_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 67
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c697ef59cd297190800000000000000
+      internalID: -7964284123107322169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-explosion-smoke_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 66
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b58f036b04ac0630800000000000000
+      internalID: 3894668146582193588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-explosion-smoke_12
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 68
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3203ad218f634a0800000000000000
+      internalID: -6613826242893306928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-explosion-smoke_13
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 13
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ba284ddf33598e0800000000000000
+      internalID: -1687385320095306971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-explosion-smoke_14
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 25
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6288ab3041abff530800000000000000
+      internalID: 3891033198196066342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      poison-explosion-smoke_0: -2521449226170251284
+      poison-explosion-smoke_1: 8134212006899101664
+      poison-explosion-smoke_10: -7964284123107322169
+      poison-explosion-smoke_11: 3894668146582193588
+      poison-explosion-smoke_12: -6613826242893306928
+      poison-explosion-smoke_13: -1687385320095306971
+      poison-explosion-smoke_14: 3891033198196066342
+      poison-explosion-smoke_2: -1153676535288339966
+      poison-explosion-smoke_3: -8769928137008231952
+      poison-explosion-smoke_4: 4438359700023469215
+      poison-explosion-smoke_5: -8635587243635927099
+      poison-explosion-smoke_6: -8355517049154075279
+      poison-explosion-smoke_7: 6772437858785223546
+      poison-explosion-smoke_8: 4601341970327148924
+      poison-explosion-smoke_9: -3144358403009285041
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

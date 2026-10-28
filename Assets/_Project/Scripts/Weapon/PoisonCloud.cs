@@ -96,6 +96,7 @@ public class PoisonCloud : MonoBehaviour
             Enemy enemy = hitBuffer[i] != null ? hitBuffer[i].GetComponent<Enemy>() : null;
             if (enemy == null || enemy.IsDying) continue;
             enemy.TakeDotDamage(damagePerSecond * TickInterval);
+            PoisonIndicator.Show(enemy, TickInterval + 0.3f); // 구름 안에 있는 동안 계속 갱신되고, 벗어나면 잠시 뒤 사라진다
         }
     }
 

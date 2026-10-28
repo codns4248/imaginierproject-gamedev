@@ -79,7 +79,10 @@ public class GrenadeBurn : MonoBehaviour
         burn.sr = go.AddComponent<SpriteRenderer>();
         burn.sr.sprite = GetFlameSprite();
         burn.sr.color = new Color(1f, 0.5f, 0.12f, 0.85f);
-        burn.frames = PixelFx.GetFrames("burn_flame", out burn.frameFps, out burn.framePixels); // 그림이 있으면 그걸 쓴다
+        // 그림이 있으면 그걸 쓴다: 몸 아래쪽을 덮는 작은 불꽃 무리(burn_status), 없으면 예전 불꽃 하나(burn_flame).
+        burn.frames = PixelFx.GetFrames("burn_status", out burn.frameFps, out burn.framePixels);
+        if (burn.frames == null || burn.frames.Length == 0)
+            burn.frames = PixelFx.GetFrames("burn_flame", out burn.frameFps, out burn.framePixels);
         if (burn.targetSprite != null)
         {
             burn.sr.sortingLayerID = burn.targetSprite.sortingLayerID;
@@ -140,11 +143,13 @@ public class GrenadeBurn : MonoBehaviour
         Vector3 center = targetSprite != null ? targetSprite.bounds.center : target.transform.position;
         if (frames != null)
         {
-            // 그림 불꽃: 프레임을 돌려 재생하고, 불꽃 밑동(그림의 기준점)을 적 몸 아래쪽에 둔다. 중첩이 많을수록 커진다.
+            // 그림 불꽃: 프레임을 돌려 재생하고, 불꽃 밑동(그림의 기준점)을 적 몸 아래쪽에 둔다.
+            // 가로 크기는 적 몸 폭에 맞추고(큰 정예는 크게), 중첩이 많을수록 조금씩 커진다.
             sr.sprite = frames[Mathf.FloorToInt(Time.time * frameFps + (GetInstanceID() & 7)) % frames.Length];
             sr.color = Color.white;
-            float baseY = targetSprite != null ? targetSprite.bounds.center.y - targetSprite.bounds.extents.y * 0.5f : center.y;
-            float s = (0.28f + 0.05f * stacks) / framePixels;
+            float baseY = targetSprite != null ? targetSprite.bounds.center.y - targetSprite.bounds.extents.y * 0.6f : center.y;
+            float bodyWidth = targetSprite != null ? Mathf.Clamp(targetSprite.bounds.size.x * 0.9f, 0.3f, 0.9f) : 0.4f;
+            float s = bodyWidth * (1f + 0.06f * (stacks - 1)) / framePixels;
             transform.position = new Vector3(center.x, baseY, target.transform.position.z);
             transform.localScale = new Vector3(s, s, 1f);
             return;

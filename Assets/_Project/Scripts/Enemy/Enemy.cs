@@ -8,9 +8,11 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [Header("스탯 (종류별로 프리팹에서 다르게 설정)")]
-    public float maxHealth = 10f;
+    // 수치 단위 10배(2026-10-29): 몬스터 체력/무기 공격력은 10배 단위(일반 30, 정예 150 / 무기 10~20)라 데미지 숫자에 소수점 차이도 보인다.
+    // 플레이어 쪽(하트 5칸, contactDamage, 적 투사체 피해)은 그대로 1 단위다.
+    public float maxHealth = 100f;
     public float moveSpeed = 2f;
-    public float contactDamage = 1f; // 플레이어와 접촉했을 때 주는 데미지
+    public float contactDamage = 1f; // 플레이어와 접촉했을 때 주는 데미지 (플레이어 하트 단위라 10배 하지 않는다)
     // 충돌 원(트리거)은 투사체/근접 무기가 이 몬스터를 맞히는 판정에도 같이 쓰이는데, 스프라이트보다 훨씬 크게
     // 잡혀 있어서(예: 스켈레톤은 스프라이트 너비 0.32인데 충돌 지름 0.9) 접촉 데미지가 너무 멀리서 들어갔다.
     // 그래서 접촉 데미지만 "충돌 원 반지름 x 이 비율" 안에 플레이어 몸이 들어왔을 때만 준다 (명중 판정은 그대로).
@@ -402,6 +404,8 @@ public class Enemy : MonoBehaviour
         TakeDamageRaw(dealt);
 
         hitStunTimer = Mathf.Max(hitStunTimer, hitStunDuration);
+        // 넉백은 무기/탄/폭발 방향과 상관없이 항상 플레이어에게서 멀어지는 쪽으로 밀린다 (플레이어를 못 찾으면 무기가 준 방향).
+        knockbackDirection = AwayFromPlayer(knockbackDirection);
         // 맞은 적 뒤(밀려나는 방향)에 다른 몬스터가 빽빽하게 있으면 받쳐 줘서 덜 밀려난다 (몬스터가 쌓일수록 점점 플레이어에게 밀려오는 느낌).
         knockbackVelocity = knockbackDirection.normalized * knockbackForce * knockbackMultiplier * CrowdKnockbackFactor(knockbackDirection);
 
@@ -409,6 +413,14 @@ public class Enemy : MonoBehaviour
             spriteAnimator.Pause(hitStunDuration);
 
         SpawnDamageNumber(dealt, isCrit);
+    }
+
+    // 플레이어 -> 이 적 방향. 플레이어가 없거나 거의 같은 자리에 겹쳐 있으면 fallback(무기가 준 방향)을 그대로 쓴다.
+    private Vector2 AwayFromPlayer(Vector2 fallback)
+    {
+        if (player == null) return fallback;
+        Vector2 away = (Vector2)transform.position - (Vector2)player.position;
+        return away.sqrMagnitude > 0.0001f ? away : fallback;
     }
 
     // 군집 넉백 감쇠: 이 반경 안에서 밀려나는 쪽에 있는 다른 몬스터 한 마리당 넉백이 이만큼 줄고, 최소 이 비율까지만 줄어든다.
@@ -504,18 +516,20 @@ public class Enemy : MonoBehaviour
         {
             // 파밍용 자원 드랍. minResourceDrops~maxResourceDrops개 사이로 랜덤하게 여러 개 드랍할 수 있다
             // (일반 슬라임은 항상 1개, 엘리트처럼 더 많이 주는 적은 프리팹에서 범위를 넓게 설정).
-            // 일반 몬스터는 ResourcePickup.CommonEnemyDropChance 확률로만 떨어뜨리고, 정예/보스는 항상 떨어뜨린다.
+            // 일반 몬스터는 MonsterDifficulty.CommonResourceDropChance 확률로만 떨어뜨리고, 정예/보스는 항상 떨어뜨린다.
             // 특정 맵(생각의 방)은 여기에 드랍 배율이 한 번 더 곱해진다.
             int dropCount = Random.Range(minResourceDrops, maxResourceDrops + 1);
-            float dropChance = (IsEliteOrBoss ? 1f : ResourcePickup.CommonEnemyDropChance) * StageManager.ResourceDropRateMultiplier;
+            float dropChance = (IsEliteOrBoss ? 1f : MonsterDifficulty.CommonResourceDropChance) * StageManager.ResourceDropRateMultiplier;
             for (int i = 0; i < dropCount; i++)
             {
                 if (Random.value > dropChance) continue;
 
+                // 아이템 하나의 개수는 층이 깊을수록 많아진다 (MonsterDifficulty.ResourceAmountMultiplier).
+                int amount = MonsterDifficulty.RollResourceAmount();
                 if (biasedDropChance > 0f)
-                    ResourcePickup.SpawnRandomDrop(transform.position, biasedDropType, biasedDropChance);
+                    ResourcePickup.SpawnRandomDrop(transform.position, biasedDropType, biasedDropChance, amount);
                 else
-                    ResourcePickup.SpawnRandomDrop(transform.position);
+                    ResourcePickup.SpawnRandomDrop(transform.position, amount);
             }
 
             // 아주 낮은 확률(일반 0.2%, 정예/보스 3%)로 희귀자원도 따로 떨어뜨린다. 생각의 방 드랍 배율도 똑같이 곱한다.
@@ -632,12 +646,13 @@ public class Enemy : MonoBehaviour
         PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
         if (playerHealth == null) return;
 
-        // 충돌 원 중심에서 플레이어 몸의 가장 가까운 점까지가 (반지름 x contactRangeScale) 이내일 때만 데미지.
+        // 충돌 원 중심에서 플레이어 피격 판정 원(몸보다 훨씬 작다, PlayerHealth.hurtRadius)의 가장 가까운 점까지가
+        // (반지름 x contactRangeScale) 이내일 때만 데미지.
         if (contactCircle != null)
         {
             Vector2 center = contactCircle.bounds.center;
             float reach = contactCircle.radius * Mathf.Max(transform.lossyScale.x, transform.lossyScale.y) * contactRangeScale;
-            if (Vector2.Distance(other.ClosestPoint(center), center) > reach) return;
+            if (Vector2.Distance(playerHealth.HurtCenter, center) - playerHealth.hurtRadius > reach) return;
         }
 
         // 플레이어가 적의 반대 방향(적 -> 플레이어 방향)으로 밀려나도록 방향을 계산한다.

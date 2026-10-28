@@ -165,10 +165,10 @@ public class WeaponEnhancementManager : MonoBehaviour
     private void OnEnhanceClicked(ResourceType type)
     {
         IEnhanceableWeapon weapon = FindHeldWeapon() as IEnhanceableWeapon;
-        int current = weapon != null ? weapon.GetEnhanceLevel(type) : 0;
         // 종류별 최대(10)와 무기 전체 강화 횟수 상한(15)을 자원을 쓰기 전에 먼저 확인한다 (못 올리는데 자원만 나가면 안 되므로).
         if (weapon == null || !weapon.CanEnhance(type)) return;
-        if (!ResourceBank.TrySpendRunResource(type, WeaponEnhanceUtil.CostForLevel(current))) return;
+        // 비용은 종류별 단계가 아니라 이 무기에 올린 강화 횟수의 합으로 정해진다 (WeaponEnhanceUtil.CostForWeapon).
+        if (!ResourceBank.TrySpendRunResource(type, WeaponEnhanceUtil.CostForWeapon(weapon.GetTotalEnhanceLevel()))) return;
 
         weapon.ApplyEnhance(type);
         RefreshAllRows();
@@ -228,7 +228,7 @@ public class WeaponEnhancementManager : MonoBehaviour
         {
             int level = hasWeapon ? heldWeapon.GetEnhanceLevel(row.type) : 0;
             int maxLevel = hasWeapon ? heldWeapon.MaxEnhanceLevel : WeaponEnhanceUtil.MaxLevel;
-            row.Refresh(level, maxLevel, ResourceBank.GetRunHeld(row.type), WeaponEnhanceUtil.CostForLevel(level), hasWeapon, totalFull);
+            row.Refresh(level, maxLevel, ResourceBank.GetRunHeld(row.type), WeaponEnhanceUtil.CostForWeapon(total), hasWeapon, totalFull);
         }
 
         RefreshEffects(heldWeapon);

@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: e821f7d6688dabc41b6cf504b0147c28
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7430066412600873624
+    second: stun-stars-anim_0
+  - first:
+      213: -3319470057708345637
+    second: stun-stars-anim_1
+  - first:
+      213: -8166539455421686686
+    second: stun-stars-anim_2
+  - first:
+      213: 6845653424051547714
+    second: stun-stars-anim_3
+  - first:
+      213: 5238116363517019330
+    second: stun-stars-anim_4
+  - first:
+      213: 6023391211158888934
+    second: stun-stars-anim_5
+  - first:
+      213: 8584666096804257462
+    second: stun-stars-anim_6
+  - first:
+      213: -230004196651366288
+    second: stun-stars-anim_7
+  - first:
+      213: 7776537825952895173
+    second: stun-stars-anim_8
+  - first:
+      213: 1420813176168553982
+    second: stun-stars-anim_9
+  - first:
+      213: 2084451296403408316
+    second: stun-stars-anim_10
+  - first:
+      213: 7673649094877819074
+    second: stun-stars-anim_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stun-stars-anim_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 48
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892d2ac3906ec1760800000000000000
+      internalID: 7430066412600873624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun-stars-anim_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 49
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6afbfd19fdee1d0800000000000000
+      internalID: -3319470057708345637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun-stars-anim_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 51
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cd06b22af9aae80800000000000000
+      internalID: -8166539455421686686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun-stars-anim_3
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 49
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e6704f485a00f50800000000000000
+      internalID: 6845653424051547714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun-stars-anim_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 25
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4c793741781b840800000000000000
+      internalID: 5238116363517019330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun-stars-anim_5
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 26
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1e55ca462679350800000000000000
+      internalID: 6023391211158888934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun-stars-anim_6
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 28
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be5b5fd45cd22770800000000000000
+      internalID: 8584666096804257462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun-stars-anim_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 26
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0780fb9d66cdeccf0800000000000000
+      internalID: -230004196651366288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun-stars-anim_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c09f4a63ffcbeb60800000000000000
+      internalID: 7776537825952895173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun-stars-anim_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 3
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd98b15e0eb7b310800000000000000
+      internalID: 1420813176168553982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun-stars-anim_10
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 5
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb54ab109657dec10800000000000000
+      internalID: 2084451296403408316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun-stars-anim_11
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 3
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0b03fe1374e7a60800000000000000
+      internalID: 7673649094877819074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      stun-stars-anim_0: 7430066412600873624
+      stun-stars-anim_1: -3319470057708345637
+      stun-stars-anim_10: 2084451296403408316
+      stun-stars-anim_11: 7673649094877819074
+      stun-stars-anim_2: -8166539455421686686
+      stun-stars-anim_3: 6845653424051547714
+      stun-stars-anim_4: 5238116363517019330
+      stun-stars-anim_5: 6023391211158888934
+      stun-stars-anim_6: 8584666096804257462
+      stun-stars-anim_7: -230004196651366288
+      stun-stars-anim_8: 7776537825952895173
+      stun-stars-anim_9: 1420813176168553982
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

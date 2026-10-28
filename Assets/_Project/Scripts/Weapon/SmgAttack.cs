@@ -23,7 +23,7 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
 
     [Header("공격력 / 투사체")]
     // Smg 투사체 하나당 데미지. 나중에 강화 요소로 바뀔 수 있어 이 값 하나만 참조하게 해뒀다.
-    public float damage = 1f;
+    public float damage = 10f; // 수치 단위 10배(2026-10-29): 무기 공격력 10~20, 몬스터 체력 30~ (프리팹 값이 우선)
     public GameObject projectilePrefab; // Pistol과 같은 Projectile 프리팹을 그대로 쓰되, 발사 시 maxHits를 1로 덮어써서 관통을 없앤다.
 
     [Header("치명타")]

@@ -22,6 +22,7 @@ public class StageExitPortal : MonoBehaviour
 
         InteractOutline outline = gameObject.AddComponent<InteractOutline>();
         outline.Init(Activate);
+        PortalAnimator.Attach(gameObject);
     }
 
     private void Activate()

@@ -50,7 +50,7 @@ public static class LevelUpSystem
     public static float OrbXpFor(bool elite)
     {
         LevelUpConfig cfg = LevelUpConfig.Instance;
-        int stage = Mathf.Max(1, StageProgress.CurrentStageNo);
+        int stage = Mathf.Clamp(StageProgress.CurrentStageNo, 1, MonsterDifficulty.PeakStage); // 20층 이후 구슬당 경험치 고정
         float xp = cfg.orbBaseXp * (1f + cfg.orbXpGrowthPerStage * (stage - 1));
         return elite ? xp * cfg.eliteXpMultiplier : xp;
     }

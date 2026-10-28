@@ -8,7 +8,7 @@ public class ResourcePickup : MonoBehaviour
 {
     // 일반 몬스터가 자원을 떨어뜨릴 확률 (정예/보스는 항상 떨어뜨린다, Enemy.Die 참고).
     // 밸런스 1차(10-25): 100% -> 50%, 2차(10-26): 50% -> 30% (몬스터가 약 2배로 늘어서 자원 수급이 비슷하게 유지되도록).
-    public const float CommonEnemyDropChance = 0.3f;
+    public const float CommonEnemyDropChance = 0.3f; // 예전 값 (지금은 MonsterDifficulty.CommonResourceDropChance를 쓴다)
 
     // 희귀자원은 위의 일반 자원과 따로 굴린다. 말 그대로 희귀하게: 한 층(일반 약 80마리 + 정예 몇 마리)에서
     // 평균 0.25개 정도 = 대략 4층에 하나. 상인에게서도 살 수 있다.
@@ -126,14 +126,14 @@ public class ResourcePickup : MonoBehaviour
     }
 
     /// <summary>지정 위치에 랜덤 자원 타입 드랍 아이템을 스폰한다. Enemy.Die() 등에서 호출한다.</summary>
-    public static void SpawnRandomDrop(Vector3 position)
+    public static void SpawnRandomDrop(Vector3 position, int amount = 1)
     {
-        SpawnDropOfType(position, (ResourceType)Random.Range(0, 5));
+        SpawnDropOfType(position, (ResourceType)Random.Range(0, 5), amount);
     }
 
     /// <summary>biasedChance 확률로 biasedType이 드랍되고, 그 외엔 biasedType을 뺀 나머지 4종류 중 균등 랜덤.
     /// 몬스터별로 특정 자원이 잘 나오게 만들 때 쓴다 (예: 공장 몬스터는 구리가 80% 확률로 나오게).</summary>
-    public static void SpawnRandomDrop(Vector3 position, ResourceType biasedType, float biasedChance)
+    public static void SpawnRandomDrop(Vector3 position, ResourceType biasedType, float biasedChance, int amount = 1)
     {
         ResourceType type;
         if (Random.value < biasedChance)
@@ -145,7 +145,7 @@ public class ResourcePickup : MonoBehaviour
             type = biasedType;
             while (type == biasedType) type = (ResourceType)Random.Range(0, 5);
         }
-        SpawnDropOfType(position, type);
+        SpawnDropOfType(position, type, amount);
     }
 
     /// <summary>지정 위치에 희귀자원 드랍 아이템을 스폰한다 (Enemy.Die에서 낮은 확률로 호출).</summary>
@@ -154,8 +154,12 @@ public class ResourcePickup : MonoBehaviour
         SpawnDropOfType(position, ResourceType.Rare);
     }
 
-    private static void SpawnDropOfType(Vector3 position, ResourceType type)
+    // 2개 이상짜리 아이템은 한눈에 구분되도록 개수 하나당 이만큼 더 크게 그린다.
+    private const float ExtraAmountScale = 0.3f; // 2개짜리 1.3배, 3개짜리 1.6배
+
+    private static void SpawnDropOfType(Vector3 position, ResourceType type, int amount = 1)
     {
+        amount = Mathf.Max(1, amount);
         GameObject go = new GameObject($"{type}Pickup");
         go.transform.position = position;
 
@@ -164,11 +168,12 @@ public class ResourcePickup : MonoBehaviour
         // 상인(carpetOrder+1, 보통 1)보다 위로 둬서, 상인 근처에 자원이 떨어져도 가려지지 않게 한다.
         sr.sortingOrder = 2;
 
-        float scale = GetIconScale(type);
+        float scale = GetIconScale(type) * (1f + ExtraAmountScale * (amount - 1));
         go.transform.localScale = new Vector3(scale, scale, 1f);
 
         ResourcePickup pickup = go.AddComponent<ResourcePickup>();
         pickup.resourceType = type;
+        pickup.amount = amount;
         pickup.StartPop(position);
     }
 

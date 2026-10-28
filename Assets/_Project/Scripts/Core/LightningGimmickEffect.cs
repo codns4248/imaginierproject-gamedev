@@ -14,7 +14,7 @@ public class LightningGimmickEffect : MonoBehaviour
 
     [Header("데미지 (플레이스홀더 수치)")]
     public int playerDamage = 2;
-    public float enemyDamage = 5f;
+    public float enemyDamage = 50f;
 
     private Coroutine loopRoutine;
 
@@ -73,6 +73,11 @@ public class LightningGimmickEffect : MonoBehaviour
         GameObject marker = CreateWarningMarker(point);
 
         yield return new WaitForSeconds(warningDuration);
+
+        // 번개 그림(초당 40프레임)은 땅에 닿는 순간(3번째 프레임, 약 0.05초)에 맞춰 피해를 준다. 그림이 없으면 바로 준다.
+        // 장판 지름(strikeRadius*2)이 번개 그림의 땅 고리 지름(그림 가로 약 93%)과 맞도록 크기를 정한다.
+        PixelFx fx = PixelFx.Play("lightning_strike", point, strikeRadius * 2f / 0.93f, null, 9);
+        if (fx != null) yield return new WaitForSeconds(0.05f);
 
         ApplyStrikeDamage(point);
 

@@ -18,6 +18,7 @@ public class PixelFxLibrary : ScriptableObject
         public Vector2 pivot = new Vector2(0.5f, 0.5f); // 프레임 안의 기준점 (왼쪽 아래 기준 0~1)
         public float worldWidth = 1f;  // 프레임 가로 한 칸이 게임 안에서 차지하는 기본 크기(월드 유닛)
         public bool loop;
+        public float lastFrameHold;    // 반복하지 않는 이펙트가 마지막 프레임에서 더 머무는 시간(초)
     }
 
     // 한 장짜리 그림 (검기, 적 탄, 표식, 기절 별 등). id로 GetSprite에서 찾는다.

@@ -52,6 +52,14 @@ public static class WeaponEnhanceUtil
     public static int CostForLevel(int currentLevel) =>
         UnityEngine.Mathf.RoundToInt(BaseCost * UnityEngine.Mathf.Pow(CostGrowth, currentLevel));
 
+    // 탐험 중 무기 강화 비용 (밸런스 5차 2026-10-29): 종류별 단계가 아니라 그 무기에 지금까지 올린 강화 횟수의 합(0~14)으로 정한다.
+    // 그래서 공격력을 5번 올렸다면, 아직 한 번도 안 올린 공격속도도 6번째 강화 가격(15 x 1.25^5 = 46)을 낸다.
+    // 0번째 15개 ... 5번째 46 ... 10번째 140 ... 14번째 341. 5번까지 총 123, 10번까지 499, 15번을 다 채우는 데 1,646개
+    // (한 번에 쓰는 자원은 올리는 스탯의 종류라서, 실제로는 고른 2~3종류로 나뉘어 든다).
+    private const float WeaponCostGrowth = 1.25f;
+    public static int CostForWeapon(int totalEnhanceLevel) =>
+        UnityEngine.Mathf.RoundToInt(BaseCost * UnityEngine.Mathf.Pow(WeaponCostGrowth, totalEnhanceLevel));
+
     // 무기가 Awake()에서 저장된 레벨만큼 스탯을 다시 적용(재생)할 때 순회할 목록.
     public static readonly ResourceType[] AllTypes =
     {

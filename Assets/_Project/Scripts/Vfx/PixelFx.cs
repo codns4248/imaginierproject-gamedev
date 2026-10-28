@@ -17,6 +17,7 @@ public class PixelFx : MonoBehaviour
     private Sprite[] frames;
     private float fps;
     private bool loop;
+    private float lastFrameHold;
     private float time;
     private bool playing;
 
@@ -49,6 +50,7 @@ public class PixelFx : MonoBehaviour
         fx.frames = frames;
         fx.fps = clip.fps;
         fx.loop = clip.loop;
+        fx.lastFrameHold = clip.lastFrameHold;
         fx.time = 0f;
         fx.playing = true;
         fx.sr.sprite = frames[0];
@@ -118,8 +120,12 @@ public class PixelFx : MonoBehaviour
         int index = Mathf.FloorToInt(time * fps);
         if (index >= frames.Length)
         {
-            if (!loop) { Release(); return; }
-            index %= frames.Length;
+            if (!loop)
+            {
+                if (time * fps < frames.Length + lastFrameHold * fps) index = frames.Length - 1; // 마지막 프레임에서 잠깐 머문다
+                else { Release(); return; }
+            }
+            else index %= frames.Length;
         }
         sr.sprite = frames[index];
     }

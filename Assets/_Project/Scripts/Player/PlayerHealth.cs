@@ -14,6 +14,20 @@ public class PlayerHealth : MonoBehaviour
     // 레벨업 보충 카드 "부활"로 늘어나고(AddRevive), 탐험이 끝나면 기본값으로 돌아간다(ResetRunState).
     public int reviveCount = 1;
 
+    [Header("피격 판정 (적 접촉/적 투사체 전용)")]
+    [Tooltip("몸 충돌체(벽/적과 부딪히는 크기)와 별개로, 적 접촉·투사체가 \"맞았다\"고 치는 원의 반지름 (월드 유닛). 작을수록 아슬아슬하게 피할 수 있다.")]
+    public float hurtRadius = 0.07f; // 몸 충돌체 폭은 0.5(반지름 0.25)라서 그 약 1/3
+
+    // 피격 판정 원의 중심 (몸 충돌체의 중심).
+    public Vector2 HurtCenter
+    {
+        get
+        {
+            Collider2D body = GetComponent<Collider2D>();
+            return body != null ? (Vector2)body.bounds.center : (Vector2)transform.position;
+        }
+    }
+
     [Header("피격 반응")]
     public float invulnerabilityDuration = 0.9f; // 피격 후 무적이 지속되는 시간 (연속 피격 방지)
     public float blinkDuration = 0.6f;            // 깜빡거리는 총 지속 시간

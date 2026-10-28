@@ -37,10 +37,10 @@ public class LevelUpConfig : ScriptableObject
     }
 
     [Header("경험치")]
-    public float orbBaseXp = 0.8f;            // 1스테이지 일반 몬스터 경험치 구슬 하나의 양
-    public float orbXpGrowthPerStage = 0.1f; // 스테이지가 하나 오를 때마다 구슬 경험치 +10%
+    public float orbBaseXp = 1.1f;            // 1스테이지 일반 몬스터 경험치 구슬 하나의 양
+    public float orbXpGrowthPerStage = 0.06f; // 스테이지가 하나 오를 때마다 구슬 경험치 +10%
     public float eliteXpMultiplier = 10f;   // 정예/보스는 이만큼 더 준다
-    public float requiredXpBase = 30f;      // 1 -> 2레벨에 필요한 경험치 (1층 45초 기준 1층에서 레벨업 약 3번)
+    public float requiredXpBase = 24f;      // 1 -> 2레벨에 필요한 경험치 (1층 45초 기준 1층에서 레벨업 약 3번)
     public float requiredXpGrowth = 1.15f;  // 레벨이 하나 오를 때마다 필요 경험치 x1.15 (스테이지 경험치 증가보다 가파르게)
 
     [Header("경험치 구슬 (자원 아이템과 같은 흡입 규칙)")]

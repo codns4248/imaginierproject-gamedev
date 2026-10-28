@@ -9,5 +9,6 @@ public class StagePortal : MonoBehaviour
     {
         InteractOutline outline = gameObject.AddComponent<InteractOutline>();
         outline.Init(() => StageManager.EnterRandomStage());
+        PortalAnimator.Attach(gameObject);
     }
 }

@@ -265,8 +265,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0997fe0bb90c10f49b211cf63c93da9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  maxHealth: 3
-  moveSpeed: 1
+  maxHealth: 30
+  moveSpeed: 0.8
   contactDamage: 1
   contactRangeScale: 0.5
   separationRadius: 0.3

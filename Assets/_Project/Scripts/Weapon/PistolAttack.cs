@@ -17,7 +17,7 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
     [Header("공격력 / 투사체")]
     // Pistol의 공격력. 나중에 무기 강화나 공격력을 올려주는 아이템 등으로 이 값을 바꾸는 식으로
     // 확장할 예정이라, 데미지 계산은 전부 이 값 하나만 참조하게 해뒀다.
-    public float damage = 1f;
+    public float damage = 10f; // 수치 단위 10배(2026-10-29): 무기 공격력 10~20, 몬스터 체력 30~ (프리팹 값이 우선)
     public GameObject projectilePrefab;
 
     [Header("치명타")]

@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: a7871ed5765ac9744a76b281d7c73652
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7698559174349981220
+    second: burn-explosion-smoke_0
+  - first:
+      213: 6163893606043056577
+    second: burn-explosion-smoke_1
+  - first:
+      213: -5754708547256494484
+    second: burn-explosion-smoke_2
+  - first:
+      213: -5096283275109692065
+    second: burn-explosion-smoke_3
+  - first:
+      213: 3030642152948631271
+    second: burn-explosion-smoke_4
+  - first:
+      213: 7909875774998865940
+    second: burn-explosion-smoke_5
+  - first:
+      213: 3658390810310919112
+    second: burn-explosion-smoke_6
+  - first:
+      213: -4366398475802369275
+    second: burn-explosion-smoke_7
+  - first:
+      213: 1655229698225255572
+    second: burn-explosion-smoke_8
+  - first:
+      213: -4102830314168712749
+    second: burn-explosion-smoke_9
+  - first:
+      213: -7412266754615624560
+    second: burn-explosion-smoke_10
+  - first:
+      213: 4023481369793995184
+    second: burn-explosion-smoke_11
+  - first:
+      213: 6351664777948101167
+    second: burn-explosion-smoke_12
+  - first:
+      213: 5574376835809194984
+    second: burn-explosion-smoke_13
+  - first:
+      213: -7137360584742158562
+    second: burn-explosion-smoke_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: burn-explosion-smoke_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 215
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4268475c7c6c6da60800000000000000
+      internalID: 7698559174349981220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn-explosion-smoke_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 207
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c97f75b39c8a8550800000000000000
+      internalID: 6163893606043056577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn-explosion-smoke_2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 204
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c665fd6e01b2320b0800000000000000
+      internalID: -5754708547256494484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn-explosion-smoke_3
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 202
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d8250dc5d5649b0800000000000000
+      internalID: -5096283275109692065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn-explosion-smoke_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 136
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e604d72bf00f0a20800000000000000
+      internalID: 3030642152948631271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn-explosion-smoke_5
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 134
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418664aeb1685cd60800000000000000
+      internalID: 7909875774998865940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn-explosion-smoke_6
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 134
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3c22a1f0735c230800000000000000
+      internalID: 3658390810310919112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn-explosion-smoke_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 135
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5032efd68bf6763c0800000000000000
+      internalID: -4366398475802369275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn-explosion-smoke_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 70
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494b46804ae88f610800000000000000
+      internalID: 1655229698225255572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn-explosion-smoke_9
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 115
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d105462191df07c0800000000000000
+      internalID: -4102830314168712749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn-explosion-smoke_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 67
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09cb2b698a6522990800000000000000
+      internalID: -7412266754615624560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn-explosion-smoke_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 66
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b129fe0df646d730800000000000000
+      internalID: 4023481369793995184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn-explosion-smoke_12
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 68
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2af4f58675a52850800000000000000
+      internalID: 6351664777948101167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn-explosion-smoke_13
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 13
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3b296a23a2c5d40800000000000000
+      internalID: 5574376835809194984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn-explosion-smoke_14
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 25
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1fb1901d5003fc90800000000000000
+      internalID: -7137360584742158562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      burn-explosion-smoke_0: 7698559174349981220
+      burn-explosion-smoke_1: 6163893606043056577
+      burn-explosion-smoke_10: -7412266754615624560
+      burn-explosion-smoke_11: 4023481369793995184
+      burn-explosion-smoke_12: 6351664777948101167
+      burn-explosion-smoke_13: 5574376835809194984
+      burn-explosion-smoke_14: -7137360584742158562
+      burn-explosion-smoke_2: -5754708547256494484
+      burn-explosion-smoke_3: -5096283275109692065
+      burn-explosion-smoke_4: 3030642152948631271
+      burn-explosion-smoke_5: 7909875774998865940
+      burn-explosion-smoke_6: 3658390810310919112
+      burn-explosion-smoke_7: -4366398475802369275
+      burn-explosion-smoke_8: 1655229698225255572
+      burn-explosion-smoke_9: -4102830314168712749
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

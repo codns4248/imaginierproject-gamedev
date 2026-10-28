@@ -67,7 +67,18 @@ public static class StageManager
     // 모든 몬스터 종류가 섞여 나오는 특수 구역 - restrictToTheme이 지정된 스포너도 여기서는 전부 켜진다
     // (SetInStage 참고). 대신 이 맵에서는 자원 드랍 확률이 평소의 1/4로 낮다 (Enemy.Die()가 참고).
     private const string MixedMonsterTheme = "생각의 방";
-    public static float ResourceDropRateMultiplier => CurrentTheme == MixedMonsterTheme ? 0.25f : 1f;
+    public static float ResourceDropRateMultiplier
+    {
+        get
+        {
+            if (CurrentTheme == MixedMonsterTheme) return 0.25f;
+            // 공장은 원거리 몬스터 스폰이 초반에 줄어 있어서(MonsterDifficulty.SpecialSpawnChance) 처치 수가 적다. 그만큼 드랍 확률을 올려
+            // 층당 자원 수급을 다른 맵과 비슷하게 맞춘다 (1층 x1.5, 스폰이 100%가 되는 20층에서 x1).
+            if (CurrentTheme == "공장")
+                return Mathf.Lerp(1.5f, 1f, (StageProgress.CurrentStageNo - 1f) / (MonsterDifficulty.PeakStage - 1f));
+            return 1f;
+        }
+    }
     public static bool IsMixedMonsterZone => CurrentTheme == MixedMonsterTheme;
 
     // 거점 포탈에서 처음 스테이지를 고를 때 쓰는 테마 풀. "겨울 (테스트용)"은 절대 나오면 안 되므로

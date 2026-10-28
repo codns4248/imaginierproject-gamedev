@@ -21,7 +21,7 @@ public class GrenadeAttack : MonoBehaviour, IEnhanceableWeapon
     public float maxRange = 3f;       // 플레이어 기준 최대 투척 거리. 자동공격 탐지 반경도 이 값을 그대로 쓴다.
 
     [Header("공격력 / 투사체")]
-    public float damage = 1f;
+    public float damage = 10f; // 수치 단위 10배(2026-10-29): 무기 공격력 10~20, 몬스터 체력 30~ (프리팹 값이 우선)
     public GameObject grenadeProjectilePrefab;
 
     [Header("치명타")]
@@ -99,7 +99,6 @@ public class GrenadeAttack : MonoBehaviour, IEnhanceableWeapon
     // 10단계 효과는 10강에서 켜진다 (종류별 최대 강화 WeaponEnhanceUtil.MaxLevel과 따로 고정값으로 둔다).
     private const int TierLow = 5;
     private const int TierHigh = 10;
-
     private static readonly Vector2[] CrossDirections = { Vector2.up, Vector2.down, Vector2.left, Vector2.right };
     private static readonly List<Collider2D> hitBuffer = new List<Collider2D>();
     private static ContactFilter2D triggerFilter = new ContactFilter2D { useTriggers = true };
@@ -336,6 +335,27 @@ public class GrenadeAttack : MonoBehaviour, IEnhanceableWeapon
         }
     }
 
+    // 폭발 애니메이션: 켜진 특수효과에 따라 색이 다른 같은 폭발(불덩이가 터진 뒤 연기가 남았다 흩어짐)을 고른다.
+    //   아무것도 없음 -> 일반(주황) / 중력탄(구리) -> 보라 / 화염(기름) -> 붉은색 / 독구름(화학물질) -> 초록
+    //   셋 중 2개 이상 -> 보라 / 구리 10강(중력탄 대폭발) -> 다른 효과와 상관없이 보라색 대폭발(섬광 + 더 큰 불덩이 + 불티)
+    // 불덩이(그림 가로의 약 82%, 대폭발은 약 63%)가 폭발 반경에 맞게 그린다. 그림이 없으면 예전 폭발 그림으로 대신한다.
+    private static void PlayExplosionFx(Vector2 position, float radius, int copperTier, int oilTier, int chemTier)
+    {
+        bool gravity = copperTier > 0, burn = oilTier > 0, poison = chemTier > 0;
+        int active = (gravity ? 1 : 0) + (burn ? 1 : 0) + (poison ? 1 : 0);
+
+        string id; float sizeRatio = 1.22f;
+        if (copperTier == TierHigh) { id = "gravity_big_explosion"; sizeRatio = 1.58f; }
+        else if (active >= 2 || gravity) id = "gravity_explosion_smoke";
+        else if (burn) id = "burn_explosion";
+        else if (poison) id = "poison_explosion";
+        else id = "grenade_explosion";
+
+        if (PixelFx.Play(id, position, radius * 2f * sizeRatio) != null) return;
+        if (PixelFx.Play(gravity ? "gravity_explosion_smoke" : "grenade_explosion", position, radius * 2f * 1.22f) != null) return;
+        PixelFx.Play(gravity ? "gravity_explosion" : "explosion", position, radius * 2f * 1.08f);
+    }
+
     // === 폭발 (ExplosionZone이 터지는 순간 부른다) ===
     public void Detonate(Vector2 position, GrenadeShot shot)
     {
@@ -347,9 +367,7 @@ public class GrenadeAttack : MonoBehaviour, IEnhanceableWeapon
         float blastDamage = shot.damage * (copperTier == TierHigh ? gravityBlastDamageTier10 : 1f);
         float dealt = CriticalHit.Roll(blastDamage, critChance, critMultiplier, out bool isCrit);
 
-        // 폭발 애니메이션 (그림 속 충격파 고리가 폭발 반경과 같은 크기가 되도록 약간 크게 그린다)
-        // 중력탄(구리 5강 이상)은 전용 폭발(보라색 안으로 빨려 드는 폭발)을 쓴다.
-        PixelFx.Play(copperTier > 0 ? "gravity_explosion" : "explosion", position, shot.radius * 2f * 1.08f);
+        PlayExplosionFx(position, shot.radius, copperTier, oilTier, chemTier);
 
         // 1) 폭발 피해 (+ 화상)
         int count = Physics2D.OverlapCircle(position, shot.radius, triggerFilter, hitBuffer);

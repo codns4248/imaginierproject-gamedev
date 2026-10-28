@@ -22,6 +22,7 @@ MonoBehaviour:
     pivot: {x: 0.5, y: 0.5}
     worldWidth: 1.6
     loop: 0
+    lastFrameHold: 0
   - id: hit_spark
     sheet: {fileID: 2800000, guid: baff5b349d592de468831e46df19a8d1, type: 3}
     columns: 3
@@ -31,6 +32,7 @@ MonoBehaviour:
     pivot: {x: 0.5, y: 0.457}
     worldWidth: 0.45
     loop: 0
+    lastFrameHold: 0
   - id: death_smoke
     sheet: {fileID: 2800000, guid: 0df9efea46832b449a1652e41b2ecef7, type: 3}
     columns: 3
@@ -40,6 +42,7 @@ MonoBehaviour:
     pivot: {x: 0.46, y: 0.536}
     worldWidth: 0.6
     loop: 0
+    lastFrameHold: 0
   - id: burn_flame
     sheet: {fileID: 2800000, guid: 6598219077b48594ea65060ec5578ae2, type: 3}
     columns: 3
@@ -49,6 +52,7 @@ MonoBehaviour:
     pivot: {x: 0.5, y: 0.27}
     worldWidth: 0.3
     loop: 1
+    lastFrameHold: 0
   - id: poison_cloud
     sheet: {fileID: 2800000, guid: df3b99f7d31101a478d00c1224f5f0d8, type: 3}
     columns: 3
@@ -58,6 +62,7 @@ MonoBehaviour:
     pivot: {x: 0.5, y: 0.5}
     worldWidth: 1
     loop: 1
+    lastFrameHold: 0
   - id: gravity_sigil
     sheet: {fileID: 2800000, guid: 3fd50f4347ba00444b78afcc8586f39e, type: 3}
     columns: 3
@@ -67,6 +72,7 @@ MonoBehaviour:
     pivot: {x: 0.5, y: 0.5}
     worldWidth: 1
     loop: 1
+    lastFrameHold: 0
   - id: shock_ring
     sheet: {fileID: 2800000, guid: 67bd18ce0ddd533498bc2f60c776ea3e, type: 3}
     columns: 3
@@ -76,6 +82,7 @@ MonoBehaviour:
     pivot: {x: 0.5, y: 0.5}
     worldWidth: 1
     loop: 0
+    lastFrameHold: 0
   - id: gravity_explosion
     sheet: {fileID: 2800000, guid: e3dd090f76e37d14090df4b8fb099040, type: 3}
     columns: 3
@@ -85,6 +92,7 @@ MonoBehaviour:
     pivot: {x: 0.5, y: 0.5}
     worldWidth: 1
     loop: 0
+    lastFrameHold: 0
   - id: black_hole
     sheet: {fileID: 2800000, guid: 0ea69dc33e7ec0644a0381c5aab0b5b6, type: 3}
     columns: 3
@@ -94,6 +102,7 @@ MonoBehaviour:
     pivot: {x: 0.5, y: 0.5}
     worldWidth: 1
     loop: 1
+    lastFrameHold: 0
   - id: glow_sparkle
     sheet: {fileID: 2800000, guid: f50c29e3469bb28449d4fd803f14b20f, type: 3}
     columns: 3
@@ -103,6 +112,7 @@ MonoBehaviour:
     pivot: {x: 0.5, y: 0.32}
     worldWidth: 1
     loop: 0
+    lastFrameHold: 0
   - id: rage_aura
     sheet: {fileID: 2800000, guid: 7fe76005a3714454c85f40e34ba10d3b, type: 3}
     columns: 3
@@ -112,6 +122,117 @@ MonoBehaviour:
     pivot: {x: 0.5, y: 0.28}
     worldWidth: 0.75
     loop: 1
+    lastFrameHold: 0
+  - id: lightning_strike
+    sheet: {fileID: 2800000, guid: 84c1f9b6a979ea043a335a1941759e8d, type: 3}
+    columns: 3
+    rows: 3
+    frameCount: 6
+    fps: 40
+    pivot: {x: 0.5, y: 0.144}
+    worldWidth: 1.6
+    loop: 0
+    lastFrameHold: 0.1
+  - id: portal_anim
+    sheet: {fileID: 2800000, guid: fcd057201ea48234d98dc85c4bed3ef4, type: 3}
+    columns: 3
+    rows: 3
+    frameCount: 8
+    fps: 8
+    pivot: {x: 0.5, y: 0.5}
+    worldWidth: 1
+    loop: 1
+    lastFrameHold: 0
+  - id: stun_stars_anim
+    sheet: {fileID: 2800000, guid: e821f7d6688dabc41b6cf504b0147c28, type: 3}
+    columns: 4
+    rows: 3
+    frameCount: 12
+    fps: 12
+    pivot: {x: 0.5, y: 0.35}
+    worldWidth: 0.45
+    loop: 1
+    lastFrameHold: 0
+  - id: burn_status
+    sheet: {fileID: 2800000, guid: 29ac27f1db1a77d419480d8880840925, type: 3}
+    columns: 4
+    rows: 3
+    frameCount: 12
+    fps: 12
+    pivot: {x: 0.5, y: 0.15}
+    worldWidth: 0.45
+    loop: 1
+    lastFrameHold: 0
+  - id: poison_status
+    sheet: {fileID: 2800000, guid: c7c21504da475924c9670ee6db713671, type: 3}
+    columns: 4
+    rows: 4
+    frameCount: 16
+    fps: 12
+    pivot: {x: 0.43, y: 0.36}
+    worldWidth: 0.4
+    loop: 1
+    lastFrameHold: 0
+  - id: mark_anim
+    sheet: {fileID: 2800000, guid: 5071246c8d7312943bf3539679629024, type: 3}
+    columns: 4
+    rows: 3
+    frameCount: 12
+    fps: 12
+    pivot: {x: 0.5, y: 0.5}
+    worldWidth: 0.3
+    loop: 1
+    lastFrameHold: 0
+  - id: grenade_explosion
+    sheet: {fileID: 2800000, guid: 3fc6d31a5aa40b041bcb9132c468988a, type: 3}
+    columns: 4
+    rows: 4
+    frameCount: 14
+    fps: 20
+    pivot: {x: 0.54, y: 0.42}
+    worldWidth: 1
+    loop: 0
+    lastFrameHold: 0
+  - id: gravity_explosion_smoke
+    sheet: {fileID: 2800000, guid: 2112e4379eba63f408cb1fcc0244e02e, type: 3}
+    columns: 4
+    rows: 4
+    frameCount: 14
+    fps: 20
+    pivot: {x: 0.54, y: 0.42}
+    worldWidth: 1
+    loop: 0
+    lastFrameHold: 0
+  - id: burn_explosion
+    sheet: {fileID: 2800000, guid: a7871ed5765ac9744a76b281d7c73652, type: 3}
+    columns: 4
+    rows: 4
+    frameCount: 14
+    fps: 20
+    pivot: {x: 0.54, y: 0.42}
+    worldWidth: 1
+    loop: 0
+    lastFrameHold: 0
+  - id: poison_explosion
+    sheet: {fileID: 2800000, guid: 1ea4009db51989841be5ddb7eae56344, type: 3}
+    columns: 4
+    rows: 4
+    frameCount: 14
+    fps: 20
+    pivot: {x: 0.54, y: 0.42}
+    worldWidth: 1
+    loop: 0
+    lastFrameHold: 0
+  - id: gravity_big_explosion
+    sheet: {fileID: 2800000, guid: a70b3aa30625d7044b7e0dce5ecc790a, type: 3}
+    columns: 4
+    rows: 4
+    frameCount: 14
+    fps: 18
+    pivot: {x: 0.515, y: 0.455}
+    worldWidth: 1
+    loop: 0
+    lastFrameHold: 0
   stills:
   - id: sword_wave
     sprite: {fileID: 21300000, guid: d5c8c5e2e5edf4b42a3129d4b0e3fc9d, type: 3}

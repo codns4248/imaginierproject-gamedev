@@ -183,7 +183,10 @@ public class StageExtraction : MonoBehaviour
         // 회복약: 싸게, 자원 1종류.
         ResourceType potionCostType = CommonResourceTypes[Random.Range(0, CommonResourceTypes.Length)];
         List<ResourceType> potionCostTypes = new List<ResourceType> { potionCostType };
-        List<int> potionCostAmounts = new List<int> { PotionCost };
+        // 상인 가격은 층이 오를수록 비싸진다 (MonsterDifficulty.MerchantPriceScale).
+        float priceScale = MonsterDifficulty.MerchantPriceScale;
+        int Scaled(int baseCost) => Mathf.RoundToInt(baseCost * priceScale);
+        List<int> potionCostAmounts = new List<int> { Scaled(PotionCost) };
         SpawnGoodsItem(parent, new Vector3(leftX, y, 0f), carpetOrder, potionIconSprite,
             potionCostTypes, potionCostAmounts, priceBubble, priceText,
             () =>
@@ -199,7 +202,7 @@ public class StageExtraction : MonoBehaviour
         GameObject weaponPrefab = WeaponPickup.GetPrefab(weaponType);
         SpriteRenderer weaponPrefabSr = weaponPrefab != null ? weaponPrefab.GetComponentInChildren<SpriteRenderer>() : null;
         List<ResourceType> weaponCostTypes = PickDistinctResourceTypes(2);
-        List<int> weaponCostAmounts = new List<int> { WeaponCostPerType, WeaponCostPerType };
+        List<int> weaponCostAmounts = new List<int> { Scaled(WeaponCostPerType), Scaled(WeaponCostPerType) };
         SpawnGoodsItem(parent, new Vector3(centerX, y, 0f), carpetOrder, weaponPrefabSr != null ? weaponPrefabSr.sprite : null,
             weaponCostTypes, weaponCostAmounts, priceBubble, priceText,
             () =>
@@ -213,7 +216,7 @@ public class StageExtraction : MonoBehaviour
         if (Random.value < RareGoodsChance)
         {
             List<ResourceType> rareCostTypes = PickDistinctResourceTypes(2);
-            List<int> rareCostAmounts = new List<int> { RareGoodsCostPerType, RareGoodsCostPerType };
+            List<int> rareCostAmounts = new List<int> { Scaled(RareGoodsCostPerType), Scaled(RareGoodsCostPerType) };
             SpawnGoodsItem(parent, new Vector3(rightX, y, 0f), carpetOrder, ResourcePickup.GetIconSprite(ResourceType.Rare),
                 rareCostTypes, rareCostAmounts, priceBubble, priceText,
                 () => { ResourceBank.AddRunResource(ResourceType.Rare, 1); return true; }); // 개수 제한 없어 항상 성공

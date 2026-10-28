@@ -33,7 +33,7 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
     public float minThrustBackDuration = 0.1f;
 
     [Header("공격력 / 판정 범위")]
-    public float damage = 1f;
+    public float damage = 10f; // 수치 단위 10배(2026-10-29): 무기 공격력 10~20, 몬스터 체력 30~ (프리팹 값이 우선)
 
     // 공격 범위 강화(구리)의 기준값. 접촉 판정에는 직접 안 쓰이고, 창 그림 크기를 얼마나 키울지와 자동공격 감지 거리(MaxReach)에 쓰인다.
     public float hitRadius = 0.8f;

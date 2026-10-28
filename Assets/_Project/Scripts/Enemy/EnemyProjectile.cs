@@ -55,10 +55,16 @@ public class EnemyProjectile : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    // 몸 충돌체에 닿는 것만으로는 안 맞고, 플레이어의 작은 피격 판정 원(PlayerHealth.hurtRadius)에 닿아야 맞는다.
+    // 몸에 걸친 채 계속 겹쳐 있어도 판정 원에 닿는 순간 맞도록 Enter가 아니라 Stay로 확인한다.
+    void OnTriggerStay2D(Collider2D other)
     {
         PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
         if (playerHealth == null) return;
+
+        CircleCollider2D shot = GetComponent<CircleCollider2D>();
+        float shotRadius = shot != null ? shot.radius * Mathf.Max(transform.lossyScale.x, transform.lossyScale.y) : 0.05f;
+        if (Vector2.Distance(playerHealth.HurtCenter, transform.position) > playerHealth.hurtRadius + shotRadius) return;
 
         Vector2 knockbackDirection = (Vector2)other.transform.position - (Vector2)transform.position;
         playerHealth.TakeHit(damage, knockbackDirection);

@@ -1,14 +1,23 @@
 using UnityEngine;
 
-// 표식이 걸린 적의 머리 위에 떠 있는 조준 아이콘 (붉은 원 + 십자). 코드로 만든 임시 스프라이트를 쓴다.
+// 표식이 걸린 적의 머리 위에 떠 있는 조준 표시. 붉은 조준선이 돌면서 고리가 맥박치듯 커졌다 작아지는 도트 애니메이션
+// (PixelFxLibrary의 "mark_anim")을 직접 넘겨 가며 그린다 (PixelFx 풀의 동시 재생 상한과 상관없이 전부 보이게).
+// 애니메이션이 없으면 예전 한 장짜리 아이콘("mark", 그것도 없으면 코드로 그린 조준선)을 코드로 돌리고 키운다.
 // 적을 따라다니고, 표식이 풀리거나 적이 사라지면 스스로 없어진다. 적 프리팹은 건드리지 않는다.
 public class MarkIndicator : MonoBehaviour
 {
+    private const string ClipId = "mark_anim";
+    private const float Size = 0.3f;        // 조준 표시의 가로 크기(월드 유닛)
+    private const float AboveHead = 0.22f;  // 머리 꼭대기에서 표시 중심까지의 높이
+
     private static Sprite reticleSprite;
 
     private Enemy owner;
     private SpriteRenderer ownerSprite;
     private SpriteRenderer sr;
+    private Sprite[] frames;
+    private float fps;
+    private float time;
 
     public static MarkIndicator Create(Enemy owner)
     {
@@ -16,11 +25,23 @@ public class MarkIndicator : MonoBehaviour
         MarkIndicator mark = go.AddComponent<MarkIndicator>();
         mark.owner = owner;
         mark.ownerSprite = owner.GetComponent<SpriteRenderer>();
-
         mark.sr = go.AddComponent<SpriteRenderer>();
-        Sprite art = PixelFxLibrary.GetSprite("mark");
-        mark.sr.sprite = art != null ? art : GetReticleSprite();
-        mark.sr.color = art != null ? Color.white : new Color(1f, 0.25f, 0.2f, 0.95f);
+
+        Sprite[] frames = PixelFx.GetFrames(ClipId, out float fps, out float framePixelWidth);
+        if (frames != null && frames.Length > 0)
+        {
+            mark.frames = frames;
+            mark.fps = fps;
+            mark.sr.sprite = frames[0];
+            go.transform.localScale = Vector3.one * (Size / framePixelWidth);
+        }
+        else
+        {
+            Sprite art = PixelFxLibrary.GetSprite("mark");
+            mark.sr.sprite = art != null ? art : GetReticleSprite();
+            mark.sr.color = art != null ? Color.white : new Color(1f, 0.25f, 0.2f, 0.95f);
+        }
+
         if (mark.ownerSprite != null)
         {
             mark.sr.sortingLayerID = mark.ownerSprite.sortingLayerID;
@@ -38,6 +59,12 @@ public class MarkIndicator : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+
+        if (frames != null)
+        {
+            time += Time.deltaTime;
+            sr.sprite = frames[(int)(time * fps) % frames.Length];
+        }
         Follow();
     }
 
@@ -45,10 +72,11 @@ public class MarkIndicator : MonoBehaviour
     private void Follow()
     {
         float top = ownerSprite != null ? ownerSprite.bounds.max.y : owner.transform.position.y;
-        float pulse = 1f + 0.12f * Mathf.Sin(Time.time * 9f);
+        transform.position = new Vector3(owner.transform.position.x, top + AboveHead, owner.transform.position.z);
+        if (frames != null) return; // 애니메이션이 회전/맥박을 직접 그린다
 
-        transform.position = new Vector3(owner.transform.position.x, top + 0.22f, owner.transform.position.z);
-        transform.localScale = Vector3.one * (0.3f * pulse);
+        float pulse = 1f + 0.12f * Mathf.Sin(Time.time * 9f);
+        transform.localScale = Vector3.one * (Size * pulse);
         transform.rotation = Quaternion.Euler(0f, 0f, Time.time * 90f);
     }
 

@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 2112e4379eba63f408cb1fcc0244e02e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3753728428551588938
+    second: gravity-explosion-smoke_0
+  - first:
+      213: -8067259673048591035
+    second: gravity-explosion-smoke_1
+  - first:
+      213: -6634275055770448007
+    second: gravity-explosion-smoke_2
+  - first:
+      213: -3800286982568546171
+    second: gravity-explosion-smoke_3
+  - first:
+      213: -2532510395191536401
+    second: gravity-explosion-smoke_4
+  - first:
+      213: -7888202454640040574
+    second: gravity-explosion-smoke_5
+  - first:
+      213: 1880007848866352928
+    second: gravity-explosion-smoke_6
+  - first:
+      213: -7990568172077767918
+    second: gravity-explosion-smoke_7
+  - first:
+      213: 3619803177195720677
+    second: gravity-explosion-smoke_8
+  - first:
+      213: -6443346767685755134
+    second: gravity-explosion-smoke_9
+  - first:
+      213: -3348372002714595005
+    second: gravity-explosion-smoke_10
+  - first:
+      213: -4714829386225352302
+    second: gravity-explosion-smoke_11
+  - first:
+      213: -4084108936503438413
+    second: gravity-explosion-smoke_12
+  - first:
+      213: 2574717728826161507
+    second: gravity-explosion-smoke_13
+  - first:
+      213: -1145992451284968002
+    second: gravity-explosion-smoke_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gravity-explosion-smoke_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 215
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3b5e0e1e318ebc0800000000000000
+      internalID: -3753728428551588938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gravity-explosion-smoke_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 207
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545da1dc1165b0090800000000000000
+      internalID: -8067259673048591035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gravity-explosion-smoke_2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 204
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f41969cf15ee3a0800000000000000
+      internalID: -6634275055770448007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gravity-explosion-smoke_3
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 202
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580f577cf1ba24bc0800000000000000
+      internalID: -3800286982568546171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gravity-explosion-smoke_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 136
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4df90a637badcd0800000000000000
+      internalID: -2532510395191536401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gravity-explosion-smoke_5
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 134
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285e0d639a9778290800000000000000
+      internalID: -7888202454640040574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gravity-explosion-smoke_6
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 134
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f00a68d21271a10800000000000000
+      internalID: 1880007848866352928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gravity-explosion-smoke_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 135
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21323c5559ccb1190800000000000000
+      internalID: -7990568172077767918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gravity-explosion-smoke_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 70
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5efc495afcf1c3230800000000000000
+      internalID: 3619803177195720677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gravity-explosion-smoke_9
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 115
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20fdd6bc042a496a0800000000000000
+      internalID: -6443346767685755134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gravity-explosion-smoke_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 67
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341555a67613881d0800000000000000
+      internalID: -3348372002714595005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gravity-explosion-smoke_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 66
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291077947af819eb0800000000000000
+      internalID: -4714829386225352302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gravity-explosion-smoke_12
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 68
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3d6bf8f845257c0800000000000000
+      internalID: -4084108936503438413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gravity-explosion-smoke_13
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 13
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3697597022c3bb320800000000000000
+      internalID: 2574717728826161507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gravity-explosion-smoke_14
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 25
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd51e1ffed9810f0800000000000000
+      internalID: -1145992451284968002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gravity-explosion-smoke_0: -3753728428551588938
+      gravity-explosion-smoke_1: -8067259673048591035
+      gravity-explosion-smoke_10: -3348372002714595005
+      gravity-explosion-smoke_11: -4714829386225352302
+      gravity-explosion-smoke_12: -4084108936503438413
+      gravity-explosion-smoke_13: 2574717728826161507
+      gravity-explosion-smoke_14: -1145992451284968002
+      gravity-explosion-smoke_2: -6634275055770448007
+      gravity-explosion-smoke_3: -3800286982568546171
+      gravity-explosion-smoke_4: -2532510395191536401
+      gravity-explosion-smoke_5: -7888202454640040574
+      gravity-explosion-smoke_6: 1880007848866352928
+      gravity-explosion-smoke_7: -7990568172077767918
+      gravity-explosion-smoke_8: 3619803177195720677
+      gravity-explosion-smoke_9: -6443346767685755134
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
