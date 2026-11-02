@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 
 // 도트 애니메이션 이펙트(스프라이트시트) 목록. Resources/PixelFxLibrary 에셋에서 id로 찾는다.
-// 그림은 PixelLab으로 만들어 Assets/ThirdParty/PixelLab/ 아래에 두고, 여기에 연결만 한다 (PixelFx.Play 참고).
+// 그림은 PixelLab으로 만들어 Assets/ThirdParty/fx/ 아래에 두고, 여기에 연결만 한다 (PixelFx.Play 참고).
 [CreateAssetMenu(menuName = "Endure/Pixel Fx Library", fileName = "PixelFxLibrary")]
 public class PixelFxLibrary : ScriptableObject
 {
