@@ -61,10 +61,10 @@ public class StageExtraction : MonoBehaviour
         hubPortalTemplate = hubPortal != null ? hubPortal.gameObject : null;
         if (hubPortalTemplate == null) Debug.LogWarning("StageExtraction: 거점 포탈(StagePortal)을 찾지 못해 클리어 포탈을 만들 수 없음");
 
-        merchantTemplate = GameObject.Find("상인");
-        merchantCarpetTemplate = GameObject.Find("상인_카펫");
+        merchantTemplate = GameObject.Find("Merchant");
+        merchantCarpetTemplate = GameObject.Find("MerchantCarpet");
         if (merchantTemplate == null || merchantCarpetTemplate == null)
-            Debug.LogWarning("StageExtraction: 상인/상인_카펫 오브젝트를 찾지 못해 상인 등장 연출을 만들 수 없음");
+            Debug.LogWarning("StageExtraction: Merchant/MerchantCarpet 오브젝트를 찾지 못해 상인 등장 연출을 만들 수 없음");
 
         // 상품 진열용 흰색 테두리는 적(Enemy)이 이미 쓰는 것과 같은 머티리얼을 재사용한다.
         EnemySpawner anySpawner = FindFirstObjectByType<EnemySpawner>();
@@ -146,11 +146,11 @@ public class StageExtraction : MonoBehaviour
         Vector3 carpetPos = new Vector3(center.x - halfExtent + 2f, center.y, 0f);
 
         GameObject carpet = Instantiate(merchantCarpetTemplate, parent);
-        carpet.name = "상인_카펫";
+        carpet.name = "MerchantCarpet";
         carpet.transform.position = carpetPos;
 
         GameObject merchant = Instantiate(merchantTemplate, parent);
-        merchant.name = "상인";
+        merchant.name = "Merchant";
         merchant.transform.position = carpetPos + offset;
 
         // 원본 둘 다 sortingOrder가 같아서(0) 그리는 순서가 들쭉날쭉했다.
@@ -232,7 +232,7 @@ public class StageExtraction : MonoBehaviour
     {
         if (sprite == null) return; // 아이콘을 못 구했으면(무기 프리팹 못 찾음 등) 진열하지 않는다
 
-        GameObject go = new GameObject("상인_상품");
+        GameObject go = new GameObject("MerchantItem");
         go.transform.SetParent(parent);
         go.transform.position = position;
 
@@ -282,7 +282,7 @@ public class StageExtraction : MonoBehaviour
     // (DamageNumber.cs 참고) 이 프로젝트 관례대로 World Space Canvas + UI.Text로 만든다.
     private static GameObject CreatePriceBubble(Transform parent, Vector3 position)
     {
-        GameObject root = new GameObject("상인_가격표", typeof(RectTransform), typeof(Canvas));
+        GameObject root = new GameObject("MerchantPriceTag", typeof(RectTransform), typeof(Canvas));
         root.transform.SetParent(parent);
         root.transform.position = position;
         root.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f) * 0.5f; // 전체 축소 배율(0.5) 반영
