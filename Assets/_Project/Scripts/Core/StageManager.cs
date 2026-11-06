@@ -18,7 +18,7 @@ public static class StageManager
         }
     }
 
-    private static readonly Zone hub = new Zone(-200f, -100f, 9.5f, "거점");
+    private static readonly Zone hub = new Zone(-200f, -100f, 6f, "거점"); // 12x12 유닛 (예전 19x19는 이동이 너무 길었음)
 
     // 맵을 개별 씬으로 분리한 결과 - 여기 매핑이 있는 테마는 EnterStage/ReturnToHub 때 해당 씬을
     // additive로 불러오고/내린다 (StageSceneTransition이 실제 로드와 검은 화면 전환을 담당).
