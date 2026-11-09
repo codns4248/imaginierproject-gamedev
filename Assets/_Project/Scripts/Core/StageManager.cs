@@ -81,16 +81,14 @@ public static class StageManager
     }
     public static bool IsMixedMonsterZone => CurrentTheme == MixedMonsterTheme;
 
-    // 거점 포탈에서 처음 스테이지를 고를 때 쓰는 테마 풀. "겨울 (테스트용)"은 절대 나오면 안 되므로
-    // 여기 두 풀 어디에도 넣지 않는다 (stages 배열엔 남겨둬서 EnterStage로 직접 테스트는 계속 가능).
-    private static readonly string[] CommonStartThemes = { "오염된 호수", "광산", "숲", "공장", "모래 황무지" };
-    private static readonly string[] RareStartThemes = { "NASA", "군부대", "생각의 방" };
-    private const float RareStartChance = 0.15f; // 희귀자원 맵 3종은 낮은 확률로만 등장
+    // 거점 포탈에서 처음 들어가는 스테이지는 일반 맵 5종 중 하나다. NASA/군부대/생각의 방은 첫 스테이지로는 나오지 않고,
+    // 클리어 후 가끔 뜨는 보라색 미스터리 포탈로만 간다 (StageExtraction 참고). "겨울 (테스트용)"은 어디에도 넣지 않는다
+    // (stages 배열엔 남겨둬서 EnterStage로 직접 테스트는 계속 가능).
+    private static readonly string[] StartThemes = { "오염된 호수", "광산", "숲", "공장", "모래 황무지" };
 
     public static void EnterRandomStage()
     {
-        string[] pool = Random.value < RareStartChance ? RareStartThemes : CommonStartThemes;
-        EnterStage(pool[Random.Range(0, pool.Length)]);
+        EnterStage(StartThemes[Random.Range(0, StartThemes.Length)]);
     }
 
     // 특정 테마의 스테이지로 이동한다 (스테이지 클리어 후 뜨는 색깔 포탈이 사용).

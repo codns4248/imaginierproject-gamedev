@@ -191,7 +191,7 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
         {
             // leftButton.isPressed는 눌려있는 동안 계속 true라서, 꾹 누르고 있으면 쿨다운이 풀리는
             // 즉시 자동으로 재발사되고(연사), attackInterval보다 빠르게는 발사되지 않는다.
-            if (Mouse.current.leftButton.isPressed)
+            if (Mouse.current.leftButton.isPressed && !UiPointerBlock.Active)
             {
                 attackCooldown = attackInterval;
                 weaponAim.Kick(recoilKickAngle);

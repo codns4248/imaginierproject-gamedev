@@ -1,61 +1,93 @@
+using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.UI;
 using UnityEngine.UI;
 
-// H키(Home)로 "거점으로 복귀하시겠습니까?" 확인창을 띄운다. Y로 확정하면 지금까지 파밍한 자원을
-// 확정(익스트랙션과 동일하게 처리)하고 거점으로 이동한다. N/ESC로 취소.
-// 스테이지 클리어(5층)를 못 채웠어도, 도중에 언제든 안전하게 빠져나갈 수 있는 수단
-// (StageExtraction의 자동 복귀는 클리어했을 때만 발동하므로 서로 겹치지 않는다).
-// ponytail: 확인창을 클릭 UI(Button) 대신 순수 키 입력으로만 만들었다 - 최근 EnhanceButton
-// 클릭이 EventSystem 설정 문제로 안 먹었던 걸 겪어서, 정말 간단한 확인창까지 그 리스크를
-// 다시 지지 않으려고 일부러 키보드 전용으로 뒀다.
+// 긴급탈출: 탐험 중 H키를 누르면 이번 탐험에서 주운 희귀자원(runHeld) 1개를 써서 언제든 거점으로 빠져나갈 수 있다.
+// (예전엔 공짜로 언제든 돌아가는 테스트용 복귀였다.)
+//  - 희귀자원이 있으면 "희귀 자원을 사용하여 탈출하시겠습니까?" 확인창이 뜨고 [예]/[아니오]를 마우스로 누른다.
+//    [예] = 희귀자원 1개를 쓰고 탈출 포탈과 같은 규칙으로 자원을 확정한 뒤 거점으로, [아니오] = 창만 닫힌다. 창이 떠 있을 때 H를 다시 눌러도 닫힌다.
+//  - 확인창은 게임을 멈추지 않는다: 창을 띄운 채 [예]를 누르기 전에 죽으면 창은 사라지고 그대로 게임 오버.
+//  - 희귀자원이 없으면 플레이어 머리 위에 "자원이 부족합니다"가 잠깐 떴다가 사라진다.
+//  - 거점에서는 동작하지 않고, ESC/강화창/레벨업 카드처럼 게임을 멈추는 창이 떠 있을 때도 H를 받지 않는다.
+// 창은 V 강화 창과 같은 PixelArtGUI 모양(PixelUi)으로, 씬을 건드리지 않도록 코드로 만든다.
 public class RetreatManager : MonoBehaviour
 {
-    [Tooltip("확인창 문구 폰트 (프로젝트 한글 UI와 동일한 neodgm 권장). 비우면 내장 폰트로 폴백.")]
+    [Tooltip("확인창 문구 폰트. 비우면 레벨업 UI와 같은 폰트(LevelUpConfig.font), 그것도 없으면 내장 폰트.")]
     public Font promptFont;
 
-    private GameObject promptGO;
-    private bool isPromptOpen;
-    private PauseManager pauseManager;
+    private const int EscapeCost = 1;
+    private const float WarningDuration = 1.2f;
+    private const float WarningRise = 40f;   // 떠 있는 동안 위로 올라가는 거리(UI 픽셀)
+
+    private static readonly Color WarnColor = new Color(1f, 0.45f, 0.4f);
+
+    private LevelUpConfig cfg;
+    private Font font;
+    private GameObject canvasGO;
+    private RectTransform canvasRect;
+    private RectTransform popup;
+    private Text costText;
+    private Text warningText;
+    private float warningTimer;
+    private Transform player;
+    private bool isOpen;
 
     void Awake()
     {
-        pauseManager = FindFirstObjectByType<PauseManager>();
-        BuildPrompt();
+        cfg = LevelUpConfig.Instance;
+        font = promptFont != null ? promptFont : cfg.font != null ? cfg.font : Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+        Build();
+    }
+
+    void OnDestroy()
+    {
+        UiPointerBlock.Active = false;
+        if (canvasGO != null) Destroy(canvasGO);
     }
 
     void Update()
     {
-        if (isPromptOpen)
-        {
-            if (Keyboard.current.yKey.wasPressedThisFrame) Confirm();
-            else if (Keyboard.current.nKey.wasPressedThisFrame || Keyboard.current.escapeKey.wasPressedThisFrame) ClosePrompt();
-            return;
-        }
+        // 탐험이 끝났거나(클리어 후 이동/사망/추출) 죽었으면 떠 있던 창을 닫는다.
+        if (isOpen && (!StageManager.IsInStage || EnemyManager.PlayerDead)) Close();
 
-        if (Keyboard.current.hKey.wasPressedThisFrame) OpenPrompt();
+        UiPointerBlock.Active = isOpen && !PauseManager.IsPaused && Mouse.current != null
+            && RectTransformUtility.RectangleContainsScreenPoint(popup, Mouse.current.position.ReadValue(), null);
+        UpdateWarning();
+
+        if (Keyboard.current == null || !Keyboard.current.hKey.wasPressedThisFrame) return;
+        if (isOpen) { Close(); return; }
+        if (!StageManager.IsInStage || EnemyManager.PlayerDead || PauseManager.IsPaused) return;
+
+        if (ResourceBank.GetRunHeld(ResourceType.Rare) < EscapeCost) ShowWarning();
+        else Open();
     }
 
-    private void OpenPrompt()
+    private void Open()
     {
-        if (promptGO == null) BuildPrompt();
-        if (promptGO == null) return;
-
-        isPromptOpen = true;
-        promptGO.SetActive(true);
-        if (pauseManager != null) pauseManager.SetInventoryPaused(true);
+        EnsureEventSystem();
+        costText.text = $"희귀 자원 {EscapeCost}개 소모  (보유 {ResourceBank.GetRunHeld(ResourceType.Rare)}개)";
+        popup.gameObject.SetActive(true);
+        isOpen = true;
     }
 
-    private void ClosePrompt()
+    private void Close()
     {
-        isPromptOpen = false;
-        promptGO.SetActive(false);
-        if (pauseManager != null) pauseManager.SetInventoryPaused(false);
+        isOpen = false;
+        popup.gameObject.SetActive(false);
+        UiPointerBlock.Active = false;
     }
 
-    private void Confirm()
+    private void OnYes()
     {
-        // 탈출(도중 안전 복귀): 파밍 자원은 stash로 확정하되, 이번 런의 무기(강화 + 필드/상인에서
+        if (!isOpen || PauseManager.IsPaused) return;
+        if (!StageManager.IsInStage || EnemyManager.PlayerDead) { Close(); return; }
+        if (!ResourceBank.TrySpendRunResource(ResourceType.Rare, EscapeCost)) { Close(); ShowWarning(); return; }
+        Close();
+
+        // 탈출: 파밍 자원은 stash로 확정하되(탈출 포탈과 동일), 이번 런의 무기(강화 + 필드/상인에서
         // 얻은 여분 무기)는 사망/추출과 같은 규칙으로 전부 초기화한다.
         ResourceBank.CommitRunToStash();
         WeaponEnhanceStore.ResetForNewRun();
@@ -63,54 +95,102 @@ public class RetreatManager : MonoBehaviour
         WeaponSwitcher weaponSwitcher = FindFirstObjectByType<WeaponSwitcher>();
         if (weaponSwitcher != null) weaponSwitcher.ResetToStartingWeapon();
         StageProgress.ResetToFirstStage();
-        ClosePrompt();
         StageManager.ReturnToHub();
     }
 
-    // 이미 만들어져 있으면 재사용하고(도메인 리로드 등으로 필드 참조만 끊긴 경우 대비), 없으면 새로 만든다.
-    private void BuildPrompt()
+    private void OnNo()
     {
-        GameObject existing = GameObject.Find("RetreatPrompt");
-        if (existing != null)
+        if (!isOpen || PauseManager.IsPaused) return;
+        Close();
+    }
+
+    // "자원이 부족합니다": 플레이어 머리 위에서 살짝 떠오르며 사라진다.
+    private void ShowWarning()
+    {
+        warningTimer = WarningDuration;
+        warningText.gameObject.SetActive(true);
+        UpdateWarning();
+    }
+
+    private void UpdateWarning()
+    {
+        if (warningTimer <= 0f) return;
+        warningTimer -= Time.unscaledDeltaTime;
+        if (warningTimer <= 0f || Camera.main == null)
         {
-            promptGO = existing;
-            promptGO.SetActive(false);
+            warningText.gameObject.SetActive(false);
             return;
         }
 
-        Canvas canvas = FindFirstObjectByType<Canvas>();
-        if (canvas == null) return;
+        if (player == null)
+        {
+            GameObject p = GameObject.Find("Player");
+            if (p != null) player = p.transform;
+        }
+        Vector3 head = player != null ? player.position + Vector3.up * 0.45f : Camera.main.transform.position;
+        Vector2 screen = Camera.main.WorldToScreenPoint(head);
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRect, screen, null, out Vector2 local);
 
-        // Image(배경)와 Text는 둘 다 Graphic이라 같은 오브젝트에 공존 못 하므로 자식으로 분리한다.
-        GameObject go = new GameObject("RetreatPrompt", typeof(RectTransform), typeof(CanvasRenderer), typeof(Image));
-        go.transform.SetParent(canvas.transform, false);
+        float t = 1f - warningTimer / WarningDuration; // 0 -> 1
+        warningText.rectTransform.anchoredPosition = local + new Vector2(0f, WarningRise * t);
+        Color c = WarnColor;
+        c.a = t < 0.7f ? 1f : Mathf.Clamp01((1f - t) / 0.3f);
+        warningText.color = c;
+    }
 
-        RectTransform rt = go.GetComponent<RectTransform>();
-        rt.anchorMin = new Vector2(0.5f, 0.5f);
-        rt.anchorMax = new Vector2(0.5f, 0.5f);
-        rt.pivot = new Vector2(0.5f, 0.5f);
-        rt.anchoredPosition = Vector2.zero;
-        rt.sizeDelta = new Vector2(520f, 90f);
+    private static void EnsureEventSystem()
+    {
+        if (EventSystem.current != null) return;
+        GameObject es = new GameObject("EventSystem");
+        es.AddComponent<EventSystem>();
+        es.AddComponent<InputSystemUIInputModule>();
+    }
 
-        Image bg = go.GetComponent<Image>();
-        bg.color = new Color(0f, 0f, 0f, 0.75f);
+    // ===================== 만들기 =====================
 
-        GameObject textGO = new GameObject("Text", typeof(RectTransform), typeof(CanvasRenderer), typeof(Text));
-        textGO.transform.SetParent(go.transform, false);
-        RectTransform textRT = textGO.GetComponent<RectTransform>();
-        textRT.anchorMin = Vector2.zero;
-        textRT.anchorMax = Vector2.one;
-        textRT.offsetMin = Vector2.zero;
-        textRT.offsetMax = Vector2.zero;
+    private void Build()
+    {
+        canvasGO = new GameObject("EmergencyEscapeUI");
+        Canvas canvas = canvasGO.AddComponent<Canvas>();
+        canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+        canvas.sortingOrder = 55; // HUD보다 위, 레벨업 카드 창(60)보다 아래 (레벨업 창이 뜨면 그 뒤에 가려지고 클릭도 막힌다)
+        CanvasScaler scaler = canvasGO.AddComponent<CanvasScaler>();
+        scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
+        scaler.referenceResolution = new Vector2(1280f, 720f);
+        scaler.matchWidthOrHeight = 0.5f;
+        canvasGO.AddComponent<GraphicRaycaster>();
+        canvasRect = (RectTransform)canvasGO.transform;
 
-        Text text = textGO.GetComponent<Text>();
-        text.font = promptFont != null ? promptFont : Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
-        text.fontSize = 24;
-        text.alignment = TextAnchor.MiddleCenter;
-        text.color = Color.white;
-        text.text = "거점으로 복귀하시겠습니까?\n(Y: 예 / N: 아니오)";
+        BuildPopup();
 
-        promptGO = go;
-        promptGO.SetActive(false);
+        warningText = PixelUi.NewText("NotEnough", canvasRect, font, 20, WarnColor, TextAnchor.MiddleCenter);
+        warningText.rectTransform.anchorMin = warningText.rectTransform.anchorMax = new Vector2(0.5f, 0.5f);
+        warningText.rectTransform.sizeDelta = new Vector2(300f, 30f);
+        warningText.text = "자원이 부족합니다";
+        warningText.gameObject.SetActive(false);
+    }
+
+    // V 강화 창과 같은 모양의 창(바탕 + 테두리 + 금색 모서리) 안에 질문, 비용, [예]/[아니오].
+    // 게임이 계속 돌아가므로 화면 한가운데(플레이어 자리)를 가리지 않게 플레이어 발밑보다 조금 아래쪽에 띄운다.
+    private void BuildPopup()
+    {
+        popup = PixelUi.NewRect("EscapePopup", canvasRect);
+        popup.anchorMin = popup.anchorMax = new Vector2(0.5f, 0f);
+        popup.pivot = new Vector2(0.5f, 0f);
+        popup.anchoredPosition = new Vector2(0f, 110f);
+        popup.sizeDelta = new Vector2(480f, 184f);
+        PixelUi.Window(popup);
+
+        Text question = PixelUi.NewText("Question", popup, font, 22, PixelUi.Gold, TextAnchor.MiddleCenter);
+        PixelUi.PlaceTop(question.rectTransform, new Vector2(0f, -46f), new Vector2(420f, 30f));
+        question.text = "희귀 자원을 사용하여 탈출하시겠습니까?";
+
+        costText = PixelUi.NewText("Cost", popup, font, 16, new Color(0.78f, 0.86f, 0.95f), TextAnchor.MiddleCenter);
+        PixelUi.PlaceTop(costText.rectTransform, new Vector2(0f, -76f), new Vector2(420f, 22f));
+
+        PixelUi.Button(popup, "Yes", "예", true, font, new Vector2(-88f, 48f), new Vector2(140f, 46f), OnYes);
+        PixelUi.Button(popup, "No", "아니오", false, font, new Vector2(88f, 48f), new Vector2(140f, 46f), OnNo);
+
+        popup.gameObject.SetActive(false);
     }
 }

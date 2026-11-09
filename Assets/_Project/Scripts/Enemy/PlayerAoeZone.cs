@@ -8,6 +8,8 @@ public class PlayerAoeZone : MonoBehaviour
     public float radius = 1.5f;
     public float warningDuration = 1.5f;
     public int damage = 1;
+    [Tooltip("터지는 순간 재생할 이펙트 id (PixelFxLibrary). 비우면 이펙트 없이 판정만 한다")]
+    public string detonateFxId;
 
     private float timer;
 
@@ -39,6 +41,8 @@ public class PlayerAoeZone : MonoBehaviour
 
     private void Detonate()
     {
+        if (!string.IsNullOrEmpty(detonateFxId)) PixelFx.Play(detonateFxId, transform.position, radius * 2f * 1.08f);
+
         GameObject player = GameObject.Find("Player");
         if (player != null && Vector2.Distance(player.transform.position, transform.position) <= radius)
         {

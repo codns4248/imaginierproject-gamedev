@@ -30,6 +30,8 @@ public class EnemySpawner : MonoBehaviour
             if (enemyPrefab.GetComponent<ChargeEnemyAI>() != null) { specialUnlockStage = 4; specialRampFloors = 6; }
             else if (enemyPrefab.GetComponent<AmbushCasterAI>() != null) { specialUnlockStage = 5; specialRampFloors = 6; }
             else if (enemyPrefab.GetComponent<RangedEnemyAI>() != null) { specialUnlockStage = 6; specialRampFloors = 8; }
+            else if (enemyPrefab.GetComponent<SelfDestructAI>() != null) { specialUnlockStage = 5; specialRampFloors = 6; } // 군부대 자폭 드론
+            else if (enemyPrefab.GetComponent<OrbitShooterAI>() != null) { specialUnlockStage = 6; specialRampFloors = 8; } // NASA 부유 촉수체
         }
     }
 

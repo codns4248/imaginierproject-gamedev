@@ -329,7 +329,7 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
 
         // 들고 있을 때만 마우스 좌클릭으로 수동 발동한다. 자동 발동은 MeleeAutoAttackQueue가
         // TriggerAutoAttack()을 직접 호출해서 처리하므로 여기서는 신경 쓰지 않는다.
-        if (weaponAim.isHeld && !IsAttacking && Mouse.current.leftButton.isPressed && attackCooldown <= 0f)
+        if (weaponAim.isHeld && !IsAttacking && Mouse.current.leftButton.isPressed && !UiPointerBlock.Active && attackCooldown <= 0f)
         {
             StartThrust(weaponAim.AimDirection);
         }

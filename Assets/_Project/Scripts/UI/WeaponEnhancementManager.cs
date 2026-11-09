@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
@@ -23,6 +25,9 @@ using UnityEngine.UI;
 // 특수효과 단계에 닿으면 무기 이름 아래에 금색 해금 배너가 잠깐 뜬다.
 //
 // 각 줄(진행바/마커/버튼/자원 표시)과 팝업 스케일 보정은 UpgradeRowUI가 담당한다 (거점 영구 강화와 공용).
+//
+// 창 위쪽에 폴더 모양의 [강화] / [제작] 탭을 코드로 붙인다. [제작]은 희귀자원으로 원하는 무기를 만드는 화면(WeaponCraftingView)이고,
+// 탭을 바꾸면 내용이 옆으로 밀리며 바뀐다. 창을 열 때는 항상 [강화] 탭으로 시작한다.
 public class WeaponEnhancementManager : MonoBehaviour
 {
     public GameObject enhancementPanel; // 무기 강화 팝업 UI 오브젝트 (WeaponUpgradePanel)
@@ -48,6 +53,19 @@ public class WeaponEnhancementManager : MonoBehaviour
     // 마지막으로 RefreshAllRows()가 반영한 무기. 패널이 열린 채 Q로 무기를 바꾸면 이 값과 달라지므로
     // Update()에서 감지해 행/헤더를 새 무기 기준으로 다시 그린다 (예전엔 이전 무기 강화 상태가 그대로 남았음).
     private MonoBehaviour lastShownWeapon;
+
+    // [강화] / [제작] 탭
+    private const float TabSwitchTime = 0.2f; // 탭 전환 연출 시간(실제 시간)
+    private const float TabSlide = 40f;       // 전환할 때 내용이 옆으로 밀리는 거리
+    private WeaponCraftingView craftView;
+    private Vector2 craftBasePosition;
+    private RectTransform enhanceContent;     // 강화 내용(아이콘, 이름, 강화 행, 효과 목록)을 묶은 그룹
+    private CanvasGroup enhanceGroup;
+    private TabView enhanceTab, craftTab;
+    private TMPro.TMP_Text windowTitle;
+    private string enhanceTitle;
+    private bool showCraft;   // 고른 탭
+    private float tabBlend;   // 전환 연출 진행: 0 = 강화, 1 = 제작
 
     void Awake()
     {
@@ -80,6 +98,7 @@ public class WeaponEnhancementManager : MonoBehaviour
             // 패널이 열린 채 Q로 무기를 바꾸면 강화 행/헤더를 새 무기 기준으로 다시 그린다.
             if (!ReferenceEquals(FindHeldWeapon(), lastShownWeapon)) RefreshAllRows();
             Animate(Time.unscaledDeltaTime);
+            UpdateTabs(Time.unscaledDeltaTime);
         }
 
         if (!Keyboard.current.vKey.wasPressedThisFrame) return;
@@ -98,6 +117,7 @@ public class WeaponEnhancementManager : MonoBehaviour
         if (pauseManager != null) pauseManager.SetInventoryPaused(open);
 
         if (!open) return;
+        SetTab(false, true);
         RefreshAllRows();
         foreach (UpgradeRowUI row in rows) row.Snap();
         bannerTimer = 0f;
@@ -136,6 +156,156 @@ public class WeaponEnhancementManager : MonoBehaviour
             t.supportRichText = true;
             t.lineSpacing = 1.2f;
         }
+
+        BuildTabs((RectTransform)window, font);
+    }
+
+    // ===================== [강화] / [제작] 탭 =====================
+
+    // 강화 내용(무기 아이콘, 이름, 강화 행, 효과 목록)을 한 그룹으로 묶고, 그 옆에 제작 화면을 만든 뒤
+    // 창 위쪽 테두리에 폴더 탭 모양의 [강화] / [제작] 탭을 붙인다. 탭을 바꾸면 나가는 내용은 옆으로 밀리며 사라지고
+    // 들어오는 내용은 반대쪽에서 밀려 들어온다 (게임이 멈춰 있으므로 실제 시간으로).
+    private void BuildTabs(RectTransform window, Font font)
+    {
+        Transform iconBox = UpgradeRowUI.FindDeep(window, "WeaponIconBox");
+        Transform statRows = UpgradeRowUI.FindDeep(window, "StatRowsContainer");
+        int contentIndex = iconBox != null ? iconBox.GetSiblingIndex() : 0;
+
+        enhanceContent = PixelUi.NewRect("EnhanceContent", window);
+        PixelUi.Stretch(enhanceContent);
+        enhanceGroup = enhanceContent.gameObject.AddComponent<CanvasGroup>();
+        foreach (Transform t in new[] { iconBox, statRows, headerText.transform, bannerText.transform, effectsLabels.transform, effectsText.transform })
+            if (t != null) t.SetParent(enhanceContent, false); // 창과 같은 크기의 그룹이라 위치는 그대로다
+        enhanceContent.SetSiblingIndex(contentIndex); // 창 제목줄/닫기 버튼보다 아래에 그린다
+
+        craftView = WeaponCraftingView.Create(window, font);
+        craftView.transform.SetSiblingIndex(contentIndex + 1);
+        craftBasePosition = ((RectTransform)craftView.transform).anchoredPosition;
+
+        Transform titleRoot = UpgradeRowUI.FindDeep(window, "WindowTitle");
+        windowTitle = titleRoot != null ? titleRoot.GetComponentInChildren<TMPro.TMP_Text>(true) : null;
+        enhanceTitle = windowTitle != null ? windowTitle.text : null;
+
+        Font tabFont = LevelUpConfig.Instance.font != null ? LevelUpConfig.Instance.font : font;
+        enhanceTab = TabView.Create(window, "강화", new Vector2(40f, 0f), tabFont, () => SetTab(false, false));
+        craftTab = TabView.Create(window, "제작", new Vector2(150f, 0f), tabFont, () => SetTab(true, false));
+        SetTab(false, true);
+    }
+
+    private void SetTab(bool craft, bool instant)
+    {
+        showCraft = craft;
+        if (instant) tabBlend = craft ? 1f : 0f;
+        if (windowTitle != null && enhanceTitle != null) windowTitle.text = craft ? "Weapon Craft" : enhanceTitle;
+        if (!craft) bannerTimer = 0f; // 제작 화면에서 돌아올 때 지난 해금 배너가 다시 보이지 않게
+
+        // 고른 탭이 창 테두리 위에 이어져 보이도록 맨 앞으로, 안 고른 탭은 창 테두리 뒤로 보낸다.
+        TabView front = craft ? craftTab : enhanceTab, back = craft ? enhanceTab : craftTab;
+        if (front != null) front.transform.SetAsLastSibling();
+        if (back != null) back.transform.SetSiblingIndex(0);
+        ApplyTabs();
+    }
+
+    private void UpdateTabs(float dt)
+    {
+        float target = showCraft ? 1f : 0f;
+        if (Mathf.Approximately(tabBlend, target)) return;
+        tabBlend = Mathf.MoveTowards(tabBlend, target, dt / TabSwitchTime);
+        ApplyTabs();
+    }
+
+    // tabBlend 0 = 강화, 1 = 제작. 나가는 쪽은 흐려지며 반대쪽으로, 들어오는 쪽은 옆에서 제자리로.
+    private void ApplyTabs()
+    {
+        if (enhanceGroup == null || craftView == null) return;
+        float e = tabBlend * tabBlend * (3f - 2f * tabBlend); // 부드럽게 (smoothstep)
+
+        enhanceGroup.alpha = 1f - e;
+        enhanceGroup.interactable = enhanceGroup.blocksRaycasts = tabBlend < 0.5f;
+        enhanceContent.anchoredPosition = new Vector2(-TabSlide * e, 0f);
+
+        // 제작 화면은 [제작]을 골랐거나 아직 사라지는 중일 때만 켜 둔다 (고른 직후 진행도가 0이어도 꺼지면 안 된다).
+        bool craftVisible = showCraft || tabBlend > 0f;
+        if (craftView.gameObject.activeSelf != craftVisible) craftView.gameObject.SetActive(craftVisible);
+        craftView.Group.alpha = e;
+        craftView.Group.interactable = craftView.Group.blocksRaycasts = tabBlend >= 0.5f;
+        ((RectTransform)craftView.transform).anchoredPosition = craftBasePosition + new Vector2(TabSlide * (1f - e), 0f);
+
+        if (enhanceTab != null) enhanceTab.Apply(1f - e);
+        if (craftTab != null) craftTab.Apply(e);
+    }
+
+    // 창 위쪽 테두리에 걸친 폴더 탭 (PixelArtGUI TagUp + 금색 베벨). 고른 탭은 창 바탕색으로 높게 솟아 창과 이어져 보이고,
+    // 안 고른 탭은 어둡고 낮게 창 뒤에 깔린다. 마우스를 올리면 살짝 밝아진다.
+    private class TabView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
+    {
+        private const float Width = 104f, LowHeight = 34f, HighHeight = 44f, Overlap = 8f;
+        private static readonly Color InactiveBody = new Color(0.07f, 0.09f, 0.13f);
+        private static readonly Color InactiveText = new Color(0.62f, 0.66f, 0.72f);
+
+        private Action onClick;
+        private RectTransform rect;
+        private Image body;
+        private Text label;
+        private bool hovered;
+        private float hover;
+        private float active;
+
+        public static TabView Create(RectTransform window, string text, Vector2 position, Font font, Action onClick)
+        {
+            LevelUpConfig cfg = LevelUpConfig.Instance;
+            RectTransform rt = PixelUi.NewRect("Tab_" + text, window);
+            rt.anchorMin = rt.anchorMax = new Vector2(0f, 1f);
+            rt.pivot = new Vector2(0f, 0f);
+            rt.anchoredPosition = position + new Vector2(0f, -Overlap); // 아랫부분이 창 테두리에 살짝 걸친다
+            rt.sizeDelta = new Vector2(Width, LowHeight);
+
+            TabView tab = rt.gameObject.AddComponent<TabView>();
+            tab.onClick = onClick;
+            tab.rect = rt;
+            tab.body = PixelUi.NewImage("Body", rt, cfg.tab != null ? cfg.tab : cfg.panel, PixelUi.WindowColor, PixelUi.FrameScale * 1.6f, true);
+            tab.body.raycastTarget = true;
+            if (cfg.tabTopBevel != null) PixelUi.NewImage("TopBevel", rt, cfg.tabTopBevel, PixelUi.BevelTop, PixelUi.FrameScale * 1.6f, true);
+            if (cfg.tabBottomBevel != null) PixelUi.NewImage("BottomBevel", rt, cfg.tabBottomBevel, PixelUi.BevelBottom, PixelUi.FrameScale * 1.6f, true);
+            tab.label = PixelUi.NewText("Label", rt, font, 20, PixelUi.Gold, TextAnchor.MiddleCenter);
+            PixelUi.Stretch(tab.label.rectTransform, 0f, 0f, Overlap, 0f);
+            tab.label.text = text;
+            return tab;
+        }
+
+        public void Apply(float activeAmount)
+        {
+            active = activeAmount;
+            Refresh();
+        }
+
+        public void OnPointerEnter(PointerEventData e) => hovered = true;
+        public void OnPointerExit(PointerEventData e) => hovered = false;
+        public void OnPointerClick(PointerEventData e)
+        {
+            if (e.button == PointerEventData.InputButton.Left) onClick?.Invoke();
+        }
+
+        void OnDisable()
+        {
+            hovered = false;
+            hover = 0f;
+        }
+
+        void Update()
+        {
+            float target = hovered ? 1f : 0f;
+            if (Mathf.Approximately(hover, target)) return;
+            hover = Mathf.MoveTowards(hover, target, Time.unscaledDeltaTime * 8f);
+            Refresh();
+        }
+
+        private void Refresh()
+        {
+            rect.sizeDelta = new Vector2(Width, Mathf.Lerp(LowHeight, HighHeight, active) + 3f * hover * (1f - active));
+            body.color = Color.Lerp(Color.Lerp(InactiveBody, PixelUi.PanelColor, hover * 0.6f), PixelUi.WindowColor, active);
+            label.color = Color.Lerp(Color.Lerp(InactiveText, Color.white, hover * 0.5f), PixelUi.Gold, active);
+        }
     }
 
     private UpgradeRowUI BindRow(string rowName, ResourceType type, Font font)
@@ -149,7 +319,7 @@ public class WeaponEnhancementManager : MonoBehaviour
         return new UpgradeRowUI(statRow, type, WeaponEnhanceUtil.MaxLevel, WeaponEnhanceUtil.MilestoneTiers, font, () => OnEnhanceClicked(type));
     }
 
-    private static string WeaponDisplayName(WeaponType type)
+    public static string WeaponDisplayName(WeaponType type)
     {
         switch (type)
         {

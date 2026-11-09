@@ -24,6 +24,16 @@ public class StageExtraction : MonoBehaviour
     };
     private static readonly Color ExtractionPortalColor = new Color(1f, 1f, 1f, 0.5f); // 반투명 흰색
 
+    // 미스터리 포탈: 클리어할 때마다 이 확률로 3개 중 하나가 보라색 포탈(반짝임)로 바뀐다. 어디로 가는지는 들어가 봐야 안다.
+    //   생각의 방(함정: 모든 몬스터가 섞여 나오고 드랍이 적음) 40% / NASA(클리어 보상 희귀자원) 30% / 군부대(클리어 보상 랜덤 무기) 30%
+    private const float MysteryPortalChance = 0.25f;
+    private static readonly (string theme, float weight)[] MysteryThemes = { ("생각의 방", 0.4f), ("NASA", 0.3f), ("군부대", 0.3f) };
+    private static readonly Color MysteryPortalColor = new Color(0.85f, 0.45f, 1f); // 보라색 (파란 포탈 그림에 곱해진다)
+
+    // 미스터리 보상 스테이지의 클리어 보상
+    private const int NasaRareReward = 2;               // NASA: 희귀자원 개수 (자원처럼 끌려와 자동 획득)
+    private const float RewardWeaponDropDistance = 0.6f; // 군부대: 랜덤 무기(0강)를 플레이어 앞 이 거리에 떨어뜨린다 (F로 줍기)
+
     // 스테이지 클리어마다(추출 포탈 유무와 무관) 일정 확률로 등장하는 떠돌이 상인 (거점 앞에 있는 것과 같은 오브젝트를 복제).
     private const float MerchantSpawnChance = 0.3f;
 
@@ -93,6 +103,7 @@ public class StageExtraction : MonoBehaviour
         // 스테이지를 클리어해서 포탈이 뜨는 순간부터는 전투 구간이 아니므로 진행 중이던 기믹을 멈춘다.
         StageGimmickManager.ClearGimmick();
         SpawnExitPortals();
+        GiveMysteryStageReward(); // 아래 자동 회수보다 먼저 떨어뜨려야 같이 끌려온다
 
         // 클리어 시점에 바닥에 남아있던 자원은 거리와 상관없이 전부 플레이어에게 끌려와 자동 회수된다.
         foreach (ResourcePickup pickup in FindObjectsByType<ResourcePickup>(FindObjectsSortMode.None))
@@ -104,7 +115,38 @@ public class StageExtraction : MonoBehaviour
         XpOrb.ForceAttractAll();
     }
 
-    // 현재 구역 위쪽에 랜덤 색깔 포탈 3개, 5층마다 오른쪽에 추출 포탈 1개를 추가로 띄운다.
+    // NASA는 희귀자원, 군부대는 랜덤 무기 하나(0강)를 클리어 순간 확정으로 준다. 생각의 방(함정)과 일반 맵은 보상 없음.
+    private void GiveMysteryStageReward()
+    {
+        string theme = StageManager.CurrentTheme;
+        Vector3 origin = playerHealth != null ? playerHealth.transform.position : (Vector3)StageManager.CurrentZoneCenter;
+
+        if (theme == "NASA")
+        {
+            for (int i = 0; i < NasaRareReward; i++) ResourcePickup.SpawnRareDrop(origin);
+        }
+        else if (theme == "군부대")
+        {
+            PlayerMovement movement = playerHealth != null ? playerHealth.GetComponent<PlayerMovement>() : null;
+            Vector2 facing = movement != null ? movement.FacingDirection : Vector2.right;
+            WeaponPickup.SpawnDrop(origin + (Vector3)(facing * RewardWeaponDropDistance), (WeaponType)Random.Range(0, 5));
+        }
+    }
+
+    private static string PickMysteryTheme()
+    {
+        float total = 0f;
+        foreach (var m in MysteryThemes) total += m.weight;
+        float roll = Random.value * total;
+        foreach (var m in MysteryThemes)
+        {
+            roll -= m.weight;
+            if (roll <= 0f) return m.theme;
+        }
+        return MysteryThemes[0].theme;
+    }
+
+    // 현재 구역 위쪽에 랜덤 색깔 포탈 3개(가끔 그중 하나는 보라색 미스터리 포탈), 5층마다 오른쪽에 추출 포탈 1개를 추가로 띄운다.
     private void SpawnExitPortals()
     {
         Vector2 center = StageManager.CurrentZoneCenter;
@@ -112,15 +154,22 @@ public class StageExtraction : MonoBehaviour
 
         GameObject group = new GameObject("ExitPortals");
 
+        int mysterySlot = Random.value < MysteryPortalChance ? Random.Range(0, 3) : -1;
         List<string> pool = new List<string>(PortalThemes);
         for (int i = 0; i < 3 && pool.Count > 0; i++)
         {
+            float x = center.x + (i - 1) * (halfExtent * 0.6f);
+            float y = center.y + halfExtent - 2f;
+
+            if (i == mysterySlot)
+            {
+                CreatePortal(group.transform, new Vector2(x, y), PickMysteryTheme(), MysteryPortalColor, mystery: true);
+                continue;
+            }
+
             int pick = Random.Range(0, pool.Count);
             string theme = pool[pick];
             pool.RemoveAt(pick);
-
-            float x = center.x + (i - 1) * (halfExtent * 0.6f);
-            float y = center.y + halfExtent - 2f;
             CreatePortal(group.transform, new Vector2(x, y), theme, PortalColors[theme]);
         }
 
@@ -324,12 +373,12 @@ public class StageExtraction : MonoBehaviour
         return root;
     }
 
-    private void CreatePortal(Transform parent, Vector2 position, string targetTheme, Color color)
+    private void CreatePortal(Transform parent, Vector2 position, string targetTheme, Color color, bool mystery = false)
     {
         if (hubPortalTemplate == null) return;
 
         GameObject go = Instantiate(hubPortalTemplate);
-        go.name = string.IsNullOrEmpty(targetTheme) ? "Portal_추출" : "Portal_" + targetTheme;
+        go.name = string.IsNullOrEmpty(targetTheme) ? "Portal_추출" : mystery ? "Portal_미스터리" : "Portal_" + targetTheme;
         go.transform.SetParent(parent);
         go.transform.position = new Vector3(position.x, position.y, 0f);
 
@@ -353,6 +402,7 @@ public class StageExtraction : MonoBehaviour
 
         StageExitPortal portal = go.AddComponent<StageExitPortal>();
         portal.Init(targetTheme, color);
+        if (mystery) go.AddComponent<PortalSparkle>(); // 보랏빛 반짝임 + 은은한 맥박 (Init이 색을 칠한 뒤에 붙여야 그 색을 기준으로 맥박친다)
     }
 
     void HandleDeath()

@@ -86,6 +86,19 @@ public class LevelUpConfig : ScriptableObject
     [Tooltip("UI에서 그림 1픽셀을 몇 칸으로 키워 보일지 (픽셀 아트 배율)")]
     public float pixelScale = 3f;
 
+    [Header("창/탭/버튼 그림 (PixelArtGUI) - 긴급탈출 확인창, 무기 제작 탭 (V 강화 창과 같은 모양)")]
+    public Sprite window;          // Window: 창 바탕
+    public Sprite windowStroke;    // WindowStroke: 창 테두리
+    public Sprite windowCorners;   // CornersGold2: 창 모서리 금장식
+    public Sprite iconFrame;       // GoldOutlined: 아이콘 칸 금테
+    public Sprite tab;             // TagUp: 탭 바탕
+    public Sprite tabTopBevel;     // TagUpTBevel
+    public Sprite tabBottomBevel;  // TagUpBBevel
+    public Sprite buttonYes;       // Green1
+    public Sprite buttonYesHover;  // Green1Hover
+    public Sprite buttonNo;        // Gold1
+    public Sprite buttonNoHover;   // Gold1Hover
+
     private static LevelUpConfig instance;
 
     public static LevelUpConfig Instance

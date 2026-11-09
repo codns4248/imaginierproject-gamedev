@@ -239,7 +239,7 @@ public class GrenadeAttack : MonoBehaviour, IEnhanceableWeapon
 
         if (weaponAim.isHeld)
         {
-            if (Mouse.current.leftButton.isPressed)
+            if (Mouse.current.leftButton.isPressed && !UiPointerBlock.Active)
             {
                 attackCooldown = attackInterval;
                 ThrowAtMouse();

@@ -14,6 +14,7 @@ Assets/
     Resources/     Resources.Load로 불러오는 ScriptableObject (이름 변경 금지)
     Art/  Animations/  Fonts/  Settings/
   ThirdParty/      외부 에셋과 AI로 생성한 이미지 (prop_*, npc_*)
+    char/          AI로 만든 플레이어, 적 스프라이트 시트 (char_*)
     fx/            이펙트, 투사체 (fx_*)
     icon/          카드, 스탯, 상태이상 아이콘 (icon_*)
   TextMesh Pro/  ...   패키지/SDK (건드리지 않음)
@@ -68,7 +69,7 @@ Assets/
 - 애니메이션 프레임은 끝에 번호를 붙인다 (`char_bee_fly_00`, `_01`).
 - 아이콘은 맵 자리에 분류를 쓴다: `res`(자원), `card`(레벨업 카드), `stat`(스탯), `status`(상태이상). 예: `icon_card_bomb`, `icon_status_stun`.
 - 접두어는 위 목록 안에서만 쓴다. 새 종류가 필요하면 이 표에 먼저 추가한다.
-- AI 도구(PixelLab 등)로 만든 이미지도 도구 이름이 아니라 종류로 분류한다. `fx_*`는 `ThirdParty/fx/`, `icon_*`는 `ThirdParty/icon/`에 둔다.
+- AI 도구(PixelLab 등)로 만든 이미지도 도구 이름이 아니라 종류로 분류한다. `char_*`는 `ThirdParty/char/`, `fx_*`는 `ThirdParty/fx/`, `icon_*`는 `ThirdParty/icon/`에 둔다.
 
 ### 프리팹 (적용 예정)
 

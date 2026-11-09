@@ -229,7 +229,7 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
         if (weaponAim.isHeld)
         {
             // isPressed를 매 프레임 확인하기 때문에, 꾹 누르고 있으면 사이클이 끝나자마자 바로 다음 사이클이 시작된다.
-            if (Mouse.current.leftButton.isPressed)
+            if (Mouse.current.leftButton.isPressed && !UiPointerBlock.Active)
             {
                 StartCoroutine(BurstRoutine(auto: false));
             }
@@ -296,7 +296,7 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
         if (EnemyManager.PlayerDead) return false;
         if (auto == weaponAim.isHeld) return false;
         if (auto) return FindAutoDirection().HasValue;
-        return Mouse.current != null && Mouse.current.leftButton.isPressed;
+        return Mouse.current != null && Mouse.current.leftButton.isPressed && !UiPointerBlock.Active;
     }
 
     // 자동 모드에서 현재 가장 가까운 적을 향한 방향을 구한다. 사거리 안에 적이 없으면 null.

@@ -149,6 +149,14 @@ public class Projectile : MonoBehaviour
     /// <summary>적 하나를 맞혔을 때의 처리 (OnTriggerEnter2D가 부른다. 에디터 테스트에서 직접 불러도 된다).</summary>
     public void ProcessHit(Enemy enemy)
     {
+        // 방패 몬스터(ShieldEnemyAI)의 정면에 맞으면 피해 없이 막히고 탄이 사라진다 (옆/뒤에서 맞히면 그대로 맞는다).
+        ShieldEnemyAI shield = enemy.GetComponent<ShieldEnemyAI>();
+        if (shield != null && shield.TryBlock(direction, transform.position))
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         if (mods == null)
         {
             enemy.Hit(direction, damage, isCrit);
