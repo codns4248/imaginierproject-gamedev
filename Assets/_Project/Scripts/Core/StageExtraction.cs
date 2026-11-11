@@ -232,9 +232,9 @@ public class StageExtraction : MonoBehaviour
         // 회복약: 싸게, 자원 1종류.
         ResourceType potionCostType = CommonResourceTypes[Random.Range(0, CommonResourceTypes.Length)];
         List<ResourceType> potionCostTypes = new List<ResourceType> { potionCostType };
-        // 상인 가격은 층이 오를수록 비싸진다 (MonsterDifficulty.MerchantPriceScale).
-        float priceScale = MonsterDifficulty.MerchantPriceScale;
-        int Scaled(int baseCost) => Mathf.RoundToInt(baseCost * priceScale);
+        // 상인 가격은 층이 오를수록 비싸지고(MonsterDifficulty.MerchantPriceScale), 거점 특수 강화 "상인 할인"만큼 싸진다.
+        float priceScale = MonsterDifficulty.MerchantPriceScale * SpecialUpgrades.MerchantPriceMultiplier;
+        int Scaled(int baseCost) => Mathf.Max(1, Mathf.RoundToInt(baseCost * priceScale));
         List<int> potionCostAmounts = new List<int> { Scaled(PotionCost) };
         SpawnGoodsItem(parent, new Vector3(leftX, y, 0f), carpetOrder, potionIconSprite,
             potionCostTypes, potionCostAmounts, priceBubble, priceText,
@@ -313,19 +313,7 @@ public class StageExtraction : MonoBehaviour
         return string.Join(" + ", parts);
     }
 
-    private static string ResourceKoreanName(ResourceType type)
-    {
-        switch (type)
-        {
-            case ResourceType.Wood: return "나무";
-            case ResourceType.Iron: return "철";
-            case ResourceType.Copper: return "구리";
-            case ResourceType.Chemical: return "화학물질";
-            case ResourceType.Oil: return "기름";
-            case ResourceType.Rare: return "희귀자원";
-            default: return type.ToString();
-        }
-    }
+    private static string ResourceKoreanName(ResourceType type) => ResourceNames.Korean(type);
 
     // 상인 옆에 뜨는 가격표 말풍선을 만든다. TextMesh는 URP 폰트 셰이더와 호환 문제가 있어서
     // (DamageNumber.cs 참고) 이 프로젝트 관례대로 World Space Canvas + UI.Text로 만든다.
@@ -409,7 +397,8 @@ public class StageExtraction : MonoBehaviour
     {
         // 사망 = 하드 리셋: 파밍한(아직 확정 안 된) 자원 + 이번 런의 무기 강화를 전부 잃는다.
         // (결과 화면 유무와 무관하게 항상. 층수 초기화는 아래 결과 화면 쪽/자동 복귀 쪽에서 처리.)
-        ResourceBank.DiscardRun();
+        // 거점 특수 강화 "사망 보험"이 있으면 그 비율만큼은 창고로 지킨다.
+        ResourceBank.DiscardRun(SpecialUpgrades.DeathKeepRatio);
 
         // 상인에게 사서 늘렸던 회복약도 자원과 같은 규칙: 이번 런에서 늘어난 만큼은 잃고 기본 개수로 되돌아간다.
         HealthPotion potion = FindFirstObjectByType<HealthPotion>();

@@ -11,6 +11,18 @@ public static class LevelUpSystem
     public static float Xp { get; private set; }
     public static int PendingLevelUps { get; private set; }
 
+    // 거점 특수 강화 "카드 새로고침": 이번 탐험에서 쓴 횟수 (탐험이 끝나면 0으로 돌아간다).
+    public static int RerollsUsed { get; private set; }
+    public static int RerollsLeft => Mathf.Max(0, SpecialUpgrades.RerollsPerRun - RerollsUsed);
+
+    /// <summary>레벨업 카드를 다시 뽑을 수 있으면 한 번 쓰고 true.</summary>
+    public static bool TryUseReroll()
+    {
+        if (RerollsLeft <= 0) return false;
+        RerollsUsed++;
+        return true;
+    }
+
     // 지금 레벨에서 다음 레벨까지 필요한 경험치.
     public static float RequiredXp => LevelUpConfig.Instance.RequiredXp(Level);
     public static float Progress => Mathf.Clamp01(Xp / Mathf.Max(0.01f, RequiredXp));
@@ -62,6 +74,7 @@ public static class LevelUpSystem
         Level = 1;
         Xp = 0f;
         PendingLevelUps = 0;
+        RerollsUsed = 0;
         PlayerRunStats.ResetForNewRun();
         XpOrb.DestroyAll();
 
@@ -78,6 +91,7 @@ public static class LevelUpSystem
         Level = 1;
         Xp = 0f;
         PendingLevelUps = 0;
+        RerollsUsed = 0;
         Changed = null;
         LevelUpReady = null;
     }

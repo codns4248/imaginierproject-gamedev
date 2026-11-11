@@ -28,6 +28,8 @@ public class ResourceBankUI : MonoBehaviour
     void OnEnable()
     {
         ResourceBank.OnChanged += Refresh;
+        ResourceBank.OnStashOverflow += ShowOverflow;
+        SpecialUpgrades.OnChanged += Refresh; // 창고 크기 강화 -> 최대치 표시 갱신
         lastShowStash = !StageManager.IsInStage;
         Refresh();
     }
@@ -35,6 +37,22 @@ public class ResourceBankUI : MonoBehaviour
     void OnDisable()
     {
         ResourceBank.OnChanged -= Refresh;
+        ResourceBank.OnStashOverflow -= ShowOverflow;
+        SpecialUpgrades.OnChanged -= Refresh;
+    }
+
+    // 창고가 가득 차서 이번 탐험 자원 일부가 사라졌을 때 화면 위쪽에 알려 준다.
+    private static void ShowOverflow(int[] overflow)
+    {
+        var parts = new System.Collections.Generic.List<string>();
+        foreach (ResourceType type in Order)
+        {
+            int lost = (int)type < overflow.Length ? overflow[(int)type] : 0;
+            if (lost > 0) parts.Add($"{ResourceNames.Korean(type)} -{lost}");
+        }
+        if (parts.Count == 0) return;
+        ScreenToast.Show($"창고가 가득 차서 자원이 넘쳤습니다 (종류마다 최대 {ResourceBank.StashCap})\n{string.Join("   ", parts)}",
+            new Color(1f, 0.72f, 0.4f));
     }
 
     // 거점<->스테이지 이동은 자원 개수 변화가 없어 ResourceBank.OnChanged가 안 터지므로,
@@ -111,9 +129,20 @@ public class ResourceBankUI : MonoBehaviour
 
         bool showStash = !StageManager.IsInStage;
         System.Func<ResourceType, int> get = showStash ? ResourceBank.GetStash : (System.Func<ResourceType, int>)ResourceBank.GetRunHeld;
+        int cap = ResourceBank.StashCap;
         for (int i = 0; i < Order.Length; i++)
         {
-            countTexts[i].text = "x" + get(Order[i]);
+            int count = get(Order[i]);
+            if (showStash && ResourceBank.IsCapped(Order[i]))
+            {
+                // 거점: 창고 최대치(특수 강화 "창고 크기")를 옆에 작게, 가득 차면 개수를 주황색으로
+                string shown = count >= cap ? $"<color=#ffb060>x{count}</color>" : $"x{count}";
+                countTexts[i].text = $"{shown}<size=14><color=#a8b0b8>/{cap}</color></size>";
+            }
+            else
+            {
+                countTexts[i].text = "x" + count;
+            }
         }
     }
 }

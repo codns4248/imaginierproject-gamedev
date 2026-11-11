@@ -42,23 +42,53 @@ public static class ResourceBank
         return true;
     }
 
-    /// <summary>스테이지 클리어(로비 도착) 시 호출. runHeld를 stash로 합치고 저장한다.</summary>
+    // 거점 특수 강화 "창고 크기": 자원 종류마다 창고에 둘 수 있는 최대치 (희귀자원은 제한 없음).
+    // 이미 그보다 많이 쌓여 있던 창고분은 줄이지 않고, 새로 들어오는 것만 막는다.
+    public static bool IsCapped(ResourceType type) => type != ResourceType.Rare;
+    public static int StashCap => SpecialUpgrades.StorageCapPerType;
+
+    /// <summary>창고가 가득 차서 확정하지 못하고 사라진 자원이 있을 때 (자원 종류 순서대로 사라진 양).</summary>
+    public static event Action<int[]> OnStashOverflow;
+
+    /// <summary>스테이지 클리어(로비 도착) 시 호출. runHeld를 stash로 합치고 저장한다.
+    /// 창고 최대치(StashCap)를 넘는 만큼은 사라진다 (OnStashOverflow).</summary>
     public static void CommitRunToStash()
     {
+        int[] overflow = null;
         for (int i = 0; i < TypeCount; i++)
         {
-            stash[i] += runHeld[i];
+            int add = runHeld[i];
+            if (IsCapped((ResourceType)i))
+            {
+                int room = Mathf.Max(0, StashCap - stash[i]);
+                if (add > room)
+                {
+                    overflow ??= new int[TypeCount];
+                    overflow[i] = add - room;
+                    add = room;
+                }
+            }
+            stash[i] += add;
             runHeld[i] = 0;
         }
         Save();
         OnChanged?.Invoke();
+        if (overflow != null) OnStashOverflow?.Invoke(overflow);
     }
 
-    /// <summary>플레이어 사망 시 호출. 확정되지 않은 파밍분을 전부 잃는다.</summary>
-    public static void DiscardRun()
+    /// <summary>플레이어 사망 시 호출. 확정되지 않은 파밍분을 잃는다.
+    /// keepRatio(거점 특수 강화 "사망 보험", 0~1)만큼은 종류마다 내림해서 창고(stash)로 확정한다.</summary>
+    public static void DiscardRun(float keepRatio = 0f)
     {
+        keepRatio = Mathf.Clamp01(keepRatio);
+        bool anyKept = false;
         for (int i = 0; i < TypeCount; i++)
-            runHeld[i] = 0;
+        {
+            runHeld[i] = Mathf.FloorToInt(runHeld[i] * keepRatio);
+            anyKept |= runHeld[i] > 0;
+        }
+
+        if (anyKept) { CommitRunToStash(); return; } // 남긴 만큼 창고로 (저장 + OnChanged)
         OnChanged?.Invoke();
     }
 

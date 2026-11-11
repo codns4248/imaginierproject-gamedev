@@ -533,8 +533,9 @@ public class Enemy : MonoBehaviour
             }
 
             // 아주 낮은 확률(일반 0.2%, 정예/보스 3%)로 희귀자원도 따로 떨어뜨린다. 생각의 방 드랍 배율도 똑같이 곱한다.
+            // 거점 특수 강화 "희귀자원 드랍률"도 곱한다 (SpecialUpgrades.RareDropMultiplier).
             float rareChance = IsEliteOrBoss ? ResourcePickup.EliteRareDropChance : ResourcePickup.CommonEnemyRareDropChance;
-            if (Random.value < rareChance * StageManager.ResourceDropRateMultiplier)
+            if (Random.value < rareChance * StageManager.ResourceDropRateMultiplier * SpecialUpgrades.RareDropMultiplier)
                 ResourcePickup.SpawnRareDrop(transform.position);
 
             // 낮은 확률(일반 1%, 정예/보스 10%)로 무기 아이템도 별도로 드랍한다.

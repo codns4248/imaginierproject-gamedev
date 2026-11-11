@@ -8,7 +8,11 @@ public class StagePortal : MonoBehaviour
     void Start()
     {
         InteractOutline outline = gameObject.AddComponent<InteractOutline>();
-        outline.Init(() => StageManager.EnterRandomStage());
+        outline.Init(() =>
+        {
+            Backpack.PackForRun(); // 배낭(특수 강화)에 담아 둔 창고 자원을 꺼내 들고 출발
+            StageManager.EnterRandomStage();
+        });
         PortalAnimator.Attach(gameObject);
     }
 }

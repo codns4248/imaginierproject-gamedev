@@ -11,8 +11,10 @@ public class HealthPotion : MonoBehaviour
 
     // 매 런 시작(그리고 사망 시 초기화) 기본 소지 개수. 상인에게 사서 늘릴 수 있지만,
     // 사망하면 이번 런에서 늘어난 만큼은 잃고 이 개수로 되돌아간다 (자원 소실과 같은 규칙).
-    private const int StartingPotionCount = 2;
-    public int potionCount = StartingPotionCount;
+    // 거점 특수 강화 "시작 회복약"으로 기본 개수가 늘어난다 (SpecialUpgrades.StartPotionBonus).
+    public const int BasePotionCount = 2;
+    private static int StartingPotionCount => BasePotionCount + SpecialUpgrades.StartPotionBonus;
+    public int potionCount = BasePotionCount;
 
     private PlayerHealth playerHealth;
 
@@ -24,6 +26,29 @@ public class HealthPotion : MonoBehaviour
     void Awake()
     {
         playerHealth = GetComponent<PlayerHealth>();
+        potionCount = Mathf.Max(potionCount, StartingPotionCount);
+
+        // 표시 UI(HealthPotionUI)가 이 Awake보다 먼저 켜졌으면 씬에 저장된 기본값(2)을 이미 읽어 갔으므로 다시 알려 준다
+        // (안 그러면 "시작 회복약" 강화분이 첫 사용 전까지 화면에 안 보인다).
+        OnPotionCountChanged?.Invoke();
+    }
+
+    void OnEnable()
+    {
+        SpecialUpgrades.OnChanged += HandleSpecialUpgradesChanged;
+    }
+
+    void OnDisable()
+    {
+        SpecialUpgrades.OnChanged -= HandleSpecialUpgradesChanged;
+    }
+
+    // 거점에서 "시작 회복약"을 올리면 바로 그만큼 채워 준다 (탐험 중에는 바꾸지 않는다).
+    private void HandleSpecialUpgradesChanged()
+    {
+        if (StageManager.IsInStage || potionCount >= StartingPotionCount) return;
+        potionCount = StartingPotionCount;
+        OnPotionCountChanged?.Invoke();
     }
 
     void Update()

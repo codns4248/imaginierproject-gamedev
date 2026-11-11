@@ -19,9 +19,59 @@ public class WeaponSwitcher : MonoBehaviour
 
     private int currentIndex;
 
+    // 씬에서 처음 0번 슬롯에 들려 있던 무기 종류 = 기본 시작 무기 (특수 강화 "시작 무기 선택"으로 고른 무기가 없을 때).
+    private WeaponType defaultStartingType;
+    private bool hasDefaultStartingType;
+
+    void Awake()
+    {
+        WeaponIdentity id = weaponSlots.Length > 0 && weaponSlots[0] != null ? weaponSlots[0].GetComponent<WeaponIdentity>() : null;
+        if (id != null) { defaultStartingType = id.type; hasDefaultStartingType = true; }
+    }
+
+    void OnEnable() => SpecialUpgrades.OnChanged += HandleSpecialUpgradesChanged;
+    void OnDisable() => SpecialUpgrades.OnChanged -= HandleSpecialUpgradesChanged;
+
     void Start()
     {
+        EnsureStartingWeaponInSlot0(); // 저장된 시작 무기 선택이 있으면 게임 시작 때 바로 그 무기로
         ApplyCurrentSlot();
+    }
+
+    // 거점에서 시작 무기를 새로 고르면(StartWeaponStand) 0번 슬롯 무기를 바로 바꿔 쥐여준다.
+    private void HandleSpecialUpgradesChanged()
+    {
+        if (StageManager.IsInStage) return;
+        EnsureStartingWeaponInSlot0();
+        ApplyCurrentSlot();
+    }
+
+    /// <summary>탐험을 시작할 때 0번 슬롯에 들고 나가는 무기 종류 (거치대에서 고른 무기, 없으면 씬 기본 무기).</summary>
+    public bool TryGetStartingWeaponType(out WeaponType type)
+    {
+        if (SpecialUpgrades.TryGetStartWeapon(out type)) return true;
+        type = defaultStartingType;
+        return hasDefaultStartingType;
+    }
+
+    // 0번 슬롯을 시작 무기로 맞춘다: 비어 있거나 다른 종류면 새 0강 무기로 바꾼다 (같은 종류면 그대로).
+    private void EnsureStartingWeaponInSlot0()
+    {
+        if (weaponSlots.Length == 0 || !TryGetStartingWeaponType(out WeaponType want)) return;
+
+        GameObject current = weaponSlots[0];
+        WeaponIdentity id = current != null ? current.GetComponent<WeaponIdentity>() : null;
+        if (id != null && id.type == want) return;
+
+        GameObject prefab = WeaponPickup.GetPrefab(want);
+        if (prefab == null) return;
+
+        if (current != null)
+        {
+            current.SetActive(false); // Destroy는 프레임 끝에 일어나서, 그 사이 옛 무기가 한 번 더 공격하지 않게 먼저 끈다
+            Destroy(current);
+        }
+        weaponSlots[0] = Instantiate(prefab, transform);
     }
 
     void Update()
@@ -118,10 +168,14 @@ public class WeaponSwitcher : MonoBehaviour
         return true;
     }
 
-    // 1번 슬롯부터 순서대로 비어있는 첫 슬롯의 인덱스를 찾는다 (없으면 -1).
+    // 지금 쓸 수 있는 슬롯 수: 기본 3칸, 거점 특수 강화 "무기 슬롯"으로 4~5칸 (SpecialUpgrades.WeaponSlotCount).
+    // 그 뒤 칸은 잠겨 있어서 새 무기가 들어가지 않는다 (WeaponSlotUI가 어둡게 표시한다).
+    public int UnlockedSlotCount => Mathf.Clamp(SpecialUpgrades.WeaponSlotCount, 1, weaponSlots.Length);
+
+    // 1번 슬롯부터 순서대로 비어있는 첫 슬롯의 인덱스를 찾는다 (잠긴 칸은 빼고, 없으면 -1).
     private int FindFirstEmptySlot()
     {
-        for (int i = 0; i < weaponSlots.Length; i++)
+        for (int i = 0; i < UnlockedSlotCount; i++)
         {
             if (weaponSlots[i] == null) return i;
         }
@@ -146,6 +200,7 @@ public class WeaponSwitcher : MonoBehaviour
 
     // 사망 시 호출: 0번 슬롯(처음부터 들고 있던 무기)만 남기고, 필드에서 줍거나 상인에게 산
     // 나머지 무기는 전부 사라진다 (자원/회복약/무기강화와 같은 규칙 - 이번 런에서 얻은 건 잃는다).
+    // 탐험 중에 0번 무기를 버렸거나 다른 무기로 바꿨어도 0번 슬롯은 시작 무기로 되돌아온다.
     public void ResetToStartingWeapon()
     {
         for (int i = 1; i < weaponSlots.Length; i++)
@@ -154,6 +209,7 @@ public class WeaponSwitcher : MonoBehaviour
             Destroy(weaponSlots[i]);
             weaponSlots[i] = null;
         }
+        EnsureStartingWeaponInSlot0();
 
         currentIndex = 0;
         ApplyCurrentSlot();

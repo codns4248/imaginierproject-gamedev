@@ -11,8 +11,9 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 5;
 
     // 사망 판정 대신 즉시 부활할 수 있는 횟수. 0이면 다음 치명타에 그대로 사망한다.
-    // 레벨업 보충 카드 "부활"로 늘어나고(AddRevive), 탐험이 끝나면 기본값으로 돌아간다(ResetRunState).
-    public int reviveCount = 1;
+    // 기본값은 거점 특수 강화 "부활" 단계(SpecialUpgrades.ReviveCount, 강화 안 하면 0)이고, 레벨업 보충 카드 "부활"로
+    // 탐험 중에 늘어나며(AddRevive), 탐험이 끝나면 기본값으로 돌아간다(ResetRunState). 인스펙터 값은 시작할 때 덮어쓴다.
+    public int reviveCount = 0;
 
     [Header("피격 판정 (적 접촉/적 투사체 전용)")]
     [Tooltip("몸 충돌체(벽/적과 부딪히는 크기)와 별개로, 적 접촉·투사체가 \"맞았다\"고 치는 원의 반지름 (월드 유닛). 작을수록 아슬아슬하게 피할 수 있다.")]
@@ -74,8 +75,9 @@ public class PlayerHealth : MonoBehaviour
     {
         baseMaxHealth = Mathf.Max(0, maxHealth);
         maxHealth = baseMaxHealth + PermanentUpgradeManager.GetLevel(ResourceType.Copper) + PlayerRunStats.MaxHealthBonus;
-        reviveCount = Mathf.Max(0, reviveCount);
-        baseReviveCount = reviveCount;
+        // 탐험마다 기본 부활 횟수는 거점 특수 강화 "부활" 단계 (강화 안 하면 0). 씬의 reviveCount 값은 쓰지 않는다.
+        baseReviveCount = SpecialUpgrades.ReviveCount;
+        reviveCount = baseReviveCount;
         currentHealth = maxHealth;
 
         playerMovement = GetComponent<PlayerMovement>();
@@ -91,12 +93,23 @@ public class PlayerHealth : MonoBehaviour
     {
         PermanentUpgradeManager.OnChanged += ApplyPermanentHealthBonus;
         PlayerRunStats.Changed += ApplyPermanentHealthBonus;
+        SpecialUpgrades.OnChanged += HandleSpecialUpgradesChanged;
     }
 
     void OnDisable()
     {
         PermanentUpgradeManager.OnChanged -= ApplyPermanentHealthBonus;
         PlayerRunStats.Changed -= ApplyPermanentHealthBonus;
+        SpecialUpgrades.OnChanged -= HandleSpecialUpgradesChanged;
+    }
+
+    // 거점에서 특수 강화 "부활"을 올리면 다음 탐험부터가 아니라 바로 부활 횟수에 반영한다 (탐험 중에는 바꾸지 않는다).
+    private void HandleSpecialUpgradesChanged()
+    {
+        if (StageManager.IsInStage) return;
+        baseReviveCount = SpecialUpgrades.ReviveCount;
+        reviveCount = baseReviveCount;
+        OnReviveCountChanged?.Invoke();
     }
 
     // 거점에서 체력 영구 강화를 구매하거나 레벨업으로 최대 체력을 올리면 즉시 최대 체력에 반영한다
@@ -190,6 +203,7 @@ public class PlayerHealth : MonoBehaviour
     // 플레이어는 거점 씬에 계속 남아 있어서 Awake가 다시 불리지 않으므로 여기서 직접 되돌려야 한다.
     public void ResetRunState()
     {
+        baseReviveCount = SpecialUpgrades.ReviveCount;
         reviveCount = baseReviveCount;
         OnReviveCountChanged?.Invoke();
         ApplyPermanentHealthBonus();

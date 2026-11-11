@@ -5,6 +5,7 @@ using UnityEngine.UI;
 // 각 슬롯에는 해당 무기 오브젝트가 실제로 쓰는 SpriteRenderer 스프라이트를 그대로 아이콘으로 표시하고,
 // 슬롯 배경 프레임은 Honeti Buttons 텍스처(Inactive/Outlined)를 스왑해서 평소엔 비활성 프레임으로,
 // 지금 손에 들고 있는(WeaponAim.isHeld) 무기의 슬롯만 강조 테두리 프레임으로 표시한다.
+// 아직 열리지 않은 슬롯(거점 특수 강화 "무기 슬롯", WeaponSwitcher.UnlockedSlotCount 뒤 칸)은 어둡게 표시한다.
 public class WeaponSlotUI : MonoBehaviour
 {
     public WeaponSwitcher weaponSwitcher;
@@ -16,6 +17,8 @@ public class WeaponSlotUI : MonoBehaviour
 
     [Header("아이콘 크기")]
     public float iconSize = 44f;
+
+    private static readonly Color LockedFrameColor = new Color(0.35f, 0.35f, 0.38f, 0.45f);
 
     private Image[] icons;
 
@@ -84,6 +87,8 @@ public class WeaponSlotUI : MonoBehaviour
             if (slotFrames[i] != null)
             {
                 slotFrames[i].sprite = isHeld ? heldFrameSprite : normalFrameSprite;
+                bool locked = i >= weaponSwitcher.UnlockedSlotCount && weapon == null;
+                slotFrames[i].color = locked ? LockedFrameColor : Color.white;
             }
         }
     }

@@ -48,6 +48,7 @@ public class LevelUpUI : MonoBehaviour
     private GameObject overlay;
     private CanvasGroup overlayGroup;
     private Text subtitle;
+    private PixelButton rerollButton; // 거점 특수 강화 "카드 새로고침"을 올렸을 때만 보인다
     private readonly CardView[] cards = new CardView[3];
     private List<LevelUpCard> currentCards;
     private bool isOpen;
@@ -96,6 +97,7 @@ public class LevelUpUI : MonoBehaviour
         if (kb.digit1Key.wasPressedThisFrame || kb.numpad1Key.wasPressedThisFrame) Choose(0);
         else if (kb.digit2Key.wasPressedThisFrame || kb.numpad2Key.wasPressedThisFrame) Choose(1);
         else if (kb.digit3Key.wasPressedThisFrame || kb.numpad3Key.wasPressedThisFrame) Choose(2);
+        else if (kb.spaceKey.wasPressedThisFrame) Reroll(); // R은 회복약 키라 Space로 한다
     }
 
     // ===================== HUD =====================
@@ -195,6 +197,25 @@ public class LevelUpUI : MonoBehaviour
             if (has) cards[i].Show(currentCards[i], i * 0.07f);
         }
         openedAt = Time.unscaledTime;
+        RefreshReroll();
+    }
+
+    // 카드 새로고침: 이번 탐험 남은 횟수를 하나 쓰고 같은 레벨업의 카드 3장을 새로 뽑는다.
+    private void Reroll()
+    {
+        if (!CanChoose || !LevelUpSystem.TryUseReroll()) return;
+        ShowNewCards();
+    }
+
+    private void RefreshReroll()
+    {
+        int perRun = SpecialUpgrades.RerollsPerRun;
+        rerollButton.gameObject.SetActive(perRun > 0);
+        if (perRun <= 0) return;
+
+        int left = LevelUpSystem.RerollsLeft;
+        rerollButton.label.text = $"새로고침 [Space]  {left}/{perRun}";
+        rerollButton.SetInteractable(left > 0);
     }
 
     private void Close()
@@ -354,6 +375,10 @@ public class LevelUpUI : MonoBehaviour
         hint.rectTransform.anchoredPosition = new Vector2(0f, 52f);
         hint.rectTransform.sizeDelta = new Vector2(600f, 26f);
         hint.text = "클릭하거나 1 · 2 · 3 키로 선택";
+
+        // 카드와 안내 문구 사이 (카드 아래 끝 ≈ 화면 아래에서 155)
+        rerollButton = PixelUi.Button(root, "Reroll", "", false, font, new Vector2(0f, 104f), new Vector2(260f, 44f), Reroll);
+        rerollButton.gameObject.SetActive(false);
 
         overlay.SetActive(false);
     }
