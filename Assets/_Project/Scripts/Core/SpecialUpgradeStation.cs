@@ -3,7 +3,7 @@ using UnityEngine;
 // 거점의 "특수 강화" 건물: 플레이어가 건물 가까이(proximityRadius) 오면 흰 테두리가 뜨고, F키로 특수 강화 창(SpecialUpgradeUI)을 연다.
 // 특수 강화는 희귀자원(거점 창고 stash)으로 하는 영구 유틸 강화다 (부활 횟수, 시작 무기 등 - 항목은 SpecialUpgradeUI 참고).
 // 건물은 플레이어가 부딪히는 단단한 충돌체만 있어서 트리거 대신 거리로 판정한다 (InteractOutline.proximityRadius).
-// 거점에서만 동작하고, 탐험 중에는 아무 반응도 하지 않는다. 씬의 건물 오브젝트(House)에 붙여 둔다.
+// 거점에서만 동작하고, 탐험 중에는 아무 반응도 하지 않는다. 씬의 희귀 건물 오브젝트(Building_Rare, 천문대)에 붙여 둔다.
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(Collider2D))]
 public class SpecialUpgradeStation : MonoBehaviour
