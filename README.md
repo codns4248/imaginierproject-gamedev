@@ -10,7 +10,7 @@ Assets/
   _Project/        우리가 만든 에셋 (씬, 스크립트, 프리팹, 애니메이션 등)
     Scenes/        씬
     Scripts/       Core, Enemy, Player, UI, Weapon, Camera
-    Prefabs/       Enemy, Weapon (UI 프리팹은 Prefabs/UI 예정)
+    Prefabs/       Enemy, Weapon, Prop, Building (UI 프리팹은 Prefabs/UI 예정)
     Resources/     Resources.Load로 불러오는 ScriptableObject (이름 변경 금지)
     Art/  Animations/  Fonts/  Settings/
   ThirdParty/      외부 에셋과 AI로 생성한 이미지 (prop_*, npc_*)
@@ -76,7 +76,7 @@ Assets/
 PascalCase + 종류 접두어. 위치는 `Prefabs/<종류>/`.
 
 - `UI_PlayerHealth`, `UI_ResourceBank`, `UI_DeathResult`
-- `Enemy_Bee`, `Weapon_Sword`
+- `Enemy_Bee`, `Weapon_Sword`, `Prop_WeaponStand`, `Building_Forge`
 
 ### 스크립트
 
