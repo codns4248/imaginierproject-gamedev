@@ -17,8 +17,8 @@ public class SpecialUpgradeStation : MonoBehaviour
         outline.proximityRadius = proximityRadius;
         outline.Init(OnInteract);
 
-        StartWeaponStand.InstallAll(); // 집 아래 거치대 5개에 시작 무기 진열 (특수 강화 "시작 무기 선택")
-        BackpackStation.Install();     // 왼쪽 아래 나무 창고에서 배낭 꾸리기 (특수 강화 "배낭")
+        StartWeaponStand.InstallAll(); // 대장간 아래 거치대 5개(두 줄)에 시작 무기 진열 (특수 강화 "시작 무기 선택")
+        BackpackStation.Install();     // 우측 하단 창고(Building_Storehouse)에서 배낭 꾸리기 (특수 강화 "배낭")
     }
 
     private void OnInteract()
