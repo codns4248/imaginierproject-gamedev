@@ -4,7 +4,7 @@ using System.IO;
 using UnityEngine;
 
 // 거점 특수 강화 "배낭": 거점 창고(stash)의 일반 자원을 일부 들고 탐험을 시작한다.
-// 창고 건물(Building_Common -> BackpackUI)에서 자원 종류마다 담을 양을 정해 두면, 거점 포탈로 탐험을 시작할 때(StagePortal)
+// 창고 건물(Building_Storehouse -> BackpackUI)에서 자원 종류마다 담을 양을 정해 두면, 거점 포탈로 탐험을 시작할 때(StagePortal)
 // 그만큼 창고에서 꺼내 이번 탐험 자원(runHeld)으로 옮긴다. 무기 강화/상인에 바로 쓸 수 있고, 귀환하면 남은 만큼 창고로 돌아가고,
 // 죽으면 탐험 자원과 함께 잃는다 (사망 보험만큼은 지킨다). 희귀자원은 담을 수 없다.
 // 담을 양은 저장(backpack.json)되어 다음 탐험에도 그대로 쓴다 (창고에 모자라면 있는 만큼만 꺼낸다).
