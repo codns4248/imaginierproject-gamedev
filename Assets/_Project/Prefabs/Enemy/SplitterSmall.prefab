@@ -180,7 +180,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 4
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -707405829915782549, guid: ad12028fc73c356459993f78e6b8df17, type: 3}
+  m_Sprite: {fileID: -707405829915782549, guid: a17e7b75a8f34a689b800715f3b726c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -213,7 +213,7 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
@@ -251,8 +251,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.3
+  m_Offset: {x: 0, y: 0.24}
+  m_Radius: 0.187
 --- !u!114 &558375573252810511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,7 +268,7 @@ MonoBehaviour:
   maxHealth: 15
   moveSpeed: 0.9
   contactDamage: 1
-  contactRangeScale: 0.5
+  contactRangeScale: 0.8
   isElite: 0
   isBoss: 0
   separationRadius: 0.3
@@ -304,12 +304,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpriteAnimator
   frames:
-  - {fileID: -707405829915782549, guid: ad12028fc73c356459993f78e6b8df17, type: 3}
-  - {fileID: 3779187916506250139, guid: ad12028fc73c356459993f78e6b8df17, type: 3}
-  - {fileID: 2778828444430047984, guid: ad12028fc73c356459993f78e6b8df17, type: 3}
-  - {fileID: 6335496266005698779, guid: ad12028fc73c356459993f78e6b8df17, type: 3}
-  - {fileID: -6380918510965264385, guid: ad12028fc73c356459993f78e6b8df17, type: 3}
-  - {fileID: -3768716982931121990, guid: ad12028fc73c356459993f78e6b8df17, type: 3}
+  - {fileID: -707405829915782549, guid: a17e7b75a8f34a689b800715f3b726c9, type: 3}
+  - {fileID: 3779187916506250139, guid: a17e7b75a8f34a689b800715f3b726c9, type: 3}
+  - {fileID: 2778828444430047984, guid: a17e7b75a8f34a689b800715f3b726c9, type: 3}
+  - {fileID: 6335496266005698779, guid: a17e7b75a8f34a689b800715f3b726c9, type: 3}
+  - {fileID: -6380918510965264385, guid: a17e7b75a8f34a689b800715f3b726c9, type: 3}
+  - {fileID: -3768716982931121990, guid: a17e7b75a8f34a689b800715f3b726c9, type: 3}
   frameRate: 10
   speedMultiplier: 1
 --- !u!1 &3130606111981091166

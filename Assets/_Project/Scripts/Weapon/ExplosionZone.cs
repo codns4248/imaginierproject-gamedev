@@ -33,7 +33,7 @@ public class ExplosionZone : MonoBehaviour
         var sr = GetComponent<SpriteRenderer>();
         sr.sprite = GetCircleSprite();
         sr.color = new Color(1f, 0f, 0f, 0.4f); // 붉고 반투명
-        sr.sortingOrder = 3; // 바닥보다 위, 캐릭터/적보다는 아래
+        sr.sortingOrder = 2; // 바닥/맵 소품(0)보다 위, 중력탄 블랙홀(3)과 적(4)보다는 아래
         // 범위 표시 원은 쓰지 않는다 (벼락 날씨/적 공격 범위에만 쓰기로 함). 폭발 판정과 딜레이는 그대로 동작한다.
         sr.enabled = false;
 
@@ -79,7 +79,8 @@ public class ExplosionZone : MonoBehaviour
         pullRing = go.transform;
 
         // 빠르게 도는 블랙홀 소용돌이
-        pullFx = PixelFx.Play("black_hole", transform.position, pullRadius * 2f * 1.15f, Color.white, 7); // 바닥의 수류탄(6)과 적(4)보다 위에 그려서, 블랙홀이 수류탄과 끌려오는 적을 덮는다
+        // 맵 소품(0)과 폭발 범위(2)보다 위, 적(4)보다는 아래 - 끌려오는 몬스터가 블랙홀 위에 보이게 한다 (예전엔 7이라 몬스터를 덮었다).
+        pullFx = PixelFx.Play("black_hole", transform.position, pullRadius * 2f * 1.15f, Color.white, 3);
         UpdatePullRing();
     }
 

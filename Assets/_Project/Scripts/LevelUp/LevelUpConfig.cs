@@ -99,6 +99,9 @@ public class LevelUpConfig : ScriptableObject
     public Sprite buttonNo;        // Gold1
     public Sprite buttonNoHover;   // Gold1Hover
 
+    [Header("스테이지 클리어 후 포탈 방향을 가리키는 화살표 (ClearTargetArrow) - 오른쪽을 보는 그림")]
+    public Sprite guideArrow;      // Icons/32/ArrowRightOutlined
+
     private static LevelUpConfig instance;
 
     public static LevelUpConfig Instance

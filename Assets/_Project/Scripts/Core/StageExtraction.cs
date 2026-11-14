@@ -4,8 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 
 // 스테이지-거점 이동 및 층수 진행을 담당한다.
-// StageTimer가 스테이지 클리어를 알리면 스테이지 위쪽에 색깔이 다른 랜덤 포탈 3개를 띄운다.
-// 5층마다(StageProgress.IsExtractionFloor)는 오른쪽에 추출(거점 복귀, 자원 확정) 포탈도 같이 뜬다.
+// StageTimer가 스테이지 클리어를 알리면 맵 중앙에 색깔이 다른 랜덤 포탈 3개를 띄운다 (SpawnExitPortals의 배치 그림 참고).
+// 5층마다(StageProgress.IsExtractionFloor)는 추출(거점 복귀, 자원 확정) 포탈도, 확률적으로 상인도 같이 중앙에 뜨고,
+// 플레이어 주위에는 그쪽을 가리키는 화살표(ClearTargetArrow)가 나타난다.
 // 플레이어가 어느 포탈에 닿는지는 StageExitPortal이 처리한다.
 // 플레이어가 죽으면 파밍한 자원(아직 확정되지 않은 분)을 잃고, 사망 페이드가 끝난 뒤 거점으로 이동한다 (익스트랙션 실패).
 // (조장 확인 완료: 사망 시 자원은 확정하지 않고 소실시키는 게 맞는 규칙 - 임시로 CommitRunToStash를 쓰던 걸 원복함)
@@ -22,7 +23,12 @@ public class StageExtraction : MonoBehaviour
         { "모래 황무지", new Color(1f, 0.55f, 0.1f) },      // 주황
         { "숲", new Color(0.2f, 0.8f, 0.3f) },              // 초록
     };
-    private static readonly Color ExtractionPortalColor = new Color(1f, 1f, 1f, 0.5f); // 반투명 흰색
+    private static readonly Color ExtractionPortalColor = Color.white; // 거점 포탈 그림 그대로 선명하게 (예전엔 반투명이라 흐릿했다)
+
+    // 그리는 순서: 바닥(-10/-5/-3) < 맵 소품(0) < 클리어 포탈/상인(1~3) < 몬스터(4) < 플레이어(5).
+    // 맵 소품과 같은 0이면 누가 위에 그려질지 들쭉날쭉해서 소품이 포탈을 가렸다.
+    private const int PortalSortingOrder = 2;          // 포탈 테두리는 한 단계 아래(1)
+    private const int MerchantCarpetSortingOrder = 1;  // 상인은 +1, 상품은 +2
 
     // 미스터리 포탈: 클리어할 때마다 이 확률로 3개 중 하나가 보라색 포탈(반짝임)로 바뀐다. 어디로 가는지는 들어가 봐야 안다.
     //   생각의 방(함정: 모든 몬스터가 섞여 나오고 드랍이 적음) 40% / NASA(클리어 보상 희귀자원) 30% / 군부대(클리어 보상 랜덤 무기) 30%
@@ -146,11 +152,22 @@ public class StageExtraction : MonoBehaviour
         return MysteryThemes[0].theme;
     }
 
-    // 현재 구역 위쪽에 랜덤 색깔 포탈 3개(가끔 그중 하나는 보라색 미스터리 포탈), 5층마다 오른쪽에 추출 포탈 1개를 추가로 띄운다.
+    // 클리어 후 나타나는 것들은 맵 중앙에 한 화면 안에 들어오게 모은다 (예전엔 위/왼쪽/오른쪽 끝에 흩어져 있어 한참 걸어가야 했다).
+    // 화면 크기는 약 9x5 유닛. 포탈 그림 0.55x1.06, 상인 카펫 2.75x2.0 (상인은 카펫 중심에서 위로 1.375).
+    //   [포탈] [포탈] [포탈]      <- 다음 층 포탈 3개 (중앙 위)
+    //  상인            [탈출]     <- 상인(왼쪽 아래, 30%) / 추출 포탈(오른쪽 아래, 5층마다)
+    // [카펫]
+    // (전체 폭: 카펫 왼쪽 끝 -4.1 ~ 탈출 포탈 오른쪽 +3.0, 높이: 카펫 아래 -2.4 ~ 포탈 위 +2.3 -> 중앙에 서면 한 화면에 거의 꽉 찬다)
+    private const float PortalRowOffsetY = 1.8f;                                    // 중앙에서 포탈 줄까지 (위)
+    private const float PortalSpacing = 2.0f;                                       // 포탈 사이 간격
+    private static readonly Vector2 MerchantCarpetOffset = new Vector2(-2.7f, -1.4f); // 중앙에서 상인 카펫 중심까지
+    private static readonly Vector2 ExtractionOffset = new Vector2(2.7f, -1.2f);      // 중앙에서 추출 포탈까지
+
+    // 맵 중앙에 랜덤 색깔 포탈 3개(가끔 그중 하나는 보라색 미스터리 포탈), 5층마다 추출 포탈, 확률적으로 상인을 모아서 띄우고
+    // 플레이어 주위에 그쪽을 가리키는 화살표(ClearTargetArrow)를 띄운다.
     private void SpawnExitPortals()
     {
         Vector2 center = StageManager.CurrentZoneCenter;
-        float halfExtent = StageManager.CurrentZoneHalfExtent;
 
         GameObject group = new GameObject("ExitPortals");
 
@@ -158,8 +175,8 @@ public class StageExtraction : MonoBehaviour
         List<string> pool = new List<string>(PortalThemes);
         for (int i = 0; i < 3 && pool.Count > 0; i++)
         {
-            float x = center.x + (i - 1) * (halfExtent * 0.6f);
-            float y = center.y + halfExtent - 2f;
+            float x = center.x + (i - 1) * PortalSpacing;
+            float y = center.y + PortalRowOffsetY;
 
             if (i == mysterySlot)
             {
@@ -174,25 +191,23 @@ public class StageExtraction : MonoBehaviour
         }
 
         if (StageProgress.IsExtractionFloor)
-        {
-            float x = center.x + halfExtent - 2f;
-            CreatePortal(group.transform, new Vector2(x, center.y), null, ExtractionPortalColor);
-        }
+            CreatePortal(group.transform, center + ExtractionOffset, null, ExtractionPortalColor);
 
         // 추출 포탈 유무와 무관하게 스테이지를 클리어할 때마다 확률적으로 상인이 나타난다.
         if (Random.value < MerchantSpawnChance)
-            SpawnMerchant(group.transform, center, halfExtent);
+            SpawnMerchant(group.transform, center + MerchantCarpetOffset);
+
+        ClearTargetArrow.Show(group.transform, center);
     }
 
-    // 구역 왼쪽 가장자리, 추출 포탈과 같은 높이(y)에 상인+카펫을 띄운다 (추출 포탈은 오른쪽,
-    // 상인은 왼쪽이라 서로 마주보는 배치). 원본(거점 앞) 오브젝트를 복제하고, 상인과 카펫의
+    // carpetCenter에 상인+카펫을 띄운다. 원본(거점 앞) 오브젝트를 복제하고, 상인과 카펫의
     // 원래 상대 위치(오프셋)를 그대로 유지해서 카펫 위에 서 있는 배치가 흐트러지지 않게 한다.
-    private void SpawnMerchant(Transform parent, Vector2 center, float halfExtent)
+    private void SpawnMerchant(Transform parent, Vector2 carpetCenter)
     {
         if (merchantTemplate == null || merchantCarpetTemplate == null) return;
 
         Vector3 offset = merchantTemplate.transform.position - merchantCarpetTemplate.transform.position;
-        Vector3 carpetPos = new Vector3(center.x - halfExtent + 2f, center.y, 0f);
+        Vector3 carpetPos = new Vector3(carpetCenter.x, carpetCenter.y, 0f);
 
         GameObject carpet = Instantiate(merchantCarpetTemplate, parent);
         carpet.name = "MerchantCarpet";
@@ -206,6 +221,7 @@ public class StageExtraction : MonoBehaviour
         // 상인이 카펫에 가려지지 않도록 상인을 항상 한 단계 앞에 그리게 고정한다.
         SpriteRenderer carpetSr = carpet.GetComponent<SpriteRenderer>();
         SpriteRenderer merchantSr = merchant.GetComponent<SpriteRenderer>();
+        if (carpetSr != null) carpetSr.sortingOrder = MerchantCarpetSortingOrder; // 맵 소품(0)보다 위
         int carpetOrder = carpetSr != null ? carpetSr.sortingOrder : 0;
         if (merchantSr != null) merchantSr.sortingOrder = carpetOrder + 1;
 
@@ -387,6 +403,11 @@ public class StageExtraction : MonoBehaviour
             clonedOutline.enabled = false;
             Destroy(clonedOutline);
         }
+
+        // 맵 소품(0)보다 위에 그린다. 거점 포탈에서 같이 복제돼 온 테두리 자식들도 한 단계 아래로 맞추고,
+        // Init이 새로 붙이는 테두리(InteractOutline)도 본체 순서 - 1 로 계산되도록 Init보다 먼저 정한다.
+        foreach (SpriteRenderer r in go.GetComponentsInChildren<SpriteRenderer>(true))
+            r.sortingOrder = r.gameObject == go ? PortalSortingOrder : PortalSortingOrder - 1;
 
         StageExitPortal portal = go.AddComponent<StageExitPortal>();
         portal.Init(targetTheme, color);

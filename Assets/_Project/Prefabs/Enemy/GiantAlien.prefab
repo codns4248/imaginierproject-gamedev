@@ -123,7 +123,7 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
@@ -161,8 +161,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.3
+  m_Offset: {x: 0, y: 0.182}
+  m_Radius: 0.265
 --- !u!114 &3257874958780490695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,7 +178,7 @@ MonoBehaviour:
   maxHealth: 150
   moveSpeed: 0.3333
   contactDamage: 1
-  contactRangeScale: 0.5
+  contactRangeScale: 0.8
   isElite: 1
   isBoss: 0
   separationRadius: 0.3
@@ -187,7 +187,7 @@ MonoBehaviour:
   mapHalfExtent: 20
   boundaryMargin: 0.3
   hitStunDuration: 0.2
-  knockbackForce: 1.5
+  knockbackForce: 0.5
   knockbackDecay: 7.5
   deathFadeDuration: 0.5
   outlineOffset: 0.011538462

@@ -157,7 +157,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.3
+  m_Radius: 0.118
 --- !u!114 &4658077915995607729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,7 +173,7 @@ MonoBehaviour:
   maxHealth: 30
   moveSpeed: 0.8
   contactDamage: 1
-  contactRangeScale: 0.5
+  contactRangeScale: 0.8
   separationRadius: 0.3
   separationStrength: 1.5
   mapCenter: {x: 0, y: 0}

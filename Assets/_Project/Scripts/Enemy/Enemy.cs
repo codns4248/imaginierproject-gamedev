@@ -13,10 +13,11 @@ public class Enemy : MonoBehaviour
     public float maxHealth = 100f;
     public float moveSpeed = 2f;
     public float contactDamage = 1f; // 플레이어와 접촉했을 때 주는 데미지 (플레이어 하트 단위라 10배 하지 않는다)
-    // 충돌 원(트리거)은 투사체/근접 무기가 이 몬스터를 맞히는 판정에도 같이 쓰이는데, 스프라이트보다 훨씬 크게
-    // 잡혀 있어서(예: 스켈레톤은 스프라이트 너비 0.32인데 충돌 지름 0.9) 접촉 데미지가 너무 멀리서 들어갔다.
-    // 그래서 접촉 데미지만 "충돌 원 반지름 x 이 비율" 안에 플레이어 몸이 들어왔을 때만 준다 (명중 판정은 그대로).
-    [Range(0.1f, 1f)] public float contactRangeScale = 0.5f;
+    // 충돌 원(트리거) = 이 몬스터의 몸 판정. 투사체/범위 공격/근접 무기가 맞히는 기준이라 그림 크기에 맞춰 둔다
+    // (2026-11-15: 예전엔 모든 몬스터가 반지름 0.3 x 배율이라 그림보다 2~5배 커서 한참 떨어진 총알에도 맞았다.
+    //  지금은 몬스터마다 그림 가로x세로 평균 크기의 절반 정도이고, 기준점이 발밑인 그림은 오프셋으로 그림 중심에 맞췄다).
+    // 접촉 데미지는 플레이어에게 너그럽게: "충돌 원 반지름 x 이 비율" 안에 플레이어 피격점이 들어와야 준다.
+    [Range(0.1f, 1f)] public float contactRangeScale = 0.8f;
 
     [Header("등급")]
     public bool isElite; // 정예 몬스터. 즉사(처형) 같은 효과가 통하지 않는다 (창의 급소 처형 참고).
@@ -122,8 +123,9 @@ public class Enemy : MonoBehaviour
         Hit(knockbackDirection, currentHealth / Mathf.Max(0.01f, DamageTakenMultiplier) + 0.01f, true, 0.5f);
     }
 
-    // 몸통 원: 충돌 원보다 작게(반지름 x contactRangeScale) 잡은, 스프라이트에 가까운 실제 몸 크기.
-    // 접촉 데미지와 같은 기준이라 검 같은 근접무기가 "칼이 몸에 실제로 닿았는지" 따질 때도 쓴다 (SwordAttack 접촉 판정).
+    // 몸통 원: 그림 크기에 맞춘 충돌 원 그대로. 검/창/기관단총 폭발 같은 근접·범위 무기가
+    // "실제로 몸에 닿았는지" 따질 때 쓴다 (SwordAttack/MeleeContact/LanceAttack/SmgAttack).
+    // 플레이어에게 주는 접촉 데미지만 이보다 작게(x contactRangeScale) 본다 (OnTriggerStay2D).
     // 원형 충돌체가 없는 적은 false (호출한 쪽이 충돌 판정을 그대로 믿으면 된다).
     public bool TryGetBodyCircle(out Vector2 center, out float radius)
     {
@@ -135,7 +137,7 @@ public class Enemy : MonoBehaviour
         }
 
         center = contactCircle.bounds.center;
-        radius = contactCircle.radius * Mathf.Max(transform.lossyScale.x, transform.lossyScale.y) * contactRangeScale;
+        radius = contactCircle.radius * Mathf.Max(transform.lossyScale.x, transform.lossyScale.y);
         return true;
     }
 
@@ -356,7 +358,8 @@ public class Enemy : MonoBehaviour
         Vector2 separation = Vector2.zero;
         Vector2 myPos = transform.position;
         float radiusSqr = separationRadius * separationRadius;
-        int hitCount = Physics2D.OverlapCircle(myPos, separationRadius, separationFilter, separationBuf);
+        // 충돌 원이 그림 크기로 작아졌고 일부는 위로 옮겨져 있어서(발밑 기준점 그림), 후보는 조금 넉넉하게 뽑고 거리로 다시 거른다.
+        int hitCount = Physics2D.OverlapCircle(myPos, separationRadius + 0.25f, separationFilter, separationBuf);
         for (int i = 0; i < hitCount; i++)
         {
             Collider2D col = separationBuf[i];

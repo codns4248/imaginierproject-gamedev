@@ -28,7 +28,8 @@ public class MortarAI : MonoBehaviour
     [Tooltip("격발 직후 반동 자세(격발 바로 뒤 프레임)에서 멈춰 있다가 포신을 내리기까지의 시간(초)")]
     public float holdAfterFire = 0.3f;
     [Tooltip("격발 순간 포구 위치: 몸 중심 기준 (x는 그림 원본처럼 왼쪽을 볼 때 기준, 오른쪽을 보면 좌우가 뒤집힌다). 월드 유닛")]
-    public Vector2 muzzleOffset = new Vector2(-0.26f, 0.31f);
+    // (2026-11-15: 공격 프레임 피벗을 이동 프레임과 같은 (0.5, 0.2)로 맞추면서 그림이 0.25 올라가 y도 0.31 -> 0.56)
+    public Vector2 muzzleOffset = new Vector2(-0.26f, 0.56f);
 
     private Enemy enemy;
     private SpriteAnimator walkAnimator;

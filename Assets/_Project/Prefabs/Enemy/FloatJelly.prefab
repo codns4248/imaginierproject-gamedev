@@ -487,7 +487,7 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
@@ -525,8 +525,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.3
+  m_Offset: {x: 0, y: 0.202}
+  m_Radius: 0.154
 --- !u!114 &9039656892677861338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -542,7 +542,7 @@ MonoBehaviour:
   maxHealth: 30
   moveSpeed: 0.7
   contactDamage: 1
-  contactRangeScale: 0.5
+  contactRangeScale: 0.8
   isElite: 0
   isBoss: 0
   separationRadius: 0.3
@@ -602,6 +602,6 @@ MonoBehaviour:
   orbitDegreesPerSecond: 45
   attackInterval: 2.2
   projectilePrefab: {fileID: 7168897038559877047, guid: 324e92697190e1a40a1379d6da20a26f, type: 3}
-  projectileSpeed: 6.6666665
+  projectileSpeed: 2.2222
   projectileDamage: 1
   projectileTint: {r: 0.55, g: 1, b: 0.45, a: 1}
