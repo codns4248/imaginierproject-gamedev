@@ -19,6 +19,7 @@ public class SpecialUpgradeStation : MonoBehaviour
 
         StartWeaponStand.InstallAll(); // 대장간 아래 거치대 5개(두 줄)에 시작 무기 진열 (특수 강화 "시작 무기 선택")
         BackpackStation.Install();     // 우측 하단 창고(Building_Storehouse)에서 배낭 꾸리기 (특수 강화 "배낭")
+        TrainingHallStation.Install(); // 좌측 하단 훈련소(Building_Common)에서 일반 강화 (HubUpgradeManager)
     }
 
     private void OnInteract()
