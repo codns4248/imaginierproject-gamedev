@@ -26,12 +26,13 @@ public class GimmickAnnounceUI : MonoBehaviour
 
     void Awake()
     {
-        GameObject canvas = GameObject.Find("Canvas");
+        GameObject canvas = GameObject.Find(UiLayer.HudCanvas); // 폰트를 빌려올 HUD
         if (canvas == null) { enabled = false; return; }
 
+        // HUD 바로 위 층(안내 문구 캔버스)에 붙인다 - 팝업/ESC 설정 창보다는 아래
+        Transform layer = UiLayer.FindOrCreate("HudNotice_Canvas", UiLayer.HudNotice);
         GameObject go = new GameObject("GimmickAnnounceText");
-        go.transform.SetParent(canvas.transform, false);
-        go.transform.SetAsLastSibling(); // 다른 UI 위에 그려지도록 맨 위로
+        go.transform.SetParent(layer, false);
 
         RectTransform rt = go.AddComponent<RectTransform>();
         rt.anchorMin = new Vector2(0.5f, 0.5f);

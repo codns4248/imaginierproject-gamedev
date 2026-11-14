@@ -115,7 +115,7 @@ public class RetreatManager : MonoBehaviour
     private void UpdateWarning()
     {
         if (warningTimer <= 0f) return;
-        warningTimer -= Time.unscaledDeltaTime;
+        if (!PauseManager.IsEscPaused) warningTimer -= Time.unscaledDeltaTime; // ESC로 멈춘 동안엔 경고 문구도 그대로
         if (warningTimer <= 0f || Camera.main == null)
         {
             warningText.gameObject.SetActive(false);
@@ -151,14 +151,7 @@ public class RetreatManager : MonoBehaviour
     private void Build()
     {
         canvasGO = new GameObject("EmergencyEscapeUI");
-        Canvas canvas = canvasGO.AddComponent<Canvas>();
-        canvas.renderMode = RenderMode.ScreenSpaceOverlay;
-        canvas.sortingOrder = 55; // HUD보다 위, 레벨업 카드 창(60)보다 아래 (레벨업 창이 뜨면 그 뒤에 가려지고 클릭도 막힌다)
-        CanvasScaler scaler = canvasGO.AddComponent<CanvasScaler>();
-        scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
-        scaler.referenceResolution = new Vector2(1280f, 720f);
-        scaler.matchWidthOrHeight = 0.5f;
-        canvasGO.AddComponent<GraphicRaycaster>();
+        UiLayer.Setup(canvasGO, UiLayer.Popup); // 팝업 층: 레벨업 카드 창이 뜨면 그 뒤에 가려지고 클릭도 막힌다
         canvasRect = (RectTransform)canvasGO.transform;
 
         BuildPopup();

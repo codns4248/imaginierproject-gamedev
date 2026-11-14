@@ -238,8 +238,8 @@ public static class StageManager
             spawner.enabled = inStage && matchesTheme;
         }
 
-        // GameObject.Find는 비활성 오브젝트를 찾지 못하므로, 항상 켜져 있는 Canvas를 통해 찾는다.
-        GameObject canvas = GameObject.Find("Canvas");
+        // GameObject.Find는 비활성 오브젝트를 찾지 못하므로, 항상 켜져 있는 HUD 캔버스를 통해 찾는다.
+        GameObject canvas = GameObject.Find(UiLayer.HudCanvas);
         if (canvas != null)
         {
             Transform healthUI = canvas.transform.Find("HealthUI");
@@ -254,9 +254,11 @@ public static class StageManager
             // 자원 표시(ResourceBankText)는 항상 켜둔다 - ResourceBankUI가 매 프레임 IsInStage를
             // 직접 보고 runHeld/stash 중 뭘 보여줄지 스스로 정하므로 여기서 SetActive로 껐다 켰다 하면 안 된다.
 
-            // DeathFade는 항상 켜져 있어야 한다: 사망 연출(FadeToBlack)이 코루틴을 켜진 오브젝트에서 시작해야 하기 때문.
-            Transform deathFade = canvas.transform.Find("DeathFade");
-            if (deathFade != null) deathFade.gameObject.SetActive(true);
         }
+
+        // DeathFade는 항상 켜져 있어야 한다: 사망 연출(FadeToBlack)이 코루틴을 켜진 오브젝트에서 시작해야 하기 때문.
+        GameObject deathCanvas = GameObject.Find(UiLayer.DeathCanvas);
+        Transform deathFade = deathCanvas != null ? deathCanvas.transform.Find("DeathFade") : null;
+        if (deathFade != null) deathFade.gameObject.SetActive(true);
     }
 }

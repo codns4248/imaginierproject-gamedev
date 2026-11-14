@@ -4,6 +4,11 @@ using UnityEngine.InputSystem;
 // ESC 키로 설정 패널(SettingPanel)을 열고 닫는다. V키로 여는 무기 강화 팝업(WeaponEnhancementManager)과는
 // 완전히 별도의 상태로 동작하지만, 둘 중 하나라도 열려 있으면 Time.timeScale을 0으로 만들어
 // 물리/애니메이션/스폰 등 deltaTime 기반 로직을 전부 함께 멈춘다. 레벨업 카드 창(LevelUpUI)도 같은 방식으로 정지시킨다.
+//
+// ESC 설정 창은 "모든 것을 멈추고 나오는" 창이라 어떤 팝업/알림보다도 항상 위에 그린다:
+// 설정 패널은 자기 캔버스(Esc_Canvas, UiLayer.Esc)에 들어 있다. 층 순서 전체는 UiLayer 참고.
+// ESC 창이 열려 있는 동안에는 아래 창들의 키 입력(F 상호작용, 레벨업 1/2/3, 사망 결과 Enter, R 회복약 등)도 무시하고,
+// 실제 시간(unscaled)으로 흐르던 타이머(사망 암전/결과 화면 등장, 알림 사라짐, 긴급탈출 경고)도 멈춘다.
 public class PauseManager : MonoBehaviour
 {
     public GameObject pausePanel; // 반투명 패널 + "PAUSED" 텍스트
@@ -12,6 +17,7 @@ public class PauseManager : MonoBehaviour
     private static bool isEscPaused; // ESC로 연 설정 패널이 열려 있는지
     private bool isInventoryPaused;  // WeaponEnhancementManager가 V로 연 무기 강화 팝업이 열려 있는지 (SetInventoryPaused로 전달받음)
     private static bool isLevelUpPaused; // 레벨업 카드 창(LevelUpUI)이 열려 있는지 (SetLevelUpPaused로 전달받음)
+    private bool isResultPaused;         // 사망 결과 화면(DeathResultUI)이 떠 있는지 (SetResultPaused로 전달받음)
 
     // ESC 설정 패널이 지금 열려 있는지. WeaponEnhancementManager가 "ESC가 눌린 상태에서는 V키 무시"를,
     // WeaponSwitcher가 "ESC 메뉴 중에는 무기 전환 금지"를 판단할 때 이 값을 참조한다.
@@ -39,8 +45,8 @@ public class PauseManager : MonoBehaviour
 
     void Update()
     {
-        if (isLevelUpPaused) return; // 레벨업 카드를 고르는 동안 ESC로 설정 패널이 열리거나 정지가 풀리지 않게
-
+        // 레벨업 카드를 고르는 중에도 ESC는 열린다 (가장 위에 뜨고, 닫으면 레벨업 창으로 돌아감).
+        // 정지는 ApplyTimeScale이 레벨업 상태까지 보고 판단하므로 ESC를 닫아도 레벨업 중이면 계속 멈춰 있다.
         if (Keyboard.current.escapeKey.wasPressedThisFrame)
         {
             SetEscPaused(!isEscPaused);
@@ -51,12 +57,7 @@ public class PauseManager : MonoBehaviour
     {
         isEscPaused = paused;
 
-        if (pausePanel != null)
-        {
-            pausePanel.SetActive(paused);
-            // 무기 슬롯/자원량 등 다른 HUD 요소보다 항상 위에 그려지도록 씬 계층상 마지막으로 이동
-            if (paused) pausePanel.transform.SetAsLastSibling();
-        }
+        if (pausePanel != null) pausePanel.SetActive(paused);
         if (blurVolume != null) blurVolume.SetActive(paused);
 
         ApplyTimeScale();
@@ -69,6 +70,14 @@ public class PauseManager : MonoBehaviour
         ApplyTimeScale();
     }
 
+    // 사망 결과 화면(DeathResultUI)이 뜨고(true) 귀환할 때(false) 호출한다. 결과 화면이 직접 timeScale을 0으로 두면
+    // ESC를 열었다 닫을 때 ApplyTimeScale이 1로 되돌려서 결과 화면 뒤에서 게임이 다시 흘러가 버렸다.
+    public void SetResultPaused(bool paused)
+    {
+        isResultPaused = paused;
+        ApplyTimeScale();
+    }
+
     // 레벨업 카드 창(LevelUpUI)이 열리고 닫힐 때 호출한다.
     public void SetLevelUpPaused(bool paused)
     {
@@ -76,10 +85,10 @@ public class PauseManager : MonoBehaviour
         ApplyTimeScale();
     }
 
-    // ESC 설정 패널, V 인벤토리 패널, 레벨업 카드 창 중 하나라도 열려 있으면 정지, 전부 닫히면 재개.
+    // ESC 설정 패널, V 인벤토리 패널, 레벨업 카드 창, 사망 결과 화면 중 하나라도 열려 있으면 정지, 전부 닫히면 재개.
     private void ApplyTimeScale()
     {
-        bool anyOpen = isEscPaused || isInventoryPaused || isLevelUpPaused;
+        bool anyOpen = isEscPaused || isInventoryPaused || isLevelUpPaused || isResultPaused;
         Time.timeScale = anyOpen ? 0f : 1f;
         IsPaused = anyOpen;
     }

@@ -92,6 +92,7 @@ public class LevelUpUI : MonoBehaviour
         AnimateOverlay();
 
         if (choosing || Time.unscaledTime < openedAt + InputDelay) return;
+        if (PauseManager.IsEscPaused) return; // ESC 설정 창이 위에 떠 있으면 카드 선택 키를 받지 않는다
         Keyboard kb = Keyboard.current;
         if (kb == null) return;
         if (kb.digit1Key.wasPressedThisFrame || kb.numpad1Key.wasPressedThisFrame) Choose(0);
@@ -275,14 +276,7 @@ public class LevelUpUI : MonoBehaviour
 
     private void Build()
     {
-        canvas = gameObject.AddComponent<Canvas>();
-        canvas.renderMode = RenderMode.ScreenSpaceOverlay;
-        canvas.sortingOrder = 60; // 기존 HUD(0)보다 위
-        CanvasScaler scaler = gameObject.AddComponent<CanvasScaler>();
-        scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
-        scaler.referenceResolution = new Vector2(1280f, 720f);
-        scaler.matchWidthOrHeight = 0.5f;
-        gameObject.AddComponent<GraphicRaycaster>();
+        canvas = UiLayer.Setup(gameObject, UiLayer.LevelUp); // HUD/건물 팝업보다 위, ESC 설정 창보다 아래
 
         BuildHud();
         BuildOverlay();
