@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 // 거점 "특수 강화" 창: 희귀자원(거점 창고 stash)으로 하는 영구 유틸 강화 (SpecialUpgrades의 10종).
 // 무기 강화(V, 탐험 중 한정)와 달리 탐험이 끝나도 유지된다. 거점의 특수 강화 건물(SpecialUpgradeStation)에서 F키로 열고,
-// 다시 F키를 누르거나 [닫기]로 닫는다. 열려 있는 동안 게임이 멈춘다 (PauseManager, V/U 창과 같은 방식).
+// 다시 F키를 누르거나 [닫기]로 닫는다. 열려 있는 동안 게임이 멈춘다 (PauseManager, V키 무기 강화·훈련소 일반 강화 창과 같은 방식).
 // 줄마다 이름, 단계, 지금 효과 -> 다음 효과, 비용(희귀자원), [강화] 버튼. 최대 단계면 [최대], 아직 효과를 만들지 않은 강화는 [준비 중].
 // 씬에 두지 않고 처음 열 때 코드로 만든다. 모양은 다른 창과 같은 PixelUi(PixelArtGUI 창 테두리)를 쓴다.
 public class SpecialUpgradeUI : MonoBehaviour
@@ -43,7 +43,7 @@ public class SpecialUpgradeUI : MonoBehaviour
 
     public static void Open()
     {
-        if (PauseManager.IsPaused) return; // ESC/U 창 등이 이미 열려 있으면 열지 않는다
+        if (PauseManager.IsPaused) return; // ESC/일반 강화 창 등이 이미 열려 있으면 열지 않는다
         if (instance == null)
         {
             GameObject go = new GameObject("SpecialUpgradeUI");
