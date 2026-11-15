@@ -16,12 +16,11 @@ public class ColdWaveGimmickEffect : MonoBehaviour
 
     void Awake()
     {
-        GameObject canvas = GameObject.Find("Canvas");
-        if (canvas == null) { enabled = false; return; }
+        // HUD는 서리 위에 그려지도록 HUD 아래 층(화면 효과 캔버스)에 붙인다
+        Transform layer = UiLayer.FindOrCreate("ScreenEffect_Canvas", UiLayer.ScreenEffect);
 
         GameObject go = new GameObject("ColdWaveFrost");
-        go.transform.SetParent(canvas.transform, false);
-        go.transform.SetAsFirstSibling(); // HUD는 서리 위에 그려지도록 맨 앞(=맨 아래)으로
+        go.transform.SetParent(layer, false);
 
         RectTransform rt = go.AddComponent<RectTransform>();
         rt.anchorMin = Vector2.zero;

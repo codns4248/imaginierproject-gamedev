@@ -39,7 +39,7 @@ public class DeathFadeUI : MonoBehaviour
         float elapsed = 0f;
         while (elapsed < duration)
         {
-            elapsed += Time.unscaledDeltaTime;
+            if (!PauseManager.IsEscPaused) elapsed += Time.unscaledDeltaTime; // ESC로 멈춘 동안엔 암전도 멈춤
             SetAlpha(Mathf.Clamp01(elapsed / duration));
             yield return null;
         }

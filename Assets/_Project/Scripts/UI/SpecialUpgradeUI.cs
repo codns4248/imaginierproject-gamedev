@@ -128,14 +128,7 @@ public class SpecialUpgradeUI : MonoBehaviour
 
     private void Build()
     {
-        Canvas canvas = gameObject.AddComponent<Canvas>();
-        canvas.renderMode = RenderMode.ScreenSpaceOverlay;
-        canvas.sortingOrder = 50; // HUD보다 위, ESC 설정 창/레벨업 창보다는 아래
-        CanvasScaler scaler = gameObject.AddComponent<CanvasScaler>();
-        scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
-        scaler.referenceResolution = new Vector2(1280f, 720f);
-        scaler.matchWidthOrHeight = 0.5f;
-        gameObject.AddComponent<GraphicRaycaster>();
+        UiLayer.Setup(gameObject, UiLayer.Popup); // 건물 팝업 층 (ESC 설정 창보다 아래)
 
         RectTransform overlay = PixelUi.NewRect("SpecialUpgradeOverlay", transform);
         PixelUi.Stretch(overlay);

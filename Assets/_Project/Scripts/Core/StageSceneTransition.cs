@@ -26,12 +26,12 @@ public class StageSceneTransition : MonoBehaviour
 
     private void CreateBlackOverlay()
     {
-        GameObject canvas = GameObject.Find("Canvas");
-        if (canvas == null) return;
+        // 화면 전환 층(Transition_Canvas): 팝업/알림보다 위, ESC 설정 창보다 아래
+        Transform layer = UiLayer.FindOrCreate(UiLayer.TransitionCanvas, UiLayer.Transition, clickable: true);
 
         GameObject overlayGO = new GameObject("StageSceneTransitionOverlay");
-        overlayGO.transform.SetParent(canvas.transform, false);
-        overlayGO.transform.SetAsLastSibling(); // 다른 UI보다 위에 그려지도록 맨 뒤로
+        overlayGO.transform.SetParent(layer, false);
+        overlayGO.transform.SetAsLastSibling();
 
         RectTransform rt = overlayGO.AddComponent<RectTransform>();
         rt.anchorMin = Vector2.zero;

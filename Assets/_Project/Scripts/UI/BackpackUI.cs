@@ -118,14 +118,7 @@ public class BackpackUI : MonoBehaviour
 
     private void Build()
     {
-        Canvas canvas = gameObject.AddComponent<Canvas>();
-        canvas.renderMode = RenderMode.ScreenSpaceOverlay;
-        canvas.sortingOrder = 50; // 특수 강화 창과 같은 층
-        CanvasScaler scaler = gameObject.AddComponent<CanvasScaler>();
-        scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
-        scaler.referenceResolution = new Vector2(1280f, 720f);
-        scaler.matchWidthOrHeight = 0.5f;
-        gameObject.AddComponent<GraphicRaycaster>();
+        UiLayer.Setup(gameObject, UiLayer.Popup); // 건물 팝업 층 (특수 강화 창과 같은 층)
 
         RectTransform overlay = PixelUi.NewRect("BackpackOverlay", transform);
         PixelUi.Stretch(overlay);

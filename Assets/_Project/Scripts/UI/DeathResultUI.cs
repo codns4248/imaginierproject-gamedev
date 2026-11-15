@@ -116,7 +116,7 @@ public class DeathResultUI : MonoBehaviour
             AnimatorStateInfo st = playerAnimator.GetCurrentAnimatorStateInfo(0);
             if (st.IsName("dead") && st.normalizedTime >= 0.98f) break;
 
-            elapsed += Time.unscaledDeltaTime;
+            if (!PauseManager.IsEscPaused) elapsed += Time.unscaledDeltaTime; // ESC로 멈춘 동안엔 기다리는 시간도 멈춤
             yield return null;
         }
 
@@ -132,23 +132,32 @@ public class DeathResultUI : MonoBehaviour
         float t = 0f;
         while (t < fadeInDuration)
         {
-            t += Time.unscaledDeltaTime;
+            if (!PauseManager.IsEscPaused) t += Time.unscaledDeltaTime;
             group.alpha = Mathf.Clamp01(t / fadeInDuration);
             yield return null;
         }
         group.alpha = 1f;
 
         // 결과 화면이 뜬 뒤에는 게임을 완전히 멈춘다 (StageTimer 카운트다운 등도 함께 정지).
-        Time.timeScale = 0f;
+        // PauseManager에 알려서 ESC를 열었다 닫아도 정지가 풀리지 않게 한다.
+        SetResultPaused(true);
 
         // Enter 로 버튼이 눌리도록 버튼을 선택 상태로 만든다.
         if (EventSystem.current != null && returnButton != null)
             EventSystem.current.SetSelectedGameObject(returnButton.gameObject);
     }
 
+    private static void SetResultPaused(bool paused)
+    {
+        PauseManager pm = FindFirstObjectByType<PauseManager>();
+        if (pm != null) pm.SetResultPaused(paused);
+        else Time.timeScale = paused ? 0f : 1f;
+    }
+
     void Update()
     {
         if (!shown || isReturning) return;
+        if (PauseManager.IsEscPaused) return; // ESC 설정 창이 위에 떠 있으면 Enter로 귀환하지 않는다
 
         Keyboard kb = Keyboard.current;
         if (kb != null && (kb.enterKey.wasPressedThisFrame || kb.numpadEnterKey.wasPressedThisFrame))
@@ -162,7 +171,7 @@ public class DeathResultUI : MonoBehaviour
 
         if (hintText != null) hintText.text = Track("RETURNING…");
 
-        Time.timeScale = 1f;
+        SetResultPaused(false);
 
         if (group != null)
         {
@@ -226,7 +235,7 @@ public class DeathResultUI : MonoBehaviour
         Canvas canvas = GetComponentInParent<Canvas>();
         if (canvas == null)
         {
-            GameObject canvasGo = GameObject.Find("Canvas");
+            GameObject canvasGo = GameObject.Find(UiLayer.DeathCanvas);
             canvas = canvasGo != null ? canvasGo.GetComponent<Canvas>() : FindFirstObjectByType<Canvas>();
         }
         if (canvas == null)

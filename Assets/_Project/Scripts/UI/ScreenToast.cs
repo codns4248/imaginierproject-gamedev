@@ -33,13 +33,7 @@ public class ScreenToast : MonoBehaviour
 
     private void Build()
     {
-        Canvas canvas = gameObject.AddComponent<Canvas>();
-        canvas.renderMode = RenderMode.ScreenSpaceOverlay;
-        canvas.sortingOrder = 70; // 특수 강화 창(50), 레벨업 창(60)보다 위
-        CanvasScaler scaler = gameObject.AddComponent<CanvasScaler>();
-        scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
-        scaler.referenceResolution = new Vector2(1280f, 720f);
-        scaler.matchWidthOrHeight = 0.5f;
+        UiLayer.Setup(gameObject, UiLayer.Toast, clickable: false); // 팝업/레벨업보다 위, ESC 설정 창보다 아래
 
         LevelUpConfig cfg = LevelUpConfig.Instance;
         Font font = cfg != null && cfg.font != null ? cfg.font : Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
@@ -51,6 +45,7 @@ public class ScreenToast : MonoBehaviour
     void Update()
     {
         if (timer <= 0f) return;
+        if (PauseManager.IsEscPaused) return; // ESC 창에 가려진 동안 알림이 몰래 사라지지 않게 멈춘다
         timer -= Time.unscaledDeltaTime;
         if (timer <= 0f) { text.gameObject.SetActive(false); return; }
         ApplyAlpha();
