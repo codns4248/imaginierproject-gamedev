@@ -132,6 +132,7 @@ public class PlayerHealth : MonoBehaviour
         {
             OnHealthChanged?.Invoke();
             PlayHitReaction(knockbackDirection);
+            Sfx.Play(SfxId.PlayerHurt);
             return;
         }
 
@@ -144,6 +145,7 @@ public class PlayerHealth : MonoBehaviour
             OnHealthChanged?.Invoke();
             OnReviveCountChanged?.Invoke();
             PlayReviveEffect(cfg);
+            Sfx.Play(SfxId.PlayerRevive);
         }
         else
         {
@@ -243,6 +245,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Die()
     {
+        Sfx.Play(SfxId.PlayerDie);
         isDead = true;
 
         // 혹시 진행 중이던 피격 연출(깜빡임 등)이 있다면 정리하고, 스프라이트/애니메이터를 정상 상태로 되돌린다.

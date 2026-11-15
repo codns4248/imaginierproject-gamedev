@@ -175,7 +175,7 @@ public class PixelButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     public void OnPointerUp(PointerEventData e) => pressed = false;
     public void OnPointerClick(PointerEventData e)
     {
-        if (interactable && e.button == PointerEventData.InputButton.Left) onClick?.Invoke();
+        if (interactable && e.button == PointerEventData.InputButton.Left) { Sfx.Play(SfxId.UiClick); onClick?.Invoke(); }
     }
 
     void OnDisable()

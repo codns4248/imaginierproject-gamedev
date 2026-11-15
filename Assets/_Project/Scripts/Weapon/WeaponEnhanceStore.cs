@@ -45,6 +45,7 @@ public static class WeaponEnhanceStore
         if (GetTotalLevel(weapon) >= WeaponEnhanceUtil.TotalMaxLevel) return false;
 
         weapon.SetLevel(idx, level + 1);
+        Sfx.Play(SfxId.EnhanceSuccess);
         return true;
     }
 

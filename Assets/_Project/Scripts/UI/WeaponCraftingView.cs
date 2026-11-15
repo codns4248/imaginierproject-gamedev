@@ -81,6 +81,7 @@ public class WeaponCraftingView : MonoBehaviour
         PlayerMovement movement = player != null ? player.GetComponent<PlayerMovement>() : null;
         Vector2 facing = movement != null ? movement.FacingDirection : Vector2.right;
         WeaponPickup.SpawnDrop(origin + (Vector3)(facing * DropDistance), pending); // 새 무기라 강화 레벨 없음(0강)
+        Sfx.Play(SfxId.EnhanceSuccess);
         Refresh();
     }
 

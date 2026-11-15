@@ -29,6 +29,7 @@ public class HubUpgradeManager : MonoBehaviour
         if (instance == null || instance.hubUpgradePanel == null) return;
         if (instance.isPanelOpen) { instance.SetPanelOpen(false); return; }
         if (StageManager.IsInStage || PauseManager.IsPaused) return; // ESC/특수 강화 등 다른 창이 열려 있으면 열지 않는다
+        Sfx.Play(SfxId.UiOpen);
         instance.SetPanelOpen(true);
     }
 
@@ -109,7 +110,8 @@ public class HubUpgradeManager : MonoBehaviour
 
     private void OnUpgradeClicked(ResourceType type)
     {
-        if (!PermanentUpgradeManager.TryUpgrade(type)) return;
+        if (!PermanentUpgradeManager.TryUpgrade(type)) { Sfx.Play(SfxId.Deny); return; }
+        Sfx.Play(SfxId.EnhanceSuccess);
         RefreshAllRows();
         System.Array.Find(rows, r => r.type == type)?.Pulse();
     }

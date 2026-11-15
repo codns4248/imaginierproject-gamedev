@@ -64,6 +64,7 @@ public class ShieldEnemyAI : MonoBehaviour
         Vector2 sparkPos = (Vector2)transform.position + new Vector2(facing * 0.15f, 0f);
         if (PixelFx.Play("hit_spark", sparkPos, 0.3f) == null)
             CircleFlash.Spawn(sparkPos, 0.15f, new Color(1f, 0.9f, 0.5f, 0.9f), 0.12f, spriteRenderer);
+        Sfx.Play(SfxId.ShieldBlock);
         return true;
     }
 }

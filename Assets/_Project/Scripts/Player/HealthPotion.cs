@@ -68,6 +68,7 @@ public class HealthPotion : MonoBehaviour
         playerHealth.Heal(healAmount);
         PixelFxUtil.PlayOnPlayer("glow_sparkle", 0.9f, new Color(0.55f, 1f, 0.65f)); // 회복 반짝임 (초록)
         potionCount--;
+        Sfx.Play(SfxId.PotionUse);
         OnPotionCountChanged?.Invoke();
     }
 

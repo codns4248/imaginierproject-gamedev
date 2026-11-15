@@ -152,6 +152,7 @@ public class XpOrb : MonoBehaviour
     private void Collect()
     {
         LevelUpSystem.AddXp(xp);
+        Sfx.Play(SfxId.PickupXp);
         Destroy(gameObject);
     }
 

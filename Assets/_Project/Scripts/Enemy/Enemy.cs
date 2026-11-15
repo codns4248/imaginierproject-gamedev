@@ -24,8 +24,15 @@ public class Enemy : MonoBehaviour
     public bool isBoss;  // 보스 (아직 없음). 정예와 같이 처형이 통하지 않는다.
 
     [Header("무리 짓기(분리) 설정")]
-    public float separationRadius = 0.6f;   // 이 거리 안에 다른 적이 있으면 밀어내는 힘이 작용한다
+    public float separationRadius = 0.6f;   // 이 거리 안에 다른 적이 있으면 밀어내는 힘이 작용한다 (최소값 - 아래 몸 크기 기준이 더 크면 그쪽을 쓴다)
     public float separationStrength = 1.5f; // 밀어내는 힘의 세기. 클수록 서로 더 확실히 벌어진다
+    // 몸 크기 기준 간격: 두 몬스터의 몸 반지름(그림에 맞춘 충돌 원) 합 x 이 배율보다 가까우면 밀어낸다.
+    // 예전엔 모두 0.3 고정이라 몸이 거의 겹친 채로 몰려왔다 (2026-11-16). 1이면 몸이 맞닿는 거리, 클수록 띄엄띄엄.
+    public float separationBodyFactor = 1.2f;
+    private const float MaxNeighborBodyRadius = 0.35f; // 가장 큰 몬스터(거대외계인)의 몸 반지름 - 후보를 뽑는 범위 계산용
+
+    // 그림 크기에 맞춘 충돌 원의 월드 반지름 (몸 크기).
+    public float BodyRadius => contactCircle != null ? contactCircle.radius * Mathf.Max(Mathf.Abs(transform.lossyScale.x), Mathf.Abs(transform.lossyScale.y)) : 0f;
 
     [Header("맵 경계")]
     public Vector2 mapCenter = Vector2.zero; // 맵 경계 상자의 중심 월드 좌표. EnemySpawner가 스폰 시 설정해준다
@@ -357,9 +364,10 @@ public class Enemy : MonoBehaviour
         //    separationRadius 안의 콜라이더만 뽑아서 검사한다 (적이 많아도 비용이 거의 안 늘어남).
         Vector2 separation = Vector2.zero;
         Vector2 myPos = transform.position;
-        float radiusSqr = separationRadius * separationRadius;
+        float myBody = BodyRadius;
         // 충돌 원이 그림 크기로 작아졌고 일부는 위로 옮겨져 있어서(발밑 기준점 그림), 후보는 조금 넉넉하게 뽑고 거리로 다시 거른다.
-        int hitCount = Physics2D.OverlapCircle(myPos, separationRadius + 0.25f, separationFilter, separationBuf);
+        float queryRadius = Mathf.Max(separationRadius, (myBody + MaxNeighborBodyRadius) * separationBodyFactor) + 0.25f;
+        int hitCount = Physics2D.OverlapCircle(myPos, queryRadius, separationFilter, separationBuf);
         for (int i = 0; i < hitCount; i++)
         {
             Collider2D col = separationBuf[i];
@@ -367,12 +375,14 @@ public class Enemy : MonoBehaviour
             Enemy other = col.GetComponent<Enemy>();
             if (other == null || other == this) continue;
 
+            // 원하는 간격: 두 몸 반지름 합 x 배율 (몸집이 큰 몬스터끼리는 더 멀리 떨어진다)
+            float want = Mathf.Max(separationRadius, (myBody + other.BodyRadius) * separationBodyFactor);
             Vector2 diff = myPos - (Vector2)other.transform.position;
             float distSqr = diff.sqrMagnitude;
-            if (distSqr > 0f && distSqr < radiusSqr)
+            if (distSqr > 0f && distSqr < want * want)
             {
                 float dist = Mathf.Sqrt(distSqr);
-                separation += diff / dist * (1f - dist / separationRadius);
+                separation += diff / dist * (1f - dist / want);
             }
         }
 
@@ -405,6 +415,7 @@ public class Enemy : MonoBehaviour
         // Hit은 플레이어 무기만 부르므로 레벨업 공격력(+분노)도 여기서 한 번에 곱한다 (무기 수치는 건드리지 않음).
         float dealt = damage * DamageTakenMultiplier * PlayerRunStats.DamageMultiplier;
         TakeDamageRaw(dealt);
+        Sfx.Play(isCrit ? SfxId.EnemyCrit : SfxId.EnemyHit);
 
         hitStunTimer = Mathf.Max(hitStunTimer, hitStunDuration);
         // 넉백은 무기/탄/폭발 방향과 상관없이 항상 플레이어에게서 멀어지는 쪽으로 밀린다 (플레이어를 못 찾으면 무기가 준 방향).
@@ -427,7 +438,9 @@ public class Enemy : MonoBehaviour
     }
 
     // 군집 넉백 감쇠: 이 반경 안에서 밀려나는 쪽에 있는 다른 몬스터 한 마리당 넉백이 이만큼 줄고, 최소 이 비율까지만 줄어든다.
-    public const float CrowdRadius = 0.7f;
+    // (2026-11-16: 예전엔 충돌 원과 겹치는지로 셌는데, 충돌 원을 그림 크기로 줄이면서 세는 범위가 확 줄어 "다 같이 밀려나는" 느낌이 됐다.
+    //  이제 실제 거리로 센다 - 1.0은 충돌 원을 줄이기 전의 실제 범위(0.7 + 옛 충돌 반지름 0.3~0.45)와 비슷하다.)
+    public const float CrowdRadius = 1.0f;
     public const float CrowdPerEnemy = 0.14f;
     public const float CrowdMinFactor = 0.15f;
 
@@ -438,7 +451,7 @@ public class Enemy : MonoBehaviour
         Vector2 dir = knockbackDirection.normalized;
         Vector2 pos = transform.position;
 
-        int count = Physics2D.OverlapCircle(pos, CrowdRadius, separationFilter, separationBuf);
+        int count = Physics2D.OverlapCircle(pos, CrowdRadius + 0.3f, separationFilter, separationBuf);
         int behind = 0;
         for (int i = 0; i < count; i++)
         {
@@ -448,6 +461,7 @@ public class Enemy : MonoBehaviour
             if (other == null || other == this || other.isDying) continue;
 
             Vector2 to = (Vector2)other.transform.position - pos;
+            if (to.sqrMagnitude > CrowdRadius * CrowdRadius) continue; // 충돌 원 크기가 아니라 실제 거리로 센다
             if (to.sqrMagnitude < 0.0001f || Vector2.Dot(to.normalized, dir) > 0.3f) behind++;
         }
         return Mathf.Clamp(1f - CrowdPerEnemy * behind, CrowdMinFactor, 1f);
@@ -514,6 +528,7 @@ public class Enemy : MonoBehaviour
     {
         if (isDying) return;
         isDying = true;
+        if (dropLoot) Sfx.Play(IsEliteOrBoss ? SfxId.EliteDie : SfxId.EnemyDie);
 
         if (dropLoot)
         {

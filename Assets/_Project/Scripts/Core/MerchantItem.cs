@@ -134,12 +134,12 @@ public class MerchantItem : MonoBehaviour
     {
         for (int i = 0; i < costTypes.Count; i++)
         {
-            if (ResourceBank.GetRunHeld(costTypes[i]) < costAmounts[i]) return; // 하나라도 부족하면 구매 취소
+            if (ResourceBank.GetRunHeld(costTypes[i]) < costAmounts[i]) { Sfx.Play(SfxId.Deny); return; } // 하나라도 부족하면 구매 취소
         }
 
         // 자원을 쓰기 전에 실제로 지급이 되는지 먼저 확인한다 (예: 무기 슬롯이 꽉 찬 경우).
         // 실패하면 자원도 안 쓰고 상품도 그대로 남겨서, 나중에 슬롯을 비우고 다시 살 수 있게 한다.
-        if (onPurchase == null || !onPurchase()) return;
+        if (onPurchase == null || !onPurchase()) { Sfx.Play(SfxId.Deny); return; }
 
         for (int i = 0; i < costTypes.Count; i++)
         {
@@ -147,6 +147,7 @@ public class MerchantItem : MonoBehaviour
         }
 
         purchased = true;
+        Sfx.Play(SfxId.MerchantBuy);
         if (priceBubbleRoot != null) priceBubbleRoot.SetActive(false);
         Destroy(gameObject);
     }

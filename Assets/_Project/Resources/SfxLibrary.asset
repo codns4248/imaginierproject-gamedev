@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b788190b5a8456ea8f38d5b46d64a85, type: 3}
+  m_Name: SfxLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::SfxLibrary
+  masterVolume: 0.8
+  entries:
+  - id: 0
+    clip: {fileID: 8300000, guid: 016619e4cfed48119bc47b98d08afa18, type: 3}
+    volume: 0.55
+    minInterval: 0.04
+  - id: 1
+    clip: {fileID: 8300000, guid: ab49e44f492b4918b17ae05661ee5859, type: 3}
+    volume: 0.5
+    minInterval: 0.04
+  - id: 2
+    clip: {fileID: 8300000, guid: 43a9a21d38644817bea2c47603a1328a, type: 3}
+    volume: 0.4
+    minInterval: 0.05
+  - id: 3
+    clip: {fileID: 8300000, guid: c3d4a7c16e834b09b76f49eaff471460, type: 3}
+    volume: 0.25
+    minInterval: 0.06
+  - id: 4
+    clip: {fileID: 8300000, guid: 5fc5fe564edc4d659027b49965c40046, type: 3}
+    volume: 0.4
+    minInterval: 0.06
+  - id: 5
+    clip: {fileID: 8300000, guid: d992ad4f3c3d43408cbe74b94c32f0b8, type: 3}
+    volume: 0.55
+    minInterval: 0.08
+  - id: 6
+    clip: {fileID: 8300000, guid: b59e72eba40548c28f6f7af18cfafa82, type: 3}
+    volume: 0.45
+    minInterval: 0.2
+  - id: 7
+    clip: {fileID: 8300000, guid: 93946ae9b50243738c0513463404011c, type: 3}
+    volume: 0.3
+    minInterval: 0.15
+  - id: 8
+    clip: {fileID: 8300000, guid: 4c95bc683efc4fbc975530460ee20318, type: 3}
+    volume: 0.35
+    minInterval: 0.15
+  - id: 9
+    clip: {fileID: 8300000, guid: 6ab8734f814b4ad29f27eac63201964e, type: 3}
+    volume: 0.7
+    minInterval: 0.1
+  - id: 10
+    clip: {fileID: 8300000, guid: c57664cd281247b0a8284586943507dc, type: 3}
+    volume: 0.25
+    minInterval: 0.05
+  - id: 11
+    clip: {fileID: 8300000, guid: f4a54e9c99c44fb49eff6b06b410cd57, type: 3}
+    volume: 0.3
+    minInterval: 0.06
+  - id: 12
+    clip: {fileID: 8300000, guid: 7ff265b1e6094c6f8a6943de1380cadb, type: 3}
+    volume: 0.3
+    minInterval: 0.05
+  - id: 13
+    clip: {fileID: 8300000, guid: 539c9c962d1f4d42a1a493316780d2c2, type: 3}
+    volume: 0.6
+    minInterval: 0.1
+  - id: 14
+    clip: {fileID: 8300000, guid: e5439ed638fa46d69061239f2459db13, type: 3}
+    volume: 0.6
+    minInterval: 0.1
+  - id: 15
+    clip: {fileID: 8300000, guid: e05aea6b51704cd2967ecaf706418519, type: 3}
+    volume: 0.6
+    minInterval: 0.5
+  - id: 16
+    clip: {fileID: 8300000, guid: 932449c94e274cfab8b88d155965ccc3, type: 3}
+    volume: 0.6
+    minInterval: 0.5
+  - id: 17
+    clip: {fileID: 8300000, guid: fa4268d391d84739b5a20a11503895a5, type: 3}
+    volume: 0.35
+    minInterval: 0.08
+  - id: 18
+    clip: {fileID: 8300000, guid: 77b0a196c8d2473f8797c19f5f21c787, type: 3}
+    volume: 0.35
+    minInterval: 0.15
+  - id: 19
+    clip: {fileID: 8300000, guid: 84a90fdc0b504e9481352a4560fae4fd, type: 3}
+    volume: 0.45
+    minInterval: 0.1
+  - id: 20
+    clip: {fileID: 8300000, guid: 41c7b37011e847239c95bed42f4f4789, type: 3}
+    volume: 0.25
+    minInterval: 0.08
+  - id: 21
+    clip: {fileID: 8300000, guid: 9c6b4af7d83345268438869b7476aa50, type: 3}
+    volume: 0.25
+    minInterval: 0.05
+  - id: 22
+    clip: {fileID: 8300000, guid: 667a305245b5421a884f40085b716434, type: 3}
+    volume: 0.5
+    minInterval: 0.1
+  - id: 23
+    clip: {fileID: 8300000, guid: fff73d946dcd4a4d910e6b04bdfe7d31, type: 3}
+    volume: 0.2
+    minInterval: 0.03
+  - id: 24
+    clip: {fileID: 8300000, guid: 506c67a5666c43dba399fbdb05adfda6, type: 3}
+    volume: 0.55
+    minInterval: 0.3
+  - id: 25
+    clip: {fileID: 8300000, guid: 0a7bda7ba01240d79a9fdd474b72a5a8, type: 3}
+    volume: 0.45
+    minInterval: 0.1
+  - id: 26
+    clip: {fileID: 8300000, guid: 0347c915167447a4803ff25ce99b0853, type: 3}
+    volume: 0.5
+    minInterval: 0.2
+  - id: 27
+    clip: {fileID: 8300000, guid: 551e021edef74d91a6eb0660d36250b5, type: 3}
+    volume: 0.5
+    minInterval: 0.1
+  - id: 28
+    clip: {fileID: 8300000, guid: 42e2f4fa74ba40038cfd4e52c9dca3ed, type: 3}
+    volume: 0.5
+    minInterval: 0.08
+  - id: 29
+    clip: {fileID: 8300000, guid: 06ea289e1b4f4456bc4578d46a87fd04, type: 3}
+    volume: 0.6
+    minInterval: 0.5
+  - id: 30
+    clip: {fileID: 8300000, guid: 6ea27d95b5f442b4af5d2f1053ec5b47, type: 3}
+    volume: 0.5
+    minInterval: 0.3
+  - id: 31
+    clip: {fileID: 8300000, guid: 831cdcafc5fa40fd96aa8b7132bda7d4, type: 3}
+    volume: 0.45
+    minInterval: 0.5
+  - id: 32
+    clip: {fileID: 8300000, guid: 10159a6bc54542d4bbd7a303af6b21ac, type: 3}
+    volume: 0.55
+    minInterval: 0.5
+  - id: 33
+    clip: {fileID: 8300000, guid: 096cec6cb91b48428b1b95d118c5e5ae, type: 3}
+    volume: 0.4
+    minInterval: 0.15
+  - id: 34
+    clip: {fileID: 8300000, guid: 651d9f6d31174017bf2103d6f4a061ae, type: 3}
+    volume: 0.35
+    minInterval: 0.04
+  - id: 35
+    clip: {fileID: 8300000, guid: 06d50dcbbade4037bebd1c6ed3016b68, type: 3}
+    volume: 0.35
+    minInterval: 0.1
+  - id: 36
+    clip: {fileID: 8300000, guid: 6a9e25ea24324a87b39454f4c9c8ea45, type: 3}
+    volume: 0.12
+    minInterval: 0
+  - id: 37
+    clip: {fileID: 8300000, guid: 2f3a799e4edd43f7a69346b5c837b6de, type: 3}
+    volume: 0.12
+    minInterval: 0
+  - id: 38
+    clip: {fileID: 8300000, guid: b259dc2120ca43049c21a4ec5774cd5b, type: 3}
+    volume: 0.45
+    minInterval: 0.1
+  - id: 39
+    clip: {fileID: 8300000, guid: e16741641cf54509a14550f423835510, type: 3}
+    volume: 0.5
+    minInterval: 0.08
+  - id: 40
+    clip: {fileID: 8300000, guid: af3bdb4961574267871ac8e5909ae194, type: 3}
+    volume: 0.5
+    minInterval: 0.3
+  - id: 41
+    clip: {fileID: 8300000, guid: 34b445df4ebe456d8daea942ceaa6ade, type: 3}
+    volume: 0.6
+    minInterval: 0.2
+  - id: 42
+    clip: {fileID: 8300000, guid: a571d1abde04431793600e3f09fda733, type: 3}
+    volume: 0.4
+    minInterval: 0.2
+  - id: 43
+    clip: {fileID: 8300000, guid: f8858db71a8d415f80392efe9614c1fb, type: 3}
+    volume: 0.55
+    minInterval: 0.2
+  - id: 44
+    clip: {fileID: 8300000, guid: 71a0d35ac54d47658ee5f49669123ad5, type: 3}
+    volume: 0.4
+    minInterval: 0.2
+  - id: 45
+    clip: {fileID: 8300000, guid: 9bf9a2e838e441cca5eed2bd0abcd658, type: 3}
+    volume: 0.4
+    minInterval: 0.15
+  - id: 46
+    clip: {fileID: 8300000, guid: 5e244705eebc4874971a8a043915d10c, type: 3}
+    volume: 0.4
+    minInterval: 0.1
+  - id: 47
+    clip: {fileID: 8300000, guid: 0b46fbc9fac046f98a3750ee798150e8, type: 3}
+    volume: 0.35
+    minInterval: 1

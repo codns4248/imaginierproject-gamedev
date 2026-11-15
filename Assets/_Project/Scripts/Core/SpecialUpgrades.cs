@@ -113,6 +113,7 @@ public static class SpecialUpgrades
         if (!ResourceBank.TrySpendStash(ResourceType.Rare, NextCost(type))) return false;
 
         levels[(int)type]++;
+        Sfx.Play(SfxId.EnhanceSuccess);
         Save();
         OnChanged?.Invoke();
         return true;

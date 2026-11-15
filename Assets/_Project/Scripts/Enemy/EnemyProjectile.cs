@@ -26,6 +26,7 @@ public class EnemyProjectile : MonoBehaviour
 
     void Start()
     {
+        Sfx.Play(SfxId.EnemyShot);
         mainCamera = Camera.main;
     }
 

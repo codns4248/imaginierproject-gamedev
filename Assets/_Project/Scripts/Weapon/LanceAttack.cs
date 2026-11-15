@@ -348,6 +348,7 @@ public class LanceAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
 
     private void StartThrust(Vector2 dir)
     {
+        Sfx.Play(SfxId.LanceThrust);
         attackCooldown = attackInterval;
 
         weaponAim.externalControl = true; // 찌르는 동안은 WeaponAim의 자동 궤도 추적을 잠깐 끈다

@@ -121,6 +121,7 @@ public class ChargeEnemyAI : MonoBehaviour
         enemy.externalMovementControl = true;
         enemy.SetExternalOutline(true, windupOutlineColor);
         ResetAnim();
+        Sfx.Play(SfxId.ChargeWindup); // 돌진 직전 콧김
     }
 
     // 대기가 끝나는 "이 순간"의 플레이어 위치 방향으로, 감지범위의 chargeDistanceMultiplier배만큼
@@ -128,6 +129,7 @@ public class ChargeEnemyAI : MonoBehaviour
     private void StartCharge()
     {
         state = State.Charging;
+        Sfx.Play(SfxId.ChargeDash); // 돌진 출발
         Vector2 dir = (Vector2)(player.position - transform.position);
         chargeDirection = dir.sqrMagnitude > 0.0001f ? dir.normalized : Vector2.right;
         chargeRemainingDistance = detectRadius * chargeDistanceMultiplier;

@@ -39,6 +39,7 @@ public class GrenadeBurn : MonoBehaviour
     // 폭발에 직접 맞았을 때: 1중첩 추가 + 지속시간 갱신. canSpread면 이 불은 옆 적에게 옮겨 붙을 수 있다.
     public static void Ignite(Enemy enemy, float damagePerStackPerSecond, float duration, int maxStacks, bool canSpread, float spreadRadius)
     {
+        Sfx.Play(SfxId.BurnIgnite);
         if (enemy == null || enemy.IsDying) return;
 
         GrenadeBurn burn = GetOrCreate(enemy);

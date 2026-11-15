@@ -81,6 +81,7 @@ public class SpecialUpgradeUI : MonoBehaviour
 
     private void Show()
     {
+        Sfx.Play(SfxId.UiOpen);
         EnsureEventSystem();
         root.SetActive(true);
         Refresh();

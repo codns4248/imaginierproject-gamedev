@@ -86,6 +86,7 @@ public class RetreatManager : MonoBehaviour
         if (!StageManager.IsInStage || EnemyManager.PlayerDead) { Close(); return; }
         if (!ResourceBank.TrySpendRunResource(ResourceType.Rare, EscapeCost)) { Close(); ShowWarning(); return; }
         Close();
+        Sfx.Play(SfxId.Escape);
 
         // 탈출: 파밍 자원은 stash로 확정하되(탈출 포탈과 동일), 이번 런의 무기(강화 + 필드/상인에서
         // 얻은 여분 무기)는 사망/추출과 같은 규칙으로 전부 초기화한다.
@@ -107,6 +108,7 @@ public class RetreatManager : MonoBehaviour
     // "자원이 부족합니다": 플레이어 머리 위에서 살짝 떠오르며 사라진다.
     private void ShowWarning()
     {
+        Sfx.Play(SfxId.Deny);
         warningTimer = WarningDuration;
         warningText.gameObject.SetActive(true);
         UpdateWarning();

@@ -42,6 +42,7 @@ public class SweepAttackAI : MonoBehaviour
             enemy.externalMovementControl = false;
             enemy.SetExternalOutline(false, windupOutlineColor);
             PixelFx.Play("shock_ring", transform.position, sweepRadius * 2f * 1.16f); // 휘두르는 충격파 (피해 판정은 장판이 한다)
+            Sfx.Play(SfxId.SweepImpact);
             cooldownTimer = cooldown;
             return;
         }
@@ -53,6 +54,7 @@ public class SweepAttackAI : MonoBehaviour
         windupTimer = windupTime;
         enemy.externalMovementControl = true; // 휘두르는 동안 제자리
         enemy.SetExternalOutline(true, windupOutlineColor);
+        Sfx.Play(SfxId.SweepWindup); // 힘을 모으는 소리 (windupTime 동안)
 
         GameObject go = new GameObject("TentacleSweep");
         go.transform.position = transform.position;

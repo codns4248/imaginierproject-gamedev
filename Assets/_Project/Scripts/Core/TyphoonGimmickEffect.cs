@@ -82,7 +82,8 @@ public class TyphoonGimmickEffect : MonoBehaviour
         if (type != GimmickType.Typhoon) return;
         windParticles.gameObject.SetActive(true);
         windParticles.Play();
-        if (windSound != null) { audioSource.clip = windSound; audioSource.Play(); }
+        if (windSound == null) windSound = Sfx.GetClip(SfxId.WindLoop); // 바람 소리: 아주 작게 은은하게 반복 (SfxLibrary 볼륨 0.12)
+        if (windSound != null) { audioSource.clip = windSound; audioSource.volume = Sfx.GetVolume(SfxId.WindLoop); audioSource.Play(); }
     }
 
     private void HandleEnd(GimmickType type)

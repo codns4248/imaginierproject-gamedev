@@ -107,6 +107,7 @@ public class AmbushCasterAI : MonoBehaviour
         idlePosition = transform.position; // Dive로 이동하기 전 원래 자리를 기억해둔다 (Emerge 복귀용)
         diveElapsed = 0f;
         ResetAnim();
+        Sfx.Play(SfxId.BurrowDive); // 땅속으로 파고드는 소리
     }
 
     // Dive 모션이 재생되는 동안 스프라이트가 보고 있는 방향으로 diveMoveDistance만큼 서서히 이동한다.
@@ -138,6 +139,7 @@ public class AmbushCasterAI : MonoBehaviour
         GameObject zoneGO = new GameObject("PlayerAoeZone");
         zoneGO.transform.position = player.position;
         PlayerAoeZone zone = zoneGO.AddComponent<PlayerAoeZone>();
+        zone.detonateSound = SfxId.GroundErupt; // 장판 자리에서 땅이 터져 오르는 소리
         zone.Init(aoeDamage, aoeWarningDuration, aoeRadius);
     }
 
@@ -147,6 +149,7 @@ public class AmbushCasterAI : MonoBehaviour
         transform.position = idlePosition; // Dive 중 이동했던 거리를 되돌려서, 항상 처음 대기하던 자리에서 나타난다
         spriteRenderer.enabled = true;
         ResetAnim();
+        Sfx.Play(SfxId.BurrowDive, 0.7f); // 땅 위로 다시 나오는 소리 (파고드는 소리보다 작게)
     }
 
     private void StartIdle()

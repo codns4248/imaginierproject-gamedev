@@ -39,6 +39,7 @@ public class PoisonCloud : MonoBehaviour
     public static void Spawn(Vector2 position, float radius, float damagePerSecond, float duration,
         bool spawnsOnDeath, float deathCloudRadiusScale = 0f, float deathCloudDuration = 0f)
     {
+        Sfx.Play(SfxId.PoisonCloud);
         if (active.Count >= MaxClouds || radius <= 0f || duration <= 0f) return;
 
         GameObject go = new GameObject("PoisonCloud");

@@ -153,6 +153,7 @@ public class WeaponSwitcher : MonoBehaviour
 
         GameObject weaponGO = Instantiate(prefab, transform);
         weaponSlots[emptyIndex] = weaponGO;
+        Sfx.Play(SfxId.WeaponPickup);
 
         // Instantiate 중에 Awake가 이미 0레벨 기준으로 한 번 돌았으므로, 가져온 레벨을 넣고 스탯을 다시 계산한다.
         if (enhanceLevels != null)

@@ -11,6 +11,9 @@ public class PlayerAoeZone : MonoBehaviour
     [Tooltip("터지는 순간 재생할 이펙트 id (PixelFxLibrary). 비우면 이펙트 없이 판정만 한다")]
     public string detonateFxId;
 
+    // 터지는 순간 재생할 효과음 (만든 쪽이 정한다: 보행전차 포탄, 외계뱀 땅 폭발 등). 비우면 소리 없음.
+    [System.NonSerialized] public SfxId? detonateSound;
+
     private float timer;
 
     void Awake()
@@ -42,6 +45,7 @@ public class PlayerAoeZone : MonoBehaviour
     private void Detonate()
     {
         if (!string.IsNullOrEmpty(detonateFxId)) PixelFx.Play(detonateFxId, transform.position, radius * 2f * 1.08f);
+        if (detonateSound.HasValue) Sfx.Play(detonateSound.Value);
 
         GameObject player = GameObject.Find("Player");
         if (player != null && Vector2.Distance(player.transform.position, transform.position) <= radius)

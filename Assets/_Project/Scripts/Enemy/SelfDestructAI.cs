@@ -40,6 +40,7 @@ public class SelfDestructAI : MonoBehaviour
             if (Vector2.Distance(transform.position, player.position) > triggerRange) return;
             fusing = true;
             fuseTimer = fuseTime;
+            Sfx.Play(SfxId.DroneBeep);
             enemy.externalMovementControl = true; // 제자리에 멈춘다
         }
 
@@ -53,6 +54,7 @@ public class SelfDestructAI : MonoBehaviour
     private void Explode()
     {
         Vector2 pos = transform.position;
+        Sfx.Play(SfxId.GrenadeExplode); // 자폭 폭발음 (수류탄 폭발과 같은 소리)
         if (PixelFx.Play("explosion", pos, blastRadius * 2f * 1.08f) == null)
             CircleFlash.Spawn(pos, blastRadius, new Color(1f, 0.5f, 0.2f, 0.8f), 0.25f, GetComponent<SpriteRenderer>());
 

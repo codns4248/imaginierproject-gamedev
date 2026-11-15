@@ -293,6 +293,7 @@ public class GrenadeAttack : MonoBehaviour, IEnhanceableWeapon
     // arcHeight > 0이면 포물선으로 통통 튀어 날아간다 (바운스/연쇄폭발). 원본 투척은 0.
     private void LaunchShot(Vector2 from, Vector2 to, GrenadeShot shot, float speed, float arcHeight = 0f)
     {
+        Sfx.Play(SfxId.GrenadeThrow);
         if (grenadeProjectilePrefab == null) return;
 
         GameObject projGO = Instantiate(grenadeProjectilePrefab, from, Quaternion.identity);
@@ -341,6 +342,7 @@ public class GrenadeAttack : MonoBehaviour, IEnhanceableWeapon
     // 불덩이(그림 가로의 약 82%, 대폭발은 약 63%)가 폭발 반경에 맞게 그린다. 그림이 없으면 예전 폭발 그림으로 대신한다.
     private static void PlayExplosionFx(Vector2 position, float radius, int copperTier, int oilTier, int chemTier)
     {
+        Sfx.Play(SfxId.GrenadeExplode);
         bool gravity = copperTier > 0, burn = oilTier > 0, poison = chemTier > 0;
         int active = (gravity ? 1 : 0) + (burn ? 1 : 0) + (poison ? 1 : 0);
 

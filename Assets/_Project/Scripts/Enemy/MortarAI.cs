@@ -132,6 +132,7 @@ public class MortarAI : MonoBehaviour
 
     private void FireShells()
     {
+        Sfx.Play(SfxId.MortarFire);
         Vector2 offset = new Vector2(spriteRenderer.flipX ? -muzzleOffset.x : muzzleOffset.x, muzzleOffset.y);
         PixelFx.Play("hit_spark", (Vector2)transform.position + offset, 0.45f, new Color(1f, 0.85f, 0.5f));
 
@@ -142,6 +143,7 @@ public class MortarAI : MonoBehaviour
             go.transform.position = at;
             PlayerAoeZone zone = go.AddComponent<PlayerAoeZone>();
             zone.detonateFxId = "explosion";
+            zone.detonateSound = SfxId.AoeBlast; // 포탄이 떨어져 터지는 소리
             zone.Init(damage, warningDuration + i * shellDelay, shellRadius);
         }
     }

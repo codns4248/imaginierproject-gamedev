@@ -135,6 +135,7 @@ public class BeeSwarmSpawner : MonoBehaviour
 
     private void SpawnWave(Vector2 corner)
     {
+        Sfx.Play(SfxId.BeeSwarm); // 벌떼가 몰려오는 소리
         Vector2 playerPos = player.position;
 
         for (int i = 0; i < swarmSize; i++)

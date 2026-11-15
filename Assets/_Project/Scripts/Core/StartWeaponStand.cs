@@ -124,5 +124,6 @@ public class StartWeaponStand : MonoBehaviour
         if (!SpecialUpgrades.StartWeaponUnlocked) return;
 
         SpecialUpgrades.SetStartWeapon(type); // OnChanged -> WeaponSwitcher가 0번 슬롯을 바꾸고, 거치대들이 다시 그려진다
+        Sfx.Play(SfxId.WeaponPickup);
     }
 }

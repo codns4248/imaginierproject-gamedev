@@ -112,6 +112,7 @@ public class ResourcePickup : MonoBehaviour
     private void Collect()
     {
         ResourceBank.AddRunResource(resourceType, amount);
+        Sfx.Play(resourceType == ResourceType.Rare ? SfxId.PickupRare : SfxId.PickupResource);
         Destroy(gameObject);
     }
 

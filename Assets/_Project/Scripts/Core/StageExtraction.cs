@@ -106,6 +106,7 @@ public class StageExtraction : MonoBehaviour
 
     void HandleStageClear()
     {
+        Sfx.Play(SfxId.StageClear);
         // 스테이지를 클리어해서 포탈이 뜨는 순간부터는 전투 구간이 아니므로 진행 중이던 기믹을 멈춘다.
         StageGimmickManager.ClearGimmick();
         SpawnExitPortals();
@@ -181,6 +182,7 @@ public class StageExtraction : MonoBehaviour
             if (i == mysterySlot)
             {
                 CreatePortal(group.transform, new Vector2(x, y), PickMysteryTheme(), MysteryPortalColor, mystery: true);
+                Sfx.Play(SfxId.PortalMystery);
                 continue;
             }
 

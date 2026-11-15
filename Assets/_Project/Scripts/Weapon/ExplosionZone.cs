@@ -68,6 +68,7 @@ public class ExplosionZone : MonoBehaviour
 
     private void CreatePullRing()
     {
+        Sfx.Play(SfxId.GravityHum);
         GameObject go = new GameObject("PullRing");
         go.transform.SetParent(transform, false);
         var ringSr = go.AddComponent<SpriteRenderer>();

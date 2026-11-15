@@ -254,6 +254,7 @@ public class PistolAttack : MonoBehaviour, IEnhanceableWeapon
     // Pistol 위치에서 주어진 방향으로 투사체를 하나 생성해서 날려보낸다.
     private void Fire(Vector2 direction)
     {
+        Sfx.Play(SfxId.PistolShot);
         FireShot(direction);
     }
 

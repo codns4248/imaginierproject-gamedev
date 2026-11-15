@@ -17,6 +17,7 @@ Assets/
     char/          AI로 만든 플레이어, 적 스프라이트 시트 (char_*)
     fx/            이펙트, 투사체 (fx_*)
     icon/          카드, 스탯, 상태이상 아이콘 (icon_*)
+    sfx/           효과음 (sfx_*, 재생할 소리는 Resources/SfxLibrary에 연결)
   TextMesh Pro/  ...   패키지/SDK (건드리지 않음)
 ```
 
@@ -64,6 +65,7 @@ Assets/
 | `char_` | 플레이어, 적 | `char_bee_fly_00` |
 | `fx_` | 이펙트, 투사체 | `fx_common_hit_spark`, `fx_common_bullet` |
 | `bg_` | 배경 | `bg_nasa_01` |
+| `sfx_` | 효과음 | `sfx_weapon_sword_swing` |
 
 - 두 개 이상의 맵에서 쓰면 맵 이름 자리에 `common`을 쓴다 (`prop_common_bottles`).
 - 애니메이션 프레임은 끝에 번호를 붙인다 (`char_bee_fly_00`, `_01`).

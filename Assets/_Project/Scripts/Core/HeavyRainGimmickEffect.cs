@@ -92,7 +92,8 @@ public class HeavyRainGimmickEffect : MonoBehaviour
         if (type != GimmickType.HeavyRain) return;
         rainParticles.gameObject.SetActive(true);
         rainParticles.Play();
-        if (rainSound != null) { audioSource.clip = rainSound; audioSource.Play(); }
+        if (rainSound == null) rainSound = Sfx.GetClip(SfxId.RainLoop); // 빗소리: 아주 작게 은은하게 반복 (SfxLibrary 볼륨 0.12)
+        if (rainSound != null) { audioSource.clip = rainSound; audioSource.volume = Sfx.GetVolume(SfxId.RainLoop); audioSource.Play(); }
     }
 
     private void HandleEnd(GimmickType type)

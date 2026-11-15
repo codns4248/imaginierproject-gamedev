@@ -27,6 +27,7 @@ public class StageExitPortal : MonoBehaviour
 
     private void Activate()
     {
+        Sfx.Play(SfxId.PortalEnter);
         if (string.IsNullOrEmpty(targetTheme))
         {
             // 추출 성공: 파밍 자원은 stash로 확정하되, 이번 런의 무기(강화 + 필드/상인에서 얻은

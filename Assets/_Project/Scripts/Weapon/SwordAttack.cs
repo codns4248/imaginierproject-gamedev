@@ -368,6 +368,8 @@ public class SwordAttack : MonoBehaviour, IAutoMeleeWeapon, IEnhanceableWeapon
 
     private void StartSwing(Vector2 dir)
     {
+        Sfx.Play(SfxId.SwordSwing); // 휘두르는 소리 (부채꼴 베기/회전 베기 공통)
+
         isSwinging = true;
         swingElapsed = 0f;
         lastSwingT = 0f;

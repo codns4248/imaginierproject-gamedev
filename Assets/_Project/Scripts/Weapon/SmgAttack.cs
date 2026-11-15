@@ -358,6 +358,7 @@ public class SmgAttack : MonoBehaviour, IEnhanceableWeapon
     // 탄 하나를 만들어 날린다. baseDamage에서 치명타를 따로 굴린다 (탄마다 독립).
     private Projectile SpawnBullet(Vector2 position, Vector2 dir, float baseDamage, ProjectileModifiers mods)
     {
+        Sfx.Play(SfxId.SmgShot);
         float finalDamage = CriticalHit.Roll(baseDamage, critChance, critMultiplier, out bool isCrit);
 
         GameObject projGO = Instantiate(projectilePrefab, position, Quaternion.identity);

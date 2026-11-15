@@ -177,6 +177,7 @@ public class LevelUpUI : MonoBehaviour
 
     private void Open()
     {
+        Sfx.Play(SfxId.LevelUp);
         isOpen = true;
         choosing = false;
         EnsureEventSystem();
@@ -249,6 +250,7 @@ public class LevelUpUI : MonoBehaviour
         yield return new WaitForSecondsRealtime(0.22f);
 
         LevelUpCardPool.Apply(currentCards[index]);
+        Sfx.Play(SfxId.CardSelect);
         PixelFxUtil.PlayOnPlayer("glow_sparkle", 1.1f, new Color(1f, 0.95f, 0.55f)); // 선택이 끝나 게임이 재개되는 순간 플레이어에게 반짝임
         LevelUpSystem.ConsumePending();
         choosing = false;

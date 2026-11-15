@@ -31,6 +31,7 @@ public class SplitOnDeath : MonoBehaviour
     private void HandleDied(Enemy died)
     {
         if (died != enemy || childPrefab == null) return;
+        Sfx.Play(SfxId.SplitBurst); // 갈라지는 소리
 
         float startAngle = Random.value * 360f;
         for (int i = 0; i < childCount; i++)

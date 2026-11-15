@@ -74,6 +74,7 @@ public class BackpackUI : MonoBehaviour
 
     private void Show()
     {
+        Sfx.Play(SfxId.UiOpen);
         EnsureEventSystem();
         Backpack.FitToStash();
         root.SetActive(true);
