@@ -85,7 +85,7 @@ public static class Backpack
             parts.Add($"{ResourceNames.Korean(type)} {take}");
         }
         if (parts.Count > 0)
-            ScreenToast.Show($"배낭에 담은 자원을 들고 출발합니다\n{string.Join("   ", parts)}", new Color(0.75f, 0.95f, 0.75f));
+            ScreenToast.Show($"창고에 담은 자원을 들고 출발합니다\n{string.Join("   ", parts)}", new Color(0.75f, 0.95f, 0.75f));
     }
 
     // ===================== 저장 =====================

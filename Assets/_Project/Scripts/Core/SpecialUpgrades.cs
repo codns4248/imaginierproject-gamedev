@@ -39,7 +39,7 @@ public static class SpecialUpgrades
     public static readonly Def[] All =
     {
         // 설명은 창의 한 줄(약 250px, 14px 글꼴 기준 한글 15자 안팎)에 들어가게 짧게 쓴다 - 길면 SpecialUpgradeUI가 글자를 줄인다.
-        new Def { type = SpecialUpgradeType.Backpack, title = "배낭", costs = new[] { 1, 2, 3, 4 },
+        new Def { type = SpecialUpgradeType.Backpack, title = "창고", costs = new[] { 1, 2, 3, 4 },
             describe = l => l == 0 ? "들고 나갈 수 없음" : $"자원 {BackpackCapacityByLevel[l]}개 들고 출발" },
         new Def { type = SpecialUpgradeType.Storage, title = "창고 크기", costs = new[] { 1, 1, 2, 2, 3 },
             describe = l => $"자원별 최대 {StorageCapByLevel[l]}개 보관" },

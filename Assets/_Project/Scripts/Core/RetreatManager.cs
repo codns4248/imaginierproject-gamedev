@@ -12,10 +12,10 @@ using UnityEngine.UI;
 //  - 확인창은 게임을 멈추지 않는다: 창을 띄운 채 [예]를 누르기 전에 죽으면 창은 사라지고 그대로 게임 오버.
 //  - 희귀자원이 없으면 플레이어 머리 위에 "자원이 부족합니다"가 잠깐 떴다가 사라진다.
 //  - 거점에서는 동작하지 않고, ESC/강화창/레벨업 카드처럼 게임을 멈추는 창이 떠 있을 때도 H를 받지 않는다.
-// 창은 V 강화 창과 같은 PixelArtGUI 모양(PixelUi)으로, 씬을 건드리지 않도록 코드로 만든다.
+// 창은 공용 확인창 프리팹(UI_ConfirmDialog, Resources/UiPrefabs.asset)을 쓰고 글자/버튼 동작만 채운다. 씬은 건드리지 않는다.
 public class RetreatManager : MonoBehaviour
 {
-    [Tooltip("확인창 문구 폰트. 비우면 레벨업 UI와 같은 폰트(LevelUpConfig.font), 그것도 없으면 내장 폰트.")]
+    [Tooltip("\"자원이 부족합니다\" 경고 문구 폰트 (확인창 글꼴은 프리팹에서 정함). 비우면 레벨업 UI와 같은 폰트(LevelUpConfig.font), 그것도 없으면 내장 폰트.")]
     public Font promptFont;
 
     private const int EscapeCost = 1;
@@ -28,8 +28,8 @@ public class RetreatManager : MonoBehaviour
     private Font font;
     private GameObject canvasGO;
     private RectTransform canvasRect;
-    private RectTransform popup;
-    private Text costText;
+    private ConfirmDialogView dialog;
+    private RectTransform popup; // dialog의 창 영역 (마우스가 창 위에 있는지 판정)
     private Text warningText;
     private float warningTimer;
     private Transform player;
@@ -53,7 +53,7 @@ public class RetreatManager : MonoBehaviour
         // 탐험이 끝났거나(클리어 후 이동/사망/추출) 죽었으면 떠 있던 창을 닫는다.
         if (isOpen && (!StageManager.IsInStage || EnemyManager.PlayerDead)) Close();
 
-        UiPointerBlock.Active = isOpen && !PauseManager.IsPaused && Mouse.current != null
+        UiPointerBlock.Active = isOpen && popup != null && !PauseManager.IsPaused && Mouse.current != null
             && RectTransformUtility.RectangleContainsScreenPoint(popup, Mouse.current.position.ReadValue(), null);
         UpdateWarning();
 
@@ -67,8 +67,9 @@ public class RetreatManager : MonoBehaviour
 
     private void Open()
     {
+        if (dialog == null) return;
         EnsureEventSystem();
-        costText.text = $"희귀 자원 {EscapeCost}개 소모  (보유 {ResourceBank.GetRunHeld(ResourceType.Rare)}개)";
+        dialog.detail.text = $"희귀 자원 {EscapeCost}개 소모  (보유 {ResourceBank.GetRunHeld(ResourceType.Rare)}개)";
         popup.gameObject.SetActive(true);
         isOpen = true;
         EscClose.Push(this, () => isOpen, Close);
@@ -77,7 +78,7 @@ public class RetreatManager : MonoBehaviour
     private void Close()
     {
         isOpen = false;
-        popup.gameObject.SetActive(false);
+        if (popup != null) popup.gameObject.SetActive(false);
         UiPointerBlock.Active = false;
     }
 
@@ -166,27 +167,20 @@ public class RetreatManager : MonoBehaviour
         warningText.gameObject.SetActive(false);
     }
 
-    // V 강화 창과 같은 모양의 창(바탕 + 테두리 + 금색 모서리) 안에 질문, 비용, [예]/[아니오].
-    // 게임이 계속 돌아가므로 화면 한가운데(플레이어 자리)를 가리지 않게 플레이어 발밑보다 조금 아래쪽에 띄운다.
+    // 공용 확인창 프리팹: 질문, 비용, [예]/[아니오]. 게임이 계속 돌아가므로 프리팹에서 화면 아래쪽에 뜨게 놓여 있다.
     private void BuildPopup()
     {
-        popup = PixelUi.NewRect("EscapePopup", canvasRect);
-        popup.anchorMin = popup.anchorMax = new Vector2(0.5f, 0f);
-        popup.pivot = new Vector2(0.5f, 0f);
-        popup.anchoredPosition = new Vector2(0f, 110f);
-        popup.sizeDelta = new Vector2(480f, 184f);
-        PixelUi.Window(popup);
+        UiPrefabs prefabs = UiPrefabs.Instance;
+        if (prefabs == null || prefabs.confirmDialog == null) return;
 
-        Text question = PixelUi.NewText("Question", popup, font, 22, PixelUi.Gold, TextAnchor.MiddleCenter);
-        PixelUi.PlaceTop(question.rectTransform, new Vector2(0f, -46f), new Vector2(420f, 30f));
-        question.text = "희귀 자원을 사용하여 탈출하시겠습니까?";
-
-        costText = PixelUi.NewText("Cost", popup, font, 16, new Color(0.78f, 0.86f, 0.95f), TextAnchor.MiddleCenter);
-        PixelUi.PlaceTop(costText.rectTransform, new Vector2(0f, -76f), new Vector2(420f, 22f));
-
-        PixelUi.Button(popup, "Yes", "예", true, font, new Vector2(-88f, 48f), new Vector2(140f, 46f), OnYes);
-        PixelUi.Button(popup, "No", "아니오", false, font, new Vector2(88f, 48f), new Vector2(140f, 46f), OnNo);
-
+        dialog = Instantiate(prefabs.confirmDialog, canvasRect, false);
+        dialog.name = "EscapePopup";
+        popup = dialog.Rect;
+        dialog.question.text = "희귀 자원을 사용하여 탈출하시겠습니까?";
+        dialog.yes.label.text = "예";
+        dialog.no.label.text = "아니오";
+        dialog.yes.onClick = OnYes;
+        dialog.no.onClick = OnNo;
         popup.gameObject.SetActive(false);
     }
 }

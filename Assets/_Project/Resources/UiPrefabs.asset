@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d619b1a8e6ff496baad738d7b1df32fe, type: 3}
+  m_Name: UiPrefabs
+  m_EditorClassIdentifier: Assembly-CSharp::UiPrefabs
+  popupWindow: {fileID: 4342535731950722040, guid: 9637a5fb8c50041c2a98bfe383523d8f, type: 3}
+  upgradeRow: {fileID: 1396047592125244316, guid: 0f05851378a5a412595e20cbcb540191, type: 3}
+  upgradeRowCompact: {fileID: 8631104476338475845, guid: 390699d4eb0bf449dbd42479ab048a12, type: 3}
+  backpackRow: {fileID: 6007253611978315887, guid: 94087d8c2847c484cbda37c37c8064b4, type: 3}
+  confirmDialog: {fileID: 5118882513727750845, guid: ffba916a01ad34639aec338383dc7bff, type: 3}
+  weaponEnhancePanel: {fileID: 1543587682144110740, guid: 07f5249ec80624dc4a20a2e792842ca2, type: 3}
+  buttonGreen: {fileID: 3628335595079211778, guid: 46b7a9d1f7d984a1894d247a8ab606c2, type: 3}
+  buttonGold: {fileID: 4660276053381727869, guid: 66a0f0961cd62449e96a094f86ebdf16, type: 3}
