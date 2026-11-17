@@ -367,7 +367,8 @@ public class StageExtraction : MonoBehaviour
         textRt.offsetMin = new Vector2(10f, 6f);
         textRt.offsetMax = new Vector2(-10f, -6f);
         Text text = textGO.GetComponent<Text>();
-        text.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+        LevelUpConfig cfg = LevelUpConfig.Instance;
+        text.font = cfg != null && cfg.font != null ? cfg.font : Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
         text.fontSize = 22;
         text.alignment = TextAnchor.MiddleCenter;
         text.color = Color.white;
