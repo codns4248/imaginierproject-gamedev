@@ -72,6 +72,20 @@ public class DeathResultUI : MonoBehaviour
     private int capturedDepth = 1;
     private string capturedLocation = "";
 
+    // 자원: 죽은 순간(StageExtraction이 DiscardRun으로 보험분만 남기기 전)의 이번 탐험 자원, 거점 창고 수, 사망 보험 비율을 붙잡아 두고,
+    // 결과 화면에서 ResourceMergeView로 결산한다: 보험이 못 지킨 몫은 먼저 잃은 수로 -> 지킨 몫은 창고 수로 -> 창고 최대치를 넘는 만큼은 다시 잃은 수로.
+    private const int ResourceTypeCount = 6;
+    static readonly Color RunColor  = new Color(0.878f, 0.722f, 0.376f, 1f); // #e0b860 +탐험 자원 수
+    static readonly Color LostColor = new Color(0.847f, 0.439f, 0.373f, 1f); // #d8705f -잃은 수
+    private readonly int[] capturedHeld = new int[ResourceTypeCount];
+    private readonly int[] capturedStash = new int[ResourceTypeCount];
+    private float capturedKeepRatio;
+    private readonly int[] lostFirst = new int[ResourceTypeCount];  // 사망 보험이 지키지 못한 몫
+    private readonly int[] toStash = new int[ResourceTypeCount];    // 보험으로 지켜서 창고에 들어간 몫
+    private readonly int[] lostAfter = new int[ResourceTypeCount];  // 지켰지만 창고가 가득 차서 잃은 몫
+    private ResourceMergeView merge;
+    private int mergeSkipFrame = -1;
+
     void Awake()
     {
         // Start()가 아니라 Awake()에서 구독한다. 같은 OnDied를 구독하는 StageExtraction은 Start()에서
@@ -92,7 +106,28 @@ public class DeathResultUI : MonoBehaviour
     {
         capturedDepth = Mathf.Max(1, StageProgress.CurrentStageNo);
         capturedLocation = ResolveLocation();
+        for (int i = 0; i < ResourceTypeCount; i++)
+        {
+            capturedHeld[i] = ResourceBank.GetRunHeld((ResourceType)i);
+            capturedStash[i] = ResourceBank.GetStash((ResourceType)i);
+        }
+        capturedKeepRatio = Mathf.Clamp01(SpecialUpgrades.DeathKeepRatio);
         StartCoroutine(ShowAfterDeathAnim());
+    }
+
+    // 결과 화면을 띄우는 시점엔 DiscardRun이 끝나 있다: 보험 몫(ResourceBank.DiscardRun과 같은 내림 계산) 중
+    // 창고가 실제로 늘어난 만큼이 지킨 몫, 그 나머지는 창고가 가득 차서 잃은 몫.
+    private void ResolveResources()
+    {
+        for (int i = 0; i < ResourceTypeCount; i++)
+        {
+            int held = capturedHeld[i];
+            int insured = Mathf.Min(held, Mathf.FloorToInt(held * capturedKeepRatio));
+            int kept = Mathf.Clamp(ResourceBank.GetStash((ResourceType)i) - capturedStash[i], 0, insured);
+            lostFirst[i] = held - insured;
+            toStash[i] = kept;
+            lostAfter[i] = insured - kept;
+        }
     }
 
     private static string ResolveLocation()
@@ -120,6 +155,9 @@ public class DeathResultUI : MonoBehaviour
             yield return null;
         }
 
+        // 자원 칸 수가 죽을 때마다 달라서 화면을 매번 새로 만든다.
+        ResolveResources();
+        if (root != null) { Destroy(root.gameObject); root = null; }
         Build();
         RefreshValues();
 
@@ -145,6 +183,9 @@ public class DeathResultUI : MonoBehaviour
         // Enter 로 버튼이 눌리도록 버튼을 선택 상태로 만든다.
         if (EventSystem.current != null && returnButton != null)
             EventSystem.current.SetSelectedGameObject(returnButton.gameObject);
+
+        // 자원 결산 연출 (잃는 몫 -> 잃은 수, 보험으로 지킨 몫 -> 창고 수, 넘치면 다시 잃은 수)
+        if (merge != null && merge.HasAny) yield return merge.Play();
     }
 
     private static void SetResultPaused(bool paused)
@@ -167,6 +208,11 @@ public class DeathResultUI : MonoBehaviour
     private void ReturnToHub()
     {
         if (isReturning) return; // 중복 클릭/입력 가드
+
+        // 자원 합산 연출 중에 누르면 먼저 연출만 끝낸다 (같은 프레임에 Enter와 버튼이 겹쳐 바로 귀환하지 않게 그 프레임은 막는다).
+        if (merge != null && !merge.Done) { merge.Finish(); mergeSkipFrame = Time.frameCount; return; }
+        if (Time.frameCount == mergeSkipFrame) return;
+
         isReturning = true;
 
         if (hintText != null) hintText.text = Track("RETURNING…");
@@ -265,16 +311,29 @@ public class DeathResultUI : MonoBehaviour
         crt.sizeDelta = new Vector2(620f, 560f);
         crt.anchoredPosition = Vector2.zero;
 
+        // 자원 칸: (아이콘) 창고 수 +탐험 자원 수 -잃은 수 결산 연출. 이번 탐험 자원이 하나도 없었으면 예전 모양 그대로.
+        int rows = ResourceMergeView.RowCount(lostFirst, toStash, lostAfter);
+        bool hasBlock = rows > 0;
+        float mergeHeight = ResourceMergeView.HeightFor(rows);
+        float extra = hasBlock ? (26f - 42f) + 28f + mergeHeight + 26f : 0f;
+
         // 위에서 아래로 쌓는다. y = 요소 상단(pivot 0.5,1 기준), 콘텐츠 중앙 기준.
-        // 아래 요소들의 (높이+간격) 합이 약 450 이라, 225 에서 시작하면 세로 중앙에 온다.
-        float y = 225f;
+        // 아래 요소들의 (높이+간격) 합이 약 450(+자원 칸) 이라, 그 절반에서 시작하면 세로 중앙에 온다.
+        float y = 225f + extra / 2f;
 
         MakeText(content.transform, "Eyebrow", lFont, 15, InkLabelDim, Track(runEndedLabel), ref y, 22f, 24f);
         MakeText(content.transform, "Title", tFont, 74, InkTitle, dieTitle, ref y, 86f, 22f, addGlow: true, letterSpacePad: true);
         MakeDivider(content.transform, ref y);
         MakeText(content.transform, "StatLabel", lFont, 14, InkLabelDim, Track(depthReachedLabel), ref y, 18f, 12f);
         depthText = MakeText(content.transform, "Depth", tFont, 54, InkTitleDim, "", ref y, 60f, 8f);
-        locationText = MakeText(content.transform, "Location", lFont, 20, InkLabel, "", ref y, 24f, 42f);
+        locationText = MakeText(content.transform, "Location", lFont, 20, InkLabel, "", ref y, 24f, hasBlock ? 26f : 42f);
+        merge = null;
+        if (hasBlock)
+        {
+            MakeText(content.transform, "ResourceLabel", lFont, 14, InkLabelDim, Track("RESOURCES"), ref y, 18f, 10f);
+            merge = new ResourceMergeView(crt, y, lFont, capturedStash, lostFirst, toStash, lostAfter, InkTitle, RunColor, LostColor);
+            y -= mergeHeight + 26f;
+        }
         returnButton = MakeButton(content.transform, "ReturnButton", lFont, returnButtonLabel, ref y);
         hintText = MakeText(content.transform, "Hint", lFont, 14, InkLabelDim, Track(hint), ref y, 18f, 0f);
 

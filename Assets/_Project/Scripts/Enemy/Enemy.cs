@@ -34,6 +34,10 @@ public class Enemy : MonoBehaviour
     // 그림 크기에 맞춘 충돌 원의 월드 반지름 (몸 크기).
     public float BodyRadius => contactCircle != null ? contactCircle.radius * Mathf.Max(Mathf.Abs(transform.lossyScale.x), Mathf.Abs(transform.lossyScale.y)) : 0f;
 
+    [Header("지형지물")]
+    [Tooltip("켜면 플레이어가 못 지나가는 지형지물(맵 소품의 충돌체)도 그냥 통과한다. 날아다니는 몬스터용 - 기본은 꺼짐(막힘)")]
+    public bool passThroughObstacles;
+
     [Header("맵 경계")]
     public Vector2 mapCenter = Vector2.zero; // 맵 경계 상자의 중심 월드 좌표. EnemySpawner가 스폰 시 설정해준다
     public float mapHalfExtent = 20f;  // Player_Movement의 mapHalfExtent와 맞춰야 함
@@ -101,6 +105,10 @@ public class Enemy : MonoBehaviour
     private float pullTimer;
 
     private bool isDying; // Die()가 한 번 호출된 뒤 true. 이후 이동/공격/추가 피격을 전부 무시한다.
+
+    // 잠깐 무적 (MakeInvulnerable). 분열체에서 갈라져 나온 작은 개체가 갈라지게 만든 근접 공격에 그대로 같이 쓸려 죽지 않게 한다.
+    // 무적인 동안은 피해(Hit/지속 피해)를 받지 않고 반투명하게 깜빡인다.
+    private float invulnerableTimer;
 
     // 플레이어가 직접 잡아서 죽는 순간(드랍이 있는 사망) 호출된다. 독구름처럼 "그 자리에서 죽은 적"에 반응하는 효과가 구독한다.
     public static event System.Action<Enemy> Died;
@@ -190,6 +198,7 @@ public class Enemy : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteAnimator = GetComponent<SpriteAnimator>();
         contactCircle = GetComponent<CircleCollider2D>();
+        detourSign = Random.value < 0.5f ? -1f : 1f; // 지형지물에 정면으로 막혔을 때 돌아갈 쪽 (마리마다 달라서 양쪽으로 갈라진다)
         CreateHitOutline();
     }
 
@@ -245,8 +254,21 @@ public class Enemy : MonoBehaviour
         if (outlineMat != null) Destroy(outlineMat); // 인스턴스 머티리얼은 직접 지워야 누수되지 않는다
     }
 
+    /// <summary>seconds 동안 피해를 받지 않는다 (반투명하게 깜빡임). 이미 더 길게 걸려 있으면 그대로.</summary>
+    public void MakeInvulnerable(float seconds)
+    {
+        invulnerableTimer = Mathf.Max(invulnerableTimer, seconds);
+    }
+
     void Update()
     {
+        if (invulnerableTimer > 0f && !isDying) // 죽는 중이면 사망 페이드가 투명도를 맡는다
+        {
+            invulnerableTimer -= Time.deltaTime;
+            Color c = spriteRenderer.color;
+            c.a = invulnerableTimer > 0f && Mathf.Repeat(invulnerableTimer, 0.1f) > 0.05f ? 0.45f : 1f; // 끝나면 원래대로
+            spriteRenderer.color = c;
+        }
         if (stunTimer > 0f) stunTimer -= Time.deltaTime;
         if (markTimer > 0f) markTimer -= Time.deltaTime; // 표식이 풀리면 MarkIndicator가 스스로 사라진다
 
@@ -304,6 +326,64 @@ public class Enemy : MonoBehaviour
         externalOutlineColor = color;
     }
 
+    // ── 지형지물 막기 ──────────────────────────────────────────────────────
+    // 몬스터는 Kinematic + 트리거라 물리가 막아 주지 않아서 바위/건물 같은 맵 소품을 그냥 통과했다 (2026-11-18 피드백).
+    // 그래서 움직이기 전에 몸통 원을 이동 방향으로 쓸어 보고(CircleCast), 지형지물에 닿으면 그 앞에서 멈춘 뒤
+    // 남은 이동을 표면을 따라 미끄러지게 한다. 지형지물 = 트리거가 아니고 움직이지 않는(Rigidbody 없음/Static) 충돌체
+    // (플레이어, 다른 몬스터, 투사체, 자원 등은 제외).
+    private const float ObstacleSkin = 0.01f;     // 표면에서 이만큼 떨어져 멈춘다 (다음 프레임에 겹쳐서 시작하지 않게)
+    private const float ObstacleBodyScale = 0.8f; // 몸통 원보다 조금 작게 - 그림 가장자리가 소품에 살짝 겹치는 건 괜찮다
+    private static readonly RaycastHit2D[] obstacleHits = new RaycastHit2D[8];
+    private static ContactFilter2D obstacleFilter = new ContactFilter2D { useTriggers = false };
+    private float detourSign = 1f;
+
+    /// <summary>지금 위치에서 to까지 움직이되, 지형지물에 막히면 그 앞에서 멈추고 표면을 따라 미끄러진 위치를 돌려준다.
+    /// detour = 추격처럼 "목표로 가려는" 이동: 정면으로 막혀 거의 못 움직이면 정해진 쪽으로 돌아간다.</summary>
+    public Vector2 BlockByObstacles(Vector2 to, bool detour = false)
+    {
+        if (passThroughObstacles || contactCircle == null || rb == null) return to;
+        Vector2 from = rb.position;
+        Vector2 delta = to - from;
+        if (delta.sqrMagnitude < 1e-8f) return to;
+
+        float radius = BodyRadius * ObstacleBodyScale;
+        Vector2 offset = Vector2.Scale(contactCircle.offset, transform.lossyScale);
+        if (!CastObstacle(from + offset, radius, delta, out RaycastHit2D hit)) return to;
+
+        Vector2 dir = delta.normalized;
+        float allowed = Mathf.Max(0f, hit.distance - ObstacleSkin);
+        Vector2 pos = from + dir * allowed;
+        Vector2 rest = delta - dir * allowed;
+        Vector2 slide = rest - Vector2.Dot(rest, hit.normal) * hit.normal; // 표면을 파고드는 성분을 빼고 나란한 성분만
+
+        if (detour && slide.sqrMagnitude < rest.sqrMagnitude * 0.09f)
+            slide = new Vector2(-hit.normal.y, hit.normal.x) * detourSign * rest.magnitude * 0.8f;
+
+        if (slide.sqrMagnitude < 1e-8f) return pos;
+        if (CastObstacle(pos + offset, radius, slide, out RaycastHit2D hit2))
+            slide = slide.normalized * Mathf.Max(0f, hit2.distance - ObstacleSkin);
+        return pos + slide;
+    }
+
+    private static bool CastObstacle(Vector2 origin, float radius, Vector2 delta, out RaycastHit2D best)
+    {
+        best = default;
+        float dist = delta.magnitude;
+        int count = Physics2D.CircleCast(origin, radius, delta / dist, obstacleFilter, obstacleHits, dist + ObstacleSkin);
+        bool found = false;
+        for (int i = 0; i < count; i++)
+        {
+            RaycastHit2D h = obstacleHits[i];
+            Collider2D c = h.collider;
+            if (c == null || c.isTrigger) continue;
+            Rigidbody2D body = c.attachedRigidbody;
+            if (body != null && body.bodyType != RigidbodyType2D.Static) continue; // 플레이어처럼 움직이는 몸은 지형지물이 아니다
+            if (h.distance <= 0.0001f) continue; // 이미 겹쳐 있으면(소품 위에 스폰 등) 빠져나갈 수 있게 무시
+            if (!found || h.distance < best.distance) { best = h; found = true; }
+        }
+        return found;
+    }
+
     void FixedUpdate()
     {
         // 죽어서 페이드아웃 되는 중이면 그 자리에서 멈춘다.
@@ -335,7 +415,7 @@ public class Enemy : MonoBehaviour
 
                 knockPos.x = Mathf.Clamp(knockPos.x, mapCenter.x - limitX, mapCenter.x + limitX);
                 knockPos.y = Mathf.Clamp(knockPos.y, mapCenter.y - limitY, mapCenter.y + limitY);
-                rb.MovePosition(knockPos);
+                rb.MovePosition(BlockByObstacles(knockPos));
             }
             return;
         }
@@ -348,7 +428,7 @@ public class Enemy : MonoBehaviour
                 Vector2 pulledPos = rb.position + pullStep;
                 pulledPos.x = Mathf.Clamp(pulledPos.x, mapCenter.x - limitX, mapCenter.x + limitX);
                 pulledPos.y = Mathf.Clamp(pulledPos.y, mapCenter.y - limitY, mapCenter.y + limitY);
-                rb.MovePosition(pulledPos);
+                rb.MovePosition(BlockByObstacles(pulledPos));
             }
             return;
         }
@@ -399,7 +479,7 @@ public class Enemy : MonoBehaviour
             nextPosition.x = Mathf.Clamp(nextPosition.x, mapCenter.x - limitX, mapCenter.x + limitX);
             nextPosition.y = Mathf.Clamp(nextPosition.y, mapCenter.y - limitY, mapCenter.y + limitY);
 
-            rb.MovePosition(nextPosition);
+            rb.MovePosition(BlockByObstacles(nextPosition, detour: true)); // 지형지물에 막히면 표면을 따라 돌아간다
         }
     }
 
@@ -409,6 +489,7 @@ public class Enemy : MonoBehaviour
     public void Hit(Vector2 knockbackDirection, float damage, bool isCrit = false, float knockbackMultiplier = 1f)
     {
         if (isDying) return; // 이미 죽는 중이면 더 이상 반응하지 않는다
+        if (invulnerableTimer > 0f) return; // 잠깐 무적 (분열 직후 등)
 
         // 기절 중이면 받는 피해가 늘어난다. 표시되는 데미지 숫자도 실제 들어간 값과 같도록 미리 곱해둔다
         // (TakeDamage는 이 배율을 다시 곱하지 않도록 아래에서 원본 damage가 아니라 곱한 값을 넘긴다).
@@ -487,6 +568,7 @@ public class Enemy : MonoBehaviour
     public void TakeDotDamage(float amount)
     {
         if (isDying || amount <= 0f) return;
+        if (invulnerableTimer > 0f) return; // 잠깐 무적 (분열 직후 등)
         float dealt = amount * DamageTakenMultiplier * PlayerRunStats.DamageMultiplier;
         TakeDamageRaw(dealt);
         SpawnDamageNumber(dealt, false);

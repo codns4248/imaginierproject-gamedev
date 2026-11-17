@@ -17,7 +17,7 @@ public class PauseManager : MonoBehaviour
     private static bool isEscPaused; // ESC로 연 설정 패널이 열려 있는지
     private bool isInventoryPaused;  // WeaponEnhancementManager가 V로 연 무기 강화 팝업이 열려 있는지 (SetInventoryPaused로 전달받음)
     private static bool isLevelUpPaused; // 레벨업 카드 창(LevelUpUI)이 열려 있는지 (SetLevelUpPaused로 전달받음)
-    private bool isResultPaused;         // 사망 결과 화면(DeathResultUI)이 떠 있는지 (SetResultPaused로 전달받음)
+    private static bool isResultPaused;  // 사망/탈출 결과 화면(DeathResultUI, ExtractionResultUI)이 떠 있는지 (SetResultPaused로 전달받음)
 
     // ESC 설정 패널이 지금 열려 있는지. WeaponEnhancementManager가 "ESC가 눌린 상태에서는 V키 무시"를,
     // WeaponSwitcher가 "ESC 메뉴 중에는 무기 전환 금지"를 판단할 때 이 값을 참조한다.
@@ -26,6 +26,9 @@ public class PauseManager : MonoBehaviour
 
     // 레벨업 카드 창이 열려 있는지. 카드를 고르는 동안에는 ESC 설정 패널, V 강화 팝업, Q 무기 전환을 막는다.
     public static bool IsLevelUpOpen => isLevelUpPaused;
+
+    // 사망/탈출 결과 화면이 떠 있는지. 떠 있는 동안 뒤에 남은 스테이지의 F 상호작용(상인 등)과 V 강화 창을 막는다.
+    public static bool IsResultOpen => isResultPaused;
 
     // Time.timeScale이 0이어도 Update()는 계속 호출되므로, deltaTime에 의존하지 않고
     // 마우스 좌표를 직접 읽어 회전/이동시키는 스크립트(WeaponAim, PlayerMovement 등)는
@@ -40,6 +43,7 @@ public class PauseManager : MonoBehaviour
         // 활성 상태가 어긋난다(패널만 보이고 정지/조작차단은 안 되거나, 반대로 ESC를 눌러도
         // 안 사라지는 등). WeaponEnhancementManager와 마찬가지로 시작할 땐 항상 닫힌 상태로 맞춘다.
         isLevelUpPaused = false;
+        isResultPaused = false;
         SetEscPaused(false);
     }
 
@@ -47,7 +51,7 @@ public class PauseManager : MonoBehaviour
     {
         // ESC 순서: 설정 창이 열려 있으면 닫는다 -> 아니면 열려 있는 팝업(강화 창, 거점 강화 창 등, EscClose) 중
         // 맨 위 하나만 닫는다 -> 닫을 팝업이 없을 때만 설정 창을 연다.
-        // 레벨업 카드 창/사망 결과 화면은 ESC로 닫히지 않는 맨 위 창이라, 떠 있으면 예전처럼 바로 설정 창을 연다
+        // 레벨업 카드 창/사망·탈출 결과 화면은 ESC로 닫히지 않는 맨 위 창이라, 떠 있으면 예전처럼 바로 설정 창을 연다
         // (가장 위에 뜨고, 닫으면 그 창으로 돌아감). 정지는 ApplyTimeScale이 그 상태까지 보고 판단한다.
         if (Keyboard.current.escapeKey.wasPressedThisFrame)
         {

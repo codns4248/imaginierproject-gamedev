@@ -35,6 +35,28 @@ public static class Sfx
         src.Play();
     }
 
+    /// <summary>음높이를 직접 정해서 재생한다 (흔들지 않음). 결과 화면 숫자 합산처럼 점점 올라가는 소리용.</summary>
+    public static void PlayAtPitch(SfxId id, float pitch, float volumeScale = 1f)
+    {
+        SfxLibrary lib = SfxLibrary.Instance;
+        SfxLibrary.Entry e = lib != null ? lib.Get(id) : null;
+        if (e == null || e.clip == null) return;
+
+        float now = Time.unscaledTime;
+        if (lastPlayed.TryGetValue(id, out float last) && now - last < e.minInterval) return;
+        lastPlayed[id] = now;
+
+        EnsurePool();
+        AudioSource src = pool[next];
+        next = (next + 1) % pool.Length;
+
+        src.Stop();
+        src.clip = e.clip;
+        src.volume = Mathf.Clamp01(e.volume * lib.masterVolume * volumeScale);
+        src.pitch = pitch;
+        src.Play();
+    }
+
     public static AudioClip GetClip(SfxId id)
     {
         SfxLibrary lib = SfxLibrary.Instance;

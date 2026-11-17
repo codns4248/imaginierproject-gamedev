@@ -90,15 +90,9 @@ public class RetreatManager : MonoBehaviour
         Close();
         Sfx.Play(SfxId.Escape);
 
-        // 탈출: 파밍 자원은 stash로 확정하되(탈출 포탈과 동일), 이번 런의 무기(강화 + 필드/상인에서
-        // 얻은 여분 무기)는 사망/추출과 같은 규칙으로 전부 초기화한다.
-        ResourceBank.CommitRunToStash();
-        WeaponEnhanceStore.ResetForNewRun();
-        LevelUpSystem.ResetForNewRun(); // 레벨/경험치/레벨업 능력/부활 횟수
-        WeaponSwitcher weaponSwitcher = FindFirstObjectByType<WeaponSwitcher>();
-        if (weaponSwitcher != null) weaponSwitcher.ResetToStartingWeapon();
-        StageProgress.ResetToFirstStage();
-        StageManager.ReturnToHub();
+        // 탈출: 탈출 포탈과 같다 - 파밍 자원은 stash로 확정하고 탈출 결과 화면을 띄운 뒤, 닫으면 이번 런의
+        // 무기(강화 + 필드/상인에서 얻은 여분 무기)와 레벨을 초기화하고 거점으로 간다 (ExtractionResultUI).
+        ExtractionResultUI.Extract(emergency: true);
     }
 
     private void OnNo()

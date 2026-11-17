@@ -55,6 +55,7 @@ public class HealthPotion : MonoBehaviour
     {
         if (!Keyboard.current.rKey.wasPressedThisFrame) return;
         if (PauseManager.IsEscPaused) return; // ESC 설정 창으로 멈춘 동안에는 회복약을 쓰지 않는다
+        if (PauseManager.IsResultOpen) return; // 탈출 결과 화면에서도
 
         TryUsePotion();
     }

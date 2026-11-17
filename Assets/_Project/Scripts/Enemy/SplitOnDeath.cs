@@ -10,6 +10,9 @@ public class SplitOnDeath : MonoBehaviour
     public int childCount = 2;
     public float spawnOffset = 0.15f;
     public float popKnockback = 1.2f; // 갈라지며 양옆으로 살짝 튀어나가는 세기
+    // 갈라져 나온 직후 잠깐 무적: 근접 공격(검 휘두르기 0.3초 등)에 맞아 갈라지면, 작은 개체가 아직 진행 중인
+    // 같은 공격에 바로 맞아 한 번에 다 쓸려 버렸다 (2026-11-18 피드백).
+    public float spawnInvulnerability = 0.35f;
 
     private Enemy enemy;
 
@@ -45,6 +48,7 @@ public class SplitOnDeath : MonoBehaviour
             child.mapHalfExtent = enemy.mapHalfExtent;
             MonsterDifficulty.ApplyTo(child); // 층에 맞게 체력/속도/공격력
             child.Knockback(dir, popKnockback);
+            child.MakeInvulnerable(spawnInvulnerability);
         }
     }
 }

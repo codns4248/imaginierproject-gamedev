@@ -33,6 +33,16 @@ public static class MonsterDifficulty
     private const int HardMaxEnemies = 240;        // 동시 최대 마리 수의 절대 상한 (성능 보호)
     private const float MixedZoneSpawnRate = 0.4f; // 생각의 방(모든 스포너가 동시에 켜지는 구역)은 스폰 속도를 낮춘다
 
+    // NASA/군부대(보라 포탈로만 가는 특수 구역)는 몬스터 종류(스포너)가 많고 분열체는 한 마리가 3번 드랍해서, 처치 수와 자원이
+    // 다른 맵보다 너무 많았다 (2026-11-18 피드백). 특수 구역답게 조금 많은 정도로 스폰 속도와 동시 마리 수를 줄인다.
+    // NASA는 분열체 몫까지 있어서 더 줄인다.
+    private const float NasaSpawnRate = 0.65f;
+    private const float MilitarySpawnRate = 0.75f;
+    private const float SpecialZoneMaxEnemiesScale = 0.8f;
+    private static float SpecialZoneSpawnRate =>
+        StageManager.CurrentTheme == "NASA" ? NasaSpawnRate : StageManager.CurrentTheme == "군부대" ? MilitarySpawnRate : 1f;
+    private static bool IsSpecialZone => StageManager.CurrentTheme == "NASA" || StageManager.CurrentTheme == "군부대";
+
     private static int StageIndex => Mathf.Max(0, StageProgress.CurrentStageNo - 1); // 1층 = 0
 
     // 현재 스테이지 번호 기준 난이도 단계. 1~5층=0, 6~10층=1, 11~15층=2 ...
@@ -44,7 +54,7 @@ public static class MonsterDifficulty
 
     // 스폰 간격을 이 값으로 나눈다 (클수록 자주 나온다).
     public static float SpawnRateMultiplier =>
-        SpawnRateAt(StageIndex) * (StageManager.IsMixedMonsterZone ? MixedZoneSpawnRate : 1f);
+        SpawnRateAt(StageIndex) * (StageManager.IsMixedMonsterZone ? MixedZoneSpawnRate : 1f) * SpecialZoneSpawnRate;
 
     // 10층(i=9)까지는 2차 곡선, 그 뒤로는 직선으로 20층(i=19)의 MaxSpawnRate까지 오르고 이후 고정.
     private static float SpawnRateAt(int i)
@@ -98,7 +108,8 @@ public static class MonsterDifficulty
     public static float SpawnRateFor(bool elite) => elite ? 1f + (SpawnRateMultiplier - 1f) * 0.3f : SpawnRateMultiplier;
 
     // 지금 층의 동시 최대 마리 수 (각 스포너의 maxEnemies와 비교해서 작은 쪽을 쓴다).
-    public static int MaxConcurrentEnemies => Mathf.Min(HardMaxEnemies, BaseMaxEnemies + StageIndex * MaxEnemiesPerStage);
+    public static int MaxConcurrentEnemies =>
+        Mathf.RoundToInt(Mathf.Min(HardMaxEnemies, BaseMaxEnemies + StageIndex * MaxEnemiesPerStage) * (IsSpecialZone ? SpecialZoneMaxEnemiesScale : 1f));
 
     // 스포너가 몬스터를 만든 직후 부른다: 체력, 이동속도, 공격력을 지금 층에 맞게 올린다.
     public static void ApplyTo(Enemy enemy)

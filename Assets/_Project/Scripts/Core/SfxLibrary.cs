@@ -11,6 +11,7 @@ public enum SfxId
     EnhanceSuccess, StageClear, PortalEnter, PortalMystery, Escape, Deny, UiClick, UiOpen, RainLoop, WindLoop,
     MerchantBuy,
     AoeBlast, SweepWindup, SweepImpact, BurrowDive, GroundErupt, ChargeWindup, ChargeDash, SplitBurst, BeeSwarm,
+    CountTick, CountDone, // 결과 화면 자원 합산 연출 (디리리리 + 링)
 }
 
 // 게임 효과음 목록. Resources/SfxLibrary.asset 하나에 소리 파일·볼륨·같은 소리 최소 간격을 모아 두고, 코드에서는 Sfx.Play(SfxId.xxx)로 재생한다.

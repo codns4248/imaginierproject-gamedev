@@ -44,6 +44,9 @@ public class ResourceBankUI : MonoBehaviour
     // 창고가 가득 차서 이번 탐험 자원 일부가 사라졌을 때 화면 위쪽에 알려 준다.
     private static void ShowOverflow(int[] overflow)
     {
+        // 탈출/사망(보험) 때 넘친 자원은 결과 화면의 결산 연출(잃은 수)이 직접 보여 준다
+        if (ExtractionResultUI.IsShowing || EnemyManager.PlayerDead) return;
+
         var parts = new System.Collections.Generic.List<string>();
         foreach (ResourceType type in Order)
         {

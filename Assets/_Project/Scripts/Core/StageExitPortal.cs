@@ -30,15 +30,9 @@ public class StageExitPortal : MonoBehaviour
         Sfx.Play(SfxId.PortalEnter);
         if (string.IsNullOrEmpty(targetTheme))
         {
-            // 추출 성공: 파밍 자원은 stash로 확정하되, 이번 런의 무기(강화 + 필드/상인에서 얻은
-            // 여분 무기)는 사망/도망과 같은 규칙으로 전부 초기화한다.
-            ResourceBank.CommitRunToStash();
-            WeaponEnhanceStore.ResetForNewRun();
-            LevelUpSystem.ResetForNewRun(); // 레벨/경험치/레벨업 능력/부활 횟수
-            WeaponSwitcher weaponSwitcher = FindFirstObjectByType<WeaponSwitcher>();
-            if (weaponSwitcher != null) weaponSwitcher.ResetToStartingWeapon();
-            StageProgress.ResetToFirstStage();
-            StageManager.ReturnToHub();
+            // 추출 성공: 파밍 자원은 stash로 확정하고 탈출 결과 화면을 띄운다. 화면을 닫으면 이번 런의 무기
+            // (강화 + 필드/상인에서 얻은 여분 무기)와 레벨을 사망/도망과 같은 규칙으로 초기화하고 거점으로 간다.
+            ExtractionResultUI.Extract(emergency: false);
         }
         else
         {

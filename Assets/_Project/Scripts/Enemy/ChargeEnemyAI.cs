@@ -108,7 +108,7 @@ public class ChargeEnemyAI : MonoBehaviour
         Vector2 nextPos = rb.position + chargeDirection * step;
         nextPos.x = Mathf.Clamp(nextPos.x, enemy.mapCenter.x - limitX, enemy.mapCenter.x + limitX);
         nextPos.y = Mathf.Clamp(nextPos.y, enemy.mapCenter.y - limitY, enemy.mapCenter.y + limitY);
-        rb.MovePosition(nextPos);
+        rb.MovePosition(enemy.BlockByObstacles(nextPos)); // 돌진도 지형지물에 막히면 표면을 따라 미끄러진다
 
         chargeRemainingDistance -= step;
         if (chargeRemainingDistance <= 0f) EndCharge();

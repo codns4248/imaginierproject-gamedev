@@ -1,6 +1,6 @@
 using UnityEngine;
 
-// 일정 간격으로 카메라 시야 밖의 맵 안 랜덤한 위치에 적을 스폰하고, 최대 마리 수를 넘지 않도록 제어한다.
+// 일정 간격으로 카메라 시야 밖(화면 주변 띠, FindOffScreenPosition)의 맵 안 랜덤한 위치에 적을 스폰하고, 최대 마리 수를 넘지 않도록 제어한다.
 public class EnemySpawner : MonoBehaviour
 {
     public GameObject enemyPrefab;
@@ -69,25 +69,61 @@ public class EnemySpawner : MonoBehaviour
         }
     }
 
-    // 카메라 시야 밖이면서 맵 범위 안쪽인 랜덤 좌표를 찾는다.
-    // 최대 30번까지 시도하고, 그래도 못 찾으면(맵이 화면보다 작을 때 등) 맵 모서리에 스폰한다.
+    // 화면 가장자리 밖으로 이 거리(월드 유닛)까지의 띠 안에서 스폰한다 (2026-11-18: 맵 전체 랜덤이면 멀리서 나온 몬스터가
+    // 플레이어에게 오기까지 오래 걸렸다. 너무 붙어서 나오지도 않게 화면 밖 3.5유닛 안쪽 정도로 - 이동속도 0.8 기준 최대 4~5초 거리).
+    private const float SpawnReach = 3.5f;
+    private static readonly Collider2D[] obstacleBuf = new Collider2D[4];
+    private static ContactFilter2D solidFilter = new ContactFilter2D { useTriggers = false };
+
+    // 카메라 시야 밖이면서 맵 범위 안쪽인 랜덤 좌표를 찾는다: 먼저 화면 주변 띠에서, 못 찾으면(플레이어가 맵 구석이라 띠가
+    // 대부분 맵 밖일 때 등) 예전처럼 맵 전체에서. 그래도 못 찾으면(맵이 화면보다 작을 때 등) 맵 모서리에 스폰한다.
     private Vector2 FindOffScreenPosition()
     {
+        float limit = mapHalfExtent - 0.3f;
+        if (mainCamera != null && mainCamera.orthographic)
+        {
+            Vector2 cam = mainCamera.transform.position;
+            float halfH = mainCamera.orthographicSize + SpawnReach;
+            float halfW = mainCamera.orthographicSize * mainCamera.aspect + SpawnReach;
+            for (int attempt = 0; attempt < 30; attempt++)
+            {
+                Vector2 world = new Vector2(cam.x + Random.Range(-halfW, halfW), cam.y + Random.Range(-halfH, halfH));
+                if (Mathf.Abs(world.x - mapCenter.x) > limit || Mathf.Abs(world.y - mapCenter.y) > limit) continue;
+                if (IsOnScreen(world) || IsInsideObstacle(world)) continue;
+                return world;
+            }
+        }
+
         for (int attempt = 0; attempt < 30; attempt++)
         {
-            float x = mapCenter.x + Random.Range(-mapHalfExtent, mapHalfExtent);
-            float y = mapCenter.y + Random.Range(-mapHalfExtent, mapHalfExtent);
-            Vector3 world = new Vector3(x, y, 0f);
-
-            // WorldToViewportPoint는 화면 안이면 x/y가 0~1 사이, 카메라 뒤쪽이면 z가 음수로 나온다.
-            // 살짝(-0.05~1.05) 여유를 둬서 화면 경계에 딱 걸쳐 스폰되는 것도 방지한다.
-            Vector3 viewport = mainCamera.WorldToViewportPoint(world);
-            bool onScreen = viewport.z > 0f && viewport.x > -0.05f && viewport.x < 1.05f
-                                             && viewport.y > -0.05f && viewport.y < 1.05f;
-            if (!onScreen)
-                return world;
+            Vector2 world = new Vector2(mapCenter.x + Random.Range(-limit, limit), mapCenter.y + Random.Range(-limit, limit));
+            if (IsOnScreen(world) || IsInsideObstacle(world)) continue;
+            return world;
         }
 
         return new Vector2(mapCenter.x + mapHalfExtent - 0.5f, mapCenter.y + mapHalfExtent - 0.5f);
+    }
+
+    // WorldToViewportPoint는 화면 안이면 x/y가 0~1 사이, 카메라 뒤쪽이면 z가 음수로 나온다.
+    // 살짝(-0.05~1.05) 여유를 둬서 화면 경계에 딱 걸쳐 스폰되는 것도 방지한다.
+    private bool IsOnScreen(Vector2 world)
+    {
+        Vector3 viewport = mainCamera.WorldToViewportPoint(world);
+        return viewport.z > 0f && viewport.x > -0.05f && viewport.x < 1.05f
+                               && viewport.y > -0.05f && viewport.y < 1.05f;
+    }
+
+    // 바위/건물 같은 지형지물(트리거가 아니고 움직이지 않는 충돌체) 안에는 스폰하지 않는다 (몬스터는 이제 지형지물에 막힌다).
+    private static bool IsInsideObstacle(Vector2 world)
+    {
+        int count = Physics2D.OverlapCircle(world, 0.25f, solidFilter, obstacleBuf);
+        for (int i = 0; i < count; i++)
+        {
+            Collider2D c = obstacleBuf[i];
+            if (c == null || c.isTrigger) continue;
+            Rigidbody2D body = c.attachedRigidbody;
+            if (body == null || body.bodyType == RigidbodyType2D.Static) return true;
+        }
+        return false;
     }
 }

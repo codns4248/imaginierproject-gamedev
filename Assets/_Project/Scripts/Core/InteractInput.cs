@@ -13,6 +13,7 @@ public static class InteractInput
     {
         if (Keyboard.current == null) return false;
         if (PauseManager.IsEscPaused) return false; // ESC 설정 창이 맨 위에 떠 있는 동안 아래 상호작용(건물/상인/포탈 등)은 반응하지 않는다
+        if (PauseManager.IsResultOpen) return false; // 탈출 결과 화면 뒤에 남은 상인/포탈도 마찬가지
         if (!Keyboard.current.fKey.wasPressedThisFrame) return false;
         if (consumedFrame == Time.frameCount) return false; // 이번 프레임엔 이미 다른 쪽이 가져감
 
