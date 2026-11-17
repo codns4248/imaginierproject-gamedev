@@ -23,6 +23,8 @@ public class EnhancementWeaponIcon : MonoBehaviour
 
     void Awake()
     {
+        // 창이 프리팹에서 만들어지므로 씬의 WeaponSwitcher는 직접 찾는다.
+        if (weaponSwitcher == null) weaponSwitcher = FindFirstObjectByType<WeaponSwitcher>();
         frame = GetComponent<Image>();
         if (frameSprite != null)
         {

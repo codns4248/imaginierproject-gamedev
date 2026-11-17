@@ -157,7 +157,7 @@ public class HubUpgradeManager : MonoBehaviour
         window = Instantiate(prefabs.popupWindow, canvasGo.transform, false);
         window.name = "HubUpgradeWindow";
         root = window.gameObject;
-        window.title.text = "일반 강화";
+        window.title.text = "General Upgrade";
         window.subtitle.text = "자원으로 하는 영구 강화 · 탐험이 끝나도 유지됩니다";
         window.closeButton.onClick = () => SetOpen(false);
 

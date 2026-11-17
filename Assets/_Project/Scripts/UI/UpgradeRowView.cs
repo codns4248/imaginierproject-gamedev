@@ -5,12 +5,14 @@ using UnityEngine.UI;
 //   [이름 Lv n/m]                 [자원 아이콘 xN]
 //   지금  ...                     [   강화   ]
 //   다음  ...
+// 낮은 줄(UI_UpgradeRowCompact, 404x64)은 "지금" 줄 없이 이름/단계 + 다음 효과 한 줄, 오른쪽에 비용과 [강화]를 가로로 놓는다
+// (now가 비어 있다).
 // 모양은 프리팹에서 고치고, 코드는 글자/아이콘/버튼 상태만 바꾼다.
 public class UpgradeRowView : MonoBehaviour
 {
     public Text nameText;
     public Text level;
-    public Text now;
+    public Text now; // 낮은 줄에는 없다 (null)
     public Text next;
     public Image costIcon;
     public Text cost;

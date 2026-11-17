@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,7 +12,7 @@ using UnityEngine.UI;
 //       Subtitle  안내 문구
 //       Header    한 줄짜리 정보 칸 (보유 자원 등, 가로 정렬). 비워 두면 빈 줄
 //       Content   본문 (강화 줄 등을 여기에 넣는다, 세로 정렬)
-//       Footer    [닫기] 버튼
+//       Footer    아래 버튼 줄 ([닫기], 가로 정렬 - AddFooterButton으로 버튼을 더 넣을 수 있다)
 //
 // 창 폭은 Content 안에서 가장 넓은 것 + 좌우 여백 32씩, 높이는 위아래 고정 부분(196) + Content 높이.
 public class PopupWindowView : MonoBehaviour
@@ -24,4 +25,28 @@ public class PopupWindowView : MonoBehaviour
     public PixelButton closeButton;
 
     public bool IsOpen => gameObject.activeSelf;
+
+    /// <summary>아래 버튼 줄의 [닫기] 왼쪽에 버튼을 하나 더 넣는다 (buttonPrefab: UiPrefabs의 초록/금색 버튼).</summary>
+    public PixelButton AddFooterButton(PixelButton buttonPrefab, string label, Action onClick)
+    {
+        PixelButton button = Instantiate(buttonPrefab, closeButton.transform.parent, false);
+        button.name = "Button_" + label;
+        button.transform.SetSiblingIndex(closeButton.transform.GetSiblingIndex());
+        button.label.text = label;
+        button.onClick = onClick;
+        return button;
+    }
+
+    /// <summary>본문에 가로 한 줄 묶음을 만든다. 여러 열로 놓을 때(특수 강화 2열) 줄마다 하나씩 만들어 그 안에 칸을 넣는다.</summary>
+    public RectTransform AddLine(float spacing)
+    {
+        RectTransform line = new GameObject("Line", typeof(RectTransform)).GetComponent<RectTransform>();
+        line.SetParent(content, false);
+        HorizontalLayoutGroup h = line.gameObject.AddComponent<HorizontalLayoutGroup>();
+        h.spacing = spacing;
+        h.childAlignment = TextAnchor.UpperLeft;
+        h.childControlWidth = h.childControlHeight = true;
+        h.childForceExpandWidth = h.childForceExpandHeight = false;
+        return line;
+    }
 }
