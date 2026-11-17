@@ -1,18 +1,19 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-// 강화 팝업(무기 강화 WeaponUpgradePanel / 거점 영구 강화 HubUpgradePanel)의 한 줄(StatRow_*)을 그리는 공용 UI.
+// 무기 강화 팝업(WeaponUpgradePanel)의 한 줄(StatRow_*)을 그리는 UI. (거점 일반 강화 창은 2026-11 특수 강화 창 모양으로
+// 바뀌어 HubUpgradeManager가 직접 그린다.)
 // 프리팹의 칸(StepsRow)은 숨기고 연속 진행바 + (선택) 특수효과 단계 다이아몬드 마커 + "Lv N" 텍스트로 바꾼다.
 // 강화하면 바가 부드럽게 차오르고 흰 플래시/살짝 튀는 연출이 나온다 (팝업이 열려 있으면 timeScale=0이라
 // Animate에는 Time.unscaledDeltaTime을 넘긴다).
 //
-// 팝업 스케일 문제: 두 팝업 프리팹은 2400x1680 크기로 만든 뒤 PopupWindow를 0.3배로 줄여 쓰는데, 레거시 Text는
+// 팝업 스케일 문제: 팝업 프리팹은 2400x1680 크기로 만든 뒤 PopupWindow를 0.3배로 줄여 쓰는데, 레거시 Text는
 // 글자를 "폰트 크기 x 캔버스 배율"로 래스터화하고 Transform 축소는 무시한다. 그래서 42pt로 그린 도트 폰트를
 // 0.3배로 다시 축소해 그리게 되어 글자/아이콘이 뭉개졌다. BakeScale이 그 축소를 크기 값에 녹여 넣어서
 // (스케일 1, 크기는 0.3배) 글자가 실제 화면 크기로 래스터화되게 한다. 프리팹은 수정하지 않는다.
 public class UpgradeRowUI
 {
-    // ===== 스타일 (두 팝업 공통) =====
+    // ===== 스타일 =====
     public static readonly Color BarBack = new Color(0.08f, 0.11f, 0.16f, 1f);
     public static readonly Color BarFill = new Color(0.93f, 0.36f, 0.24f, 1f);
     public static readonly Color Gold = new Color(1f, 0.79f, 0.29f, 1f);
