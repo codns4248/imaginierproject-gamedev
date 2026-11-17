@@ -21,15 +21,15 @@ using UnityEngine.UI;
 // 만약 그게 불가능한 상황이면 현재 씬을 다시 로드하는 것으로 폴백한다.
 //
 // UI는 이 프로젝트의 다른 UI(RetreatManager, PlayerHealthUI 등)와 동일하게 코드로 직접 만든다.
-// 폰트도 새로 추가하지 않고, 이 프로젝트가 한글 UI에 이미 쓰는 폰트(neodgm.ttf - StageNumberText,
-// 무기강화 라벨과 동일)를 타이틀/내용용으로, VT323(영문 라벨용)을 라벨용으로 나눠서 쓴다.
+// 폰트는 큰 글씨(YOU DIE / 층수)는 도트 폰트 neodgm, 작은 글씨(라벨 / 위치 / 버튼 / 안내)는 Pretendard로 나눠 쓴다.
+// (캔버스가 1080p에서 1.5배라 도트 폰트는 작은 크기에서 획이 들쭉날쭉해진다)
 // (TMP는 프로젝트에 한글 글리프를 가진 폰트 에셋이 없어서 legacy UI.Text로 만든다 - 기존 한글 UI 방식과 동일)
 public class DeathResultUI : MonoBehaviour
 {
-    [Header("폰트 (프로젝트 기존 에셋 - 새로 추가하지 않음)")]
-    [Tooltip("타이틀/내용용 (한글 지원) - YOU DIE / 층수 / 위치 / 버튼. 프로젝트 한글 UI와 동일한 neodgm 권장")]
+    [Header("폰트")]
+    [Tooltip("큰 글씨용 (한글 지원) - YOU DIE / 층수. 도트 폰트 neodgm 권장")]
     public Font titleFont;
-    [Tooltip("영문 라벨용 - RUN ENDED / DEPTH REACHED / PRESS ENTER TO CONTINUE. VT323 권장")]
+    [Tooltip("작은 글씨용 (한글 지원) - 라벨 / 위치 / 버튼 / 안내. 1.5배 확대에서도 또렷한 Pretendard 권장")]
     public Font labelFont;
 
     [Header("연출")]
@@ -274,8 +274,8 @@ public class DeathResultUI : MonoBehaviour
         MakeDivider(content.transform, ref y);
         MakeText(content.transform, "StatLabel", lFont, 14, InkLabelDim, Track(depthReachedLabel), ref y, 18f, 12f);
         depthText = MakeText(content.transform, "Depth", tFont, 54, InkTitleDim, "", ref y, 60f, 8f);
-        locationText = MakeText(content.transform, "Location", tFont, 20, InkLabel, "", ref y, 24f, 42f);
-        returnButton = MakeButton(content.transform, "ReturnButton", tFont, returnButtonLabel, ref y);
+        locationText = MakeText(content.transform, "Location", lFont, 20, InkLabel, "", ref y, 24f, 42f);
+        returnButton = MakeButton(content.transform, "ReturnButton", lFont, returnButtonLabel, ref y);
         hintText = MakeText(content.transform, "Hint", lFont, 14, InkLabelDim, Track(hint), ref y, 18f, 0f);
 
         returnButton.onClick.AddListener(ReturnToHub);
