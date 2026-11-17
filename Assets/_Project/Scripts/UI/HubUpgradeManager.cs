@@ -73,6 +73,7 @@ public class HubUpgradeManager : MonoBehaviour
         if (pauseManager != null) pauseManager.SetInventoryPaused(open);
 
         if (!open) return;
+        EscClose.Push(this, () => isPanelOpen, () => SetPanelOpen(false));
         RefreshAllRows();
         foreach (UpgradeRowUI row in rows) row.Snap();
     }

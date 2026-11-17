@@ -117,6 +117,7 @@ public class WeaponEnhancementManager : MonoBehaviour
         if (pauseManager != null) pauseManager.SetInventoryPaused(open);
 
         if (!open) return;
+        EscClose.Push(this, () => isPanelOpen, () => SetPanelOpen(false));
         SetTab(false, true);
         RefreshAllRows();
         foreach (UpgradeRowUI row in rows) row.Snap();

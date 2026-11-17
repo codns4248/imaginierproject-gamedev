@@ -71,6 +71,7 @@ public class RetreatManager : MonoBehaviour
         costText.text = $"희귀 자원 {EscapeCost}개 소모  (보유 {ResourceBank.GetRunHeld(ResourceType.Rare)}개)";
         popup.gameObject.SetActive(true);
         isOpen = true;
+        EscClose.Push(this, () => isOpen, Close);
     }
 
     private void Close()

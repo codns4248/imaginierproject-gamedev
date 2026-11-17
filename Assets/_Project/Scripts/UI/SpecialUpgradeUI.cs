@@ -86,6 +86,7 @@ public class SpecialUpgradeUI : MonoBehaviour
         root.SetActive(true);
         Refresh();
         if (pauseManager != null) pauseManager.SetInventoryPaused(true);
+        EscClose.Push(this, () => IsOpen, Close);
     }
 
     private void Close()

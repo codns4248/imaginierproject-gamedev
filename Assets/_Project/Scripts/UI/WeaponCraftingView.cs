@@ -68,6 +68,8 @@ public class WeaponCraftingView : MonoBehaviour
         string name = WeaponEnhancementManager.WeaponDisplayName(type);
         confirmText.text = $"{name}{ObjectParticle(name)} 제작하시겠습니까?";
         confirmRoot.SetActive(true);
+        // 강화 창보다 나중에 열린 확인창이라 ESC를 누르면 확인창이 먼저 닫히고, 한 번 더 누르면 강화 창이 닫힌다.
+        EscClose.Push(this, () => confirmRoot != null && confirmRoot.activeInHierarchy, HideConfirm);
     }
 
     private void OnConfirmYes()

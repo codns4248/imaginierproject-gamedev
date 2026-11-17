@@ -45,11 +45,14 @@ public class PauseManager : MonoBehaviour
 
     void Update()
     {
-        // 레벨업 카드를 고르는 중에도 ESC는 열린다 (가장 위에 뜨고, 닫으면 레벨업 창으로 돌아감).
-        // 정지는 ApplyTimeScale이 레벨업 상태까지 보고 판단하므로 ESC를 닫아도 레벨업 중이면 계속 멈춰 있다.
+        // ESC 순서: 설정 창이 열려 있으면 닫는다 -> 아니면 열려 있는 팝업(강화 창, 거점 강화 창 등, EscClose) 중
+        // 맨 위 하나만 닫는다 -> 닫을 팝업이 없을 때만 설정 창을 연다.
+        // 레벨업 카드 창/사망 결과 화면은 ESC로 닫히지 않는 맨 위 창이라, 떠 있으면 예전처럼 바로 설정 창을 연다
+        // (가장 위에 뜨고, 닫으면 그 창으로 돌아감). 정지는 ApplyTimeScale이 그 상태까지 보고 판단한다.
         if (Keyboard.current.escapeKey.wasPressedThisFrame)
         {
-            SetEscPaused(!isEscPaused);
+            if (isEscPaused) SetEscPaused(false);
+            else if (isLevelUpPaused || isResultPaused || !EscClose.TryCloseTop()) SetEscPaused(true);
         }
     }
 
