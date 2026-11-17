@@ -15,7 +15,8 @@ public class StartWeaponStand : MonoBehaviour
     private const float DisplaySize = 0.3f;        // 거치대 위 무기 그림의 긴 변 길이 (월드 유닛, 거치대는 0.38)
     private const float DisplayLift = 0.1f;        // 거치대 중심에서 위로 (거치대 위에 올려 전시한 느낌이 나게, 거치대 높이는 0.38)
     // 거치대 중심에서 플레이어 중심까지 이 거리 안이면 상호작용. 플레이어 몸(충돌체)이 커서 거치대에 붙어도
-    // 옆에서 약 0.41, 위/아래에서 약 0.49까지만 다가갈 수 있다. 이웃 거치대(간격 0.9)와 범위가 겹치므로 가장 가까운 하나만 반응한다.
+    // 옆에서 약 0.41, 위/아래에서 약 0.49까지만 다가갈 수 있다. 범위가 겹칠 때를 위해 가장 가까운 하나만 반응한다.
+    // (거치대 간격은 좌우 1.5, 위아래 1.25 - 플레이어(0.5x0.59)가 거치대 사이로 지나다니며 고를 수 있게 벌려 놓았다.)
     private const float InteractRange = 0.6f;
     private const int DisplaySortingOrder = 2;     // 거치대(0) 위, 테두리는 그 한 칸 아래(1)
     private static readonly Color LockedColor = new Color(0.12f, 0.12f, 0.15f, 0.85f);
