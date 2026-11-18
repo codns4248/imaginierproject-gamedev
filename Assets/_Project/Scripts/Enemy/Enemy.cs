@@ -452,8 +452,7 @@ public class Enemy : MonoBehaviour
         {
             Collider2D col = separationBuf[i];
             if (col == null || col.gameObject == gameObject) continue;
-            Enemy other = col.GetComponent<Enemy>();
-            if (other == null || other == this) continue;
+            if (!col.TryGetComponent(out Enemy other) || other == this) continue;
 
             // 원하는 간격: 두 몸 반지름 합 x 배율 (몸집이 큰 몬스터끼리는 더 멀리 떨어진다)
             float want = Mathf.Max(separationRadius, (myBody + other.BodyRadius) * separationBodyFactor);
@@ -744,8 +743,7 @@ public class Enemy : MonoBehaviour
         if (isDying) return; // 죽는 중에는 더 이상 접촉 데미지를 주지 않는다
         if (stunTimer > 0f) return; // 기절 중에도 마찬가지
 
-        PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
-        if (playerHealth == null) return;
+        if (!other.TryGetComponent(out PlayerHealth playerHealth)) return;
 
         // 충돌 원 중심에서 플레이어 피격 판정 원(몸보다 훨씬 작다, PlayerHealth.hurtRadius)의 가장 가까운 점까지가
         // (반지름 x contactRangeScale) 이내일 때만 데미지.
