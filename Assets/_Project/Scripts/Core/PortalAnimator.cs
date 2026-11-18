@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 // 포탈 그림 위에 도트 애니메이션을 입힌다: 원래 포탈 그림을 PixelLab으로 다시 그린 프레임들(소용돌이가 천천히 도는 모양)을
@@ -11,7 +12,7 @@ public class PortalAnimator : MonoBehaviour
     private const int FrameW = 80, FrameH = 120, PadX = 12, PadY = 7;
 
     private SpriteRenderer sr;
-    private SpriteRenderer[] outlines;
+    private readonly List<SpriteRenderer> outlines = new List<SpriteRenderer>();
     private Sprite[] frames;
     private float fps;
     private float time;
@@ -46,7 +47,7 @@ public class PortalAnimator : MonoBehaviour
         time = Random.value * frames.Length / fps; // 포탈이 여럿일 때 같은 프레임으로 시작하지 않게
 
         // 흰 테두리(InteractOutline)는 스프라이트를 한 번 복사해 둔 자식 렌더러들이라, 같이 바꿔 줘야 테두리가 안 어긋난다.
-        outlines = GetComponentsInChildren<SpriteRenderer>(true);
+        GetComponentsInChildren(true, outlines);
     }
 
     void Update()
@@ -58,8 +59,7 @@ public class PortalAnimator : MonoBehaviour
         lastIndex = index;
 
         // 테두리가 나중에 만들어졌을 수도 있어서, 자식 수가 달라졌으면 다시 모은다.
-        if (outlines == null || outlines.Length != GetComponentsInChildren<SpriteRenderer>(true).Length)
-            outlines = GetComponentsInChildren<SpriteRenderer>(true);
+        GetComponentsInChildren(true, outlines); // 리스트 재사용 버전이라 매 프레임 배열 할당이 없다
         foreach (SpriteRenderer r in outlines) r.sprite = frames[index];
     }
 }

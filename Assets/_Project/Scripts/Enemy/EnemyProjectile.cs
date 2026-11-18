@@ -11,10 +11,12 @@ public class EnemyProjectile : MonoBehaviour
     private Vector2 direction;
     private Rigidbody2D rb;
     private Camera mainCamera;
+    private CircleCollider2D shot;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        shot = GetComponent<CircleCollider2D>();
 
         // 붉은 원 스프라이트는 코드로 즉석에서 그린 것(에셋 파일이 없음)이라 프리팹에 그대로
         // 저장되지 않는다. ExplosionZone과 마찬가지로 매번 실행 시점에 직접 채워준다.
@@ -60,10 +62,8 @@ public class EnemyProjectile : MonoBehaviour
     // 몸에 걸친 채 계속 겹쳐 있어도 판정 원에 닿는 순간 맞도록 Enter가 아니라 Stay로 확인한다.
     void OnTriggerStay2D(Collider2D other)
     {
-        PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
-        if (playerHealth == null) return;
+        if (!other.TryGetComponent(out PlayerHealth playerHealth)) return;
 
-        CircleCollider2D shot = GetComponent<CircleCollider2D>();
         float shotRadius = shot != null ? shot.radius * Mathf.Max(transform.lossyScale.x, transform.lossyScale.y) : 0.05f;
         if (Vector2.Distance(playerHealth.HurtCenter, transform.position) > playerHealth.hurtRadius + shotRadius) return;
 
